@@ -1,9 +1,11 @@
 {
   "extends": [
     "airbnb",
+    "prettier",
+    "prettier/react",
     "plugin:react/recommended"
   ],
-  "plugins": ["react"],
+  "plugins": ["react", "prettier"],
   "env": {
     "browser": true,
     "commonjs": true,
@@ -19,31 +21,46 @@
     }
   },
   "rules": {
-
     "no-console": "off",
-
+    "react/prop-types": 0,
+    "no-underscore-dangle": 0,
+    "import/imports-first": ["error", "absolute-first"],
+    "import/newline-after-import": "error",
 
     "semi": ["error", "always"],
-    "comma-dangle": ["error", {
-      "arrays": "always-multiline",
-      "objects": "always-multiline"
-    }],
+    "comma-dangle": [
+      "error",
+      {
+        "arrays": "always-multiline",
+        "objects": "always-multiline"
+      }
+    ],
     "object-curly-spacing": ["error", "always"],
-    "no-multiple-empty-lines": ["error", {
-      "max": 1,
-      "maxEOF": 1
-    }],
+    "no-multiple-empty-lines": [
+      "error",
+      {
+        "max": 1,
+        "maxEOF": 1
+      }
+    ],
     "eol-last": ["error", "always"],
     "indent": ["error", 4],
     "no-param-reassign": ["warn"],
     "arrow-body-style": ["error", "as-needed"],
-    "arrow-parens": ["warn", "as-needed", {
-      "requireForBlockBody": false
-    }],
-    "arrow-spacing": ["error", {
-      "before": true,
-      "after": true
-    }],
+    "arrow-parens": [
+      "warn",
+      "as-needed",
+      {
+        "requireForBlockBody": false
+      }
+    ],
+    "arrow-spacing": [
+      "error",
+      {
+        "before": true,
+        "after": true
+      }
+    ],
     "constructor-super": "error",
     "no-const-assign": "error",
     "no-dupe-class-members": "error",
@@ -52,33 +69,48 @@
     "no-this-before-super": "error",
     "no-useless-computed-key": "error",
     "no-useless-constructor": "warn",
-    "no-useless-rename": ["error", {
-      "ignoreDestructuring": false,
-      "ignoreImport": false,
-      "ignoreExport": false
-    }],
+    "no-useless-rename": [
+      "error",
+      {
+        "ignoreDestructuring": false,
+        "ignoreImport": false,
+        "ignoreExport": false
+      }
+    ],
     "no-var": "warn",
-    "prefer-arrow-callback": ["warn", {
-      "allowUnboundThis": true
-    }],
-    "prefer-const": ["error", {
-      "destructuring": "all",
-      "ignoreReadBeforeAssign": true
-    }],
+    "prefer-arrow-callback": [
+      "warn",
+      {
+        "allowUnboundThis": true
+      }
+    ],
+    "prefer-const": [
+      "error",
+      {
+        "destructuring": "all",
+        "ignoreReadBeforeAssign": true
+      }
+    ],
     "prefer-template": "error",
     "require-yield": "error",
     "rest-spread-spacing": ["error", "never"],
     "template-curly-spacing": "error",
     "yield-star-spacing": ["error", "after"],
     "prefer-spread": "error",
-    "generator-star-spacing": ["error", {
-      "before": false,
-      "after": true
-    }],
+    "generator-star-spacing": [
+      "error",
+      {
+        "before": false,
+        "after": true
+      }
+    ],
     "symbol-description": "error",
-    "max-len": ["error", {
-      "code": 100
-    }],
+    "max-len": [
+      "error",
+      {
+        "code": 100
+      }
+    ],
     "sort-keys": ["error", "asc"],
 
     "react/no-danger": "error",
@@ -90,17 +122,34 @@
     "react/jsx-wrap-multilines": "error",
     "react/jsx-no-comment-textnodes": "error",
 
-
-    "react/jsx-no-literals": ["off", {
-      "noStrings": true
-    }],
-    "react/jsx-filename-extension": [1, {
-      "extensions": [".js", ".jsx"]
-    }],
-    "jsx-a11y/anchor-is-valid": ["error", {
-      "components": ["Link"],
-      "specialLink": ["to"]
-    }]
+    "react/jsx-no-literals": [
+      "off",
+      {
+        "noStrings": true
+      }
+    ],
+    "react/jsx-filename-extension": [
+      1,
+      {
+        "extensions": [".js", ".jsx"]
+      }
+    ],
+    "jsx-a11y/anchor-is-valid": [
+      "error",
+      {
+        "components": ["Link"],
+        "specialLink": ["to"]
+      }
+    ]
+  },
+  "globals": {
+    "window": true,
+    "document": true,
+    "localStorage": true,
+    "FormData": true,
+    "FileReader": true,
+    "Blob": true,
+    "navigator": true
   },
   "settings": {
     "react": {

@@ -1,8 +1,12 @@
+import mongoose from 'mongoose';
+
 const express = require('express');
 const next = require('next');
 const bodyParser = require('body-parser');
-const mongoose = require('mongoose');
+// const mongoose = require('mongoose');
 const morgan = require('morgan');
+
+const users = require('./routes/api/user');
 
 const dev = process.env.NODE_ENV !== 'production';
 const app = next({ dev });
@@ -13,7 +17,7 @@ require('dotenv').config();
 app.prepare()
     .then(() => {
         const server = express();
-        // mongoose connection to database
+        // mongoose connection to remote database mlab
         mongoose
             .connect(process.env.DATABASE, { useNewUrlParser: true })
             .then(() => {
@@ -33,8 +37,14 @@ app.prepare()
         // morgan middleware
         server.use(morgan('combined'));
 
+        // use routes
+        server.use('/api/users', users);
+
         // get all routes
         server.get('*', (req, res) => handle(req, res));
+        // server.get('/', (req, res) => {
+        //     res.send('Server Okay from jude');
+        // });
 
         // server output
         server.listen(PORT, err => {
