@@ -1,9 +1,7 @@
-import mongoose from 'mongoose';
-
 const express = require('express');
 const next = require('next');
 const bodyParser = require('body-parser');
-// const mongoose = require('mongoose');
+const mongoose = require('mongoose');
 const morgan = require('morgan');
 
 const users = require('./routes/api/user');
