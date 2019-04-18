@@ -1,0 +1,14 @@
+nav {
+  padding: 20px;
+
+  a {
+    color: purple;
+  }
+}
+h3 {
+  color: red;
+  font-size: 25px;
+  &:hover {
+    color: blue;
+  }
+}

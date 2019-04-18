@@ -1,5 +1,10 @@
 import React from 'react';
+import './components/style.scss';
 
-const index = () => <div />;
+const Index = () => (
+    <div>
+        <p>okafor</p>
+    </div>
+);
 
-export default index;
+export default Index;

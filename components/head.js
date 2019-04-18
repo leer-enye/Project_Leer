@@ -15,6 +15,12 @@ const Head = props => (
         <link rel="apple-touch-icon" href="/static/touch-icon.png" />
         <link rel="mask-icon" href="/static/favicon-mask.svg" color="#49B882" />
         <link rel="icon" href="/static/favicon.ico" />
+        <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+            crossOrigin="anonymous"
+        />
     </NextHead>
 );
 
