@@ -40,9 +40,9 @@ app.prepare()
 
         // get all routes
         server.get('*', (req, res) => handle(req, res));
-        // server.get('/', (req, res) => {
-        //     res.send('Server Okay from jude');
-        // });
+        server.get('/', (req, res) => {
+            res.send('Server Okay from jude');
+        });
 
         // server output
         server.listen(PORT, err => {
@@ -52,5 +52,5 @@ app.prepare()
     })
     .catch(ex => {
         console.error(ex.stack);
-        process.exit();
+        process.exit(1);
     });
