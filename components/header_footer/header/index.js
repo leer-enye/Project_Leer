@@ -1,5 +1,10 @@
 import React from 'react';
+import Header from './components';
 
-const index = () => <div />;
+const Heading = () => (
+    <div>
+        <Header />
+    </div>
+);
 
-export default index;
+export default Heading;
