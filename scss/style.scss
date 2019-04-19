@@ -1,13 +1,9 @@
-nav {
-  padding: 20px;
-
-  a {
-    color: purple;
-  }
-}
+$baseTeal: #17c1c1;
+$darkTeal: #13a3a3;
+$lightTeal: #15b2b2;
 h3 {
   color: red;
-  font-size: 25px;
+  font-size: 50px;
   &:hover {
     color: blue;
   }

@@ -1,10 +1,10 @@
 import React from 'react';
-import './components/style.scss';
+import Header from './components';
 
-const Index = () => (
+const Heading = () => (
     <div>
-        <p>okafor</p>
+        <Header />
     </div>
 );
 
-export default Index;
+export default Heading;

@@ -1,4 +1,12 @@
-p {
-    font-size: 4rem;
-    color: green;
+$baseTeal: #17c1c1;
+.flexGrow1 {
+  flex-grow: 1;
+}
+.appBar {
+  background-color: $baseTeal;
+  border-bottom: '2px solid $lightTeal';
+}
+.menuButton {
+  margin-left: -12px;
+  margin-right: 20px;
 }
