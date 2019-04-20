@@ -1,0 +1,94 @@
+// header
+.header {
+  padding: 1rem 3rem;
+  background-color: $color-white;
+
+  &-nav {
+    display: flex;
+    align-items: center;
+
+    &__logo {
+      margin-right: auto;
+
+      h1 {
+        font-size: 3rem;
+        font-family: $font-secondary;
+        font-weight: 700;
+      }
+    }
+
+    &__links {
+      list-style-type: none;
+      display: flex;
+      align-items: center;
+
+      & > li {
+        &:not(:last-child) {
+          margin-right: 1.6rem;
+        }
+      }
+
+      .nav-link {
+          text-decoration: none;
+          text-transform: uppercase;
+          color: $color-black;
+
+          &.btn {
+              background-color: $color-primary;
+              color: $color-white;
+              border-radius: 3rem;
+          }
+      }
+    }
+  }
+}
+
+
+///////////////////////////////////////////////////
+//////// SECTION-HERO
+
+.section-hero {
+    display: flex;
+
+    &__text-content {
+        flex: 1;
+        background-color: $color-primary;
+        min-height: 40rem;
+        padding: 3rem 5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        color: $color-white;
+
+        h1 {
+            margin-bottom: 2rem;
+        }
+
+        p {
+            max-width: 70%;
+            margin-bottom: 3rem;
+        }
+
+    }
+    &__img-container {
+        width: 45%;
+        // border: 1px solid red;
+        position: relative;
+        z-index: 4;
+        margin-left: -20rem;
+        clip-path: circle(60.0% at 65% 50%);
+        
+
+        img {
+            width:  100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+}
+
+
+
+///////////////////////////////////////////////////
+//////// SECTION-FEATURE-1
