@@ -35,20 +35,77 @@ const Home = () => (
 		</header>
 		<section className="section-hero">
 			<div className="section-hero__text-content">
-                <h1 className="heading-1">PASS YOUR Next EXAM</h1>
-                <p>
-                    Non dolore reprehenderit adipisicing dolore minim magna. Est anim eiusmod cillum Lorem ea quis dolor ea tempor adipisicing. Quis occaecat ea ipsum sunt ea minim incididunt consequat dolor est amet. 
-                </p>
-                <button type="button" className="btn btn-white"> GET STARTED </button>
-            </div>
+				<h1 className="heading-1">PASS YOUR Next EXAM</h1>
+				<p>
+					Non dolore reprehenderit adipisicing dolore minim magna. Est
+					anim eiusmod cillum Lorem ea quis dolor ea tempor
+					adipisicing. Quis occaecat ea ipsum sunt ea minim incididunt
+					consequat dolor est amet.
+				</p>
+				<button type="button" className="btn btn-white">
+					{' '}
+					GET STARTED{' '}
+				</button>
+			</div>
 			<div className="section-hero__img-container">
 				<img src="../static/images/hero-img.jpg" alt="hero" />
 			</div>
 		</section>
-		<section className="section-feature-1" />
-		<section className="section-feature-2" />
-		<section className="section-feature-3" />
-		<footer />
+		<section className="section-feature section-feature--1">
+			<div className="section-feature__img-box">
+				{' '}
+				<img src="../static/images/practice.jpg" alt="feature 1" />{' '}
+			</div>
+			<div className="section-feature__text-content">
+				<h2 className="heading-2">Practice Past Questions</h2>
+				<p>
+					Laboris consectetur id ut Lorem aute qui exercitation
+					exercitation officia dolore ullamco occaecat. Magna
+					consequat cupidatat nisi exercitation anim exercitation sunt
+					est anim mollit. Sint eu mollit do id consequat velit enim
+					in veniam irure nostrud tempor consectetur esse.
+					Reprehenderit officia ut duis adipisicing id enim tempor
+					aliqua eiusmod.
+				</p>
+			</div>
+		</section>
+		<section className="section-feature section-feature--2">
+			<div className="section-feature__img-box">
+				{' '}
+				<img src="../static/images/challenge.gif" alt="feature 1" />{' '}
+			</div>
+			<div className="section-feature__text-content">
+				<h2 className="heading-2">Challenge Friends</h2>
+				<p>
+					Laboris consectetur id ut Lorem aute qui exercitation
+					exercitation officia dolore ullamco occaecat. Magna
+					consequat cupidatat nisi exercitation anim exercitation sunt
+					est anim mollit. Sint eu mollit do id consequat velit enim
+					in veniam irure nostrud tempor consectetur esse.
+					Reprehenderit officia ut duis adipisicing id enim tempor
+					aliqua eiusmod.
+				</p>
+			</div>
+		</section>
+		<section className="section-feature section-feature--3">
+			<div className="section-feature__img-box">
+				<img src="../static/images/resources.jpg" alt="feature 1" />{' '}
+			</div>
+			<div className="section-feature__text-content">
+				<h2 className="heading-2">Learning Resources</h2>
+				<p>
+					Laboris consectetur id ut Lorem aute qui exercitation
+					exercitation officia dolore ullamco occaecat. Magna
+					consequat cupidatat nisi exercitation anim exercitation sunt
+					est anim mollit. Sint eu mollit do id consequat velit enim
+					in veniam irure nostrud tempor consectetur esse.
+					Reprehenderit officia ut duis adipisicing id enim tempor
+					aliqua eiusmod.
+				</p>
+			</div>
+		</section>
+		<footer className="footer">
+        </footer>
 	</React.Fragment>
 );
 
