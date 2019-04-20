@@ -43,8 +43,7 @@ const Home = () => (
 					consequat dolor est amet.
 				</p>
 				<button type="button" className="btn btn-white">
-					{' '}
-					GET STARTED{' '}
+					GET STARTED
 				</button>
 			</div>
 			<div className="section-hero__img-container">
@@ -67,12 +66,18 @@ const Home = () => (
 					Reprehenderit officia ut duis adipisicing id enim tempor
 					aliqua eiusmod.
 				</p>
+				<button type="button" className="btn btn-primary">
+					Get started
+				</button>
 			</div>
 		</section>
 		<section className="section-feature section-feature--2">
 			<div className="section-feature__img-box">
 				{' '}
-				<img src="../static/images/challenge.gif" alt="feature 1" />{' '}
+				<img
+					src="../static/images/challenge.gif"
+					alt="feature 1"
+				/>{' '}
 			</div>
 			<div className="section-feature__text-content">
 				<h2 className="heading-2">Challenge Friends</h2>
@@ -85,6 +90,9 @@ const Home = () => (
 					Reprehenderit officia ut duis adipisicing id enim tempor
 					aliqua eiusmod.
 				</p>
+				<button type="button" className="btn btn-primary">
+					Get started
+				</button>
 			</div>
 		</section>
 		<section className="section-feature section-feature--3">
@@ -102,10 +110,21 @@ const Home = () => (
 					Reprehenderit officia ut duis adipisicing id enim tempor
 					aliqua eiusmod.
 				</p>
+				<button type="button" className="btn btn-primary">
+					Get Started
+				</button>
 			</div>
 		</section>
+		<section className="section-cta">
+			<h2 className="heading-2"> What are you waiting for ? </h2>
+			<button className="btn btn-white" type="button">
+				Get Started
+			</button>
+		</section>
 		<footer className="footer">
-        </footer>
+			<h1>Leer</h1>
+			<p className="copyright">Copyright 2019</p>
+		</footer>
 	</React.Fragment>
 );
 

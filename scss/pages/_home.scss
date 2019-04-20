@@ -86,17 +86,20 @@
 }
 
 ///////////////////////////////////////////////////
-//////// SECTION-FEATURE-1
+//////// SECTION-FEATURE
+
 .section-feature {
-  padding: 4rem 10rem;
+  padding: 4rem;
   display: flex;
+  justify-content: center;
 
   &__img-box {
-    flex: 40rem 0 1;
+    flex: 30rem 0 1;
     margin-right: 4rem;
     img {
       width: 100%;
-      height: 30rem;
+      height: 25rem;
+      object-fit: auto;
       border-radius: 1.2rem;
     }
   }
@@ -104,6 +107,7 @@
   &__text-content {
     flex: 2;
     padding-top: 3rem;
+    max-width: 50%;
 
     h2 {
       font-weight: 400;
@@ -113,6 +117,7 @@
     p {
       font-weight: 300;
       font-size: 1.5rem;
+      margin-bottom: 2.5rem;
     }
   }
 }
@@ -122,9 +127,7 @@
 }
 
 .section-feature--2 {
-  
-   
-  .section-feature__text-content{
+  .section-feature__text-content {
     margin-right: 4rem;
   }
 
@@ -136,4 +139,38 @@
 
 .section-feature--3 {
   background-color: $color-white;
+}
+
+///////////////////////////////////////////////////
+//////// SECTION-CTA
+
+.section-cta {
+  padding: 3rem 5rem;
+  background-color: $color-primary;
+  text-align: center;
+  color: $color-white;
+
+  h2 {
+    font-weight: 300;
+    margin-bottom: 2rem;
+  }
+}
+
+///////////////////////////////////////////////////
+//////// FOOTER
+.footer {
+  background-color: $color-secondary;
+  padding: 3rem 5rem;
+  color: $color-white;
+  min-height: 20rem;
+
+  h1 {
+    font-size: 3rem;
+    font-family: $font-secondary;
+    font-weight: 700;
+  }
+
+  p {
+    font-weight: 300;
+  }
 }
