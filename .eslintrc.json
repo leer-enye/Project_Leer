@@ -44,7 +44,6 @@
       }
     ],
     "eol-last": ["error", "always"],
-    "indent": ["error", 4],
     "no-param-reassign": ["warn"],
     "arrow-body-style": ["error", "as-needed"],
     "arrow-parens": [
@@ -115,7 +114,6 @@
 
     "react/no-danger": "error",
     "react/jsx-pascal-case": "error",
-    "react/jsx-indent": ["error", 4],
     "react/jsx-closing-bracket-location": "error",
     "react/void-dom-elements-no-children": "error",
     "react/jsx-tag-spacing": "error",
