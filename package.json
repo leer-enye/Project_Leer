@@ -1,21 +1,19 @@
 {
   "name": "create-next-example-app",
   "scripts": {
-    "dev": "next dev",
+    "dev": "nodemon server/server.js",
     "build": "next build ",
     "start": "next start",
     "lint": "eslint server/ --fix"
   },
   "dependencies": {
     "@babel/polyfill": "^7.4.3",
-    "@material-ui/core": "^3.9.3",
     "@material-ui/icons": "^3.0.2",
     "@zeit/next-sass": "^1.0.1",
     "auth0-js": "^9.10.2",
     "autoprefixer": "^9.5.1",
     "babel-plugin-module-resolver": "^3.2.0",
     "babel-plugin-wrap-in-js": "^1.1.1",
-    "bcryptjs": "^2.4.3",
     "body-parser": "^1.18.3",
     "cookie-parser": "^1.4.4",
     "cors": "^2.8.5",
@@ -25,7 +23,6 @@
     "glob": "^7.1.3",
     "gravatar": "^1.8.0",
     "isomorphic-unfetch": "^3.0.0",
-    "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.5.2",
     "morgan": "^1.9.1",
     "next": "8.0.4",
