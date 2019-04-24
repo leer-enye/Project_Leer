@@ -7,7 +7,9 @@ const passport = require('passport');
 const cookieParser = require('cookie-parser');
 const session = require('express-session');
 const dotenv = require('dotenv');
+
 const users = require('./routes/api/user');
+const userInViews = require('./lib/middlewares/userInViews');
 
 const dev = process.env.NODE_ENV !== 'production';
 const app = next({ dev });
@@ -41,7 +43,7 @@ app.prepare()
         );
         server.use(bodyParser.json());
         // morgan middleware
-        server.use(morgan('combined'));
+        server.use(morgan('dev'));
         server.use(cookieParser());
         // config express-session
         const sess = {
@@ -58,6 +60,7 @@ app.prepare()
         server.use(session(sess));
 
         // use routes
+        server.use(userInViews());
         server.use('/api/users', users);
 
         // get all routes

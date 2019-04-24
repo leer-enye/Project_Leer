@@ -2,6 +2,7 @@ const express = require('express');
 const passport = require('passport');
 
 const router = express.Router();
+const secured = require('../../lib/middlewares/secured');
 const UserController = require('../../controllers/user');
 
 /**
@@ -29,5 +30,18 @@ router.get(
  * @access Public
  */
 router.get('/callback', UserController.callback);
+
+/**
+ * @route GET api/users/users
+ * @desc Get users data after login
+ * @access Private
+ */
+router.get('/users', secured(), UserController.users);
+/**
+ * @route GET api/users/logout
+ * @desc users log out route
+ * @access Public
+ */
+router.get('/logout', UserController.logout);
 
 module.exports = router;
