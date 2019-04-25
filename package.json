@@ -4,7 +4,8 @@
     "dev": "nodemon server/server.js",
     "build": "next build ",
     "start": "next start",
-    "lint": "eslint server/ --fix"
+    "lint": "eslint server/ --fix",
+    "test": "exit 0"
   },
   "dependencies": {
     "@babel/polyfill": "^7.4.3",
@@ -20,7 +21,6 @@
     "express": "^4.16.4",
     "express-session": "^1.16.1",
     "glob": "^7.1.3",
-    "gravatar": "^1.8.0",
     "isomorphic-unfetch": "^3.0.0",
     "mongoose": "^5.5.2",
     "morgan": "^1.9.1",

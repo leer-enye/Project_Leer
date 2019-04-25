@@ -1,12 +1,14 @@
+// /* eslint-disable no-undef */
 // const chai = require('chai');
 // const chaiHttp = require('chai-http');
 // const server = require('../server');
 
-// const should = chai.should();
+// // const should = chai.should();
 // chai.use(chaiHttp);
-// let accessToken;
+// // let accessToken;
 
-// const { apiURL } = global;
+// // const { apiURL } = global;
+// const apiURL = 'http://localhost:5000/api';
 
 // describe('Users routes', () => {
 //     describe('get test message', () => {
