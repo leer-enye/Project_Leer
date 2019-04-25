@@ -4,7 +4,7 @@ import React from 'react';
 import Head from 'next/head';
 import '../scss/main.scss';
 
-const App = () => (
+const Home = () => (
 	<React.Fragment>
 		<Head>
 			<link
@@ -118,4 +118,4 @@ const App = () => (
 	</React.Fragment>
 );
 
-export default App;
+export default Home;
