@@ -5,7 +5,7 @@
     "build": "next build ",
     "start": "next start",
     "lint": "eslint server/ --fix",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "exit 0"
   },
   "dependencies": {
     "@babel/polyfill": "^7.4.3",
