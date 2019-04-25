@@ -1,7 +1,7 @@
 language: node_js
 node_js:
   - '10'
-  
+
 install:
   - npm install
 cache:
@@ -9,5 +9,5 @@ cache:
     - 'node_modules'
 
 script:
-  - npm lint
-  - npm test
+  - npm run lint
+  - npm run test
