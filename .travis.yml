@@ -1,11 +1,11 @@
 language: node_js
 node_js:
-  - 'stable'
-install: 
+  -'stable'
+install:
   -npm install
 cache:
-  directories: 
+  directories:
     -'node_modules'
 script:
-  - npm run lint
-  - npm test
+  -npm run lint
+  -npm test
