@@ -1,7 +1,8 @@
 {
   "name": "create-next-example-app",
   "scripts": {
-    "dev": "nodemon server/server.js",
+    "dev": "next",
+    "dev:server": "nodemon server/server.js",
     "build": "next build ",
     "start": "next start",
     "lint": "eslint server/ --fix",
