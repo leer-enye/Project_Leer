@@ -112,14 +112,6 @@
     ],
     "sort-keys": ["error", "asc"],
 
-    "react/no-danger": "error",
-    "react/jsx-pascal-case": "error",
-    "react/jsx-closing-bracket-location": "error",
-    "react/void-dom-elements-no-children": "error",
-    "react/jsx-tag-spacing": "error",
-    "react/jsx-wrap-multilines": "error",
-    "react/jsx-no-comment-textnodes": "error",
-
     "react/jsx-no-literals": [
       "off",
       {
