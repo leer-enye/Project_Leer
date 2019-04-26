@@ -52,7 +52,7 @@ module.exports = {
         // res.redirect('/home');
     },
     test: (req, res) => {
-        res.json({ msg: 'user works' });
+        res.status(200).json({ msg: 'user works' });
     },
     users: (req, res) => {
         console.log('user dashboard page available');
