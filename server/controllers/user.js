@@ -27,7 +27,6 @@ module.exports = {
                 const { returnTo } = req.session;
                 delete req.session.returnTo;
                 res.redirect(returnTo || '/user'); // client side
-                console.log('i am here');
             });
         })(req, res, next);
     },
@@ -49,7 +48,6 @@ module.exports = {
         logoutURL.search = searchString;
 
         res.redirect(logoutURL);
-        // res.redirect('/home');
     },
     test: (req, res) => {
         res.status(200).json({ msg: 'user works' });
@@ -59,9 +57,5 @@ module.exports = {
         const { _raw, _json, ...userProfile } = req.user;
         // console.log(userProfile);
         res.status(200).json(...userProfile);
-        // res.render('user', {
-        //     userProfile: JSON.stringify(userProfile, null, 2),
-        //     title: 'Profile page',
-        // });
     },
 };
