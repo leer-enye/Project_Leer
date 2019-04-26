@@ -13,7 +13,7 @@ const strategy = new Auth0Strategy(
         domain: process.env.AUTH0_DOMAIN,
     },
     (accessToken, refreshToken, extraParams, profile, done) => {
-        console.log(profile);
+        // console.log(profile);
         done(null, profile);
     }
     // accessToken is the token to call Auth0 API (not needed in the most cases)
