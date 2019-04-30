@@ -5,7 +5,7 @@
     "dev:server": "nodemon server/server.js",
     "build": "next build ",
     "start": "next start",
-    "lint": "eslint server/ --fix",
+    "lint": "eslint server pages  --fix",
     "test": "exit 0"
   },
   "dependencies": {
