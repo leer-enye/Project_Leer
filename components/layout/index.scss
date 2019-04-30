@@ -1,0 +1,53 @@
+.text-white {
+  color: #fff !important;
+}
+
+.layout {
+  height: 100vh;
+}
+
+.header,
+.content,
+.custom-footer {
+  background-color: #fff;
+}
+
+.header {
+
+  &__logo {
+      margin-bottom: 0;
+      line-height: 64px;
+  }
+}
+
+.sider {
+  &__logo {
+    color: #fff !important; //without this Ant Title doesn't change color
+    text-align: center;
+    margin-top: 16px;
+  }
+
+  &__profile {
+    text-align: center;
+    margin-top: 64px;
+    
+    &-text {
+      margin-top: 16px;
+      display: block;
+      text-align: center;
+    }
+  }
+
+  &__menu {
+      margin-top: 32px;
+  }
+}
+
+.content {
+  margin:  24px;
+  padding: 16px;
+}
+
+.custom-footer {
+  //   height: 80px;
+}
