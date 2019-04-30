@@ -1,7 +1,8 @@
 /* eslint-disable react/destructuring-assignment */
 import React from 'react';
-import { Layout, Typography, Breadcrumb } from 'antd';
+import { Layout, Typography } from 'antd';
 import { CustomSider } from "./components";
+import { LOGO_TEXT } from './constants';
 import './index.scss';
 
 const { Header, Content, Footer } = Layout;
@@ -14,14 +15,9 @@ const CustomLayout = props => (
 			<Layout>
 				<Header className="header">
 					<Title className="header__logo" level={2}>
-						Leer
+						{ LOGO_TEXT }
 					</Title>
 				</Header>
-				<Breadcrumb style={{ margin: '16px 24px' }}>
-					<Breadcrumb.Item>Home</Breadcrumb.Item>
-					<Breadcrumb.Item>1</Breadcrumb.Item>
-					<Breadcrumb.Item>2</Breadcrumb.Item>
-				</Breadcrumb>
 				<Content className="content">{props.children}</Content>
 				<Footer className="custom-footer" />
 			</Layout>

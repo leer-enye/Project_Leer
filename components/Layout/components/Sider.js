@@ -2,12 +2,12 @@ import React from 'react';
 import Link from 'next/link';
 import { Menu, Layout, Typography, Avatar, Icon } from 'antd';
 
-import { SIDER_LINKS } from '../constants';
+import { SIDER_LINKS, LOGO_TEXT, greetUser } from '../constants';
 
 const { Sider } = Layout;
 const { Title, Text } = Typography;
 
-const CustomSider = ({ selectedMenuItem }) => {
+const CustomSider = ({ selectedMenuItem, user }) => {
 	return (
 		<Sider
 			className="sider"
@@ -21,13 +21,12 @@ const CustomSider = ({ selectedMenuItem }) => {
 			}}
 		>
 			<Title level={2} className="sider__logo">
-				{' '}
-				Leer{' '}
+				{LOGO_TEXT}
 			</Title>
 			<div className="sider__profile">
 				<Avatar size={80} icon="user" />
 				<Text className="sider__profile-text text-white">
-					Hello Jude!
+					{greetUser(user)}
 				</Text>
 			</div>
 

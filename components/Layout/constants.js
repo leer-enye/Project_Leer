@@ -1,3 +1,4 @@
+
 export const SIDER_LINKS = [
 	{
 		icon: 'dashboard',
@@ -30,3 +31,7 @@ export const SIDER_LINKS = [
 		path: '/admin/profile'
 	}
 ];
+
+export const LOGO_TEXT = 'Leer';
+
+export const greetUser = user => `Hello ${user || ''}`;
