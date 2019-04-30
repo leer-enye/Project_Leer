@@ -1,10 +1,11 @@
 import React from 'react';
-import { Button } from 'antd';
+import Layout from '../../components/layout';
+import { ViewProfile } from "../../components/profile";
 
 const Profile = () => (
-    <div>Profile Page
-    <Button>Press me</Button>
-    </div>
+    <Layout selectedMenuItem="profile">
+        <ViewProfile />
+    </Layout>
 );
 
 export default Profile;
