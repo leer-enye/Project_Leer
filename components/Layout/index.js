@@ -1,17 +1,15 @@
 /* eslint-disable react/destructuring-assignment */
 import React from 'react';
-
+import Link from 'next/link';
 import { Layout, Menu, Icon, Typography, Avatar, Breadcrumb } from 'antd';
 import './index.scss';
 
-
-
 const { Header, Sider, Content, Footer } = Layout;
-const { Title, Text } = Typography
+const { Title, Text } = Typography;
 
 const CustomLayout = props => (
 	<React.Fragment>
-		<Layout className="layout">
+		<Layout className="layout" hasSider>
 			<Sider
 				className="sider"
 				breakpoint="md"
@@ -38,27 +36,55 @@ const CustomLayout = props => (
 					<Menu
 						theme="dark"
 						mode="inline"
-						defaultSelectedKeys={['1']}
+						defaultSelectedKeys={[props.selectedMenuItem]}
 					>
-						<Menu.Item key="1">
-							<Icon type="dashboard" />
-							<span className="nav-text">Home</span>
+						<Menu.Item key="home">
+							<Link href="/admin">
+								<span>
+									<Icon type="dashboard" />
+									<span className="nav-text">Home</span>
+								</span>
+							</Link>
 						</Menu.Item>
-						<Menu.Item key="2">
-							<Icon type="appstore" />
-							<span className="nav-text">Learning Resources</span>
+
+						<Menu.Item key="resources">
+							<Link href="/admin/resources">
+								<span>
+									<Icon type="appstore" />
+									<span className="nav-text">
+										Learning Resources
+									</span>
+								</span>
+							</Link>
 						</Menu.Item>
-						<Menu.Item key="3">
-							<Icon type="edit" />
-							<span className="nav-text">Practice</span>
+
+						<Menu.Item key="practice">
+							<Link href="/admin/practice">
+								<span>
+									<Icon type="edit" />
+									<span className="nav-text">Practice</span>
+								</span>
+							</Link>
 						</Menu.Item>
-						<Menu.Item key="4">
-							<Icon type="thunderbolt" />
-							<span className="nav-text">Challenge Friends</span>
+
+						<Menu.Item key="challenge">
+							<Link href="/admin/challenge">
+								<span>
+									<Icon type="thunderbolt" />
+									<span className="nav-text">
+										Challenge Friends
+									</span>
+								</span>
+							</Link>
 						</Menu.Item>
-						<Menu.Item key="5">
-							<Icon type="user" />
-							<span className="nav-text">Profile</span>
+
+						<Menu.Item key="profile">
+							<Link href="/admin/profile">
+								<span>
+									<Icon type="user" />
+									<span className="nav-text">Profile</span>
+								</span>
+							</Link>
 						</Menu.Item>
 					</Menu>
 				</nav>
