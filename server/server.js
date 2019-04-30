@@ -1,4 +1,3 @@
-
 const express = require('express');
 const next = require('next');
 const bodyParser = require('body-parser');
@@ -53,8 +52,8 @@ app.prepare()
             saveUninitialized: true,
             secret: process.env.SESSION_SECRET,
         };
-
         if (server.get('env') === 'production') {
+            // server.set('trust proxy', 1); // trust first proxy
             sess.cookie.secure = true; // serve secure cookies, requires https
         }
 

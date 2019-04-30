@@ -13,7 +13,6 @@ module.exports = {
     callback: (req, res, next) => {
         // eslint-disable-next-line no-unused-vars
         passport.authenticate('auth0', (err, user, info) => {
-            console.log(info);
             if (err) {
                 return next(err);
             }
@@ -24,6 +23,15 @@ module.exports = {
                 if (error) {
                     return next(error);
                 }
+                console.log('user data', user);
+                // const {profile}
+                // const dataToSave = {
+                //     avatar: user.picture,
+                //     email: user.emails[0].value,
+                //     firstName: user.name.givenName,
+                //     lastName: user.name.familyName,
+                // };
+                // console.log('data to save', dataToSave);
                 const { returnTo } = req.session;
                 delete req.session.returnTo;
                 res.redirect(returnTo || '/user'); // client side
@@ -55,7 +63,7 @@ module.exports = {
     users: (req, res) => {
         console.log('user dashboard page available');
         const { _raw, _json, ...userProfile } = req.user;
-        // console.log(userProfile);
+        console.log('user dashboard', userProfile);
         res.status(200).json(...userProfile);
     },
 };

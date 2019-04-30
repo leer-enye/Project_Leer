@@ -13,12 +13,11 @@ const strategy = new Auth0Strategy(
         domain: process.env.AUTH0_DOMAIN,
     },
     (accessToken, refreshToken, extraParams, profile, done) => {
-        // console.log(profile);
+        // accessToken is the token to call Auth0 API (not needed in the most cases)
+        // extraParams.id_token has the JSON Web Token
+        // profile has all the information from the user
         done(null, profile);
     }
-    // accessToken is the token to call Auth0 API (not needed in the most cases)
-    // extraParams.id_token has the JSON Web Token
-    // profile has all the information from the user
 );
 
 passport.use(strategy);
