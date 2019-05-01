@@ -1,4 +1,4 @@
-import CustomSider from './Sider';
+import CustomSider from './CustomSider';
 
 export {
     CustomSider
