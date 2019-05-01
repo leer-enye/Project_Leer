@@ -16,27 +16,37 @@ const {
     USER_ICON,
 } = constants;
 
+const {
+    navText,
+    sider,
+    siderLogo,
+    siderMenu,
+    siderProfile,
+    siderProfileText,
+    textWhite,
+} = CLASS_NAMES;
+
 const CustomSider = ({ selectedMenuItem, user }) => (
     <Sider
-        className={CLASS_NAMES.sider}
+        className={sider}
         breakpoint={BREAKPOINT_MD}
         collapsedWidth={0}
     >
-        <Title level={2} className={CLASS_NAMES.siderLogo}>
+        <Title level={2} className={siderLogo}>
             {LOGO_TEXT}
         </Title>
-        <div className={CLASS_NAMES.siderProfile}>
+        <div className={siderProfile}>
             <Avatar size={80} icon={USER_ICON} />
             <Text
-                className={`${CLASS_NAMES.siderProfileText} ${
-                    CLASS_NAMES.textWhite
+                className={`${siderProfileText} ${
+                    textWhite
                 }`}
             >
                 {`Hello ${user || ''}`}
             </Text>
         </div>
 
-        <nav className={CLASS_NAMES.siderMenu}>
+        <nav className={siderMenu}>
             <Menu
                 theme={MENU_DARK_THEME}
                 mode={MENU_MODE_INLINE}
@@ -47,7 +57,7 @@ const CustomSider = ({ selectedMenuItem, user }) => (
                         <Link href={path}>
                             <span>
                                 <Icon type={icon} />
-                                <span className={CLASS_NAMES.navText}>
+                                <span className={navText}>
                                     {name}
                                 </span>
                             </span>
