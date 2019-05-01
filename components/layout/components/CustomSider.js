@@ -10,8 +10,8 @@ const {
     BREAKPOINT_MD,
     CLASS_NAMES,
     LOGO_TEXT,
-    MENU_DARK_THEME,
-    MENU_MODE_INLINE,
+    MENU_THEME,
+    MENU_MODE,
     SIDER_LINKS,
     USER_ICON,
 } = constants;
@@ -38,9 +38,7 @@ const CustomSider = ({ selectedMenuItem, user }) => (
         <div className={siderProfile}>
             <Avatar size={80} icon={USER_ICON} />
             <Text
-                className={`${siderProfileText} ${
-                    textWhite
-                }`}
+                className={`${siderProfileText} ${textWhite}`}
             >
                 {`Hello ${user || ''}`}
             </Text>
@@ -48,8 +46,8 @@ const CustomSider = ({ selectedMenuItem, user }) => (
 
         <nav className={siderMenu}>
             <Menu
-                theme={MENU_DARK_THEME}
-                mode={MENU_MODE_INLINE}
+                theme={MENU_THEME}
+                mode={MENU_MODE}
                 defaultSelectedKeys={[selectedMenuItem]}
             >
                 {SIDER_LINKS.map(({ icon, key, name, path }) => (
