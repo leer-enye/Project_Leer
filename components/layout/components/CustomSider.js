@@ -21,12 +21,6 @@ const CustomSider = ({ selectedMenuItem, user }) => (
         className={CLASS_NAMES.sider}
         breakpoint={BREAKPOINT_MD}
         collapsedWidth={0}
-        onBreakpoint={broken => {
-            console.log(broken);
-        }}
-        onCollapse={(collapsed, type) => {
-            console.log(collapsed, type);
-        }}  
     >
         <Title level={2} className={CLASS_NAMES.siderLogo}>
             {LOGO_TEXT}
