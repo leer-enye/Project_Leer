@@ -23,7 +23,7 @@ module.exports = {
                 if (error) {
                     return next(error);
                 }
-                console.log('user data', user);
+                console.log('user data', user.profile);
                 // const {profile}
                 // const dataToSave = {
                 //     avatar: user.picture,
