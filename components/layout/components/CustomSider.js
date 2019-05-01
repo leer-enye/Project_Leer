@@ -25,11 +25,11 @@ const CustomSider = ({ selectedMenuItem, user }) => (
         <div className={constants.CLASS_NAMES.siderProfile}>
             <Avatar size={80} icon={constants.USER_ICON} />
             <Text
-                className={`${constants.CLASS_NAMES.siderLogo} ${
+                className={`${constants.CLASS_NAMES.siderProfileText} ${
                     constants.CLASS_NAMES.textWhite
                 }`}
             >
-                {`Hello ${user} || ''`}
+                {`Hello ${user || ''}`}
             </Text>
         </div>
 

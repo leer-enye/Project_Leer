@@ -1,6 +1,6 @@
 import React from 'react';
 import Layout from '../../components/layout';
-import components from '../../components/profile';
+import { components } from '../../components/profile';
 
 const { ViewProfile } = components;
 
