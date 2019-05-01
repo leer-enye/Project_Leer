@@ -6,47 +6,57 @@ import * as constants from '../constants';
 
 const { Sider } = Layout;
 const { Title, Text } = Typography;
-const { CLASS_NAMES, LOGO_TEXT, SIDER_LINKS } = constants;
+const {
+    BREAKPOINT_MD,
+    CLASS_NAMES,
+    LOGO_TEXT,
+    MENU_THEME,
+    MENU_MODE,
+    SIDER_LINKS,
+    USER_ICON,
+} = constants;
+
+const {
+    navText,
+    sider,
+    siderLogo,
+    siderMenu,
+    siderProfile,
+    siderProfileText,
+    textWhite,
+} = CLASS_NAMES;
 
 const CustomSider = ({ selectedMenuItem, user }) => (
     <Sider
-        className={CLASS_NAMES.sider}
-        breakpoint="md"
+        className={sider}
+        breakpoint={BREAKPOINT_MD}
         collapsedWidth={0}
-        onBreakpoint={broken => {
-            console.log(broken);
-        }}
-        onCollapse={(collapsed, type) => {
-            console.log(collapsed, type);
-        }}  
     >
-        <Title level={2} className={CLASS_NAMES.siderLogo}>
+        <Title level={2} className={siderLogo}>
             {LOGO_TEXT}
         </Title>
-        <div className={CLASS_NAMES.siderProfile}>
-            <Avatar size={80} icon="user" />
+        <div className={siderProfile}>
+            <Avatar size={80} icon={USER_ICON} />
             <Text
-                className={`${CLASS_NAMES.siderLogo} ${
-                    CLASS_NAMES.textWhite
-                }`}
+                className={`${siderProfileText} ${textWhite}`}
             >
-                {`Hello ${user} || ''`}
+                {`Hello ${user || ''}`}
             </Text>
         </div>
 
-        <nav className={CLASS_NAMES.siderMenu}>
+        <nav className={siderMenu}>
             <Menu
-                theme="dark"
-                mode="inline"
+                theme={MENU_THEME}
+                mode={MENU_MODE}
                 defaultSelectedKeys={[selectedMenuItem]}
             >
-                {SIDER_LINKS.map(item => (
-                    <Menu.Item key={item.key}>
-                        <Link href={item.path}>
+                {SIDER_LINKS.map(({ icon, key, name, path }) => (
+                    <Menu.Item key={key}>
+                        <Link href={path}>
                             <span>
-                                <Icon type={item.icon} />
-                                <span className="nav-text">
-                                    {item.name}
+                                <Icon type={icon} />
+                                <span className={navText}>
+                                    {name}
                                 </span>
                             </span>
                         </Link>
