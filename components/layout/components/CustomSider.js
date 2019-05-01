@@ -6,11 +6,20 @@ import * as constants from '../constants';
 
 const { Sider } = Layout;
 const { Title, Text } = Typography;
+const {
+    BREAKPOINT_MD,
+    CLASS_NAMES,
+    LOGO_TEXT,
+    MENU_DARK_THEME,
+    MENU_MODE_INLINE,
+    SIDER_LINKS,
+    USER_ICON,
+} = constants;
 
 const CustomSider = ({ selectedMenuItem, user }) => (
     <Sider
-        className={constants.CLASS_NAMES.sider}
-        breakpoint={constants.BREAKPOINT_MD}
+        className={CLASS_NAMES.sider}
+        breakpoint={BREAKPOINT_MD}
         collapsedWidth={0}
         onBreakpoint={broken => {
             console.log(broken);
@@ -19,33 +28,33 @@ const CustomSider = ({ selectedMenuItem, user }) => (
             console.log(collapsed, type);
         }}  
     >
-        <Title level={2} className={constants.CLASS_NAMES.siderLogo}>
-            {constants.LOGO_TEXT}
+        <Title level={2} className={CLASS_NAMES.siderLogo}>
+            {LOGO_TEXT}
         </Title>
-        <div className={constants.CLASS_NAMES.siderProfile}>
-            <Avatar size={80} icon={constants.USER_ICON} />
+        <div className={CLASS_NAMES.siderProfile}>
+            <Avatar size={80} icon={USER_ICON} />
             <Text
-                className={`${constants.CLASS_NAMES.siderProfileText} ${
-                    constants.CLASS_NAMES.textWhite
+                className={`${CLASS_NAMES.siderProfileText} ${
+                    CLASS_NAMES.textWhite
                 }`}
             >
                 {`Hello ${user || ''}`}
             </Text>
         </div>
 
-        <nav className={constants.CLASS_NAMES.siderMenu}>
+        <nav className={CLASS_NAMES.siderMenu}>
             <Menu
-                theme={constants.MENU_DARK_THEME}
-                mode={constants.MENU_MODE_INLINE}
+                theme={MENU_DARK_THEME}
+                mode={MENU_MODE_INLINE}
                 defaultSelectedKeys={[selectedMenuItem]}
             >
-                {constants.SIDER_LINKS.map(item => (
-                    <Menu.Item key={item.key}>
-                        <Link href={item.path}>
+                {SIDER_LINKS.map(({ icon, key, name, path }) => (
+                    <Menu.Item key={key}>
+                        <Link href={path}>
                             <span>
-                                <Icon type={item.icon} />
-                                <span className={constants.CLASS_NAMES.navText}>
-                                    {item.name}
+                                <Icon type={icon} />
+                                <span className={CLASS_NAMES.navText}>
+                                    {name}
                                 </span>
                             </span>
                         </Link>
