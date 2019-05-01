@@ -6,12 +6,11 @@ import * as constants from '../constants';
 
 const { Sider } = Layout;
 const { Title, Text } = Typography;
-const { CLASS_NAMES, LOGO_TEXT, SIDER_LINKS } = constants;
 
 const CustomSider = ({ selectedMenuItem, user }) => (
     <Sider
-        className={CLASS_NAMES.sider}
-        breakpoint="md"
+        className={constants.CLASS_NAMES.sider}
+        breakpoint={constants.BREAKPOINT_MD}
         collapsedWidth={0}
         onBreakpoint={broken => {
             console.log(broken);
@@ -20,32 +19,32 @@ const CustomSider = ({ selectedMenuItem, user }) => (
             console.log(collapsed, type);
         }}  
     >
-        <Title level={2} className={CLASS_NAMES.siderLogo}>
-            {LOGO_TEXT}
+        <Title level={2} className={constants.CLASS_NAMES.siderLogo}>
+            {constants.LOGO_TEXT}
         </Title>
-        <div className={CLASS_NAMES.siderProfile}>
-            <Avatar size={80} icon="user" />
+        <div className={constants.CLASS_NAMES.siderProfile}>
+            <Avatar size={80} icon={constants.USER_ICON} />
             <Text
-                className={`${CLASS_NAMES.siderLogo} ${
-                    CLASS_NAMES.textWhite
+                className={`${constants.CLASS_NAMES.siderLogo} ${
+                    constants.CLASS_NAMES.textWhite
                 }`}
             >
                 {`Hello ${user} || ''`}
             </Text>
         </div>
 
-        <nav className={CLASS_NAMES.siderMenu}>
+        <nav className={constants.CLASS_NAMES.siderMenu}>
             <Menu
-                theme="dark"
-                mode="inline"
+                theme={constants.MENU_DARK_THEME}
+                mode={constants.MENU_MODE_INLINE}
                 defaultSelectedKeys={[selectedMenuItem]}
             >
-                {SIDER_LINKS.map(item => (
+                {constants.SIDER_LINKS.map(item => (
                     <Menu.Item key={item.key}>
                         <Link href={item.path}>
                             <span>
                                 <Icon type={item.icon} />
-                                <span className="nav-text">
+                                <span className={constants.CLASS_NAMES.navText}>
                                     {item.name}
                                 </span>
                             </span>

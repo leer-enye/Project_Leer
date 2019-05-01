@@ -36,6 +36,7 @@ export const LOGO_TEXT = 'Leer';
 export const BREAKPOINT_MD = 'md';
 export const MENU_DARK_THEME = 'dark';
 export const MENU_MODE_INLINE = 'inline';
+export const USER_ICON = 'user';
 
 export const CLASS_NAMES = {
     navText: 'navText',
