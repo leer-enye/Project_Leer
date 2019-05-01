@@ -44,6 +44,7 @@
       }
     ],
     "eol-last": ["error", "always"],
+    "indent": ["error", 4],
     "no-param-reassign": ["warn"],
     "arrow-body-style": ["error", "as-needed"],
     "arrow-parens": [
