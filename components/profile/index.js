@@ -1,6 +1,3 @@
-import  { ViewProfile, EditProfile } from "./components";
+import  * as components from "./components";
 
-export {
-    ViewProfile,
-    EditProfile
-};
+export { components };

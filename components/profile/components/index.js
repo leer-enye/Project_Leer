@@ -1,5 +1,4 @@
-import ViewProfile from "./ViewProfile";
-import EditProfile from "./EditProfile";
+import EditProfile from './EditProfile';
+import ViewProfile from './ViewProfile';
 
-export { ViewProfile, EditProfile };
-
+export { EditProfile, ViewProfile };

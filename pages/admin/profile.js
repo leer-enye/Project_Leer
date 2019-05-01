@@ -1,6 +1,8 @@
 import React from 'react';
 import Layout from '../../components/layout';
-import { ViewProfile } from "../../components/profile";
+import components from '../../components/profile';
+
+const { ViewProfile } = components;
 
 const Profile = () => (
     <Layout selectedMenuItem="profile">
