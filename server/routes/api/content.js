@@ -4,19 +4,22 @@ const router = express.Router();
 
 const contents = require('../../controllers/content');
 
-// Create a new Note
-router.post('/', contents.create);
+// eslint-disable-next-line func-names
+module.exports = function(app) {
+    app.use('/api/contents', router);
 
-// Retrieve all Notes
-router.get('/', contents.findAll);
+    // Create a new Note
+    router.post('/', contents.create);
 
-// Retrieve a single Note with contentId
-router.get('/:contentId', contents.findOne);
+    // Retrieve all Notes
+    router.get('/', contents.findAll);
 
-// Update a Note with contentId
-router.put('/:contentId', contents.update);
+    // Retrieve a single Note with contentId
+    router.get('/:contentId', contents.findOne);
 
-// Delete a Note with contentId
-router.delete('/:contentId', contents.delete);
+    // Update a Note with contentId
+    router.put('/:contentId', contents.update);
 
-module.exports = router;
+    // Delete a Note with contentId
+    router.delete('/:contentId', contents.delete);
+};

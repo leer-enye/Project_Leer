@@ -1,4 +1,3 @@
-/* eslint-disable eol-last */
 const express = require('express');
 const next = require('next');
 const bodyParser = require('body-parser');
@@ -11,10 +10,7 @@ const dotenv = require('dotenv');
 
 const users = require('./routes/api/user');
 const userInViews = require('./lib/middlewares/userInViews');
-
-const subjects = require('./routes/api/subject');
-
-const contents = require('./routes/api/content');
+const routes = require('./routes');
 
 const dev = process.env.NODE_ENV !== 'production';
 const app = next({ dev });
@@ -67,8 +63,7 @@ app.prepare()
         // use routes
         server.use(userInViews());
         server.use('/api/users', users);
-        server.use('/api/subjects', subjects);
-        server.use('/api/contents', contents);
+        server.use('/', routes);
 
         // get all routes
         server.get('*', (req, res) => handle(req, res));
