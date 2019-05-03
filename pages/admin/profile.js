@@ -24,7 +24,11 @@ class Profile extends Component {
             <Layout selectedMenuItem="profile">
                 <Row>
                     <Col span={24} style={{ marginBottom: '2rem' }}>
-                        <Button type="primary" onClick={this.changeAction}>{`${action === 'view' ? 'Edit' : 'View'} Profile`}</Button>
+                        <Button 
+                            type="primary" 
+                            onClick={this.changeAction}>
+                            {`${action === 'view' ? 'Edit' : 'View'} Profile`}
+                        </Button>
                     </Col>
                     <Col span={24}>
                         { action === 'view' ?  <ViewProfile /> : <EditProfile /> }
