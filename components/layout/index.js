@@ -5,7 +5,7 @@ import { CustomSider } from "./components";
 import { LOGO_TEXT } from './constants';
 import './index.scss';
 
-const { Header, Content, Footer } = Layout;
+const { Header, Content } = Layout;
 const { Title } = Typography;
 
 const CustomLayout = props => (
@@ -18,8 +18,11 @@ const CustomLayout = props => (
                         { LOGO_TEXT }
                     </Title>
                 </Header>
-                <Content className="content">{props.children}</Content>
-                <Footer className="custom-footer" />
+                <Content className="content">
+                    <div>
+                        {props.children}
+                    </div>
+                </Content>
             </Layout>
         </Layout>
     </React.Fragment>

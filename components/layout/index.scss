@@ -6,9 +6,7 @@
     height: 100vh;
 }
 
-.header,
-.content,
-.custom-footer {
+.header {
     background-color: #fff;
 }
 
@@ -49,7 +47,10 @@
 }
 
 .content {
-    margin:  24px;
-    padding: 16px;
     overflow: auto;
+
+    & > div {
+        margin:  24px;
+        padding: 16px;
+    }
 }
