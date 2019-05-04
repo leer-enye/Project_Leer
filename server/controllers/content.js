@@ -1,17 +1,21 @@
 /* eslint-disable sort-keys */
 /* eslint-disable consistent-return */
+const HttpStatus = require('http-status-codes');
 const Content = require("../models/Content");
+
+const { BAD_REQUEST, OK, INTERNAL_SERVER_ERROR, CREATED, NOT_FOUND } = HttpStatus;
 
 // Create and Save a new Content
 exports.create = async(req, res) => {
-
     try {
         const { title, resourceType, tags, url, subjectId } = req.body;
         // Validate request
         if (!title) {
-            return res.status(400).send({
-                message: "Content can not be empty",
-            });
+            return res.status(BAD_REQUEST)
+                .send({
+                    status: "fail",
+                    data: { "title": "Content title is required" },
+                });
         }
 
         // Create a Content
@@ -25,11 +29,18 @@ exports.create = async(req, res) => {
 
         // Save Content in the database
         const data = await content.save();
-        res.send(data);
+        res.status(CREATED)
+            .send({
+                status: "success",
+                data: { "content": data },
+            });
     } catch (err) {
-        res.status(500).send({
-            message: err.message || "Some error occurred while creating the Content.",
-        });
+        res.status(INTERNAL_SERVER_ERROR)
+            .send({
+                status: "error",
+                message: HttpStatus.getStatusText(INTERNAL_SERVER_ERROR) ||
+                    "Some error occurred while creating the Content.",
+            });
     };
 };
 
@@ -37,103 +48,139 @@ exports.create = async(req, res) => {
 exports.findAll = async(req, res) => {
     try {
         const data = await Content.find();
-        res.send(data);
+        res.status(OK)
+            .send({
+                status: "success",
+                data: { "contents": data },
+            });
 
     } catch (err) {
-        res.status(500).send({
-            message: err.message || "Some error occurred while retrieving contents.",
-        });
+        res.status(INTERNAL_SERVER_ERROR)
+            .send({
+                status: "error",
+                message: HttpStatus.getStatusText(INTERNAL_SERVER_ERROR) ||
+                    "Some error occurred while retrieving contents.",
+            });
     };
 };
 
 // Find a single content with a contentId
 exports.findOne = async(req, res) => {
-
+    const { contentId } = req.params;
     try {
-        const { contentId } = req.params;
         const data = await Content.findById(contentId);
         if (!data) {
-            return res.status(404).send({
-                message: `Content not found with id ${contentId}`,
-            });
+            return res.status(NOT_FOUND)
+                .send({
+                    status: "fail",
+                    data: { "id": `Content not found with id ${contentId}` },
+                });
         }
-        res.send(data);
+        res.status(OK)
+            .send({
+                status: "success",
+                data: { "content": data },
+            });
     } catch (err) {
-        const { contentId } = req.params;
         if (err.kind === 'ObjectId') {
-            return res.status(404).send({
-                message: `Content not found with id ${contentId}`,
-            });
+            return res.status(NOT_FOUND)
+                .send({
+                    status: "fail",
+                    data: { "id": `Content not found with id ${contentId}` },
+                });
         }
-        return res.status(500).send({
-            message: `Error retrieving content with id ${contentId}`,
-        });
+        return res.status(INTERNAL_SERVER_ERROR)
+            .send({
+                status: "error",
+                message: HttpStatus.getStatusText(INTERNAL_SERVER_ERROR) ||
+                    `Error retrieving content with id ${contentId}`,
+            });
     };
 
 };
 
 // Update a content identified by the contentId in the request
 exports.update = async(req, res) => {
-
+    const { contentId } = req.params;
+    const { title, resourceType, tags, url, subjectId } = req.body;
     try {
-        const { contentId } = req.params;
+
         // Validate Request
-        if (!req.body.content) {
-            return res.status(400).send({
-                message: "Content content can not be empty",
-            });
+        if (!title) {
+            return res.status(BAD_REQUEST)
+                .send({
+                    status: "fail",
+                    data: { "title": "Content  title is empty" },
+                });
         }
 
         // Find content and update it with the request body
         const data = await Content.findByIdAndUpdate(contentId, {
-            title: req.body.title,
-            resourceType: req.body.resourceType,
-            tags: req.body.tags,
-            url: req.body.url,
-            subjectId: req.body.subjectId,
+            title,
+            resourceType,
+            tags,
+            url,
+            subjectId,
         }, { new: true });
         if (!data) {
-            return res.status(404).send({
-                message: `Content not found with id ${contentId}`,
-            });
+            return res.status(NOT_FOUND)
+                .send({
+                    status: 'fail',
+                    data: { "id": `content not found with id ${contentId}` },
+                });
         }
-        res.send(data);
+        res.status(OK)
+            .send({
+                status: "success",
+                data: { "content": data },
+            });
     } catch (err) {
-        const { contentId } = req.params;
         if (err.kind === 'ObjectId') {
-            return res.status(404).send({
-                message: `Content not found with id ${contentId}`,
-            });
+            return res.status(NOT_FOUND)
+                .send({
+                    status: 'fail',
+                    data: { "id": `content not found with id ${contentId}` },
+                });
         }
-        return res.status(500).send({
-            message: `Error updating content with id ${contentId}`,
-        });
+        return res.status(INTERNAL_SERVER_ERROR)
+            .send({
+                status: "error",
+                message: HttpStatus.getStatusText(INTERNAL_SERVER_ERROR) ||
+                    `Error updating content with id ${contentId}`,
+            });
     };
 };
 
 // Delete a content with the specified contentId in the request
 exports.delete = async(req, res) => {
-
+    const { contentId } = req.params;
     try {
-        const { contentId } = req.params;
         const isDeleted = await Content.findByIdAndRemove(contentId);
-
         if (!isDeleted) {
-            return res.status(404).send({
-                message: `Content not found with id ${contentId}`,
-            });
+            return res.status(NOT_FOUND)
+                .send({
+                    status: 'fail',
+                    data: { "id": `Content not found with id ${contentId}` },
+                });
         }
-        res.send({ message: "Content deleted successfully!" });
+        res.status(OK)
+            .send({
+                status: "success",
+                data: null,
+            });
 
     } catch (err) {
-        const { contentId } = req.params;
         if (err.kind === 'ObjectId' || err.name === 'NotFound') {
-            return res.status(404).send({
-                message: `Content not found with id ${contentId}`,
-            });
+            return res.status(NOT_FOUND)
+                .send({
+                    status: 'fail',
+                    data: { "id": `Content not found with id ${contentId}` },
+                });
         }
-        return res.status(500).send({
-            message: `Could not delete content with id ${contentId}`,
+        return res.status(INTERNAL_SERVER_ERROR).send({
+            status: "error",
+            message: HttpStatus.getStatusText(INTERNAL_SERVER_ERROR) ||
+                `Could not delete content with id ${contentId}`,
         });
     };
 };
