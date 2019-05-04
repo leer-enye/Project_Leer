@@ -11,4 +11,5 @@ const ContentSchema = new Schema({
     subjectId: mongoose.Schema.Types.ObjectId,
 }, { timestamps: true });
 const Content = mongoose.model('Content', ContentSchema);
+
 module.exports = Content;
