@@ -45,12 +45,12 @@ exports.create = async (req, res) => {
 // Retrieve and return all subject from the database.
 exports.findAll = async (req, res) => {
     try {
-        const data = await Subject.find();
+        const subjects = await Subject.find();
 
         res.status(OK)
             .send({
                 status: SUCCESS,
-                data: { subjects: data },
+                data: { subjects },
             });
     } catch (err) {
         res.status(INTERNAL_SERVER_ERROR)
@@ -66,8 +66,8 @@ exports.findOne = async (req, res) => {
     const { subjectId } = req.params;
 
     try {
-        const data = await Subject.findById(subjectId);
-        if (!data) {
+        const subject = await Subject.findById(subjectId);
+        if (!subject) {
             return res.status(NOT_FOUND)
                 .send({
                     status: FAIL,
@@ -77,7 +77,7 @@ exports.findOne = async (req, res) => {
         res.status(OK)
             .send({
                 status: SUCCESS,
-                data: { subject: data },
+                data: { subject },
             });
     } catch (err) {
         if (err.kind === 'ObjectId') {
@@ -111,7 +111,7 @@ exports.update = async (req, res) => {
         }
 
         // Find subject and update it with the request body
-        const data = await Subject.findByIdAndUpdate(subjectId, {
+        const subject = await Subject.findByIdAndUpdate(subjectId, {
             description,
             name,
         }, { new: true });
@@ -126,7 +126,7 @@ exports.update = async (req, res) => {
         res.status(OK)
             .send({
                 status: SUCCESS,
-                data: { subject: data },
+                data: { subject },
             });
     } catch (err) {
         if (err.kind === 'ObjectId') {
