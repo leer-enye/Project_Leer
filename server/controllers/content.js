@@ -38,8 +38,7 @@ exports.create = async(req, res) => {
         res.status(INTERNAL_SERVER_ERROR)
             .send({
                 status: "error",
-                message: HttpStatus.getStatusText(INTERNAL_SERVER_ERROR) ||
-                    "Some error occurred while creating the Content.",
+                message: HttpStatus.getStatusText(INTERNAL_SERVER_ERROR) ,
             });
     };
 };
@@ -58,8 +57,7 @@ exports.findAll = async(req, res) => {
         res.status(INTERNAL_SERVER_ERROR)
             .send({
                 status: "error",
-                message: HttpStatus.getStatusText(INTERNAL_SERVER_ERROR) ||
-                    "Some error occurred while retrieving contents.",
+                message: HttpStatus.getStatusText(INTERNAL_SERVER_ERROR) ,
             });
     };
 };
@@ -92,8 +90,7 @@ exports.findOne = async(req, res) => {
         return res.status(INTERNAL_SERVER_ERROR)
             .send({
                 status: "error",
-                message: HttpStatus.getStatusText(INTERNAL_SERVER_ERROR) ||
-                    `Error retrieving content with id ${contentId}`,
+                message: HttpStatus.getStatusText(INTERNAL_SERVER_ERROR),
             });
     };
 
@@ -145,8 +142,7 @@ exports.update = async(req, res) => {
         return res.status(INTERNAL_SERVER_ERROR)
             .send({
                 status: "error",
-                message: HttpStatus.getStatusText(INTERNAL_SERVER_ERROR) ||
-                    `Error updating content with id ${contentId}`,
+                message: HttpStatus.getStatusText(INTERNAL_SERVER_ERROR),
             });
     };
 };
@@ -179,8 +175,7 @@ exports.delete = async(req, res) => {
         }
         return res.status(INTERNAL_SERVER_ERROR).send({
             status: "error",
-            message: HttpStatus.getStatusText(INTERNAL_SERVER_ERROR) ||
-                `Could not delete content with id ${contentId}`,
+            message: HttpStatus.getStatusText(INTERNAL_SERVER_ERROR) ,
         });
     };
 };

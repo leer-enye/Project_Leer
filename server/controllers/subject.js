@@ -36,8 +36,7 @@ exports.create = async(req, res) => {
         res.status(INTERNAL_SERVER_ERROR)
             .send({
                 status: "error",
-                message: HttpStatus.getStatusText(INTERNAL_SERVER_ERROR) ||
-                    "Some error occurred while creating the Subject.",
+                message: HttpStatus.getStatusText(INTERNAL_SERVER_ERROR) ,
             });
     }
 
@@ -56,8 +55,7 @@ exports.findAll = async(req, res) => {
         res.status(INTERNAL_SERVER_ERROR)
             .send({
                 status: "error",
-                message: HttpStatus.getStatusText(INTERNAL_SERVER_ERROR) ||
-                    "Some error occurred while retrieving subjects.",
+                message: HttpStatus.getStatusText(INTERNAL_SERVER_ERROR) ,
             });
     }
 };
@@ -92,8 +90,7 @@ exports.findOne = async(req, res) => {
         return res.status(INTERNAL_SERVER_ERROR)
             .send({
                 status: "error",
-                message: HttpStatus.getStatusText(INTERNAL_SERVER_ERROR) ||
-                    `Error retrieving subject with id ${subjectId}`,
+                message: HttpStatus.getStatusText(INTERNAL_SERVER_ERROR) ,
             });
     };
 };
@@ -141,8 +138,7 @@ exports.update = async(req, res) => {
         return res.status(INTERNAL_SERVER_ERROR)
             .send({
                 status: "error",
-                message: HttpStatus.getStatusText(INTERNAL_SERVER_ERROR) ||
-                    `Error updating subject with id ${subjectId}`,
+                message: HttpStatus.getStatusText(INTERNAL_SERVER_ERROR) ,
             });
 
     }
@@ -176,8 +172,7 @@ exports.delete = async(req, res) => {
         }
         return res.status(INTERNAL_SERVER_ERROR).send({
             status: "error",
-            message: HttpStatus.getStatusText(INTERNAL_SERVER_ERROR) ||
-                `Could not delete subject with id ${req.params.subjectId}`,
+            message: HttpStatus.getStatusText(INTERNAL_SERVER_ERROR) ,
         });
     }
 };
