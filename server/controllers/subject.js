@@ -116,7 +116,7 @@ exports.update = async (req, res) => {
             name,
         }, { new: true });
 
-        if (!data) {
+        if (!subject) {
             return res.status(NOT_FOUND)
                 .send({
                     status: FAIL,
