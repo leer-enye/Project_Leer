@@ -6,7 +6,7 @@ const Subject = require("../models/Subject");
 const { BAD_REQUEST, OK, INTERNAL_SERVER_ERROR, CREATED, NOT_FOUND } = HttpStatus;
 
 // Create and Save a new Subject
-exports.create = async(req, res) => {
+exports.create = async (req, res) => {
     try {
 
         const { name, description } = req.body;
@@ -15,7 +15,7 @@ exports.create = async(req, res) => {
             return res.status(BAD_REQUEST)
                 .send({
                     status: "fail",
-                    data: { "name": "Subject name is required" },
+                    data: { name: "Subject name is required" },
                 });
         }
 
@@ -30,38 +30,38 @@ exports.create = async(req, res) => {
         res.status(CREATED)
             .send({
                 status: "success",
-                data: { "subject": data },
+                data: { subject: data },
             });
     } catch (err) {
         res.status(INTERNAL_SERVER_ERROR)
             .send({
                 status: "error",
-                message: HttpStatus.getStatusText(INTERNAL_SERVER_ERROR) ,
+                message: HttpStatus.getStatusText(INTERNAL_SERVER_ERROR),
             });
     }
 
 };
 
 // Retrieve and return all subject from the database.
-exports.findAll = async(req, res) => {
+exports.findAll = async (req, res) => {
     try {
         const data = await Subject.find();
         res.status(OK)
             .send({
                 status: "success",
-                data: { "subjects": data },
+                data: { subjects: data },
             });
     } catch (err) {
         res.status(INTERNAL_SERVER_ERROR)
             .send({
                 status: "error",
-                message: HttpStatus.getStatusText(INTERNAL_SERVER_ERROR) ,
+                message: HttpStatus.getStatusText(INTERNAL_SERVER_ERROR),
             });
     }
 };
 
 // Find a single subject with a subjectId
-exports.findOne = async(req, res) => {
+exports.findOne = async (req, res) => {
 
     const { subjectId } = req.params;
 
@@ -71,32 +71,32 @@ exports.findOne = async(req, res) => {
             return res.status(NOT_FOUND)
                 .send({
                     status: "fail",
-                    data: { "id": `Subject not found with id ${subjectId}` },
+                    data: { id: `Subject not found with id ${subjectId}` },
                 });
         }
         res.status(OK)
             .send({
                 status: "success",
-                data: { "subject": data },
+                data: { subject: data },
             });
     } catch (err) {
         if (err.kind === 'ObjectId') {
             return res.status(NOT_FOUND)
                 .send({
                     status: "fail",
-                    data: { "id": `Subject not found with id ${subjectId}` },
+                    data: { id: `Subject not found with id ${subjectId}` },
                 });
         }
         return res.status(INTERNAL_SERVER_ERROR)
             .send({
                 status: "error",
-                message: HttpStatus.getStatusText(INTERNAL_SERVER_ERROR) ,
+                message: HttpStatus.getStatusText(INTERNAL_SERVER_ERROR),
             });
     };
 };
 
 // Update a subject identified by the subjectId in the request
-exports.update = async(req, res) => {
+exports.update = async (req, res) => {
     const { name, description } = req.body;
     const { subjectId } = req.params;
     try {
@@ -105,7 +105,7 @@ exports.update = async(req, res) => {
             return res.status(BAD_REQUEST)
                 .send({
                     status: "fail",
-                    data: { "name": "Subject  name is empty" },
+                    data: { name: "Subject  name is empty" },
                 });
         }
 
@@ -119,7 +119,7 @@ exports.update = async(req, res) => {
             return res.status(NOT_FOUND)
                 .send({
                     status: 'fail',
-                    data: { "id": `Subject not found with id ${subjectId}` },
+                    data: { id: `Subject not found with id ${subjectId}` },
                 });
         }
         res.status(OK)
@@ -132,13 +132,13 @@ exports.update = async(req, res) => {
             return res.status(NOT_FOUND)
                 .send({
                     status: 'fail',
-                    data: { "id": `Subject not found with id ${subjectId}` },
+                    data: { id: `Subject not found with id ${subjectId}` },
                 });
         }
         return res.status(INTERNAL_SERVER_ERROR)
             .send({
                 status: "error",
-                message: HttpStatus.getStatusText(INTERNAL_SERVER_ERROR) ,
+                message: HttpStatus.getStatusText(INTERNAL_SERVER_ERROR),
             });
 
     }
@@ -146,7 +146,7 @@ exports.update = async(req, res) => {
 };
 
 // Delete a subject with the specified subjectId in the request
-exports.delete = async(req, res) => {
+exports.delete = async (req, res) => {
     const { subjectId } = req.params;
     try {
         const status = await Subject.findByIdAndRemove(subjectId);
@@ -154,7 +154,7 @@ exports.delete = async(req, res) => {
             return res.status(NOT_FOUND)
                 .send({
                     status: 'fail',
-                    data: { "id": `Subject not found with id ${subjectId}` },
+                    data: { id: `Subject not found with id ${subjectId}` },
                 });
         }
         res.status(OK)
@@ -167,12 +167,12 @@ exports.delete = async(req, res) => {
             return res.status(NOT_FOUND)
                 .send({
                     status: 'fail',
-                    data: { "id": `Subject not found with id ${subjectId}` },
+                    data: { id: `Subject not found with id ${subjectId}` },
                 });
         }
         return res.status(INTERNAL_SERVER_ERROR).send({
             status: "error",
-            message: HttpStatus.getStatusText(INTERNAL_SERVER_ERROR) ,
+            message: HttpStatus.getStatusText(INTERNAL_SERVER_ERROR),
         });
     }
 };
