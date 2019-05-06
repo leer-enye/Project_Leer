@@ -2,7 +2,9 @@
 /* eslint-disable consistent-return */
 const HttpStatus = require('http-status-codes');
 const Content = require("../models/Content");
+const StatusText = require("./constants");
 
+const { SUCCESS, FAIL, ERROR } = StatusText;
 const { BAD_REQUEST, OK, INTERNAL_SERVER_ERROR, CREATED, NOT_FOUND } = HttpStatus;
 
 // Create and Save a new Content
@@ -14,7 +16,7 @@ exports.create = async (req, res) => {
         if (!title) {
             return res.status(BAD_REQUEST)
                 .send({
-                    status: "fail",
+                    status: FAIL,
                     data: { title: "Content title is required" },
                 });
         }
@@ -33,13 +35,13 @@ exports.create = async (req, res) => {
 
         res.status(CREATED)
             .send({
-                status: "success",
+                status: SUCCESS,
                 data: { content: data },
             });
     } catch (err) {
         res.status(INTERNAL_SERVER_ERROR)
             .send({
-                status: "error",
+                status: ERROR,
                 message: HttpStatus.getStatusText(INTERNAL_SERVER_ERROR),
             });
     };
@@ -52,14 +54,14 @@ exports.findAll = async (req, res) => {
 
         res.status(OK)
             .send({
-                status: "success",
+                status: SUCCESS,
                 data: { contents },
             });
 
     } catch (err) {
         res.status(INTERNAL_SERVER_ERROR)
             .send({
-                status: "error",
+                status: ERROR,
                 message: HttpStatus.getStatusText(INTERNAL_SERVER_ERROR),
             });
     };
@@ -75,26 +77,26 @@ exports.findOne = async (req, res) => {
         if (!content) {
             return res.status(NOT_FOUND)
                 .send({
-                    status: "fail",
+                    status: FAIL,
                     data: { id: `Content not found with id ${contentId}` },
                 });
         }
         res.status(OK)
             .send({
-                status: "success",
+                status: SUCCESS,
                 data: { content },
             });
     } catch (err) {
         if (err.kind === 'ObjectId') {
             return res.status(NOT_FOUND)
                 .send({
-                    status: "fail",
+                    status: FAIL,
                     data: { id: `Content not found with id ${contentId}` },
                 });
         }
         return res.status(INTERNAL_SERVER_ERROR)
             .send({
-                status: "error",
+                status: ERROR,
                 message: HttpStatus.getStatusText(INTERNAL_SERVER_ERROR),
             });
     };
@@ -112,7 +114,7 @@ exports.update = async (req, res) => {
         if (!title) {
             return res.status(BAD_REQUEST)
                 .send({
-                    status: "fail",
+                    status: FAIL,
                     data: { title: "Content  title is empty" },
                 });
         }
@@ -129,26 +131,26 @@ exports.update = async (req, res) => {
         if (!content) {
             return res.status(NOT_FOUND)
                 .send({
-                    status: 'fail',
+                    status: FAIL,
                     data: { id: `content not found with id ${contentId}` },
                 });
         }
         res.status(OK)
             .send({
-                status: "success",
+                status: SUCCESS,
                 data: { content },
             });
     } catch (err) {
         if (err.kind === 'ObjectId') {
             return res.status(NOT_FOUND)
                 .send({
-                    status: 'fail',
+                    status: FAIL,
                     data: { id: `content not found with id ${contentId}` },
                 });
         }
         return res.status(INTERNAL_SERVER_ERROR)
             .send({
-                status: "error",
+                status: ERROR,
                 message: HttpStatus.getStatusText(INTERNAL_SERVER_ERROR),
             });
     };
@@ -164,13 +166,13 @@ exports.delete = async (req, res) => {
         if (!isDeleted) {
             return res.status(NOT_FOUND)
                 .send({
-                    status: 'fail',
+                    status: FAIL,
                     data: { id: `Content not found with id ${contentId}` },
                 });
         }
         res.status(OK)
             .send({
-                status: "success",
+                status: SUCCESS,
                 data: null,
             });
 
@@ -178,12 +180,12 @@ exports.delete = async (req, res) => {
         if (err.kind === 'ObjectId' || err.name === 'NotFound') {
             return res.status(NOT_FOUND)
                 .send({
-                    status: 'fail',
+                    status: FAIL,
                     data: { id: `Content not found with id ${contentId}` },
                 });
         }
         return res.status(INTERNAL_SERVER_ERROR).send({
-            status: "error",
+            status: ERROR,
             message: HttpStatus.getStatusText(INTERNAL_SERVER_ERROR),
         });
     };

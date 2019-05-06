@@ -2,7 +2,9 @@
 /* eslint-disable consistent-return */
 const HttpStatus = require('http-status-codes');
 const Subject = require("../models/Subject");
+const StatusText = require("./constants");
 
+const { SUCCESS, FAIL, ERROR } = StatusText;
 const { BAD_REQUEST, OK, INTERNAL_SERVER_ERROR, CREATED, NOT_FOUND } = HttpStatus;
 
 // Create and Save a new Subject
@@ -13,7 +15,7 @@ exports.create = async (req, res) => {
         if (!name) {
             return res.status(BAD_REQUEST)
                 .send({
-                    status: "fail",
+                    status: FAIL,
                     data: { name: "Subject name is required" },
                 });
         }
@@ -27,13 +29,13 @@ exports.create = async (req, res) => {
 
         res.status(CREATED)
             .send({
-                status: "success",
+                status: SUCCESS,
                 data: { subject: data },
             });
     } catch (err) {
         res.status(INTERNAL_SERVER_ERROR)
             .send({
-                status: "error",
+                status: ERROR,
                 message: HttpStatus.getStatusText(INTERNAL_SERVER_ERROR),
             });
     }
@@ -47,13 +49,13 @@ exports.findAll = async (req, res) => {
 
         res.status(OK)
             .send({
-                status: "success",
+                status: SUCCESS,
                 data: { subjects: data },
             });
     } catch (err) {
         res.status(INTERNAL_SERVER_ERROR)
             .send({
-                status: "error",
+                status: ERROR,
                 message: HttpStatus.getStatusText(INTERNAL_SERVER_ERROR),
             });
     }
@@ -68,26 +70,26 @@ exports.findOne = async (req, res) => {
         if (!data) {
             return res.status(NOT_FOUND)
                 .send({
-                    status: "fail",
+                    status: FAIL,
                     data: { id: `Subject not found with id ${subjectId}` },
                 });
         }
         res.status(OK)
             .send({
-                status: "success",
+                status: SUCCESS,
                 data: { subject: data },
             });
     } catch (err) {
         if (err.kind === 'ObjectId') {
             return res.status(NOT_FOUND)
                 .send({
-                    status: "fail",
+                    status: FAIL,
                     data: { id: `Subject not found with id ${subjectId}` },
                 });
         }
         return res.status(INTERNAL_SERVER_ERROR)
             .send({
-                status: "error",
+                status: ERROR,
                 message: HttpStatus.getStatusText(INTERNAL_SERVER_ERROR),
             });
     };
@@ -103,7 +105,7 @@ exports.update = async (req, res) => {
         if (!name) {
             return res.status(BAD_REQUEST)
                 .send({
-                    status: "fail",
+                    status: FAIL,
                     data: { name: "Subject  name is empty" },
                 });
         }
@@ -117,26 +119,26 @@ exports.update = async (req, res) => {
         if (!data) {
             return res.status(NOT_FOUND)
                 .send({
-                    status: 'fail',
+                    status: FAIL,
                     data: { id: `Subject not found with id ${subjectId}` },
                 });
         }
         res.status(OK)
             .send({
-                status: "success",
-                data: { "subject": data },
+                status: SUCCESS,
+                data: { subject: data },
             });
     } catch (err) {
         if (err.kind === 'ObjectId') {
             return res.status(NOT_FOUND)
                 .send({
-                    status: 'fail',
+                    status: FAIL,
                     data: { id: `Subject not found with id ${subjectId}` },
                 });
         }
         return res.status(INTERNAL_SERVER_ERROR)
             .send({
-                status: "error",
+                status: ERROR,
                 message: HttpStatus.getStatusText(INTERNAL_SERVER_ERROR),
             });
 
@@ -154,25 +156,25 @@ exports.delete = async (req, res) => {
         if (!status) {
             return res.status(NOT_FOUND)
                 .send({
-                    status: 'fail',
+                    status: FAIL,
                     data: { id: `Subject not found with id ${subjectId}` },
                 });
         }
         res.status(OK)
             .send({
-                status: "success",
+                status: SUCCESS,
                 data: null,
             });
     } catch (err) {
         if (err.kind === 'ObjectId' || err.name === 'NotFound') {
             return res.status(NOT_FOUND)
                 .send({
-                    status: 'fail',
+                    status: FAIL,
                     data: { id: `Subject not found with id ${subjectId}` },
                 });
         }
         return res.status(INTERNAL_SERVER_ERROR).send({
-            status: "error",
+            status: ERROR,
             message: HttpStatus.getStatusText(INTERNAL_SERVER_ERROR),
         });
     }
