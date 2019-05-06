@@ -22,7 +22,7 @@ exports.create = async (req, res) => {
         // Create a Subject
         const subject = new Subject({
             description,
-            name: name || "Undefined Subject",
+            name: name,
         });
 
         // Save Subject in the database
@@ -112,7 +112,7 @@ exports.update = async (req, res) => {
         // Find subject and update it with the request body
         const data = await Subject.findByIdAndUpdate(subjectId, {
             description,
-            name: name || "Undefined Subject",
+            name: name,
         }, { new: true });
 
         if (!data) {
