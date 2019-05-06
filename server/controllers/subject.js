@@ -8,9 +8,8 @@ const { BAD_REQUEST, OK, INTERNAL_SERVER_ERROR, CREATED, NOT_FOUND } = HttpStatu
 // Create and Save a new Subject
 exports.create = async (req, res) => {
     try {
-
         const { name, description } = req.body;
-        // Validate request
+
         if (!name) {
             return res.status(BAD_REQUEST)
                 .send({
@@ -19,13 +18,11 @@ exports.create = async (req, res) => {
                 });
         }
 
-        // Create a Subject
         const subject = new Subject({
             description,
             name,
         });
 
-        // Save Subject in the database
         const data = await subject.save();
 
         res.status(CREATED)
@@ -64,7 +61,6 @@ exports.findAll = async (req, res) => {
 
 // Find a single subject with a subjectId
 exports.findOne = async (req, res) => {
-
     const { subjectId } = req.params;
 
     try {
