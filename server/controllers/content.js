@@ -30,6 +30,7 @@ exports.create = async (req, res) => {
 
         // Save Content in the database
         const data = await content.save();
+
         res.status(CREATED)
             .send({
                 status: "success",
@@ -47,12 +48,12 @@ exports.create = async (req, res) => {
 // Retrieve and return all content from the database.
 exports.findAll = async (req, res) => {
     try {
-        const data = await Content.find();
+        const contents = await Content.find();
 
         res.status(OK)
             .send({
                 status: "success",
-                data: { contents: data },
+                data: { contents },
             });
 
     } catch (err) {
@@ -69,8 +70,9 @@ exports.findOne = async (req, res) => {
     const { contentId } = req.params;
 
     try {
-        const data = await Content.findById(contentId);
-        if (!data) {
+        const content = await Content.findById(contentId);
+
+        if (!content) {
             return res.status(NOT_FOUND)
                 .send({
                     status: "fail",
@@ -80,7 +82,7 @@ exports.findOne = async (req, res) => {
         res.status(OK)
             .send({
                 status: "success",
-                data: { content: data },
+                data: { content },
             });
     } catch (err) {
         if (err.kind === 'ObjectId') {
@@ -116,7 +118,7 @@ exports.update = async (req, res) => {
         }
 
         // Find content and update it with the request body
-        const data = await Content.findByIdAndUpdate(contentId, {
+        const content = await Content.findByIdAndUpdate(contentId, {
             title,
             resourceType,
             tags,
@@ -124,7 +126,7 @@ exports.update = async (req, res) => {
             subjectId,
         }, { new: true });
 
-        if (!data) {
+        if (!content) {
             return res.status(NOT_FOUND)
                 .send({
                     status: 'fail',
@@ -134,7 +136,7 @@ exports.update = async (req, res) => {
         res.status(OK)
             .send({
                 status: "success",
-                data: { "content": data },
+                data: { content },
             });
     } catch (err) {
         if (err.kind === 'ObjectId') {
