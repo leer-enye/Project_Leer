@@ -9,6 +9,7 @@ const { BAD_REQUEST, OK, INTERNAL_SERVER_ERROR, CREATED, NOT_FOUND } = HttpStatu
 exports.create = async (req, res) => {
     try {
         const { title, resourceType, tags, url, subjectId } = req.body;
+
         // Validate request
         if (!title) {
             return res.status(BAD_REQUEST)
@@ -47,6 +48,7 @@ exports.create = async (req, res) => {
 exports.findAll = async (req, res) => {
     try {
         const data = await Content.find();
+
         res.status(OK)
             .send({
                 status: "success",
@@ -65,6 +67,7 @@ exports.findAll = async (req, res) => {
 // Find a single content with a contentId
 exports.findOne = async (req, res) => {
     const { contentId } = req.params;
+
     try {
         const data = await Content.findById(contentId);
         if (!data) {
@@ -100,6 +103,7 @@ exports.findOne = async (req, res) => {
 exports.update = async (req, res) => {
     const { contentId } = req.params;
     const { title, resourceType, tags, url, subjectId } = req.body;
+
     try {
 
         // Validate Request
@@ -119,6 +123,7 @@ exports.update = async (req, res) => {
             url,
             subjectId,
         }, { new: true });
+
         if (!data) {
             return res.status(NOT_FOUND)
                 .send({
@@ -150,8 +155,10 @@ exports.update = async (req, res) => {
 // Delete a content with the specified contentId in the request
 exports.delete = async (req, res) => {
     const { contentId } = req.params;
+
     try {
         const isDeleted = await Content.findByIdAndRemove(contentId);
+
         if (!isDeleted) {
             return res.status(NOT_FOUND)
                 .send({

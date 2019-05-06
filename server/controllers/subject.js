@@ -22,11 +22,12 @@ exports.create = async (req, res) => {
         // Create a Subject
         const subject = new Subject({
             description,
-            name: name,
+            name,
         });
 
         // Save Subject in the database
         const data = await subject.save();
+
         res.status(CREATED)
             .send({
                 status: "success",
@@ -46,6 +47,7 @@ exports.create = async (req, res) => {
 exports.findAll = async (req, res) => {
     try {
         const data = await Subject.find();
+
         res.status(OK)
             .send({
                 status: "success",
@@ -99,6 +101,7 @@ exports.findOne = async (req, res) => {
 exports.update = async (req, res) => {
     const { name, description } = req.body;
     const { subjectId } = req.params;
+
     try {
         // Validate Request
         if (!name) {
@@ -112,7 +115,7 @@ exports.update = async (req, res) => {
         // Find subject and update it with the request body
         const data = await Subject.findByIdAndUpdate(subjectId, {
             description,
-            name: name,
+            name,
         }, { new: true });
 
         if (!data) {
@@ -148,8 +151,10 @@ exports.update = async (req, res) => {
 // Delete a subject with the specified subjectId in the request
 exports.delete = async (req, res) => {
     const { subjectId } = req.params;
+
     try {
         const status = await Subject.findByIdAndRemove(subjectId);
+
         if (!status) {
             return res.status(NOT_FOUND)
                 .send({
