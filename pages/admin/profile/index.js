@@ -11,35 +11,30 @@ class Profile extends Component {
 
     changeAction = () => {
         const { action } = this.state;
-
-        if (action === 'view') {
-            return this.setState({ action: 'edit' });
-        }
-
-        return this.setState({ action: 'view' });
+        const isViewAction = action === 'view';
+        return this.setState({ action: isViewAction ? 'view': 'edit' });
     }
 
     render() {
         const { action } = this.state;
+        const isViewAction = action === 'view';
         return (
             <Layout selectedMenuItem="profile">
                 <Row>
                     <Col span={24} className='mb-1'>
-
                         <Button
                             type="primary"
                             onClick={this.changeAction}>
-                            {`${action === 'view' ? 'Edit' : 'View'} Profile`}
+                            {`${isViewAction ? 'Edit' : 'View'} Profile`}
                         </Button>
                     </Col>
                     <Col span={24}>
-                        {action === 'view' ? <ViewProfile /> : <EditProfile />}
+                        {isViewAction ? <ViewProfile /> : <EditProfile />}
                     </Col>
                 </Row>
             </Layout>
         );
     }
-
 }
 
 export default Profile;

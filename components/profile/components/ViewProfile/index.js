@@ -38,8 +38,15 @@ const { twitter } = ICONS;
 
 const ViewProfile = ({ user }) => {
     const { 
-        bio, dateJoined, firstName, highSchool, 
-        intendedUni, lastName, score, socials, username } = user;
+        bio, 
+        dateJoined, 
+        firstName, 
+        highSchool, 
+        intendedUni, 
+        lastName, 
+        score, 
+        socials, 
+        username } = user;
     return ( 
         <Row className={`${card}`}> 
             <Col span={20} md={{ offset: 2, span: 18  }}>

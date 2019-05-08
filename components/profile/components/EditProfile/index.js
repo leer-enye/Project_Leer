@@ -42,13 +42,16 @@ const {
 
 class EditProfile extends Component {
     state = { 
-        fileList: [], location: null, locationLoading: false, 
-        previewImage: '', previewVisible: false, 
+        fileList: [], 
+        location: null, 
+        locationLoading: false, 
+        previewImage: '', 
+        previewVisible: false, 
     }
 
-    handleImagePreview = file => {
+    handleImagePreview = ({ url, thumbUrl }) => {
         this.setState({
-            previewImage: file.url || file.thumbUrl,
+            previewImage: url || thumbUrl,
             previewVisible: true,
         });
     };
