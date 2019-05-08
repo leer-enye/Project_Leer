@@ -9,7 +9,7 @@ const {
     CLASS_NAMES,
     DEFAULT_USER_PROPS,
     SOCIAL_ICON_THEME,
-    SOCIAL_TYPES,
+    ICONS,
     TARGET_BLANK,
     VIEW_PROFILE_FIELDS,
 } = constants;
@@ -34,7 +34,7 @@ const {
     usernameLabel,
 } = VIEW_PROFILE_FIELDS;
 
-const { twitter } = SOCIAL_TYPES;
+const { twitter } = ICONS;
 
 const ViewProfile = ({ user }) => {
     const { 

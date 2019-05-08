@@ -1,45 +1,61 @@
 import React, { Component } from 'react';
-import { Row, Col, Input, Upload, Icon, message, Button, Typography } from 'antd';
-
+import { Row, Col, Input, Upload, Icon, Button, Modal, Typography } from 'antd';
+import * as constants from '../../constants';
 import "./index.scss";
 
 const { Title } = Typography;
 const { TextArea } = Input;
+const {
+    BUTTON_PRIMARY,
+    CLASS_NAMES,
+    EDIT_PROFILE_FIELDS,
+    EDIT_PROFILE_TITLE,
+    EDIT_PROFILE_UPLOAD_LIST_TYPE,
+    ICONS,
+} = constants;
 
-function getBase64(img, callback) {
-    const reader = new FileReader();
-    reader.addEventListener('load', () => callback(reader.result));
-    reader.readAsDataURL(img);
-}
+const {
+    antUploadText,
+    card,
+    infoField,
+    locationInput,
+    mb1,
+    mb2,
+    w100,
+    w80,
+} = CLASS_NAMES;
 
-function beforeUpload(file) {
-    const isJPG = file.type === 'image/jpeg';
-    if (!isJPG) {
-        message.error('You can only upload JPG file!');
-    }
-    const isLt2M = file.size / 1024 / 1024 < 2;
-    if (!isLt2M) {
-        message.error('Image must smaller than 2MB!');
-    }
-    return isJPG && isLt2M;
-}
+const { plus } = ICONS;
+
+const {
+    bioLabel,
+    firstNameLabel,
+    getLocationLabel,
+    highSchoolLabel,
+    intendedUniLabel,
+    lastNameLabel,
+    locationLabel,
+    profilePhotoLabel,
+    profilePhotoPreviewAlt,
+    uploadLabel,
+} = EDIT_PROFILE_FIELDS;
 
 class EditProfile extends Component {
-    state = { loading: false, location: null, locationLoading: false }
-
-    handleChange = info => {
-        if (info.file.status === 'uploading') {
-            this.setState({ loading: true });
-            return;
-        }
-        if (info.file.status === 'done') {
-            // Get this url from response in real world.
-            getBase64(info.file.originFileObj, imageUrl => this.setState({
-                imageUrl,
-                loading: false,
-            }));
-        }
+    state = { 
+        fileList: [], location: null, locationLoading: false, 
+        previewImage: '', previewVisible: false, 
     }
+
+    handleImagePreview = file => {
+        this.setState({
+            previewImage: file.url || file.thumbUrl,
+            previewVisible: true,
+        });
+    };
+
+    handleImagePreviewCancel = () => this.setState({ previewVisible: false });
+
+    handleImageChange = ({ fileList }) => this.setState({ fileList });
 
     getLocation = ()  => {
         this.setState({ locationLoading: true });
@@ -52,66 +68,80 @@ class EditProfile extends Component {
     }
 
     render(){
-        const uploadButton = (
-            <div>
-                <Icon type={this.state.loading ? 'loading' : 'plus'} />
-                <div className="ant-upload-text">Upload</div>
-            </div>
-        );
-        const { imageUrl } = this.state;
+        const { fileList, location, locationLoading, previewImage, previewVisible  } = this.state;
         return (
-            <Row className="card" gutter={32}>
-                <Col span={24} style={{ marginBottom: 32 }}>
-                    <Title level={3}>Update Profile</Title>
+            <Row className={`${card}`} gutter={32}>
+                <Col span={24} className={`${mb2}`}>
+                    <Title level={3}>{EDIT_PROFILE_TITLE}</Title>
                 </Col>
-                <Col span={12} md={{ span: 12 }} xs={24} style={{ marginBottom: '1rem' }}>
-                    <div className="info-field">
-                        <h4 >First Name</h4>
-                        <Input style={{ width: '70%' }} />
+                <Col span={12} md={{ span: 12 }} xs={24} className={`${mb1}`}>
+                    <div className={`${infoField}`}>
+                        <h4>{firstNameLabel}</h4>
+                        <Input />
                     </div>
-                    <div className="info-field">
-                        <h4>Last Name</h4>
-                        <Input style={{ width: '70%' }} />
+                    <div className={`${infoField}`}>
+                        <h4>{lastNameLabel}</h4>
+                        <Input />
                     </div>
-                    <div className="info-field">
-                        <h4>Profile photo</h4>
+                    <div className={`${infoField}`}>
+                        <h4>{profilePhotoLabel}</h4>
                         <Upload
-                            name="avatar"
-                            listType="picture-card"
-                            className="avatar-uploader"
-                            showUploadList={false}
-                            action="https://www.mocky.io/v2/5cc8019d300000980a055e76"
-                            beforeUpload={beforeUpload}
-                            onChange={this.handleChange}
+                            listType={EDIT_PROFILE_UPLOAD_LIST_TYPE}
+                            fileList={fileList}
+                            beforeUpload={() => false}
+                            onPreview={this.handleImagePreview}
+                            onChange={this.handleImageChange}
                         >
-                            {imageUrl ? <img style={{ width: 128, height: 128 }} src={imageUrl} alt="avatar" /> : uploadButton}
+                            {fileList.length < 1 ? (
+                                <div>
+                                    <Icon type={plus} />
+                                    <div className={antUploadText}>{uploadLabel}</div>
+                                </div>
+                            ) : null}
                         </Upload>
+                        <Modal
+                            visible={previewVisible}
+                            footer={null}
+                            onCancel={this.handleImagePreviewCancel}
+                        >
+                            <img
+                                alt={profilePhotoPreviewAlt}
+                                className={`${w100}`}
+                                src={previewImage}
+                            />
+                        </Modal>
                     </div>
 
                 </Col>
                 <Col span={12} md={12} xs={24}>
-                    <div className="info-field">
-                        <h4>High School</h4>
-                        <Input style={{ width: '70%' }} />
+                    <div className={`${infoField}`}>
+                        <h4>{highSchoolLabel}</h4>
+                        <Input />
                     </div>
-                    <div className="info-field">
-                        <h4>Intended University</h4>
-                        <Input style={{ width: '70%' }} />
+                    <div className={`${infoField}`}>
+                        <h4>{intendedUniLabel}</h4>
+                        <Input />
                     </div>
-                    <div className="info-field">
-                        <h4>Location</h4>
-                        <Input value={this.state.location} style={{ width: '70%', display: 'block', marginBottom: 8 }} />
-                        <Button onClick={this.getLocation} type="primary" loading={this.state.locationLoading}>Get Location</Button>
+                    <div className={`${infoField}`}>
+                        <h4>{locationLabel}</h4>
+                        <Input value={location} className={`${locationInput}`}  />
+                        <Button 
+                            onClick={this.getLocation} 
+                            type={BUTTON_PRIMARY} 
+                            loading={locationLoading}
+                        >
+                            {getLocationLabel}
+                        </Button>
                     </div>
                 </Col>
-                <Col span={24} style={{ marginBottom: 32 }}>
-                    <div className="info-field">
-                        <h4>My Bio</h4>
-                        <TextArea style={{ width: '80%' }} rows={4} />
+                <Col span={24} className={`${mb2}`}>
+                    <div className={`${infoField}`}>
+                        <h4>{bioLabel}</h4>
+                        <TextArea className={`${w80}`} rows={4} />
                     </div>
                 </Col>
-                <Col span={24} style={{}}>
-                    <Button type="primary">Update Profile</Button>
+                <Col span={24}>
+                    <Button type={BUTTON_PRIMARY}>{EDIT_PROFILE_TITLE}</Button>
                 </Col>
             </Row>
         );
