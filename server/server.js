@@ -1,4 +1,3 @@
-
 const express = require('express');
 const next = require('next');
 const bodyParser = require('body-parser');
@@ -11,6 +10,7 @@ const dotenv = require('dotenv');
 
 const users = require('./routes/api/user');
 const userInViews = require('./lib/middlewares/userInViews');
+const routes = require('./routes');
 
 const dev = process.env.NODE_ENV !== 'production';
 const app = next({ dev });
@@ -63,6 +63,7 @@ app.prepare()
         // use routes
         server.use(userInViews());
         server.use('/api/users', users);
+        server.use('/', routes);
 
         // get all routes
         server.get('*', (req, res) => handle(req, res));
