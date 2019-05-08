@@ -7,16 +7,37 @@
 }
 
 .info-field {
-    margin-bottom: 3rem;
+    margin-bottom: 1.5rem;
 
     h4 {
-        margin-bottom: 0
+        margin-bottom: 0;
+        font-weight: bold;
     }
 
     .social-icons {
-        .icon {
-            cursor: pointer
+
+        & > * {
+            margin-right: 1rem;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+            font-size: 16; 
+            transition: color .2s ease;
+
+            &:hover {
+                color: #1890ff;
+            }
+            
         }
     }
+
+}
+
+.card {
+    background-color: #fff;
+    padding: 1.2rem;
+    border-radius: 3px;
 
 }

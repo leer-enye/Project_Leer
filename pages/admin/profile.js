@@ -23,7 +23,8 @@ class Profile extends Component {
         return (
             <Layout selectedMenuItem="profile">
                 <Row>
-                    <Col span={24} style={{ marginBottom: '2rem' }}>
+                    <Col span={24} style={{ marginBottom: 16 }}>
+                        
                         <Button 
                             type="primary" 
                             onClick={this.changeAction}>
