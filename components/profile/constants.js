@@ -40,19 +40,6 @@ export const VIEW_PROFILE_FIELDS = [
     },
 ];
 
-export const EDIT__FIELDS = {
-    ...VIEW_PROFILE_FIELDS,
-    
-    bioLabel: 'My Bio',
-    firstNameLabel: 'First Name',
-    getLocationLabel: 'Get Location',
-    lastNameLabel: 'Last Name',
-    locationLabel: 'Location',
-    profilePhotoLabel: 'Profile Photo',
-    profilePhotoPreviewAlt: 'Profile Preview',
-    uploadLabel: 'Upload',
-};
-
 export const EDIT_PROFILE_FIELDS = [
     {
         className: 'info-field',
