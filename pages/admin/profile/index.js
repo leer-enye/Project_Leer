@@ -12,7 +12,7 @@ class Profile extends Component {
     changeAction = () => {
         const { action } = this.state;
         const isViewAction = action === 'view';
-        return this.setState({ action: isViewAction ? 'view': 'edit' });
+        return this.setState({ action: isViewAction ? 'edit': 'view' });
     }
 
     render() {

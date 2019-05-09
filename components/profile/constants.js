@@ -1,16 +1,48 @@
-export const VIEW_PROFILE_FIELDS = {
-    bioLabel: 'Bio',
-    dateJoinedLabel: 'Date Joined',
-    fullNameLabel: 'Full Name',
-    highSchoolLabel: 'High School',
-    intendedUniLabel: 'Intended University',
-    scoreLabel: 'Score',
-    socialsLabel: 'Social Accounts',
-    usernameLabel: 'Username',  
-};
+export const VIEW_PROFILE_FIELDS = [
+    {
+        label: 'Score',
+        name: 'score',
+    },
+    {
+        className: 'info-field',
+        label: 'Username',
+        name: 'username',
+    },
+    {
+        className: 'info-field',
+        label: 'High School',
+        name: 'highSchool',
+    },
+    {
+        className: 'info-field',
+        label: 'Full Name',
+        name: 'fullName',
+    },
+    {
+        className: 'info-field',
+        label: 'Intended University',
+        name: 'intendedUni',
+    },
+    {
+        className: 'info-field',
+        label: 'Social Accounts',
+        name: 'socials',
+    },
+    {
+        className: 'info-field',
+        label: 'Date Joined',
+        name: 'dateJoined',
+    },
+    {
+        className: 'info-field',
+        label: 'Bio',
+        name: 'bio',
+    },
+];
 
-export const EDIT_PROFILE_FIELDS = {
+export const EDIT__FIELDS = {
     ...VIEW_PROFILE_FIELDS,
+    
     bioLabel: 'My Bio',
     firstNameLabel: 'First Name',
     getLocationLabel: 'Get Location',
@@ -21,7 +53,48 @@ export const EDIT_PROFILE_FIELDS = {
     uploadLabel: 'Upload',
 };
 
-export const EDIT_PROFILE_UPLOAD_LIST_TYPE = 'picture-card';
+export const EDIT_PROFILE_FIELDS = [
+    {
+        className: 'info-field',
+        label: 'First Name',
+        name: 'firstName',
+    },
+    {
+        className: 'info-field',
+        label: 'High School',
+        name: 'highSchool',
+    },
+    {
+        className: 'info-field',
+        label: 'Last Name',
+        name: 'lastName',
+    },
+    {
+        className: 'info-field',
+        label: 'Intended University',
+        name: 'intendedUni',
+    },
+    {
+        className: 'info-field',
+        extra: {
+            profilePhotoPreviewAlt: 'Profile Preview',
+            uploadLabel: 'Upload',
+            uploadListType: 'picture-card',
+        },
+        label: 'Profile Photo',
+        name: 'profilePhoto',
+    },
+    {
+        className: 'info-field',
+        label: 'Location',
+        name: 'location',
+    },
+    {
+        className: 'info-field',
+        label: 'Bio',
+        name: 'bio',
+    },
+];
 
 export const EDIT_PROFILE_TITLE = 'Update Profile';
 

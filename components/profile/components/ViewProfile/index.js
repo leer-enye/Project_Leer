@@ -23,30 +23,44 @@ const {
     textCenter,
 } = CLASS_NAMES;
 
-const { 
-    bioLabel,
-    dateJoinedLabel,
-    fullNameLabel,
-    highSchoolLabel,
-    intendedUniLabel,
-    scoreLabel,
-    socialsLabel,
-    usernameLabel,
-} = VIEW_PROFILE_FIELDS;
-
 const { twitter } = ICONS;
 
+const generateComponent = ( name, user ) => {
+    switch(name){
+    case 'bio':
+    case 'dateJoined':
+    case 'highSchool':
+    case 'intendedUni':
+    case 'username':
+        return <span>{user[name]}</span>;
+    
+    case 'fullName':
+        return <span>{`${user.firstName} ${user.lastName}`}</span>;
+
+    case 'socials':
+        return <span className={`${socialIcons}`}>
+            {
+                user.socials.map(social => (
+                    <a key={social.type}
+                        href={social.url}
+                        target={TARGET_BLANK}>
+                        <Icon
+                            className={`${socialIcon}`}
+                            type={social.type}
+                            theme={social.type !== twitter && SOCIAL_ICON_THEME}
+                        />
+                    </a>
+                ))
+            }
+        </span>;
+        
+    default:
+        return '';
+    }
+};
+
 const ViewProfile = ({ user }) => {
-    const { 
-        bio, 
-        dateJoined, 
-        firstName, 
-        highSchool, 
-        intendedUni, 
-        lastName, 
-        score, 
-        socials, 
-        username } = user;
+    const { score, username } = user;
     return ( 
         <Row className={`${card}`}> 
             <Col span={20} md={{ offset: 2, span: 18  }}>
@@ -55,59 +69,24 @@ const ViewProfile = ({ user }) => {
                         <Avatar size={150}>
                             {username[0].toUpperCase()}
                         </Avatar>
-                        <Title level={4}>{`${scoreLabel}: ${score} `}</Title>
+                        <Title level={4}>{`${VIEW_PROFILE_FIELDS[0].label}: ${score} `}</Title>
                     </Col>
-                    <Col span={12} md={{ span: 12 }} xs={24} className={`${mb2}`}>
-                        <div className={`${infoField}`}>
-                            <h4 >{usernameLabel}</h4>
-                            <span>{username || ''}</span>
-                        </div>
-                        <div className={`${infoField}`}>
-                            <h4>{fullNameLabel}</h4>
-                            <span>{`${firstName} ${lastName}`}</span>
-                        </div>
-                        <div className={`${infoField}`}>
-                            <h4>{socialsLabel}</h4>
-                            <span className={`${socialIcons}`}>
-                                {
-                                    socials.map(social => (
-                                        <a key={social.type} 
-                                            href={social.url}
-                                            target={TARGET_BLANK}>
-                                            <Icon 
-                                                className={`${socialIcon}`} 
-                                                type={social.type} 
-                                                theme={social.type !== twitter && SOCIAL_ICON_THEME}
-                                            />
-                                        </a>
-                                    ))
-                                }             
-                            </span>
-                        </div>
-                        
-                    </Col>
-                    <Col  span={12} md={12} xs={24}>
-                        <div className={`${infoField}`}>
-                            <h4>{highSchoolLabel}</h4>
-                            <span>{highSchool}</span>
-                        </div>
-                        <div className={`${infoField}`}>
-                            <h4>{intendedUniLabel}</h4>
-                            <span>{intendedUni}</span>
-                        </div>
-                        <div className={`${infoField}`}>
-                            <h4>{dateJoinedLabel}</h4>
-                            <span>{dateJoined}</span>
-                        </div>
-                        
-                    </Col>
-                    <Col span={24}>
-                        <div className={`${infoField}`}>
-                            <h4>{bioLabel}</h4>
-                            <p>
-                                {bio}
-                            </p>
-                        </div>
+                    <Col span={24} className={`${mb2}`}>                        
+                        {
+                            VIEW_PROFILE_FIELDS.slice(1).map((
+                                ({ label, name, className }) => (
+                                    <Col 
+                                        key={label} 
+                                        span={12} 
+                                        md={name === 'bio' ? 24: 12} xs={24}>
+                                        <div key={label} className={className || infoField}>
+                                            <h4>{label}</h4>
+                                            {generateComponent(name, user)}
+                                        </div>
+                                    </Col>
+                                )
+                            ))
+                        }
                     </Col>
                 </Row>
             </Col>

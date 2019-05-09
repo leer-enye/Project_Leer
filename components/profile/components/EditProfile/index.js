@@ -10,7 +10,6 @@ const {
     CLASS_NAMES,
     EDIT_PROFILE_FIELDS,
     EDIT_PROFILE_TITLE,
-    EDIT_PROFILE_UPLOAD_LIST_TYPE,
     ICONS,
 } = constants;
 
@@ -27,19 +26,6 @@ const {
 
 const { plus } = ICONS;
 
-const {
-    bioLabel,
-    firstNameLabel,
-    getLocationLabel,
-    highSchoolLabel,
-    intendedUniLabel,
-    lastNameLabel,
-    locationLabel,
-    profilePhotoLabel,
-    profilePhotoPreviewAlt,
-    uploadLabel,
-} = EDIT_PROFILE_FIELDS;
-
 class EditProfile extends Component {
     state = { 
         fileList: [], 
@@ -48,6 +34,70 @@ class EditProfile extends Component {
         previewImage: '', 
         previewVisible: false, 
     }
+
+    generateComponent = (name, label, extra) => {
+        const { fileList, location, locationLoading, previewImage, previewVisible } = this.state;
+        switch (name) {
+        case 'dateJoined':
+        case 'firstName':
+        case 'highSchool':
+        case 'intendedUni':
+        case 'lastName':
+        case 'username':
+            return <Input name={name} />;
+
+        case 'bio':
+            return <TextArea name={name} className={`${w80}`} rows={4} />;
+        
+        case 'location':
+            return (
+                <div>
+                    <Input value={location} className={`${locationInput}`} />
+                    <Button
+                        onClick={this.getLocation}
+                        type={BUTTON_PRIMARY}
+                        loading={locationLoading}
+                    >
+                        {`Get ${label}`}
+                    </Button>
+                </div>
+            );
+
+        case 'profilePhoto':
+            return (
+                <div>
+                    <Upload
+                        listType={extra.uploadListType}
+                        fileList={fileList}
+                        beforeUpload={() => false}
+                        onPreview={this.handleImagePreview}
+                        onChange={this.handleImageChange}
+                    >
+                        {fileList.length < 1 ? (
+                            <div>
+                                <Icon type={plus} />
+                                <div className={antUploadText}>{extra.uploadLabel}</div>
+                            </div>
+                        ) : null}
+                    </Upload>
+                    <Modal
+                        visible={previewVisible}
+                        footer={null}
+                        onCancel={this.handleImagePreviewCancel}
+                    >
+                        <img
+                            alt={extra.profilePhotoPreviewAlt}
+                            className={`${w100}`}
+                            src={previewImage}
+                        />
+                    </Modal>
+                </div>
+            );
+
+        default:
+            return null;
+        }
+    };
 
     handleImagePreview = ({ url, thumbUrl }) => {
         this.setState({
@@ -71,77 +121,27 @@ class EditProfile extends Component {
     }
 
     render(){
-        const { fileList, location, locationLoading, previewImage, previewVisible  } = this.state;
         return (
             <Row className={`${card}`} gutter={32}>
                 <Col span={24} className={`${mb2}`}>
                     <Title level={3}>{EDIT_PROFILE_TITLE}</Title>
                 </Col>
-                <Col span={12} md={{ span: 12 }} xs={24} className={`${mb1}`}>
-                    <div className={`${infoField}`}>
-                        <h4>{firstNameLabel}</h4>
-                        <Input />
-                    </div>
-                    <div className={`${infoField}`}>
-                        <h4>{lastNameLabel}</h4>
-                        <Input />
-                    </div>
-                    <div className={`${infoField}`}>
-                        <h4>{profilePhotoLabel}</h4>
-                        <Upload
-                            listType={EDIT_PROFILE_UPLOAD_LIST_TYPE}
-                            fileList={fileList}
-                            beforeUpload={() => false}
-                            onPreview={this.handleImagePreview}
-                            onChange={this.handleImageChange}
-                        >
-                            {fileList.length < 1 ? (
-                                <div>
-                                    <Icon type={plus} />
-                                    <div className={antUploadText}>{uploadLabel}</div>
-                                </div>
-                            ) : null}
-                        </Upload>
-                        <Modal
-                            visible={previewVisible}
-                            footer={null}
-                            onCancel={this.handleImagePreviewCancel}
-                        >
-                            <img
-                                alt={profilePhotoPreviewAlt}
-                                className={`${w100}`}
-                                src={previewImage}
-                            />
-                        </Modal>
-                    </div>
-
-                </Col>
-                <Col span={12} md={12} xs={24}>
-                    <div className={`${infoField}`}>
-                        <h4>{highSchoolLabel}</h4>
-                        <Input />
-                    </div>
-                    <div className={`${infoField}`}>
-                        <h4>{intendedUniLabel}</h4>
-                        <Input />
-                    </div>
-                    <div className={`${infoField}`}>
-                        <h4>{locationLabel}</h4>
-                        <Input value={location} className={`${locationInput}`}  />
-                        <Button 
-                            onClick={this.getLocation} 
-                            type={BUTTON_PRIMARY} 
-                            loading={locationLoading}
-                        >
-                            {getLocationLabel}
-                        </Button>
-                    </div>
-                </Col>
-                <Col span={24} className={`${mb2}`}>
-                    <div className={`${infoField}`}>
-                        <h4>{bioLabel}</h4>
-                        <TextArea className={`${w80}`} rows={4} />
-                    </div>
+                <Col span={24} md={{ span: 24 }} xs={24} className={`${mb1}`}>
+                    {
+                        EDIT_PROFILE_FIELDS.map((
+                            ({ label, name, className, extra }) => (
+                                <Col
+                                    key={label}
+                                    span={12}
+                                    md={name === 'bio' ? 24 : 12} xs={24}>
+                                    <div key={label} className={className || infoField}>
+                                        <h4>{label}</h4>
+                                        {this.generateComponent(name, label, extra)}
+                                    </div>
+                                </Col>
+                            )
+                        ))
+                    }
                 </Col>
                 <Col span={24}>
                     <Button type={BUTTON_PRIMARY}>{EDIT_PROFILE_TITLE}</Button>
