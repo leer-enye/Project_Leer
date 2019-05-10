@@ -1,0 +1,60 @@
+.mb-1 {
+    margin-bottom: 1rem;
+}
+
+.mb-2 {
+    margin-bottom: 2rem;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.w-80 {
+    width: 80%
+}
+
+.text-center {
+    text-align: center;
+}
+
+.info-field {
+    margin-bottom: 1.5rem;
+
+    h4 {
+        margin-bottom: 0;
+        font-weight: bold;
+    }
+
+    .location-input {
+        display: block;
+        margin-bottom: 8px
+    }
+
+    .social-icons {
+
+        & > * {
+            margin-right: 1rem;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+            font-size: 16; 
+            transition: color .2s ease;
+
+            &:hover {
+                color: #1890ff;
+            }
+            
+        }
+    }
+
+}
+
+.card {
+    background-color: #fff;
+    padding: 1.2rem;
+    border-radius: 3px;
+
+}

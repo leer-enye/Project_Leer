@@ -6,9 +6,7 @@
     height: 100vh;
 }
 
-.header,
-.content,
-.custom-footer {
+.header {
     background-color: #fff;
 }
 
@@ -21,6 +19,11 @@
 }
 
 .sider {
+    overflow: 'auto';
+    height: '100vh';
+    position: 'fixed';
+    left: 0;
+
     &__logo {
         color: #fff !important; //without this Ant Title doesn't change color
         text-align: center;
@@ -44,6 +47,10 @@
 }
 
 .content {
-    margin:  24px;
-    padding: 16px;
+    overflow: auto;
+
+    & > div {
+        margin:  24px;
+        padding: 16px;
+    }
 }
