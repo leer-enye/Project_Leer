@@ -7,15 +7,15 @@ const passport = require('passport');
 const cookieParser = require('cookie-parser');
 const session = require('express-session');
 const dotenv = require('dotenv');
-
 const userInViews = require('./lib/middlewares/userInViews');
 const routes = require('./routes');
 
 dotenv.config();
-const dev = process.env.NODE_ENV !== 'production';
+const { NODE_ENV, PORT, DATABASE, SESSION_SECRET } = process.env;
+const dev = NODE_ENV !== 'production';
 const app = next({ dev });
 const handle = app.getRequestHandler();
-const PORT = process.env.PORT || 5000;
+const _PORT = PORT || 5000;
 
 require('./lib/config/passport');
 
@@ -24,9 +24,9 @@ app.prepare()
         const server = express();
         // mongoose connection to remote database mlab
         mongoose
-            .connect(process.env.DATABASE, { useNewUrlParser: true })
+            .connect(DATABASE, { useNewUrlParser: true })
             .then(() => {
-                console.log(`MongoDB connected to ${process.env.DATABASE}`);
+                console.log(`MongoDB connected to ${DATABASE}`);
             })
             .catch(err => {
                 console.log(err);
@@ -50,10 +50,10 @@ app.prepare()
             cookie: {},
             resave: false,
             saveUninitialized: true,
-            secret: process.env.SESSION_SECRET,
+            secret: SESSION_SECRET,
         };
 
-        if (server.get('env') === 'production') {
+        if (!dev) {
             sess.cookie.secure = true; // serve secure cookies, requires https
         }
 
@@ -72,7 +72,7 @@ app.prepare()
         // server output
         server.listen(PORT, err => {
             if (err) throw err;
-            console.log(`Server ready on http://localhost:${PORT}`);
+            console.log(`Server ready on http://localhost:${_PORT}`);
         });
     })
     .catch(ex => {
