@@ -11,12 +11,12 @@ const dotenv = require('dotenv');
 const userInViews = require('./lib/middlewares/userInViews');
 const routes = require('./routes');
 
+dotenv.config();
 const dev = process.env.NODE_ENV !== 'production';
 const app = next({ dev });
 const handle = app.getRequestHandler();
 const PORT = process.env.PORT || 5000;
 
-dotenv.config();
 require('./lib/config/passport');
 
 app.prepare()
