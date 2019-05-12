@@ -8,7 +8,6 @@ const cookieParser = require('cookie-parser');
 const session = require('express-session');
 const dotenv = require('dotenv');
 
-const users = require('./routes/api/user');
 const userInViews = require('./lib/middlewares/userInViews');
 const routes = require('./routes');
 
@@ -62,7 +61,6 @@ app.prepare()
 
         // use routes
         server.use(userInViews());
-        server.use('/api/users', users);
         server.use('/', routes);
 
         // get all routes
