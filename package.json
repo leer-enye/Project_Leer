@@ -40,7 +40,8 @@
     "react-dom": "16.8.6",
     "redux": "^4.0.1",
     "redux-saga": "^1.0.2",
-    "sass-loader": "^7.1.0"
+    "sass-loader": "^7.1.0",
+    "session-file-store": "^1.2.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.4.3",
