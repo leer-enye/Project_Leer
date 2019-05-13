@@ -70,7 +70,7 @@ app.prepare()
         });
 
         // server output
-        server.listen(PORT, err => {
+        server.listen(_PORT, err => {
             if (err) throw err;
             console.log(`Server ready on http://localhost:${_PORT}`);
         });
