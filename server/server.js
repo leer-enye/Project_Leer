@@ -7,7 +7,7 @@ const passport = require('passport');
 const cookieParser = require('cookie-parser');
 const session = require('express-session');
 const dotenv = require('dotenv');
-const FileStore = require('session-file-store');
+const FileStore = require('session-file-store')(session);
 const userInViews = require('./lib/middlewares/userInViews');
 const routes = require('./routes');
 
@@ -25,7 +25,10 @@ app.prepare()
         const server = express();
         // mongoose connection to remote database mlab
         mongoose
-            .connect(DATABASE, { useNewUrlParser: true })
+            .connect(DATABASE, {
+                connectTimeoutMS: 4000,
+                useNewUrlParser: true,
+            })
             .then(() => {
                 console.log(`MongoDB connected to ${DATABASE}`);
             })
