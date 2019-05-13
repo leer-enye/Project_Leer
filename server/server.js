@@ -7,6 +7,7 @@ const passport = require('passport');
 const cookieParser = require('cookie-parser');
 const session = require('express-session');
 const dotenv = require('dotenv');
+const FileStore = require('session-file-store');
 const userInViews = require('./lib/middlewares/userInViews');
 const routes = require('./routes');
 
@@ -51,6 +52,7 @@ app.prepare()
             resave: false,
             saveUninitialized: true,
             secret: SESSION_SECRET,
+            store: new FileStore(),
         };
 
         if (!dev) {
