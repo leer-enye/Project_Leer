@@ -9,6 +9,11 @@ const { ViewProfile, EditProfile } = components;
 class Profile extends Component {
     state = { action: 'view' }
 
+    static async getInitialProps({ req }){
+        console.log(req);
+        return {};
+    }
+
     changeAction = () => {
         const { action } = this.state;
         const isViewAction = action === 'view';
