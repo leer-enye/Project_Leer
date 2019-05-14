@@ -1,0 +1,45 @@
+.mb-0 {
+    margin-bottom: 0;
+}
+
+.mb-1 {
+    margin-bottom: 1rem;
+}
+
+.mb-2 {
+    margin-bottom: 2rem;
+}
+
+.mt-4 {
+    margin-top: 4rem; 
+}
+
+.challengers-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .challenger-info {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+
+        img {
+            border-radius: 50%;
+            height: 150px;
+            width: 150px;
+            object-fit: cover;
+
+            @media (max-width: 768px){
+                height: 100px;
+                width: 100px;
+            }
+        }
+    }
+
+
+}
+
+.text-center {
+    text-align: center;
+}
