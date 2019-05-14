@@ -20,7 +20,6 @@ export const CHALLENGE_PAGES_HEADERS = {
 };
 
 export const CLASSNAMES = {
-
     challengerInfo: 'challenger-info',
     challengersBox: 'challengers-box',
     courseCard: 'course-card',
@@ -35,7 +34,6 @@ export const CLASSNAMES = {
     opponentCardImg: 'opponent-card__img',
     opponentCardTextContent: 'opponent-card__text-content',
     textCenter: 'text-center',
-    
 };
 
 export const DEFAULT_PROPS = {
@@ -54,7 +52,6 @@ export const DEFAULT_PROPS = {
             { id: 5, name: 'Chemistry' },
             { id: 6, name: 'Government' },
         ],
-
     },
     opponentSelect: {
         opponents: [
