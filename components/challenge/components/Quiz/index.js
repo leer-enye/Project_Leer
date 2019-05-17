@@ -1,63 +1,80 @@
 import React from 'react';
 import { Row, Col, Card } from 'antd';
+import * as constants from '../../constants';
 import './index.scss';
 
-const Quiz = () => (
-    <div className='quiz-card'>
-        <header className='quiz-card__header'>
-            <div className='challenger-info'>
-                <img src='/static/images/uche.jpg' alt='challenger' />
-                <div className=''>
-                    <h3>Uche</h3>
-                    <p>20</p>
-                </div>
-            </div>
-            <div className='timer'>
-                <h4 className='timer__label'>Time Left</h4>
-                <span className='timer__time'>20</span>
-            </div>
-            <div className='challenger-info challenger-info--1'>
-                <img src='/static/images/uche.jpg' alt='challenger' />
-                <div className=''>
-                    <h3>Uche</h3>
-                    <p>20</p>
-                </div>
-            </div>
+const { 
+    CLASS_NAMES,
+    DEFAULT_PROPS,
+    EXTRA_TEXTS,
+} = constants;
+const {
+    challengerInfo,
+    challengerInfo1,
+    quizCard,
+    quizCardHeader,
+    quizCardMain,
+    quizCardOption,
+    quizCardQuestion,
+    timer,
+    timerLabel,
+    timerTime,
+} = CLASS_NAMES;
+const { quiz } = DEFAULT_PROPS;
+const { timeLeft } = EXTRA_TEXTS;
+const { defaultChallengers, question } = quiz;
+
+const Quiz = ({ challengers, quizItem }) => (
+    <div className={quizCard}>
+        <header className={quizCardHeader}>
+            {
+                challengers.map(({ id, image, score, username }, index) => (
+                    <React.Fragment key={id}>
+                        <div 
+                            className={`${challengerInfo} ${(index === 1) ? challengerInfo1 : ''}`}
+                        >
+                            <img src={image} alt={username} />
+                            <div>
+                                <h3>{username}</h3>
+                                <p>{score}</p>
+                            </div>
+                        </div>
+                        {
+                            (index === 0) ?
+                                <div className={timer}>
+                                    <h4 className={timerLabel}>{timeLeft}</h4>
+                                    <span className={timerTime}>20</span>
+                                </div>
+                                : null
+                        }
+                    </React.Fragment>
+                ))
+            }
         </header>
-        <div className='quiz-card__main'>
-            <p className='quiz-card__question'>
-                Eu magna ad sunt consequat ipsum veniam. Tempor 
-                occaecat qui labore id velit irure occaecat irure 
-                reprehenderit consequat. Veniam veniam excepteur 
-                minim eu incididunt et ad esse exercitation amet 
-                amet.
+        <div className={quizCardMain}>
+            <p className={quizCardQuestion}>
+                { quizItem.question }
             </p>
             <div>
                 <Row gutter={16}>
-                    <Col span={12} md={12} xs={24}>
-                        <Card className='quiz-card__option' hoverable>
-                            A. Jude
-                        </Card>
-                    </Col>
-                    <Col span={12} md={12} xs={24}>
-                        <Card className='quiz-card__option' hoverable>
-                            B. Uche
-                        </Card>
-                    </Col>
-                    <Col span={12} md={12} xs={24}>
-                        <Card className='quiz-card__option' hoverable>
-                            C. Tosin
-                        </Card>
-                    </Col>
-                    <Col span={12} md={12} xs={24}>
-                        <Card className='quiz-card__option' hoverable>
-                            D. Manny
-                        </Card>
-                    </Col>
+                    {
+                        quizItem.options.map(({ id, value }) => (
+                            <Col key={id} span ={12} md = {12} xs = {24} >
+                                <Card className={quizCardOption} hoverable>
+                                    { value }
+                                </Card>
+                            </Col>
+                        ))
+                    }
                 </Row>
             </div>
         </div>
     </div>
 );
+
+Quiz.defaultProps = {
+    challengers: defaultChallengers,
+    quizItem: question,
+};
 
 export default Quiz;
