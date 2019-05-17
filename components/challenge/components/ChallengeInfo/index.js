@@ -5,13 +5,13 @@ import {
     BUTTON_SIZE_LG,
     BUTTON_TYPE_PRIMARY,
     CHALLENGE_PAGES_HEADERS,
-    CLASSNAMES,
+    CLASS_NAMES,
     DEFAULT_PROPS,
-    DUMMY_PARAGRAPH,
     EXTRA_TEXTS,
     FLEX_ROW_JUSTIFY_CENTER,
     FLEX_ROW_TYPE
 } from "../../constants";
+import { DUMMY_PARAGRAPH } from '../../../common/constants';
 import './index.scss';
 
 const { Title, Paragraph } = Typography;
@@ -26,16 +26,16 @@ const {
     mb2,
     mt4,
     textCenter,
-} = CLASSNAMES;
+} = CLASS_NAMES;
 const { challengeInfo } = DEFAULT_PROPS;
 const { startNow, vs } = EXTRA_TEXTS;
 
 const ChallengeInfo = ({ challengers, next }) => (
     <section>
         <Title level={3}> {challengeInfoLabel} </Title>
-        <Row 
-            gutter={16} 
-            type={ FLEX_ROW_TYPE }
+        <Row
+            gutter={16}
+            type={FLEX_ROW_TYPE}
             justify={FLEX_ROW_JUSTIFY_CENTER}
             className={`${mt4} ${mb2}`}
         >
@@ -50,7 +50,7 @@ const ChallengeInfo = ({ challengers, next }) => (
                                     <p>{level}</p>
                                 </div>
                                 {
-                                    (index === 0) ? <Title level={1}> {vs} </Title>: null
+                                    (index === 0) ? <Title level={1}> {vs} </Title> : null
                                 }
                             </React.Fragment>
                         ))
