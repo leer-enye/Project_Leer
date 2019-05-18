@@ -35,7 +35,7 @@ const ChallengeResult = ({ challengers, resultInfo }) => (
             {
                 challengers.map(({ id, image, score, status, username }, index) => (
                     <React.Fragment key={id}>
-                        <div className={`${challengerInfo} ${(status === 'win')?winner: loser}`}>
+                        <div className={`${challengerInfo} ${(status === 'win') ? winner: loser}`}>
                             <img src={image} alt={username} />
                             <div className=''>
                                 <h3 className={challengerInfoName}>{username}</h3>
