@@ -1,7 +1,7 @@
 const express = require('express');
 const passport = require('passport');
-const secured = require('../../lib/middlewares/secured');
-const UserController = require('../../controllers/user');
+// const secured = require('../../lib/middlewares/secured');
+const AuthController = require('../../controllers/auth');
 
 const router = express.Router();
 module.exports = app => {
@@ -12,7 +12,7 @@ module.exports = app => {
 	 * @desc Tests user route
 	 * @access Public
 	 */
-    router.get('/test', UserController.test);
+    router.get('/test', AuthController.test);
 
     /**
 	 * @route GET api/users/login
@@ -24,25 +24,26 @@ module.exports = app => {
         passport.authenticate('auth0', {
             scope: 'openid email profile',
         }),
-        UserController.login
+        AuthController.login
     );
     /**
 	 * @route GET api/users/callback
 	 * @desc Call back url for users registration and login
 	 * @access Public
 	 */
-    router.get('/callback', UserController.callback);
+    router.get('/callback', AuthController.callback);
 
     /**
 	 * @route GET api/users/users
 	 * @desc Get users data after login
 	 * @access Private
 	 */
-    router.get('/users', secured(), UserController.users);
+    // router.get('/users', secured(), AuthController.users);
+    router.get('/users', AuthController.users);
     /**
 	 * @route GET api/users/logout
 	 * @desc users log out route
 	 * @access Public
 	 */
-    router.get('/logout', UserController.logout);
+    router.get('/logout', AuthController.logout);
 };
