@@ -7,7 +7,9 @@ const passport = require('passport');
 const cookieParser = require('cookie-parser');
 const session = require('express-session');
 const dotenv = require('dotenv');
-const FileStore = require('session-file-store')(session);
+// const FileStore = require('session-file-store')(session);
+const MongoStore = require('connect-mongo')(session);
+const path = require('path');
 const userInViews = require('./lib/middlewares/userInViews');
 const routes = require('./routes');
 
@@ -35,9 +37,12 @@ app.prepare()
             .catch(err => {
                 console.log(err);
             });
-        // passport middleware
-        server.use(passport.initialize());
-        server.use(passport.session());
+
+        server.use('/_next', express.static(path.join(__dirname, '../.next')));
+        server.use(
+            '/static',
+            express.static(path.join(__dirname, '../static'))
+        );
 
         // body parser middleware
         server.use(
@@ -48,21 +53,25 @@ app.prepare()
         server.use(bodyParser.json());
         // morgan middleware
         server.use(morgan('dev'));
-        server.use(cookieParser());
+        server.use(cookieParser(SESSION_SECRET));
+
         // config express-session
         const sess = {
-            cookie: {},
+            cookie: { maxAge: 1800000 },
             resave: false,
-            saveUninitialized: true,
+            rooling: true,
+            saveUninitialized: false,
             secret: SESSION_SECRET,
-            store: new FileStore(),
+            store: new MongoStore({ mongooseConnection: mongoose.connection }),
         };
 
-        if (!dev) {
-            sess.cookie.secure = true; // serve secure cookies, requires https
-        }
+        sess.cookie.secure = !dev; // serve secure cookies, requires https
 
         server.use(session(sess));
+
+        // passport middleware
+        server.use(passport.initialize());
+        server.use(passport.session());
 
         // use routes
         server.use(userInViews());
@@ -79,6 +88,12 @@ app.prepare()
             if (err) throw err;
             console.log(`Server ready on http://localhost:${_PORT}`);
         });
+
+        // eslint-disable-next-line vars-on-top
+        // const io = require('socket.io').listen(server);
+        // eslint-disable-next-line global-require
+        // require('../sockets/base')(io);
+        // module.exports = function (io) { // io stuff here... io.on('conection..... }
     })
     .catch(ex => {
         console.error(ex.stack);
