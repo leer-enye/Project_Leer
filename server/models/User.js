@@ -5,28 +5,38 @@ const { Schema } = mongoose;
 // create schema
 const UserSchema = new Schema(
     {
-        avatar: {
+        accessToken: {
             type: String,
         },
         email: {
+            dropDups: true,
             required: true,
             type: String,
-        },
-        firstName: {
-            required: true,
-            type: String,
+            unique: true,
         },
         isAdmin: {
             default: false,
             type: Boolean,
         },
-        lastName: {
+        name: {
             required: true,
             type: String,
         },
 
         password: {
+            type: String,
+        },
+
+        picture: {
             required: true,
+            type: String,
+        },
+        providerId: {
+            required: true,
+            type: String,
+        },
+        providerName: {
+            default: 'local',
             type: String,
         },
     },
