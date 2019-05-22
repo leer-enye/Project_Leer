@@ -21,14 +21,7 @@ module.exports = {
         try {
             // eslint-disable-next-line no-unused-vars
             await passport.authenticate('auth0', (err, user, info) => {
-                console.log(info);
                 console.log('Inside passport.authenticate() callback');
-                console.log(
-                    `req.session.passport: ${JSON.stringify(
-                        req.session.passport
-                    )}`
-                );
-                console.log(`req.user: ${JSON.stringify(req.user)}`);
                 if (err) {
                     return next(err);
                 }
@@ -52,6 +45,7 @@ module.exports = {
                 });
             })(req, res, next);
         } catch (err) {
+            console.log(err);
             res.status(INTERNAL_SERVER_ERROR).send({
                 status: ERROR,
                 message: HttpStatus.getStatusText(INTERNAL_SERVER_ERROR),
@@ -106,11 +100,14 @@ module.exports = {
     },
     users: async (req, res) => {
         try {
+            console.log(req.session.id);
+            console.log(req.session.cookie);
             const isAuthenticated = await req.isAuthenticated();
             console.log(`User authenticated? ${isAuthenticated}`);
             if (isAuthenticated) {
-                const { _json } = await req.user;
-                const user = _json;
+                const user = await req.user;
+
+                console.log(user);
                 res.status(OK).send({
                     status: SUCCESS,
                     data: { user },
