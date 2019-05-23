@@ -16,18 +16,36 @@ const {
 // Create and Save a new User
 exports.create = async (req, res) => {
     try {
-        const { name, description } = req.body;
+        const {
+            accessToken,
+            email,
+            name,
+            picture,
+            providerId,
+            providerName,
+        } = req.body;
+
+        if (!email) {
+            return res.status(BAD_REQUEST).send({
+                status: FAIL,
+                data: { email: 'Email is required' },
+            });
+        }
 
         if (!name) {
             return res.status(BAD_REQUEST).send({
                 status: FAIL,
-                data: { name: 'User name is required' },
+                data: { name: 'Name is required' },
             });
         }
 
         const user = new User({
-            description,
+            accessToken,
+            email,
             name,
+            picture,
+            providerId,
+            providerName,
         });
 
         const data = await user.save();
@@ -47,11 +65,11 @@ exports.create = async (req, res) => {
 // Retrieve and return all user from the database.
 exports.findAll = async (req, res) => {
     try {
-        const subjects = await User.find();
+        const users = await User.find();
 
         res.status(OK).send({
             status: SUCCESS,
-            data: { subjects },
+            data: { users },
         });
     } catch (err) {
         res.status(INTERNAL_SERVER_ERROR).send({
@@ -63,14 +81,14 @@ exports.findAll = async (req, res) => {
 
 // Find a single user with a subjectId
 exports.findOne = async (req, res) => {
-    const { subjectId } = req.params;
+    const { userId } = req.params;
 
     try {
-        const user = await User.findById(subjectId);
+        const user = await User.findById(userId);
         if (!user) {
             return res.status(NOT_FOUND).send({
                 status: FAIL,
-                data: { id: `User not found with id ${subjectId}` },
+                data: { id: `User not found with id ${userId}` },
             });
         }
         res.status(OK).send({
@@ -81,7 +99,7 @@ exports.findOne = async (req, res) => {
         if (err.kind === 'ObjectId') {
             return res.status(NOT_FOUND).send({
                 status: FAIL,
-                data: { id: `User not found with id ${subjectId}` },
+                data: { id: `User not found with id ${userId}` },
             });
         }
         return res.status(INTERNAL_SERVER_ERROR).send({
@@ -93,32 +111,36 @@ exports.findOne = async (req, res) => {
 
 // Update a user identified by the subjectId in the request
 exports.update = async (req, res) => {
-    const { name, description } = req.body;
-    const { subjectId } = req.params;
+    const { userId } = req.params;
+    const newUser = {};
+
+    const entries = Object.entries(req.body);
+
+    // eslint-disable-next-line no-restricted-syntax
+    for (const [key, value] of entries) {
+        if (value) {
+            newUser[key] = value;
+        }
+    }
 
     try {
         // Validate Request
-        if (!name) {
+        if (!newUser) {
             return res.status(BAD_REQUEST).send({
                 status: FAIL,
-                data: { name: 'User  name is empty' },
+                data: { User: 'User has empty values' },
             });
         }
 
         // Find user and update it with the request body
-        const user = await User.findByIdAndUpdate(
-            subjectId,
-            {
-                description,
-                name,
-            },
-            { new: true }
-        );
+        const user = await User.findByIdAndUpdate(userId, newUser, {
+            new: true,
+        });
 
         if (!user) {
             return res.status(NOT_FOUND).send({
                 status: FAIL,
-                data: { id: `User not found with id ${subjectId}` },
+                data: { id: `User not found with id ${userId}` },
             });
         }
         res.status(OK).send({
@@ -129,7 +151,7 @@ exports.update = async (req, res) => {
         if (err.kind === 'ObjectId') {
             return res.status(NOT_FOUND).send({
                 status: FAIL,
-                data: { id: `User not found with id ${subjectId}` },
+                data: { id: `User not found with id ${userId}` },
             });
         }
         return res.status(INTERNAL_SERVER_ERROR).send({
@@ -141,15 +163,15 @@ exports.update = async (req, res) => {
 
 // Delete a user with the specified subjectId in the request
 exports.delete = async (req, res) => {
-    const { subjectId } = req.params;
+    const { userId } = req.params;
 
     try {
-        const status = await User.findByIdAndRemove(subjectId);
+        const status = await User.findByIdAndRemove(userId);
 
         if (!status) {
             return res.status(NOT_FOUND).send({
                 status: FAIL,
-                data: { id: `User not found with id ${subjectId}` },
+                data: { id: `User not found with id ${userId}` },
             });
         }
         res.status(OK).send({
@@ -160,7 +182,7 @@ exports.delete = async (req, res) => {
         if (err.kind === 'ObjectId' || err.name === 'NotFound') {
             return res.status(NOT_FOUND).send({
                 status: FAIL,
-                data: { id: `User not found with id ${subjectId}` },
+                data: { id: `User not found with id ${userId}` },
             });
         }
         return res.status(INTERNAL_SERVER_ERROR).send({
