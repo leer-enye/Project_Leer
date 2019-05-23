@@ -60,7 +60,7 @@ export const DEFAULT_PROPS = {
                     { id: 3, value: 'Jude' },
                     { id: 4, value: 'Tosin' },
                 ],
-                question: DUMMY_PARAGRAPH,
+                question: DUMMY_PARAGRAPH.substring(0, 60),
             },
             {
                 answer: 3,
@@ -71,7 +71,7 @@ export const DEFAULT_PROPS = {
                     { id: 3, value: 'Eric' },
                     { id: 4, value: 'Merdoth' },
                 ],
-                question: DUMMY_PARAGRAPH,
+                question: DUMMY_PARAGRAPH.substring(0, 90),
             },
             {
                 answer: 1,
@@ -82,7 +82,7 @@ export const DEFAULT_PROPS = {
                     { id: 3, value: 'Michael' },
                     { id: 4, value: 'Miracle' },
                 ],
-                question: DUMMY_PARAGRAPH,
+                question: DUMMY_PARAGRAPH.substring(0, 70),
             },
             {
                 answer: 2,
@@ -93,7 +93,7 @@ export const DEFAULT_PROPS = {
                     { id: 3, value: 'Jude' },
                     { id: 4, value: 'Tosin' },
                 ],
-                question: DUMMY_PARAGRAPH,
+                question: DUMMY_PARAGRAPH.substring(0, 80),
             },
         ],
     },

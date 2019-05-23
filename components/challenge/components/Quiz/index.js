@@ -1,5 +1,5 @@
 import React from 'react';
-import { Row, Col, Card } from 'antd';
+import { Row, Col, Card, Progress } from 'antd';
 import * as constants from '../../constants';
 import './index.scss';
 
@@ -18,13 +18,12 @@ const {
     quizCardQuestion,
     timer,
     timerLabel,
-    timerTime,
 } = CLASS_NAMES;
 const { quiz } = DEFAULT_PROPS;
-const { timeLeft } = EXTRA_TEXTS;
+const { circle, timeLeftLabel } = EXTRA_TEXTS;
 const { defaultChallengers, question } = quiz;
 
-const Quiz = ({ challengers, quizItem }) => (
+const Quiz = ({ challengers, quizItem, timeLeft, onAnswer }) => (
     <div className={quizCard}>
         <header className={quizCardHeader}>
             {
@@ -42,8 +41,17 @@ const Quiz = ({ challengers, quizItem }) => (
                         {
                             (index === 0) ?
                                 <div className={timer}>
-                                    <h4 className={timerLabel}>{timeLeft}</h4>
-                                    <span className={timerTime}>20</span>
+                                    <h4 className={timerLabel}>{timeLeftLabel}</h4>
+                                    <div>
+                                        <Progress 
+                                            type={circle}
+                                            width={48} 
+                                            // divide by allocated time 
+                                            // for each question (Default: 10s)
+                                            percent={(timeLeft/10) * 100}
+                                            format={() => `${timeLeft}s`} 
+                                        />
+                                    </div>
                                 </div>
                                 : null
                         }
@@ -60,7 +68,7 @@ const Quiz = ({ challengers, quizItem }) => (
                     {
                         quizItem.options.map(({ id, value }) => (
                             <Col key={id} span ={12} md = {12} xs = {24} >
-                                <Card className={quizCardOption} hoverable>
+                                <Card onClick={onAnswer} className={quizCardOption} hoverable>
                                     { value }
                                 </Card>
                             </Col>
