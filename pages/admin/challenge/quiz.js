@@ -34,9 +34,10 @@ class QuizPage extends Component {
         const { quizActive } = this.state;
         if (!quizActive){
             this.setState({ questionIndex: 0, quizActive: true  }, () => {
-                return this.startTimer();
+                this.startTimer();
             });
         }
+
     }
 
     componentWillUnmount(){
@@ -80,7 +81,7 @@ class QuizPage extends Component {
         }
 
         // if all questions have been answered, redirect to result page
-        this.setState( { questionIndex: 0, quizActive: false }, () => {
+        return this.setState( { questionIndex: 0, quizActive: false }, () => {
             Router.push('/admin/challenge/challenge-result');
         });
     }
