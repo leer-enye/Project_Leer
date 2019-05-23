@@ -1,3 +1,24 @@
+import { DUMMY_PARAGRAPH } from '../common/constants';
+
+export const BUTTON_SIZE_LG = 'large';
+export const BUTTON_TYPE_PRIMARY = 'primary';
+export const FLEX_ROW_TYPE = 'flex';
+export const FLEX_ROW_JUSTIFY_CENTER = 'center';
+export const FLEX_ROW_ALIGN_CENTER = 'middle';
+export const USER_ICON_TYPE = 'user';
+export const SELECT_RANDOMLY = 'Select Randomly';
+
+export const EXTRA_TEXTS = {
+    backToHome: 'Back to Home',
+    details: 'Details',
+    greatGame: 'Great Game!',
+    startNow: 'Start Now',
+    timeLeft: 'Time Left',
+    viewResults: 'View Results',
+    vs: 'Vs',
+    
+};
+
 export const CHALLENGE_MODES = [
     {
         icon: 'user',
@@ -19,21 +40,37 @@ export const CHALLENGE_PAGES_HEADERS = {
     'opponentSelectLabel': 'Choose Opponent',
 };
 
-export const CLASSNAMES = {
+export const CLASS_NAMES = {
     challengerInfo: 'challenger-info',
+    challengerInfo1: 'challenger-info--1',
+    challengerInfoName: 'challenger-info__name',
+    challengerInfoScore: 'challenger-info__score',
     challengersBox: 'challengers-box',
     courseCard: 'course-card',
+    loser: 'loser',
     mb1: 'mb-1',
     mb4: 'mb-4',
     modeCard: 'mode-card',
     modeCardIcon: 'mode-card__icon',
+    mr1: 'mr-1',
     mt1 : 'mt-1',
     mt4: 'mt-4',    
     onlineIcon: 'online-icon',
     opponentCard: 'opponent-card',
     opponentCardImg: 'opponent-card__img',
     opponentCardTextContent: 'opponent-card__text-content',
+    quizCard: 'quiz-card',
+    quizCardHeader: 'quiz-card__header',
+    quizCardMain: 'quiz-card__main',
+    quizCardOption: 'quiz-card__option',
+    quizCardQuestion: 'quiz-card__question',
+    resultCard: 'result-card',
     textCenter: 'text-center',
+    timer: 'timer',
+    timerLabel: 'timer__label',
+    timerTime: 'timer__time',
+    vsDivider: 'vs-divider',
+    winner: 'winner',
 };
 
 export const DEFAULT_PROPS = {
@@ -42,6 +79,25 @@ export const DEFAULT_PROPS = {
             { id: 1, image: '/static/images/uche.jpg', level: 'Level 1', username: 'Uche' },
             { id: 2, image: '/static/images/uche.jpg', level: 'Level 2', username: 'Manny' },
         ],
+    },
+    challengeResult: {
+        defaultChallengers: [
+            { 
+                id: 1,
+                image: '/static/images/uche.jpg',
+                score: 120, 
+                status: 'win', 
+                username: 'Uche',
+            },
+            { 
+                id: 2, 
+                image: '/static/images/uche.jpg', 
+                score: 100, 
+                status: 'lose', 
+                username: 'Manny',
+            },
+        ],
+        defaultResultInfo: 'YOU WON',
     },
     courseSelect: {
         subjects: [
@@ -63,27 +119,35 @@ export const DEFAULT_PROPS = {
             { id: 6, image: '/static/images/uche.jpg', username: 'Ola' },
         ],
     },
+    quiz: {
+        defaultChallengers: [
+            {
+                id: 1,
+                image: '/static/images/uche.jpg',
+                score: 120,
+                status: 'win',
+                username: 'Uche',
+            },
+            {
+                id: 2,
+                image: '/static/images/uche.jpg',
+                score: 100,
+                status: 'lose',
+                username: 'Manny',
+            },
+        ],
+        question: {
+            answer: 1,
+            id: 1,
+            options: [
+                { id: 1, value: 'Manny' },
+                { id: 2, value: 'Uche' },
+                { id: 3, value: 'Jude' },
+                { id: 4, value: 'Tosin' },
+            ],
+            question: DUMMY_PARAGRAPH,
+        },
+            
+    },
 };
 
-export const BUTTON_SIZE_LG = 'large';
-export const BUTTON_TYPE_PRIMARY = 'primary';
-export const DUMMY_PARAGRAPH = `
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
-eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-Ut enim ad minim veniam, quis nostrud exercitation ullamco 
-laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
-dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-fugiat nulla pariatur. Excepteur sint occaecat cupidatat non 
-proident, sunt in culpa qui officia deserunt mollit anim id est 
-laborum.`;
-export const FLEX_ROW_TYPE = 'flex';
-export const FLEX_ROW_JUSTIFY_CENTER = 'center';
-export const FLEX_ROW_ALIGN_CENTER = 'middle';
-export const USER_ICON_TYPE = 'user';
-export const SELECT_RANDOMLY = 'Select Randomly';
-
-export const EXTRA_TEXTS = {
-    details: 'Details',
-    startNow: 'Start Now',
-    vs: 'Vs',
-};
