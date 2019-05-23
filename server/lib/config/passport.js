@@ -26,23 +26,31 @@ const strategy = new Auth0Strategy(
         const providerId = providerDetail[1];
         const providerName = providerDetail[0];
 
+        const newUser = {
+            accessToken,
+            email,
+            name,
+            picture,
+            providerId,
+            providerName,
+        };
+
+        const user = new User(newUser);
+        let updatedData = {};
         const userExists = await User.findOne({ email });
+
         if (userExists) {
+            // Update User Access Token
             console.log(userExists);
-        } else {
-            const user = new User({
-                accessToken,
-                email,
-                name,
-                picture,
-                providerId,
-                providerName,
+            const { id } = userExists;
+            // Find user and update it with the request body
+            updatedData = await User.findByIdAndUpdate(id, newUser, {
+                new: true,
             });
-
-            const data = await user.save();
-
-            return done(null, data);
+        } else {
+            updatedData = await user.save();
         }
+        return done(null, updatedData);
     }
 );
 
