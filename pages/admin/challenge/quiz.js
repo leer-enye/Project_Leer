@@ -32,12 +32,12 @@ class QuizPage extends Component {
 
     componentDidMount(){
         const { quizActive } = this.state;
+        
         if (!quizActive){
             this.setState({ questionIndex: 0, quizActive: true  }, () => {
                 this.startTimer();
             });
         }
-
     }
 
     componentWillUnmount(){

@@ -42,16 +42,14 @@ const Quiz = ({ challengers, quizItem, timeLeft, onAnswer }) => (
                             (index === 0) ?
                                 <div className={timer}>
                                     <h4 className={timerLabel}>{timeLeftLabel}</h4>
-                                    <div>
-                                        <Progress 
-                                            type={circle}
-                                            width={48} 
-                                            // divide by allocated time 
-                                            // for each question (Default: 10s)
-                                            percent={(timeLeft/10) * 100}
-                                            format={() => `${timeLeft}s`} 
-                                        />
-                                    </div>
+                                    <Progress 
+                                        type={circle}
+                                        width={48} 
+                                        // divide by allocated time 
+                                        // for each question (Default: 10s)
+                                        percent={(timeLeft/10) * 100}
+                                        format={() => `${timeLeft}s`} 
+                                    />
                                 </div>
                                 : null
                         }
