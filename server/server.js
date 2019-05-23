@@ -7,7 +7,6 @@ const passport = require('passport');
 const cookieParser = require('cookie-parser');
 const session = require('express-session');
 const dotenv = require('dotenv');
-// const FileStore = require('session-file-store')(session);
 const MongoStore = require('connect-mongo')(session);
 const path = require('path');
 const userInViews = require('./lib/middlewares/userInViews');
