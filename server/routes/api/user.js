@@ -2,6 +2,7 @@ const express = require('express');
 const passport = require('passport');
 // const secured = require('../../lib/middlewares/secured');
 const AuthController = require('../../controllers/auth');
+const UserController = require('../../controllers/user');
 
 const router = express.Router();
 module.exports = app => {
@@ -46,4 +47,11 @@ module.exports = app => {
 	 * @access Public
 	 */
     router.get('/logout', AuthController.logout);
+
+    // User CRUD APIs
+    router.post('/', UserController.create);
+    router.get('/', UserController.findAll);
+    router.get('/:userId', UserController.findOne);
+    router.put('/:userId', UserController.update);
+    router.delete('/:userId', UserController.delete);
 };
