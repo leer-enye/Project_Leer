@@ -5,12 +5,15 @@ const User = require('../../models/User');
 
 dotenv.config();
 
+const callbackURL =
+	process.env.NODE_ENV === 'production'
+	    ? process.env.AUTH0_CALLBACK_URL
+	    : 'http://localhost:5000/api/users/callback';
+
 // Configure Passport to use Auth0
 const strategy = new Auth0Strategy(
     {
-        callbackURL:
-			process.env.AUTH0_CALLBACK_URL ||
-			'http://localhost:5000/api/users/callback',
+        callbackURL,
         clientID: process.env.AUTH0_CLIENT_ID,
         clientSecret: process.env.AUTH0_CLIENT_SECRET,
         domain: process.env.AUTH0_DOMAIN,
@@ -20,12 +23,8 @@ const strategy = new Auth0Strategy(
     // extraParams.id_token has the JSON Web Token
     // profile has all the information from the user
     {
-        console.log('Inside Auth Strategy Callback');
         const { email, name, picture, sub } = profile._json;
-        const providerDetail = sub.split('|');
-        const providerId = providerDetail[1];
-        const providerName = providerDetail[0];
-
+        const [providerName, providerId] = sub.split('|');
         const newUser = {
             accessToken,
             email,
@@ -41,7 +40,6 @@ const strategy = new Auth0Strategy(
 
         if (userExists) {
             // Update User Access Token
-            console.log(userExists);
             const { id } = userExists;
             // Find user and update it with the request body
             updatedData = await User.findByIdAndUpdate(id, newUser, {
@@ -50,6 +48,7 @@ const strategy = new Auth0Strategy(
         } else {
             updatedData = await user.save();
         }
+
         return done(null, updatedData);
     }
 );
@@ -58,20 +57,12 @@ passport.use(strategy);
 
 // You can use this section to keep a smaller payload
 passport.serializeUser((user, done) => {
-    console.log('Saving User to Session');
-    console.log(user);
     if (user.id) {
         done(null, user._id);
-    } else {
-        console.log('empty user');
-        console.log(user);
     }
 });
 
 passport.deserializeUser(async (id, done) => {
-    console.log('Getting User from Session');
-    console.log(id);
     const user = await User.findById(id);
-    console.log(user);
     done(null, user);
 });
