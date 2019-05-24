@@ -19,11 +19,14 @@ const {
     DATABASE,
     SESSION_SECRET,
     COOKIE_MAX_AGE,
+    DB_CONNECT_TIMEOUT,
 } = process.env;
 const dev = NODE_ENV !== 'production';
 const app = next({ dev });
 const handle = app.getRequestHandler();
 const _PORT = PORT || 5000;
+const _COOKIE_MAX_AGE = !dev ? Number(COOKIE_MAX_AGE) : 1800000;
+const _DB_CONNECT_TIMEOUT = !dev ? Number(DB_CONNECT_TIMEOUT) : 4000;
 
 require('./lib/config/passport');
 
@@ -33,7 +36,7 @@ app.prepare()
         // mongoose connection to remote database mlab
         mongoose
             .connect(DATABASE, {
-                connectTimeoutMS: 4000,
+                connectTimeoutMS: _DB_CONNECT_TIMEOUT,
                 useNewUrlParser: true,
             })
             .then(() => {
@@ -62,7 +65,7 @@ app.prepare()
 
         // config express-session
         const sess = {
-            cookie: { maxAge: COOKIE_MAX_AGE },
+            cookie: { maxAge: _COOKIE_MAX_AGE },
             resave: false,
             rooling: true,
             saveUninitialized: false,
