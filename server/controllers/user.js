@@ -25,21 +25,14 @@ exports.create = async (req, res) => {
             providerName,
         } = req.body;
 
-        if (!email) {
+        if (!email || !name) {
             return res.status(BAD_REQUEST).send({
                 status: FAIL,
-                data: { email: 'Email is required' },
+                message: HttpStatus.getStatusText(BAD_REQUEST),
             });
         }
 
-        if (!name) {
-            return res.status(BAD_REQUEST).send({
-                status: FAIL,
-                data: { name: 'Name is required' },
-            });
-        }
-
-        const user = new User({
+        const newUser = new User({
             accessToken,
             email,
             name,
@@ -48,11 +41,11 @@ exports.create = async (req, res) => {
             providerName,
         });
 
-        const data = await user.save();
+        const user = await newUser.save();
 
         res.status(CREATED).send({
             status: SUCCESS,
-            data: { user: data },
+            data: { user },
         });
     } catch (err) {
         res.status(INTERNAL_SERVER_ERROR).send({
@@ -85,12 +78,14 @@ exports.findOne = async (req, res) => {
 
     try {
         const user = await User.findById(userId);
+
         if (!user) {
             return res.status(NOT_FOUND).send({
                 status: FAIL,
-                data: { id: `User not found with id ${userId}` },
+                message: HttpStatus.getStatusText(NOT_FOUND),
             });
         }
+
         res.status(OK).send({
             status: SUCCESS,
             data: { user },
@@ -99,7 +94,7 @@ exports.findOne = async (req, res) => {
         if (err.kind === 'ObjectId') {
             return res.status(NOT_FOUND).send({
                 status: FAIL,
-                data: { id: `User not found with id ${userId}` },
+                message: HttpStatus.getStatusText(NOT_FOUND),
             });
         }
         return res.status(INTERNAL_SERVER_ERROR).send({
@@ -113,7 +108,6 @@ exports.findOne = async (req, res) => {
 exports.update = async (req, res) => {
     const { userId } = req.params;
     const newUser = {};
-
     const entries = Object.entries(req.body);
 
     // eslint-disable-next-line no-restricted-syntax
@@ -128,7 +122,7 @@ exports.update = async (req, res) => {
         if (!newUser) {
             return res.status(BAD_REQUEST).send({
                 status: FAIL,
-                data: { User: 'User has empty values' },
+                message: HttpStatus.getStatusText(BAD_REQUEST),
             });
         }
 
@@ -140,7 +134,7 @@ exports.update = async (req, res) => {
         if (!user) {
             return res.status(NOT_FOUND).send({
                 status: FAIL,
-                data: { id: `User not found with id ${userId}` },
+                message: HttpStatus.getStatusText(NOT_FOUND),
             });
         }
         res.status(OK).send({
@@ -151,7 +145,7 @@ exports.update = async (req, res) => {
         if (err.kind === 'ObjectId') {
             return res.status(NOT_FOUND).send({
                 status: FAIL,
-                data: { id: `User not found with id ${userId}` },
+                message: HttpStatus.getStatusText(NOT_FOUND),
             });
         }
         return res.status(INTERNAL_SERVER_ERROR).send({
@@ -171,18 +165,18 @@ exports.delete = async (req, res) => {
         if (!status) {
             return res.status(NOT_FOUND).send({
                 status: FAIL,
-                data: { id: `User not found with id ${userId}` },
+                message: HttpStatus.getStatusText(NOT_FOUND),
             });
         }
+
         res.status(OK).send({
             status: SUCCESS,
-            data: null,
         });
     } catch (err) {
         if (err.kind === 'ObjectId' || err.name === 'NotFound') {
             return res.status(NOT_FOUND).send({
                 status: FAIL,
-                data: { id: `User not found with id ${userId}` },
+                message: HttpStatus.getStatusText(NOT_FOUND),
             });
         }
         return res.status(INTERNAL_SERVER_ERROR).send({
