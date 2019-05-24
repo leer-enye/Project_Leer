@@ -10,13 +10,13 @@ export const SELECT_RANDOMLY = 'Select Randomly';
 
 export const EXTRA_TEXTS = {
     backToHome: 'Back to Home',
+    circle: 'circle',
     details: 'Details',
     greatGame: 'Great Game!',
     startNow: 'Start Now',
-    timeLeft: 'Time Left',
+    timeLeftLabel: 'Time Left',
     viewResults: 'View Results',
     vs: 'Vs',
-    
 };
 
 export const CHALLENGE_MODES = [

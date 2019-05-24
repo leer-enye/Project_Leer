@@ -26,6 +26,7 @@ const {
     mb2,
     mt4,
     textCenter,
+    vsDivider,
 } = CLASS_NAMES;
 const { challengeInfo } = DEFAULT_PROPS;
 const { startNow, vs } = EXTRA_TEXTS;
@@ -50,7 +51,13 @@ const ChallengeInfo = ({ challengers, next }) => (
                                     <p>{level}</p>
                                 </div>
                                 {
-                                    (index === 0) ? <Title level={1}> {vs} </Title> : null
+                                    (index === 0) ? 
+                                        <Title 
+                                            className={vsDivider} 
+                                            level={1}
+                                        > 
+                                            {vs} 
+                                        </Title> : null
                                 }
                             </React.Fragment>
                         ))
