@@ -17,11 +17,10 @@ const { OK, INTERNAL_SERVER_ERROR, UNAUTHORIZED } = HttpStatus;
 dotenv.config();
 
 module.exports = {
-    callback: async (req, res, next) => {
+    callback: (req, res, next) => {
         try {
             // eslint-disable-next-line no-unused-vars
-            await passport.authenticate('auth0', (err, user, info) => {
-                console.log('Inside passport.authenticate() callback');
+            passport.authenticate('auth0', (err, user, info) => {
                 if (err) {
                     return next(err);
                 }
@@ -34,25 +33,17 @@ module.exports = {
                     }
                     const { returnTo } = req.session;
                     delete req.session.returnTo;
-                    console.log('Inside req.login() callback');
-                    console.log(
-                        `req.session.passport: ${JSON.stringify(
-                            req.session.passport
-                        )}`
-                    );
-                    console.log(`req.user: ${JSON.stringify(req.user)}`);
                     res.redirect(returnTo || '/user'); // client side
                 });
             })(req, res, next);
         } catch (err) {
-            console.log(err);
             res.status(INTERNAL_SERVER_ERROR).send({
                 status: ERROR,
                 message: HttpStatus.getStatusText(INTERNAL_SERVER_ERROR),
             });
         }
     },
-    login: async (req, res) => {
+    login: (req, res) => {
         try {
             res.redirect('/');
         } catch (err) {
@@ -62,14 +53,16 @@ module.exports = {
             });
         }
     },
-    logout: async (req, res) => {
+    logout: (req, res) => {
         try {
-            await req.logout();
+            req.logout();
             let returnTo = `${req.protocol}://${req.hostname}`;
             const port = req.connection.localPort;
+
             if (port !== undefined && port !== 80 && port !== 443) {
                 returnTo += `:${port}`;
             }
+
             const logoutURL = new URL(
                 util.format('https://%s/logout', process.env.AUTH0_DOMAIN)
             );
@@ -78,19 +71,7 @@ module.exports = {
                 returnTo,
             });
             logoutURL.search = searchString;
-
             res.redirect(logoutURL);
-            // res.redirect('/home');
-        } catch (err) {
-            res.status(INTERNAL_SERVER_ERROR).send({
-                status: ERROR,
-                message: HttpStatus.getStatusText(INTERNAL_SERVER_ERROR),
-            });
-        }
-    },
-    test: async (req, res) => {
-        try {
-            res.status(200).json({ msg: 'user works' });
         } catch (err) {
             res.status(INTERNAL_SERVER_ERROR).send({
                 status: ERROR,
@@ -100,14 +81,9 @@ module.exports = {
     },
     users: async (req, res) => {
         try {
-            console.log(req.session.id);
-            console.log(req.session.cookie);
             const isAuthenticated = await req.isAuthenticated();
-            console.log(`User authenticated? ${isAuthenticated}`);
             if (isAuthenticated) {
                 const user = await req.user;
-
-                console.log(user);
                 res.status(OK).send({
                     status: SUCCESS,
                     data: { user },
@@ -115,7 +91,7 @@ module.exports = {
             } else {
                 res.status(UNAUTHORIZED).send({
                     status: FAIL,
-                    data: { user: 'User Not Authorized' },
+                    message: HttpStatus.getStatusText(UNAUTHORIZED),
                 });
             }
         } catch (err) {
