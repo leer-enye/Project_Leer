@@ -13,7 +13,13 @@ const userInViews = require('./lib/middlewares/userInViews');
 const routes = require('./routes');
 
 dotenv.config();
-const { NODE_ENV, PORT, DATABASE, SESSION_SECRET } = process.env;
+const {
+    NODE_ENV,
+    PORT,
+    DATABASE,
+    SESSION_SECRET,
+    COOKIE_MAX_AGE,
+} = process.env;
 const dev = NODE_ENV !== 'production';
 const app = next({ dev });
 const handle = app.getRequestHandler();
@@ -56,7 +62,7 @@ app.prepare()
 
         // config express-session
         const sess = {
-            cookie: { maxAge: 1800000 },
+            cookie: { maxAge: COOKIE_MAX_AGE },
             resave: false,
             rooling: true,
             saveUninitialized: false,
@@ -76,23 +82,10 @@ app.prepare()
         server.use(userInViews());
         server.use('/', routes);
 
-        // get all routes
         server.get('*', (req, res) => handle(req, res));
-        server.get('/', (req, res) => {
-            res.send('Server Okay from jude');
-        });
-
-        // server output
         server.listen(_PORT, err => {
             if (err) throw err;
-            console.log(`Server ready on http://localhost:${_PORT}`);
         });
-
-        // eslint-disable-next-line vars-on-top
-        // const io = require('socket.io').listen(server);
-        // eslint-disable-next-line global-require
-        // require('../sockets/base')(io);
-        // module.exports = function (io) { // io stuff here... io.on('conection..... }
     })
     .catch(ex => {
         console.error(ex.stack);
