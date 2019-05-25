@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import axios from 'axios';
 import { Button, Row, Col } from 'antd';
 import Layout from '../../../components/layout';
 import { components } from '../../../components/profile';
@@ -16,6 +17,28 @@ const { ViewProfile, EditProfile } = components;
 class Profile extends Component {
     state = { action: viewText }
 
+    static async getInitialProps({ req }) {
+        let isLoggedIn = false;
+        let userData = {};
+
+        try {
+            const { cookie } = req.headers;
+            const headers = req ? { cookie } : undefined;
+            const res = await axios.get('http://localhost:5000/api/users/users', {
+                headers,
+            });
+
+            const { data } = res.data;
+            const { user } = data;
+            console.log(user)
+            isLoggedIn = true;
+            userData = user;
+        } catch (err) {
+            console.log(err);
+        }
+        return { isLoggedIn, userData };
+    }
+
     changeAction = () => {
         const { action } = this.state;
         const isViewAction = action === viewText;
@@ -29,6 +52,8 @@ class Profile extends Component {
 
     render() {
         const { action } = this.state;
+        const { userData } = this.props;
+        console.log(this.props)
         const isViewAction = action === viewText;
         return (
             <Layout selectedMenuItem={profile}>
@@ -41,7 +66,7 @@ class Profile extends Component {
                         </Button>
                     </Col>
                     <Col span={24}>
-                        {isViewAction ? <ViewProfile /> : <EditProfile />}
+                        {isViewAction ? <ViewProfile user={userData} /> : <EditProfile user={userData} />}
                     </Col>
                 </Row>
             </Layout>

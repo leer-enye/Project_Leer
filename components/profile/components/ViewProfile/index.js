@@ -35,24 +35,26 @@ const generateComponent = ( name, user ) => {
         return <span>{user[name]}</span>;
     
     case 'fullName':
-        return <span>{`${user.firstName} ${user.lastName}`}</span>;
+        return <span>{`${user.name}` || `${user.firstName} ${user.lastName}`}</span>;
 
     case 'socials':
-        return <span className={`${socialIcons}`}>
-            {
-                user.socials.map(social => (
-                    <a key={social.type}
-                        href={social.url}
-                        target={TARGET_BLANK}>
-                        <Icon
-                            className={`${socialIcon}`}
-                            type={social.type}
-                            theme={social.type !== twitter && SOCIAL_ICON_THEME}
-                        />
-                    </a>
-                ))
-            }
-        </span>;
+        if (user.socials)
+            return <span className={`${socialIcons}`}>
+                {
+                    user.socials.map(social => (
+                        <a key={social.type}
+                            href={social.url}
+                            target={TARGET_BLANK}>
+                            <Icon
+                                className={`${socialIcon}`}
+                                type={social.type}
+                                theme={social.type !== twitter && SOCIAL_ICON_THEME}
+                            />
+                        </a>
+                    ))
+                }
+            </span>;
+        break;
         
     default:
         return '';
@@ -60,31 +62,34 @@ const generateComponent = ( name, user ) => {
 };
 
 const ViewProfile = ({ user }) => {
-    const { score, username } = user;
+    const { score, username, picture } = user;
     return ( 
         <Row className={`${card}`}> 
             <Col span={20} md={{ offset: 2, span: 18  }}>
                 <Row>
                     <Col span={24} className={`${mb2} ${textCenter}`}>
-                        <Avatar size={150}>
-                            {username[0].toUpperCase()}
+                        <Avatar src={picture} size={150}>
+                            {username ? username[0].toUpperCase(): ''}
                         </Avatar>
                         <Title level={4}>{`${VIEW_PROFILE_FIELDS[0].label}: ${score} `}</Title>
                     </Col>
                     <Col span={24} className={`${mb2}`}>                        
                         {
                             VIEW_PROFILE_FIELDS.slice(1).map((
-                                ({ label, name, className }) => (
-                                    <Col 
-                                        key={label} 
-                                        span={12} 
-                                        md={name === 'bio' ? 24: 12} xs={24}>
-                                        <div key={label} className={className || infoField}>
-                                            <h4>{label}</h4>
-                                            {generateComponent(name, user)}
-                                        </div>
-                                    </Col>
-                                )
+                                ({ label, name, className }) => {
+                                    if (name !== 'location')
+                                        return (
+                                            <Col 
+                                                key={label} 
+                                                span={12} 
+                                                md={name === 'bio' ? 24: 12} xs={24}>
+                                                <div key={label} className={className || infoField}>
+                                                    <h4>{label}</h4>
+                                                    {generateComponent(name, user)}
+                                                </div>
+                                            </Col>
+                                        );
+                                }
                             ))
                         }
                     </Col>
