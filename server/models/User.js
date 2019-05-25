@@ -8,25 +8,38 @@ const UserSchema = new Schema(
         accessToken: {
             type: String,
         },
+        bio: {
+            type: String,
+        },
         email: {
             dropDups: true,
             required: true,
             type: String,
             unique: true,
         },
+        firstName: {
+            type: String,
+        },
+        highSchool: {
+            type: String,
+        },
+        intendedUni: {
+            type: String,
+        },
         isAdmin: {
             default: false,
             type: Boolean,
+        },
+        lastName: {
+            type: String,
         },
         name: {
             required: true,
             type: String,
         },
-
         password: {
             type: String,
         },
-
         picture: {
             required: true,
             type: String,
@@ -37,6 +50,9 @@ const UserSchema = new Schema(
         },
         providerName: {
             default: 'local',
+            type: String,
+        },
+        username: {
             type: String,
         },
     },

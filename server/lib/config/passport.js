@@ -5,29 +5,40 @@ const User = require('../../models/User');
 
 dotenv.config();
 
+const {
+    NODE_ENV,
+    AUTH0_CLIENT_ID,
+    AUTH0_CLIENT_SECRET,
+    AUTH0_DOMAIN,
+    AUTH0_CALLBACK_URL,
+} = process.env;
 const callbackURL =
-	process.env.NODE_ENV === 'production'
-	    ? process.env.AUTH0_CALLBACK_URL
+	NODE_ENV === 'production'
+	    ? AUTH0_CALLBACK_URL
 	    : 'http://localhost:5000/api/users/callback';
 
 // Configure Passport to use Auth0
 const strategy = new Auth0Strategy(
     {
         callbackURL,
-        clientID: process.env.AUTH0_CLIENT_ID,
-        clientSecret: process.env.AUTH0_CLIENT_SECRET,
-        domain: process.env.AUTH0_DOMAIN,
+        clientID: AUTH0_CLIENT_ID,
+        clientSecret: AUTH0_CLIENT_SECRET,
+        domain: AUTH0_DOMAIN,
     },
     async (accessToken, refreshToken, extraParams, profile, done) =>
     // accessToken is the token to call Auth0 API (not needed in the most cases)
     // extraParams.id_token has the JSON Web Token
     // profile has all the information from the user
     {
+        console.log(profile);
         const { email, name, picture, sub } = profile._json;
         const [providerName, providerId] = sub.split('|');
+        const [firstName, lastName] = name.split(' ');
         const newUser = {
             accessToken,
             email,
+            firstName,
+            lastName,
             name,
             picture,
             providerId,
