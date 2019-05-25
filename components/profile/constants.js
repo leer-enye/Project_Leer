@@ -43,6 +43,11 @@ export const VIEW_PROFILE_FIELDS = [
 export const EDIT_PROFILE_FIELDS = [
     {
         className: 'info-field',
+        label: 'Username',
+        name: 'username',
+    },
+    {
+        className: 'info-field',
         label: 'First Name',
         name: 'firstName',
     },
@@ -71,11 +76,11 @@ export const EDIT_PROFILE_FIELDS = [
         label: 'Profile Photo',
         name: 'profilePhoto',
     },
-    {
-        className: 'info-field',
-        label: 'Location',
-        name: 'location',
-    },
+    // {
+    //     className: 'info-field',
+    //     label: 'Location',
+    //     name: 'location',
+    // },
     {
         className: 'info-field',
         label: 'Bio',

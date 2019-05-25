@@ -33,21 +33,31 @@ class EditProfile extends Component {
         locationLoading: false, 
         previewImage: '', 
         previewVisible: false, 
+        firstName: '',
+        lastName: '',
+        highSchool: '',
+        intendedUni: '',
+        username: '',
+        bio: ''
+    }
+
+    handleTextChange = e => {
+        const { name, value } = e.target;
+        this.setState({ [name]: value });
     }
 
     generateComponent = (name, label, extra) => {
         const { fileList, location, locationLoading, previewImage, previewVisible } = this.state;
         switch (name) {
-        case 'dateJoined':
         case 'firstName':
         case 'highSchool':
         case 'intendedUni':
         case 'lastName':
         case 'username':
-            return <Input name={name} />;
+            return <Input name={name} onChange={this.handleTextChange} value={this.state[name]} />;
 
         case 'bio':
-            return <TextArea name={name} className={`${w80}`} rows={4} />;
+                return <TextArea name={name} onChange={this.handleTextChange}  value={this.state[name]} className={`${w80}`} rows={4} />;
         
         case 'location':
             return (
