@@ -10,9 +10,16 @@ class User extends Component {
         let userData = {};
 
         try {
+            const protocol =
+				process.env.NODE_ENV === 'production' ? 'https' : 'http';
+
+            const apiUrl = process.browser
+                ? `${protocol}://${window.location.host}/api/users/users`
+                : `${protocol}://${req.headers.host}/api/users/users`;
+
             const { cookie } = req.headers;
             const headers = req ? { cookie } : undefined;
-            const res = await fetch('/api/users/users', {
+            const res = await fetch(apiUrl, {
                 headers,
             });
 
