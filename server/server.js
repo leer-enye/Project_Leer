@@ -37,6 +37,8 @@ app.prepare()
         mongoose
             .connect(DATABASE, {
                 connectTimeoutMS: _DB_CONNECT_TIMEOUT,
+                useCreateIndex: true,
+                useFindAndModify: false,
                 useNewUrlParser: true,
             })
             .then(() => {
