@@ -33,7 +33,7 @@ module.exports = {
                     }
                     const { returnTo } = req.session;
                     delete req.session.returnTo;
-                    res.redirect(returnTo || '/user'); // client side
+                    res.redirect(returnTo || '/admin/profile'); // client side
                 });
             })(req, res, next);
         } catch (err) {
