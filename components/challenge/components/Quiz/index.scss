@@ -1,0 +1,77 @@
+.quiz-card {
+    background-color: white;
+    min-height: 300px;
+    border-radius: 5px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+
+    &__header {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        .challenger-info {
+            display: flex;
+            align-items: center;
+            padding: 8px;
+
+            &--1 {
+                img {
+                    order: 1;
+                    margin-right: 0;
+                    margin-left: 16px;
+                }
+            }
+
+            img {
+                width: 100px;
+                height: 100px;
+                border-radius: 50%;
+                margin-right: 16px;
+            }
+
+            div {
+                text-align: center;
+
+                h3 {
+                    margin-bottom: 0;
+                }
+            }
+        }
+
+        .timer {
+            text-align: center;
+
+            &__label {
+                margin-bottom:0;
+            }
+
+            &__time {
+                font-size: 1.4rem;
+            }
+        }
+
+    }
+
+    &__main {
+       width: 70%;
+       margin: 64px auto 16px auto;
+
+    }
+
+    &__question {
+        font-size: 1.2rem;
+        margin-bottom: 32px;
+    }
+
+    &__option {
+        text-align: center;
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+
+        .ant-card-body {
+            padding: 16px;
+        }
+    }
+
+}
