@@ -1,10 +1,19 @@
 import React, { Component } from 'react';
 import { Row, Col } from 'antd';
 import fetch from 'isomorphic-unfetch';
+import io from 'socket.io-client';
 import Layout from '../components/layout';
 import './admin/profile/index.scss';
 
 class User extends Component {
+    constructor(props) {
+        super(props);
+
+        this.state = {
+            hello: '',
+        };
+    }
+
     static async getInitialProps({ req }) {
         let isLoggedIn = false;
         let userData = {};
@@ -34,9 +43,19 @@ class User extends Component {
         return { isLoggedIn, userData };
     }
 
+    componentDidMount() {
+        this.socket = io();
+        this.socket.on('now', data => {
+            this.setState({
+                hello: data.message,
+            });
+        });
+    }
+
     render() {
         const { userData: user, isLoggedIn } = this.props;
         const { name, email, picture } = user;
+        const { hello } = this.state;
         return (
             <Layout selectedMenuItem="profile">
                 <Row>
@@ -49,6 +68,7 @@ class User extends Component {
                                 src={isLoggedIn ? picture : ''}
                             />
                         </div>
+                        <h1>{hello}</h1>
                     </Col>
                 </Row>
             </Layout>
