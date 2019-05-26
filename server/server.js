@@ -7,17 +7,27 @@ const passport = require('passport');
 const cookieParser = require('cookie-parser');
 const session = require('express-session');
 const dotenv = require('dotenv');
-
-const users = require('./routes/api/user');
+const MongoStore = require('connect-mongo')(session);
+const path = require('path');
 const userInViews = require('./lib/middlewares/userInViews');
 const routes = require('./routes');
 
-const dev = process.env.NODE_ENV !== 'production';
+dotenv.config();
+const {
+    NODE_ENV,
+    PORT,
+    DATABASE,
+    SESSION_SECRET,
+    COOKIE_MAX_AGE,
+    DB_CONNECT_TIMEOUT,
+} = process.env;
+const dev = NODE_ENV !== 'production';
 const app = next({ dev });
 const handle = app.getRequestHandler();
-const PORT = process.env.PORT || 5000;
+const _PORT = PORT || 5000;
+const _COOKIE_MAX_AGE = !dev ? Number(COOKIE_MAX_AGE) : 1800000;
+const _DB_CONNECT_TIMEOUT = !dev ? Number(DB_CONNECT_TIMEOUT) : 4000;
 
-dotenv.config();
 require('./lib/config/passport');
 
 app.prepare()
@@ -25,16 +35,24 @@ app.prepare()
         const server = express();
         // mongoose connection to remote database mlab
         mongoose
-            .connect(process.env.DATABASE, { useNewUrlParser: true })
+            .connect(DATABASE, {
+                connectTimeoutMS: _DB_CONNECT_TIMEOUT,
+                useCreateIndex: true,
+                useFindAndModify: false,
+                useNewUrlParser: true,
+            })
             .then(() => {
-                console.log(`MongoDB connected to ${process.env.DATABASE}`);
+                console.log(`MongoDB connected to ${DATABASE}`);
             })
             .catch(err => {
                 console.log(err);
             });
-        // passport middleware
-        server.use(passport.initialize());
-        server.use(passport.session());
+
+        server.use('/_next', express.static(path.join(__dirname, '../.next')));
+        server.use(
+            '/static',
+            express.static(path.join(__dirname, '../static'))
+        );
 
         // body parser middleware
         server.use(
@@ -45,36 +63,33 @@ app.prepare()
         server.use(bodyParser.json());
         // morgan middleware
         server.use(morgan('dev'));
-        server.use(cookieParser());
+        server.use(cookieParser(SESSION_SECRET));
+
         // config express-session
         const sess = {
-            cookie: {},
+            cookie: { maxAge: _COOKIE_MAX_AGE },
             resave: false,
-            saveUninitialized: true,
-            secret: process.env.SESSION_SECRET,
+            rooling: true,
+            saveUninitialized: false,
+            secret: SESSION_SECRET,
+            store: new MongoStore({ mongooseConnection: mongoose.connection }),
         };
 
-        if (server.get('env') === 'production') {
-            sess.cookie.secure = true; // serve secure cookies, requires https
-        }
+        sess.cookie.secure = !dev; // serve secure cookies, requires https
 
         server.use(session(sess));
 
+        // passport middleware
+        server.use(passport.initialize());
+        server.use(passport.session());
+
         // use routes
         server.use(userInViews());
-        server.use('/api/users', users);
         server.use('/', routes);
 
-        // get all routes
         server.get('*', (req, res) => handle(req, res));
-        server.get('/', (req, res) => {
-            res.send('Server Okay from jude');
-        });
-
-        // server output
-        server.listen(PORT, err => {
+        server.listen(_PORT, err => {
             if (err) throw err;
-            console.log(`Server ready on http://localhost:${PORT}`);
         });
     })
     .catch(ex => {

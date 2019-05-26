@@ -1,47 +1,28 @@
 const express = require('express');
 const passport = require('passport');
-
-const router = express.Router();
-const secured = require('../../lib/middlewares/secured');
+const AuthController = require('../../controllers/auth');
 const UserController = require('../../controllers/user');
 
-/**
- * @route GET api/users/test
- * @desc Tests user route
- * @access Public
- */
-router.get('/test', UserController.test);
+const router = express.Router();
+module.exports = app => {
+    app.use('/api/users', router);
 
-/**
- * @route GET api/users/login
- * @desc Login user route
- * @access Public
- */
-router.get(
-    '/login',
-    passport.authenticate('auth0', {
-        scope: 'openid email profile',
-    }),
-    UserController.login
-);
-/**
- * @route GET api/users/callback
- * @desc Call back url for users registration and login
- * @access Public
- */
-router.get('/callback', UserController.callback);
+    // User Auth Routes
+    router.get(
+        '/login',
+        passport.authenticate('auth0', {
+            scope: 'openid email profile',
+        }),
+        AuthController.login
+    );
+    router.get('/callback', AuthController.callback);
+    router.get('/users', AuthController.users);
+    router.get('/logout', AuthController.logout);
 
-/**
- * @route GET api/users/users
- * @desc Get users data after login
- * @access Private
- */
-router.get('/users', secured(), UserController.users);
-/**
- * @route GET api/users/logout
- * @desc users log out route
- * @access Public
- */
-router.get('/logout', UserController.logout);
-
-module.exports = router;
+    // User CRUD APIs
+    router.post('/', UserController.create);
+    router.get('/', UserController.findAll);
+    router.get('/:userId', UserController.findOne);
+    router.put('/:userId', UserController.update);
+    router.delete('/:userId', UserController.delete);
+};

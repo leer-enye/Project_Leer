@@ -33,6 +33,5 @@ module.exports = function() {
         }
         req.session.returnTo = req.originalUrl;
         res.redirect('/login');
-        res.status(400).json({ msg: 'You are not logged in' });
     };
 };

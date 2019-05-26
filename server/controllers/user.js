@@ -1,67 +1,197 @@
+/* eslint-disable sort-keys */
 /* eslint-disable consistent-return */
-const passport = require('passport');
-const dotenv = require('dotenv');
-const util = require('util');
-const { URL } = require('url');
-const querystring = require('querystring');
-// load user model
-// const User = require('../models/User');
+const HttpStatus = require('http-status-codes');
+const User = require('../models/User');
+const StatusText = require('./constants');
 
-dotenv.config();
+const { SUCCESS, FAIL, ERROR } = StatusText;
+const {
+    BAD_REQUEST,
+    OK,
+    INTERNAL_SERVER_ERROR,
+    CREATED,
+    NOT_FOUND,
+    UNAUTHORIZED,
+} = HttpStatus;
 
-module.exports = {
-    callback: (req, res, next) => {
-        // eslint-disable-next-line no-unused-vars
-        passport.authenticate('auth0', (err, user, info) => {
-            console.log(info);
-            if (err) {
-                return next(err);
-            }
-            if (!user) {
-                return res.redirect('/login'); // client side
-            }
-            req.logIn(user, error => {
-                if (error) {
-                    return next(error);
-                }
-                const { returnTo } = req.session;
-                delete req.session.returnTo;
-                res.redirect(returnTo || '/user'); // client side
-                console.log('i am here');
+// Create and Save a new User
+exports.create = async (req, res) => {
+    try {
+        const {
+            accessToken,
+            email,
+            name,
+            picture,
+            providerId,
+            providerName,
+        } = req.body;
+
+        if (!email || !name) {
+            return res.status(BAD_REQUEST).send({
+                status: FAIL,
+                message: HttpStatus.getStatusText(BAD_REQUEST),
             });
-        })(req, res, next);
-    },
-    login: (req, res) => {
-        res.redirect('/');
-    },
-    logout: (req, res) => {
-        req.logout();
-        let returnTo = `${req.protocol}://${req.hostname}`;
-        const port = req.connection.localPort;
-        if (port !== undefined && port !== 80 && port !== 443) {
-            returnTo += `:${port}`;
         }
-        const logoutURL = new URL(util.format('https://%s/logout', process.env.AUTH0_DOMAIN));
-        const searchString = querystring.stringify({
-            client_id: process.env.AUTH0_CLIENT_ID,
-            returnTo,
-        });
-        logoutURL.search = searchString;
 
-        res.redirect(logoutURL);
-        // res.redirect('/home');
-    },
-    test: (req, res) => {
-        res.status(200).json({ msg: 'user works' });
-    },
-    users: (req, res) => {
-        console.log('user dashboard page available');
-        const { _raw, _json, ...userProfile } = req.user;
-        // console.log(userProfile);
-        res.status(200).json(...userProfile);
-        // res.render('user', {
-        //     userProfile: JSON.stringify(userProfile, null, 2),
-        //     title: 'Profile page',
-        // });
-    },
+        const newUser = new User({
+            accessToken,
+            email,
+            name,
+            picture,
+            providerId,
+            providerName,
+        });
+
+        const user = await newUser.save();
+
+        res.status(CREATED).send({
+            status: SUCCESS,
+            data: { user },
+        });
+    } catch (err) {
+        res.status(INTERNAL_SERVER_ERROR).send({
+            status: ERROR,
+            message: HttpStatus.getStatusText(INTERNAL_SERVER_ERROR),
+        });
+    }
+};
+
+// Retrieve and return all user from the database.
+exports.findAll = async (req, res) => {
+    try {
+        const users = await User.find();
+
+        res.status(OK).send({
+            status: SUCCESS,
+            data: { users },
+        });
+    } catch (err) {
+        res.status(INTERNAL_SERVER_ERROR).send({
+            status: ERROR,
+            message: HttpStatus.getStatusText(INTERNAL_SERVER_ERROR),
+        });
+    }
+};
+
+// Find a single user with a subjectId
+exports.findOne = async (req, res) => {
+    const { userId } = req.params;
+
+    try {
+        const user = await User.findById(userId);
+
+        if (!user) {
+            return res.status(NOT_FOUND).send({
+                status: FAIL,
+                message: HttpStatus.getStatusText(NOT_FOUND),
+            });
+        }
+
+        res.status(OK).send({
+            status: SUCCESS,
+            data: { user },
+        });
+    } catch (err) {
+        if (err.kind === 'ObjectId') {
+            return res.status(NOT_FOUND).send({
+                status: FAIL,
+                message: HttpStatus.getStatusText(NOT_FOUND),
+            });
+        }
+
+        return res.status(INTERNAL_SERVER_ERROR).send({
+            status: ERROR,
+            message: HttpStatus.getStatusText(INTERNAL_SERVER_ERROR),
+        });
+    }
+};
+
+// Update a user identified by the subjectId in the request
+exports.update = async (req, res) => {
+    try {
+        const isAuthenticated = await req.isAuthenticated();
+
+        if (!isAuthenticated) {
+            res.status(UNAUTHORIZED).send({
+                status: FAIL,
+                message: HttpStatus.getStatusText(UNAUTHORIZED),
+            });
+        }
+
+        const { userId } = req.params;
+        const newUser = {};
+        const entries = Object.entries(req.body);
+
+        // eslint-disable-next-line no-restricted-syntax
+        for (const [key, value] of entries) {
+            if (value) {
+                newUser[key] = value;
+            }
+        }
+
+        if (!newUser) {
+            return res.status(BAD_REQUEST).send({
+                status: FAIL,
+                message: HttpStatus.getStatusText(BAD_REQUEST),
+            });
+        }
+
+        // Find user and update it with the request body
+        const user = await User.findByIdAndUpdate(userId, newUser, {
+            new: true,
+        });
+
+        if (!user) {
+            return res.status(NOT_FOUND).send({
+                status: FAIL,
+                message: HttpStatus.getStatusText(NOT_FOUND),
+            });
+        }
+        res.status(OK).send({
+            status: SUCCESS,
+            data: { user },
+        });
+    } catch (err) {
+        if (err.kind === 'ObjectId') {
+            return res.status(NOT_FOUND).send({
+                status: FAIL,
+                message: HttpStatus.getStatusText(NOT_FOUND),
+            });
+        }
+        return res.status(INTERNAL_SERVER_ERROR).send({
+            status: ERROR,
+            message: HttpStatus.getStatusText(INTERNAL_SERVER_ERROR),
+        });
+    }
+};
+
+// Delete a user with the specified subjectId in the request
+exports.delete = async (req, res) => {
+    const { userId } = req.params;
+
+    try {
+        const status = await User.findByIdAndRemove(userId);
+
+        if (!status) {
+            return res.status(NOT_FOUND).send({
+                status: FAIL,
+                message: HttpStatus.getStatusText(NOT_FOUND),
+            });
+        }
+
+        res.status(OK).send({
+            status: SUCCESS,
+        });
+    } catch (err) {
+        if (err.kind === 'ObjectId' || err.name === 'NotFound') {
+            return res.status(NOT_FOUND).send({
+                status: FAIL,
+                message: HttpStatus.getStatusText(NOT_FOUND),
+            });
+        }
+        return res.status(INTERNAL_SERVER_ERROR).send({
+            status: ERROR,
+            message: HttpStatus.getStatusText(INTERNAL_SERVER_ERROR),
+        });
+    }
 };
