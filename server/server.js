@@ -1,4 +1,8 @@
 const express = require('express');
+
+const server = express();
+const httpServer = require('http').Server(server);
+const io = require('socket.io')(httpServer);
 const next = require('next');
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
@@ -32,7 +36,6 @@ require('./lib/config/passport');
 
 app.prepare()
     .then(() => {
-        const server = express();
         // mongoose connection to remote database mlab
         mongoose
             .connect(DATABASE, {
@@ -88,7 +91,14 @@ app.prepare()
         server.use('/', routes);
 
         server.get('*', (req, res) => handle(req, res));
-        server.listen(_PORT, err => {
+
+        io.on('connect', socket => {
+            socket.emit('now', {
+                message: 'Zeit',
+            });
+        });
+
+        httpServer.listen(_PORT, err => {
             if (err) throw err;
         });
     })
