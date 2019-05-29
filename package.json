@@ -32,6 +32,8 @@
     "mongoose": "^5.5.2",
     "morgan": "^1.9.1",
     "next": "8.0.4",
+    "next-redux-saga": "^4.0.2",
+    "next-redux-wrapper": "^3.0.0-alpha.2",
     "node-sass": "^4.11.0",
     "passport": "^0.4.0",
     "passport-auth0": "^1.1.0",
@@ -41,6 +43,7 @@
     "raw-loader": "^2.0.0",
     "react": "16.8.6",
     "react-dom": "16.8.6",
+    "react-redux": "^7.0.3",
     "redux": "^4.0.1",
     "redux-saga": "^1.0.2",
     "sass-loader": "^7.1.0",
@@ -70,6 +73,7 @@
     "jest": "^24.7.1",
     "mocha": "^6.1.2",
     "prettier": "^1.17.0",
+    "redux-devtools-extension": "^2.13.8",
     "sinon": "^7.3.1"
   }
 }
