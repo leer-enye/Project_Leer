@@ -1,5 +1,6 @@
 
 import React from 'react';
+import moment from 'moment';
 import { Row, Col, Avatar, Typography, Icon } from 'antd';
 import * as constants from "../../constants";
 import './index.scss';
@@ -28,11 +29,13 @@ const { twitter } = ICONS;
 const generateComponent = ( name, user ) => {
     switch(name){
     case 'bio':
-    case 'dateJoined':
     case 'highSchool':
     case 'intendedUni':
     case 'username':
         return <span>{user[name]}</span>;
+
+    case 'dateJoined':
+        return <span>{moment(user.createdAt).format("MMMM Do YYYY")}</span>;
     
     case 'fullName':
         return <span>{`${user.name}` || `${user.firstName} ${user.lastName}`}</span>;

@@ -15,7 +15,7 @@ const { editText, primaryText, viewText } = profilePage;
 const { ViewProfile, EditProfile } = components;
 
 class Profile extends Component {
-    state = { action: viewText }
+    state = { action: viewText, updatedUser: null }
 
     static async getInitialProps({ req }) {
         let isLoggedIn = false;
@@ -30,13 +30,18 @@ class Profile extends Component {
 
             const { data } = res.data;
             const { user } = data;
-            console.log(user)
             isLoggedIn = true;
             userData = user;
         } catch (err) {
             console.log(err);
         }
         return { isLoggedIn, userData };
+    }
+
+    updateUserData = async data => {
+        // const { _id } = this.props.user;
+        // const res = await axios.get(`http://localhost:5000/api/users/${_id}`)
+        this.setState({ updatedUser: data })
     }
 
     changeAction = () => {
@@ -47,13 +52,13 @@ class Profile extends Component {
 
     getButtonLabel = () => {
         const { action } = this.state;
-        return `${action.charAt(0).toUpperCase() + action.slice(1)} Profile`;
+        const label = action === 'view' ? 'Edit' : 'View';
+        return `${label} Profile`;
     }
 
     render() {
-        const { action } = this.state;
+        const { action, updatedUser } = this.state;
         const { userData } = this.props;
-        console.log(this.props)
         const isViewAction = action === viewText;
         return (
             <Layout selectedMenuItem={profile}>
@@ -66,7 +71,7 @@ class Profile extends Component {
                         </Button>
                     </Col>
                     <Col span={24}>
-                        {isViewAction ? <ViewProfile user={userData} /> : <EditProfile user={userData} />}
+                        {isViewAction ? <ViewProfile user={updatedUser || userData} /> : <EditProfile onUpdate={this.updateUserData} user={updatedUser || userData} />}
                     </Col>
                 </Row>
             </Layout>

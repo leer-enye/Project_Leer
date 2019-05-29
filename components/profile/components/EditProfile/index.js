@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import { Row, Col, Input, Upload, Icon, Button, Modal, Typography } from 'antd';
+import axios from 'axios';
+import { Row, Col, Input, Upload, Icon, Button, Modal, Typography, message } from 'antd';
 import * as constants from '../../constants';
 import "./index.scss";
 
@@ -27,23 +28,54 @@ const {
 const { plus } = ICONS;
 
 class EditProfile extends Component {
-    state = { 
-        fileList: [], 
-        location: null, 
-        locationLoading: false, 
-        previewImage: '', 
-        previewVisible: false, 
-        firstName: '',
-        lastName: '',
-        highSchool: '',
-        intendedUni: '',
-        username: '',
-        bio: ''
+    constructor(props){
+        super(props);
+
+        const { firstName, lastName, bio, highSchool, intendedUni, username } = props.user
+
+        this.state = {
+            fileList: [],
+            location: null,
+            locationLoading: false,
+            previewImage: '',
+            previewVisible: false,
+            firstName: firstName || '',
+            lastName: lastName || '',
+            highSchool: highSchool || '',
+            intendedUni: intendedUni || '',
+            username: username || '',
+            bio: bio || '',
+            loading: false,
+        }
+
     }
 
     handleTextChange = e => {
         const { name, value } = e.target;
         this.setState({ [name]: value });
+    }
+
+    handleSubmit = async () => {
+        const { user, onUpdate } = this.props;
+        const { _id } = user;
+        const { firstName, lastName, highSchool, intendedUni, username, bio} = this.state;
+        let data = { firstName, lastName, highSchool, intendedUni, username, bio }
+        this.setState({ loading: true });        
+        try {
+            const res = await axios.put(`http://localhost:5000/api/users/${_id}`, data);
+            await onUpdate(res.data.data.user)
+            this.setState({ loading: false }, () => {
+                message.success('Profile Update successfully');
+            });
+
+        }
+        catch(e){
+            console.log(e);
+            this.setState({ loading: false }, () => {
+                message.error('An error occured');
+            });
+            
+        }
     }
 
     generateComponent = (name, label, extra) => {
@@ -57,7 +89,7 @@ class EditProfile extends Component {
             return <Input name={name} onChange={this.handleTextChange} value={this.state[name]} />;
 
         case 'bio':
-                return <TextArea name={name} onChange={this.handleTextChange}  value={this.state[name]} className={`${w80}`} rows={4} />;
+            return <TextArea name={name} onChange={this.handleTextChange}  value={this.state[name]} className={`${w80}`} rows={4} />;
         
         case 'location':
             return (
@@ -131,6 +163,7 @@ class EditProfile extends Component {
     }
 
     render(){
+        const { loading } = this.state;
         return (
             <Row className={`${card}`} gutter={32}>
                 <Col span={24} className={`${mb2}`}>
@@ -154,7 +187,7 @@ class EditProfile extends Component {
                     }
                 </Col>
                 <Col span={24}>
-                    <Button type={BUTTON_PRIMARY}>{EDIT_PROFILE_TITLE}</Button>
+                    <Button onClick={this.handleSubmit} loading={loading} type={BUTTON_PRIMARY}>{EDIT_PROFILE_TITLE}</Button>
                 </Col>
             </Row>
         );
