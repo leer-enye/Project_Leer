@@ -11,6 +11,7 @@ const {
     INTERNAL_SERVER_ERROR,
     CREATED,
     NOT_FOUND,
+    UNAUTHORIZED,
 } = HttpStatus;
 
 // Create and Save a new User
@@ -97,6 +98,7 @@ exports.findOne = async (req, res) => {
                 message: HttpStatus.getStatusText(NOT_FOUND),
             });
         }
+
         return res.status(INTERNAL_SERVER_ERROR).send({
             status: ERROR,
             message: HttpStatus.getStatusText(INTERNAL_SERVER_ERROR),
@@ -106,19 +108,27 @@ exports.findOne = async (req, res) => {
 
 // Update a user identified by the subjectId in the request
 exports.update = async (req, res) => {
-    const { userId } = req.params;
-    const newUser = {};
-    const entries = Object.entries(req.body);
-
-    // eslint-disable-next-line no-restricted-syntax
-    for (const [key, value] of entries) {
-        if (value) {
-            newUser[key] = value;
-        }
-    }
-
     try {
-        // Validate Request
+        const isAuthenticated = await req.isAuthenticated();
+
+        if (!isAuthenticated) {
+            res.status(UNAUTHORIZED).send({
+                status: FAIL,
+                message: HttpStatus.getStatusText(UNAUTHORIZED),
+            });
+        }
+
+        const { userId } = req.params;
+        const newUser = {};
+        const entries = Object.entries(req.body);
+
+        // eslint-disable-next-line no-restricted-syntax
+        for (const [key, value] of entries) {
+            if (value) {
+                newUser[key] = value;
+            }
+        }
+
         if (!newUser) {
             return res.status(BAD_REQUEST).send({
                 status: FAIL,

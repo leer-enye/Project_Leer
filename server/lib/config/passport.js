@@ -30,7 +30,6 @@ const strategy = new Auth0Strategy(
     // extraParams.id_token has the JSON Web Token
     // profile has all the information from the user
     {
-        console.log(profile);
         const { email, name, picture, sub } = profile._json;
         const [providerName, providerId] = sub.split('|');
         const [firstName, lastName] = name.split(' ');

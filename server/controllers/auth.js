@@ -82,6 +82,7 @@ module.exports = {
     users: async (req, res) => {
         try {
             const isAuthenticated = await req.isAuthenticated();
+
             if (isAuthenticated) {
                 const user = await req.user;
                 res.status(OK).send({
