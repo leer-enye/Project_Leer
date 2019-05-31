@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React, { Component } from 'react';
 import { Row, Col } from 'antd';
 import fetch from 'isomorphic-unfetch';
@@ -44,12 +45,47 @@ class User extends Component {
     }
 
     componentDidMount() {
+        let connected = false;
+        const username = 'Faizan';
+        let room = '';
+
         this.socket = io();
         this.socket.on('now', data => {
             this.setState({
                 hello: data.message,
             });
         });
+        this.socket.on('connect', data => {
+            // we are connected, should send our name
+            connected = true;
+            if (username) this.socket.emit('login', { username });
+        });
+        this.socket.on('chat start', data => {
+            // eslint-disable-next-line prefer-destructuring
+            room = data.room;
+            // showChatWindow(data.name);
+        });
+        this.socket.on('chat end', data => {
+            // hideChatWindow();
+            this.socket.leave(room);
+            room = '';
+        });
+        this.socket.on('disconnect', data => {
+            // handle server/connection falling
+            console.log('Connection fell or your browser is closing.');
+        });
+        const sendMessage = text => {
+            // method, which you will call when user hits enter in input field
+            if (connected) this.socket.emit('message', { text });
+        };
+        const leaveChat = () => {
+            // call this when user want to end current chat
+            if (connected) {
+                this.socket.emit('leave room');
+                this.socket.leave(room);
+                room = '';
+            }
+        };
     }
 
     render() {
