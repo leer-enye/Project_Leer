@@ -63,12 +63,12 @@ class User extends Component {
             const { onlineUsers } = this.state;
             console.log(onlineUsers);
         });
-        this.socket.on('chat start', data => {
+        this.socket.on('challenge-start', data => {
             // eslint-disable-next-line prefer-destructuring
             room = data.room;
             // showChatWindow(data.name);
         });
-        this.socket.on('chat end', data => {
+        this.socket.on('challenge-end', data => {
             // hideChatWindow();
             this.socket.leave(room);
             room = '';
@@ -84,7 +84,7 @@ class User extends Component {
         const leaveChat = () => {
             // call this when user want to end current chat
             if (connected) {
-                this.socket.emit('leave room');
+                this.socket.emit('leave-room');
                 this.socket.leave(room);
                 room = '';
             }
