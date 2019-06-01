@@ -128,7 +128,7 @@ app.prepare()
         io.on('connection', socket => {
             console.log(`User ${socket.id} connected`);
             socket.on('login', data => {
-                console.log(socket);
+                //  console.log(socket);
                 console.log(this);
                 names[socket.id] = data.username;
                 allUsers[socket.id] = socket;
