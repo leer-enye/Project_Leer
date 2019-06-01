@@ -101,23 +101,19 @@ app.prepare()
         const findPeerForLoneSocket = socket => {
             // this is place for possibly some extensive logic
             // which can involve preventing two people pairing multiple times
-            if (queue) {
-                // somebody is in queue, pair them!
+            if (queue && queue.length > 0) {
                 const peer = queue.pop();
-                if (socket && socket.id) {
-                    const room = `${socket.id}#${peer.id}`;
-                    // join them both
-                    peer.join(room);
-                    socket.join(room);
-                    // register rooms to their names
-                    rooms[peer.id] = room;
-                    rooms[socket.id] = room;
-                    // exchange names between the two of them and start the chat
-                    peer.emit('chat start', { name: names[socket.id], room });
-                    socket.emit('chat start', { name: names[peer.id], room });
-                } else {
-                    console.log('Weird Socket is undefined');
-                }
+
+                const room = `${socket.id}#${peer.id}`;
+                // join them both
+                peer.join(room);
+                socket.join(room);
+                // register rooms to their names
+                rooms[peer.id] = room;
+                rooms[socket.id] = room;
+                // exchange names between the two of them and start the chat
+                peer.emit('chat start', { name: names[socket.id], room });
+                socket.emit('chat start', { name: names[peer.id], room });
             } else {
                 // queue is empty, add our lone socket
                 queue.push(socket);
