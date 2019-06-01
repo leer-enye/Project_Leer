@@ -134,8 +134,6 @@ app.prepare()
             socket.on('login', data => {
                 names[socket.id] = data.username;
                 allUsers[socket.id] = socket;
-                console.log(names);
-                console.log(allUsers);
                 // now check if sb is in queue
                 findPeerForLoneSocket(socket);
             });
