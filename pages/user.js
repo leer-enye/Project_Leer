@@ -46,7 +46,6 @@ class User extends Component {
     }
 
     componentDidMount() {
-        console.log('called componentdidmount');
         let connected = false;
         const { userData: user, isLoggedIn } = this.props;
         const { name, _id } = user;
@@ -55,11 +54,11 @@ class User extends Component {
         this.socket = io();
 
         this.socket.on('connect', data => {
-            // we are connected, should send our name
             connected = true;
             if (name) this.socket.emit('login', { _id, name });
         });
-        this.socket.on('user', data => {
+
+        this.socket.on('users', data => {
             this.setState({ onlineUsers: data.names });
             const { onlineUsers } = this.state;
             console.log(onlineUsers);
