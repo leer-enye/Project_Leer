@@ -38,7 +38,7 @@ const generateComponent = ( name, user ) => {
         return <span>{moment(user.createdAt).format("MMMM Do YYYY")}</span>;
     
     case 'fullName':
-        return <span>{`${user.name}` || `${user.firstName} ${user.lastName}`}</span>;
+        return <span>{`${user.firstName} ${user.lastName}`}</span>;
 
     case 'socials':
         if (user.socials)

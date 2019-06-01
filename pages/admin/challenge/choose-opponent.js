@@ -12,6 +12,7 @@ const { OpponentSelect } = components;
 const ChooseOpponentPage = () => (
     <Layout selectedMenuItem={challenge}>
         <OpponentSelect next={challengeInfoLink} />
+        
     </Layout>
 );
 

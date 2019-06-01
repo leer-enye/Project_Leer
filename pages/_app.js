@@ -3,15 +3,18 @@ import React from 'react';
 import { Provider } from 'react-redux';
 import withRedux from 'next-redux-wrapper';
 import withReduxSaga from 'next-redux-saga';
-
+import { auth } from '../utils/auth';
 import createStore from "../store";
 
 class MyApp extends App {
     static async getInitialProps({ Component, ctx }){
         let pageProps = {};
 
+        // if user tries to access admin route, redirect to
+        // login page
+        
         if (Component.getInitialProps){
-            pageProps = await Component.getInitialProps({ ctx });
+            pageProps = await Component.getInitialProps(ctx);
         }
 
         return { pageProps };

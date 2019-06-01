@@ -4,6 +4,7 @@ import { Button, Row, Col } from 'antd';
 import Layout from '../../../components/layout';
 import { components } from '../../../components/profile';
 import { constants } from '../../../components/common';
+import { auth, withAuthSync } from '../../../utils/auth';
 import './index.scss';
 
 const { CLASS_NAMES, PAGES_TEXT, SELECTED_MENU_ITEM  } = constants;
@@ -17,31 +18,12 @@ const { ViewProfile, EditProfile } = components;
 class Profile extends Component {
     state = { action: viewText, updatedUser: null }
 
-    static async getInitialProps({ req }) {
-        let isLoggedIn = false;
-        let userData = {};
-
-        try {
-            const { cookie } = req.headers;
-            const headers = req ? { cookie } : undefined;
-            const res = await axios.get('http://localhost:5000/api/users/users', {
-                headers,
-            });
-
-            const { data } = res.data;
-            const { user } = data;
-            isLoggedIn = true;
-            userData = user;
-        } catch (err) {
-            console.log(err);
-        }
-        return { isLoggedIn, userData };
-    }
+    // static async getInitialProps(ctx, sessionInfo) {
+    //     return { };
+    // }
 
     updateUserData = async data => {
-        // const { _id } = this.props.user;
-        // const res = await axios.get(`http://localhost:5000/api/users/${_id}`)
-        this.setState({ updatedUser: data })
+        this.setState({ updatedUser: data });
     }
 
     changeAction = () => {
@@ -58,7 +40,7 @@ class Profile extends Component {
 
     render() {
         const { action, updatedUser } = this.state;
-        const { userData } = this.props;
+        const { user } = this.props;
         const isViewAction = action === viewText;
         return (
             <Layout selectedMenuItem={profile}>
@@ -71,7 +53,7 @@ class Profile extends Component {
                         </Button>
                     </Col>
                     <Col span={24}>
-                        {isViewAction ? <ViewProfile user={updatedUser || userData} /> : <EditProfile onUpdate={this.updateUserData} user={updatedUser || userData} />}
+                        { isViewAction ? <ViewProfile user={updatedUser || user} /> : <EditProfile onUpdate={this.updateUserData} user={updatedUser || user } />}
                     </Col>
                 </Row>
             </Layout>
@@ -79,4 +61,4 @@ class Profile extends Component {
     }
 }
 
-export default Profile;
+export default withAuthSync(Profile);
