@@ -127,6 +127,9 @@ app.prepare()
                 // now check if somebody is in queue
                 findPeerForLoneSocket(socket);
             });
+            socket.on('get users', () => {
+                socket.emit('users', { names });
+            });
             socket.on('message', data => {
                 const room = rooms[socket.id];
                 socket.broadcast.to(room).emit('message', data);

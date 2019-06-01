@@ -12,6 +12,7 @@ class User extends Component {
 
         this.state = {
             hello: '',
+            onlineUsers: {},
         };
     }
 
@@ -47,7 +48,7 @@ class User extends Component {
     componentDidMount() {
         let connected = false;
         const { userData: user, isLoggedIn } = this.props;
-        const { name } = user;
+        const { name, _id } = user;
         let room = '';
 
         this.socket = io();
@@ -55,7 +56,12 @@ class User extends Component {
         this.socket.on('connect', data => {
             // we are connected, should send our name
             connected = true;
-            if (name) this.socket.emit('login', { name });
+            if (name) this.socket.emit('login', { _id, name });
+        });
+        this.socket.on('user', data => {
+            this.setState({ onlineUsers: data.names });
+            const { onlineUsers } = this.state;
+            console.log(onlineUsers);
         });
         this.socket.on('chat start', data => {
             // eslint-disable-next-line prefer-destructuring
@@ -102,7 +108,6 @@ class User extends Component {
                             />
                         </div>
                         <h1>{hello}</h1>
-                        <p>{user}</p>
                     </Col>
                 </Row>
             </Layout>
