@@ -46,6 +46,7 @@ class User extends Component {
     }
 
     componentDidMount() {
+        console.log('called componentdidmount');
         let connected = false;
         const { userData: user, isLoggedIn } = this.props;
         const { name, _id } = user;
