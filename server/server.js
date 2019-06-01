@@ -104,16 +104,20 @@ app.prepare()
             if (queue) {
                 // somebody is in queue, pair them!
                 const peer = queue.pop();
-                const room = `${socket.id}#${peer.id}`;
-                // join them both
-                peer.join(room);
-                socket.join(room);
-                // register rooms to their names
-                rooms[peer.id] = room;
-                rooms[socket.id] = room;
-                // exchange names between the two of them and start the chat
-                peer.emit('chat start', { name: names[socket.id], room });
-                socket.emit('chat start', { name: names[peer.id], room });
+                if (socket && socket.id) {
+                    const room = `${socket.id}#${peer.id}`;
+                    // join them both
+                    peer.join(room);
+                    socket.join(room);
+                    // register rooms to their names
+                    rooms[peer.id] = room;
+                    rooms[socket.id] = room;
+                    // exchange names between the two of them and start the chat
+                    peer.emit('chat start', { name: names[socket.id], room });
+                    socket.emit('chat start', { name: names[peer.id], room });
+                } else {
+                    console.log('Weird Socket is undefined');
+                }
             } else {
                 // queue is empty, add our lone socket
                 queue.push(socket);
