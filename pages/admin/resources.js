@@ -8,9 +8,7 @@ const { resourcesPage } = PAGES_TEXT;
 const { label } = resourcesPage;
 
 const Resources = () => (
-    <Layout selectedMenuItem={resources}>
-        <div>{ label }</div>
-    </Layout>
+    <div>{ label }</div>
 );
 
 export default Resources;

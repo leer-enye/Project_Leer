@@ -10,10 +10,7 @@ const { challengeInfoLink } = NEXT_LINKS;
 const { OpponentSelect } = components;
 
 const ChooseOpponentPage = () => (
-    <Layout selectedMenuItem={challenge}>
-        <OpponentSelect next={challengeInfoLink} />
-        
-    </Layout>
+    <OpponentSelect next={challengeInfoLink} />
 );
 
 export default ChooseOpponentPage;

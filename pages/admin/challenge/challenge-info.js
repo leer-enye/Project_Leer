@@ -10,9 +10,7 @@ const { quizLink } = NEXT_LINKS;
 const { ChallengeInfo } = components;
 
 const ChallengeInfoPage = () => (
-    <Layout selectedMenuItem={challenge}>
-        <ChallengeInfo next={quizLink} />
-    </Layout>
+    <ChallengeInfo next={quizLink} />
 );
 
 export default ChallengeInfoPage;

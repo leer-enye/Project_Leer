@@ -10,9 +10,7 @@ const { opponentSelectLink } = NEXT_LINKS;
 const { ModeSelect } = components;
 
 const SelectModePage = () => (
-    <Layout selectedMenuItem={challenge}>
-        <ModeSelect next={opponentSelectLink} />
-    </Layout>
+    <ModeSelect next={opponentSelectLink} />
 );
 
 export default SelectModePage;

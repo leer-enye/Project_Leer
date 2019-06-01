@@ -9,9 +9,7 @@ const { modeSelectLink } = NEXT_LINKS;
 const { CourseSelect } = components;
 
 const ChallengeHome = () => (
-    <Layout selectedMenuItem={challenge}>
-        <CourseSelect next={modeSelectLink} />
-    </Layout>
+    <CourseSelect next={modeSelectLink} />
 );
     
 export default ChallengeHome;

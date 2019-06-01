@@ -5,6 +5,7 @@ import withRedux from 'next-redux-wrapper';
 import withReduxSaga from 'next-redux-saga';
 import { auth } from '../utils/auth';
 import createStore from "../store";
+import Layout from '../components/layout';
 
 class MyApp extends App {
     static async getInitialProps({ Component, ctx }){
@@ -21,7 +22,26 @@ class MyApp extends App {
     }
 
     render(){
-        const { Component, pageProps, store } = this.props;
+        const { Component, pageProps, router, store } = this.props;
+        console.log(router.pathname)
+        
+        if (router.pathname.includes('/admin')){
+            let page = router.pathname.split('/admin/')[1];
+            if (!page){
+                page = 'home';
+            }
+
+            return (
+                <Container>
+                    <Provider store={store}>
+                        <Layout selectedMenuItem={page}>
+                            <Component {...pageProps} />
+                        </Layout>
+                    </Provider>
+                </Container>
+            );
+        }
+
         return (
             <Container>
                 <Provider store={store}>

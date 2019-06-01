@@ -13,13 +13,11 @@ const { challenge } = SELECTED_MENU_ITEM;
 const { ChallengeResult } = components;
 
 const ChallengeResultPage = () => (
-    <Layout selectedMenuItem={challenge}>
-        <Row type={FLEX_ROW_TYPE} justify={FLEX_ROW_JUSTIFY_CENTER}>
-            <Col span={18} md={18} xs={24}>
-                <ChallengeResult />
-            </Col>
-        </Row>
-    </Layout>
+    <Row type={FLEX_ROW_TYPE} justify={FLEX_ROW_JUSTIFY_CENTER}>
+        <Col span={18} md={18} xs={24}>
+            <ChallengeResult />
+        </Col>
+    </Row>
 );
 
 export default ChallengeResultPage;

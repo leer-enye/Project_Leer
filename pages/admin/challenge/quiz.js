@@ -90,18 +90,16 @@ class QuizPage extends Component {
         const { seconds, questionIndex } = this.state;
         const { questions } = this.props;
         return ( 
-            <Layout selectedMenuItem={challenge}> 
-                <Row type={FLEX_ROW_TYPE} justify={FLEX_ROW_JUSTIFY_CENTER}>
-                    <Col span={18} md={18} xs={22}>
-                        <Quiz 
-                            quizItem={ questions[questionIndex] } 
-                            onAnswer={this.nextQuestion}  
-                            next={challengeResultLink} 
-                            timeLeft={seconds} 
-                        />
-                    </Col>
-                </Row>
-            </Layout>
+            <Row type={FLEX_ROW_TYPE} justify={FLEX_ROW_JUSTIFY_CENTER}>
+                <Col span={18} md={18} xs={22}>
+                    <Quiz 
+                        quizItem={ questions[questionIndex] } 
+                        onAnswer={this.nextQuestion}  
+                        next={challengeResultLink} 
+                        timeLeft={seconds} 
+                    />
+                </Col>
+            </Row>
         );
     }
 }

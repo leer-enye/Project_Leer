@@ -8,9 +8,7 @@ const { practicePage } = PAGES_TEXT;
 const { label } = practicePage;
 
 const Practice = () => (
-    <Layout selectedMenuItem={practice}>
-        <div>{label}</div>
-    </Layout>
+    <div>{label}</div>
 );
 
 export default Practice;

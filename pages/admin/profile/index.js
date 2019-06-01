@@ -43,7 +43,7 @@ class Profile extends Component {
         const { user } = this.props;
         const isViewAction = action === viewText;
         return (
-            <Layout selectedMenuItem={profile}>
+            <React.Fragment>
                 <Row>
                     <Col span={24} className={mb1}>
                         <Button
@@ -56,7 +56,7 @@ class Profile extends Component {
                         { isViewAction ? <ViewProfile user={updatedUser || user} /> : <EditProfile onUpdate={this.updateUserData} user={updatedUser || user } />}
                     </Col>
                 </Row>
-            </Layout>
+            </React.Fragment>
         );
     }
 }

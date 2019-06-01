@@ -12,9 +12,7 @@ class Index extends React.Component {
 
 	render() {
 	    return (
-	        <Layout selectedMenuItem={home}>
-	            <p>{label}</p>
-	        </Layout>
+	        <p>{label}</p>
 	    );
 	}
 }
