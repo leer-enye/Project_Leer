@@ -46,19 +46,16 @@ class User extends Component {
 
     componentDidMount() {
         let connected = false;
-        const username = 'Faizan';
+        const { userData: user, isLoggedIn } = this.props;
+        const { name } = user;
         let room = '';
 
         this.socket = io();
-        this.socket.on('now', data => {
-            this.setState({
-                hello: data.message,
-            });
-        });
+
         this.socket.on('connect', data => {
             // we are connected, should send our name
             connected = true;
-            if (username) this.socket.emit('login', { username });
+            if (name) this.socket.emit('login', { name });
         });
         this.socket.on('chat start', data => {
             // eslint-disable-next-line prefer-destructuring
@@ -105,6 +102,7 @@ class User extends Component {
                             />
                         </div>
                         <h1>{hello}</h1>
+                        <p>{user}</p>
                     </Col>
                 </Row>
             </Layout>
