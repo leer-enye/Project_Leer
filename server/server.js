@@ -145,11 +145,13 @@ app.prepare()
             });
             socket.on('disconnect', () => {
                 const room = rooms[socket.id];
-                socket.broadcast.to(room).emit('chat end');
-                let peerID = room.split('#');
-                peerID = peerID[0] === socket.id ? peerID[1] : peerID[0];
-                // current socket left, add the other one to the queue
-                findPeerForLoneSocket(allUsers[peerID]);
+                if (room) {
+                    socket.broadcast.to(room).emit('chat end');
+                    let peerID = room.split('#');
+                    peerID = peerID[0] === socket.id ? peerID[1] : peerID[0];
+                    // current socket left, add the other one to the queue
+                    findPeerForLoneSocket(allUsers[peerID]);
+                }
             });
         });
 
