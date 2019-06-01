@@ -133,7 +133,7 @@ app.prepare()
                 console.log(names);
                 console.log(allUsers);
                 // now check if sb is in queue
-                // findPeerForLoneSocket(socket);
+                findPeerForLoneSocket(socket);
             });
             /*  socket.on('message', data => {
                 const room = rooms[socket.id];
