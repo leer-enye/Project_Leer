@@ -13,9 +13,7 @@ const {
     AUTH0_CALLBACK_URL,
 } = process.env;
 const callbackURL =
-	NODE_ENV === 'production'
-	    ? AUTH0_CALLBACK_URL
-	    : 'http://localhost:5000/api/users/callback';
+	AUTH0_CALLBACK_URL || 'http://localhost:5000/api/users/callback';
 
 // Configure Passport to use Auth0
 const strategy = new Auth0Strategy(
