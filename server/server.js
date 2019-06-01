@@ -97,6 +97,7 @@ app.prepare()
         const names = {}; // map socket.id => name
         const allUsers = {}; // map socket.id => socket
 
+        // eslint-disable-next-line no-unused-vars
         const findPeerForLoneSocket = socket => {
             // this is place for possibly some extensive logic
             // which can involve preventing two people pairing multiple times
@@ -127,12 +128,15 @@ app.prepare()
         io.on('connection', socket => {
             console.log(`User ${socket.id} connected`);
             socket.on('login', data => {
+                console.log(socket);
+                console.log(this);
                 names[socket.id] = data.username;
                 allUsers[socket.id] = socket;
+
                 // now check if sb is in queue
-                findPeerForLoneSocket(socket);
+                // findPeerForLoneSocket(socket);
             });
-            socket.on('message', data => {
+            /*  socket.on('message', data => {
                 const room = rooms[socket.id];
                 socket.broadcast.to(room).emit('message', data);
             });
@@ -152,7 +156,7 @@ app.prepare()
                 peerID = peerID[0] === socket.id ? peerID[1] : peerID[0];
                 // current socket left, add the other one to the queue
                 findPeerForLoneSocket(allUsers[peerID]);
-            });
+            }); */
         });
 
         httpServer.listen(_PORT, err => {
