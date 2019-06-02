@@ -5,6 +5,7 @@ import fetch from 'isomorphic-unfetch';
 import io from 'socket.io-client';
 import Layout from '../components/layout';
 import './admin/profile/index.scss';
+import SOCKET_IO_EVENTS from '../server/lib/config/constants';
 
 class User extends Component {
     constructor(props) {
@@ -46,45 +47,56 @@ class User extends Component {
     }
 
     componentDidMount() {
+        this.handleSocket();
+    }
+
+    handleSocket() {
         let connected = false;
+        const {
+            challengeEnd,
+            challengeStart,
+            connect,
+            disconnet,
+            getUser,
+            leaveRoom,
+            login,
+            message,
+            users,
+        } = SOCKET_IO_EVENTS;
         const { userData: user, isLoggedIn } = this.props;
         const { name, _id } = user;
         let room = '';
-
         this.socket = io();
-
-        this.socket.on('connect', data => {
+        this.socket.on(connect, data => {
             connected = true;
-            if (name) this.socket.emit('login', { _id, name });
+            if (name) this.socket.emit(login, { _id, name });
         });
-
-        this.socket.on('users', data => {
+        this.socket.on(users, data => {
             this.setState({ onlineUsers: data.names });
             const { onlineUsers } = this.state;
             console.log(onlineUsers);
         });
-        this.socket.on('challenge-start', data => {
+        this.socket.on(challengeStart, data => {
             // eslint-disable-next-line prefer-destructuring
             room = data.room;
-            // showChatWindow(data.name);
+            // TODO show notification to user; challengeStartNotification(data.name);
         });
-        this.socket.on('challenge-end', data => {
-            // hideChatWindow();
+        this.socket.on(challengeEnd, data => {
+            // TODO show notification to user; challengeEndNotification();
             this.socket.leave(room);
             room = '';
         });
-        this.socket.on('disconnect', data => {
-            // handle server/connection falling
+        this.socket.on(disconnet, data => {
             console.log('Connection fell or your browser is closing.');
         });
         const sendMessage = text => {
             // method, which you will call when user hits enter in input field
-            if (connected) this.socket.emit('message', { text });
+            if (connected) this.socket.emit(message, { text });
         };
         const leaveChat = () => {
             // call this when user want to end current chat
             if (connected) {
-                this.socket.emit('leave-room');
+                this.socket.emit(leaveRoom);
                 this.socket.leave(room);
                 room = '';
             }
