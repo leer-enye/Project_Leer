@@ -3,6 +3,7 @@ import { Row, Col } from 'antd';
 import { components } from '../../../components/challenge';
 import Layout from '../../../components/layout';
 import { constants } from '../../../components/common';
+import { auth, withAuthSync } from '../../../utils/auth';
 
 const { 
     FLEX_ROW_TYPE,
@@ -20,4 +21,4 @@ const ChallengeResultPage = () => (
     </Row>
 );
 
-export default ChallengeResultPage;
+export default withAuthSync(ChallengeResultPage);

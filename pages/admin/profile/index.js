@@ -1,14 +1,11 @@
 import React, { Component } from 'react';
-import axios from 'axios';
 import { Button, Row, Col } from 'antd';
-import Layout from '../../../components/layout';
 import { components } from '../../../components/profile';
 import { constants } from '../../../components/common';
-import { auth, withAuthSync } from '../../../utils/auth';
+import { withAuthSync } from '../../../utils/auth';
 import './index.scss';
 
-const { CLASS_NAMES, PAGES_TEXT, SELECTED_MENU_ITEM  } = constants;
-const { profile } = SELECTED_MENU_ITEM;
+const { CLASS_NAMES, PAGES_TEXT } = constants;
 const { mb1 } = CLASS_NAMES;
 const { profilePage } = PAGES_TEXT;
 const { editText, primaryText, viewText } = profilePage;
@@ -17,10 +14,6 @@ const { ViewProfile, EditProfile } = components;
 
 class Profile extends Component {
     state = { action: viewText, updatedUser: null }
-
-    // static async getInitialProps(ctx, sessionInfo) {
-    //     return { };
-    // }
 
     updateUserData = async data => {
         this.setState({ updatedUser: data });

@@ -4,6 +4,7 @@ import { Row, Col } from 'antd';
 import Layout from '../../../components/layout';
 import { components } from '../../../components/challenge';
 import { constants } from '../../../components/common';
+import { auth, withAuthSync } from '../../../utils/auth';
 
 const { Quiz } = components;
 const {
@@ -108,4 +109,4 @@ QuizPage.defaultProps = {
     questions: quizPage.questions,
 };
 
-export default QuizPage;
+export default withAuthSync(QuizPage);
