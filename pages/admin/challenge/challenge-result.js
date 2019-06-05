@@ -1,16 +1,13 @@
 import React from 'react';
 import { Row, Col } from 'antd';
 import { components } from '../../../components/challenge';
-import Layout from '../../../components/layout';
 import { constants } from '../../../components/common';
-import { auth, withAuthSync } from '../../../utils/auth';
+import withAuthSync from '../../../hocs/withAuthSync';
 
 const { 
     FLEX_ROW_TYPE,
     FLEX_ROW_JUSTIFY_CENTER,
-    SELECTED_MENU_ITEM,
 } = constants;
-const { challenge } = SELECTED_MENU_ITEM;
 const { ChallengeResult } = components;
 
 const ChallengeResultPage = () => (

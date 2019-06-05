@@ -1,20 +1,17 @@
 import React, { Component } from 'react';
 import Router from 'next/router';
 import { Row, Col } from 'antd';
-import Layout from '../../../components/layout';
 import { components } from '../../../components/challenge';
 import { constants } from '../../../components/common';
-import { auth, withAuthSync } from '../../../utils/auth';
+import withAuthSync from '../../../hocs/withAuthSync';
 
 const { Quiz } = components;
 const {
     DEFAULT_PROPS,
     FLEX_ROW_JUSTIFY_CENTER,
     FLEX_ROW_TYPE,
-    SELECTED_MENU_ITEM,
     NEXT_LINKS,
 } = constants;
-const { challenge } = SELECTED_MENU_ITEM;
 const { challengeResultLink } = NEXT_LINKS;
 const { quizPage } = DEFAULT_PROPS;
 

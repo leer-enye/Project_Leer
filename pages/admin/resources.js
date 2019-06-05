@@ -1,10 +1,8 @@
 import React from 'react';
-import Layout from '../../components/layout';
 import { constants } from '../../components/common';
-import { auth, withAuthSync } from '../../../utils/auth';
+import withAuthSync from '../../hocs/withAuthSync';
 
-const { SELECTED_MENU_ITEM, PAGES_TEXT } = constants;
-const { resources } = SELECTED_MENU_ITEM;
+const { PAGES_TEXT } = constants;
 const { resourcesPage } = PAGES_TEXT;
 const { label } = resourcesPage;
 

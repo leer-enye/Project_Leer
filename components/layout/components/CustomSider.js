@@ -53,12 +53,12 @@ const CustomSider = ({ selectedMenuItem, user }) => (
                 {SIDER_LINKS.map(({ icon, key, name, path }) => (
                     <Menu.Item key={key}>
                         <Link href={path}>
-                            <a>
+                            <span>
                                 <Icon type={icon} />
                                 <span className={navText}>
                                     {name}
                                 </span>
-                            </a>
+                            </span>
                         </Link>
                     </Menu.Item>
                 ))}

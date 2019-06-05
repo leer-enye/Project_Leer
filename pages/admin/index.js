@@ -1,9 +1,8 @@
 import React from 'react';
-import Layout from '../../components/layout';
 import { constants } from '../../components/common';
+import withAuthSync from '../../hocs/withAuthSync';
 
-const { SELECTED_MENU_ITEM, PAGES_TEXT } = constants;
-const { home } = SELECTED_MENU_ITEM;
+const { PAGES_TEXT } = constants;
 const { homePage } = PAGES_TEXT;
 const { label } = homePage;
 
@@ -17,4 +16,4 @@ class Index extends React.Component {
 	}
 }
 
-export default Index;
+export default withAuthSync(Index);
