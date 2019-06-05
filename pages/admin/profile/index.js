@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
+import { connect } from 'react-redux';
 import { Button, Row, Col } from 'antd';
 import { components } from '../../../components/profile';
 import { constants } from '../../../components/common';
-import { withAuthSync } from '../../../utils/auth';
+import withAuthSync  from '../../../hocs/withAuthSync';
 import './index.scss';
 
 const { CLASS_NAMES, PAGES_TEXT } = constants;
@@ -46,7 +47,14 @@ class Profile extends Component {
                         </Button>
                     </Col>
                     <Col span={24}>
-                        { isViewAction ? <ViewProfile user={updatedUser || user} /> : <EditProfile onUpdate={this.updateUserData} user={updatedUser || user } />}
+                        { 
+                            isViewAction ? 
+                                <ViewProfile user={updatedUser || user} /> : 
+                                <EditProfile 
+                                    onUpdate={this.updateUserData} 
+                                    user={updatedUser || user }    
+                                />
+                        }
                     </Col>
                 </Row>
             </React.Fragment>
@@ -54,4 +62,10 @@ class Profile extends Component {
     }
 }
 
-export default withAuthSync(Profile);
+const mapStateToProps = state => (
+    {
+        user: state.auth.user,
+    }
+);
+
+export default withAuthSync(connect(mapStateToProps, null)(Profile));
