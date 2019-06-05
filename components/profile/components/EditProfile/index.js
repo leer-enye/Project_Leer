@@ -31,22 +31,22 @@ class EditProfile extends Component {
     constructor(props){
         super(props);
 
-        const { firstName, lastName, bio, highSchool, intendedUni, username } = props.user
+        const { firstName, lastName, bio, highSchool, intendedUni, username } = props.user;
 
         this.state = {
+            bio: bio || '',
             fileList: [],
+            firstName: firstName || '',
+            highSchool: highSchool || '',
+            intendedUni: intendedUni || '',
+            lastName: lastName || '',
+            loading: false,
             location: null,
             locationLoading: false,
             previewImage: '',
             previewVisible: false,
-            firstName: firstName || '',
-            lastName: lastName || '',
-            highSchool: highSchool || '',
-            intendedUni: intendedUni || '',
             username: username || '',
-            bio: bio || '',
-            loading: false,
-        }
+        };
 
     }
 
@@ -58,12 +58,12 @@ class EditProfile extends Component {
     handleSubmit = async () => {
         const { user, onUpdate } = this.props;
         const { _id } = user;
-        const { firstName, lastName, highSchool, intendedUni, username, bio} = this.state;
-        let data = { firstName, lastName, highSchool, intendedUni, username, bio }
+        const { firstName, lastName, highSchool, intendedUni, username, bio } = this.state;
+        const data = { bio, firstName, highSchool, intendedUni, lastName,  username };
         this.setState({ loading: true });        
         try {
             const res = await axios.put(`http://localhost:5000/api/users/${_id}`, data);
-            await onUpdate(res.data.data.user)
+            await onUpdate(res.data.data.user);
             this.setState({ loading: false }, () => {
                 message.success('Profile Update successfully');
             });
@@ -76,7 +76,7 @@ class EditProfile extends Component {
             });
             
         }
-    }
+    };
 
     generateComponent = (name, label, extra) => {
         const { fileList, location, locationLoading, previewImage, previewVisible } = this.state;
@@ -86,10 +86,19 @@ class EditProfile extends Component {
         case 'intendedUni':
         case 'lastName':
         case 'username':
+            // eslint-disable-next-line react/destructuring-assignment
             return <Input name={name} onChange={this.handleTextChange} value={this.state[name]} />;
 
         case 'bio':
-            return <TextArea name={name} onChange={this.handleTextChange}  value={this.state[name]} className={`${w80}`} rows={4} />;
+            return (
+                <TextArea 
+                    name={name} 
+                    onChange={this.handleTextChange}  
+                    // eslint-disable-next-line react/destructuring-assignment
+                    value={this.state[name]} 
+                    className={`${w80}`} rows={4} 
+                />
+            );
         
         case 'location':
             return (
@@ -187,7 +196,13 @@ class EditProfile extends Component {
                     }
                 </Col>
                 <Col span={24}>
-                    <Button onClick={this.handleSubmit} loading={loading} type={BUTTON_PRIMARY}>{EDIT_PROFILE_TITLE}</Button>
+                    <Button 
+                        onClick={this.handleSubmit} 
+                        loading={loading} 
+                        type={BUTTON_PRIMARY}
+                    >
+                        {EDIT_PROFILE_TITLE}
+                    </Button>
                 </Col>
             </Row>
         );

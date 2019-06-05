@@ -57,7 +57,7 @@ const generateComponent = ( name, user ) => {
                     ))
                 }
             </span>;
-        break;
+        return null;
         
     default:
         return '';
@@ -92,6 +92,7 @@ const ViewProfile = ({ user }) => {
                                                 </div>
                                             </Col>
                                         );
+                                    return null;
                                 }
                             ))
                         }

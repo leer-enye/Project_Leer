@@ -1,6 +1,12 @@
 import { all, put, takeLatest, select } from 'redux-saga/effects';
 import axios from 'axios';
-import { SAVE_SESSION, SAVE_SESSION_REQUEST, FETCH_USER_REQUEST, FETCH_USER_FULFILLED, FETCH_USER_REJECTED } from './actionTypes';
+import { 
+    SAVE_SESSION, 
+    SAVE_SESSION_REQUEST, 
+    FETCH_USER_REQUEST, 
+    FETCH_USER_FULFILLED, 
+    FETCH_USER_REJECTED 
+} from './actionTypes';
 import { FETCH_USER_URL } from './constants';
 import { getSession } from './selectors';
 
