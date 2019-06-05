@@ -21,7 +21,7 @@ const Home = () => (
 				</div>
 				<ul className="header-nav__links">
 					<li>
-						<Link href="/api/users/login">
+						<Link href="/admin/profile">
 							<a className="nav-link">Login</a>
 						</Link>
 					</li>
