@@ -5,15 +5,13 @@ import {
     SAVE_SESSION_REQUEST, 
     FETCH_USER_REQUEST, 
     FETCH_USER_FULFILLED, 
-    FETCH_USER_REJECTED 
+    FETCH_USER_REJECTED,
+    UPDATE_USER_REQUEST,
+    UPDATE_USER_FULFILLED,
+    UPDATE_USER_REJECTED
 } from './actionTypes';
-import { FETCH_USER_URL } from './constants';
-import { getSession } from './selectors';
-
-function* helloSagaRed(){
-    console.log('Hello Saga Red');
-    yield;
-}
+import { FETCH_USER_URL, UPDATE_USER_URL } from './constants';
+import { getSession, getUser } from './selectors';
 
 function* saveSession(action){
     try {
@@ -58,10 +56,39 @@ function* watchFetchUser(){
     }
 }
 
+function* updateUser(action) {
+    try {
+        const session = yield select(getSession);
+        const { _id } = yield select(getUser);
+
+        const response = yield axios.put(
+            `${UPDATE_USER_URL}/${_id}`, 
+            action.payload, 
+            { headers: session }
+        );
+        const { data } = response.data;
+        const { user } = data;
+        yield put({ payload: user, type: UPDATE_USER_FULFILLED });
+    }
+    catch (e) {
+        console.log('got to error');
+        console.log(e);
+        yield put({ payload: null, type: UPDATE_USER_REJECTED });
+    }
+}
+
+function* watchUpdateUser() {
+    try {
+        yield takeLatest(UPDATE_USER_REQUEST, updateUser);
+    } catch (e) {
+        console.log(e);
+    }
+}
+
 export default function* (){
     yield all([
         watchSaveSession(),
         watchFetchUser(),
-        helloSagaRed(),
+        watchUpdateUser(),
     ]);
 };

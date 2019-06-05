@@ -4,6 +4,7 @@ import { Button, Row, Col } from 'antd';
 import { components } from '../../../components/profile';
 import { constants } from '../../../components/common';
 import withAuthSync  from '../../../hocs/withAuthSync';
+import { updateUserRequest } from '../../../components/auth/actions';
 import './index.scss';
 
 const { CLASS_NAMES, PAGES_TEXT } = constants;
@@ -14,11 +15,7 @@ const { editText, primaryText, viewText } = profilePage;
 const { ViewProfile, EditProfile } = components;
 
 class Profile extends Component {
-    state = { action: viewText, updatedUser: null }
-
-    updateUserData = async data => {
-        this.setState({ updatedUser: data });
-    }
+    state = { action: viewText }
 
     changeAction = () => {
         const { action } = this.state;
@@ -33,8 +30,8 @@ class Profile extends Component {
     }
 
     render() {
-        const { action, updatedUser } = this.state;
-        const { user } = this.props;
+        const { action } = this.state;
+        const { user, updateUser } = this.props;
         const isViewAction = action === viewText;
         return (
             <React.Fragment>
@@ -49,10 +46,10 @@ class Profile extends Component {
                     <Col span={24}>
                         { 
                             isViewAction ? 
-                                <ViewProfile user={updatedUser || user} /> : 
+                                <ViewProfile user={user} /> : 
                                 <EditProfile 
-                                    onUpdate={this.updateUserData} 
-                                    user={updatedUser || user }    
+                                    updateUser={updateUser} 
+                                    user={user}    
                                 />
                         }
                     </Col>
@@ -68,4 +65,8 @@ const mapStateToProps = state => (
     }
 );
 
-export default withAuthSync(connect(mapStateToProps, null)(Profile));
+const mapDispatchToProps = dispatch => ({
+    updateUser: data => dispatch(updateUserRequest(data)),
+});
+
+export default withAuthSync(connect(mapStateToProps, mapDispatchToProps)(Profile));

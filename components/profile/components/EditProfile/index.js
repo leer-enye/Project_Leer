@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import axios from 'axios';
 import { Row, Col, Input, Upload, Icon, Button, Modal, Typography, message } from 'antd';
 import * as constants from '../../constants';
 import "./index.scss";
@@ -56,26 +55,17 @@ class EditProfile extends Component {
     }
 
     handleSubmit = async () => {
-        const { user, onUpdate } = this.props;
-        const { _id } = user;
+        const { updateUser } = this.props;
         const { firstName, lastName, highSchool, intendedUni, username, bio } = this.state;
         const data = { bio, firstName, highSchool, intendedUni, lastName,  username };
-        this.setState({ loading: true });        
-        try {
-            const res = await axios.put(`http://localhost:5000/api/users/${_id}`, data);
-            await onUpdate(res.data.data.user);
-            this.setState({ loading: false }, () => {
-                message.success('Profile Update successfully');
-            });
+        this.setState({ loading: true });   
 
-        }
-        catch(e){
-            console.log(e);
-            this.setState({ loading: false }, () => {
-                message.error('An error occured');
-            });
-            
-        }
+        updateUser(data);
+
+        this.setState({ loading: false }, () => {
+            message.success('Profile Update successfully');
+        });
+
     };
 
     generateComponent = (name, label, extra) => {

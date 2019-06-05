@@ -1,4 +1,10 @@
-import { SAVE_SESSION, FETCH_USER_FULFILLED, FETCH_USER_REJECTED } from "./actionTypes";
+import { 
+    SAVE_SESSION, 
+    FETCH_USER_FULFILLED, 
+    FETCH_USER_REJECTED,
+    UPDATE_USER_FULFILLED,
+    UPDATE_USER_REJECTED
+} from "./actionTypes";
 
 const initialState = {
     session: null,
@@ -14,6 +20,7 @@ export default (state=initialState, action) => {
         };
 
     case FETCH_USER_FULFILLED:
+    case UPDATE_USER_FULFILLED:
         return {
             ...state,
             user: action.payload,
@@ -24,6 +31,9 @@ export default (state=initialState, action) => {
             ...state,
             user: null,
         };
+
+    case UPDATE_USER_REJECTED:
+        return { ...state };
 
     default:
         return state;
