@@ -14,9 +14,12 @@ class MyApp extends App {
         
         //  if in server, get cookie and fetch user
         if (isServer){
+            console.log(req.headers.cookie);
             const { cookie } = req.headers;
-            store.dispatch({ payload: { cookie }, type: SAVE_SESSION_REQUEST });
-            store.dispatch({ type: FETCH_USER_REQUEST });
+            if (cookie){
+                await store.dispatch({ payload: { cookie }, type: SAVE_SESSION_REQUEST });
+                await store.dispatch({ type: FETCH_USER_REQUEST });
+            }
         }
 
         if (Component.getInitialProps){

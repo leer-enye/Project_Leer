@@ -1,7 +1,9 @@
 import { all, put, takeLatest, select } from 'redux-saga/effects';
 import axios from 'axios';
+
 import { 
     SAVE_SESSION, 
+    REMOVE_SESSION,
     SAVE_SESSION_REQUEST, 
     FETCH_USER_REQUEST, 
     FETCH_USER_FULFILLED, 
@@ -44,6 +46,8 @@ function* fetchUser (){
     catch(e){
         console.log('got to error');
         console.log(e);
+        // error is probably because cookie has expired
+        yield put({ type: REMOVE_SESSION });
         yield put({ payload: null, type: FETCH_USER_REJECTED });
     }
 }
@@ -52,7 +56,7 @@ function* watchFetchUser(){
     try {
         yield takeLatest(FETCH_USER_REQUEST, fetchUser);
     }catch(e){
-        console.log(e);
+        console.log(e);  
     }
 }
 

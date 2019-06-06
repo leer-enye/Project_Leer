@@ -1,5 +1,6 @@
 import { 
-    SAVE_SESSION, 
+    SAVE_SESSION,
+    REMOVE_SESSION,
     FETCH_USER_FULFILLED, 
     FETCH_USER_REJECTED,
     UPDATE_USER_FULFILLED,
@@ -17,6 +18,12 @@ export default (state=initialState, action) => {
         return {
             ...state,
             session: action.payload,
+        };
+    
+    case REMOVE_SESSION:
+        return {
+            ...state,
+            session: null,
         };
 
     case FETCH_USER_FULFILLED:
