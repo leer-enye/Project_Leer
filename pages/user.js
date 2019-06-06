@@ -1,18 +1,21 @@
 /* eslint-disable no-unused-vars */
-import React, { Component } from 'react';
 import { Row, Col } from 'antd';
+import React, { Component } from 'react';
 import fetch from 'isomorphic-unfetch';
 import io from 'socket.io-client';
 import Layout from '../components/layout';
+import {
+    CLIENT_SYSTEM_EVENTS,
+    CUSTOM_EVENTS,
+    SERVER_SYSTEM_EVENTS
+} from '../server/lib/config/socketio/constant';
 import './admin/profile/index.scss';
-import SOCKET_IO_EVENTS from '../server/lib/config/constants';
 
 class User extends Component {
     constructor(props) {
         super(props);
 
         this.state = {
-            hello: '',
             onlineUsers: {},
         };
     }
@@ -55,44 +58,51 @@ class User extends Component {
         const {
             challengeEnd,
             challengeStart,
-            connect,
-            disconnet,
-            getUser,
             leaveRoom,
             login,
-            message,
             users,
-        } = SOCKET_IO_EVENTS;
+        } = CUSTOM_EVENTS;
+        const { connect } = CLIENT_SYSTEM_EVENTS;
+        const { message, disconnet } = SERVER_SYSTEM_EVENTS;
         const { userData: user, isLoggedIn } = this.props;
-        const { name, _id } = user;
+        console.log(user);
+        const { _id, name, picture } = user;
         let room = '';
         this.socket = io();
+
         this.socket.on(connect, data => {
             connected = true;
-            if (name) this.socket.emit(login, { _id, name });
+
+            if (isLoggedIn) this.socket.emit(login, { _id, name, picture });
         });
+
         this.socket.on(users, data => {
             this.setState({ onlineUsers: data.names });
             const { onlineUsers } = this.state;
             console.log(onlineUsers);
         });
+
         this.socket.on(challengeStart, data => {
             // eslint-disable-next-line prefer-destructuring
             room = data.room;
             // TODO show notification to user; challengeStartNotification(data.name);
         });
+
         this.socket.on(challengeEnd, data => {
             // TODO show notification to user; challengeEndNotification();
             this.socket.leave(room);
             room = '';
         });
+
         this.socket.on(disconnet, data => {
             console.log('Connection fell or your browser is closing.');
         });
+
         const sendMessage = text => {
             // method, which you will call when user hits enter in input field
             if (connected) this.socket.emit(message, { text });
         };
+
         const leaveChat = () => {
             // call this when user want to end current chat
             if (connected) {
@@ -106,7 +116,6 @@ class User extends Component {
     render() {
         const { userData: user, isLoggedIn } = this.props;
         const { name, email, picture } = user;
-        const { hello } = this.state;
         return (
             <Layout selectedMenuItem="profile">
                 <Row>
@@ -119,7 +128,6 @@ class User extends Component {
                                 src={isLoggedIn ? picture : ''}
                             />
                         </div>
-                        <h1>{hello}</h1>
                     </Col>
                 </Row>
             </Layout>

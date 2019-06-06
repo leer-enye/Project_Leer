@@ -1,20 +1,20 @@
-const express = require('express');
-
-const server = express();
-const httpServer = require('http').Server(server);
-const io = require('socket.io')(httpServer);
-const next = require('next');
 const bodyParser = require('body-parser');
+const connectMongo = require('connect-mongo');
+const cookieParser = require('cookie-parser');
+const dotenv = require('dotenv');
+const express = require('express');
+const session = require('express-session');
+const http = require('http');
+const socketio = require('socket.io');
 const mongoose = require('mongoose');
 const morgan = require('morgan');
+const next = require('next');
 const passport = require('passport');
-const cookieParser = require('cookie-parser');
-const session = require('express-session');
-const dotenv = require('dotenv');
-const MongoStore = require('connect-mongo')(session);
 const path = require('path');
-const userInViews = require('./lib/middlewares/userInViews');
+
 const routes = require('./routes');
+const socketioConfig = require('./lib/config/socketio');
+const userInViews = require('./lib/middlewares/userInViews');
 
 dotenv.config();
 const {
@@ -27,6 +27,9 @@ const {
 } = process.env;
 const dev = NODE_ENV !== 'production';
 const app = next({ dev });
+const server = express();
+const httpServer = http.Server(server);
+const io = socketio(httpServer);
 const handle = app.getRequestHandler();
 const _PORT = PORT || 5000;
 const _COOKIE_MAX_AGE = !dev ? Number(COOKIE_MAX_AGE) : 1800000;
@@ -56,19 +59,16 @@ app.prepare()
             '/static',
             express.static(path.join(__dirname, '../static'))
         );
-
-        // body parser middleware
         server.use(
             bodyParser.urlencoded({
                 extended: false,
             })
         );
         server.use(bodyParser.json());
-        // morgan middleware
         server.use(morgan('dev'));
         server.use(cookieParser(SESSION_SECRET));
 
-        // config express-session
+        const MongoStore = connectMongo(session);
         const sess = {
             cookie: { maxAge: _COOKIE_MAX_AGE },
             resave: false,
@@ -77,23 +77,17 @@ app.prepare()
             secret: SESSION_SECRET,
             store: new MongoStore({ mongooseConnection: mongoose.connection }),
         };
-
         sess.cookie.secure = !dev; // serve secure cookies, requires https
 
         server.use(session(sess));
-
-        // passport middleware
         server.use(passport.initialize());
         server.use(passport.session());
-
-        // use routes
         server.use(userInViews());
         server.use('/', routes);
 
         server.get('*', (req, res) => handle(req, res));
 
-        // eslint-disable-next-line global-require
-        require('./lib/config/socketio')(io);
+        socketioConfig(io);
 
         httpServer.listen(_PORT, err => {
             if (err) throw err;
