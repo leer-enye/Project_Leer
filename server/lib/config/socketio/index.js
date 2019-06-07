@@ -1,79 +1,50 @@
 const SOCKET_IO_EVENTS = require('./constant');
+const User = require('./user');
 
 const { CUSTOM_EVENTS, SERVER_SYSTEM_EVENTS } = SOCKET_IO_EVENTS;
 
 const {
+    acceptChallenge,
     challengeEnd,
+    challengeRequest,
     challengeStart,
     getUser,
     leaveRoom,
     login,
+    rejectChallenge,
+    selectUser,
     users,
 } = CUSTOM_EVENTS;
 
 const { connection, message, disconnet } = SERVER_SYSTEM_EVENTS;
 
 module.exports = io => {
-    const queue = []; // list of sockets waiting for peers
     const rooms = {}; // map socket.id => room
-    const names = {}; // map socket.id => name
-    const allUsers = {}; // map socket.id => socket
-    const userList = {}; // map user.id => socket.id, user.name & user.picture
-    const socketUserList = {}; // map socket.id => user
-    // const usersSockets = {};
-
+    const allUsers = new Map(); // map socket.id => socket
+    const userList = new Map(); // map user.id => user(id, name, picture, socketId)
+    const socketUserList = new Map(); // map socket.id => user
     // match socket id to user id
     // keep socket
     // keep user
-
     // Update socked id same user
-
-    const findPeerForLoneSocket = socket => {
-        // TODO Prevent two people pairing multiple times
-        if (queue && queue.length > 0) {
-            const peer = queue.pop();
-            const room = `${socket.id}#${peer.id}`;
-            // join them both
-
-            peer.join(room);
-            socket.join(room);
-            // register rooms to their names
-            rooms[peer.id] = room;
-            rooms[socket.id] = room;
-            // exchange names between the two of them and start the challenge
-            peer.emit(challengeStart, { name: names[socket.id], room });
-            socket.emit(challengeStart, { name: names[peer.id], room });
-        } else {
-            // queue is empty, add our lone socket
-            queue.push(socket);
-        }
-    };
 
     io.on(connection, socket => {
         console.log(`User ${socket.id} connected`);
         socket.on(login, data => {
-            const { _id, name, picture } = data;
-            const { id } = socket;
-
-            const userExists = !(userList[_id] === undefined);
-            if (userExists) {
-                const oldSocketId = userList[_id].id;
-                delete socketUserList[oldSocketId];
-                delete allUsers[oldSocketId];
-                delete names[oldSocketId];
-            }
-            userList[_id] = { id, name, picture };
-            console.log(userList);
-            names[id] = name;
-            allUsers[id] = socket;
-            socketUserList[id] = data;
-            // now check if somebody is in queue
-            // findPeerForLoneSocket(socket);
+            const { _id: userId, name, picture } = data;
+            const { id: socketId } = socket;
+            const user = new User(userId, name, picture, socketId);
+            userList.set(userId, user);
+            socketUserList.set(socketId, user);
+            allUsers.set(socketId, socket);
         });
-        socket.on(getUser, data => {
-            const userListClone = Object.assign({}, userList);
-            delete userListClone[data._id];
-            socket.emit(users, { userListClone });
+        socket.on(getUser, () => {
+            const userMapClone = Object.assign({}, userList);
+            const { id: socketId } = socket;
+            const { id: userId } = socketUserList.get(socketId);
+            userMapClone.delete(userId);
+            const otherUsers = [...userMapClone.values()];
+            socket.emit(users, { users: otherUsers });
         });
         socket.on(message, data => {
             const room = rooms[socket.id];
@@ -82,22 +53,39 @@ module.exports = io => {
         socket.on(leaveRoom, () => {
             const room = rooms[socket.id];
             socket.broadcast.to(room).emit(challengeEnd);
-            let peerID = room.split('#');
-            peerID = peerID[0] === socket.id ? peerID[1] : peerID[0];
-            // add both current and peer to the queue
-            findPeerForLoneSocket(allUsers[peerID]);
-            findPeerForLoneSocket(socket);
         });
+        socket.on(selectUser, data => {
+            const { id: socketId } = socket;
+            const originatingUser = socketUserList.get(socketId);
+            const { id: selectedUserId } = data;
+            const selectedUser = userList.get(selectedUserId);
+            const { socketId: selectedUserSocketId } = selectedUser;
+            const peer = allUsers.get(selectedUserSocketId);
+            const room = `${originatingUser.id}#${selectedUser.id}`;
+
+            // join them both
+            peer.join(room);
+            socket.join(room);
+
+            // register user temporarirly to rooms
+            rooms[selectedUser.id] = room;
+            rooms[originatingUser.id] = room;
+
+            peer.emit(challengeRequest, { room, user: originatingUser });
+            socket.emit(challengeStart, { room, user: selectedUser });
+        });
+        socket.on(acceptChallenge, () => {});
+        socket.on(rejectChallenge, () => {});
         socket.on(disconnet, () => {
-            console.log('disconnected called');
-            const room = rooms[socket.id];
+            const { id: socketId } = socket;
+            const originatingUser = socketUserList.get(socketId);
+            const { id: userId } = originatingUser;
+            const room = rooms[userId];
             if (room) {
                 socket.broadcast.to(room).emit(challengeEnd);
-                let peerID = room.split('#');
-                peerID = peerID[0] === socket.id ? peerID[1] : peerID[0];
-                // current socket left, add the other one to the queue
-                findPeerForLoneSocket(allUsers[peerID]);
             }
+            socketUserList.delete(socketId);
+            allUsers.delete(socketId);
         });
     });
 };
