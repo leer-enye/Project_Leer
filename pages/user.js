@@ -11,12 +11,29 @@ import {
 } from '../server/lib/config/socketio/constant';
 import './admin/profile/index.scss';
 
+const {
+    acceptChallenge,
+    challengeEnd,
+    challengeRequest,
+    challengeStart,
+    getUser,
+    leaveRoom,
+    login,
+    rejectChallenge,
+    selectUser,
+    users,
+} = CUSTOM_EVENTS;
+
+const { message, disconnet } = SERVER_SYSTEM_EVENTS;
+
 class User extends Component {
     constructor(props) {
         super(props);
 
         this.state = {
+            connected: false,
             onlineUsers: {},
+            room: '',
         };
     }
 
@@ -53,64 +70,85 @@ class User extends Component {
         this.handleSocket();
     }
 
+    getUserList() {
+        this.socket.emit(getUser, {});
+    }
+
+    rejectChallengeRequest() {
+        this.socket.emit(rejectChallenge, {});
+    }
+
+    acceptChallengeRequest() {
+        this.socket.emit(acceptChallenge, {});
+    }
+
+    // call this when user want to end current challenge
+    leaveChat() {
+        const { connected, room } = this.state;
+        if (connected) {
+            this.socket.emit(leaveRoom);
+            this.socket.leave(room);
+            this.setState({ room: '' });
+        }
+    }
+
     handleSocket() {
-        let connected = false;
-        const {
-            challengeEnd,
-            challengeStart,
-            leaveRoom,
-            login,
-            users,
-        } = CUSTOM_EVENTS;
         const { connect } = CLIENT_SYSTEM_EVENTS;
-        const { message, disconnet } = SERVER_SYSTEM_EVENTS;
         const { userData: user, isLoggedIn } = this.props;
+        const { onlineUsers, room } = this.state;
         console.log(user);
         const { _id, name, picture } = user;
-        let room = '';
         this.socket = io();
 
         this.socket.on(connect, data => {
-            connected = true;
-
-            if (isLoggedIn) this.socket.emit(login, { _id, name, picture });
+            this.setState({ connected: true });
+            if (isLoggedIn) {
+                this.socket.emit(login, { _id, name, picture });
+                this.getUser();
+            }
         });
 
         this.socket.on(users, data => {
-            this.setState({ onlineUsers: data.names });
-            const { onlineUsers } = this.state;
+            this.setState({ onlineUsers: data.users });
             console.log(onlineUsers);
         });
 
         this.socket.on(challengeStart, data => {
-            // eslint-disable-next-line prefer-destructuring
-            room = data.room;
-            // TODO show notification to user; challengeStartNotification(data.name);
+            this.setState({ room: data.room });
+            // TODO show notification to user; challengeStartNotification(data.user.name);
+        });
+
+        this.socket.on(challengeRequest, data => {
+            this.setState({ room: data.room });
+            // TODO show notification to user; challengeRequestNotification(data.user);
         });
 
         this.socket.on(challengeEnd, data => {
             // TODO show notification to user; challengeEndNotification();
             this.socket.leave(room);
-            room = '';
+            this.setState({ room: '' });
         });
 
         this.socket.on(disconnet, data => {
             console.log('Connection fell or your browser is closing.');
         });
+    }
 
-        const sendMessage = text => {
-            // method, which you will call when user hits enter in input field
-            if (connected) this.socket.emit(message, { text });
-        };
+    selectUser(selectedUser) {
+        if (
+            selectedUser &&
+			selectUser.id &&
+			selectedUser.name &&
+			selectUser.picture
+        ) {
+            this.socket.emit(selectUser, selectedUser);
+        }
+    }
 
-        const leaveChat = () => {
-            // call this when user want to end current chat
-            if (connected) {
-                this.socket.emit(leaveRoom);
-                this.socket.leave(room);
-                room = '';
-            }
-        };
+    sendMessage(text) {
+        const { connected } = this.state;
+
+        if (connected) this.socket.emit(message, { text });
     }
 
     render() {
