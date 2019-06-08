@@ -24,7 +24,7 @@ const {
     users,
 } = CUSTOM_EVENTS;
 
-const { message, disconnet } = SERVER_SYSTEM_EVENTS;
+const { message } = SERVER_SYSTEM_EVENTS;
 
 class User extends Component {
     constructor(props) {
@@ -96,7 +96,6 @@ class User extends Component {
         const { connect } = CLIENT_SYSTEM_EVENTS;
         const { userData: user, isLoggedIn } = this.props;
         const { onlineUsers, room } = this.state;
-        console.log(user);
         const { _id, name, picture } = user;
         this.socket = io();
 
@@ -110,7 +109,6 @@ class User extends Component {
 
         this.socket.on(users, data => {
             this.setState({ onlineUsers: data.users });
-            console.log(onlineUsers);
         });
 
         this.socket.on(challengeStart, data => {
@@ -127,10 +125,6 @@ class User extends Component {
             // TODO show notification to user; challengeEndNotification();
             this.socket.leave(room);
             this.setState({ room: '' });
-        });
-
-        this.socket.on(disconnet, data => {
-            console.log('Connection fell or your browser is closing.');
         });
     }
 
