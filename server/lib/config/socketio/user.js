@@ -6,5 +6,4 @@ class User {
         this.socketId = socketId;
     }
 }
-
-export default User;
+module.exports = User;
