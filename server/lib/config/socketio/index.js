@@ -5,6 +5,7 @@ const { CUSTOM_EVENTS, SERVER_SYSTEM_EVENTS } = SOCKET_IO_EVENTS;
 
 const {
     acceptChallenge,
+    ackChallengeRequest,
     challengeEnd,
     challengeRequest,
     challengeStart,
@@ -91,7 +92,7 @@ module.exports = io => {
                     room: roomId,
                     user: originatingUser,
                 });
-                socket.emit(challengeRequest, {
+                socket.emit(ackChallengeRequest, {
                     room: roomId,
                     user: selectedUser,
                 });

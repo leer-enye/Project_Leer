@@ -1,6 +1,7 @@
 /* eslint-disable sort-keys */
 const CUSTOM_EVENTS = {
     acceptChallenge: 'accept_challenge',
+    ackChallengeRequest: 'acknowledge_challenge_request',
     challengeEnd: 'challenge_end',
     challengeRequest: 'challenge_request',
     challengeStart: 'challenge_start',

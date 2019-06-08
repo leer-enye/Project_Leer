@@ -1,4 +1,4 @@
-import { Row, Col, notification } from 'antd';
+import { Row, Col, notification, Button } from 'antd';
 import React, { Component } from 'react';
 import fetch from 'isomorphic-unfetch';
 import io from 'socket.io-client';
@@ -12,6 +12,7 @@ import './admin/profile/index.scss';
 
 const {
     acceptChallenge,
+    ackChallengeRequest,
     challengeEnd,
     challengeRequest,
     challengeStart,
@@ -122,6 +123,12 @@ class User extends Component {
             // TODO show notification to user; challengeStartNotification(data.user.name);
         });
 
+        this.socket.on(ackChallengeRequest, data => {
+            const { room: roomId } = data;
+            this.setState({ room: roomId });
+            // TODO show notification to user; challengeRequestNotification(data.user);
+        });
+
         this.socket.on(challengeRequest, data => {
             const { room: roomId, user: sender } = data;
             this.setState({ room: roomId });
@@ -138,13 +145,22 @@ class User extends Component {
 
     // eslint-disable-next-line class-methods-use-this
     openNotification(user) {
+        const key = `open${Date.now()}`;
+        const btn = (
+            <Button
+                type="primary"
+                size="small"
+                onClick={() => notification.close(key)}
+            >
+				Accept
+            </Button>
+        );
         notification.open({
+            btn,
             description: `${user.name}has challenged you`,
+            key,
             message: 'Challenge Notification',
-
-            onClick: () => {
-                console.log('Notification Clicked!');
-            },
+            onClose: () => {},
         });
     }
 
@@ -187,14 +203,14 @@ class User extends Component {
                             {onlineUsers.map(value => (
                                 <li key={value.id}>
                                     <p>{value.name}</p>
-                                    <button
+                                    <Button
                                         type="button"
                                         onClick={() =>
                                             this.challengeUser(value)
                                         }
                                     >
 										Challenge
-                                    </button>
+                                    </Button>
                                 </li>
                             ))}
                         </div>
