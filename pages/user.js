@@ -32,7 +32,7 @@ class User extends Component {
         this.state = {
             connected: false,
             // eslint-disable-next-line react/no-unused-state
-            onlineUsers: {},
+            onlineUsers: [],
             room: '',
         };
 
