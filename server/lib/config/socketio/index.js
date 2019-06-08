@@ -36,7 +36,7 @@ module.exports = io => {
             allUsers.set(socketId, socket);
         });
         socket.on(getUser, () => {
-            const userMapClone = Object.assign({}, availableUsers);
+            const userMapClone = new Map(availableUsers);
             const { id: socketId } = socket;
             const { id: userId } = socketUserList.get(socketId);
             userMapClone.delete(userId);
@@ -95,6 +95,7 @@ module.exports = io => {
             const { id: userId, name, picture } = socketUserList.get(socketId);
             const user = new User(userId, name, picture, socketId);
             const roomId = rooms.get(userId);
+
             if (roomId) {
                 socket.broadcast.to(roomId).emit(challengeEnd);
                 const [partyA, partyB] = roomId.split('#');
@@ -109,6 +110,7 @@ module.exports = io => {
             const { id: socketId } = socket;
             const { id: userId } = socketUserList.get(socketId);
             const roomId = rooms.get(userId);
+
             if (roomId) {
                 rooms.delete(userId);
                 socket.emit(challengeEnd);
