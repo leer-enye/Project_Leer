@@ -158,6 +158,7 @@ class User extends Component {
         notification.open({
             btn,
             description: `${user.name}has challenged you`,
+            duration: 0,
             key,
             message: 'Challenge Notification',
             onClose: () => {},
@@ -204,7 +205,7 @@ class User extends Component {
                                 <li key={value.id}>
                                     <p>{value.name}</p>
                                     <Button
-                                        type="button"
+                                        type="Primary"
                                         onClick={() =>
                                             this.challengeUser(value)
                                         }
