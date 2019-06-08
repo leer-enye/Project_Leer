@@ -118,14 +118,17 @@ module.exports = io => {
         });
         socket.on(disconnet, () => {
             const { id: socketId } = socket;
-            const { id: userId } = socketUsers.get(socketId);
-            const roomId = rooms.get(userId);
+            const { id: userId } = socketUsers.get(socketId) || {};
+            if (userId) {
+                const roomId = rooms.get(userId);
 
-            if (roomId) {
-                rooms.delete(userId);
-                socket.emit(challengeEnd);
+                if (roomId) {
+                    rooms.delete(userId);
+                    socket.emit(challengeEnd);
+                }
+
+                [allUsers, availableUsers].forEach(item => item.delete(userId));
             }
-            [allUsers, availableUsers].forEach(item => item.delete(userId));
             [socketUsers, allSockets].forEach(item => item.delete(socketId));
         });
     });
