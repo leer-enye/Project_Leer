@@ -105,7 +105,7 @@ module.exports = io => {
             const { id: socketId } = socket;
             const { id: userId } = socketUsers.get(socketId);
             const roomId = rooms.get(userId);
-            socket.broadcast.to(roomId).emit(challengeStart);
+            socket.broadcast.to(roomId).emit(challengeStart, { room: roomId });
         });
         socket.on(rejectChallenge, () => {
             const { id: socketId } = socket;

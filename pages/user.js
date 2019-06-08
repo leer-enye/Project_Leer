@@ -150,7 +150,10 @@ class User extends Component {
             <Button
                 type="primary"
                 size="small"
-                onClick={() => this.acceptChallengeRequest()}
+                onClick={() => {
+                    this.acceptChallengeRequest();
+                    notification.close(key);
+                }}
             >
 				Accept
             </Button>
