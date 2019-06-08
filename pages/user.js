@@ -38,7 +38,7 @@ class User extends Component {
 
         this.getUserList = this.getUserList.bind(this);
         this.acceptChallengeRequest = this.acceptChallengeRequest.bind(this);
-        this.selectUser = this.selectUser.bind(this);
+        this.challengeUser = this.challengeUser.bind(this);
     }
 
     static async getInitialProps({ req }) {
@@ -148,7 +148,7 @@ class User extends Component {
         });
     }
 
-    selectUser(selectedUser) {
+    challengeUser(selectedUser) {
         if (
             selectedUser &&
 			selectedUser.id &&
@@ -189,7 +189,7 @@ class User extends Component {
                                     <p>{value.name}</p>
                                     <Button
                                         type="primary"
-                                        onClick={this.selectUser(value)}
+                                        onClick={this.challengeUser(value)}
                                     >
 										Challenge
                                     </Button>

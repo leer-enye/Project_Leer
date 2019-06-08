@@ -68,30 +68,35 @@ module.exports = io => {
             const originatingUser = socketUsers.get(socketId);
             const { id: selectedUserId } = data;
             const selectedUser = allUsers.get(selectedUserId);
-            const { socketId: selectedUserSocketId } = selectedUser;
-            const peer = allSockets.get(selectedUserSocketId);
-            const roomId = `${originatingUser.id}#${selectedUser.id}`;
+            const { socketId: selectedUserSocketId } = selectedUser || {};
+            if (selectedUserSocketId) {
+                const peer = allSockets.get(selectedUserSocketId);
+                const roomId = `${originatingUser.id}#${selectedUser.id}`;
 
-            // temporarily join both to rooms
-            [peer, socket].forEach(item => item.join(roomId));
+                // temporarily join both to rooms
+                [peer, socket].forEach(item => item.join(roomId));
 
-            // Remove from avaialbe queue
-            [originatingUser, selectedUser].forEach(item =>
-                availableUsers.delete(item.id)
-            );
+                // Remove from avaialbe queue
+                [originatingUser, selectedUser].forEach(item =>
+                    availableUsers.delete(item.id)
+                );
 
-            // register user temporarirly to rooms
-            [originatingUser, selectedUser].forEach(item =>
-                rooms.set(item.id, roomId)
-            );
+                // register user temporarirly to rooms
+                [originatingUser, selectedUser].forEach(item =>
+                    rooms.set(item.id, roomId)
+                );
 
-            peer.emit(challengeRequest, {
-                room: roomId,
-                user: originatingUser,
-            });
-            socket.emit(challengeRequest, { room: roomId, user: selectedUser });
+                peer.emit(challengeRequest, {
+                    room: roomId,
+                    user: originatingUser,
+                });
+                socket.emit(challengeRequest, {
+                    room: roomId,
+                    user: selectedUser,
+                });
 
-            [socket, peer].forEach(item => sendAvailableUserList(item));
+                [socket, peer].forEach(item => sendAvailableUserList(item));
+            }
         });
         socket.on(acceptChallenge, () => {
             // emit challengeStart
