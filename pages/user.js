@@ -1,4 +1,3 @@
-/* eslint-disable no-unused-vars */
 import { Row, Col } from 'antd';
 import React, { Component } from 'react';
 import fetch from 'isomorphic-unfetch';
@@ -32,9 +31,12 @@ class User extends Component {
 
         this.state = {
             connected: false,
+            // eslint-disable-next-line react/no-unused-state
             onlineUsers: {},
             room: '',
         };
+
+        this.getUserList = this.getUserList.bind(this);
     }
 
     static async getInitialProps({ req }) {
@@ -95,11 +97,11 @@ class User extends Component {
     handleSocket() {
         const { connect } = CLIENT_SYSTEM_EVENTS;
         const { userData: user, isLoggedIn } = this.props;
-        const { onlineUsers, room } = this.state;
+        const { room } = this.state;
         const { _id, name, picture } = user;
         this.socket = io();
 
-        this.socket.on(connect, data => {
+        this.socket.on(connect, () => {
             this.setState({ connected: true });
 
             if (isLoggedIn) {
@@ -109,6 +111,7 @@ class User extends Component {
         });
 
         this.socket.on(users, data => {
+            // eslint-disable-next-line react/no-unused-state
             this.setState({ onlineUsers: data.users });
         });
 
@@ -122,7 +125,7 @@ class User extends Component {
             // TODO show notification to user; challengeRequestNotification(data.user);
         });
 
-        this.socket.on(challengeEnd, data => {
+        this.socket.on(challengeEnd, () => {
             // TODO show notification to user; challengeEndNotification();
             this.socket.leave(room);
             this.setState({ room: '' });
@@ -149,6 +152,8 @@ class User extends Component {
     render() {
         const { userData: user, isLoggedIn } = this.props;
         const { name, email, picture } = user;
+        const { onlineUsers } = this.state;
+
         return (
             <Layout selectedMenuItem="profile">
                 <Row>
@@ -160,6 +165,14 @@ class User extends Component {
                                 alt="Profile"
                                 src={isLoggedIn ? picture : ''}
                             />
+                        </div>
+                        <button type="button" onClick={this.getUserList}>
+							Show Online Users
+                        </button>
+                        <div>
+                            {onlineUsers.map(value => (
+                                <li key={value.id}>{value.name}</li>
+                            ))}
                         </div>
                     </Col>
                 </Row>
