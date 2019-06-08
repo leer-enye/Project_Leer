@@ -31,7 +31,7 @@ module.exports = io => {
         const { id: userId } = socketUsers.get(socketId);
         userMapClone.delete(userId);
         const otherUsers = [...userMapClone.values()];
-        socket.emit(users, { users: otherUsers });
+        io.emit(users, { users: otherUsers });
     };
 
     io.on(connection, socket => {

@@ -108,12 +108,10 @@ class User extends Component {
 
             if (isLoggedIn) {
                 this.socket.emit(login, { _id, name, picture });
-                this.getUserList();
             }
         });
 
         this.socket.on(users, data => {
-            // eslint-disable-next-line react/no-unused-state
             this.setState({ onlineUsers: data.users });
         });
 
@@ -183,22 +181,18 @@ class User extends Component {
                             />
                         </div>
                         <div>
-                            <button type="button" onClick={this.getUserList}>
-								Show Online Users
-                            </button>
-                            <div>
-                                {onlineUsers.map(value => (
-                                    <li key={value.id}>
-                                        <p>{value.name}</p>
-                                        <Button
-                                            type="primary"
-                                            onClick={this.selectUser(value)}
-                                        >
-											Challenge
-                                        </Button>
-                                    </li>
-                                ))}
-                            </div>
+                            <p>Online Users</p>
+                            {onlineUsers.map(value => (
+                                <li key={value.id}>
+                                    <p>{value.name}</p>
+                                    <Button
+                                        type="primary"
+                                        onClick={this.selectUser(value)}
+                                    >
+										Challenge
+                                    </Button>
+                                </li>
+                            ))}
                         </div>
                     </Col>
                 </Row>
