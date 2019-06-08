@@ -148,11 +148,12 @@ class User extends Component {
     }
 
     selectUser(selectedUser) {
+        console.log(`Called method ${selectedUser}`);
         if (
             selectedUser &&
-			selectUser.id &&
+			selectedUser.id &&
 			selectedUser.name &&
-			selectUser.picture
+			selectedUser.picture
         ) {
             this.socket.emit(selectUser, selectedUser);
         }
