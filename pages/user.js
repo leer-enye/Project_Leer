@@ -1,4 +1,4 @@
-import { Row, Col } from 'antd';
+import { Row, Col, Button, notification } from 'antd';
 import React, { Component } from 'react';
 import fetch from 'isomorphic-unfetch';
 import io from 'socket.io-client';
@@ -37,6 +37,8 @@ class User extends Component {
         };
 
         this.getUserList = this.getUserList.bind(this);
+        this.acceptChallengeRequest = this.acceptChallengeRequest.bind(this);
+        this.selectUser = this.selectUser.bind(this);
     }
 
     static async getInitialProps({ req }) {
@@ -122,6 +124,7 @@ class User extends Component {
 
         this.socket.on(challengeRequest, data => {
             this.setState({ room: data.room });
+            this.openNotification();
             // TODO show notification to user; challengeRequestNotification(data.user);
         });
 
@@ -129,6 +132,18 @@ class User extends Component {
             // TODO show notification to user; challengeEndNotification();
             this.socket.leave(room);
             this.setState({ room: '' });
+        });
+    }
+
+    // eslint-disable-next-line class-methods-use-this
+    openNotification() {
+        notification.open({
+            description: 'Tosin has challenged you',
+            message: 'Challenge Notification',
+
+            onClick: () => {
+                console.log('Notification Clicked!');
+            },
         });
     }
 
@@ -166,13 +181,23 @@ class User extends Component {
                                 src={isLoggedIn ? picture : ''}
                             />
                         </div>
-                        <button type="button" onClick={this.getUserList}>
-							Show Online Users
-                        </button>
                         <div>
-                            {onlineUsers.map(value => (
-                                <li key={value.id}>{value.name}</li>
-                            ))}
+                            <button type="button" onClick={this.getUserList}>
+								Show Online Users
+                            </button>
+                            <div>
+                                {onlineUsers.map(value => (
+                                    <li key={value.id}>
+                                        <p>{value.name}</p>
+                                        <Button
+                                            type="primary"
+                                            onClick={this.selectUser(value)}
+                                        >
+											Challenge
+                                        </Button>
+                                    </li>
+                                ))}
+                            </div>
                         </div>
                     </Col>
                 </Row>
