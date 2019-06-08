@@ -103,7 +103,7 @@ class User extends Component {
             this.setState({ connected: true });
             if (isLoggedIn) {
                 this.socket.emit(login, { _id, name, picture });
-                this.getUser();
+                this.getUserList();
             }
         });
 
