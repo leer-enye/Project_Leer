@@ -123,8 +123,9 @@ class User extends Component {
         });
 
         this.socket.on(challengeRequest, data => {
-            this.setState({ room: data.room });
-            this.openNotification();
+            const { room: roomId, user: sender } = data;
+            this.setState({ room: roomId });
+            this.openNotification(sender);
             // TODO show notification to user; challengeRequestNotification(data.user);
         });
 
@@ -136,9 +137,9 @@ class User extends Component {
     }
 
     // eslint-disable-next-line class-methods-use-this
-    openNotification() {
+    openNotification(user) {
         notification.open({
-            description: 'Tosin has challenged you',
+            description: `${user.name}has challenged you`,
             message: 'Challenge Notification',
 
             onClick: () => {
@@ -148,7 +149,6 @@ class User extends Component {
     }
 
     selectUser(selectedUser) {
-        console.log(`Called method ${selectedUser}`);
         if (
             selectedUser &&
 			selectedUser.id &&
