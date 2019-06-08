@@ -150,18 +150,20 @@ class User extends Component {
             <Button
                 type="primary"
                 size="small"
-                onClick={() => notification.close(key)}
+                onClick={() => this.acceptChallengeRequest()}
             >
 				Accept
             </Button>
         );
         notification.open({
             btn,
-            description: `${user.name}has challenged you`,
+            description: `${user.name} has challenged you`,
             duration: 0,
             key,
             message: 'Challenge Notification',
-            onClose: () => {},
+            onClose: () => {
+                this.rejectChallengeRequest();
+            },
         });
     }
 
