@@ -113,6 +113,8 @@ class User extends Component {
 
         this.socket.on(users, data => {
             this.setState({ onlineUsers: data.users });
+            const { onlineUsers } = this.state;
+            console.log(`users called ${onlineUsers.length}`);
         });
 
         this.socket.on(challengeStart, data => {
