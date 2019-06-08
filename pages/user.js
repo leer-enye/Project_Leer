@@ -1,4 +1,4 @@
-import { Row, Col, Button, notification } from 'antd';
+import { Row, Col, notification } from 'antd';
 import React, { Component } from 'react';
 import fetch from 'isomorphic-unfetch';
 import io from 'socket.io-client';
@@ -38,7 +38,7 @@ class User extends Component {
 
         this.getUserList = this.getUserList.bind(this);
         this.acceptChallengeRequest = this.acceptChallengeRequest.bind(this);
-        this.challengeUser = this.challengeUser.bind(this);
+        // this.challengeUser = this.challengeUser.bind(this);
     }
 
     static async getInitialProps({ req }) {
@@ -187,12 +187,14 @@ class User extends Component {
                             {onlineUsers.map(value => (
                                 <li key={value.id}>
                                     <p>{value.name}</p>
-                                    <Button
-                                        type="primary"
-                                        onClick={this.challengeUser(value)}
+                                    <button
+                                        type="button"
+                                        onClick={() =>
+                                            this.challengeUser(value)
+                                        }
                                     >
 										Challenge
-                                    </Button>
+                                    </button>
                                 </li>
                             ))}
                         </div>

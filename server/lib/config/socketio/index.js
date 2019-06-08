@@ -31,7 +31,7 @@ module.exports = io => {
         const { id: userId } = socketUsers.get(socketId);
         userMapClone.delete(userId);
         const otherUsers = [...userMapClone.values()];
-        io.emit(users, { users: otherUsers });
+        socket.emit(users, { users: otherUsers });
     };
 
     io.on(connection, socket => {
@@ -64,6 +64,7 @@ module.exports = io => {
             socket.emit(challengeEnd);
         });
         socket.on(selectUser, data => {
+            console.log('calling Select User');
             const { id: socketId } = socket;
             const originatingUser = socketUsers.get(socketId);
             const { id: selectedUserId } = data;
