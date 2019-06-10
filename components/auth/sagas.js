@@ -2,35 +2,34 @@ import { all, put, takeLatest, select } from 'redux-saga/effects';
 import axios from 'axios';
 
 import { 
-    SAVE_SESSION, 
-    REMOVE_SESSION,
-    SAVE_SESSION_REQUEST, 
-    FETCH_USER_REQUEST, 
-    FETCH_USER_FULFILLED, 
-    FETCH_USER_REJECTED,
-    UPDATE_USER_REQUEST,
-    UPDATE_USER_FULFILLED,
-    UPDATE_USER_REJECTED
+    fetchUserRequest,
+    fetchUserRejected,
+    updateUserFulfilled,
+    updateUserRejected, 
+    saveSessionAction,
+    removeSession
+} from './actions';
+import { 
+    FETCH_USER_ACTION_TYPES,
+    SAVE_SESSION_ACTION_TYPES, 
+    UPDATE_USER_ACTION_TYPES
 } from './actionTypes';
 import { FETCH_USER_URL, UPDATE_USER_URL } from './constants';
 import { getSession, getUser } from './selectors';
 
+const { FETCH_USER_REQUEST } = FETCH_USER_ACTION_TYPES;
+const { SAVE_SESSION_REQUEST } = SAVE_SESSION_ACTION_TYPES;
+const { UPDATE_USER_REQUEST } = UPDATE_USER_ACTION_TYPES;
+
+//  SAGA FUNCTIONS
+
 function* saveSession(action){
     try {
-        yield put({ payload: action.payload, type: SAVE_SESSION  });
-        yield put({ type: FETCH_USER_REQUEST });
+        yield put(saveSessionAction(action.payload));
+        yield put(fetchUserRequest());
     }
     catch(e){
-        console.log(e);
-    }
-}
-
-function* watchSaveSession(){
-    try {
-        yield takeLatest(SAVE_SESSION_REQUEST, saveSession);
-    }
-    catch(e){
-        console.log(e);
+        // console.log(e);
     }
 }
 
@@ -41,22 +40,12 @@ function* fetchUser (){
         const response = yield axios.get(FETCH_USER_URL, { headers: session });
         const { data } = response.data;
         const { user } = data;
-        yield put({ payload: user, type: FETCH_USER_FULFILLED });
+        yield put(updateUserFulfilled(user));
     }
     catch(e){
-        console.log('got to error');
-        console.log(e);
         // error is probably because cookie has expired
-        yield put({ type: REMOVE_SESSION });
-        yield put({ payload: null, type: FETCH_USER_REJECTED });
-    }
-}
-
-function* watchFetchUser(){
-    try {
-        yield takeLatest(FETCH_USER_REQUEST, fetchUser);
-    }catch(e){
-        console.log(e);  
+        yield put(removeSession());
+        yield put(fetchUserRejected());
     }
 }
 
@@ -66,18 +55,37 @@ function* updateUser(action) {
         const { _id } = yield select(getUser);
 
         const response = yield axios.put(
-            `${UPDATE_USER_URL}/${_id}`, 
-            action.payload, 
+            `${UPDATE_USER_URL}/${_id}`,
+            action.payload,
             { headers: session }
         );
         const { data } = response.data;
         const { user } = data;
-        yield put({ payload: user, type: UPDATE_USER_FULFILLED });
+        yield put(updateUserFulfilled(user));
     }
     catch (e) {
         console.log('got to error');
         console.log(e);
-        yield put({ payload: null, type: UPDATE_USER_REJECTED });
+        yield put(updateUserRejected(null));
+    }
+}
+
+// SAGA WATCHERS
+
+function* watchSaveSession() {
+    try {
+        yield takeLatest(SAVE_SESSION_REQUEST, saveSession);
+    }
+    catch (e) {
+        console.log(e);
+    }
+}
+
+function* watchFetchUser(){
+    try {
+        yield takeLatest(FETCH_USER_REQUEST, fetchUser);
+    }catch(e){
+        console.log(e);  
     }
 }
 
