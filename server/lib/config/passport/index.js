@@ -1,21 +1,18 @@
 const passport = require('passport');
 const Auth0Strategy = require('passport-auth0');
 const dotenv = require('dotenv');
-const User = require('../../models/User');
+const User = require('../../../models/User');
+const { FALL_BACK_URL } = require('./constants');
 
 dotenv.config();
 
 const {
-    NODE_ENV,
     AUTH0_CLIENT_ID,
     AUTH0_CLIENT_SECRET,
     AUTH0_DOMAIN,
     AUTH0_CALLBACK_URL,
 } = process.env;
-const callbackURL =
-	NODE_ENV === 'production'
-	    ? AUTH0_CALLBACK_URL
-	    : 'http://localhost:5000/api/users/callback';
+const callbackURL = AUTH0_CALLBACK_URL || FALL_BACK_URL;
 
 // Configure Passport to use Auth0
 const strategy = new Auth0Strategy(
