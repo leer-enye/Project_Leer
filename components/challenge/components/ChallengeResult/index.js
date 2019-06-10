@@ -1,32 +1,38 @@
 import React from 'react';
 import { Typography, Button } from 'antd';
+
 import * as constants from '../../constants';
 import './index.scss';
 
 const { Title } = Typography;
 const { 
     BUTTON_TYPE_PRIMARY,
-    DEFAULT_PROPS,
-    CLASS_NAMES,
-    EXTRA_TEXTS,
+    DEFAULT_PROPS: { 
+        challengeResult: {
+            defaultChallengers,
+            defaultResultInfo,
+        },
+    },
+    CLASS_NAMES: {
+        challengerInfo,
+        challengerInfoName,
+        challengerInfoScore,
+        challengersBox,
+        loser,
+        mb1,
+        mr1,
+        resultCard,
+        textCenter,
+        vsDivider,
+        winner,
+    },
+    EXTRA_TEXTS: { 
+        greatGame, 
+        viewResults, 
+        backToHome, 
+        vs, 
+    }, 
 } = constants;
-
-const {
-    challengerInfo,
-    challengerInfoName,
-    challengerInfoScore,
-    challengersBox,
-    loser,
-    mb1,
-    mr1,
-    resultCard,
-    textCenter,
-    vsDivider,
-    winner,
-} = CLASS_NAMES;
-const { greatGame, viewResults, backToHome, vs } = EXTRA_TEXTS;
-const { challengeResult } = DEFAULT_PROPS;
-const { defaultChallengers, defaultResultInfo } = challengeResult;
 
 const ChallengeResult = ({ challengers, resultInfo }) => (
     <div className={resultCard}>

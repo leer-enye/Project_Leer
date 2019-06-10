@@ -4,24 +4,28 @@ import * as constants from '../../constants';
 import './index.scss';
 
 const { 
-    CLASS_NAMES,
-    DEFAULT_PROPS,
-    EXTRA_TEXTS,
+    CLASS_NAMES: {
+        challengerInfo,
+        challengerInfo1,
+        quizCard,
+        quizCardHeader,
+        quizCardMain,
+        quizCardOption,
+        quizCardQuestion,
+        timer,
+        timerLabel,
+    },
+    DEFAULT_PROPS: {
+        quiz: {
+            defaultChallengers, 
+            question,
+        },
+    },
+    EXTRA_TEXTS: {
+        circle,
+        timeLeftLabel,
+    },
 } = constants;
-const {
-    challengerInfo,
-    challengerInfo1,
-    quizCard,
-    quizCardHeader,
-    quizCardMain,
-    quizCardOption,
-    quizCardQuestion,
-    timer,
-    timerLabel,
-} = CLASS_NAMES;
-const { quiz } = DEFAULT_PROPS;
-const { circle, timeLeftLabel } = EXTRA_TEXTS;
-const { defaultChallengers, question } = quiz;
 
 const Quiz = ({ challengers, quizItem, timeLeft, onAnswer }) => (
     <div className={quizCard}>

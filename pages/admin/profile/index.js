@@ -1,17 +1,20 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { Button, Row, Col } from 'antd';
+
+import withAuthSync from '../../../hocs/withAuthSync';
 import { components } from '../../../components/profile';
 import { constants } from '../../../components/common';
-import withAuthSync  from '../../../hocs/withAuthSync';
 import { updateUserRequest } from '../../../components/auth/actions';
+import { getUser } from '../../../components/auth/selectors';
 import './index.scss';
 
-const { CLASS_NAMES, PAGES_TEXT } = constants;
-const { mb1 } = CLASS_NAMES;
-const { profilePage } = PAGES_TEXT;
-const { editText, primaryText, viewText } = profilePage;
-
+const { 
+    CLASS_NAMES: { mb1 }, 
+    PAGES_TEXT: { 
+        profilePage : { editText, primaryText, viewText } ,
+    },
+} = constants;
 const { ViewProfile, EditProfile } = components;
 
 class Profile extends Component {
@@ -61,7 +64,7 @@ class Profile extends Component {
 
 const mapStateToProps = state => (
     {
-        user: state.auth.user,
+        user: getUser(state),
     }
 );
 

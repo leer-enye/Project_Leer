@@ -1,5 +1,6 @@
-import React, { Component } from 'react';
 import { Row, Col, Input, Upload, Icon, Button, Modal, Typography, message } from 'antd';
+import React, { Component } from 'react';
+
 import * as constants from '../../constants';
 import "./index.scss";
 
@@ -7,24 +8,19 @@ const { Title } = Typography;
 const { TextArea } = Input;
 const {
     BUTTON_PRIMARY,
-    CLASS_NAMES,
+    CLASS_NAMES: {
+        antUploadText,
+        card,
+        infoField,
+        mb1,
+        mb2,
+        w100,
+        w80,
+    },
     EDIT_PROFILE_FIELDS,
     EDIT_PROFILE_TITLE,
-    ICONS,
+    ICONS: { plus },
 } = constants;
-
-const {
-    antUploadText,
-    card,
-    infoField,
-    locationInput,
-    mb1,
-    mb2,
-    w100,
-    w80,
-} = CLASS_NAMES;
-
-const { plus } = ICONS;
 
 class EditProfile extends Component {
     constructor(props){
@@ -40,13 +36,10 @@ class EditProfile extends Component {
             intendedUni: intendedUni || '',
             lastName: lastName || '',
             loading: false,
-            location: null,
-            locationLoading: false,
             previewImage: '',
             previewVisible: false,
             username: username || '',
         };
-
     }
 
     handleTextChange = e => {
@@ -69,15 +62,19 @@ class EditProfile extends Component {
     };
 
     generateComponent = (name, label, extra) => {
-        const { fileList, location, locationLoading, previewImage, previewVisible } = this.state;
+        const { fileList, previewImage, previewVisible } = this.state;
         switch (name) {
         case 'firstName':
         case 'highSchool':
         case 'intendedUni':
         case 'lastName':
         case 'username':
-            // eslint-disable-next-line react/destructuring-assignment
-            return <Input name={name} onChange={this.handleTextChange} value={this.state[name]} />;
+            return <Input 
+                name={name} 
+                onChange={this.handleTextChange} 
+                // eslint-disable-next-line react/destructuring-assignment
+                value={this.state[name]} 
+            />;
 
         case 'bio':
             return (
@@ -90,20 +87,6 @@ class EditProfile extends Component {
                 />
             );
         
-        case 'location':
-            return (
-                <div>
-                    <Input value={location} className={`${locationInput}`} />
-                    <Button
-                        onClick={this.getLocation}
-                        type={BUTTON_PRIMARY}
-                        loading={locationLoading}
-                    >
-                        {`Get ${label}`}
-                    </Button>
-                </div>
-            );
-
         case 'profilePhoto':
             return (
                 <div>

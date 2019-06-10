@@ -1,6 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import { Row, Col, Typography, Button } from 'antd';
+
 import {
     BUTTON_SIZE_LG,
     BUTTON_TYPE_PRIMARY,
@@ -15,7 +16,6 @@ import { DUMMY_PARAGRAPH } from '../../../common/constants';
 import './index.scss';
 
 const { Title, Paragraph } = Typography;
-
 const { challengeInfoLabel } = CHALLENGE_PAGES_HEADERS;
 const {
     challengerInfo,
