@@ -36,6 +36,7 @@ class User extends Component {
             onlineUsers: [],
             room: '',
         };
+        this.socket = io();
 
         this.getUserList = this.getUserList.bind(this);
         this.acceptChallengeRequest = this.acceptChallengeRequest.bind(this);
@@ -103,12 +104,12 @@ class User extends Component {
         }
     }
 
+    // TODO show notification to user
     handleSocket() {
         const { connect } = CLIENT_SYSTEM_EVENTS;
         const { userData: user, isLoggedIn } = this.props;
         const { room } = this.state;
         const { _id, name, picture } = user;
-        this.socket = io();
 
         this.socket.on(connect, () => {
             this.setState({ connected: true });
@@ -120,36 +121,29 @@ class User extends Component {
 
         this.socket.on(users, data => {
             this.setState({ onlineUsers: data.users });
-            const { onlineUsers } = this.state;
-            console.log(`users called ${onlineUsers.length}`);
         });
 
         this.socket.on(challengeStart, data => {
             this.setState({ room: data.room });
-            // TODO show notification to user; challengeStartNotification(data.user.name);
         });
 
         this.socket.on(ackChallengeRequest, data => {
             const { room: roomId } = data;
             this.setState({ room: roomId });
-            // TODO show notification to user; challengeRequestNotification(data.user);
         });
 
         this.socket.on(challengeRequest, data => {
             const { room: roomId, user: sender } = data;
             this.setState({ room: roomId });
             this.openNotification(sender);
-            // TODO show notification to user; challengeRequestNotification(data.user);
         });
 
         this.socket.on(challengeEnd, () => {
-            // TODO show notification to user; challengeEndNotification();
             this.socket.leave(room);
             this.setState({ room: '' });
         });
     }
 
-    // eslint-disable-next-line class-methods-use-this
     openNotification(user) {
         const key = `open${Date.now()}`;
         this.setState({ notificationKey: key });
@@ -190,6 +184,18 @@ class User extends Component {
         const { name, email, picture } = user;
         const { onlineUsers } = this.state;
 
+        const displayOnlineUser = value => (
+            <li key={value.id}>
+                <p>{value.name}</p>
+                <Button
+                    type="Primary"
+                    onClick={() => this.challengeUser(value)}
+                >
+					Challenge
+                </Button>
+            </li>
+        );
+
         return (
             <Layout selectedMenuItem="profile">
                 <Row>
@@ -204,19 +210,7 @@ class User extends Component {
                         </div>
                         <div>
                             <p>Online Users</p>
-                            {onlineUsers.map(value => (
-                                <li key={value.id}>
-                                    <p>{value.name}</p>
-                                    <Button
-                                        type="Primary"
-                                        onClick={() =>
-                                            this.challengeUser(value)
-                                        }
-                                    >
-										Challenge
-                                    </Button>
-                                </li>
-                            ))}
+                            {onlineUsers.map(value => displayOnlineUser(value))}
                         </div>
                     </Col>
                 </Row>
