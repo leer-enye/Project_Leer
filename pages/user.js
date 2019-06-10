@@ -32,14 +32,14 @@ class User extends Component {
 
         this.state = {
             connected: false,
-            // eslint-disable-next-line react/no-unused-state
+            notificationKey: '',
             onlineUsers: [],
             room: '',
         };
 
         this.getUserList = this.getUserList.bind(this);
         this.acceptChallengeRequest = this.acceptChallengeRequest.bind(this);
-        // this.challengeUser = this.challengeUser.bind(this);
+        this.rejectChallengeRequest = this.rejectChallengeRequest.bind(this);
     }
 
     static async getInitialProps({ req }) {
@@ -73,6 +73,12 @@ class User extends Component {
 
     componentDidMount() {
         this.handleSocket();
+    }
+
+    onCloseNotification() {
+        const { notificationKey: key } = this.state;
+        this.acceptChallengeRequest();
+        notification.close(key);
     }
 
     getUserList() {
@@ -146,14 +152,12 @@ class User extends Component {
     // eslint-disable-next-line class-methods-use-this
     openNotification(user) {
         const key = `open${Date.now()}`;
+        this.setState({ notificationKey: key });
         const btn = (
             <Button
                 type="primary"
                 size="small"
-                onClick={() => {
-                    this.acceptChallengeRequest();
-                    notification.close(key);
-                }}
+                onClick={this.onCloseNotification}
             >
 				Accept
             </Button>
@@ -164,19 +168,13 @@ class User extends Component {
             duration: 0,
             key,
             message: 'Challenge Notification',
-            onClose: () => {
-                this.rejectChallengeRequest();
-            },
+            onClose: this.rejectChallengeRequest,
         });
     }
 
     challengeUser(selectedUser) {
-        if (
-            selectedUser &&
-			selectedUser.id &&
-			selectedUser.name &&
-			selectedUser.picture
-        ) {
+        const { id, name, picture } = selectedUser;
+        if (selectedUser && id && name && picture) {
             this.socket.emit(selectUser, selectedUser);
         }
     }
