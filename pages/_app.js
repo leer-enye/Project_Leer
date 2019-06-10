@@ -3,7 +3,7 @@ import React from 'react';
 import { Provider } from 'react-redux';
 import withRedux from 'next-redux-wrapper';
 import withReduxSaga from 'next-redux-saga';
-import { SAVE_SESSION_REQUEST, FETCH_USER_REQUEST } from '../components/auth/actionTypes';
+import { saveSessionRequest } from '../components/auth/actions';
 import createStore from "../store";
 import Layout from '../components/layout';
 
@@ -14,11 +14,9 @@ class MyApp extends App {
         
         //  if in server, get cookie and fetch user
         if (isServer){
-            console.log(req.headers.cookie);
             const { cookie } = req.headers;
             if (cookie){
-                await store.dispatch({ payload: { cookie }, type: SAVE_SESSION_REQUEST });
-                await store.dispatch({ type: FETCH_USER_REQUEST });
+                store.dispatch(saveSessionRequest({ cookie }));
             }
         }
 
