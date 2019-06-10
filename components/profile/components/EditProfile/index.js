@@ -47,17 +47,22 @@ class EditProfile extends Component {
         this.setState({ [name]: value });
     }
 
-    handleSubmit = async () => {
+    handleSubmit = () => {
         const { updateUser } = this.props;
         const { firstName, lastName, highSchool, intendedUni, username, bio } = this.state;
         const data = { bio, firstName, highSchool, intendedUni, lastName,  username };
-        this.setState({ loading: true });   
-
+        
         updateUser(data);
 
-        this.setState({ loading: false }, () => {
-            message.success('Profile Update successfully');
-        });
+        // get errors data from state after action has been made
+        const { errors } = this.props;    
+        
+        // return error message if there are errors 
+        if (errors){
+            return message.error('An error occured');
+        }
+        
+        return message.success('Profile Update successfully');
 
     };
 
@@ -134,18 +139,8 @@ class EditProfile extends Component {
 
     handleImageChange = ({ fileList }) => this.setState({ fileList });
 
-    getLocation = ()  => {
-        this.setState({ locationLoading: true });
-        if (navigator.geolocation) {
-            navigator.geolocation.getCurrentPosition(position => {
-                const { latitude, longitude } = position.coords;
-                this.setState({ location: `${latitude}, ${longitude}`, locationLoading: false });
-            });
-        }
-    }
-
     render(){
-        const { loading } = this.state;
+        const { loading } = this.props;
         return (
             <Row className={`${card}`} gutter={32}>
                 <Col span={24} className={`${mb2}`}>

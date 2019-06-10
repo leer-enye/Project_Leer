@@ -6,7 +6,11 @@ import withAuthSync from '../../../hocs/withAuthSync';
 import { components } from '../../../components/profile';
 import { constants } from '../../../components/common';
 import { updateUserRequest } from '../../../components/auth/actions';
-import { getUser } from '../../../components/auth/selectors';
+import { 
+    getUser, 
+    getUserLoadingStatus, 
+    getUserUpdateErrors 
+} from '../../../components/auth/selectors';
 import './index.scss';
 
 const { 
@@ -34,7 +38,7 @@ class Profile extends Component {
 
     render() {
         const { action } = this.state;
-        const { user, updateUser } = this.props;
+        const { user, updateUser, loading, errors } = this.props;
         const isViewAction = action === viewText;
         return (
             <React.Fragment>
@@ -52,7 +56,9 @@ class Profile extends Component {
                                 <ViewProfile user={user} /> : 
                                 <EditProfile 
                                     updateUser={updateUser} 
-                                    user={user}    
+                                    user={user}  
+                                    loading={loading}  
+                                    errors={errors}
                                 />
                         }
                     </Col>
@@ -64,6 +70,8 @@ class Profile extends Component {
 
 const mapStateToProps = state => (
     {
+        errors: getUserUpdateErrors(state),
+        loading: getUserLoadingStatus(state),
         user: getUser(state),
     }
 );

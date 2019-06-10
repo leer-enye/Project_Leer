@@ -61,7 +61,7 @@ export default (state=initialState, action) => {
         };
 
     case UPDATE_USER_REJECTED:
-        return { ...state, errors: action.payload };
+        return { ...state, errors: action.payload, loading: false };
 
     default:
         return state;
