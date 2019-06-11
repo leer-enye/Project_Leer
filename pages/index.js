@@ -21,7 +21,7 @@ const Home = () => (
 				</div>
 				<ul className="header-nav__links">
 					<li>
-						<Link href="/api/users/login">
+						<Link href="/admin/profile">
 							<a className="nav-link">Login</a>
 						</Link>
 					</li>
@@ -36,8 +36,8 @@ const Home = () => (
 		<section className="section-hero">
 			<div className="section-hero__text-content">
 				<h1 className="heading-1">PASS YOUR Next EXAM</h1>
-				<p>
-					Non dolore reprehenderit adipisicing dolore minim magna. Est
+				<p> 
+                    Non dolore reprehenderit adipisicing dolore minim magna. Est
 					anim eiusmod cillum Lorem ea quis dolor ea tempor
 					adipisicing. Quis occaecat ea ipsum sunt ea minim incididunt
 					consequat dolor est amet.
@@ -52,8 +52,7 @@ const Home = () => (
 		</section>
 		<section className="section-feature section-feature--1">
 			<div className="section-feature__img-box">
-				{' '}
-				<img src="../static/images/practice.jpg" alt="feature 1" />{' '}
+				<img src="../static/images/practice.jpg" alt="feature 1" />
 			</div>
 			<div className="section-feature__text-content">
 				<h2 className="heading-2">Practice Past Questions</h2>

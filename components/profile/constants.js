@@ -25,11 +25,6 @@ export const VIEW_PROFILE_FIELDS = [
     },
     {
         className: 'info-field',
-        label: 'Social Accounts',
-        name: 'socials',
-    },
-    {
-        className: 'info-field',
         label: 'Date Joined',
         name: 'dateJoined',
     },
@@ -41,6 +36,11 @@ export const VIEW_PROFILE_FIELDS = [
 ];
 
 export const EDIT_PROFILE_FIELDS = [
+    {
+        className: 'info-field',
+        label: 'Username',
+        name: 'username',
+    },
     {
         className: 'info-field',
         label: 'First Name',
@@ -73,11 +73,6 @@ export const EDIT_PROFILE_FIELDS = [
     },
     {
         className: 'info-field',
-        label: 'Location',
-        name: 'location',
-    },
-    {
-        className: 'info-field',
         label: 'Bio',
         name: 'bio',
     },
@@ -93,11 +88,6 @@ export const DEFAULT_USER_PROPS = {
     intendedUni: 'University of Nigeria',
     lastName: 'Akpatabor',
     score: 100,
-    socials: [
-        { type: 'facebook', url: '/' },
-        { type: 'twitter', url: '/' },
-        { type: 'instagram', url: '/' },
-    ],
     username: 'Pato53',
 };
 
@@ -108,8 +98,6 @@ export const CLASS_NAMES = {
     locationInput: 'location-input',
     mb1: 'mb-1',
     mb2: 'mb-2',
-    socialIcon: 'social-icon',
-    socialIcons: 'social-icons',
     textCenter: 'text-center',
     w100: 'w-100',
     w80: 'w-80',
@@ -118,12 +106,7 @@ export const CLASS_NAMES = {
 export const BUTTON_PRIMARY = 'primary';
 
 export const ICONS = {
-    facebook: 'facebook',
-    instagram: 'instagram',
     plus: 'plus',
-    twitter: 'twitter',
 };
-
-export const SOCIAL_ICON_THEME = 'filled';
 
 export const TARGET_BLANK = '_blank';

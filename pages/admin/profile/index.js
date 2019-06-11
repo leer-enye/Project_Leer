@@ -1,16 +1,24 @@
 import React, { Component } from 'react';
+import { connect } from 'react-redux';
 import { Button, Row, Col } from 'antd';
-import Layout from '../../../components/layout';
+
+import withAuthSync from '../../../hocs/withAuthSync';
 import { components } from '../../../components/profile';
 import { constants } from '../../../components/common';
+import { updateUserRequest } from '../../../components/auth/actions';
+import { 
+    getUser, 
+    getUserLoadingStatus, 
+    getUserUpdateErrors 
+} from '../../../components/auth/selectors';
 import './index.scss';
 
-const { CLASS_NAMES, PAGES_TEXT, SELECTED_MENU_ITEM  } = constants;
-const { profile } = SELECTED_MENU_ITEM;
-const { mb1 } = CLASS_NAMES;
-const { profilePage } = PAGES_TEXT;
-const { editText, primaryText, viewText } = profilePage;
-
+const { 
+    CLASS_NAMES: { mb1 }, 
+    PAGES_TEXT: { 
+        profilePage : { editText, primaryText, viewText } ,
+    },
+} = constants;
 const { ViewProfile, EditProfile } = components;
 
 class Profile extends Component {
@@ -24,14 +32,16 @@ class Profile extends Component {
 
     getButtonLabel = () => {
         const { action } = this.state;
-        return `${action.charAt(0).toUpperCase() + action.slice(1)} Profile`;
+        const label = action === 'view' ? 'Edit' : 'View';
+        return `${label} Profile`;
     }
 
     render() {
         const { action } = this.state;
+        const { user, updateUser, loading, errors } = this.props;
         const isViewAction = action === viewText;
         return (
-            <Layout selectedMenuItem={profile}>
+            <React.Fragment>
                 <Row>
                     <Col span={24} className={mb1}>
                         <Button
@@ -41,12 +51,33 @@ class Profile extends Component {
                         </Button>
                     </Col>
                     <Col span={24}>
-                        {isViewAction ? <ViewProfile /> : <EditProfile />}
+                        { 
+                            isViewAction ? 
+                                <ViewProfile user={user} /> : 
+                                <EditProfile 
+                                    updateUser={updateUser} 
+                                    user={user}  
+                                    loading={loading}  
+                                    errors={errors}
+                                />
+                        }
                     </Col>
                 </Row>
-            </Layout>
+            </React.Fragment>
         );
     }
 }
 
-export default Profile;
+const mapStateToProps = state => (
+    {
+        errors: getUserUpdateErrors(state),
+        loading: getUserLoadingStatus(state),
+        user: getUser(state),
+    }
+);
+
+const mapDispatchToProps = dispatch => ({
+    updateUser: data => dispatch(updateUserRequest(data)),
+});
+
+export default withAuthSync(connect(mapStateToProps, mapDispatchToProps)(Profile));

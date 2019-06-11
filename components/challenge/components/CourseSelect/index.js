@@ -1,6 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import { Typography, Row, Col, Card } from 'antd';
+
 import { CHALLENGE_PAGES_HEADERS, CLASS_NAMES, DEFAULT_PROPS } from '../../constants';
 import './index.scss';
 

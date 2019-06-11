@@ -1,19 +1,17 @@
 import React, { Component } from 'react';
 import Router from 'next/router';
 import { Row, Col } from 'antd';
-import Layout from '../../../components/layout';
 import { components } from '../../../components/challenge';
 import { constants } from '../../../components/common';
+import withAuthSync from '../../../hocs/withAuthSync';
 
 const { Quiz } = components;
 const {
     DEFAULT_PROPS,
     FLEX_ROW_JUSTIFY_CENTER,
     FLEX_ROW_TYPE,
-    SELECTED_MENU_ITEM,
     NEXT_LINKS,
 } = constants;
-const { challenge } = SELECTED_MENU_ITEM;
 const { challengeResultLink } = NEXT_LINKS;
 const { quizPage } = DEFAULT_PROPS;
 
@@ -90,18 +88,16 @@ class QuizPage extends Component {
         const { seconds, questionIndex } = this.state;
         const { questions } = this.props;
         return ( 
-            <Layout selectedMenuItem={challenge}> 
-                <Row type={FLEX_ROW_TYPE} justify={FLEX_ROW_JUSTIFY_CENTER}>
-                    <Col span={18} md={18} xs={22}>
-                        <Quiz 
-                            quizItem={ questions[questionIndex] } 
-                            onAnswer={this.nextQuestion}  
-                            next={challengeResultLink} 
-                            timeLeft={seconds} 
-                        />
-                    </Col>
-                </Row>
-            </Layout>
+            <Row type={FLEX_ROW_TYPE} justify={FLEX_ROW_JUSTIFY_CENTER}>
+                <Col span={18} md={18} xs={22}>
+                    <Quiz 
+                        quizItem={ questions[questionIndex] } 
+                        onAnswer={this.nextQuestion}  
+                        next={challengeResultLink} 
+                        timeLeft={seconds} 
+                    />
+                </Col>
+            </Row>
         );
     }
 }
@@ -110,4 +106,4 @@ QuizPage.defaultProps = {
     questions: quizPage.questions,
 };
 
-export default QuizPage;
+export default withAuthSync(QuizPage);

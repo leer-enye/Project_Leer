@@ -1,16 +1,13 @@
 import React from 'react';
-import Layout from '../../components/layout';
 import { constants } from '../../components/common';
+import withAuthSync from '../../hocs/withAuthSync';
 
-const { SELECTED_MENU_ITEM, PAGES_TEXT } = constants;
-const { practice } = SELECTED_MENU_ITEM;
+const { PAGES_TEXT } = constants;
 const { practicePage } = PAGES_TEXT;
 const { label } = practicePage;
 
 const Practice = () => (
-    <Layout selectedMenuItem={practice}>
-        <div>{label}</div>
-    </Layout>
+    <div>{label}</div>
 );
 
-export default Practice;
+export default withAuthSync(Practice);

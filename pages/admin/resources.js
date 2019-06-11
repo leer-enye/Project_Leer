@@ -1,16 +1,13 @@
 import React from 'react';
-import Layout from '../../components/layout';
 import { constants } from '../../components/common';
+import withAuthSync from '../../hocs/withAuthSync';
 
-const { SELECTED_MENU_ITEM, PAGES_TEXT } = constants;
-const { resources } = SELECTED_MENU_ITEM;
+const { PAGES_TEXT } = constants;
 const { resourcesPage } = PAGES_TEXT;
 const { label } = resourcesPage;
 
 const Resources = () => (
-    <Layout selectedMenuItem={resources}>
-        <div>{ label }</div>
-    </Layout>
+    <div>{ label }</div>
 );
 
-export default Resources;
+export default withAuthSync(Resources);

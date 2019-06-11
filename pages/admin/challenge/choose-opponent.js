@@ -1,18 +1,15 @@
 import React from 'react';
 import { components } from '../../../components/challenge';
-import Layout from '../../../components/layout';
 import { constants } from '../../../components/common';
+import withAuthSync from '../../../hocs/withAuthSync';
 
-const { SELECTED_MENU_ITEM, NEXT_LINKS } = constants;
-const { challenge } = SELECTED_MENU_ITEM;
+const { NEXT_LINKS } = constants;
 const { challengeInfoLink } = NEXT_LINKS;
 
 const { OpponentSelect } = components;
 
 const ChooseOpponentPage = () => (
-    <Layout selectedMenuItem={challenge}>
-        <OpponentSelect next={challengeInfoLink} />
-    </Layout>
+    <OpponentSelect next={challengeInfoLink} />
 );
 
-export default ChooseOpponentPage;
+export default withAuthSync(ChooseOpponentPage);
