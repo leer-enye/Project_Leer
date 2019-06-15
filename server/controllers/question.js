@@ -1,5 +1,6 @@
 /* eslint-disable sort-keys */
 /* eslint-disable consistent-return */
+const { Types } = require('mongoose');
 const HttpStatus = require('http-status-codes');
 const Question = require('../models/Question');
 const StatusText = require('./constants');
@@ -175,6 +176,43 @@ exports.delete = async (req, res) => {
             });
         }
         return res.status(INTERNAL_SERVER_ERROR).send({
+            status: ERROR,
+            message: HttpStatus.getStatusText(INTERNAL_SERVER_ERROR),
+        });
+    }
+};
+
+// Retrieve and return all question from the database.
+exports.findRandom = async (req, res) => {
+    try {
+        const { limit, subjectId } = req.params;
+        const { ObjectId } = Types;
+        const options = [];
+
+        if (subjectId) {
+            const subjectMathCondition = {
+                $match: {
+                    subjectId: new ObjectId(subjectId),
+                },
+            };
+            options.push(subjectMathCondition);
+        }
+
+        const randomSamplingSize = {
+            $sample: {
+                size: limit || 10,
+            },
+
+        };
+        options.push(randomSamplingSize);
+        const questions = await Question.aggregate(options);
+
+        res.status(OK).send({
+            status: SUCCESS,
+            data: { questions },
+        });
+    } catch (err) {
+        res.status(INTERNAL_SERVER_ERROR).send({
             status: ERROR,
             message: HttpStatus.getStatusText(INTERNAL_SERVER_ERROR),
         });
