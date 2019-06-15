@@ -1,3 +1,5 @@
+const fetch = require('isomorphic-unfetch');
+const { URL } = require('url');
 const SOCKET_IO_EVENTS = require('./constant');
 const User = require('./user');
 
@@ -10,10 +12,12 @@ const {
     challengeRequest,
     challengeStart,
     getUser,
+    getNextQuestion,
     leaveRoom,
     login,
     rejectChallenge,
     selectUser,
+    sendQuestion,
     users,
 } = CUSTOM_EVENTS;
 
@@ -25,6 +29,7 @@ module.exports = io => {
     const allUsers = new Map(); // map user.id => user(id, name, picture, socketId)
     const availableUsers = new Map();
     const socketUsers = new Map(); // map socket.id => user
+    const roomSubject = new Map(); // map roomId => subject(id, name);
 
     const sendAvailableUserList = socket => {
         const userMapClone = new Map(availableUsers);
@@ -40,10 +45,9 @@ module.exports = io => {
             const { _id: userId, name, picture } = data;
             const { id: socketId } = socket;
             const user = new User(userId, name, picture, socketId);
-            allUsers.set(userId, user);
+            [allUsers, availableUsers].forEach(item => item.set(userId, user));
             socketUsers.set(socketId, user);
             allSockets.set(socketId, socket);
-            availableUsers.set(userId, user);
             sendAvailableUserList(socket);
         });
         socket.on(getUser, () => {
@@ -68,7 +72,7 @@ module.exports = io => {
             console.log('calling Select User');
             const { id: socketId } = socket;
             const originatingUser = socketUsers.get(socketId);
-            const { id: selectedUserId } = data;
+            const { id: selectedUserId, subjectId } = data;
             const selectedUser = allUsers.get(selectedUserId);
             const { socketId: selectedUserSocketId } = selectedUser || {};
             if (selectedUserSocketId) {
@@ -88,12 +92,16 @@ module.exports = io => {
                     rooms.set(item.id, roomId)
                 );
 
+                roomSubject.set(roomId, subjectId);
+
                 peer.emit(challengeRequest, {
                     room: roomId,
+                    subject: subjectId,
                     user: originatingUser,
                 });
                 socket.emit(ackChallengeRequest, {
                     room: roomId,
+                    subject: subjectId,
                     user: selectedUser,
                 });
 
@@ -131,12 +139,34 @@ module.exports = io => {
 
                 if (roomId) {
                     rooms.delete(userId);
+                    roomSubject.delete(roomId);
                     socket.emit(challengeEnd);
                 }
 
                 [allUsers, availableUsers].forEach(item => item.delete(userId));
             }
             [socketUsers, allSockets].forEach(item => item.delete(socketId));
+        });
+        socket.on(getNextQuestion, async () => {
+            // room -> subject, question
+            // Keep currentQuestionIndex
+            // event answer with user data, question id and option id
+            // Update Score
+            // Send question (id, list of options and correct option index);
+            const { host } = socket.handshake.headers; // .split(":").shift();
+            const path = `${host}/api/questions/`;
+            const url = new URL(path);
+            const params = { limit: 10, subjectId: '5d03ade5f721544844347cce' };
+            Object.keys(params).forEach(key =>
+                url.searchParams.append(key, params[key])
+            );
+            const apiURL = url.toString();
+            console.log(apiURL);
+            const res = await fetch(apiURL);
+            const { data } = await res.json();
+            const { questions } = data;
+
+            socket.emit(sendQuestion, { questions });
         });
     });
 };
