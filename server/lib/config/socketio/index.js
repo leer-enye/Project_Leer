@@ -2,6 +2,7 @@ const fetch = require('isomorphic-unfetch');
 const { URL } = require('url');
 const SOCKET_IO_EVENTS = require('./constant');
 const User = require('./user');
+const Challenge = require('./challenge');
 
 const { CUSTOM_EVENTS, SERVER_SYSTEM_EVENTS } = SOCKET_IO_EVENTS;
 
@@ -29,7 +30,7 @@ module.exports = io => {
     const allUsers = new Map(); // map user.id => user(id, name, picture, socketId)
     const availableUsers = new Map();
     const socketUsers = new Map(); // map socket.id => user
-    const roomSubject = new Map(); // map roomId => subject(id, name);
+    const roomChallenge = new Map(); // map roomId => challenge(roomId, subjectId, questions[])
 
     const sendAvailableUserList = socket => {
         const userMapClone = new Map(availableUsers);
@@ -72,7 +73,8 @@ module.exports = io => {
             console.log('calling Select User');
             const { id: socketId } = socket;
             const originatingUser = socketUsers.get(socketId);
-            const { id: selectedUserId, subjectId } = data;
+            const { subject: subjectId, user } = data;
+            const { id: selectedUserId } = user;
             const selectedUser = allUsers.get(selectedUserId);
             const { socketId: selectedUserSocketId } = selectedUser || {};
             if (selectedUserSocketId) {
@@ -91,8 +93,8 @@ module.exports = io => {
                 [originatingUser, selectedUser].forEach(item =>
                     rooms.set(item.id, roomId)
                 );
-
-                roomSubject.set(roomId, subjectId);
+                const challenge = new Challenge(roomId, subjectId);
+                roomChallenge.set(roomId, challenge);
 
                 peer.emit(challengeRequest, {
                     room: roomId,
@@ -139,7 +141,7 @@ module.exports = io => {
 
                 if (roomId) {
                     rooms.delete(userId);
-                    roomSubject.delete(roomId);
+                    roomChallenge.delete(roomId);
                     socket.emit(challengeEnd);
                 }
 
@@ -147,26 +149,38 @@ module.exports = io => {
             }
             [socketUsers, allSockets].forEach(item => item.delete(socketId));
         });
-        socket.on(getNextQuestion, async () => {
-            // room -> subject, question
-            // Keep currentQuestionIndex
+        socket.on(getNextQuestion, async data => {
+            // TODOS
             // event answer with user data, question id and option id
             // Update Score
-            // Send question (id, list of options and correct option index);
-            const { host } = socket.handshake.headers; // .split(":").shift();
-            const path = `${host}/api/questions/`;
-            const url = new URL(path);
-            const params = { limit: 10, subjectId: '5d03ade5f721544844347cce' };
-            Object.keys(params).forEach(key =>
-                url.searchParams.append(key, params[key])
-            );
-            const apiURL = url.toString();
-            console.log(apiURL);
-            const res = await fetch(apiURL);
-            const { data } = await res.json();
-            const { questions } = data;
 
-            socket.emit(sendQuestion, { questions });
+            const { roomId } = data;
+            const challenge = roomChallenge.get(roomId);
+
+            if (challenge.question > 0) {
+                challenge.increaseQuestionIndex();
+                const question = challenge.getCurrentQuestion();
+                socket.emit(sendQuestion, { question });
+            } else {
+                const { host } = socket.handshake.headers; // .split(":").shift();
+                const path = `${host}/api/questions/`;
+                const url = new URL(path);
+                const params = {
+                    limit: 10,
+                    subjectId: '5d03ade5f721544844347cce',
+                };
+                Object.keys(params).forEach(key =>
+                    url.searchParams.append(key, params[key])
+                );
+                const apiURL = url.toString();
+                console.log(apiURL);
+                const res = await fetch(apiURL);
+                const { data: json } = await res.json();
+                const { questions } = json;
+                challenge.questions = questions;
+                const question = challenge.getCurrentQuestion();
+                socket.emit(sendQuestion, { question });
+            }
         });
     });
 };
