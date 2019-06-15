@@ -157,7 +157,7 @@ module.exports = io => {
             const { roomId } = data;
             const challenge = roomChallenge.get(roomId);
 
-            if (challenge.question > 0) {
+            if (challenge.question.length > 0) {
                 challenge.increaseQuestionIndex();
                 const question = challenge.getCurrentQuestion();
                 socket.emit(sendQuestion, { question });
