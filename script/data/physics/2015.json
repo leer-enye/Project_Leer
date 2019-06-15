@@ -1,0 +1,371 @@
+﻿[
+  {
+    "question": "If the volume of a gas is recoded as 76cm<sup>3</sup> at a temperature of 27°C with a pressure of 800mmHg. What will be the volume of the gas at S.T.P?",
+    "option_a": "36.2cm<sup>3</sup>",
+    "option_b": "25.7cm<sup>3</sup>",
+    "option_c": "72.8cm<sup>3</sup>",
+    "option_d": "24.3cm<sup>3</sup>",
+    "answer": "C",
+    "solution": "General formular of Gas laws <br> (P<sub>1</sub>V<sub>1</sub>) ÷ T<sub>1</sub>= (P<sub>2</sub>V<sub>2</sub>) ÷ T<sub>2</sub> <br> P1 = 800mmHg, V, = 76cm<sup>3</sup>, Tr = 273 + 27 = 300k <br> P2 = 760mmHg, V2 = ? T2= 273 + 0 = 273 + 6 = 277k <br> (800 × 76) ÷ 300 = (760 × V2) ÷ 273 <br> V2 =  (300 × 76 × 273) ÷ (300 × 760) = 72.8 cm<sup>3</sup> <br> The volume of gas as S.T.P = 72.8 cm<sup>3</sup>"
+  },
+  {
+    "question": "Boyle’s law may be Witten as",
+    "option_a": "P<sub>1</sub>V<sub>1</sub>= P<sub>2</sub>V<sub>2</sub>",
+    "option_b": "V<sub>1</sub> = V<sub>2</sub> ÷ T<sub>1</sub>T<sub>2</sub>",
+    "option_c": "P<sub>1</sub>T<sub>1</sub> = P<sub>2</sub>T<sub>2</sub>",
+    "option_d": "P<sub>1</sub>V<sub>1</sub> ÷ T<sub>1</sub> = P<sub>1</sub>V<sub>1</sub> ÷ T<sub>2</sub>",
+    "answer": "A",
+    "solution": "Boyle‘s law stats that the volume of a given mass of a gas, at a constant temperature is inversely proportional to us pressure. <br> Mathematically <br> V ∝ l/p, v = k/p (where k is constant) <br> K = VP <br> Let k = k1 <br> Then, if k = k, V and P = V1P1 <br> V1P1 = V2P2"
+  },
+  {
+    "question": "The direction of the path taken by light is called",
+    "option_a": "Locus",
+    "option_b": "Lines",
+    "option_c": "Ray",
+    "option_d": "Beam",
+    "answer": "C",
+    "solution": "Ray – a beam of light or radiation"
+  },
+  {
+    "question": "What is the inductance (L) of an inductor whose reactance is 1Ω at 50/ π hertz (H)?",
+    "option_a": "100 H",
+    "option_b": "0.01H",
+    "option_c": "10H",
+    "option_d": "1H",
+    "answer": "B",
+    "solution": "XL = WL = 2πFL (w = 2πf) <br> XL = reactance inductor (S.I unit Ω) <br> L = inductance (L) in Henry <br> XL = 1Ω, f = 50/π, L = ? <br> 1 = 2× π × 50/π × L <br> 1 = 100L <br> i.e. 100L = 1 <br> L = 1/100 <br> 0.01H <br> ∴ Inductance (L) of a inductor = 0.01H"
+  },
+  {
+    "question": "A stroboscope can be used to make the ware appear …………..",
+    "option_a": "Stationary",
+    "option_b": "In motion",
+    "option_c": "Dipper",
+    "option_d": "Ripple",
+    "answer": "A",
+    "solution": "Stroboscope is a scientific instrument used to make a wave appears stationary when used"
+  },
+  {
+    "question": "In an elastic collision <br> I. Energy is conversed<br> II. Energy is decreased<br> III. Energy is increased<br> IV. Linear momentum conversed",
+    "option_a": "I only",
+    "option_b": "II and IV only",
+    "option_c": "II only",
+    "option_d": "III only",
+    "answer": "B",
+    "solution": "In an inelastic collision, linear momentum is conserved and energy is decreased <br> Momentum and kinetic energy are conserved in elastic collision"
+  },
+  {
+    "question": "Body floats in fluid when its …………………",
+    "option_a": "Displaces its own volume of the liquid (fluid)",
+    "option_b": "Displaces its own mass of the fluid",
+    "option_c": "Displace its own density of the fluid",
+    "option_d": "Is no longer subjected to gravity",
+    "answer": "B",
+    "solution": "Note:The principle of floatation states that a floating body displaces its own weight of the fluid or which its float. <br> For object to sink weight of the object (W) > upthrust of the fluid (v) i.e. w > u <br> (i.e. weight of the body (or object) mass of the fluid)"
+  },
+  {
+    "question": "The general gas law can be written as",
+    "option_a": "PV ÷ T = a constant",
+    "option_b": "PV = a constant",
+    "option_c": "v/t = a constant",
+    "option_d": "p/T = a constant",
+    "answer": "A",
+    "solution": "Formula for general gas law <br> V × 1/T × P <br> N [(PV) ÷ T] = K is constant"
+  },
+  {
+    "question": "A motor boy of a driver saw what seem to appear to be a pool of water a head of him, while his driver’s drives a new truck on a funny day. Which of the following explains his observation?",
+    "option_a": "He saw a flying objects",
+    "option_b": "He must be thinking of water and food",
+    "option_c": "He was seeing the shadow of the car",
+    "option_d": "The sun ray from the sky were passing from a hot air (layer) to cold layer",
+    "answer": "D",
+    "solution": "The appearance of pool of water on road surfaces is called MIRAGE <br> His observation show that light from the sun ray refracted through a layer of hot air(layer) which is closed to the ground, passes from a hot air layer to the cold layer"
+  },
+  {
+    "question": "Which of the following is not luminous object?",
+    "option_a": "The sun",
+    "option_b": "The moon",
+    "option_c": "light candle",
+    "option_d": "Star",
+    "answer": "B",
+    "solution": "Sun are self luminous source<br> Moon is a non – luminous"
+  },
+  {
+    "question": "The resultant force of a couple is ………?",
+    "option_a": "Infinity",
+    "option_b": "Zero",
+    "option_c": "One",
+    "option_d": "Half",
+    "answer": "B",
+    "solution": "Note: moment of a couple = force × length (fL) <br> The tangential force is actingin an opposite direction alongside its length <br> i.e f1 L1 = f2L2 <br> f2L2 − f1 L1 = 0(i.e Zero)"
+  },
+  {
+    "question": "A vector quantity can only be completely described when ……… and …………are mentioned.",
+    "option_a": "Magnitude and motion",
+    "option_b": "Magnitude and direction",
+    "option_c": "Distance and specified displacement",
+    "option_d": "Moment and momentum",
+    "answer": "B",
+    "solution": "A vector quantity has both magnitude and direction"
+  },
+  {
+    "question": "In which of the following device in the expansion of solid is a disadvantages? <br> I. Simple pendulum<br> II. Fire alarms<br> III. Thermostat<br> IV. Bimetallic thermometer",
+    "option_a": "III only",
+    "option_b": "II & III only",
+    "option_c": "I only",
+    "option_d": "II, III & IV only",
+    "answer": "C",
+    "solution": "Simple pendulum does not depend on thermal expansion <br> Five alarms, Thermostat and Bimetallic thermometer are application of thermal expansion of solid"
+  },
+  {
+    "question": "If an object is placed at a height of tem above the ground at a stationary point. It posses what types of energy?",
+    "option_a": "Mechanical energy",
+    "option_b": "Stationary energy",
+    "option_c": "Potential energy",
+    "option_d": "Vibrational energy",
+    "answer": "C",
+    "solution": "Energy due to position T is potential energy (P.E) <br> Energy due to motion is kinetic energy (K.E)"
+  },
+  {
+    "question": "Calculate the gravitation force of attraction between two planets of 10<sup>24</sup>kg and 10<sup>27</sup>kg separated by a distance of 1020meters.",
+    "option_a": "6.67N",
+    "option_b": "6.56N",
+    "option_c": "7.5N",
+    "option_d": "8.6N",
+    "answer": "A",
+    "solution": "F = (Gm<sub>1</sub>m<sub>2</sub>) ÷ r<sup>2</sup> <br> M<sub>1</sub> = 10<sup>24</sup>Kg, M<sub>2</sub> = 10<sup>27</sup>Kg , r = 102 <br> (Note: the gravitational constant of G = \\(6.67 × 10^{ 7ndash; 11}\\) \\( Nm^2/Kg^2 \\) <br> F = \\( (6.67 × 10^{– 11 + 24 + 27)} 10^40 = 6.67 × (10^40 ÷ 10^40) <br> = 6.67N <br> f = 6.67N"
+  },
+  {
+    "question": "Mr. F. Abioye observed his image though a plane mirror, kept a distance way from him at 4.7m in his room at what distance is the image found from Abioye eye?",
+    "option_a": "9.4m",
+    "option_b": "7.5m",
+    "option_c": "5.7m",
+    "option_d": "6.9m",
+    "answer": "A",
+    "solution": "As object and image are usually at equal distance apart from the mirror /p> <br> Distance between Abioye (a) and hip image (I) = AI <br> i.e. AI = 4.7 + 47 <br> = 9.4m"
+  },
+  {
+    "question": "Primary colours of light are",
+    "option_a": "Red, blue and green",
+    "option_b": "Cyan, magneta and yellow",
+    "option_c": "Black, blue and green",
+    "option_d": "None of these colours",
+    "answer": "A",
+    "solution": "Primary colours of light are red, blue and green <br> Secondary colours of light are cyan, magneta and yellow"
+  },
+  {
+    "question": "Electrons were discovered by",
+    "option_a": "James Chadwick B.",
+    "option_b": "J.J Thompson",
+    "option_c": "Sir Isaac Newton",
+    "option_d": "Charles Newton",
+    "answer": "B",
+    "solution": "J.J. Thompson discovered ELECTRONS"
+  },
+  {
+    "question": "What is the relationship mechanical advantage (MA) velocity Ratio (V.R) and efficiency with percentage?",
+    "option_a": "e = M.A/V.R × 100 %",
+    "option_b": "M.A = E.V.R",
+    "option_c": "V.R = 1 ÷ sin θ M.A",
+    "option_d": " M.A = 1/E × 100%",
+    "answer": "A",
+    "solution": "he relationship between M.A, V.R, e and 100% can be written as <br> e = M.A/V.R × 100 % <br> i.e E/100 = M.A/V.R <br> = L ÷ E/x ÷ y = Ly/Ex <br> E/100 = Ly/Ex"
+  },
+  {
+    "question": "The external parts of an object can be measure accurately through the use of which scientific instrument?",
+    "option_a": "Micrometer screw gauge",
+    "option_b": "Vernier Caliper",
+    "option_c": "Meter rule",
+    "option_d": "None of the instrument",
+    "answer": "A",
+    "solution": "Micrometer screw gauge measure an objects accurately (mainly on the external parts of the object). It measures the external parts of objects only"
+  },
+  {
+    "question": "Convert 45°C to kelvin",
+    "option_a": "318K",
+    "option_b": "250K",
+    "option_c": "184K",
+    "option_d": "120K",
+    "answer": "A",
+    "solution": "Note: T = 273 + θ <br> θ = 45° <br> T = 273 + 45 <br> = 318K"
+  },
+  {
+    "question": "A member of the crew of a SPACESHIP experiences weightlessness in a space when they",
+    "option_a": "Fall freely from the earth’s gravitational field",
+    "option_b": "Is walking on the planet",
+    "option_c": "In between the sun and the earth",
+    "option_d": "Holding anything in space is negative",
+    "answer": "A",
+    "solution": "Weightlessness:– The state of being free from the effects of gravity. (zero gravity)"
+  },
+  {
+    "question": "Radio waves belong to the class of wave whose velocity is about",
+    "option_a": "34m/s",
+    "option_b": "3 ×10<sup>6</sup>m/s",
+    "option_c": "3 ×10<sup>8</sup>m/s",
+    "option_d": "3 × 10<sup>-8</sup>m/s",
+    "answer": "C",
+    "solution": "A radio waves is an electromagnetic waves which travels with a constant velocity of 3 × 10<sup>8</sup>m/s"
+  },
+  {
+    "question": "At 35°C and 5 atmospheres pressure the density of a gas is 0.600g per liter. What is the density at 7 atmospheric pressure and 350°C.",
+    "option_a": "0.27g / liters",
+    "option_b": "0.25g / liters",
+    "option_c": "17g / liters",
+    "option_d": "0.15g / liters",
+    "answer": "C",
+    "solution": "\\( \\theta1 = 35°C T1 = 273 + θ = 73 + 35 = 308k P1 = 5 \\)atm <br> d1 = 0.600g/ litre <br> θ2 = 350°C, T2 = 2 + 3 + θ <br> = 273 + 350 = 623k, d2 = ? <br> P2 = 7atm <br> T a P a 1/d = TPK/d (where k is a constant) <br> Tp1 ÷ d1 = T1P2 ÷ d2, [(308 × 5) ÷ 0.600] <br> = (623 × 7) ÷ d2 <br> d2 = (623 × 7 ×0.600) ÷ (308 × 5) <br> = 2616.6 ÷ 1540 <br> = 1.69g / litresd2 = 1.69g / litres <br> ∴ d2 = 1.70g / litres (Approx.)"
+  },
+  {
+    "question": "The compressed regions and the space-out regions in longitude wave are refers to as",
+    "option_a": "Compression and Rarefaction",
+    "option_b": "Comparison and Explosion",
+    "option_c": "Reflection only",
+    "option_d": "Refraction only",
+    "answer": "A",
+    "solution": "The vibrating particles behave like a spiral spring with a series of compression region and space–out region."
+  },
+  {
+    "question": "At what respective value of a, b, and c would the unit of work, the joule, be dimensionally similar to Ma  Lb  Tc?",
+    "option_a": "1, – 2, 1",
+    "option_b": "1, 2, – 2",
+    "option_c": "1, 1, –2",
+    "option_d": "2, 2, 1",
+    "answer": "B",
+    "solution": "Work (w) = Force (f) × Distance (d) <br> Note: f = ma = mass × acceleration <br> = mass ×acceleration ×distance <br> = kg ×ms–2 × m <br> = kg m2 5–2 <br> (Note: the dimension of kg = M, M = L & S = T) <br> Work = ML2 T–2 = Ma  Lb  Tc <br> i.e. Ma  Lb  Tc = as 1, b = 2, c = –2 <br> The value of a, band c = 1, 2, –2"
+  },
+  {
+    "question": "The device in which one circuit controls another, especially if the current in the second circuit is large or dangerous is known as",
+    "option_a": "Electromagnetic devices",
+    "option_b": "Magnetic relay device",
+    "option_c": "None at all",
+    "option_d": "Sextant",
+    "answer": "B",
+    "solution": "Magnetic relay device :is the device that controls a circuit (i.e one circuit )if a current in the second circuit is large or dangerous"
+  },
+  {
+    "question": "Heat losses to the surrounding is possible through the following except",
+    "option_a": "Conduction",
+    "option_b": "Convection",
+    "option_c": "Radiation",
+    "option_d": "Expansion",
+    "answer": "D",
+    "solution": "Conduction, conveying of heat or electricity through a material medium is required"
+  },
+  {
+    "question": "quantities of heat q can be measured using a container called",
+    "option_a": "Thermometer",
+    "option_b": "Measuring cylinder",
+    "option_c": "Calorimeter",
+    "option_d": "Meter rule",
+    "answer": "C",
+    "solution": "Calorimeter is an apparatuses used for measuring the heat (q) generated or absorbed by change of phase (state) or other physical change"
+  },
+  {
+    "question": "Lodestone is a natural magnet, it points at",
+    "option_a": "N – W when suspended freely",
+    "option_b": "N–S when suspended freely",
+    "option_c": "S – E when suspended freely",
+    "option_d": "S–W when suspended freely",
+    "answer": "B",
+    "solution": "Lodestone is a natural magnet it points approximate at N – S when suspended freely"
+  },
+  {
+    "question": "What type of electromagnetic radiation can be used to take photographs in the haze?",
+    "option_a": "Radio waves",
+    "option_b": "infrared rays",
+    "option_c": "Visible light",
+    "option_d": "Gamma rays",
+    "answer": "B",
+    "solution": "Infrared rays are easily detected by special photographic films and it can be used for taking picture in haze"
+  },
+  {
+    "question": "If a mango fruit dropped at a height of 50 meters. How long does it reach the ground? (take g = 10m/s<sup>2</sup>)",
+    "option_a": "2 sec",
+    "option_b": "3 sec",
+    "option_c": "4sec",
+    "option_d": "3.2sec",
+    "answer": "D",
+    "solution": "From S = ut + ½gt<sup>2</sup> <br> u = 0ms<sup>-1</sup> <br> 50 = (0 × t) + ½(10)(t<sup>2</sup>) <br> 50 = 5.0t<sup>2</sup> <br> t<sup>2</sup> =50/5 <br> t = √10 <br> t = 3.2sec"
+  },
+  {
+    "question": "A zinc has a heat capacity of 40 J/K, what is the mass of the zinc, given that the specific heat of zinc is 380 J/kg k",
+    "option_a": "0.11kg",
+    "option_b": "0.12kg",
+    "option_c": "0.13kg",
+    "option_d": "0.14kg",
+    "answer": "A",
+    "solution": "Heat capacity (o) = mass (kg) specific heat of a substance (C2) <br> i.e q = MC <br> where q = 40 J/L, m = ?(380 J/Kgk) <br> 40 = m × 380 <br> m = 0.11kg (Approx)"
+  },
+  {
+    "question": "If a ball released from a height of 20m, How long would it take the ball to reach the ground? (assures g = 10m/s)",
+    "option_a": "2sec",
+    "option_b": "3sec",
+    "option_c": "35sec",
+    "option_d": "2.4sec",
+    "answer": "A",
+    "solution": "Using the equation <br> S = ut + ½ gt<sup>2</sup> <br> H = s = 20m, t = ? <br> G =10m/s<sup>2</sup>, u = 0m/s <br> 20 = 0 × t × ½ × 10 t <br> 20 = 5t <br> i.e 5t2 = 20 <br> t = 20/5 = 4 <br> t = 4 (squaring both sides) <br> √ t2 = √4 <br> = 2sec <br> ∴ t = 2sec"
+  },
+  {
+    "question": "If the velocity ratio of a machine is 5. What is its ratio of x and y?",
+    "option_a": "2 : 5",
+    "option_b": "1 : 5",
+    "option_c": "5 : 1",
+    "option_d": "3 : 1",
+    "answer": "C",
+    "solution": "Velocity Ratio (V.R) = distance moved by the effort (x)÷ distance moved by the load (y) <br> i.e. V.R = x/y <br> v. R = 5, x/y = ? <br> i.e x/y = 5/1; , where x = 5, y = 1 <br> x : y = 5 : 1"
+  },
+  {
+    "question": "In an inelastic collision <br> I. Energy is conversed<br> II. Energy is decreased<br> III. Energy is increased<br> IV. Linear momentum conversed",
+    "option_a": "I only",
+    "option_b": "II and IV only",
+    "option_c": "II only",
+    "option_d": "III only",
+    "answer": "B",
+    "solution": "In an inelastic collision, linear momentum is conserved and energy is decreased <br> Momentum and kinetic energy are conserved in elastic collision"
+  },
+  {
+    "question": "In which of the following device in the expansion of solid is a disadvantages? <br> I. Simple pendulum<br> II. Fire alarms<br> III. Thermostat<br> IV. Bimetallic thermometer",
+    "option_a": "III only",
+    "option_b": "II & III only",
+    "option_c": "I only",
+    "option_d": "II, III & IV only",
+    "answer": "C",
+    "solution": "Simple pendulum does not depend on thermal expansion <br> Five alarms, Thermostat and Bimetallic thermometer are application of thermal expansion of solid"
+  },
+  {
+    "question": "The normal temperature of human body is record at what ranges?",
+    "option_a": "27°C to 43°C",
+    "option_b": "30°C to 40°",
+    "option_c": "98.4°C only",
+    "option_d": "Between 35°C to 37°C",
+    "answer": "D",
+    "solution": "The range of temperature is between 35°C and 43°C but for normal temperature of human body is between the range of 35°C to 37°C respectively"
+  },
+  {
+    "question": "The property of a body to remain at rest or to continue to move in a straight line is known as",
+    "option_a": "force",
+    "option_b": "Impulse",
+    "option_c": "Energy",
+    "option_d": "Inertia",
+    "answer": "D",
+    "solution": "Inertia: the property of a body that resists any change to its uniform motion, equivalent to its mass"
+  },
+  {
+    "question": "Momentum and Kinetic energy are conserved in",
+    "option_a": "Inelastic collision",
+    "option_b": "Elastic collision",
+    "option_c": "Explosion",
+    "option_d": "Spacecraft",
+    "answer": "B",
+    "solution": "Momentum and kinetic energy are conversed in elastic collision"
+  },
+  {
+    "question": "An alternating current with a frequency of 100HZ has a period of",
+    "option_a": "0.03sec",
+    "option_b": "0.01sec",
+    "option_c": "0.04sec",
+    "option_d": "0.15sec",
+    "answer": "B",
+    "solution": "F = 100HZ, period, T = 1/f = 1/100 <br> = 0.01 sec <br> The period (T) = 0.01sec"
+  }
+]

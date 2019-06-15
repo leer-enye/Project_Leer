@@ -1,0 +1,452 @@
+﻿[
+  {
+    "question": "Which of the following legislation aims primarily at the protection of consumers?",
+    "option_a": "Law of contract",
+    "option_b": "Trade description Act",
+    "option_c": "Company's Act",
+    "option_d": "Partnership Act",
+    "answer": "B",
+    "solution": "This protects the consumers from false description of goods in terms of quality, quantity, size, place and date of manufacture"
+  },
+  {
+    "question": "A bill of exchange already accepted can be discounted by the holder in ______?",
+    "option_a": "the central bank",
+    "option_b": "at least two banks",
+    "option_c": "his bank",
+    "option_d": "any bank",
+    "answer": "D",
+    "solution": "Is an unconditional written order from one person to another to pay a specified sum of money to a designated person."
+  },
+  {
+    "question": "An agreement that is enforceable in law is ________?",
+    "option_a": "a contract",
+    "option_b": "an offer",
+    "option_c": "an acceptance",
+    "option_d": "a consideration",
+    "answer": "A",
+    "solution": "A contract is an agreement or law binding the creation of business and enforceable in law."
+  },
+  {
+    "question": "The factor of production that is relatively indestructible and immobile is _______?",
+    "option_a": "capital",
+    "option_b": "labour",
+    "option_c": "land",
+    "option_d": "rent",
+    "answer": "A",
+    "solution": "This is wealth reserved for the production of more wealth. It includes physical cash, building, semi-finished goods."
+  },
+  {
+    "question": "An instrument used in lieu of legal tender is known as ______?",
+    "option_a": "Token money",
+    "option_b": "commodity money",
+    "option_c": "fiat money",
+    "option_d": "representative",
+    "answer": "B",
+    "solution": "Money is a type of asset in an economy that is used to buy goods and services from other people. A commodity is a physical item that is interchangeable with another item of the same type or value.<br>\nThis is the use of specific commodity as a form of money. Its value as a piece of metal is the same with its value as a piece of money."
+  },
+  {
+    "question": "At the collapse of a business enterprises, the person appointed to dispose off the assets is called ________?",
+    "option_a": "an auctioneer",
+    "option_b": "a broker",
+    "option_c": "a liquidator",
+    "option_d": "an auditor",
+    "answer": "A",
+    "solution": "An Auctioneer is a person who conducts an auction by announcing the lots and controlling the bidding."
+  },
+  {
+    "question": "The process of converting a non-profit making organisation to a profit-making business is ________?",
+    "option_a": "indigenisation",
+    "option_b": "privatisation",
+    "option_c": "deregulation",
+    "option_d": "commercialisation",
+    "answer": "B",
+    "solution": "This is the process of transferring a government owned business to a private owner."
+  },
+  {
+    "question": "The letters E and OE stands for __________?",
+    "option_a": "Errors of exception",
+    "option_b": "Errors and omissions excepted",
+    "option_c": "Estimated and order error",
+    "option_d": "End of error",
+    "answer": "B",
+    "solution": "This is an attempt to reduce legal liability for potentially incorrect or incomplete information supplied in a contract usually related document such as quotation or specification."
+  },
+  {
+    "question": "When a buyer has been overcharged for goods supplied, the seller issues a _______?",
+    "option_a": "debit note",
+    "option_b": "proforma invoice",
+    "option_c": "letter of credit",
+    "option_d": "credit note",
+    "answer": "D",
+    "solution": "A seller receives goods (returned) from the buyer, he prepares and sends a credit note as an intimation to the buyer, showing that the money for the related goods is being returned in form of a credit note"
+  },
+  {
+    "question": "The fees charged on postal order by the post office is _____?",
+    "option_a": "interest",
+    "option_b": "brokerage",
+    "option_c": "poundage",
+    "option_d": "premium",
+    "answer": "C",
+    "solution": "This is a small fee charged by the post office for sending money through mail. The poundage is paid by the purchaser."
+  },
+  {
+    "question": "A government policy that encourages transfer of ownership from foreigners to indigenes of the country is known as ____?",
+    "option_a": "nationalisation",
+    "option_b": "privatisation",
+    "option_c": "indigenisation",
+    "option_d": "commercialisation",
+    "answer": "C",
+    "solution": "Is a process of transferring ownership of foreign owned business to the indigenes of the country to encourage full participation of economic activities in the country."
+  },
+  {
+    "question": "The government agency involved in issuing of export licences is _______?",
+    "option_a": "Nigeria Export Processing Zone",
+    "option_b": "Nigeria Export Promotion council",
+    "option_c": "Nigeria Port Authority",
+    "option_d": "Customs and Excise Authority",
+    "answer": "B",
+    "solution": "Export licence is the control document issued by a government agency to monitor the export of sensitive products, prohibited materials (drugs, genetically modified plants) or goods in short supply in the home market.<br>Is the body responsible for issuing export licences for agricultural and manufactured goods."
+  },
+  {
+    "question": "The quality of money that describe its uniformity is",
+    "option_a": "recognizability",
+    "option_b": "durability",
+    "option_c": "portability",
+    "option_d": "homogeneity",
+    "answer": "D",
+    "solution": "This is the attribute of money having same composition throughout the country."
+  },
+  {
+    "question": "One disadvantages of advertising is that it —",
+    "option_a": "could be misleading",
+    "option_b": "decreases sales",
+    "option_c": "reduces profit",
+    "option_d": "causes over stocking",
+    "answer": "A",
+    "solution": "Sometimes the manufacturer can give false information regarding a product to the public."
+  },
+  {
+    "question": "Water corporation is an example of ______?",
+    "option_a": "co-operative society",
+    "option_b": "public enterprise",
+    "option_c": "private enterprise",
+    "option_d": "limited company",
+    "answer": "B",
+    "solution": "This is a business organisation established, owned, managed and financed with tax payer's money by the government of a country with the aim of rendering services to the public"
+  },
+  {
+    "question": "The concept that refers to the sale, transfer or exchange of goods and services is",
+    "option_a": "industry",
+    "option_b": "trade",
+    "option_c": "tariff",
+    "option_d": "marketing",
+    "answer": "B",
+    "solution": "This is the practice of exchanging goods for goods and services for services"
+  },
+  {
+    "question": "Production ends when goods and services ________",
+    "option_a": "reach the final consumer",
+    "option_b": "are used for manufacturing",
+    "option_c": "are packaged and labelled",
+    "option_d": "are sold to the middlemen",
+    "answer": "A",
+    "solution": "The primary aim of the producer is to satisfy human wants, i.e the final users."
+  },
+  {
+    "question": "What is the reward accruable to land?",
+    "option_a": "Rent",
+    "option_b": "profits",
+    "option_c": "wages",
+    "option_d": "Interest",
+    "answer": "A",
+    "solution": "Since land is a free gift of nature, it doesn't require any cost to be paid in order to make it available to the society for use. <br>\nAs the quantity of land available for use is scarce relative to demand, a price must be paid for its use. Hence, the view point of the society , the earnings of land becomes economic rent."
+  },
+  {
+    "question": "A demerit of communication is that it ________",
+    "option_a": "makes payment for goods cumbersome",
+    "option_b": "increase the cost of goods in transit",
+    "option_c": "give room for distortion of fact",
+    "option_d": "hinder quick reception of messages over a long distance",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "The function of commerce in relation to production is ______",
+    "option_a": "helping in the extraction of raw material from nature",
+    "option_b": "providing a link between the different stage of conversion of good",
+    "option_c": "yielding result",
+    "option_d": "satisfying",
+    "answer": "D",
+    "solution": "Options A, B and C are placed under the types of production. When extraction has been made and a desired result attained, without getting the yielded results to the final consumer and without satisfying human wants, the function of commerce has not been actualized. Hence, production is said to be complete when the transferred raw materials have met its aim of satisfying human wants"
+  },
+  {
+    "question": "An advantage of division of labour is _______?",
+    "option_a": "productivity and total output is increased",
+    "option_b": "monotony of task is eliminated",
+    "option_c": "loss of individual craftmanship is minimized",
+    "option_d": "interdependence of workers increase remuneration",
+    "answer": "A",
+    "solution": "More hands are involved in the production of a particular commodity."
+  },
+  {
+    "question": "A major objective of all business resources is ______",
+    "option_a": "public relation",
+    "option_b": "profit sharing",
+    "option_c": "human relation",
+    "option_d": "profit making",
+    "answer": "D",
+    "solution": "This is the money gotten from the business."
+  },
+  {
+    "question": "What document is required when a country imposes valorem import duties on goods?",
+    "option_a": "mail transfer",
+    "option_b": "shipping note",
+    "option_c": "bill of lading",
+    "option_d": "consular invoice",
+    "answer": "B",
+    "solution": "This is a document that gives details of goods being sent from one place to another."
+  },
+  {
+    "question": "A major function of trade association is to _______",
+    "option_a": "assist members to buy cars",
+    "option_b": "help individuals to set up small business",
+    "option_c": "establish a link among member",
+    "option_d": "foster cooperation among members",
+    "answer": "D",
+    "solution": "They foster cooperation among members."
+  },
+  {
+    "question": "A partnership is dissolved due to ________",
+    "option_a": "liquidity of the firm",
+    "option_b": "death of the employee",
+    "option_c": "insanity of a partner",
+    "option_d": "resignation of an employee",
+    "answer": "C",
+    "solution": "This can lead to the dissolution of partners."
+  },
+  {
+    "question": "Another name or term for a dishonoured cheque is ______",
+    "option_a": "an order cheque",
+    "option_b": "a bounced cheque",
+    "option_c": "a bearer cheque",
+    "option_d": "an open cheque",
+    "answer": "B",
+    "solution": "A cheque is said to be bounced if the cheque is being rejected or dishonoured by the bank. Another name for dishonoured cheque is a bounced cheque"
+  },
+  {
+    "question": "An example of extractive occupation is ______",
+    "option_a": "mining",
+    "option_b": "teaching",
+    "option_c": "banking",
+    "option_d": "driving",
+    "answer": "A",
+    "solution": "All the options are classification of production.<br>It involves people whose activities are directed to the process of bringing out natural resources from the soil and sea."
+  },
+  {
+    "question": "A major merit of the retaining middlemen is to _______",
+    "option_a": "pay cash to the bank: for manufacturers",
+    "option_b": "stock perishable goods",
+    "option_c": "regulate price for manufacturers",
+    "option_d": "stock goods produced by different manufacturer",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "Goods and services transferred from seller to buyer without immediate payment is referred to as ______",
+    "option_a": "hire purchase",
+    "option_b": "mutual understanding",
+    "option_c": "credit sale",
+    "option_d": "leasing",
+    "answer": "C",
+    "solution": "This is the transfer of goods and services from seller to a buyer without any value being given immediately in return."
+  },
+  {
+    "question": "The process of buying and selling and distribution of goods and services is ______",
+    "option_a": "retail trade",
+    "option_b": "commerce",
+    "option_c": "marketing concept",
+    "option_d": "marketing",
+    "answer": "B",
+    "solution": "It is the study of production, distribution and exchange of goods and services aimed at satisfying human wants."
+  },
+  {
+    "question": "The differences between the central bank and commercial bank is that the former ______",
+    "option_a": "discount treasury bills",
+    "option_b": "give loans to the public",
+    "option_c": "saves valuable of individual",
+    "option_d": "serves as lender of last resort",
+    "answer": "D",
+    "solution": "Options A, B,C are duties carried out by the commercial banks. Central bank is the apex bank. They offer loans to banks or other eligible institutions that are experiencing financial difficulties and have no other means of borrowing and fails to obtain credit."
+  },
+  {
+    "question": "The organised effort of consumers to protect themselves against the unfair practices of businessmen is known as __",
+    "option_a": "Stroke",
+    "option_b": "Consumerism",
+    "option_c": "Picketing",
+    "option_d": "Demonstration",
+    "answer": "B",
+    "solution": "Consumerism is defined as an organised efforts by individuals, groups and government to help protect consumers from policies that infringes consumers' right to fair business right."
+  },
+  {
+    "question": "The stock exchange is a market where _______",
+    "option_a": "long-term securities are sold",
+    "option_b": "all types of securities are sold",
+    "option_c": "short-term securities are sold",
+    "option_d": "medium term securities are sold",
+    "answer": "B",
+    "solution": "This is where securities are bought and sold."
+  },
+  {
+    "question": "One of the determinants of choice of occupation is ______",
+    "option_a": "level of exposure",
+    "option_b": "resources control",
+    "option_c": "government policies",
+    "option_d": "peer group",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "The production process that combines two or more raw materials into end product is",
+    "option_a": "conditioning",
+    "option_b": "blending",
+    "option_c": "merging",
+    "option_d": "synthesis",
+    "answer": "B",
+    "solution": "This is the mixture or combination of a substance with another substance so that they combine together."
+  },
+  {
+    "question": "The part of the computer that has the capacity to interpret instruction is _______",
+    "option_a": "universal power storage",
+    "option_b": "central processing unit",
+    "option_c": "keyboard",
+    "option_d": "monitor",
+    "answer": "B",
+    "solution": "It is the brain of a computer. The CPU processes and interprets data to information."
+  },
+  {
+    "question": "A demonstration of social responsibility by a business is the payment of _______",
+    "option_a": "taxes to government",
+    "option_b": "dividends to shareholder",
+    "option_c": "interest on loans",
+    "option_d": "premium on insurance",
+    "answer": "A",
+    "solution": "These are receipts from individual's income taxes, corporate income taxes, gift and estate taxes."
+  },
+  {
+    "question": "Risk bearing in business organisation is a function of the _____",
+    "option_a": "employees",
+    "option_b": "customers",
+    "option_c": "entrepreneur",
+    "option_d": "manager",
+    "answer": "C",
+    "solution": "Organises business venture and assumes the risk."
+  },
+  {
+    "question": "The Nigeria Stock Exchange consist of ______",
+    "option_a": "primary and secondary-tier market",
+    "option_b": "secondary and primary market",
+    "option_c": "money and commodities market",
+    "option_d": "commercial and mortgage market",
+    "answer": "B",
+    "solution": "Primary market refers to the market where securities are bought while secondary market is a market where existing securities are traded."
+  },
+  {
+    "question": "A system where customer patronage is sought by producing what they need is referred to as _______?",
+    "option_a": "sales promotion",
+    "option_b": "market promotion",
+    "option_c": "product promotion",
+    "option_d": "market orientation",
+    "answer": "D",
+    "solution": "Focuses on delivering products designed according to customer desires, needs and requirements."
+  },
+  {
+    "question": "The scope of commerce is limited to ________",
+    "option_a": "wholesale and entrepot trade",
+    "option_b": "trade and aids-to-trade",
+    "option_c": "wholesale and retail trade",
+    "option_d": "home and foreign trade",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "Which of the following is an item in the marketing mix?",
+    "option_a": "Demand",
+    "option_b": "promotion",
+    "option_c": "market",
+    "option_d": "consumer",
+    "answer": "B",
+    "solution": "Marketing can be defined as the controlling of variables that a firm makes use of in its policies in order to influence the buyer's choice and boost sales. The 4ps are Product, Price, Place and Promotion.<br>\nThis is aimed at bringing the existed goods or products to the knowledge of those it is meant for. It is aimed at stipulating demand and increasing sales."
+  },
+  {
+    "question": "The business unit that applies the principle of one man, one vote is ______",
+    "option_a": "sole proprietorship",
+    "option_b": "partnership",
+    "option_c": "public company",
+    "option_d": "co-operative society",
+    "answer": "D",
+    "solution": "It applies the principle of democracy, whereby each member has one vote irrespective of the amount of money contributed"
+  },
+  {
+    "question": "The type of activity which turns processed raw materials into consumer and industrial goods is described as ________",
+    "option_a": "extractive",
+    "option_b": "manufacturing",
+    "option_c": "constructive",
+    "option_d": "processing",
+    "answer": "B",
+    "solution": "Deals with the transformation of raw materials into finished goods."
+  },
+  {
+    "question": "Land as a factor of production does not vary in _______",
+    "option_a": "quantity",
+    "option_b": "nature",
+    "option_c": "quality",
+    "option_d": "cost",
+    "answer": "B",
+    "solution": "Is the phenomena of the physical."
+  },
+  {
+    "question": "The effects of devaluation includes all except _______",
+    "option_a": "exports become cheaper",
+    "option_b": "expansion of local industries",
+    "option_c": "increase in standard of living",
+    "option_d": "increase in import",
+    "answer": "D",
+    "solution": "Devaluation is the reduction of the value of a country's currency in terms if the value of the currencies of other nations of the world.<br>\nThere will be a decrease in inputs as citizens will be spending more in buying goods from other countries."
+  },
+  {
+    "question": "The production of goods and services in anticipation of demand is made possible by _______",
+    "option_a": "packaging",
+    "option_b": "warehousing",
+    "option_c": "branding",
+    "option_d": "advertising",
+    "answer": "B",
+    "solution": "This is the act of storing goods produced."
+  },
+  {
+    "question": "Factors considered when setting up a retail business is one of the following _________",
+    "option_a": "capital, experience and trading",
+    "option_b": "experience, term of trade, and trading",
+    "option_c": "capital, trading and term of trade",
+    "option_d": "capital, type of goods and source of supply",
+    "answer": "D",
+    "solution": "Capital is one of the major factor that determines the form and size of a business and must be considered when starting a retail business. <br>Source of supply has to do with where and how to get the goods to be sold, either from the wholesaler or manufacturer. <br>Types of goods determines what the product is."
+  },
+  {
+    "question": "Any activity directed at conveying commodities to buyers is an aspect _________",
+    "option_a": "selling",
+    "option_b": "delivering",
+    "option_c": "advertising",
+    "option_d": "marketing",
+    "answer": "B",
+    "solution": "Is the act of conveying something. E.g. delivering goods to a customer."
+  },
+  {
+    "question": "If a business uses part of its profit to develop the area where it operates, the business is fulfilling its ______",
+    "option_a": "economic responsibilities",
+    "option_b": "marketing responsibilities",
+    "option_c": "social responsibilities",
+    "option_d": "managerial responsibilities",
+    "answer": "C",
+    "solution": "This is the responsibility of an organisation to perform social benefits to the society at large."
+  }
+]

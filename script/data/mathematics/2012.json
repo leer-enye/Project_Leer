@@ -1,0 +1,416 @@
+﻿[
+  {
+    "question": "Convert 726 to a number in base three",
+    "option_a": "2211",
+    "option_b": "2121",
+    "option_c": "1212",
+    "option_d": "1122",
+    "answer": "D",
+    "solution": "First, convert to base 10 <br> 726 = (7 x 61) + (2 x 60) <br> = 42 + 2 <br> = 4410 <br> \\(\\begin{array}{c|c} 3 & 44 \\ \\hline 3 & 14 & r 2 \\ \\hline 3 & 4 & r 2 \\ \\hline 3 & 1 & r 1 \\ \\hline 3 & 0 & r 1 \\end{array}\\) <br> Ans = 1122 = D"
+  },
+  {
+    "question": "Simply \\(\\frac{2\\frac{2}{3} \\times 1\\frac{1}{2}}{4\\frac{4}{5}}\\)",
+    "option_a": "\\(1\\frac{1}{4}\\)",
+    "option_b": "\\(1\\frac{1}{6}\\)",
+    "option_c": "\\(\\frac{5}{6}\\)",
+    "option_d": "\\(\\frac{4}{5}\\)",
+    "answer": "C",
+    "solution": "\\(\\frac{2\\frac{2}{3} \\times 1\\frac{1}{2}}{4\\frac{4}{5}}\\) <br> \\(\\frac{8}{3} \\times \\frac{3}{2} \\div \\frac{24}{5}\\) <br> \\(\\frac{8}{3} \\times \\frac{3}{2} \\times \\frac{5}{24}\\) <br> \\(\\frac{5}{6}\\)"
+  },
+  {
+    "question": "Evaluate \\(\\frac{21}{9}\\) to 3 significant figures",
+    "option_a": "2.30",
+    "option_b": "2.31",
+    "option_c": "2.32",
+    "option_d": "2.33",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "A man earns N3,500 per month out of which he spends 15% on his children's education. If he spends additional N1,950 on food, how much does he have left?",
+    "option_a": "N525",
+    "option_b": "N1,025",
+    "option_c": "N1,950",
+    "option_d": "N2,975",
+    "answer": "B",
+    "solution": "Amount spent on children = \\(\\frac{15}{100} \\times 3500 = N525\\) <br> Amount spent = Amount on children + Additional amount on food <br> Amount Spent = N525 + N1950 = N2475 <br> Therefore amount left = N3,500 - N2,475 = N1,025"
+  },
+  {
+    "question": "If 27x + 2 \\(\\div\\) 9x + 1 = 32x, find x",
+    "option_a": "3",
+    "option_b": "4",
+    "option_c": "5",
+    "option_d": "6",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "If log3x2 = -8, what is x?",
+    "option_a": "\\(\\frac{1}{3}\\)",
+    "option_b": "\\(\\frac{1}{9}\\)",
+    "option_c": "\\(\\frac{1}{27}\\)",
+    "option_d": "\\(\\frac{1}{81}\\)",
+    "answer": "D",
+    "solution": "log3x2 = -8 <br> x2 = 3-8 <br> x = \\(3^{-8 \\times \\frac{1}{2}}\\)"
+  },
+  {
+    "question": "Simplify \\((\\sqrt{6} + 2)^2 - (\\sqrt{6} - 2)^2\\)",
+    "option_a": "\\(2\\sqrt{6}\\)",
+    "option_b": "\\(4\\sqrt{6}\\)",
+    "option_c": "\\(8\\sqrt{6}\\)",
+    "option_d": "\\(16\\sqrt{6}\\)",
+    "answer": "C",
+    "solution": "\\((\\sqrt{6} + 2)^2 - (\\sqrt{6} - 2)^2\\) <br> = \\([(\\sqrt{6} + 2) + (\\sqrt{6} - 2)][(\\sqrt{6} + 2) - (\\sqrt{6} - 2)]\\) <br> = \\((\\sqrt{6} + 2 + \\sqrt{6} - 2)(\\sqrt{6} + 2 - \\sqrt{6} + 2)]\\) <br> = \\((2\\sqrt{6})(4)\\) <br> = \\(8\\sqrt{6}\\)"
+  },
+  {
+    "question": "If P is a set of all prime factors of 30 and q is a set of all factors of 18 less than 10, find P \\(\\cap\\) q",
+    "option_a": "{3}",
+    "option_b": "{2,3}",
+    "option_c": "{2,3,5}",
+    "option_d": "{1,2}",
+    "answer": "B",
+    "solution": "P = {2,3,5} <br> q = {2,3} <br> P \\(\\cap\\) q = {2,3}"
+  },
+  {
+    "question": "In a class of 46 students, 22 play football and 26 play volleyball. If 3 students play both games, how many play neither?",
+    "option_a": "1",
+    "option_b": "2",
+    "option_c": "3",
+    "option_d": "4",
+    "answer": "A",
+    "solution": "n(f \\(\\cap\\) v) + n(f) + n(v) + n(f \\(\\cap\\) v) = 46 <br> 3 + 19 + 23 + x = 46 <br> 22 + 23 + x = 46 <br> 45 + x = 46 <br> x = 46 - 45 <br> x = 1"
+  },
+  {
+    "question": "Make 'n' the subject of the formula if w = \\(\\frac{v(2 + cn)}{1 - cn}\\)",
+    "option_a": "\\(\\frac{1}{c}(\\frac{w - 2v}{v + w})\\)",
+    "option_b": "\\(\\frac{1}{c}(\\frac{w - 2v}{v - w})\\)",
+    "option_c": "\\(\\frac{1}{c}(\\frac{w + 2v}{v - w})\\)",
+    "option_d": "\\(\\frac{1}{c}(\\frac{w + 2v}{v + w})\\)",
+    "answer": "A",
+    "solution": "w = \\(\\frac{v(2 + cn)}{1 - cn}\\) <br> 2v + cnv = w(1 - cn) <br> 2v + cnv = w - cnw <br> 2v - w = -cnv - cnw <br> Multiply through by negative sign <br> -2v + w = cnv + cnw <br> -2v + w = n(cv + cw) <br> n = \\(\\frac{-2v + w}{cv + cw}\\) <br> n = \\(\\frac{1}{c}\\frac{-2v + w}{v + w}\\) <br> Re-arrange... <br> n = \\(\\frac{1}{c}\\frac{w - 2v}{v + w}\\)"
+  },
+  {
+    "question": "Find the remainder when 2x<sup>3</sup> - 11x<sup>2</sup> + 8x - 1 is divided by x + 3",
+    "option_a": "-871",
+    "option_b": "-781",
+    "option_c": "-187",
+    "option_d": "-178",
+    "answer": "D",
+    "solution": "Hence f(x) = 2x<sup>3</sup> - 11x<sup>2</sup> + 8x - 1 <br> f(-3) = 2(-3)3 - 11(-3)2 + 8(-3) - 1 <br> = 2(-27) - 11(9) + 8(-3) - 1 <br> = -54 - 99 - 24 - 1 <br> = -178"
+  },
+  {
+    "question": "Solve for x and y in the equations below  x<sup>2</sup> - y<sup>2</sup> = 4 <br> x + y = 2",
+    "option_a": "x = 0, y = -2",
+    "option_b": "x = 0, y = 2",
+    "option_c": "x = 2, y = 0",
+    "option_d": "x = -2, y = 0",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "If y varies directly as \\(\\sqrt{n}\\) and y = 4 when n = 4, find y when n = 1\\(\\frac{7}{9}\\)",
+    "option_a": "\\(\\sqrt{17}\\)",
+    "option_b": "\\(\\frac{4}{3}\\)",
+    "option_c": "\\(\\frac{8}{3}\\)",
+    "option_d": "\\(\\frac{2}{3}\\)",
+    "answer": "C",
+    "solution": "y \\(\\alpha \\sqrt{n}\\)  <br> y = k\\(\\sqrt{n}\\)  <br> when y = 4, n = 4\n\n4 = k\\(\\sqrt{4}\\)  <br> 4 = 2k <br> k = 2 <br> Therefore, <br> y = 2\\(\\sqrt{n}\\) <br> y = 2\\(\\sqrt{\\frac{16}{9}}\\) <br> y = 2\\((\\frac{4}{3})\\) <br> y = \\(\\frac{8}{3}\\)"
+  },
+  {
+    "question": "U is inversely proportional to the cube of V and U = 81 when V = 2. Find U when V = 3",
+    "option_a": "24",
+    "option_b": "27",
+    "option_c": "32",
+    "option_d": "36",
+    "answer": "A",
+    "solution": "U \\(\\alpha \\frac{1}{V^3}\\) <br> U =  \\(\\frac{k}{V^3}\\) <br> k = UV3 <br> k = 81 x 23 = 81 x 8 <br> When V = 3, <br> U = \\(\\frac{k}{V^3}\\) <br> U = \\(\\frac{81 \\times 8}{3^3}\\) <br> U = \\(\\frac{81 \\times 8}{27}\\) = 24"
+  },
+  {
+    "question": "The value of y for which \\(\\frac{1}{5}y + \\frac{1}{5} < \\frac{1}{2}y + \\frac{2}{5}\\) is",
+    "option_a": "\\(y > \\frac{2}{3}\\)",
+    "option_b": "\\(y < \\frac{2}{3}\\)",
+    "option_c": "\\(y > -\\frac{2}{3}\\)",
+    "option_d": "\\(y < -\\frac{2}{3}\\)",
+    "answer": "C",
+    "solution": "\\(\\frac{1}{5}y + \\frac{1}{5} < \\frac{1}{2}y + \\frac{2}{5}\\)  <br> Collect like terms <br> \\(\\frac{y}{5} -  \\frac{y}{2} < \\frac{2}{5} - \\frac{1}{5}\\) <br> \\(\\frac{2y - 5y}{10} < \\frac{2 - 1}{5}\\) <br> \\(\\frac{-3y}{10} < \\frac{1}{5}\\) <br> \\(y > \\frac{-2}{3}\\)"
+  },
+  {
+    "question": "Find the range of values of m which satisfy (m - 3)(m - 4) < 0",
+    "option_a": "2 < m < 5",
+    "option_b": "-3 < m < 4",
+    "option_c": "3 < m < 4",
+    "option_d": "-4 < m < 3",
+    "answer": "C",
+    "solution": "(m - 3)(m - 4) < 0 <br> (m - 3) < 0 ; (m - 4) < 0 <br> m < 3 ; m < 4 <br> 3 < m < 4"
+  },
+  {
+    "question": "The nth term of a sequence is n<sup>2</sup> - 6n - 4. Find the sum of the 3rd and 4th terms.",
+    "option_a": "24",
+    "option_b": "23",
+    "option_c": "-24",
+    "option_d": "-25",
+    "answer": "D",
+    "solution": "n<sup>2</sup> - 6n - 4 <br> For the 3rd term,\n\n32 - 6(3) - 4 <br> 9 - 18 -4 = -13 <br> For the 4th term,\n\n42 - 6(4) - 4 <br> 16 - 24 - 4 = -12 <br> Sum of both terms <br> -13 - 12 = -25"
+  },
+  {
+    "question": "The sum to infinity of a geometric progression is \\(-\\frac{1}{10}\\) and the first term is \\(-\\frac{1}{8}\\). Find the common ratio of the progression.",
+    "option_a": "\\(-\\frac{1}{5}\\)",
+    "option_b": "\\(-\\frac{1}{4}\\)",
+    "option_c": "\\(-\\frac{1}{3}\\)",
+    "option_d": "\\(-\\frac{1}{2}\\)",
+    "answer": "B",
+    "solution": "S<sub>r</sub> = \\(\\frac{a}{1 - r}\\) <br> \\(-\\frac{1}{10}\\) = \\(\\frac{1}{8} \\times \\frac{1}{1 - r}\\) <br> \\(-\\frac{1}{10}\\) = \\(\\frac{1}{8(1 - r)}\\) <br> \\(-\\frac{1}{10}\\) = \\(\\frac{1}{8 - 8r}\\) <br> cross multiply... <br> -1(8 - 8r) = -10 <br> -8 + 8r = -10 <br> 8r = -2 <br> r = -1/4"
+  },
+  {
+    "question": "The binary operation * is defined on the set of integers such that p * q = pq + p - q. Find 2 * (3 * 4)",
+    "option_a": "11",
+    "option_b": "13",
+    "option_c": "15",
+    "option_d": "22",
+    "answer": "B",
+    "solution": "p * q = pq + p - q <br> First execute for 3 * 4 <br> =<br> 3(4) + 3 - 4 = 12 + 3 - 4 = 11 <br> Now we execute for 2 * 11 <br> =<br> 2(11) + 2 - 11 = 22 + 2 - 11 = 13"
+  },
+  {
+    "question": "The binary operation on the set of real numbers is defined by m*n = \\(\\frac{mn}{2}\\) for all m, n \\(\\in\\) R. If the identity element is 2, find the inverse of -5",
+    "option_a": "\\(-\\frac{4}{5}\\)",
+    "option_b": "\\(-\\frac{2}{5}\\)",
+    "option_c": "4",
+    "option_d": "5",
+    "answer": "A",
+    "solution": "m \\(\\propto\\) n = \\(\\frac{mn}{2} - a\\) <br> Identify = e = 2 <br> a \\(\\propto\\) a-1 = e <br> a \\(\\propto\\) a-1 = 2 <br> -5 \\(\\propto\\) a-1 = 2  <br> \\(\\frac{-5 \\times a^{-1}}{2} = 2\\) <br> \\(a^{-1} = \\frac{2 \\times 2}{-5}\\) <br> \\(a^{-1} = -\\frac{4}{5}\\)"
+  },
+  {
+    "question": "If \\(\\begin{vmatrix} 5 & 3 \\ x & 2 \\end{vmatrix}\\) = \\(\\begin{vmatrix} 3 & 5 \\ 4 & 5 \\end{vmatrix}\\), find the value of x",
+    "option_a": "3",
+    "option_b": "4",
+    "option_c": "5",
+    "option_d": "7",
+    "answer": "C",
+    "solution": "\\(\\begin{vmatrix} 5 & 3 \\ x & 2 \\end{vmatrix}\\) = \\(\\begin{vmatrix} 3 & 5 \\ 4 & 5 \\end{vmatrix}\\) <br> 10 - 3x = 15 - 20 <br> -3x = 15 - 20 - 10 <br> -3x = -15 <br> x = 5"
+  },
+  {
+    "question": "Given that I3 is a unit matrix of order 3, find |I3|",
+    "option_a": "-1",
+    "option_b": "O",
+    "option_c": "1",
+    "option_d": "2",
+    "answer": "C",
+    "solution": "Recall that a unit matrice is a diagonal matrix in which the elements in the leading diagonal is unity. Therefore, <br> I3 = \\(\\begin{pmatrix} 1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1 \\end{pmatrix}\\) <br> I3 = \\(+1\\begin{vmatrix} 1 & 0 \\ 0 & 1 \\end{vmatrix} - 0\\begin{vmatrix} 0 & 0 \\ 0 & 1 \\end{vmatrix} + 0 \\begin{vmatrix} 0 & 1 \\ 0 & 0 \\end{vmatrix} \\) <br> I3 = +1(1 - 0) - 0(0 - 0) + 0(0 - 0) <br> = 1(1) <br> = 1"
+  },
+  {
+    "question": "The angles of a polygon are given by x, 2x, 3x, 4x and 5x respectively. Find the value of x.",
+    "option_a": "24<sup>o</sup>",
+    "option_b": "30<sup>o</sup>",
+    "option_c": "33<sup>o</sup>",
+    "option_d": "36<sup>o</sup>",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "Calculate the volume of a cuboid of length 0.76cm, breadth 2.6cm and height 0.82cm.",
+    "option_a": "3.92cm<sup>3</sup>",
+    "option_b": "2.13cm<sup>3</sup>",
+    "option_c": "1.97cm<sup>3</sup>",
+    "option_d": "1.62cm<sup>3</sup>",
+    "answer": "D",
+    "solution": "Volume of cuboid = L x b x h <br> = 0.76cm x 2.6cm x 0.82cm <br> = 1.62cm3"
+  },
+  {
+    "question": "The locus of a point equidistant from the intersection of lines 3x - 7y + 7 = 0 and 4x - 6y + 1 = 0 is a",
+    "option_a": "line parallel to 7x + 13y + 8 = 0",
+    "option_b": "circle",
+    "option_c": "semicircle",
+    "option_d": "bisector of the line  7x + 13y + 8 = 0",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "The gradient of the straight line joining the points P(5, -7) and q(-2, -3) is",
+    "option_a": "\\(\\frac{1}{2}\\)",
+    "option_b": "\\(\\frac{2}{5}\\)",
+    "option_c": "\\(-\\frac{4}{7}\\)",
+    "option_d": "\\(-\\frac{2}{3}\\)",
+    "answer": "C",
+    "solution": "Pq = \\(\\frac{y_1 - y_0}{x_1 - x_0}\\) = \\(\\frac{-3 - (-7)}{-2 - 5}\\)  = \\(\\frac{-3 + 7}{-2 - 5}\\) = \\(\\frac{4}{-7}\\)"
+  },
+  {
+    "question": "The distance between the point (4, 3) and the intersection of y = 2x + 4 and y = 7 - x is",
+    "option_a": "\\(\\sqrt{13}\\)",
+    "option_b": "\\(3\\sqrt{2}\\)",
+    "option_c": "\\(\\sqrt{26}\\)",
+    "option_d": "\\(10\\sqrt{5}\\)",
+    "answer": "B",
+    "solution": "P1 (4, 3), P2 (x, y) <br> y = 2x + 4 .....(1) <br> y = 7 - x .....(2) <br> Substitute (2) in (1) <br> 7 - x = 2x + 4 <br> 7 - 4 = 2x + x <br> 3 = 3x <br> x = 1 <br> Substitute in eqn (2) <br> y = 7 - x <br> y = 7 - 1 <br> y = 6 <br> P2 (1, 6) <br> Distance between 2 points is given as <br> D = \\(\\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}\\) <br> D = \\(\\sqrt{(1 - 4)^2 + (6 - 3)^2}\\) <br> D = \\(\\sqrt{(-3)^2 + (3)^2}\\) <br> D = \\(\\sqrt{9 + 9}\\) <br> D = \\(\\sqrt{18}\\) <br> D = \\(\\sqrt{9 \\times 2}\\) <br> D = \\(3\\sqrt{2}\\)"
+  },
+  {
+    "question": "Find the equation of the line through the points (-2, 1) and (-\\(\\frac{1}{2}\\), 4)",
+    "option_a": "y = 2x - 3",
+    "option_b": "y = 2x + 5",
+    "option_c": "y = 3x - 2",
+    "option_d": "y = 2x + 1",
+    "answer": "B",
+    "solution": "\\(\\frac{y - y_1}{x + x_1}\\) = \\(\\frac{y_2 - y_1}{x - x_1}\\)  <br> \\(\\frac{y - 1}{x + 2}\\) = \\(\\frac{4 - 1}{-\\frac{1}{2} + 2}\\)  <br> = \\(\\frac{y - 1}{x + 2}\\) = \\(\\frac{3}{\\frac{3}{2}}\\) <br> y = 2x + 5"
+  },
+  {
+    "question": "If angle \\(\\theta\\) is 135<sup>o</sup>, evaluate cos\\(\\theta\\)",
+    "option_a": "\\(\\frac{1}{2}\\)",
+    "option_b": "\\(\\frac{\\sqrt{2}}{2}\\)",
+    "option_c": "\\(-\\frac{\\sqrt{2}}{2}\\)",
+    "option_d": "\\(-\\frac{1}{2}\\)",
+    "answer": "B",
+    "solution": "\\(\\theta\\) = 135o <br> Cos 135<sup>o</sup> = Cos(90 + 45)<sup>o</sup> <br> = cos90<sup>o</sup>cos45<sup>o</sup> - sin90<sup>o</sup>sin45<sup>o</sup> <br> = 0cos45<sup>o</sup> - (1 x \\(\\frac{\\sqrt{2}}{2}\\)) <br> = \\(-\\frac{\\sqrt{2}}{2}\\)"
+  },
+  {
+    "question": "If y = x<sup>2</sup> - \\(\\frac{1}{x}\\), find \\(\\frac{\\delta y}{\\delta x}\\)",
+    "option_a": "2x - \\(\\frac{1}{x^2}\\)",
+    "option_b": "2x + x<sup>2</sup>",
+    "option_c": "2x - x<sup>2</sup>",
+    "option_d": "2x + \\(\\frac{1}{x^2}\\)",
+    "answer": "D",
+    "solution": " y = x<sup>2</sup> - \\(\\frac{1}{x}\\) <br> y = x<sup>2</sup> - x-1 <br> \\(\\frac{\\delta y}{\\delta x}\\) = 2x + x-2 <br> \n\\(\\frac{\\delta y}{\\delta x}\\) = 2x + \\(\\frac{1}{x^2}\\)"
+  },
+  {
+    "question": "Evaluate \\(\\int^2_1(x^2 - 4x)dx\\)",
+    "option_a": "\\(\\frac{11}{3}\\)",
+    "option_b": "\\(\\frac{3}{11}\\)",
+    "option_c": "\\(-\\frac{3}{11}\\)",
+    "option_d": "\\(-\\frac{11}{3}\\)",
+    "answer": "D",
+    "solution": "\\(\\int^2_1(x^2 - 4x)dx\\) <br> \\((\\frac{x^3}{3} - \\frac{4x^2}{2})\\) <br> substituting integrate values <br> \\([\\frac{8}{3} - \\frac{4 \\times 4}{2}] - [\\frac{1}{2} - 2]\\) <br> = \\(-\\frac{11}{3}\\)"
+  },
+  {
+    "question": "Evaluate \\(\\int^{\\frac{\\pi}{4}}_0sec^2 \\theta d \\theta\\)",
+    "option_a": "1",
+    "option_b": "2",
+    "option_c": "3",
+    "option_d": "4",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "The mean of seven numbers is 96. If an eighth number is added, the mean becomes 112. Find the eighth number.",
+    "option_a": "126",
+    "option_b": "180",
+    "option_c": "216",
+    "option_d": "224",
+    "answer": "D",
+    "solution": "\\(\\frac{x}{7} = \\frac{96}{1}\\) =<br> \\(\\frac{672 + x}{8} = 112\\) <br> Therefore x = 224"
+  },
+  {
+    "question": "Find the median of 2,3,7,3,4,5,8,9,9,4,5,3,4,2,4 and 5",
+    "option_a": "9",
+    "option_b": "8",
+    "option_c": "7",
+    "option_d": "4",
+    "answer": "D",
+    "solution": "Arrange all the values in ascending order, <br> 2,2,3,3,3,4,4,4,4,5,5,5,7,8,9,9"
+  },
+  {
+    "question": "Find the range of 4,9,6,3,2,8,10 and 11",
+    "option_a": "11",
+    "option_b": "9",
+    "option_c": "8",
+    "option_d": "4",
+    "answer": "B",
+    "solution": "Range = Highest Number - Lowest Number <br> Range = 11 - 2 = 9"
+  },
+  {
+    "question": "Find the standard deviation of 2,3,8,10 and 12",
+    "option_a": "3.9",
+    "option_b": "4.9",
+    "option_c": "5.9",
+    "option_d": "6.9",
+    "answer": "A",
+    "solution": "\\(\\begin{array}{c|c} x & (x - \\varkappa) & (x - \\varkappa)^2 \\ \\hline 2 & -5 & 25 \\ \\hline 3 & -4 & 16 \\ \\hline 8 & 1 & 1 \\ \\hline 10 & 3 & 9 \\ \\hline 12 & 5 & 25 \\ \\hline   &   & 76\n\n\\end{array}\\) <br> S.D = \\(\\sqrt{\\frac{(x - \\varkappa)^2}{n}}\\) <br> S.D = \\(\\sqrt{\\frac{76}{5}}\\) <br> S.D = 3.9"
+  },
+  {
+    "question": "Evaluate \\(^{n+1}C_{n-2}\\)",
+    "option_a": "3630",
+    "option_b": "3360",
+    "option_c": "1120",
+    "option_d": "560",
+    "answer": "D",
+    "solution": "\\(\\frac{n + 1 (n - 2)}{(n + 1)!}\\) <br> \\(\\frac{(n + 1) + (n - 2)!(n - 2)!}{(n + 1)!}\\) <br> \\(\\frac{(n + 1)(n + 1 -1)(n+1-2)(n+1-3)!}{3!(n-2)!}\\) <br> \\(\\frac{(n + 1)(n)(n-1)(n-2)!}{3!(n-2)!}\\) <br> \\(\\frac{(n + 1)(n)(n-1)}{3!}\\) <br> Since n = 15 <br> \\(\\frac{(15 + 1)(15)(15-1)}{3!}\\) <br> \\(\\frac{16  \\times 15  \\times 14}{3 \\times 2 \\times 1}\\) <br> = 560"
+  },
+  {
+    "question": "In how many ways can the letters of the word TOTALITY be arranged?",
+    "option_a": "6720",
+    "option_b": "6270",
+    "option_c": "6207",
+    "option_d": "6027",
+    "answer": "A",
+    "solution": "\\(\\frac{8!}{3!}\\) <br> \\(\\frac{8 \\times 7 \\times 6 \\times 5 \\times 4 \\times 3 \\times 2 \\times 1}{3 \\times 2\\times 1}\\) <br> =<br> 8 x 7 x 6 x 5 x 4 = 6720"
+  },
+  {
+    "question": "The probability that a student passes a physics test is \\(\\frac{2}{3}\\). If he takes three physics tests, what is the probability that he passes two of the tests?",
+    "option_a": "\\(\\frac{2}{27}\\)",
+    "option_b": "\\(\\frac{3}{27}\\)",
+    "option_c": "\\(\\frac{4}{27}\\)",
+    "option_d": "\\(\\frac{5}{3}\\)",
+    "answer": "C",
+    "solution": "Pass(P) = \\(\\frac{2}{3}\\),  Fail(F) = \\(\\frac{1}{3}\\) <br> T = P.P.F =<br> \\(\\frac{2}{3} \\times \\frac{2}{3} \\times \\frac{1}{3}\\) = \\(\\frac{4}{27}\\)"
+  },
+  {
+    "question": "The probabilities that a man and his wife live for 80 years are \\(\\frac{2}{3}\\) and \\(\\frac{3}{5}\\) respectively. Find the probability that at least one of them will live up to 80 years",
+    "option_a": "\\(\\frac{2}{15}\\)",
+    "option_b": "\\(\\frac{3}{15}\\)",
+    "option_c": "\\(\\frac{7}{15}\\)",
+    "option_d": "\\(\\frac{13}{15}\\)",
+    "answer": "D",
+    "solution": "Man lives = \\(\\frac{2}{3}\\) not live = \\(\\frac{1}{3}\\) <br> Wife lives = \\(\\frac{3}{5}\\) not live = \\(\\frac{2}{5}\\) <br> \\(P(\\frac{2}{3} \\times \\frac{2}{5}) + (\\frac{2}{5} \\times \\frac{1}{3}) + (\\frac{2}{3} \\times \\frac{3}{5})\\) <br> = \\(\\frac{4}{15} + \\frac{3}{15} + \\frac{6}{15}\\) <br> = \\(\\frac{13}{15}\\)"
+  },
+  {
+    "question": "The shaded region above is represented by\n\nthe equation",
+    "option_a": "y ≤ 4x + 2",
+    "option_b": "y ≥ 4x + 2",
+    "option_c": "y ≤ -4x + 4",
+    "option_d": "y ≤ 4x + 4",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "In diagram above, qR//TU, < PqR = 80<sup>o</sup> and\n\n< PSU = 95o. Calculate < SUT.",
+    "option_a": "15<sup>o</sup>",
+    "option_b": "25<sup>o</sup>",
+    "option_c": "30<sup>o</sup>",
+    "option_d": "80<sup>o</sup>",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "In the diagram above, PqR is a circle centre\n\nO. If < qPR is XO, find < qRP.",
+    "option_a": "X<sup>o</sup>",
+    "option_b": "(90 – x)<sup>o</sup>",
+    "option_c": "(90 + x)<sup>o</sup>",
+    "option_d": "(180 – x)<sup>o</sup>",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "Find the area of the trapezium above.",
+    "option_a": "91 cm<sup>2</sup>",
+    "option_b": "78 cm<sup>2</sup>",
+    "option_c": "60 cm<sup>2</sup>",
+    "option_d": "19 cm<sup>2</sup>",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "The grades of 36 students in a class test are\n\nas shown in the pie chart above. How many\n\nstudents have excellent?",
+    "option_a": "12",
+    "option_b": "9",
+    "option_c": "8",
+    "option_d": "7",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "The bar chart above shows the distribution\n\nof marks in a class test. If the pass mark is 5,\n\nwhat percentage of students failed the\n\ntest?",
+    "option_a": "10%",
+    "option_b": "20%",
+    "option_c": "50%",
+    "option_d": "60%",
+    "answer": "C",
+    "solution": ""
+  }
+]

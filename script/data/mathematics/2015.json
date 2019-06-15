@@ -1,0 +1,380 @@
+﻿[
+  {
+    "question": "In a town of 6250 inhabitants, there were 62 births during 1984. Find the percentage birth rate",
+    "option_a": "3%",
+    "option_b": "1.0%",
+    "option_c": "2.5%",
+    "option_d": "5.40%",
+    "answer": "B",
+    "solution": "Percentage birthrate = 1.0%"
+  },
+  {
+    "question": "Simplify 1¼ ÷ (2 ÷ ¼ of 28)",
+    "option_a": "1 \\( \\frac{3}{8}\\)",
+    "option_b": "2 \\( \\frac{3}{4}\\)",
+    "option_c": "4 \\( \\frac{3}{8}\\)",
+    "option_d": "3 \\( \\frac{1}{5}\\)",
+    "answer": "C",
+    "solution": "1¼ ÷ [ 2 ÷ ¼] of 28 <br> Apply BODMAS rules <br> \\( \\frac{5}{4}\\) ÷ [ 2 ÷ ¼ × 28 ] <br> \\( \\frac{5}{4} ÷ \\frac{2}{7}  \\)  <br> \n\\( \\frac{5}{4} × \\frac{7}{2}  \\)  <br> \\( \\frac{35}{8}\\) <br> = \\(4 \\frac{3}{8}\\)"
+  },
+  {
+    "question": "Factorize x<sup>2</sup> + 9x + 20",
+    "option_a": "(x − 5)<sup>2</sup>",
+    "option_b": "(x + 5)(x + 4)",
+    "option_c": "(x – 5)(x + 3)",
+    "option_d": "(x + 3)<sup>2</sup>",
+    "answer": "B",
+    "solution": "\\( x^2 + 9x + 20 \\) <br> Find the two numbers whose product is 20 and its sum is 9} <br> \\( 5x \\times 4x = 20x^2\\) <br> \n\\(5x + 4x = 9x\\) <br> \\((x^2 + 5x) + (4x + 20)\\) \n\n\\( <br> x(x + 5)+ 4(x + 5) <br> = (x + 5)(x + 4)\\)"
+  },
+  {
+    "question": "If three staff of Myschool Limited agreed to share their salary arrears in the ration of their ages, which are 18 years, 20 years, 22 years respectively. If the sum of the money collected is N120,000.00K, How much does the second staff received?",
+    "option_a": "N36,000",
+    "option_b": "N44,000",
+    "option_c": "N40,000",
+    "option_d": "N15,000",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "X and Y are two sets such that nX = 15, nY = 12 and n{∩ Y} = 7. Find ∩{X ∪ Y}",
+    "option_a": "21",
+    "option_b": "225",
+    "option_c": "15",
+    "option_d": "20",
+    "answer": "D",
+    "solution": "n(X ∩ Y) = nx + ny − n(xX ∩ Y) <br> = 15 + 12 − 7 <br> ∴ n(X ∩ Y) = 20"
+  },
+  {
+    "question": "Find the x and y intercepts of the graph of 3x - z \\(\\leq\\) 9",
+    "option_a": "(3, -9)",
+    "option_b": "(-3, 9)",
+    "option_c": "(-3, -9)",
+    "option_d": "(-3, 0)",
+    "answer": "A",
+    "solution": "Starting from 3x − z \\(\\leq\\) 9 <br> x = 0, substitute the value of x (i.e. x = 0) into the equation 3x − z \\(\\leq\\) 9 <br> 3(0) − z \\(\\leq\\) − 9 <br> z \\(\\leq\\) − 9 <br> If z = 0 <br> Then, 3x − 0 \\(\\leq\\) 9 <br> 3x \\(\\leq\\) 9 <br> x \\(\\leq\\) 3 <br> Intercept of x and z i.e (x,z) <br> = (3, -9)"
+  },
+  {
+    "question": "Simplify log<sub>10</sub>1.5 + 3 log<sub>10</sub>2 − log<sub>10</sub>0.3",
+    "option_a": "log<sub>10</sub>4",
+    "option_b": "log<sub>10</sub>40",
+    "option_c": "log<sub>10</sub>-40",
+    "option_d": "log<sub>10</sub>4-",
+    "answer": "B",
+    "solution": "log<sub>10</sub>1.5 + 3 log<sub>10</sub>2 − log<sub>10</sub>0.3 <br> log<sub>10</sub>1.5 + log<sub>10</sub>23 − log<sub>10</sub>0.3 <br> [log<sub>10</sub>(1.5 × 23) ÷ log<sub>10</sub>0.3] <br> [log<sub>10</sub>(15/10 × 8 ) ÷ log<sub>10</sub>( 3/10)] <br> log<sub>10</sub>(15/10 × 8 × 10/3 ) <br> log<sub>10</sub>40"
+  },
+  {
+    "question": "Find the total surface area of a cylinder of base radius 5cm and length 7cm ( π = 3.14)",
+    "option_a": "17.8cm<sup>2</sup>",
+    "option_b": "15.8cm<sup>2</sup>",
+    "option_c": "75.4cm<sup>2</sup>",
+    "option_d": "54.7cm<sup>2</sup>",
+    "answer": "C",
+    "solution": "The total surface area of a cylinder = 2πrl + 2πr2 <br> = 2πr(l + r) <br> = 2 × 3.14(7+%=5) <br> 2 × 3.14 × 12 <br> = 75.4cm (1DP)"
+  },
+  {
+    "question": "If x + y = 90 simplify (sinx + siny)2−2sinxsiny",
+    "option_a": "1",
+    "option_b": "\\( 0 \\)",
+    "option_c": "2",
+    "option_d": "-1",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "A man with an annual salary of N2000, has allowances of N600. If Income Tax is 5%. How much tax does he pay each year?",
+    "option_a": "15",
+    "option_b": "20",
+    "option_c": "30",
+    "option_d": "25",
+    "answer": "C",
+    "solution": "His annual salary = N2000 <br> His allowances = N600 <br> So his taxable income = Annual salary − allowance <br> = N2000 − N600 <br> = N1400 <br> He pay at 5% <br> Then, his allowance income tax 5/100 × 600 = N30"
+  },
+  {
+    "question": "Solve the equation \\( 3x^2 − 4x − 5 = 0 \\)",
+    "option_a": "x = 1.75 or − 0.15",
+    "option_b": "x = 2.12 or − 0.79",
+    "option_c": "x = 1.5 or − 0.34",
+    "option_d": "x = 2.35 or −1.23",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "The first and last term of a linear sequence (AP) are 6 and 10 respectively. If the sum of the sequence is 40. Find the number of terms",
+    "option_a": "nth = 3",
+    "option_b": "nth = 4",
+    "option_c": "nth = 5",
+    "option_d": "nth = 6",
+    "answer": "C",
+    "solution": "Nth term of a linear sequence (AP) = a+(n − 1)d <br> first term = 6, last term = 10 sum − 40 <br> i.e. a = 6, l = 10, S = 40 <br> sn = n ÷ 2(2a + (n − 1)d or Sn = ÷2 (a + b) <br> Sn = n ÷ 2(a + l) <br> 40 = n ÷ 2(6 + 10) <br> 40 = 8n <br> 8n = 40 <br> 8n = 40 <br> N = 40/8 <br> = 5 <br> The nth term = 5"
+  },
+  {
+    "question": "Find the equation of a line which is form origin and passes through the point (−3, −4)",
+    "option_a": "y = \\( \\frac{3x}{4} \\)",
+    "option_b": "y = \\( \\frac{4x}{3} \\)",
+    "option_c": "y = \\( \\frac{2x}{3} \\)",
+    "option_d": "y = \\( \\frac{x}{2} \\)",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "The amount A to which a principal P amounts at r% compound interest for n years is given by the formula A = P(1 + (r ÷ 100))n. Find A, if P = 126, r = 4 and n = 2.",
+    "option_a": "N132.50K",
+    "option_b": "N136.30K",
+    "option_c": "N125.40K",
+    "option_d": "N257.42K",
+    "answer": "B",
+    "solution": "\\( A = P \\left(1 + \\frac{r}{100}\\right)^n \\) <br> Where P = 126, r = 4,n = 2 <br> A=126 \\( \\left(1 + \\frac{4}{100}\\right)^2 \\text{Using LCM} \\) <br> =126 \\( \\left(\\frac{100+4}{100}\\right)^2 = 126 \\left(\\frac{104}{100}\\right)^2 \\) <br> \n=126 \\( \\left(1.04^2 \\right) \\) <br> = 126 * 1.04 * 1.04 <br> =136.28 <br> A = 136.30 (approx.) <br> The Amount A, = N136.30k"
+  },
+  {
+    "question": "Make x the subject of the equation\n\ns = 2 + \\(\\frac{t}{5} \\)(x + ⅗y)",
+    "option_a": "x = 5[(s − 2) ÷ t] + 3yt",
+    "option_b": "x = 25[(s − 2) ÷ t] − 3ty",
+    "option_c": "x = [1 ÷ (s − 2)3ty]",
+    "option_d": "x = [5(s − 2) 2 ÷ 3ty] × t",
+    "answer": "B",
+    "solution": "2 + t/5(x + 3/5y ) = s <br> t/5(x + 3/5y ) = s − 2 <br> [(t(5x + 3y) ÷ 25)] = s − 2 <br> t(5x + 3y) = 25 (s − 2) <br> 5x + 3y = [(25(s − 2))÷ t] <br> 5x = [(25(s − 2))÷ t] − 3y <br> Divide both sides by 5 <br> x = [25(s − 2) − 3ty)]÷ 5t"
+  },
+  {
+    "question": "If log<sub>5</sub>20 = x, find x",
+    "option_a": "A 1.761",
+    "option_b": "B 1.354",
+    "option_c": "C 1.861",
+    "option_d": "D 2.549",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "Find at which rate per annum simple interest N525 will amount to N588 in 3 years.",
+    "option_a": "3%",
+    "option_b": "2%",
+    "option_c": "5%",
+    "option_d": "4%",
+    "answer": "D",
+    "solution": "I = A − P <br> = N588 − N525 <br> ∴I = N63 <br> I = PRT ÷ 100 <br> R = [100I ÷PT] <br> R = [(100 × 63 ) ÷ (525 × 3)] <br> = (6300 ÷ 1575) = 4 <br> ∴ The rate = 4 %"
+  },
+  {
+    "question": "Find the range of values of t which satisfies the inequality. <br> 2t − 1 \\(\\leq\\) 3 and 2− t \\(\\geq\\) 5",
+    "option_a": "-3 \\(\\leq\\) t \\(\\leq\\) 1",
+    "option_b": "-2 \\(\\leq\\) t \\(\\leq\\) 3",
+    "option_c": "-3 \\(\\leq\\) t \\(\\leq\\) 4",
+    "option_d": "-3 \\(\\leq\\) t \\(\\leq\\) 2",
+    "answer": "D",
+    "solution": "2t − 1 \\(\\leq\\) 3 and 2 − t < 5 <br> 2t \\(\\leq\\) 3 + 1 and 2 − 5 \\(\\leq\\) t <br> 2t \\(\\leq\\) 4 and − 3 \\(\\leq\\) t <br> t \\(\\leq\\) 2 and − 3 \\(\\leq\\) t or t \\(\\geq\\) − 3 <br> Combining the two ,starting from the last <br> -3 \\(\\leq\\) t \\(\\leq\\) 2"
+  },
+  {
+    "question": "Given that A = {1, 5, 7} <br> B = {3, 9, 12, 15} <br> C = {2, 4, 6, 8} <br> Find (A ∪ B) ∪ C",
+    "option_a": "{1, 2, 3, 4, 5, 6, 7, 8, 9, 12, 15}",
+    "option_b": "{1, 2, 3, 5, 6, 8, 12, 15}",
+    "option_c": "{2, 4, 5, 9, 12, 15}",
+    "option_d": "{1, 5, 6, 7, 8, 9, 12, 15}",
+    "answer": "A",
+    "solution": "{A ∪ B ∪ C} <br> {A ∪ B} = {1, 3, 5, 7, 9, 12, 15} <br> ∪ C={2,4,6,8} <br> {A ∪ B} ∪ C = {1, 3, 5, 7, 9, 12, 15} ∪ {2, 4, 6, 8} <br> = {1, 2, 3, 4, 5, 6, 7, 8, 9, 12, 15} <br> {A ∪ B} ∪ C = {1, 2, 3, 4, 5, 6, 7, 8, 9, 12, 15}"
+  },
+  {
+    "question": "The extension of a stretched string is directly proportional to its tension. If the extension produced by a tension of 8 Newton’s is 2cm, find the extension produced by a tension of 12 newton’s.",
+    "option_a": "2",
+    "option_b": "1",
+    "option_c": "\\( 0\\)",
+    "option_d": "3",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "Factorize \\( x^2 − 2x − 15 \\)",
+    "option_a": "(x + 3)<sup>2</sup>",
+    "option_b": "(x + 5)(x − 3)",
+    "option_c": "(x − 5)<sup>2</sup>",
+    "option_d": "(x − 5)(x + 3)",
+    "answer": "D",
+    "solution": "x2 − 2x − 15 <br> (x2 − 5x) + (3x − 15) <br> x(x − 5)+ 3(x − 5) <br> (x − 5)(x + 3)"
+  },
+  {
+    "question": "If A = (−3,5) and B = (4,−1) find the co-ordinate of the mid point",
+    "option_a": "2, ½",
+    "option_b": "½ , 2",
+    "option_c": "1,  ½",
+    "option_d": "0, 2",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "Find the simple interest on N325 in 5years at 3% per annum.",
+    "option_a": "N48.75K",
+    "option_b": "N50.10K",
+    "option_c": "N75.50K",
+    "option_d": "N15.75K",
+    "answer": "A",
+    "solution": "I =[ PRT ÷ 100] <br> [(325 × 5 × 3) ÷ (100)] <br> N(195 ÷ 4) <br> N48.75K"
+  },
+  {
+    "question": "Simplify (0.09)<sup>2</sup> and give your answer correct to 4 significant figures",
+    "option_a": "0.81",
+    "option_b": "0.081",
+    "option_c": "0.0081",
+    "option_d": "8.0001",
+    "answer": "C",
+    "solution": "(0.09)<sup>2</sup>  = 0.09 × 0.09 <br> = 0.0081 <br> = 0.008100 to 4 significant figures <br> Please, start counting first from the non-zero digits i.e. 8"
+  },
+  {
+    "question": "Simplify \\( [1 ÷ (x^2 + 3x + 2)] + [1 ÷ (x^2 + 5x + 6)] \\)",
+    "option_a": "\\( \\frac{2}{(x + 1)^2} \\)",
+    "option_b": "\\( \\frac{2}{(x + 1)(x + 2} \\)",
+    "option_c": "\\( \\frac{2}{(x + 1)(x + 2} \\)",
+    "option_d": "\\( \\frac{2}{(x + 1)(x + 3} \\)",
+    "answer": "D",
+    "solution": "\\( [1 ÷ (x^2 + 3x + 2)] + [1 ÷ (x^2 + 5x + 6)] \\) <br> = \\( 1 ÷ (x^2 + 3x + 2) + [1 ÷ (x^2 +5x + 6)]\\) <br> = \\( [1 ÷ ((x^2 + x) + (2x + 2) )] + [1 ÷ ((x^2 + 3x) + (2x + 6) )] \\) <br> = [1 ÷ (x(x + 2) + 2(x +1))] + [1 ÷ (x(x + 3) +2(x + 3) )] <br> = [1 ÷ (x + 1)(x + 2)] + [1 ÷ ((x + 3) + (x + 2))] <br> =((x + 3) + (x + 1)) ÷ (x + 1)(x + 2)(x + 3) <br> Using the L.C.M <br> =((x + x + 3 + 1)) ÷ (x + 1)(x + 2)(x + 3) <br> =(2x+4)/(x+1)(x+2)(x+3) =2(x+2)/(x+1)(x+2)(x+3) <br> = \\( \\frac{2 }{(x + 1)(x + 3)} \\)"
+  },
+  {
+    "question": "One bag contain 3 blue and 5 red balls, another bag contain 2 blue and 4 red balls respectively. One ball is drawn for each bag. What is the probability both balls are blue",
+    "option_a": "\\( \\frac{2}{15} \\)",
+    "option_b": "\\( \\frac{3}{24} \\)",
+    "option_c": "\\( \\frac{3}{21} \\)",
+    "option_d": "\\( \\frac{3}{28} \\)",
+    "answer": "D",
+    "solution": "One bag with 3 blue and 5 red <br> Pr (H) = 3/8Pr (r) 5/8 <br> Another bag with 2 blue and 4 red (note one ball is drawn from each bag) <br> i.e. prob.=8 − 1 = 7 <br> prob. (2 ball both are blue=pr (1st blue and 2nd blue) <br> prob. 2 balls both blue = 3/8 × 2/7 <br> = \\( \\frac{3}{28} \\)"
+  },
+  {
+    "question": "Given that A = {3, 4, 1, 10, ⅓ } <br> B = {4, 3 ⅓, ⅓, 7}. <br> Find A∩B",
+    "option_a": "{}",
+    "option_b": "{⅓, 1, 2}",
+    "option_c": "{3, 4, ⅓}",
+    "option_d": "{1, 3, ⅓}",
+    "answer": "C",
+    "solution": "A ∩ B = {3, 4, ⅓}"
+  },
+  {
+    "question": "Find x if 132x = 70 eight.",
+    "option_a": "5",
+    "option_b": "3",
+    "option_c": "6",
+    "option_d": "1",
+    "answer": "C",
+    "solution": "132x = 708 <br> \\(  1 × x^2 + 3 × x^1 + 2 × x^0 \\) <br> \\( 7 × 8^1 + 0 × 8^0 \\) <br> \\( x^2 + 3x + 2 − 56 = 0 \\) <br> \\( x^2 + 3x − 54 = 0 \\) <br> x(x + 9)−6(x + 9) = 0 <br> (x + 9)(x − 6) = 0 <br> Either (x + 9) = 0 or (x − 6) = 0 <br> x = − 9 or +6 <br> The positive values for x = 6 <br> The base number for 132x = 1326"
+  },
+  {
+    "question": "A man sells his new brand car for N420,000 at a gain of 15%. What did it cost him?",
+    "option_a": "N410,000",
+    "option_b": "N365, 217",
+    "option_c": "N157, 250",
+    "option_d": "N257,000",
+    "answer": "B",
+    "solution": "Cost Price: <br> Selling price = 100 : (100 + 15) <br> = 100 : 115 <br> Cost Price <br> = 100 ÷ 115 of selling price (i.e N420,000) <br> = 100 ÷ 15 × N420,000 <br> = N365,217.4 <br> ∴ Cost Price = N365, 217"
+  },
+  {
+    "question": "Find the value of x if \\( [ 1 ÷ 64^{(x + 2)}]= [4^{(x − 3)} ÷ 16^x ] \\)",
+    "option_a": "\\( \\frac{3}{2} \\)",
+    "option_b": "\\( \\frac{2}{3} \\)",
+    "option_c": "\\( \\frac{1}{3} \\)",
+    "option_d": "\\( -\\frac{3}{2} \\)",
+    "answer": "D",
+    "solution": "\\( [ 1 ÷ 64^{(x + 2)}]= [4^{(x − 3)} ÷ 16^x ] \\) <br>  \\( 64^{−(x + 2)} = [4^{(x − 3)}] ÷[16^x] \\) <br> breakdown 4,16,64 into a small index no <br> \\( 2^{−6(x + 2)} = 2^{2(x − 3)} ÷ 2^{4(x)} \\) <br> \\( 2^{−6x− 12} = 2^{2x − 4x − 6} \\) <br> \\( 2^{−6x −12} = 2^{−2x − 6} \\) <br> − 6x − 12 = − 2x − 6 <br> Collect the like term <br> −6x + 2x = −6 + 12 <br> −4x =6 <br> x = \\( \\frac{6}{4} \\) <br> x = \\( \\frac{−3}{2} \\)"
+  },
+  {
+    "question": "A pipe made of metal 10cm thick has an external radius of 11cm. find the area of metal in making 2.4cm of pipe",
+    "option_a": "21πcm<sup>2</sup>",
+    "option_b": "21πcm<sup>2</sup>",
+    "option_c": "15πcm<sup>2</sup>",
+    "option_d": "17πcm<sup>2</sup>",
+    "answer": "B",
+    "solution": "The external radius = 11cm <br> The internal radius = 10cm <br> The area of cross section = π(π<sup>2</sup> − 10<sup>2</sup>) <br> = π (11 + 10)(11 − 10) <br> π(21)(1) <br> = 21πcm2"
+  },
+  {
+    "question": "Solve x<sup>2</sup> − 2x − 3 = 0",
+    "option_a": "x = 2 or 1",
+    "option_b": "x = 3 or -1",
+    "option_c": "x = 1 or 0",
+    "option_d": "x = 1 or 2",
+    "answer": "B",
+    "solution": "x<sup>2</sup> − 2x − 3 = 0 <br> −3x + x = − 2x <br> − 3x × x = − 3x<sup>2</sup> <br> (x2 − 3x)(x − 3) = 0 <br> (x − 3)(x + 1) = 0 <br> Either (x − 3) = 0 or (x + 1) = 0 <br> x = 3 or − 1"
+  },
+  {
+    "question": "The volume of a cylinder whose height is 4cm and whose radius 5cm is equal to (π = 3.14)",
+    "option_a": "3.13cm<sup>2</sup>",
+    "option_b": "145cm<sup>2</sup>",
+    "option_c": "314cm<sup>2</sup>",
+    "option_d": "214cm<sup>2</sup>",
+    "answer": "C",
+    "solution": " “Explanation <br> V = πr<sup>2</sup>h <br> V = ?, h = 4cm, r = 5cm <br> V = 3.14(5)2 (4) <br> V = 3.14(25)(4) <br> V = 3.14 × 1200 <br> = 314cm2"
+  },
+  {
+    "question": "\\( \\int x^2 \\text{Sin}x \\Delta x \\)",
+    "option_a": "−Cos x + 2xSin x + C",
+    "option_b": "−Cos x + 2",
+    "option_c": "x2Cos x + 2xSin x + 2Cos x+ C",
+    "option_d": "−x2Cos x + 2xSinx + 2Cos x + C",
+    "answer": "D",
+    "solution": "Let u= x<sup>2</sup> <br> du = 2xdx <br> Let v = sinx <br> ∫dv = ∫ sin x i.e. v = cos x <br> ∫ udv = uv − ∫ vdu <br> ∫ x<sup>2</sup> Sin xdx = − x2 Cos x − ∫ (− Cos x)2 × dx <br> x2 Cos x + 2 ∫ x cos x1 dx <br> = − x2 Cos x + 2 ∫ x Cos x2 dx <br> 2 ∫ u Cos xdx <br> Let u = x <br> du = dx <br> dv = Cos x <br> ∫dv = ∫ Cos x <br> ∫ x2 Sin x1 dx = − x2 Cos x + 2Sin x − 2Cos x + C <br> ∫ x2 Sin xdx <br> = − x2 Cos x + 2xSin + 2Cos x + C"
+  },
+  {
+    "question": "The probability of an event A is 1/5. The probability of B is 1/3 . The probability both A and B is 1/15. What is the probability of either event A or B or both",
+    "option_a": "\\( \\frac{2}{15} \\)",
+    "option_b": "\\( \\frac{3}{4} \\)",
+    "option_c": "\\( \\frac{7}{15} \\)",
+    "option_d": "\\( \\frac{1}{15} \\)",
+    "answer": "C",
+    "solution": "Prob(A) = \\( \\frac{1}{5} \\) , Prob(B) = \\( \\frac{1}{4} \\), Prob (A ∩ B) = \\( \\frac{1}{15} \\), Prob (A ∪ B) = ? <br> Note: <br> I. the probability is either event of A or B or both. <br> The formula using is prob (A ∪ B) = ∩ prob(A) + prob(A) − prob(A ∩ B) <br> II. But if the probability of both outcomes A and B <br> The formula using is Prob(A ∩ B) − prob(A) + prob(B) – prob (A ∪ B) <br> In this question, A or B, Prob (A ∩ B): A and B, Prob (A ∩ B) <br> prob (A ∪ B) = prob(A) + prob(B) − Prob (A ∩ B) is used. <br> prob (A ∪ B) = \\( \\frac{1}{15} \\) + \\( \\frac{1}{3} \\) − \\( \\frac{1}{15} \\) <br> = (3 + 5 + 1) ÷ 15 <br> = \\( \\frac{7}{15} \\)"
+  },
+  {
+    "question": "How many sides has a regular polygon whose interior angles are 120°each",
+    "option_a": "4",
+    "option_b": "5",
+    "option_c": "6",
+    "option_d": "3",
+    "answer": "C",
+    "solution": "Each exterior angle = 180 − 120=60 <br> Exterior angle =360/n <br> 60 = 360/n <br> n =360/6 <br> = 6"
+  },
+  {
+    "question": "If duty is levied at 25%, find the duty to be added to a bill of N80.",
+    "option_a": "N100",
+    "option_b": "N20",
+    "option_c": "N80",
+    "option_d": "N150",
+    "answer": "B",
+    "solution": "25% of N80 = 25/100 × 80 <br> = N20.00"
+  },
+  {
+    "question": "Simplify 2.04 × 3.7 (Leave your answer in 2 decimal place)",
+    "option_a": "7.51",
+    "option_b": "7.71",
+    "option_c": "5.5",
+    "option_d": "7.55",
+    "answer": "D",
+    "solution": "2.04 x 3.7 \n\n=\n\n204\n\n x  37\n\n -----\n\n 7548  = 7.548 <br> = 7.55(2dp)"
+  },
+  {
+    "question": "A public car dealer marked up the cost of a car at 30% in an attempt to make 20% gross profit. Due to the value of dollar, he now placed 20% discount on the car. What profit or loss will he make?",
+    "option_a": "3%",
+    "option_b": "2%",
+    "option_c": "4%",
+    "option_d": "1%",
+    "answer": "C",
+    "solution": "Let assume the cost price is 100% <br> Marked up price + cost price = 20 + 100 = 120% <br> Discount at 20% = 20/100 × 120 % of cost price <br> Selling price = cost price − gain <br> = (120 − 24)% of cost price <br> = 96% of cost price <br> Loss = (100− 96)% of cost price <br> = 4% of cost price <br> ∴ He will wake 4% loss"
+  },
+  {
+    "question": "Rationalize 5 ÷ (2 − √3)",
+    "option_a": "3(2 + √5)",
+    "option_b": "2(3 + √5)",
+    "option_c": "5(2 + √3)",
+    "option_d": "3 √2 + 1",
+    "answer": "C",
+    "solution": "5÷ (2 − √3) <br> Using conjugate surds <br> [5 ÷ (2 − √3)]×(2 + √3) ÷ (2 + √3)] <br> [5(2+√3)÷((2− √3))2] <br> [5(2 +√3) ÷ (2)2− (√3)2] <br> [5(2 +√3) ÷(4− 3)] <br> = 5(2 + √3)"
+  },
+  {
+    "question": "Factorize \\( a^2 − b^2 − 4a + 4 \\)",
+    "option_a": "(a + b)(a − b)",
+    "option_b": "(a − 2 + b)",
+    "option_c": "(a + 1)(a − 2 + b)",
+    "option_d": "(a + b) 2",
+    "answer": "B",
+    "solution": "The trinomial =  \\( a^2 − 4a + 4 \\\\ <br> a^2 − b^2− 4a + 4 = (a^2 − 4a + 4) − b^2 \\\\ <br> (a^2 − 2a − 2a + 4) − b^2 \\\\ <br> a(a − 2)− 2(a − 2)] − b^2 \\\\ <br> (a − 2)2 − b^2 \\\\ <br> (a − 2 + b)(a − 2 − b )\\)"
+  },
+  {
+    "question": "Given that tan x = \\(\\frac{2}{3}\\), where 0o d\" x d\" 90o, Find the value of 2sinx.",
+    "option_a": "\\(\\frac{2\\sqrt{13}}{13}\\)",
+    "option_b": "\\(\\frac{3\\sqrt{13}}{13}\\)",
+    "option_c": "\\(\\frac{4\\sqrt{13}}{13}\\)",
+    "option_d": "\\(\\frac{6\\sqrt{13}}{13}\\)",
+    "answer": "C",
+    "solution": "tan x = \\(\\frac{2}{3}\\)(given), is illustrated in a right-angled \\(\\Delta\\) <br> thus m2 = 22 + 32  <br> = 4 + 9 = 13 <br> m = \\(\\sqrt{13}\\) <br> Hence, 2sin x = 2 x \\(\\frac{2}{m}\\) <br> 2 x\\(\\frac{2}{\\sqrt{13}}\\) <br> = \\(\\frac{4}{\\sqrt{13}}\\) <br> = \\(\\frac{4}{\\sqrt{13}} = \\frac{\\sqrt{13}}{\\sqrt{13}}\\) <br> = \\(\\frac{4\\sqrt{13}}{13}\\)"
+  }
+]

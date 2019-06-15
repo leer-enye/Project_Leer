@@ -1,0 +1,371 @@
+[
+ {
+   "question": "Power that is delegated is exercised",
+   "option_a": "By devolution",
+   "option_b": "Directly",
+   "option_c": "By coercion",
+   "option_d": "Indirect",
+   "answer": "A",
+   "solution": ""
+ },
+ {
+   "question": "De Jure sovereign is acquired through",
+   "option_a": "Law",
+   "option_b": "Grant",
+   "option_c": "Treaty",
+   "option_d": "Force",
+   "answer": "A",
+   "solution": ""
+ },
+ {
+   "question": "A group of people who live together under a common law within a definite territory is a",
+   "option_a": "Community",
+   "option_b": "Nation - State",
+   "option_c": "Nation",
+   "option_d": "State",
+   "answer": "D",
+   "solution": ""
+ },
+ {
+   "question": "Political socialization is associated with",
+   "option_a": "Military take over of civilian government",
+   "option_b": "The transmission of political values",
+   "option_c": "Political transition",
+   "option_d": "Free choice of party programmes",
+   "answer": "B",
+   "solution": ""
+ },
+ {
+   "question": "According to Aristotle, a form of government in which the few rule for the benefit of all is",
+   "option_a": "Diarchy",
+   "option_b": "Aristocracy",
+   "option_c": "Autocracy",
+   "option_d": "polyarchy",
+   "answer": "B",
+   "solution": ""
+ },
+ {
+   "question": "Rule by the old people is known as",
+   "option_a": "Monarchy",
+   "option_b": "Gerontocracy",
+   "option_c": "Feudalism",
+   "option_d": "Theocracy",
+   "answer": "B",
+   "solution": ""
+ },
+ {
+   "question": "As an executive, the commissioner is charged with the responsibility of",
+   "option_a": "Implementing laws",
+   "option_b": "Writing laws",
+   "option_c": "Giving loans",
+   "option_d": "Making laws",
+   "answer": "A",
+   "solution": ""
+ },
+ {
+   "question": "Rules adjudication is  a primary function of the",
+   "option_a": "Judiciary",
+   "option_b": "Executive",
+   "option_c": "Government",
+   "option_d": "Legislature",
+   "answer": "A",
+   "solution": ""
+ },
+ {
+   "question": "The judiciary controls the executive in federal state through",
+   "option_a": "Delegated legislation",
+   "option_b": "Judicial overview",
+   "option_c": "Judicial review",
+   "option_d": "Motions",
+   "answer": "C",
+   "solution": ""
+ },
+ {
+   "question": "One major advantage of the unitary system is that it tends of make government",
+   "option_a": "Free of controversy",
+   "option_b": "Distant from the people",
+   "option_c": "Popular among the masses",
+   "option_d": "Strong and stable",
+   "answer": "D",
+   "solution": ""
+ },
+ {
+   "question": "The presidential system differs from the parliamentary system of government in that",
+   "option_a": "The principle of collective responsibility applies",
+   "option_b": "Executive and legislative powers are fused",
+   "option_c": "Powers of the three arms of government are merged",
+   "option_d": "The tenure of office of the president is limited",
+   "answer": "D",
+   "solution": ""
+ },
+ {
+   "question": "Which of the following advocates equitable distribution of wealth?",
+   "option_a": "Capitalism",
+   "option_b": "Aristocracy",
+   "option_c": "Socialism",
+   "option_d": "Plutocracy",
+   "answer": "C",
+   "solution": ""
+ },
+ {
+   "question": "A constitution that is difficult to amend is",
+   "option_a": "Rigid",
+   "option_b": "Written",
+   "option_c": "Unwritten",
+   "option_d": "Flexible",
+   "answer": "A",
+   "solution": ""
+ },
+ {
+   "question": "Which of the following constitutions is more suitable for centralization of political power?",
+   "option_a": "Unwritten constitution",
+   "option_b": "Rigid constitution",
+   "option_c": "Written constitution",
+   "option_d": "Flexible constitution",
+   "answer": "A",
+   "solution": ""
+ },
+ {
+   "question": "The act of transferring autonomous powers to subordinate agencies is",
+   "option_a": "Concentration",
+   "option_b": "Deconcentration",
+   "option_c": "Delegation",
+   "option_d": "Devolution",
+   "answer": "B",
+   "solution": ""
+ },
+ {
+   "question": "Which of the following types of citizenship cannot be withdrawn?",
+   "option_a": "Citizenship by conquest",
+   "option_b": "Citizenship by birth",
+   "option_c": "Honorary citizenship",
+   "option_d": "Citizenship by naturalization",
+   "answer": "B",
+   "solution": ""
+ },
+ {
+   "question": "The right of citizens to vote is",
+   "option_a": "Universal suffrage",
+   "option_b": "Nationality suffrage",
+   "option_c": "Electoral suffrage",
+   "option_d": "Adult suffrage",
+   "answer": "A",
+   "solution": ""
+ },
+ {
+   "question": "A political party is different from a pressure group in its",
+   "option_a": "Objective",
+   "option_b": "Organization",
+   "option_c": "Strategy",
+   "option_d": "Source of finance",
+   "answer": "A",
+   "solution": ""
+ },
+ {
+   "question": "One of the functions of pressure groups is to",
+   "option_a": "Nominate the president",
+   "option_b": "Prepare the budget",
+   "option_c": "Articulate the opinion of their members",
+   "option_d": "Contest elections to serve the people",
+   "answer": "C",
+   "solution": ""
+ },
+ {
+   "question": "Under the 1979 Constitution, statutory allocation of revenue to local government councils is the responsibility of the",
+   "option_a": "House of Assembly",
+   "option_b": "National Economic Council",
+   "option_c": "Federal Legislature",
+   "option_d": "Council of State",
+   "answer": "A",
+   "solution": ""
+ },
+ {
+   "question": "Under Nigeria's Second Republic, the Senate was under the leadership of",
+   "option_a": "J.S. Tarka",
+   "option_b": "Joseph Wayas",
+   "option_c": "Godwin Ume-Ezeoke",
+   "option_d": "John Wash Pam",
+   "answer": "B",
+   "solution": ""
+ },
+ {
+   "question": "The Revenue Mobilization, Allocation and Fiscal Commission is statutorily empowered to determine the remuneration of",
+   "option_a": "Only elected representatives",
+   "option_b": "Political office holders",
+   "option_c": "Employees of public corporations",
+   "option_d": "All civil servants",
+   "answer": "B",
+   "solution": ""
+ },
+ {
+   "question": "The primary function of the Code of Conduct Bureau is to",
+   "option_a": "Ensure minimum standard of morality",
+   "option_b": "Retain custody of declarations",
+   "option_c": "Receive declaration of assest",
+   "option_d": "Ensure due process by public offers",
+   "answer": "A",
+   "solution": ""
+ },
+ {
+   "question": "The party system practiced in Nigeria's Third Republic was",
+   "option_a": "Two-party",
+   "option_b": "Zero-party",
+   "option_c": "One-party",
+   "option_d": "Multi-party",
+   "answer": "A",
+   "solution": ""
+ },
+ {
+   "question": "Nigeria adopted the federal system of government because of",
+   "option_a": "Uneven development",
+   "option_b": "The availability of limited resources",
+   "option_c": "The adoption of a stat religion",
+   "option_d": "The fear of domination of minorities",
+   "answer": "D",
+   "solution": ""
+ },
+ {
+   "question": "The highest policy the making body under the Gowon Regime was",
+   "option_a": "Armed Forces Ruling Council",
+   "option_b": "Provisional Ruling Council",
+   "option_c": "Supreme Military Council",
+   "option_d": "Federal Executive Council",
+   "answer": "C",
+   "solution": ""
+ },
+ {
+   "question": "Nigeria became a federation of thirty-six state during the era of",
+   "option_a": "Abdulsalami Abubakar",
+   "option_b": "Yakubu Gowon",
+   "option_c": "Ibrahim Babangida",
+   "option_d": "Sani Abacha",
+   "answer": "D",
+   "solution": ""
+ },
+ {
+   "question": "Which of the following headed the committee that recommended the suitability of Abuja as a new federal city?",
+   "option_a": "Justice Baba Ardo",
+   "option_b": "Justice Atanda Fatai Williams",
+   "option_c": "Justice Udo Udoma",
+   "option_d": "Justice Akinola Aguda",
+   "answer": "D",
+   "solution": ""
+ },
+ {
+   "question": "A public corporation is managed by",
+   "option_a": "A minister",
+   "option_b": "A general manager",
+   "option_c": "The board of governors",
+   "option_d": "The board of directors",
+   "answer": "D",
+   "solution": ""
+ },
+ {
+   "question": "A major source of revenue in the post - 1976 local government in Nigeria is",
+   "option_a": "Internally generated revenue",
+   "option_b": "the federation account",
+   "option_c": "Grants and loans",
+   "option_d": "The joint state-local government account",
+   "answer": "A",
+   "solution": ""
+ },
+ {
+   "question": "The provisional Ruling Council was the highest ruling body during the regime of",
+   "option_a": "Muhammadu Buhari",
+   "option_b": "Ibrahim Babangida",
+   "option_c": "Murtala Muhammed",
+   "option_d": "Sani Abacha",
+   "answer": "D",
+   "solution": ""
+ },
+ {
+   "question": "Nigeria's non-alignment policy in the sixties lacked real substance because of her",
+   "option_a": "A frocentric policy",
+   "option_b": "Poor economic potential",
+   "option_c": "Partnership with Asian countries",
+   "option_d": "Close ties with Britain",
+   "answer": "D",
+   "solution": ""
+ },
+ {
+   "question": "Under the Technical Aid Corps, Nigerian experts are deployed to",
+   "option_a": "African, the pacific and the Caribbean",
+   "option_b": "Europe, South America and Asia",
+   "option_c": "The pacific, the Caribbean and Europe",
+   "option_d": "Asia, Africa and the pacific",
+   "answer": "A",
+   "solution": ""
+ },
+ {
+   "question": "The center-piece of Nigeria's foreign policy covers only",
+   "option_a": "Europe",
+   "option_b": "Africa",
+   "option_c": "Latin America",
+   "option_d": "Asia",
+   "answer": "B",
+   "solution": ""
+ },
+ {
+   "question": "Which of the following countries pioneered the establishment of ECOWAS alongside Nigeria?",
+   "option_a": "Ghana",
+   "option_b": "Togo",
+   "option_c": "Algeria",
+   "option_d": "Cameroun",
+   "answer": "B",
+   "solution": "The call for a West African community was made by President William Tubman of Liberia in 1964. An agreement was signed among Côte d’Ivoire, Guinea, Liberia and Sierra Leone in February 1965, but this came to nothing.\n\n\nIn April 1972, General Gowon of Nigeria and General Eyadema of Togo re-launched the idea, drew up proposals and toured 12 countries, soliciting their plan from July to August 1973. A meeting was then called at Lomé from 10-15 December 1973, which studied a draft treaty. This was further examined at a meeting of experts and jurists in Accra in January 1974 and by a ministerial meeting in Monrovia in January 1975. Finally, 15 West African countries  signed the treaty for an Economic Community of West African States (Treaty of Lagos) on 28 May 1975. The protocols launching ECOWAS were signed in Lomé, Togo, on 5 November 1976. In 1977 Cape Verde joined ECOWAS, while in 2002 Mauritania withdrew form the Community."
+ },
+ {
+   "question": "Nigeria's role in the African Union was most prominent during the regime of",
+   "option_a": "President Olusegun Obasanjo",
+   "option_b": "President Shehu Shagari",
+   "option_c": "President Umaru Yar'adua",
+   "option_d": "President Ibrahim Babangida",
+   "answer": "A",
+   "solution": ""
+ },
+ {
+   "question": "A representative of a Commonwealth country in another member state is known as",
+   "option_a": "Consul-General",
+   "option_b": "Ambassador",
+   "option_c": "Attache",
+   "option_d": "High Commissioner",
+   "answer": "D",
+   "solution": ""
+ },
+ {
+   "question": "The organ of UN that promotes voluntary co-operation among member states in diverse areas is the",
+   "option_a": "International Court of Justice",
+   "option_b": "General Assembly",
+   "option_c": "Economic and Social Council",
+   "option_d": "Security Council",
+   "answer": "C",
+   "solution": ""
+ },
+ {
+   "question": "The main representative body of the United Nations is the",
+   "option_a": "Security Council",
+   "option_b": "General Assembly",
+   "option_c": "Trusteeship Council",
+   "option_d": "Secretariat",
+   "answer": "B",
+  "solution": ""
+ },
+ {
+   "question": "The AU differs from the OAU in having",
+   "option_a": "Effective tools for decision enforcement",
+   "option_b": "No permanent headquarters",
+   "option_c": "A minium of divergent viewpoints",
+   "option_d": "No assembly of Heads of State",
+   "answer": "A",
+   "solution": ""
+ },
+ {
+   "question": "OPEC has strong influence with the",
+   "option_a": "EU",
+   "option_b": "ADB",
+   "option_c": "AU",
+   "option_d": "IMF",
+   "answer": "D",
+   "solution": ""
+ }
+]

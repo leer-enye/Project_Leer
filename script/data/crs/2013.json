@@ -1,0 +1,444 @@
+[
+ {
+   "question": "The ark that God commanded Noah to build was made of",
+   "option_a": "cedar wood",
+   "option_b": "cypress wood",
+   "option_c": "acacia wood",
+   "option_d": "Gopher wood",
+   "answer": "D",
+   "solution": " REF_________Genesis 6:14"
+ },
+ {
+   "question": "During Moses' Leadership in Israel, he exhibited most importantly the talent of a",
+   "option_a": "seer",
+   "option_b": "preacher",
+   "option_c": "mediator",
+   "option_d": "warrior",
+   "answer": "C",
+   "solution": ""
+ },
+ {
+   "question": "Moses ran away from Egypt after killing an Egyptian because he felt he might be",
+   "option_a": "Imprisoned by the Egyptian Security officers",
+   "option_b": "killed by Pharoah of Egypt",
+   "option_c": "endangering other Israelites by his actions",
+   "option_d": "killed by the Egyptian mob",
+   "answer": "B",
+   "solution": ""
+ },
+ {
+   "question": "How did God guide Eleazar in choosing a wife for Isaac",
+   "option_a": "He caused His angel to go ahead of him",
+   "option_b": "He revealed to Rebekah befor Eleazar's arrival",
+   "option_c": "He caused Rebekah to give him free accomodation",
+   "option_d": "He made Rebekah's parents willing to release her",
+   "answer": "A",
+   "solution": ""
+ },
+ {
+   "question": "David's immediate reaction to the news that the hearts of the Israelites have gone after Absalom was to",
+   "option_a": "mobilize his army",
+   "option_b": "plead with Absalom",
+   "option_c": "weep for Judah",
+   "option_d": "flee to the wilderness",
+   "answer": "D",
+   "solution": ""
+ },
+ {
+   "question": "David's inaction at Amnon's incest with Tamar showed his",
+   "option_a": "ability to forgive as a leader",
+   "option_b": "wisdom and strenght of character",
+   "option_c": "lack of control over his children",
+   "option_d": "excessive love for Amnon",
+   "answer": "C",
+   "solution": ""
+ },
+ {
+   "question": "The young man of Egypt took David to the band of the Amalekites because",
+   "option_a": "David was kind to him",
+   "option_b": "the spirit of God was working through him",
+   "option_c": "he was afraid for his life",
+   "option_d": "he sought revenge against his former master",
+   "answer": "A",
+   "solution": ""
+ },
+ {
+   "question": "Because David sought God's will to pursue the Amalekites who had invaded Ziklag,he was rewarded with victory and",
+   "option_a": "many prisoners of war",
+   "option_b": "favour",
+   "option_c": "many new territories",
+   "option_d": "spoils",
+   "answer": "D",
+   "solution": ""
+ },
+ {
+   "question": "\"Why then have you not kept watch over your Lord the king?\"\n\nThe question above by David was addressed to",
+   "option_a": "Abishai",
+   "option_b": "Abner",
+   "option_c": "Amasa",
+   "option_d": "Joab",
+   "answer": "B",
+   "solution": ""
+ },
+ {
+   "question": "Solomom's wisdom surpassed the wisdom of all the people of the East and all wisdom of Egypt because he",
+   "option_a": "judged difficult cases",
+   "option_b": "got his wisdom from God",
+   "option_c": "prayed and fasted daily",
+   "option_d": "employed the service of seers",
+   "answer": "B",
+   "solution": ""
+ },
+ {
+   "question": "Saul relied on a medium because God did not answer him through",
+   "option_a": "dreams,urim and prophets",
+   "option_b": "lyre, urim and prophets",
+   "option_c": "dreams, visions and prophets",
+   "option_d": "inspirations, tambourines and prophets",
+   "answer": "A",
+   "solution": ""
+ },
+ {
+   "question": "When Naboth refused to exchange his vineyard with King Ahab, Ahab reacted by",
+   "option_a": "ordering the killing of Naboth",
+   "option_b": "forcefully taking it from him",
+   "option_c": "taking to prayers and fasting",
+   "option_d": "going to his house vexed and sullen",
+   "answer": "D",
+   "solution": ""
+ },
+ {
+   "question": "The sins of Israel during the reign of Ahab consisted of",
+   "option_a": "A worship of idols",
+   "option_b": "B desecrating the temple",
+   "option_c": "C worship of the king",
+   "option_d": "D trampling upon the poor",
+   "answer": "A",
+   "solution": ""
+ },
+ {
+   "question": "The book of the law was found in the house of the lord during the reign of King",
+   "option_a": "Omri",
+   "option_b": "Hezekiah",
+   "option_c": "Josiah",
+   "option_d": "Ahab",
+   "answer": "C",
+   "solution": ""
+ },
+ {
+   "question": "King Josiah was killed by  Pharoah Neco in a battle at",
+   "option_a": "Megiddo",
+   "option_b": "Egypt",
+   "option_c": "Syria",
+   "option_d": "Magdallah",
+   "answer": "A",
+   "solution": ""
+ },
+ {
+   "question": "The major reason that God allowed the Babylonian attack on the city of Jerusalem was to",
+   "option_a": "restore the people of Judah and their leaders to the worship of God",
+   "option_b": "punish the people of Judah and their leaders for their sins",
+   "option_c": "demonstrate the ability of God to deliver his people from captivity",
+   "option_d": "set a trap for Babylonians and destroy them",
+   "answer": "B",
+   "solution": ""
+ },
+ {
+   "question": "When the three Hebrew men refused to worship the King's image, he commanded that they be",
+   "option_a": "beheaded",
+   "option_b": "thrown into the lion's den",
+   "option_c": "thrown into a furnace",
+   "option_d": "stoned",
+   "answer": "C",
+   "solution": ""
+ },
+ {
+   "question": "Jonah's explanation to the Lord for resisting His first call teaches us that God is",
+   "option_a": "quick to anger",
+   "option_b": "not sincere in His call",
+   "option_c": "repentant of evil",
+   "option_d": "not ready to act fast",
+   "answer": "D",
+   "solution": ""
+ },
+ {
+   "question": "1Before his call, Amos was a",
+   "option_a": "farmer",
+   "option_b": "prophet",
+   "option_c": "herdsman",
+   "option_d": "seer",
+   "answer": "C",
+   "solution": ""
+ },
+ {
+   "question": "Amos prophecies which were considered as a conspiracy against the northern Kingdom were reported to the king by",
+   "option_a": "Hilkiah",
+   "option_b": "Micah",
+   "option_c": "Micaiah",
+   "option_d": "Amaziah",
+   "answer": "D",
+   "solution": ""
+ },
+ {
+   "question": "How did God help Jeremiah overcome his inability to speak as a prophet",
+   "option_a": "He gave him a cake of honey to eat",
+   "option_b": "He touched his mouth with a burning coal",
+   "option_c": "He put out his hands and touched his mouth",
+   "option_d": "He sent seraphim to speak to him",
+   "answer": "C",
+   "solution": ""
+ },
+ {
+   "question": "2Prophet Ezekiel was set upon his feet to hear the Lord speak when",
+   "no": 22,
+   "option_a": "A the Spirit entered into him",
+   "option_b": "B He was made to touch the ephod",
+   "option_c": "C an angel of the Lord lifted him",
+   "option_d": "D a voice from heaven commanded him to do so",
+   "answer": "A",
+   "solution": ""
+ },
+ {
+   "question": "According to Jeremiah, the people of Israel were in exile because of their",
+   "option_a": "maltreatment of the poor",
+   "option_b": "unfaithfulness and faithfulness",
+   "option_c": "impatience and immorality",
+   "option_d": "rebellion against Nebuchadnezzar",
+   "answer": "B",
+   "solution": ""
+ },
+ {
+   "question": "\"...and many will rejoice at his birth; for he will be great before the lord...\"\n\n\nIn the statement above, the angel made this pronouncement because of",
+   "option_a": "Zachariah's fervent prayers",
+   "option_b": "Joseph's hesitation to marry Mary",
+   "option_c": "Elizabeth's disbelief because of her barrenness",
+   "option_d": "Mary's holy nature",
+   "answer": "A",
+   "solution": ""
+ },
+ {
+   "question": "One of the quality of a good disciple that was exhibited by the first followers of Jesus was",
+   "option_a": "dilligence",
+   "option_b": "resourcefulness",
+   "option_c": "faith",
+   "option_d": "piousness",
+   "answer": "C",
+   "solution": ""
+ },
+ {
+   "question": "'Lord, if you will, you can make me clean\"\n\n\nThe statement above was made by the",
+   "option_a": "centurion servant",
+   "option_b": "epileptic boy",
+   "option_c": "leper",
+   "option_d": "paralytic",
+   "answer": "C",
+   "solution": ""
+ },
+ {
+   "question": "The disciples of Jesus could not heal the boy with epilepsy because they",
+   "option_a": "were powerless",
+   "option_b": "did not pray",
+   "option_c": "did not fast",
+   "option_d": "had little faith",
+   "answer": "D",
+   "solution": ""
+ },
+ {
+   "question": "The seeds that fell among thorns in the parable of the sower refer to people that heard the word of God but",
+   "option_a": "the criticism of others quenched it",
+   "option_b": "the cares of the world choked it",
+   "option_c": "the evil one snatched it",
+   "option_d": "had no faith to nurture",
+   "answer": "B",
+   "solution": ""
+ },
+ {
+   "question": "The promise to those who are persecuted for righteousness sake is that they will",
+   "option_a": "see God",
+   "option_b": "be called sons of God",
+   "option_c": "inherit the earth",
+   "option_d": "inherit the kingdomof heaven",
+   "answer": "D",
+   "solution": ""
+ },
+ {
+   "question": "According to Peter during the great confession, people believed that Jesus was",
+   "option_a": "the Son of God",
+   "option_b": "one of the prophets",
+   "option_c": "the Messiah",
+   "option_d": "a priest",
+   "answer": "B",
+   "solution": ""
+ },
+ {
+   "question": "'Behold, your king is coming to you, humble and mounted on an ass...\"\n\n\nThe prophecy in the statement above was fulfilled during Jesus",
+   "option_a": "triumphal entry",
+   "option_b": "baptism by John",
+   "option_c": "birth in a manger",
+   "option_d": "transfiguration",
+   "answer": "A",
+   "solution": ""
+ },
+ {
+   "question": "After his arrest, Jesus was taken to",
+   "option_a": "Caiaphas",
+   "option_b": "Pilate",
+   "option_c": "Pontiphas",
+   "option_d": "Agrippa",
+   "answer": "A",
+   "solution": ""
+ },
+ {
+   "question": "According to Mark, the young man that the women saw in Jesus tomb told them to go with the disciples and wait for them in",
+   "option_a": "Bethany",
+   "option_b": "Galilee",
+   "option_c": "Bethlehem",
+   "option_d": "Jerusalem",
+   "answer": "B",
+   "solution": ""
+ },
+ {
+   "question": "\"He was not the light but was sent to bear witness to the light.\"\n\n\nThe statement above refers to",
+   "option_a": "John the Baptist",
+   "option_b": "Peter Barjona",
+   "option_c": "Simeon",
+   "option_d": "Jesus",
+   "answer": "A",
+   "solution": ""
+ },
+ {
+   "question": "The appointment of deacons became necessary because of the complaint by the",
+   "option_a": "Pharisees",
+   "option_b": "Saducees",
+   "option_c": "Gentile converts",
+   "option_d": "Hellenist",
+   "answer": "D",
+   "solution": ""
+ },
+ {
+   "question": "According to Paul, before his conversion, he persecuted the church violently to",
+   "option_a": "destroy it",
+   "option_b": "have it conform to the law",
+   "option_c": "make it desirable to the gentiles",
+   "option_d": "purge it",
+   "answer": "A",
+   "solution": ""
+ },
+ {
+   "question": "\"Lord, I have heard from many about this man, how much evil he has done to thy saints at Jerusalem\"\n\n\nAnanias response above to God's request for him to meet Saul shows that the",
+   "option_a": "was not interested in meeting Saul",
+   "option_b": "was afraid to meet Saul",
+   "option_c": "felt that Saul should not be forgiven",
+   "option_d": "felt that Saul should be punished",
+   "answer": "B",
+   "solution": ""
+ },
+ {
+   "question": "\"It is necessary to circumcise them, and to charge them to keep the law of Moses.\"\n\n\nIn response to the above Pharisee's above statement, Peter rebuked them by saying that God has",
+   "option_a": "Cleansed the Gentile's heart by faith",
+   "option_b": "put the yoke upon the Gentile's necks",
+   "option_c": "made circumcision for only those in leadership",
+   "option_d": "chosen the Israelites among other people",
+   "answer": "A",
+   "solution": ""
+ },
+ {
+   "question": "According to the Galatians, judgment is without mercy to one who has shown no mercy, yet mercy triumphs over",
+   "option_a": "judgement",
+   "option_b": "punishment",
+   "option_c": "tribulation",
+   "option_d": "the Law",
+   "answer": "A",
+   "solution": ""
+ },
+ {
+   "question": "According to Collosians, the Lord does not wish that any should perish, but that all should",
+   "option_a": "be humble",
+   "option_b": "repent",
+   "option_c": "rejoice",
+   "option_d": "be saved",
+   "answer": "D",
+   "solution": ""
+ },
+ {
+   "question": "According to Peter, when Christians humble themselves, God will",
+   "option_a": "grant them enternal life",
+   "option_b": "exalt them",
+   "option_c": "protect them",
+   "option_d": "direct their ways",
+   "answer": "B",
+   "solution": ""
+ },
+ {
+   "question": "According to Paul in his letter to Philemon, forgiveness should not be by compulsion but by",
+   "option_a": "free will",
+   "option_b": "His grace",
+   "option_c": "justification",
+   "option_d": "faith",
+   "answer": "A",
+   "solution": ""
+ },
+ {
+   "question": "In Corinthians, Paul said that one can only say Jesus is Lord by",
+   "option_a": "grace",
+   "option_b": "the Holy Spirit",
+   "option_c": "denouncing the Law",
+   "option_d": "faith",
+   "answer": "B",
+   "solution": ""
+ },
+ {
+   "question": "When Christians give freely, God will supply",
+   "option_a": "their needs according to the measure they give",
+   "option_b": "their needs day by day",
+   "option_c": "only for those that give",
+   "option_d": "their needs according to His riches in Glory",
+   "answer": "D",
+   "solution": ""
+ },
+ {
+   "question": "Paul in Timothy urged believers to make supplications, prayers, intercession and thanksgivings for all those who",
+   "option_a": "A have wronged them",
+   "option_b": "B are in need",
+   "option_c": "C are in authority",
+   "option_d": "D have accepted Christ",
+   "answer": "C",
+   "solution": ""
+ },
+ {
+   "question": "According to Thessalonians, the second coming of the Lord will be",
+   "option_a": "when the elements are dissolved",
+   "option_b": "like a theif in the night",
+   "option_c": "with the blowing of a trumpet",
+   "option_d": "after scoffers have come",
+   "answer": "B",
+   "solution": ""
+ },
+ {
+   "question": "According to James, when we meet various trials in life, we should",
+   "option_a": "count it all joy",
+   "option_b": "rejoice because the Lord is good",
+   "option_c": "bless God's name",
+   "option_d": "call upon the name of the Lord",
+   "answer": "A",
+   "solution": ""
+ },
+ {
+   "question": "\"As each has received a gift, employ it for one another, as good stewards of God's varied grace...\"\n\n\nIn the statement above, Peter teaches believers the virtue of",
+   "option_a": "communion",
+   "option_b": "fellowship",
+   "option_c": "hospitability",
+   "option_d": "giving",
+   "answer": "C",
+   "solution": ""
+ },
+ {
+   "question": "The new covenant between God and the Israelites is centered on",
+   "option_a": "collective responsibility",
+   "option_b": "individual responsility",
+   "option_c": "religious doctrines",
+   "option_d": "intensive teachning",
+   "answer": "A",
+   "solution": ""
+ }
+]

@@ -1,0 +1,380 @@
+﻿[
+  {
+    "question": "What is the least possible error encountered when taking measurement with a meter rule?",
+    "option_a": "0.1mm",
+    "option_b": "1.0mm",
+    "option_c": "0.5mm",
+    "option_d": "0.2mm",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "A quantity which requires magnitude and direction to be specified is",
+    "option_a": "Temperature",
+    "option_b": "Distance",
+    "option_c": "Displacement",
+    "option_d": "Mass",
+    "answer": "C",
+    "solution": "Displacement is a vector quantity"
+  },
+  {
+    "question": "I Electrical potential, II Torque, III Kinetic Energy, IV Momentum. Which of the quantities listed are vectors?",
+    "option_a": "II and IV",
+    "option_b": "I and II",
+    "option_c": "I and III",
+    "option_d": "II and III",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "Which type of motion do the wheels of a moving car undergo?",
+    "option_a": "Vibratory and translational motion",
+    "option_b": "Random and translational motion",
+    "option_c": "Rotational mand oscillatory motion",
+    "option_d": "Translational and rotational motion",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "A car accelerates uniformly from rest at 3ms<sup>-2</sup>. its velocity after traveling a distance of 24m is",
+    "option_a": "A 12ms<sup>-1</sup>",
+    "option_b": "B 144ms<sup>-1</sup>",
+    "option_c": "C 72ms<sup>-1</sup>",
+    "option_d": "D 36ms<sup>-1</sup>",
+    "answer": "A",
+    "solution": "V<sup>2</sup> = U<sup>2</sup> x 2ax <br> V<sup>2</sup> = 0 x 2(3)(24) <br> V<sup>2</sup> = 144 <br> V = \\(\\sqrt{144}\\) <br> V = 12ms<sup>-1</sup>"
+  },
+  {
+    "question": "Calculate the escape velocity of a satellite launched from the earth's surface if the radius of the earth is 6.4x106m",
+    "option_a": "25.3kms<sup>-1</sup>",
+    "option_b": "4.2kms<sup>-1</sup>",
+    "option_c": "4.0kms<sup>-1</sup>",
+    "option_d": "11.3kms<sup>-1</sup>",
+    "answer": "D",
+    "solution": "V<sub>escape</sub> = \\(\\sqrt{2gR}\\) <br> V<sub>escape</sub> = \\(\\sqrt{2\\times10\\times6.4\\times10^6}\\) <br> Vescape = \\(\\sqrt{128000000}\\)<br> Vescape = 11313.7085mS<sup>-1</sup> <br> V<sub>escape</sub> = 11.313kmS<sup>-1</sup>"
+  },
+  {
+    "question": "An object of weight 80kg on earth is taken to a planet where acceleration due to gravity is one-third of its value on earth. The weight of the object on the planet is",
+    "option_a": "48N",
+    "option_b": "12N",
+    "option_c": "27N",
+    "option_d": "36N",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "One of the conditions necessary for an object to be in equilibrium when acted upon by a number of parallel forces is that the vector sum of the forces is",
+    "option_a": "Average",
+    "option_b": "Zero",
+    "option_c": "Negative",
+    "option_d": "Positive",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "What happens when three coplanar non-parallel forces are in equilibrium?",
+    "option_a": "Their lines of action are parallel.",
+    "option_b": "They are represented in magnitude only",
+    "option_c": "They are represented in direction only",
+    "option_d": "Their lines of action meet at a point",
+    "answer": "D",
+    "solution": "Conditions for non-parallel coplanar forces"
+  },
+  {
+    "question": "An object of mass 20kg is released from a height of 10m above the ground level. The kinetic energy of the object just before it hits the ground is",
+    "option_a": "200J",
+    "option_b": "4000J",
+    "option_c": "2000J",
+    "option_d": "500J",
+    "answer": "C",
+    "solution": "Kinetic Energy = mgh <br> = 20 x 10 x 10J <br> = 2000J"
+  },
+  {
+    "question": "The energy in the nucleus of atoms produce heat which can be used to generate",
+    "option_a": "Kinetic energy",
+    "option_b": "Mechanical energy",
+    "option_c": "Electrical energy",
+    "option_d": "Potential energy",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "A machine whose efficiency is 75% is used to lift a load of 1000N. Calculate the effort put in to the machine if it has a Velocity ratio of 4.",
+    "option_a": "343.32N",
+    "option_b": "233.33N",
+    "option_c": "333.33N",
+    "option_d": "334.33N",
+    "answer": "C",
+    "solution": "\\(\\frac{MA}{VR}\\times\\frac{100}{1}=efficiency\\) <br> \\(\\frac{L}{E}\\frac{1}{VR}\\times\\frac{100}{1}=75\\) <br> \\(\\frac{1000}{E}\\frac{1}{4}\\times\\frac{100}{1}=75\\) <br> \\(E = \\frac{250 \\times 100}{75}\\) <br> E = 333.3N"
+  },
+  {
+    "question": "A wheel and an axle is used to raise a load whose weight is 800N when an effort of 250N is applied. If the radii of the wheel and axle are 800mm and 200mm respectively, the efficiency of the machine is",
+    "option_a": "90%",
+    "option_b": "80%",
+    "option_c": "85%",
+    "option_d": "87%",
+    "answer": "B",
+    "solution": "VR = 800/200 = 4<br>\\(Efficiency = \\frac{MA}{VR} \\times \\frac{100}{1}\\) <br> \\(Efficiency = \\frac{L}{E} \\times \\frac{1}{VR} \\times \\frac{100}{1}\\) <br> \\(Efficiency = \\frac{800}{250} \\times \\frac{1}{4} \\times \\frac{100}{1}\\) <br> = 78.74%<br>= 80%"
+  },
+  {
+    "question": "A force of 500N is applied to a steel wire of cross-sectional area 0.2m<sup>2</sup>, The tensile stress is",
+    "option_a": "A 2.5x104Nm<sup>-2</sup>",
+    "option_b": "B 1.0x102Nm<sup>-2</sup>",
+    "option_c": "C 1.0x103Nm<sup>-2</sup>",
+    "option_d": "D 2.5x103Nm<sup>-2</sup>",
+    "answer": "D",
+    "solution": "\\(Stress = \\frac{Force}{Area}\\) <br> \\(Stress = \\frac{500}{0.2} = 2500\\) <br> = 2.5 x 103Nm-3"
+  },
+  {
+    "question": "The small droplets of water that form on the grass in the early hours of the morning is",
+    "option_a": "Fog",
+    "option_b": "Haul",
+    "option_c": "Mist",
+    "option_d": "Dew",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "What is the equivalent of 20K in Celsius scale?",
+    "option_a": "20<sup>o</sup>C",
+    "option_b": "293<sup>o</sup>C",
+    "option_c": "68<sup>o</sup>C",
+    "option_d": "36<sup>o</sup>C",
+    "answer": "B",
+    "solution": "273 + 20 = 293"
+  },
+  {
+    "question": "The equation PaVbTc= constant reduces to Charles Law if",
+    "option_a": "a=1, b=1and c=0",
+    "option_b": "a=1, b=0 and c=-1",
+    "option_c": "a=0, b=1 and c=1",
+    "option_d": "a=0, b=1 and c=-1",
+    "answer": "D",
+    "solution": "if a=0, b=1 and c=-1 then<br>P0V1T-1 = V/T (Charles Law)"
+  },
+  {
+    "question": "The quantity of heat needed to raise the temperature of a body by 1K is the body's",
+    "option_a": "Heat capacity",
+    "option_b": "Internal energy",
+    "option_c": "Specific heat capacity",
+    "option_d": "Latent heat of fusion",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "The melting point of a substance is equivalent to its",
+    "option_a": "Vapour Pressure",
+    "option_b": "Solidification Temperature",
+    "option_c": "Liquidification Temperature",
+    "option_d": "Solidification Pressures",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "The temperature at which the water vapour present in the air is just sufficient to saturate air is",
+    "option_a": "Boiling point",
+    "option_b": "Ice point",
+    "option_c": "Saturation point",
+    "option_d": "Dew point",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "Heat transfer by convection in a liquid is due to the",
+    "option_a": "Latent heat of vaporization of the liquid",
+    "option_b": "Increased vibration of the molecules of the liquid about theit mean position",
+    "option_c": "Variation of density of the liquid",
+    "option_d": "Expansion of the liquid as it is heated",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "The distance between two successive crests of a wave is 15cm and the velocity 300ms<sup>-1</sup>. Calculate the frequency.",
+    "option_a": "2.0x10<sup>2</sup>Hz",
+    "option_b": "4.5x10<sup>3</sup>Hz",
+    "option_c": "2.0x10<sup>3</sup>Hz",
+    "option_d": "4.5x10<sup>2</sup>Hz",
+    "answer": "C",
+    "solution": "Wavelength = 15cm = 0.15m <br> Velocity = 300m/s <br> V = fx <br> F = V/Wavelength <br> F = 300/0.15 Hertz <br> F = 2 x 103Hz"
+  },
+  {
+    "question": "A boy receives the echo of his clap reflected by a nearby hill 0.8s later. How far is he from the hill?",
+    "option_a": "528m",
+    "option_b": "66m",
+    "option_c": "136m",
+    "option_d": "264m",
+    "answer": "C",
+    "solution": "Time for echo both ways = 0.8<br>Therefore time for echo in 1 way = 0.8/2 = 0.4 <br> Distance = Speed x time <br> Distance = 340 x 0.4 <br> Distance = 136m"
+  },
+  {
+    "question": "An object is placed 10m from a pinhole camera of length 25cm. Calculate the linear magnification.",
+    "option_a": "2.5x10<sup>2</sup>",
+    "option_b": "2.5x10<sup>-2</sup>",
+    "option_c": "2.5x10<sup>-1</sup>",
+    "option_d": "2.5x10<sup>1</sup>",
+    "answer": "B",
+    "solution": "\\(\\text{Linear Magnification} = \\frac{\\text{Length of Camera}}{\\text{Distance of the Object}}\\) <br> \\(\\text{Linear Magnification} = \\frac{25}{1000}\\) <br> \\(\\text{Linear Magnification} = 2.5 \\times 10^{-2}\\)"
+  },
+  {
+    "question": "The focal length of a concave mirror is 2.0cm. If an object is placed 8.0cm from it, the image is at",
+    "option_a": "2.7m",
+    "option_b": "2.0m",
+    "option_c": "2.3m",
+    "option_d": "2.5m",
+    "answer": "A",
+    "solution": "\\(\\frac{1}{U} + \\frac{1}{V} = \\frac{1}{f}\\) <br> \\(\\frac{1}{8} + \\frac{1}{V} = \\frac{1}{2}\\) <br> \\(V = \\frac{8}{3}\\) <br> \\(V = 2.7cm\\)"
+  },
+  {
+    "question": "In a compound microscope, the objective and the eye piece focal lengths are",
+    "option_a": "At infinity",
+    "option_b": "Long",
+    "option_c": "Short",
+    "option_d": "The same",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "When a telescope is in normal use, the final image is at",
+    "option_a": "Infinity",
+    "option_b": "The focus",
+    "option_c": "The radius of curvature",
+    "option_d": "The near point",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "When a negatively charged rod is brought near the cap of a charged gold leaf electroscope which has positive charges, the leaf",
+    "option_a": "Remains the same",
+    "option_b": "Collapses",
+    "option_c": "Collapses and diverges again",
+    "option_d": "Diverges",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "What charge is stored in a 0.1F capacitor when a 10V supply is connected across it?",
+    "option_a": "1C",
+    "option_b": "5C",
+    "option_c": "4C",
+    "option_d": "2C",
+    "answer": "B",
+    "solution": "q = CV = 0.1 x 10 = 1C"
+  },
+  {
+    "question": "The maximum power transfer occur in a cell when the external resistance is",
+    "option_a": "Twice the internal resistance of the cell",
+    "option_b": "The same as the internal resistance of the cell",
+    "option_c": "Greater than the internal resistance of the cell",
+    "option_d": "Less than the internal resistance of the cell",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "If a metal wire 4m long and cross-sectional area 0.8 mm<sup>2</sup> has a resistance of 60, find the resistivity of the wire",
+    "option_a": "5.3x10<sup>-7</sup>",
+    "option_b": "3.0x10<sup>-5</sup>",
+    "option_c": "1.2x10<sup>-6</sup>",
+    "option_d": "3.2x10<sup>-6</sup>",
+    "answer": "C",
+    "solution": "\\(P = \\frac{Ra}{L}\\Omega m\\) <br> \\(P = \\frac{6 \\times 0.8}{4}\\Omega m\\) <br> \\(P = 1.2 \\times 10^{-6}\\Omega m\\)"
+  },
+  {
+    "question": "A circuit has a resistance of 200Ω. The resistance of the circuit can be reduced to 120Ω when",
+    "option_a": "A 300Ω resistor is connected to it in parallel",
+    "option_b": "An 80Ω resistor is conneceted to it in series",
+    "option_c": "A 150Ω resistor is connected to it in parallel",
+    "option_d": "A 240Ω resistor is connected to it in series",
+    "answer": "A",
+    "solution": "For parallel resistance, <br> \\(\\frac{300 \\times 200}{500}\\) <br> \\(= 120 \\Omega \\) <br> Therefore it is when a 300Ω resistor is connected to it in parallel"
+  },
+  {
+    "question": "PHCN measures its electrical energy in",
+    "option_a": "W",
+    "option_b": "KWh",
+    "option_c": "Wh",
+    "option_d": "J",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "What is the best method of demagnetizing a steel bar magnet?",
+    "option_a": "Hammering",
+    "option_b": "Heating it",
+    "option_c": "Rough handling it",
+    "option_d": "Solenoid method",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "The magnitude of the angle of dip at the equator is",
+    "option_a": "360<sup>o</sup>",
+    "option_b": "0<sup>o</sup>",
+    "option_c": "90<sup>o</sup>",
+    "option_d": "180<sup>o</sup>",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "When an atom undergoes a beta decay, the atomic number of the nucleus",
+    "option_a": "Remains unchanged",
+    "option_b": "Decreases by one",
+    "option_c": "Increases by one",
+    "option_d": "Becomes zero",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "Calculate the mass of the copper deposited during electrolysis when a current of 4A passes through a copper salt for 2 hours. [Ece of Copper z=3.3x10<sup>-7</sup>kgC<sup>-1</sup>]",
+    "option_a": "2.9x10<sup>5</sup>kg",
+    "option_b": "9.5x10<sup>-7</sup>kg",
+    "option_c": "9.5x10<sup>-3<sup>kg",
+    "option_d": "2.9x10<sup>4<sup>kg",
+    "answer": "C",
+    "solution": "Mass = ZIT kg <br> Mass = 3.3 x 10<sup>-7</sup> x 4 x 2 x 60 x 60 kg <br> Mass = 9.5 x 10<sup>-3</sup>kg"
+  },
+  {
+    "question": "Which gas produces a pink coloured light in a discharge tube?",
+    "option_a": "Mercury",
+    "option_b": "Argon",
+    "option_c": "Air",
+    "option_d": "Neon",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "In a common emitter configuration, the output voltage is through the",
+    "option_a": "Resistor",
+    "option_b": "Base",
+    "option_c": "Collector",
+    "option_d": "Emitter",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "When \\(^{210}_{82}Pb\\) decays to \\(^{206}_{80}Pb\\), it emits",
+    "option_a": "two alpha and two beta particles",
+    "option_b": "an alpha particle",
+    "option_c": "one beta particle",
+    "option_d": "one alpha and one beta particle",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "What type of reaction is represented by the equation \\(^{2}_{1}X+^{2}_{1}X\\rightarrow^{3}_{2}Y+^{1}_{0}n+Energy\\)",
+    "option_a": "Ionization",
+    "option_b": "Fusion",
+    "option_c": "Fission",
+    "option_d": "Chain",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "A glass bottle of initial volume 2 x10<sup>4</sup> cm<sup>3</sup> is heated from 20<sup>o</sup>C to 50<sup>o</sup>C. If the linear expansivity of  glass is 9 x 10<sup>6</sup>K<sup>-1</sup>, the volume of the bottle at 50<sup>o</sup>C is",
+    "option_a": "20016.2cm<sup>3</sup>",
+    "option_b": "20005.4cm<sup>3</sup>",
+    "option_c": "20008.1cm<sup>3</sup>",
+    "option_d": "20013.5cm<sup>3</sup>",
+    "answer": "A",
+    "solution": "\\(\\gamma = \\frac{V_2 - V_1}{V(\\theta)}\\) <br> \\(3(9 \\times 10^4) = \\frac{V_2 - 2 \\times 10^4}{2 \\times 10^4(30)}\\) <br> V2 - 2 x 104 = 2 x 104 (30) x 3 (9 x 10-6) <br> \nV2 =  2 x 104 2 x 104 (30) x 3 (9 x 10-6) <br> \nV2 =  16.2 + 2 x 104 <br> V2 =  20016.2cm3"
+  }
+]

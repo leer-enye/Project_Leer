@@ -1,0 +1,443 @@
+﻿[
+  {
+    "question": "The major function of accounting bodies in Nigeria is to?",
+    "option_a": "provide proper financial management of businesses",
+    "option_b": "provide good remuneration to the members",
+    "option_c": "promote the ethics of the profession",
+    "option_d": "show the dynamic nature of the profession",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "Ledger  account is mainly classified into?",
+    "option_a": "nominal, real and personal accounts",
+    "option_b": "fixed and current accounts",
+    "option_c": "management, financial and public sector  accounting",
+    "option_d": "bank and cash accounts",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "If salary account is debited instead of stationery account, the error committed is that of?",
+    "option_a": "commission",
+    "option_b": "omission",
+    "option_c": "principle",
+    "option_d": "compensation",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "If stationery bought for N200 has been entered as N2000. To correct this error?",
+    "option_a": "debit stationery with N2,200",
+    "option_b": "credit stationery with N1,800",
+    "option_c": "debit stationery with N1,800",
+    "option_d": "credit stationery with N2,200",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "The account which refers to the tangible assets of a company that is of permanent nature is the?",
+    "option_a": "personal account",
+    "option_b": "real account",
+    "option_c": "nominal account",
+    "option_d": "cash account",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "The major feature of an invoice is that, it?",
+    "option_a": "passes information through the sales day book",
+    "option_b": "has cash and bank column",
+    "option_c": "specifies the particular of goods bought",
+    "option_d": "indicates only the cash sales",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "The source documents include?",
+    "option_a": "cash book",
+    "option_b": "petty cash book",
+    "option_c": "general ledger",
+    "option_d": "credit notes",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "A major cause of discrepancy between bank statement and the cash book that overstates the bank statement balance is the?",
+    "option_a": "commission paid",
+    "option_b": "interest received",
+    "option_c": "direct payment",
+    "option_d": "direct withdrawal",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "The bank charges levied on a current account holder is the charge on?",
+    "option_a": "transaction",
+    "option_b": "turnover",
+    "option_c": "transfer",
+    "option_d": "cash received",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "The course of discrepancies between the bank statement and the cash book that overstates the cash book is the?",
+    "option_a": "dividend received",
+    "option_b": "uncredited expenses",
+    "option_c": "uncredited cheques",
+    "option_d": "interest on lodgement",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "Use the information below to answer question 14 and 15.<br> Sales....................................N10,900\n\nStock 1/1................................N1, 000\n\nStock 31/12..............................N2, 000\n\nPurchases................................N4, 000\n\nReturns outwards.........................N800\n\nReturns inwards..........................N600\n\nCarriage outwards........................N300\n\nCarriage inwards.........................N200<br> Find the gross profit.",
+    "option_a": "N7 800",
+    "option_b": "N7 900",
+    "option_c": "N9700",
+    "option_d": "5700",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "The cost of goods available for sale is?",
+    "option_a": "N4 600",
+    "option_b": "N5 000",
+    "option_c": "N6 400",
+    "option_d": "N4 400",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "Benefit enjoyed for which payments have not been made are?",
+    "option_a": "accruals",
+    "option_b": "prepayments",
+    "option_c": "acquisitions",
+    "option_d": "provisions",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "Use the information below to answer questions 16 and 17.<br> Sundry debtor..................N20,000\n\nProvision for bad debts........N500<br> Provision for bad debt at 4% of sundry debtors.<br> Determine the provision for bad debts to profit and loss account?",
+    "option_a": "N500",
+    "option_b": "N820",
+    "option_c": "N1300",
+    "option_d": "N300",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "Calculate the provision to be taken to the balance sheet?",
+    "option_a": "N780",
+    "option_b": "N800",
+    "option_c": "1200",
+    "option_d": "N200",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "If an organization maintains a periodic stock system, the stock quantities are?",
+    "option_a": "updated at the end of the accounting year",
+    "option_b": "not considered inthe updating process",
+    "option_c": "updated continuously",
+    "option_d": "updated at the beginning of the accounting year",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "If a company values its stock in the period of rising prices using LIFO method, there is a tendency for it to?",
+    "option_a": "have a higher cost of goods sold",
+    "option_b": "have a higher gross profit",
+    "option_c": "pay higher gross profit",
+    "option_d": "have a higher value for closing stock",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "Use the information below to answer questions 23 and 24.<br> ............................31/12/07.......31/12/08\n\nStocks........................N4 200.........N3 900\n\nRates in advance..............N1 000.........N1 500\n\nAccrued wages.................N1 150.........N1 350<br> Cost of goods sold was valued at N6 000.\n\nCash paid for rates and wages during the year was N1 300 and N2 200 respectively.<br> What is the value of purchases for the year 2008?",
+    "option_a": "N6 000",
+    "option_b": "N9 900",
+    "option_c": "N14 100",
+    "option_d": "N5 700",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "Determine the total expenses to be charged to profit and loss account?",
+    "option_a": "N2 350",
+    "option_b": "N1 600",
+    "option_c": "N800",
+    "option_d": "N3 150",
+    "answer": "E",
+    "solution": ""
+  },
+  {
+    "question": "Use the information below to answer questions 25 and 26.<br> ........................31/12/08...........31/12/09<br> Furniture and fittings..N21 000,............N28 000\n\nOffice equipment........N9 800,.............N13 200\n\nDebtors.................N6 800,.............N5  200\n\nCreditors...............N4 900,.............N5  100\n\nCash at bank............N7 000,.............N4  600\n\nAccrued electricity bills...................N1  200<br> Monthly drawings average N330.<br> Find the opening capital?",
+    "option_a": "N39 700",
+    "option_b": "N35 900",
+    "option_c": "N35 740",
+    "option_d": "N43 660",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "Determine the net profit ?",
+    "option_a": "N5 000",
+    "option_b": "N3 960",
+    "option_c": "N1 040",
+    "option_d": "N8 960",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "The gross loss on manufacturing is always transferred to the?",
+    "option_a": "credit side of balance sheet",
+    "option_b": "debit side of profit and loss account",
+    "option_c": "credit side of profit and loss account",
+    "option_d": "debit side of balance sheet",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "The depreciation on a motor vehicle that is being used for manufacturing and administration is charged to the?",
+    "option_a": "debit side of manufacturing and profit and loss  account",
+    "option_b": "debit side of profit and loss account only",
+    "option_c": "credit side of profit and loss account only",
+    "option_d": "debit side of manufacturing and balance sheet",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "The prime cost is the total of the?",
+    "option_a": "production cost + selling expenses",
+    "option_b": "direct material + direct labour + direct expenses",
+    "option_c": "direct material + work overhead expenses",
+    "option_d": "administrative expenses  + selling + distribution expenses",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "In the not-for-profit-making organization, the excess of income over expenditure is?",
+    "option_a": "deducted from the capital",
+    "option_b": "added to the accumulated fund",
+    "option_c": "added to the capital",
+    "option_d": "deducted from the the accumulated fund",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "The equivalent of a club's receipts and payment account is the?",
+    "option_a": "trading account",
+    "option_b": "revenue account",
+    "option_c": "cash account",
+    "option_d": "suspense account",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "The summary of receipts ans payments account represent?",
+    "option_a": "cash at hand",
+    "option_b": "journal proper",
+    "option_c": "general journal",
+    "option_d": "ledger accounts",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "The Akachala Limited has four department W, X Y and Z. The profits or loss of the departments were N20 000 loss, X N25 profit, Y were N30 000 loss and Z N1800 profit. How much is the net profit or loss of the company?",
+    "option_a": "N7 000 loss",
+    "option_b": "N5 000 loss",
+    "option_c": "N5 000 profit",
+    "option_d": "N7 000 profit",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "If goods were returned to branch by the customers, the correct posting for this transaction is to debit?",
+    "option_a": "branch debtor's account and credit head office account",
+    "option_b": "head office account and credit branch stock account",
+    "option_c": "branch stock account and credit branch debtors'  account",
+    "option_d": "branch cash account and credit branch stock account",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "The branch expenses paid by the head office is recorded in the books by debiting branch?",
+    "option_a": "bad debt account and crediting branch  debtor's account",
+    "option_b": "expenses account and crediting bank account",
+    "option_c": "profit and loss account and crediting  branch stock account",
+    "option_d": "discount allowed account and crediting branch debtors'  account",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "Goods returned to branch by customers is recorded in the head office books be debiting?",
+    "option_a": "bank account and crediting branch stock account",
+    "option_b": "goods sent to branch account  and crediting branch debtors''account",
+    "option_c": "branch stock account and crediting branch debtors account",
+    "option_d": "branch debtors' and credting cash acount",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "Which of the following is mostly used in treating partners' current earnings?",
+    "option_a": "Savings account",
+    "option_b": "Current account",
+    "option_c": "Capital account",
+    "option_d": "Share capital account",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "The salary of a partner is usually debited to the?",
+    "option_a": "sundry debtors' account",
+    "option_b": "appropriation account",
+    "option_c": "profit and loss account",
+    "option_d": "suncry current account",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "The rules which govern the internal management of a firm and its financial affairs in a partnership business is a?",
+    "option_a": "memorandum",
+    "option_b": "bye-law",
+    "option_c": "deed",
+    "option_d": "financial regulation",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "The interest on partners' loans is?",
+    "option_a": "debited in current account",
+    "option_b": "credited in profit and loss account",
+    "option_c": "debited in profit and loss account",
+    "option_d": "credited in current account",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "The capital contribution by the partners is treated in the?",
+    "option_a": "current account",
+    "option_b": "capital account",
+    "option_c": "trading account",
+    "option_d": "balance sheet",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "Given:<br> N6 000 10% preference shares of N0.50 each \n\nN6 000 ordinary shares of N1 each \n\nCapital reserves N2 700 000\n\nLong-term liabilities N4 000 000<br> Find the value of authorized share capital?",
+    "option_a": "13 000 000",
+    "option_b": "12 000 000",
+    "option_c": "9 000 000",
+    "option_d": "15 700 000",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "The directors' salaries paid are items of?",
+    "option_a": "current liabilities",
+    "option_b": "profit and loss account",
+    "option_c": "trading account",
+    "option_d": "current account",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "Sundry debtors in the balance sheet of Onoja Bakery and Sons totaled N800.\n\nA provision of 2% was made for discount and 5% provision for bad and doubtful debts.<br> Find the amount for sundry debtors after provision?",
+    "option_a": "N760 000",
+    "option_b": "N744800",
+    "option_c": "N744 000",
+    "option_d": "N784 000",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "The financial plan of the government for a year is contained in the?",
+    "option_a": "budget",
+    "option_b": "cash analysis book",
+    "option_c": "vote book",
+    "option_d": "gazette",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "An ordinary share of N80 was issued at N96. The share was issued at?",
+    "option_a": "premium",
+    "option_b": "par",
+    "option_c": "discount",
+    "option_d": "loss",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "An increase in government expenditure within a year is taken care of by means of?",
+    "option_a": "financial regulations",
+    "option_b": "virement",
+    "option_c": "warrant",
+    "option_d": "supplementary estimate",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "As evidence of payments to a government ministry, the revenue collectors will issue?",
+    "option_a": "treasury receipt",
+    "option_b": "receipts vourcher card",
+    "option_c": "treasury card",
+    "option_d": "stores receipts vourcher",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "How much rent is apportioned to department K?",
+    "option_a": "N1200",
+    "option_b": "N1800",
+    "option_c": "N2000",
+    "option_d": "N750",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "How much selling and distribution expenses is apportioned to department M?",
+    "option_a": "N 800",
+    "option_b": "N 600",
+    "option_c": "N400",
+    "option_d": "N1800",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "Credit sales is given at 160% of cash received.<br> What is the balance c/d?",
+    "option_a": "N333 000",
+    "option_b": "N234 000",
+    "option_c": "N343 000",
+    "option_d": "N243 000",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "When Your Silence Is Loud..& Your Eyes Speaking Volumes..<br> Calculate the value of credit sales",
+    "option_a": "N484 000",
+    "option_b": "N448000",
+    "option_c": "N584 000",
+    "option_d": "N558 000",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "If Fatima was granted a discount of 2% what will be discount allowed?",
+    "option_a": "N20",
+    "option_b": "N40",
+    "option_c": "N60",
+    "option_d": "N4",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "Calculate the cash balance after the discount",
+    "option_a": "N2760",
+    "option_b": "N4 300",
+    "option_c": "N6 200",
+    "option_d": "N2.400",
+    "answer": "A",
+    "solution": ""
+  }
+]

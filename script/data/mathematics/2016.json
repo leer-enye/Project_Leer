@@ -1,0 +1,452 @@
+﻿[
+  {
+    "question": "Integrate \\(\\frac{2x^3 + 2x}{x}\\) with respect to x",
+    "option_a": "\\(\\frac{2x^3}{3}\\) - 2x + k",
+    "option_b": "x<sup>3</sup> + 2x + k",
+    "option_c": "\\(\\frac{2x^3}{3}\\) + 2x + k",
+    "option_d": "x<sup>3</sup> - 2x + k",
+    "answer": "C",
+    "solution": "\\(\\int\\) \\(\\frac{2x^3 + 2x}{x}\\) = \\(\\int\\) \\(\\frac{2x^3}{x}\\) + \\(\\frac{2x}{x}\\) = \\(\\int\\) (2x2 + 2) dx <br> \\(\\frac{2x^2+1}{2 + 1}\\) + 2x + k <br> = \\(\\frac{2x^3}{3}\\)+ 2x + k"
+  },
+  {
+    "question": "If the mean of 4, y, 8 and 10 is 7. Find Y?",
+    "option_a": "6",
+    "option_b": "10",
+    "option_c": "7",
+    "option_d": "9",
+    "answer": "A",
+    "solution": "\\(\\frac{4 + y + 8 + 10}{4}\\) = 7 <br> 22 + y = 4 x 7\n\n22 + y = 28\n\ny = 28 - 22 = 6"
+  },
+  {
+    "question": "Find the derivative of y = ( \\(\\frac{1}{3}\\)X + 6)",
+    "option_a": "2( \\(\\frac{1}{3}\\)X + 6",
+    "option_b": "\\(\\frac{2}{3}\\) ( \\(\\frac{1}{3}\\)X + 6)",
+    "option_c": "\\(\\frac{2}{3}\\) ( \\(\\frac{1}{3}\\)X + 6)2",
+    "option_d": "\\(\\frac{1}{3}\\) ( \\(\\frac{1}{3}\\)X + 6)2",
+    "answer": "B",
+    "solution": "Y = ( \\(\\frac{1}{3}\\)X + 6)2  <br> \\(\\frac{dy}{dx}\\) = 2( \\(\\frac{1}{3}\\)X + 6) \\(\\frac{1}{3}\\) <br> = \\(\\frac{2}{3}\\) ( \\(\\frac{1}{3}\\)X + 6)"
+  },
+  {
+    "question": "In a school of 150 students, 80 offer French while 60 offer Arabic and 20 offer neither. How many students offer both subjects?",
+    "option_a": "45",
+    "option_b": "10",
+    "option_c": "35",
+    "option_d": "30",
+    "answer": "B",
+    "solution": "80 - x + x + 60 - x + 20 = 150\n\n160 - x = 150\n\nx = 160 - 150 = 10"
+  },
+  {
+    "question": "If the 2nd term of a G.P is \\(\\frac{8}{9}\\) and the 6th term is 4\\(\\frac{1}{2}\\). Find the common ratio.",
+    "option_a": "2",
+    "option_b": "\\(\\frac{3}{2}\\)",
+    "option_c": "\\(\\frac{2}{3}\\)",
+    "option_d": "3",
+    "answer": "B",
+    "solution": "T2 = \\(\\frac{8}{9}\\), T6 = 4\\(\\frac{1}{2}\\)\n\nar = \\(\\frac{8}{9}\\)\n\nar5 = \\(\\frac{9}{2}\\) <br> \\(\\frac{ar}{ar^5}\\) = \\(\\frac{8}{9}\\) x \\(\\frac{2}{9}\\) <br> \\(\\frac{1}{r^4}\\) = \\(\\frac{16}{81}\\) <br> r = \\(\\sqrt[4]{18/16}\\) = \\(\\frac{3}{2}\\)"
+  },
+  {
+    "question": "From the diagram above, find the value of < OTq",
+    "option_a": "230<sup>o</sup>",
+    "option_b": "55<sup>o</sup>",
+    "option_c": "115<sup>o</sup>",
+    "option_d": "65<sup>o</sup>",
+    "answer": "D",
+    "solution": "< OTq = \\(\\frac{130}{2}\\)\n\n= 65<sup>o</sup>"
+  },
+  {
+    "question": "The sum of the interior angles of a polygon is a given as 1080o. Find the number of the sides of the polygon.",
+    "option_a": "5",
+    "option_b": "7",
+    "option_c": "6",
+    "option_d": "8",
+    "answer": "D",
+    "solution": "\\(\\frac{(n - 2) 180}{180}\\) = \\(\\frac{1080}{180}\\) <br> (n - 2) = 6\n\nn = 6 + 2 = 8"
+  },
+  {
+    "question": "In the diagram above, l1 is parallel to l2, Find the value of < PMT",
+    "option_a": "82<sup>o</sup>",
+    "option_b": "36<sup>o</sup>",
+    "option_c": "72<sup>o</sup>",
+    "option_d": "118<sup>o</sup>",
+    "answer": "A",
+    "solution": "< MPT = 180<sup>o</sup> - 118<sup>o</sup> = 62<sup>o</sup> <br> < PML = 62<sup>o</sup> ( Alternative angle) <br> y + 2y + 10<sup>o</sup> + 62<sup>o</sup> = 180<sup>o</sup> (Angles on a straight line) <br> 3y = 180 - 72\n\n\\(\\frac{3y}{3}\\) = \\(\\frac{108}{3}\\)\n\ny = 36<sup>o</sup> <br> < PMT = 2y + 10 = 2(36) + 10 = 82<sup>o</sup>"
+  },
+  {
+    "question": "From the diagram above, Find the value of < ROP",
+    "option_a": "110<sup>o</sup>",
+    "option_b": "70<sup>o</sup>",
+    "option_c": "95<sup>o</sup>",
+    "option_d": "85<sup>o</sup>",
+    "answer": "C",
+    "solution": "< ROP = 95<sup>o</sup> (Exterior angle of cyclic quadrilateral)"
+  },
+  {
+    "question": "The venn diagram shows a class of 50 students with the games they play. How many students play only two games?",
+    "option_a": "15",
+    "option_b": "16",
+    "option_c": "20",
+    "option_d": "18",
+    "answer": "A",
+    "solution": "Number of students that plays only two games = 4 + 8 + 3 + = 15"
+  },
+  {
+    "question": "If line p = 5x + 3 is parallel to line p = wx + 5. Find the value of w.",
+    "option_a": "7",
+    "option_b": "3",
+    "option_c": "6",
+    "option_d": "5",
+    "answer": "D",
+    "solution": "P = 5x + 3, P = wx + 5\n\nM1 = 5, M2 = w\n\nM1 = M2 (parallel lines)\n\nw = 5"
+  },
+  {
+    "question": "Evaluate \\(\\int\\)(cos4x + sin3x)dx",
+    "option_a": "sin4x - cos3x + k",
+    "option_b": "sin4x + cos3x + k",
+    "option_c": "\\(\\frac{1}{4}\\)sin4x - \\(\\frac{1}{3}\\)cos3x + k",
+    "option_d": "\\(\\frac{1}{4}\\)sin4x + \\(\\frac{1}{3}\\)cos3x + k",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "If x<sub>10</sub> = 23<sub>5</sub>. Find x",
+    "option_a": "15",
+    "option_b": "12",
+    "option_c": "14",
+    "option_d": "13",
+    "answer": "D",
+    "solution": "x<sub>10</sub> = 23<sub>10</sub>\n\nx10 = 2 x 51 + 3 x 50\n\n= 10 + 3\n\n= x10 = 13"
+  },
+  {
+    "question": "The pie chart above shows the distribution of subjects offered by students in SSS III level. If 80 students enrolled in the class. What is the size of the angle of the sector in economics?",
+    "option_a": "24<sup>o</sup>",
+    "option_b": "39<sup>o</sup>",
+    "option_c": "32<sup>o</sup>",
+    "option_d": "36<sup>o</sup>",
+    "answer": "C",
+    "solution": "x<sup>o</sup> + 36<sup>o</sup> + 54<sup>o</sup> + 28<sup>o</sup> + 90<sup>o</sup> + 120<sup>o</sup> = 360<sup>o</sup> <br> x + 328<sup>o</sup> = 360<sup>o</sup>\n\n x = 360<sup>o</sup> - 328<sup>o</sup>\n\n x = 32<sup>o</sup>"
+  },
+  {
+    "question": "Calculate the range of 20, -6, 25, 30, 21, 28, 32, 33, 34, 5, 3, 2, and 1.",
+    "option_a": "32",
+    "option_b": "36",
+    "option_c": "33",
+    "option_d": "40",
+    "answer": "D",
+    "solution": "Range = 32- (-6) = 34 + 6 = 40"
+  },
+  {
+    "question": "The bar chart above shows the number of visitors received in a week. How many visitors were received on Friday, Tuesday and Sunday?",
+    "option_a": "17",
+    "option_b": "22",
+    "option_c": "20",
+    "option_d": "16",
+    "answer": "D",
+    "solution": "No of visitors = 10 + 5 + 1 = 16"
+  },
+  {
+    "question": "Factorize k<sup>2</sup> - 2kp + p<sup>2</sup>.",
+    "option_a": "(k +p)<sup>2</sup>",
+    "option_b": "(k - p)<sup>2</sup>",
+    "option_c": "k<sup>2</sup> + p<sup>2</sup>",
+    "option_d": "k<sup>2</sup> - p<sup>2</sup>",
+    "answer": "B",
+    "solution": "k<sup>2</sup> - 2kp + p<sup>2</sup> = (k - p)<sup>2</sup>"
+  },
+  {
+    "question": "Calculate the perimeter of a sector of a circle of raduis 12cm and angle 60<sup>o</sup>.",
+    "option_a": "(12 + 4\\(\\pi\\))cm",
+    "option_b": "(24 + 4\\(\\pi\\))cm",
+    "option_c": "(12 + 6\\(\\pi\\))cm",
+    "option_d": "(24 + 6\\(\\pi\\))cm",
+    "answer": "B",
+    "solution": "Perimeter = 2r + \\(\\frac{0}{360}\\) x 2\\(\\pi\\)r\n\n= 2(12) + \\(\\frac{60}{360}\\) x 2 x \\(\\pi\\) x 12\n\n= (24 + 4\\(\\pi\\))cm"
+  },
+  {
+    "question": "\\(\\begin{array}{c|c} \n\nMarks & 2 & 3 & 4 \\\\\n\n\\hline \n\nFrequency & 4 & 4 & y\n\n\\end{array}\\) <br> The table above shows the frequency distribution of marks obtained by a group of students. If the total mark is 48, find the value of y.",
+    "option_a": "6",
+    "option_b": "8",
+    "option_c": "7",
+    "option_d": "5",
+    "answer": "C",
+    "solution": "(2 x 4) + (3 x 4) + (4 x y) = 48\n\n8 + 12 + 4y = 48\n\n4y = 48 - 20\n\n\\(\\frac{4y}{4}\\) = \\(\\frac{28}{4}\\)\n\ny = 7"
+  },
+  {
+    "question": "Given U = {xx is a positive integer less than 15} and P = {xx is even number from 1 to 14}. Find the compliment",
+    "option_a": "{1, 3, 5, 7, 9, 11, 13, 15}",
+    "option_b": "{2, 3, 5, 7, 9, 11, 13}",
+    "option_c": "{1, 3, 5, 7, 9, 11, 13}",
+    "option_d": "{2, 3, 5, 7, 11, 15}",
+    "answer": "C",
+    "solution": "u = {1, 2, 3, 4, 5......14}\n\np = {2, 4, 6, 8, 10, 12, 14}\n\np1 = {1, 3, 5, 7, 9, 11,13}"
+  },
+  {
+    "question": "Simplify \\(\\frac{0.026 \\times 0.36}{0.69}\\). Leave your answer in standard form",
+    "option_a": "1.36 x 10<sup>-4</sup>",
+    "option_b": "1.36 x 10<sup>-3</sup>",
+    "option_c": "1.36 x 10<sup>-1</sup>",
+    "option_d": "1.36 x 10<sup>-2</sup>",
+    "answer": "D",
+    "solution": "\\(\\frac{0.026 \\times 0.36}{0.69}\\) = \\(\\frac{26 \\times 10^-3 \\times 36 \\times 10^-2}{69 \\times 10^-2}\\) <br> = 0.01356 = 1.36 x 10-2"
+  },
+  {
+    "question": "A number of pencils were shared out among Bisi, Sola and Tunde in the ratio of 2:3:5 respectively. If Bisi got 5, how many were shared out?",
+    "option_a": "15",
+    "option_b": "25",
+    "option_c": "30",
+    "option_d": "50",
+    "answer": "B",
+    "solution": "Let x represent total number of pencils shared\n\nB : S : T\n\n2 : 3 : 5 <br> 2+3+5 = 10\n\n\\(\\frac{2}{10}\\) x x = 5\n\n\\(\\frac{2x}{10}\\) = 5\n\n2x = 50\nx = 25"
+  },
+  {
+    "question": "Calculate the perimeter of a sector of a circle of raduis 9cm and angle 36<sup>o</sup>.",
+    "option_a": "18cm",
+    "option_b": "(18 + \\(\\frac{9\\pi}{5}\\))cm",
+    "option_c": "(9 + \\(\\frac{9\\pi}{5}\\))cm",
+    "option_d": "\\(\\frac{9\\pi}{5}\\)cm",
+    "answer": "B",
+    "solution": "Perimeter = 2r + \\(\\frac{\\theta}{360}\\) x 2\\(\\pi\\)r\n\n2(9) + \\(\\frac{36}{360}\\) x 2 x \\(\\pi\\) x 9 = 18 + \\(\\frac{9\\pi}{5}\\)"
+  },
+  {
+    "question": "Evaluate \\(\\frac{27^\\frac{1}{3} - 8^\\frac{2}{3}}{16^\\frac{2}{4} \\times 2}\\)",
+    "option_a": "\\(\\frac{23}{5}\\)",
+    "option_b": "-\\(\\frac{23}{5}\\)",
+    "option_c": "\\(\\frac{1}{8}\\)",
+    "option_d": "\\(\\frac{21}{7}\\)",
+    "answer": "C",
+    "solution": "\\(\\frac{27^\\frac{1}{3} - 8^\\frac{2}{3}}{16^\\frac{2}{4} \\times 2}\\) <br> \\(\\frac{27^\\frac{1}{3} - 8^\\frac{2}{3}}{16^\\frac{2}{4} \\times 2}\\) = \\(\\frac{3\\sqrt{27} - 3\\sqrt{8}^2}{\\sqrt{16} \\times 2}\\) <br> \\(\\frac{3 - 4}{4 \\times 2}\\) \n\n= \\(\\frac{-1}{8}\\)"
+  },
+  {
+    "question": "\\(\\begin{array}{c|c} \n\nScores & 3 & 6 & 5 & 2 \\\\\n\n\\hline \n\nFrequency & 2 & 3 & 4 & 6 \n\n\\end{array}\\) <br> From the table above, find the median",
+    "option_a": "3",
+    "option_b": "5",
+    "option_c": "4",
+    "option_d": "6",
+    "answer": "C",
+    "solution": "Mean = \\(\\frac{(2 \\times 3) + (3 \\times 6) + (4 \\times 5) + (2 \\times 6)}{2 + 3 + 4 + 6}\\) <br> = \\(\\frac{6 + 18 + 20 + 12}{15}\\) = \\(\\frac{56}{15}\\)  <br> = 3.73"
+  },
+  {
+    "question": "Find \\(\\frac{dy}{dx}\\), if y = \\(\\frac{2}{3}\\) X3 - \\(\\frac{4}{x}\\)",
+    "option_a": "3x2 - \\(\\frac{4}{x}\\)",
+    "option_b": "2x2 +\\(\\frac{4}{x^2}\\)",
+    "option_c": "3x2 + \\(\\frac{4}{x^2}\\)",
+    "option_d": "2x2 - \\(\\frac{4}{x}\\)",
+    "answer": "B",
+    "solution": "y = \\(\\frac{2}{3}\\)x3 - \\(\\frac{4}{x}\\) <br> \\(\\frac{dy}{dx}\\) = 2x2 - Lx-2 = 2x2 + \\(\\frac{4}{x^2}\\)"
+  },
+  {
+    "question": "Evaluate \\(\\frac{0.8 \\times 0.43 \\times 0.031}{0.05 \\times 0.72 \\times 0.021}\\). Correct to four significant figures.",
+    "option_a": "14.09",
+    "option_b": "14.1",
+    "option_c": "14.12",
+    "option_d": "14.11",
+    "answer": "D",
+    "solution": "\\(\\frac{0.8 \\times 0.43 \\times 0.031}{0.05 \\times 0.72 \\times 0.021}\\) x \\(\\frac{10}{10}\\) = 14.11"
+  },
+  {
+    "question": "An arc subtends an angle of 30o at the centre of a circle radius 12cm. Calculate the length of the arc.",
+    "option_a": "6\\(\\pi\\)cm",
+    "option_b": "2\\(\\pi\\)cm",
+    "option_c": "3\\(\\pi\\)cm",
+    "option_d": "9\\(\\pi\\)cm",
+    "answer": "B",
+    "solution": "Length or arc = \\(\\frac{\\theta}{360}\\) x 2\\(\\pi\\)r <br> = \\(\\frac{30}{360}\\) x 2 x \\(\\frac{22}{7}\\) x 12 <br> = \\(\\frac{1}{12}\\) x 2 x \\(\\pi\\) x 2 = 2\\(\\pi\\)cm"
+  },
+  {
+    "question": "Evaluate \\(\\int\\limits_0^\\frac{\\pi}{2}\\) sin xdx",
+    "option_a": "2",
+    "option_b": "-1",
+    "option_c": "1",
+    "option_d": "-2",
+    "answer": "C",
+    "solution": "\\(\\int\\limits_0^\\frac{\\pi}{2}\\) sin xdx = -cosx|\\(\\frac{\\pi}{2}\\) <br> = -(cos\\(\\frac{\\pi}{2}\\) - cos0) = -(0-1) = 1"
+  },
+  {
+    "question": "An arc of the length 16\\(\\pi\\)cm subtends an angle of 80<sup>o</sup> at the centre of the circle. Find the radius of the circle.",
+    "option_a": "24cm",
+    "option_b": "28cm",
+    "option_c": "36cm",
+    "option_d": "32cm",
+    "answer": "C",
+    "solution": "L = \\(\\frac{\\theta}{360}\\) x 2\\(\\pi\\)r\n\n16\\(\\pi\\) = \\(\\frac{80}{360}\\) x 2\\(\\pi\\)r <br> \\(\\frac{16\\pi \\times 360}{80 \\times 2\\pi}\\) = r <br> r = 36cm"
+  },
+  {
+    "question": "The mean of 2-t, 4+t, 3-2t, 2+t and t-1 is",
+    "option_a": "2",
+    "option_b": "t",
+    "option_c": "-t",
+    "option_d": "-2",
+    "answer": "A",
+    "solution": "Mean = \\(\\frac{2 - t + 4 + t + 3 - 2t + 2 + t + t - 1}{5}\\) <br> = \\(\\frac{10}{5}\\) = 2"
+  },
+  {
+    "question": "Evaluate \\(\\frac{12.02 \\times 20.06}{26.04 \\times 60.06}\\), correct to three significant figures.",
+    "option_a": "0.157",
+    "option_b": "0.154",
+    "option_c": "0.155",
+    "option_d": "0.158",
+    "answer": "B",
+    "solution": "\\(\\frac{12.02 \\times 20.06}{26.04 \\times 60.06}\\) = \\(\\frac{241.1212}{15698.96}\\) = 0.154"
+  },
+  {
+    "question": "If y = 2x<sup>3</sup> + 6x<sup>2</sup> + 6x + 1, Find \\(\\frac{dy}{dx}\\)",
+    "option_a": "6x<sup>2</sup> + 12x + 1",
+    "option_b": "6x<sup>2</sup> + 6x + 1",
+    "option_c": "6x<sup>2</sup> + 6x + 6",
+    "option_d": "6x<sup>2</sup> + 12x + 6",
+    "answer": "D",
+    "solution": "y = 2x3 + 6x2 + 6x + 1 <br> \\(\\frac{dy}{dx}\\) = 6x2 + 12x + 6"
+  },
+  {
+    "question": "The nth term of the sequence 3, 9, 27, 81.....is",
+    "option_a": "3 x 3n-2",
+    "option_b": "3 x 3n-1",
+    "option_c": "3 x 3n+2",
+    "option_d": "3 x 3n+1",
+    "answer": "B",
+    "solution": "3,9,27,81,.....\n\nr = \\(\\frac{9}{8}\\) = 3\n\nTn = arn-1 <br> Tn = 3(3)n-1 = \\(\\frac{3(3^2)}{3}\\)"
+  },
+  {
+    "question": "Simplify 1 - (\\(\\frac{1}{7}\\) x 3 \\(\\frac{1}{2}\\)) \\(\\div\\) \\(\\frac{3}{4}\\)",
+    "option_a": "2",
+    "option_b": "\\(\\frac{1}{3}\\)",
+    "option_c": "1",
+    "option_d": "\\(\\frac{2}{3}\\)",
+    "answer": "B",
+    "solution": "1 - (\\(\\frac{1}{7}\\) x 3 \\(\\frac{1}{2}\\)) \\(\\div\\) \\(\\frac{3}{4}\\) <br> 1 - (\\(\\frac{1}{7}\\) x \\(\\frac{7}{2}\\)) x \\(\\frac{4}{3}\\) <br> 1 - \\(\\frac{1}{2}\\) x \\(\\frac{4}{3}\\) <br> 1 - \\(\\frac{2}{3}\\) = \\(\\frac{1}{3}\\)"
+  },
+  {
+    "question": "If a car travels 120km on 45 litres of petrol, how much petrol is needed for a journey of 600km?",
+    "option_a": "720 litres",
+    "option_b": "160 litres",
+    "option_c": "225 litres",
+    "option_d": "960 litres",
+    "answer": "C",
+    "solution": "120km \\(\\to\\) 45litres\n\n1km \\(\\to\\) \\(\\frac{45}{120}\\)litres\n\n600km \\(\\to\\) \\(\\frac{45}{120}\\) x 600 = 225litres"
+  },
+  {
+    "question": "Find \\(\\frac{dy}{dx}\\). If y = 3x<sup>3</sup> + 2x<sup>2</sup> + 3x + 1",
+    "option_a": "A 9x<sup>2</sup>  + 4x + 3",
+    "option_b": "B 9x<sup>2</sup>  -  4x - 3",
+    "option_c": "C 9x<sup>2</sup>  + 4x - 3",
+    "option_d": "D 9x<sup>2</sup>  -  4x + 3",
+    "answer": "A",
+    "solution": "y = 3x<sup>3</sup>  + 2x<sup>2</sup>  + 3x + 1 \n\n\\(\\frac{dy}{dx}\\) = 9x<sup>2</sup>  + 4x + 3"
+  },
+  {
+    "question": "Evaluate \\(\\int\\)(sinx - 5x<sup>2</sup>)dx",
+    "option_a": "-cosx - 10x + k",
+    "option_b": "cosx - \\(\\frac{5x^3}{3}\\) + k",
+    "option_c": "-cosx - \\(\\frac{5x^3}{3}\\) + k",
+    "option_d": "cosx - 10x + k",
+    "answer": "C",
+    "solution": "\\(\\int\\)(sin x - 5x^2) = -cosx - \\(\\frac{5x^3}{3}\\) + k"
+  },
+  {
+    "question": "If N = \\(\\frac{p}{2}\\)(\\(\\frac{T_1 - T_2}{T_1}\\)). Find P when N = 12, T1 = 27 and T2 = 24.",
+    "option_a": "48",
+    "option_b": "108",
+    "option_c": "54",
+    "option_d": "216",
+    "answer": "D",
+    "solution": "N = \\(\\frac{p}{2}\\)(\\(\\frac{T_1 - T_2}{T_1}\\))\n\n12 = \\(\\frac{p}{2}\\)(\\(\\frac{27 - 24}{27}\\))\n\n24 = P(\\(frac{3}{27}\\)\n\nP = 24 x 9 = 216"
+  },
+  {
+    "question": "Solve for x and y respectively \n\n 3x - 5y = 9 \n\n 6x - 4y = 12",
+    "option_a": "\\(\\frac{3}{4}\\), 1",
+    "option_b": "\\(\\frac{4}{3}\\), 1",
+    "option_c": "\\(\\frac{3}{4}\\), -1",
+    "option_d": "\\(\\frac{4}{3}\\), -1",
+    "answer": "D",
+    "solution": "3x - 5y = 9 ------x2 \n\n 6x - 4y = 12 -----x1 \n\n 6x - 10y = 18 \n\n -6x - 4y = 12 \n\n ____________ \n\n      \\(\\frac{6y}{-6}\\) = \\(\\frac{6}{6}\\) <br> y = -1\n\nin eq (1) 3x - 5y = 9\n\n3x - 5(-1) = 9\n\n3x + 5 = 9\n\n3x = 4\n\nx = \\(\\frac{4}{3}\\)"
+  }, 
+  {
+    "question": "If q is a factor of 18 and T is prime numbers between 2 and 18. What is q\\(\\cap\\)T?",
+    "option_a": "(2,3)",
+    "option_b": "(2,3,18)",
+    "option_c": "(2,3,9)",
+    "option_d": "(2,3,6)",
+    "answer": "A",
+    "solution": "q = {1,2,3,6,9,18},  T = {2,3,5,7,11,13,17}\n\nq\\(\\cap\\)T = {2,3}"
+  },
+  {
+    "question": "From the cyclic quadrilateral above, find < TVS",
+    "option_a": "60<sup>o</sup>",
+    "option_b": "80<sup>o</sup>",
+    "option_c": "70<sup>o</sup>",
+    "option_d": "50<sup>o</sup>",
+    "answer": "B",
+    "solution": "< TVS = 180<sup>o</sup> - (80 + 20) \n\n = 180 - 100 = 80<sup>o</sup>"
+  }, 
+  {
+    "question": "Find the mean of 10, 8, 5, 11, 12, 9, 6, 3, 15, and 23.",
+    "option_a": "11.2",
+    "option_b": "10",
+    "option_c": "10.2",
+    "option_d": "11.3",
+    "answer": "C",
+    "solution": "\\(\\frac{10 + 8 + 5 + 11 + 12 + 9 + 6 + 3 + 15 + 23}{10}\\)\n\n= \\(\\frac{102}{10}\\) = 10.2"
+  },
+  {
+    "question": "In the cyclic quadrilateral above . Find < PRO",
+    "option_a": "70<sup>o</sup>",
+    "option_b": "20<sup>o</sup>",
+    "option_c": "50<sup>o</sup>",
+    "option_d": "30<sup>o</sup>",
+    "answer": "D",
+    "solution": "< PRO = 180<sup>o</sup> - (100 + 50) \n\n = 180 - 150 = 30o"
+  },
+  {
+    "question": "OGIVE is constructed using",
+    "option_a": "Third quartile range",
+    "option_b": "Semi-quartile range",
+    "option_c": "Cummulative frequency table",
+    "option_d": "Inter-quartile table",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "Rationalize \\(\\frac{\\sqrt{6} - \\sqrt{4}}{\\sqrt{6} + \\sqrt{4}}\\)",
+    "option_a": "5 + 2 \\(\\sqrt{6}\\)",
+    "option_b": "5 - 4 \\(\\sqrt{6}\\)",
+    "option_c": "5 + 4 \\(\\sqrt{6}\\)",
+    "option_d": "5 - 2 \\(\\sqrt{6}\\)",
+    "answer": "D",
+    "solution": "\\(\\frac{\\sqrt{6} - \\sqrt{4}}{\\sqrt{6} + \\sqrt{4}}\\) = \\(\\frac{6-2\\sqrt{6} - 2\\sqrt{6} + 4}{6 - 4}\\) <br> \\(\\frac{10 - 4\\sqrt{6}}{2}\\) = 5 - 2\\(\\sqrt{6}\\)"
+  },
+  {
+    "question": "The bar chart above shows the marks obtained by students in a mathematics test.\n\nHow many students in all took the test?",
+    "option_a": "40",
+    "option_b": "30",
+    "option_c": "10",
+    "option_d": "20",
+    "answer": "A",
+    "solution": "3 + 2 + 5 + 5 + + 5 + 10 + 4 + 3 + 1 + 2 = 40"
+  },
+  {
+    "question": "Determine the mean score of the student that took the mathematics test?",
+    "option_a": "4.5",
+    "option_b": "4.3",
+    "option_c": "4.2",
+    "option_d": "4.6",
+    "answer": "C",
+    "solution": "(3 x 0) + (1 x 2) + (5 x 2) + (5 x 3) + (5 x 4) +\n\n(10 x 5) + (4 x 6) + (3 x 7) + (1 x 8) + (2 x 9) \\(\\div\\) 40 <br> = \\(\\frac{168}{40}\\) = 4.2"
+  },
+  {
+    "question": "From the diagram above. Find the fraction of the shaded position?",
+    "option_a": "\\(\\frac{1}{3}\\)",
+    "option_b": "\\(\\frac{1}{5}\\)",
+    "option_c": "\\(\\frac{1}{4}\\)",
+    "option_d": "\\(\\frac{1}{6}\\)",
+    "answer": "D",
+    "solution": "\\(\\theta\\) = 180o -(90 + 60)\n\n\\(\\theta\\) = 180o - 150o = 30o <br> Fraction of shaded position = \\(\\frac{30}{360}\\) + \\(\\frac{30}{360}\\) <br> = \\(\\frac{1}{12}\\) + \\(\\frac{1}{12}\\) = \\(\\frac{1}{6}\\)"
+  },
+  {
+    "question": "From the diagram above, find the required roots/region of x.",
+    "option_a": "x\\(\\leq\\)-1, x \\(\\geq\\)4",
+    "option_b": "x\\(\\leq\\)4",
+    "option_c": "-1\\(\\leq\\)x\\(\\leq\\)4",
+    "option_d": "x\\(\\leq\\)-1, o\\(\\leq\\)x\\(\\leq\\)4",
+    "answer": "C",
+    "solution": "The required roots/region of x is -1\\(\\leq\\)x\\(\\leq\\)4"
+  }
+]

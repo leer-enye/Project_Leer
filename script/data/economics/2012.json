@@ -1,0 +1,443 @@
+﻿[
+  {
+    "question": "A major disadvantage of a socialist economy is that",
+    "option_a": "corruption is rampant",
+    "option_b": "consumer's sovereignty is lost",
+    "option_c": "income inequality is entrenched",
+    "option_d": "there is high level of unemployment",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "The privatization of public enterprises will lead to efficient management of resources in the economy. <br><br> This statement can best be described as",
+    "option_a": "normative reasoning",
+    "option_b": "inductive reasoning",
+    "option_c": "deductive reasoning",
+    "option_d": "positive reasoning",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "The sign of the slope of a graph in economic analysis is important because it",
+    "option_a": "shows whether a good is normal or inferior",
+    "option_b": "shows the relationship between variables",
+    "option_c": "reveals the magnitude of the change between variables",
+    "option_d": "helps to determine the unit of measurement of variables",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "If the quantity of rice bought decreases from 250 tonnes to 200 tonnes owing to a 2% rise in price, it shows that there is a change in",
+    "option_a": "consumers' income",
+    "option_b": "demand",
+    "option_c": "consumers' tastes",
+    "option_d": "quantity damanded",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "A rise in income will, ceteris paribus, bring about",
+    "option_a": "a movement along the demand curve",
+    "option_b": "a leftward shift of the demand curve",
+    "option_c": "a rightward shift of the demand curve",
+    "option_d": "no effect on the demand curve",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "If the price of an item increases by 8% while the quantity demanded falls from 1500 units to 1492 units, the demand is said to be",
+    "option_a": "perfectly elastic",
+    "option_b": "inelastic",
+    "option_c": "elastic",
+    "option_d": "perfectly inelastic",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "Comparison of interpersonal utility is impossible because",
+    "option_a": "utility is measured in utils",
+    "option_b": "marginal utility is not observable",
+    "option_c": "utility is subjectively determined",
+    "option_d": "individual income differ",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "When the slope of the total utility curve is declining, the marginal utility of a consumer will be increasing if he",
+    "option_a": "stops consuming more of the commodity",
+    "option_b": "reduces the quantity consumed",
+    "option_c": "increases the quantity consumed",
+    "option_d": "consumes more of another commodity",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "The supply of cocoa is influenced by",
+    "option_a": "seasonal conditions",
+    "option_b": "the efficacy of fertilizer used",
+    "option_c": "the demand for beverages",
+    "option_d": "the availability of close substitutes",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "If quantity supplied is constant irrespective of price changes, the supply elasticity is",
+    "option_a": "unitary",
+    "option_b": "infinity",
+    "option_c": "fairly elastic",
+    "option_d": "perfectly inelastic",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "The cost elasticity of supply is a useful instrument for measuring",
+    "option_a": "profit",
+    "option_b": "productivity",
+    "option_c": "national income",
+    "option_d": "price index",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "The invisible hand promotes the interests of",
+    "option_a": "consumers",
+    "option_b": "society",
+    "option_c": "government",
+    "option_d": "producers",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "Fixing price above equilibrium will cause",
+    "option_a": "demand and supply to remain constant",
+    "option_b": "an increase in quantity supplied",
+    "option_c": "an increase in supply",
+    "option_d": "a decrease in quantity supplied",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "An important function of the price system is to",
+    "option_a": "ensure that producers' profits remain high",
+    "option_b": "guarantee full employment of resources",
+    "option_c": "allocate resources to most productive uses",
+    "option_d": "protect the economic interests of government",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "If all factors are variable in the long run,firms will experience",
+    "option_a": "decreasing returns to scale",
+    "option_b": "increasing returns to scale",
+    "option_c": "diminishing returns",
+    "option_d": "economies of scale",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "The equilibrium point of a firm is attained at the point where the isoquant is",
+    "option_a": "greater than the isocost",
+    "option_b": "less than the isocost",
+    "option_c": "tangent to the isocost",
+    "option_d": "greater than the output",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "The long-run average cost curve touches to the short-run average cost curves at the",
+    "option_a": "minimum points of all short run average cost curves",
+    "option_b": "declining points of all short-run average cost curves",
+    "option_c": "minimum point of only one of the short-run cost curves",
+    "option_d": "rising points of all short-run average cost curves",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "If a firm doubles all inputs in the long run and the total output is less than doubled, this results in",
+    "option_a": "diminishing returns",
+    "option_b": "constant returns to scale",
+    "option_c": "increasing returns to scale",
+    "option_d": "decreasing returns to scale",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "Patents and copyrights enable monopolists to",
+    "option_a": "determine the quality of their products",
+    "option_b": "determine the scale of their products",
+    "option_c": "restrict information flow to new firms",
+    "option_d": "restrict entry of new firms",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "A discriminatory monopoly is characterized by",
+    "option_a": "a common elasticity in different markets",
+    "option_b": "different elasticities in different markets",
+    "option_c": "a finite elasticity in all markets",
+    "option_d": "zero elasticity in all markets",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "Net National Product is derived by deducting",
+    "option_a": "net exports from GNP",
+    "option_b": "subsidies from GDP",
+    "option_c": "taxes from GDP",
+    "option_d": "depreciation from GNP",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "The investment expenditure of an economy changes by N 2 million and MPC is 0.75 <br><br> The multiplier is",
+    "option_a": "8",
+    "option_b": "4",
+    "option_c": "3",
+    "option_d": "2",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "The investment expenditure of an economy changes by N 2 million and MPC is 0.75 <br><br> What is the change in income?",
+    "option_a": "N0.5m",
+    "option_b": "N1.5m",
+    "option_c": "N2.6m",
+    "option_d": "N8.0m",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "If a basket of commodities cost N120 in the base year and N240 in the current year, calculate the price index",
+    "option_a": "100",
+    "option_b": "200",
+    "option_c": "240",
+    "option_d": "300",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "The money that commands a higher market value than its face value is called",
+    "option_a": "paper money",
+    "option_b": "standard money",
+    "option_c": "commodity money",
+    "option_d": "fiat money",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "The minimum amount which banks are required to deposit with the central bank is determined by the",
+    "option_a": "liquidity ratio",
+    "option_b": "cash reserve ratio",
+    "option_c": "minimum lending rate",
+    "option_d": "aggregate credit ceiling",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "The major function of money market is to",
+    "option_a": "provide funds for long-term financing",
+    "option_b": "provide funds short-term financing",
+    "option_c": "stabilize the value of the local currency",
+    "option_d": "stabilize domestic prices",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "An ad valorem tax is imposed on",
+    "option_a": "special commodities",
+    "option_b": "exports",
+    "option_c": "imports",
+    "option_d": "the value of a commodity",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "A huge national debt is an indication that the gold reserves of a nation has",
+    "option_a": "appreciated",
+    "option_b": "decreased",
+    "option_c": "depreciated",
+    "option_d": "stagnated",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "Rapid economic development in Nigeria is realizable by",
+    "option_a": "continuous dependence on oil",
+    "option_b": "concentrating more on agriculture",
+    "option_c": "developing the tourism industry",
+    "option_d": "diversifying the economy",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "The primary reason for desiring economic growth is to",
+    "option_a": "control inflation",
+    "option_b": "reduce poverty",
+    "option_c": "redistribute income",
+    "option_d": "raise standard of living",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "An emerging agricultural export crop in Nigeria is",
+    "option_a": "cassava",
+    "option_b": "cotton",
+    "option_c": "cocoa",
+    "option_d": "soya beans",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "A strategy for improving agriculture in Nigeria will involve",
+    "option_a": "controlling the prices of agricultural products",
+    "option_b": "ensuring self-sufficiency in food production",
+    "option_c": "reducing agricultural exports",
+    "option_d": "establishing commondity boards",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "A sugar industry is best located near the source of",
+    "option_a": "labour",
+    "option_b": "raw materials",
+    "option_c": "power",
+    "option_d": "capital",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "An important contribution of small-scale industries to the Nigerian economy is in the area of",
+    "option_a": "technological development",
+    "option_b": "foregin exchange earnings",
+    "option_c": "raw materials processing",
+    "option_d": "labour employment",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "A change in the pump price of petrol in Nigeria has a direct effect on the",
+    "option_a": "prices of consumer goods",
+    "option_b": "prices of essential goods",
+    "option_c": "cost of raw materials",
+    "option_d": "cost of transportation",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "Long-term funds for investment projects are sourced from the",
+    "option_a": "money market",
+    "option_b": "commodity market",
+    "option_c": "foreign exchange market",
+    "option_d": "capital market",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "A policy aimed at enhancing globalization of the Nigerian economy is",
+    "option_a": "indigenization",
+    "option_b": "dereglation",
+    "option_c": "commercialization",
+    "option_d": "privatization",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "The Malthusian theory was concerned about the relationship between",
+    "option_a": "population growth rates of the rich and the poor nations",
+    "option_b": "population density and national income",
+    "option_c": "population growth rate and natural resources",
+    "option_d": "age distribution of population",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "In a village of 50 persons, 10 immigrated, 25 died and 5 emigrated in year. Determine the total population",
+    "option_a": "10",
+    "option_b": "20",
+    "option_c": "30",
+    "option_d": "50",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "A deficit balance of payments is measured by subtracting the debits from the credits in the",
+    "option_a": "current account",
+    "option_b": "current and capital accounts",
+    "option_c": "current and escrow accounts",
+    "option_d": "capital and escrow accounts",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "One of the functions of ECOWAS is to",
+    "option_a": "provide funds for infrastructural development",
+    "option_b": "determine prices of exports",
+    "option_c": "redistribute income among citizens",
+    "option_d": "provide employment for citizens of member nations",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "The reward on machinery and equipment in the process of production is known as",
+    "option_a": "profit",
+    "option_b": "interest",
+    "option_c": "rent",
+    "option_d": "wages",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "The percentage contribution of manufacturing sector is",
+    "option_a": "67.5",
+    "option_b": "40.0",
+    "option_c": "32.4",
+    "option_d": "25.0",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "If the GDP is N60 billion, what is the difference between the contributions of oil and manufacturing sectors?",
+    "option_a": "N11.7 billion",
+    "option_b": "N13.3 billion",
+    "option_c": "N21.7 billion",
+    "option_d": "N26.6 billion",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "From the above, calculate the price elasticity of demand",
+    "option_a": "5.0",
+    "option_b": "2.0",
+    "option_c": "1.0",
+    "option_d": "0.5",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "The consumer is at equilibrium at point",
+    "option_a": "N",
+    "option_b": "P",
+    "option_c": "M",
+    "option_d": "K",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "To move from point M to K, the consumer has to increase the",
+    "option_a": "consumption of X and reduce the consumption of Y",
+    "option_b": "expenditure on Y",
+    "option_c": "expenditure on X",
+    "option_d": "consumption of Y and reduce the consumption of X",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "From this diagram, the minimum wage OW will lead to",
+    "option_a": "full employment of resources",
+    "option_b": "unemployment",
+    "option_c": "inflation",
+    "option_d": "full employment of factors of production",
+    "answer": "D",
+    "solution": ""
+  }
+]

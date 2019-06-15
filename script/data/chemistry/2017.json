@@ -1,0 +1,443 @@
+﻿[
+  {
+    "question": "The general formula of alkanones is",
+    "option_a": "RCHO",
+    "option_b": "R2CO",
+    "option_c": "RCOOH",
+    "option_d": "RCOOR",
+    "answer": "B",
+    "solution": "Alkanones also known as ketones have the general formula R<sub>2</sub>CO"
+  },
+  {
+    "question": "The constituent common to duralumin and alnico is",
+    "option_a": "Co",
+    "option_b": "Mn",
+    "option_c": "Al",
+    "option_d": "Mg",
+    "answer": "C",
+    "solution": "Constituents of duralumin are: Al, Cu, Mg, Mn. <br><br> Constituents of Alnico are: Al, Ni and Co <br><br> In 1909, the alloy of duralumin was discovered by Alfred Wilon consisting of 94% Al, 4% Cu, 1% Mg and 1% Mn(Manganese) <br><br>Alnico is an acronym referring to a family of iron alloys which in addition to iron are composed primarily of Al, Ni and Co."
+  },
+  {
+    "question": "The shape of the S-orbital is",
+    "option_a": "elliptical",
+    "option_b": "spiral",
+    "option_c": "circular",
+    "option_d": "spherical",
+    "answer": "D",
+    "solution": "The shape of the S-orbital is spherical."
+  },
+  {
+    "question": "Aluminium hydroxide is used in the dyeing industry as a",
+    "option_a": "dye",
+    "option_b": "dispersant",
+    "option_c": "salt",
+    "option_d": "mordant",
+    "answer": "D",
+    "solution": "Aluminium hydroxide is used in the dyeing industry as a mordant. It combines with a dye and thereby fixes it in a material."
+  },
+  {
+    "question": "The tincture of iodine means iodine dissolved in",
+    "option_a": "ethanol",
+    "option_b": "bromine chloride",
+    "option_c": "chlorine water",
+    "option_d": "water",
+    "answer": "A",
+    "solution": "It is also called weak iodine solution. Tincture solutions are characterized by the presence of alcohol."
+  },
+  {
+    "question": "Temporary hard water is formed when rain water containing dissolved carbon(IV) oxide flows over deposits of",
+    "option_a": "CaCO<sub>3</sub>",
+    "option_b": "Na<sub>2</sub>CO<sub>3</sub>",
+    "option_c": "Na<sub>2</sub>SO<sub>4</sub>",
+    "option_d": "CaSO<sub>4</sub>",
+    "answer": "A",
+    "solution": "Permanent hardness in water= Mg & Ca Sulphate. <br><br> Temporary hardness in water= Mg & Ca Carbonate.<br><br> Temporary hardness of water is caused by Magnesium and calcium hydrogencarbonate. It is formed when rainwater containing dissolved CO<sub>2</sub> flows over deposit of CaCO<sub>3</sub> <br><br> i.e CaCO<sub>3</sub> + CO<sub>2</sub> + H<sub>2</sub>O → Ca(HCO<sub>3</sub>)<sub>2</sub>"
+  },
+  {
+    "question": "The acid anhydride that will produce weak acid in water is",
+    "option_a": "SO<sub>3</sub>",
+    "option_b": "NO<sub>2</sub>",
+    "option_c": "SO<sub>2</sub>",
+    "option_d": "CO<sub>2</sub>",
+    "answer": "D",
+    "solution": "H<sub>2</sub>CO<sub>3</sub> is an example of a weak acid while H<sub>2</sub>SO<sub>4</sub> and HNO<sub>3</sub> are examples of a strong acid. <br><br>\nCO<sub>2</sub> combines with water to give a weak trioxocarbonate (IV) acid. <br><br>\nCO<sub>2</sub> + H<sub>2</sub>O → H<sub>2</sub>CO<sub>3</sub>"
+  },
+  {
+    "question": "The process that occurs when two equivalent forms of a compound are in equilibrium is",
+    "option_a": "Isotopy",
+    "option_b": "Resonance",
+    "option_c": "Isomerism",
+    "option_d": "Reforming",
+    "answer": "B",
+    "solution": "Resonance involves two forms of a compound. <br><br>Isomerism involves two or more forms of an element. <br><br>Reforming involves the rearrangement of molecule.<br><br> This deals with a two forms of a molecule where the chemical connectivity is the same but the electrons are distributed differently around the structure."
+  },
+  {
+    "question": "In the laboratory preparation of ethyl ethanoate, the water present in the mixture is removed using a solution of",
+    "option_a": "an hydrous CaCl<sub>4</sub>",
+    "option_b": "concentrated NaCO<sub>4</sub>",
+    "option_c": "dilute NaOH",
+    "option_d": "concentrated H<sub>4</sub>SO<sub>4</sub>",
+    "answer": "D",
+    "solution": "This is used in the preparation of ethyl ethanoate to remove the water present since it serves as a dehydrated agent."
+  },
+  {
+    "question": "The constituent of air necessary in the rusting process are",
+    "option_a": "O<sub>2</sub> and H<sub>2</sub>O",
+    "option_b": "Ar and CO<sub>2</sub>",
+    "option_c": "CO<sub>2</sub> and H<sub>2</sub>O",
+    "option_d": "O<sub>2</sub> and CO<sub>2</sub>",
+    "answer": "D",
+    "solution": "The constituent of air includes O<sub>2</sub>, CO<sub>2</sub>, N<sub>2</sub> and Noble gases. While for a rusting process to take place, the presence of O<sub>2</sub>, H<sub>2</sub>O and CO<sub>2</sub> is important.<br><br>\nThe constituent of air includes O<sub>2</sub>, CO<sub>2</sub>, N<sub>2</sub> and Noble gases and for rusting process to take place. <br><br>\nThe presence of O<sub>2</sub> and CO<sub>2</sub> as a constituent of air is indispensable"
+  },
+  {
+    "question": "For a general equation of the nature xP + yq → mR + nS, the expression for the equilibrium constant is",
+    "option_a": "k [P]x [q]y",
+    "option_b": "\\(\\frac{[P]^x [q]^y}{[R]^m [S]^n}\\)",
+    "option_c": "\\(\\frac{[R]^m [S]^n}{[P]^x [q]^y}\\)",
+    "option_d": "\\(\\frac{m[R] n[S]}{x[P] y[q] }\\)",
+    "answer": "C",
+    "solution": "Expression for equilibrium constant<br><br>\nk = \\(\\frac{\\text{concentration of product}}{\\text{concentration of reactant}}\\)"
+  },
+  {
+    "question": "A given mass of gas occupies 2dm<sup>3</sup> at 300k. At what temperature will its volume be doubled, keeping the pressure constant?",
+    "option_a": "400k",
+    "option_b": "480k",
+    "option_c": "550k",
+    "option_d": "600k",
+    "answer": "D",
+    "solution": "At constant pressure connotes Charle's law <br><br>\n\\(\\frac{V_1}{T_1}\\) = \\(\\frac{V_2}{T_2}\\) <br><br>\n\\(\\frac{2dm^3}{300k}\\)  = 2 x \\(\\frac{2dm^3}{T_2}\\)<br><br>\nT2= 600k"
+  },
+  {
+    "question": "The oxidation number of iodine in KIO<sub>3</sub> is",
+    "option_a": "+7",
+    "option_b": "+3",
+    "option_c": "+5",
+    "option_d": "+6",
+    "answer": "C",
+    "solution": "If the rules are followed, it is non-negotiable that +5 is the suitable answer to the question."
+  },
+  {
+    "question": "An isomer of C<sub>5</sub>H<sub>12</sub> is",
+    "option_a": "2–ethyl butane",
+    "option_b": "butane",
+    "option_c": "2–methyl butane",
+    "option_d": "2–methyl propane",
+    "answer": "C",
+    "solution": "C<sub>5</sub>H<sub>12</sub> has 5 carbons acid 12 hydrogens. <br><br>\n2–methyl butane <br><br>\nNo of carbon=5 <br><br>\nNo of hydrogen=12"
+  },
+  {
+    "question": "When few drops of concentrated trioxonitrate(V) acid is added to an unknown sample and wanned an intense yellow colouration is observed. The likely functional group present in the sample is",
+    "option_a": "NH<sub>3</sub>—C—C=O",
+    "option_b": "CHO",
+    "option_c": "CO",
+    "option_d": "CNH<sub>2</sub>",
+    "answer": "A",
+    "solution": "Xanthopreitic test for the presence of protein, when conc nitric acid is added to the drop, an intense yellow colouration is observed.<br><br>\nIt contains all the functional group of protein which includes the amino, alkanol and the carboxylic group. Adding few drops of conc HNO<sub>3</sub> to a protein, gives an intense yellow colouration. <br><br>\nIt is called Xanthopreitic test."
+  },
+  {
+    "question": "A sample of orange juice is found to have a PH of 3.80. What is the concentration of the hydroxide ion in the juice?",
+    "option_a": "1.6 \\(\\times\\) 10<sup>-4</sup>",
+    "option_b": "6.3 \\(\\times\\) 10<sup>-11</sup>",
+    "option_c": "6.3 \\(\\times\\) 10<sup>-4</sup>",
+    "option_d": "1.6 \\(\\times\\) 10<sup>-11</sup>",
+    "answer": "B",
+    "solution": "PH = - Log[ H+ ]<br><br>\nPH + POH =14<br><br>\nPOH = 14 - 3.8<br><br>\nPOH = 10.2<br><br>\nPOH = - Log[OH-]<br><br>\n 10.2 = - Log[OH-]<br><br>\n10-10.2 = [ OH- ]<br><br>\n[OH-] = 6.3 x 10<sup>-11</sup>"
+  },
+  {
+    "question": "Incomplete oxidation of ethanol yields",
+    "option_a": "CH<sub>3</sub>COOH",
+    "option_b": "CH<sub>3</sub>COCH<sub>3</sub>",
+    "option_c": "CH<sub>3</sub>CH<sub>2</sub>OCH<sub>2</sub>CH<sub>3</sub>",
+    "option_d": "CH<sub>2</sub>CHO",
+    "answer": "D",
+    "solution": "C<sub>2</sub>H<sub>5</sub>OH → CH<sub>3</sub>CHO → CH<sub>3</sub>COOH <br><br>Ethanol.....oxidation Ethanal........Ethanoic Acid<br><br>Primary alcohol oxidises to aldehyde and later to carboxylic acid. <br><br>Secondary alcohol oxidises to ketones. <br><br>Ethanol is an example of primary alcohol and primary alcohol can be oxidised to aldehyde and carboxylic acid. Wherein, incomplete oxidation of primary alcohol yields aldehyde also known as alkaline while complete oxidation of primary alcohol yields carboxylic acid."
+  },
+  {
+    "question": "The salt formed from a weak acid and a strong base hydrolyzes in water to form",
+    "option_a": "A saturated solution",
+    "option_b": "an acidic solution",
+    "option_c": "a buffer solution",
+    "option_d": "an alkaline solution",
+    "answer": "D",
+    "solution": "This is a solution formed from the hydrolyses of an alkali in water."
+  },
+  {
+    "question": "The ideal gas laws and equations are true for all gases at",
+    "option_a": "low pressures and lower temperatures",
+    "option_b": "low temperatures and high pressures",
+    "option_c": "high pressures and high temperatures",
+    "option_d": "low pressure and high temperatures",
+    "answer": "D",
+    "solution": "At high temperature and low pressure, the vanderwaal equation is reduced to ideal gas equation. <br><br>\ni.e, [P + \\(\\frac{a}{v^2}\\)]  [v - b] = RT is reduced to PV = nRT <br><br>\nGenerally, a gas behaves more like an ideal gas at higher temperature and lower pressure as the potential energy due to intermolecular forces, it becomes less significant compared with the particles kinetic energy and the size of the molecules, then it becomes less significant compared to the empty space between them."
+  },
+  {
+    "question": "When ΔH is negative, a reaction is said to be",
+    "option_a": "endothermic",
+    "option_b": "exothermic",
+    "option_c": "reversible",
+    "option_d": "ionic",
+    "answer": "B",
+    "solution": "When ΔH is negative, heat is liberated to the surrounding and it connotes an exothermic reaction. <br><br>ΔH = −ve"
+  },
+  {
+    "question": "\\(^{226}_{88}Ra\\) → \\(^x_{86}Rn\\) + alpha particle",
+    "option_a": "226",
+    "option_b": "220",
+    "option_c": "227",
+    "option_d": "222",
+    "answer": "D",
+    "solution": "\\(^{226}_{88}Ra\\) → \\(^x_{86}Rn\\) + \\(^4_{2}He\\)<br><br>\n\\(^4_{2}He\\) = alpha particle <br><br>\nconsidering the summation of the mass number <br><br>\n226 = x + 4 <br><br>\nx = 226 + 4<br><br>\nx = 222"
+  },
+  {
+    "question": "The shape of ammonia molecules is",
+    "option_a": "trigonal planar",
+    "option_b": "octahedral",
+    "option_c": "square planar",
+    "option_d": "tetrahedral",
+    "answer": "A",
+    "solution": "Ammonia = NH<sub>3</sub>"
+  },
+  {
+    "question": "The mass of silver deposited when a current of 10A is passed through a solution of silver salt for 4830s is – (Ag = 108 F = 96500(mol<sup>-1</sup>)",
+    "option_a": "A 54.0g",
+    "option_b": "B 27.0g",
+    "option_c": "C 13.5g",
+    "option_d": "D 108.0g",
+    "answer": "A",
+    "solution": "Recall that <br><br>\nm = \\(\\frac{MmIt}{96500n}\\)<br><br>\nMm =108, t = 4830s<br><br>\nI = 10A, n = 1<br><br>\nm = 108 × 10 × (\\(\\frac{4830}{96500}\\)) × 1<br><br>\nm = 54.0g<br><br>\nMass deposited = Mm × \\(\\frac{It}{96500n}\\)"
+  },
+  {
+    "question": "Tin is unaffected by air at ordinary temperature due to its",
+    "option_a": "Low melting point",
+    "option_b": "Weak electropositive character",
+    "option_c": "High boiling point",
+    "option_d": "White lustrous appearance",
+    "answer": "A",
+    "solution": "Tin has a melting point of 232° which enables it to be unaffected by air at ordinary temperature coupled with the fact that it also helps in making a good metal for alloying.<br><br>\nTin is relatively unaffected by both water and oxygen at room temperature due to its low melting point. It does not rust, corrode, or react in any other way. This explains one of its major uses: as a coating to protect other metals."
+  },
+  {
+    "question": "Calculate the amount in moles of silver deposited when 9650C of electricty is passed through a solution of silver salt [= 96500 Cmol<sup>-1</sup>]",
+    "option_a": "0.05",
+    "option_b": "10.80",
+    "option_c": "10.00",
+    "option_d": "0.10",
+    "answer": "D",
+    "solution": "m = \\(\\frac{Mm \\times q}{96500n<br><br>}\\)<br><br>\nwhere q = IT <br><br>\nM = Mm × \\(\\frac{q}{96500n}\\)<br><br>\nwhere m = mass<br><br>\nMm = Molar mass<br><br>\nq = quantity of electricity<br><br>\nn = number of change= +1<br><br>\n\\(\\frac{M}{Mm}\\) = mole = \\(\\frac{mass}{Molarmass}\\)<br><br>\n\\(\\frac{M}{Mm}\\) = \\(\\frac{q}{96500n}\\)<br><br>\n= \\(\\frac{9650}{96500n}\\) × 1<br><br>\n= \\(\\frac{1}{10}\\) = 0.1mol"
+  },
+  {
+    "question": "The reaction of halogens in the presence of sunlight is an example of",
+    "option_a": "oxidation reaction",
+    "option_b": "addition reaction",
+    "option_c": "hydrogenation reaction",
+    "option_d": "substitution reaction",
+    "answer": "D",
+    "solution": "Alkanes undergoes substitution reaction and it is an example of halogenation substitution reaction.<br><br>\nReaction of halogen with alkane in the presence of sunlight (ultraviolet) is termed halogenation. Halogenation is an example of substitution reaction. In addition, alkanes only undergo substitution reaction but not addition reaction."
+  },
+  {
+    "question": "The enzyme used in the hydrolysis of starch to dextrin and maltose is",
+    "option_a": "amylase",
+    "option_b": "diastatse",
+    "option_c": "invertase",
+    "option_d": "zymase",
+    "answer": "B",
+    "solution": "This is any amylase or a mixture of amylases that converts starch to dextrin and maltose."
+  },
+  {
+    "question": "The alkyl group is represented by the general formula",
+    "option_a": "C<sub>n</sub>H<sub>2n</sub>",
+    "option_b": "C<sub>n</sub>H<sub>2n−2</sub>",
+    "option_c": "C<sub>n</sub>H<sub>2n + 1</sub>",
+    "option_d": "C<sub>n</sub>H<sub>2n + 2</sub>",
+    "answer": "C",
+    "solution": "Alkyl group has the general formula C<sub>n</sub>H<sub>2n + 1</sub>.<br><br>\nThis formed when one hydrogen is removed from the alkane family. It has the general formula C<sub>n</sub>H<sub>2n + 1</sub>"
+  },
+  {
+    "question": "CH<sub>2</sub>S<sub>(g)</sub> + O<sub>2(g)</sub> → 2Cn + SO<sub>2(g)</sub><br><br>What is the change in the oxidation number of copper in the reaction?",
+    "option_a": "0 to + 2",
+    "option_b": "0 to + 1",
+    "option_c": "+ 1 to 0",
+    "option_d": "+ 2 to + 1",
+    "answer": "C",
+    "solution": "In the reactant;<br><br>\nCu<sub>2</sub>S<br><br>\n 2Cu - 2(1) = 0<br><br>\n 2Cu = 2<br><br>\nCu = \\(\\frac{2}{2}\\)<br><br>\nCu = +1<br><br>\nIn the product, Cu <br><br>\nCu = O <br><br>\nThe oxidation number of Cu in Cu<sub>2</sub>S and Cu respectively is +1 and 0 respectively"
+  },
+  {
+    "question": "In the diagram above. X is",
+    "option_a": "SO<sub>3</sub>",
+    "option_b": "SO<sub>2</sub>",
+    "option_c": "S",
+    "option_d": "H<sub>2</sub>S",
+    "answer": "B",
+    "solution": "The setup represents the production of sulfur dioxide. And the cylinder marked X is SO<sub>2</sub>"
+  },
+  {
+    "question": "The diagram above. Y is",
+    "option_a": "fused CaO",
+    "option_b": "H<sub>2</sub>O",
+    "option_c": "NaOH",
+    "option_d": "Concentrated H<sub>2</sub>SO<sub>4</sub>",
+    "answer": "D",
+    "solution": "In the preparation of sulphur dioxide by the action of dilute acids on sulphates and bisulphites. conc H<sub>2</sub>SO<sub>4</sub> helps to release SO<sub>2</sub> from the mixture. <br><br>The setup represents the production of sulphur dioxide"
+  },
+  {
+    "question": "Calculate the mass of copper deposited when a current of 0.5 ampere was passed through a solution of copper(II) chloride for 45 minutes in an electrolytic cell. [Cu = 64, F = 96500Cmol-1]",
+    "option_a": "0.300g",
+    "option_b": "0.250g",
+    "option_c": "0.2242g",
+    "option_d": "0.448g",
+    "answer": "D",
+    "solution": "M = \\(\\frac{\\text{Molar mass × quantity of Electricity}}{\\text{96500 × no of charge}}\\)<br><br>\n= \\(\\frac{MmIT}{96500n}\\)<br><br>\nCopper II Chloride = CuCl2<br><br>\nCuCl2 → Cu2+ +  2Cl2<br><br>\nMass of compound deposited = \\(\\frac{\\text{Molar mass × quantity of Electricity}}{\\text{96500 × no of charge}}\\)<br><br>\nq = IT<br><br>\nI = 0.5A<br><br>\nT = 45 × 60<br><br>\nT = 2700s<br><br>\nq = 0.5 × 2700<br><br>\n= 1350c<br><br>\nMolarmass = 64gmol-1<br><br>\nno of charge = + 2<br><br>\nMass = \\(\\frac{64 \\times 1350}{96500 \\times 2}\\)<br><br>\nMass = 0.448g"
+  },
+  {
+    "question": "C<sub>3</sub>H<sub>5</sub> - COH<sub>3</sub> =CH<sub>2</sub> <br><br> The IUPAC nomenclature of the structure above is",
+    "option_a": "3-methybut-3-ene",
+    "option_b": "2-methylbut-1-ene",
+    "option_c": "2-ethylprop-1-ene",
+    "option_d": "2-methylbut-2-ene",
+    "answer": "B",
+    "solution": "CH<sub>2</sub>CH<sub>2</sub> - CCH<sub>3</sub>CH<sub>2</sub> <br><br> Start the numbering from the terminal carbon."
+  },
+  {
+    "question": "The reddish–brown rust on ion roofing sheets consists of",
+    "option_a": "Fe<sub>3</sub> + (H<sub>2</sub>O)<sub>6</sub>",
+    "option_b": "FeO.H<sub>2</sub>O",
+    "option_c": "Fe<sub>2</sub>O<sub>3</sub>.3H<sub>2</sub>O",
+    "option_d": "Fe<sub>3</sub>O<sub>4</sub>.2H<sub>2</sub>2O",
+    "answer": "C",
+    "solution": "Iron [Fe] reacts with H<sub>2</sub> in the presence of oxygen to form a rust. <br><br> 4Fe + 3O<sub>2</sub>  →  2Fe<sub>2</sub>O<sub>2</sub> \n Fe<sub>2</sub>O<sub>3</sub> + H<sub>2</sub>O → Fe<sub>2</sub>O<sub>3</sub>.H<sub>2</sub>O"
+  },
+  {
+    "question": "The densities of two gases, X and Y are 0.5gdm<sup>-3</sup> and 2.0gdm<sup>-3</sup> respectively. What is the rate of diffusion of X relative to Y?",
+    "option_a": "0.1",
+    "option_b": "0.5",
+    "option_c": "2.0",
+    "option_d": "4.0",
+    "answer": "C",
+    "solution": "The rate of dimension of a gas inversely proportional to the square root of its molecular mass or its density, which is Graham's Law of diffusion of gas. \n R ∝ \\(\\frac{1}{\\sqrt{Mm}}\\) or R ∝ \\(\\frac{1}{\\sqrt{D}}\\) \n Dx = 0.5gdm<sup>-3</sup>, Dy = 2gdm<sup>-3</sup> \n R= \\(\\frac{K}{\\sqrt{D}}\\) \n R\\(\\sqrt{D}\\) = k \n R1\\(\\sqrt{D_1}\\) =  R1\\(\\sqrt{D_2}\\) \n Rx\\(\\sqrt{D_x}\\) =   Ry\\(\\sqrt{D_y}\\)<br><br>\n\\(\\frac{R_x}{R_y}\\) =  \\(\\frac{\\sqrt{D_y}}{\\sqrt{D_x}}\\) \n = \\(\\frac{\\sqrt{2}}{\\sqrt{0.5}}\\) \n = 2.0"
+  },
+  {
+    "question": "The carbon atoms on ethane are",
+    "option_a": "sp<sup>2</sup> hybridized",
+    "option_b": "sp<sup>3</sup> hybridized",
+    "option_c": "sp<sup>4</sup> hybridized",
+    "option_d": "sp hybridized",
+    "answer": "B",
+    "solution": "Alkane's family are sp<sup>3</sup> hybridized"
+  },
+  {
+    "question": "According to Charle's law, the volume of a gas becomes zero at",
+    "option_a": "−100°c",
+    "option_b": "−273°c",
+    "option_c": "−373°c",
+    "option_d": "0°c",
+    "answer": "B",
+    "solution": "Where −273°c = OK \n i.e −273°c + 273 = OK \n At zero kelvin, the volume of a gas becomes zero."
+  },
+  {
+    "question": "An oxide XO<sub>2</sub> has a vapour density of 32. What is the atomic mass of X?",
+    "option_a": "20",
+    "option_b": "32",
+    "option_c": "14",
+    "option_d": "12",
+    "answer": "B",
+    "solution": "Molecular mass = vapour density X<sub>2</sub> \n Mm of XO<sub>2</sub> = x + 16(2) = x + 32 <br><br> vapour density = 32 <br><br> ∴    x + 32 = 32 × 2 <br><br> x + 32 = 64 <br><br> x = 64 - 32 <br><br> x = 32 <br><br> ∴ the relative molecular mass of X is 32 \n Relative molecular mass = vapour density × 2"
+  },
+  {
+    "question": "The gas that can be collected by downward displacement of air is",
+    "option_a": "chlorine",
+    "option_b": "sulphur (IV) oxide",
+    "option_c": "carbon (IV) oxide",
+    "option_d": "ammonia",
+    "answer": "D",
+    "solution": "Upward delivery works well for hydrogen and ammonia, which are both less densed than air. Sometimes, they are collected over water."
+  },
+  {
+    "question": "In the laboratory preparation of trioxonitrate (V) acid the nitrogen(iv) oxide formed as a by-product is removed by",
+    "option_a": "further heating",
+    "option_b": "adding concentrated H2SO4",
+    "option_c": "cooling the acid solution with cold water",
+    "option_d": "bubbling air through the acid solution",
+    "answer": "D",
+    "solution": "Bubbling of air through the acid solution removes deposited oxides of nitrogen. <br><br> Nitric acid is prepared in the laboratory by heating a nitrate salt with the concentrated acid. <br><br> NaNO<sub>3</sub> + H<sub>2</sub>SO<sub>4</sub> → NaHSO<sub>4</sub> + HNO<sub>3</sub> <br><br> Vapours of nitric acid are condensed to a brown liquid in a receiver cooled under cold water. \"Dissolved oxides of nitrogen\" e.g NO<sub>2</sub> are removed by redistillation or blowing a current of carbondioxide or dry air through the warm acid"
+  },
+  {
+    "question": "A particle that contains a protons, 10 neutrons and 10 electrons is",
+    "option_a": "positive ion",
+    "option_b": "neutral atom of a metal",
+    "option_c": "neutral atom of a non-metal",
+    "option_d": "negative ion",
+    "answer": "D",
+    "solution": "protons = 9 <br><br> neutrons = 10 <br><br> electrons = 10 <br><br> Electronic configuration = 2, 8 <br><br> Ground state Electronic configuration=2, 7 <br><br> It means that the atom has gained an electron thereby making it have a negative ion.<br><br> When an atom donates an electron, it becomes positively charged.<br><br> When an atom accepts an electron, it becomes negatively charged"
+  },
+  {
+    "question": "Ethene is prepared industrially by",
+    "option_a": "Reforming",
+    "option_b": "Polymerization",
+    "option_c": "Distillation",
+    "option_d": "Cracking",
+    "answer": "D",
+    "solution": "Ethene is produced from cracking which involves breaking up large hydrocarbon molecules into smaller and more useful bits. This is achieved by using high temperatures and pressures without a catalyst. <br><br> C<sub>15</sub>H<sub>32</sub>   →  2C<sub>2</sub>H<sub>4</sub> + C<sub>3</sub>H<sub>6</sub>   +  C<sub>8</sub>H<sub>14</sub> \n ......Δheat...ethene........propene.........octane"
+  },
+  {
+    "question": "Calculate the amount in moles of a gas which occupies 10.5 dm3 at 6 atm and 30<sup>o</sup>C [R = 082 atm dm<sup>3</sup> K<sup>-1</sup> mol<sup>-1</sup>]",
+    "option_a": "2.536",
+    "option_b": "1.623",
+    "option_c": "4.736",
+    "option_d": "0.394",
+    "answer": "A",
+    "solution": "For an ideal gas PV = nRT <br><br> Amount in moles = n <br><br> Volume v = 10.5dm<sup>3</sup> <br><br> Pressure P = 6atm <br><br> Temperature T = 30°C + 273 = 303k <br><br> R, Gas constant = 0.082 atmdm<sup>3</sup>k<sup>-1</sup>mol <br><br> Recall from ideal gas equation <br><br> pv = nRT <br><br> n = \\(\\frac{RV}{RT}\\)<br><br>\nn = \\(\\frac{6 \\times 105}{0.082 \\times 303}\\) <br><br> n= 2.536mol"
+  },
+  {
+    "question": "If 100cm<sup>3</sup> of oxygen pass through a porous plug is 50 seconds, the time taken for the same volume of hydrogen to pass through the same porous plug is? [O = 16, H = 1]",
+    "option_a": "10.0s",
+    "option_b": "12.5s",
+    "option_c": "17.7s",
+    "option_d": "32.0s",
+    "answer": "B",
+    "solution": "Rate of diffusion \\(\\frac{\\alpha_1}{Density}\\) or \\(\\frac{1}{\\sqrt{Mm}}\\) <br><br> Rate = \\(\\frac{1}{time}\\) <br><br> \\(\\frac{1}{time}\\) \\(\\frac{\\alpha_1}{Density}\\) or \\(\\frac{1}{\\sqrt{Molarmass}}\\) <br><br> Time \\(\\alpha \\sqrt{Density}\\) or \\(\\sqrt{Molarmass}\\) <br><br> At constant volume of 100cm3 <br><br> \\(\\frac{t_{o2}}{\\sqrt{Mn_{o2}}}\\) = \\(\\frac{t_{n2}}{\\sqrt{1 \\times 2}}\\) <br><br> \\(\\frac{50}{4 \\sqrt{2}}\\) = \\(\\frac{t_{n2}}{\\sqrt{2}}\\) <br><br> tn2= 12.5s"
+  },
+  {
+    "question": "Due to the high reactivity of sodium, it is usually stored under",
+    "option_a": "water",
+    "option_b": "mercury",
+    "option_c": "paraffin",
+    "option_d": "phenol",
+    "answer": "C",
+    "solution": "Na is kept under kerosene (paraffin) to avoid reactivity with air. <br><br> Paraffin is also known as Kerosene.<br><br> Na(sodium) is kept in kerosene to prevent it from coming in contact with oxygen and moisture. If this happens, it will react with the moisture present in air and form sodium hydroxide."
+  },
+  {
+    "question": "The furring of kettles is caused by the presence in water of",
+    "option_a": "calcium hydrogentrioxocarbonate (IV)",
+    "option_b": "calcium trioxocarbonate (IV)",
+    "option_c": "calcium tetraoxosulphate (VI)",
+    "option_d": "calcium hydroxide",
+    "answer": "B",
+    "solution": "Furring of kettles is caused by the temporary hardness in water. Temporary hardness in water is caused by calcium and magnesium trioxocarbonate (IV) <br><br> CaCO<sub>3</sub> causes the furring of kettles"
+  },
+  {
+    "question": "Water for town supply is chlorinate to make it free from",
+    "option_a": "bad colour",
+    "option_b": "bacteria",
+    "option_c": "temporary hardness",
+    "option_d": "permanent hardness",
+    "answer": "B",
+    "solution": "Chlorine helps to keep water from germs and bacteria."
+  },
+  {
+    "question": "Ca(OH)<sub>2(s)</sub>  + 2NH<sub>4</sub>Cl<sub>(g)</sub> → CaCl<sub>2(s)</sub>  + 2H<sub>2</sub>O<sub>2(l)</sub>  + X. In the reaction above X is",
+    "option_a": "NO<sub>2</sub>",
+    "option_b": "NH<sub>3</sub>",
+    "option_c": "N<sub>2</sub>O",
+    "option_d": "NO<sub>2</sub>",
+    "answer": "B",
+    "solution": "Balancing the chemical equation. <br><br> Ca[OH]<sub>2</sub> + 2NH<sub>4</sub>Cl → CaCl<sub>2</sub> + 2H<sub>2</sub>O + 2NH<sub>3</sub> <br><br>\n X = NH<sub>3</sub>"
+  },
+  {
+    "question": "X<sub>(g)</sub> + 3Y<sub>(g)</sub> ---- 2z<sub>(g)</sub> H = +ve. if the reaction above takes place at room temperature, the G will be",
+    "option_a": "negative",
+    "option_b": "zero",
+    "option_c": "positive",
+    "option_d": "indeterminate",
+    "answer": "D",
+    "solution": "\\(\\begin{array}{c|c} <br><br> \\text{Enthalpy Change [ΔH]} & \\text{Entropy Change [ΔS]} & \\text{Gibbs free Energy[ΔG]} \\\\<br><br>\\hline<br><br>\\text{Positive} & \\text{Positive} & \\text{depends on T, may be + or -} \\ \\hline \\text{Negative} & \\text{Positive} & \\text{always negative} \\ \\hline \\text{Negative} & \\text{Negative} & \\text{depends on T, may be + or -} \\ \\hline \\text{Positive} & \\text{Negative} & \\text{always positive} \\end{array}\\)<br><br>\nΔG= ΔH − TΔS. <br><br>To determine whether ΔG will be positive or negative, the value of ΔH(change in enthalpy) and ΔS (change in entropy) must be given. Likewise the temperature."
+  }
+]

@@ -1,0 +1,425 @@
+﻿[
+  {
+    "question": "The presence of an impurity in substance will cause the melting point to",
+    "option_a": "be zero",
+    "option_b": "reduce",
+    "option_c": "increase",
+    "option_d": "be stable",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "What volume of carbon (ll) oxide is produced by reacting excess carbon with 10 dm3 of oxygen?",
+    "option_a": "5 dm<sup>3</sup>",
+    "option_b": "20 dm<sup>3</sup>",
+    "option_c": "15 dm<sup>3</sup>",
+    "option_d": "10 dm<sup>3</sup>",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "The rate of diffusion of a gas Y is twice that of Z If the relative molecular mass of Y is 64 and the two gases diffuse under the same conditions, find the relative molecular mass of Z",
+    "option_a": "32",
+    "option_b": "4",
+    "option_c": "8",
+    "option_d": "16",
+    "answer": "D",
+    "solution": "\\(\\sqrt{y}\\) = 2x\n\n\\(\\sqrt{Z}\\) = x\n\n\\(\\frac{rz}{ry}\\) = \\(\\sqrt{\\frac{my}{mz}}\\) <br> \\(\\frac{2x}{x}\\) = \\(\\sqrt{\\frac{64}{mz}}\\)\n\n\\(\\frac{4}{1}\\) = \\(\\frac{64}{mz}\\) <br> mz = \\(\\frac{64}{4}\\)\n\nmz = 16"
+  },
+  {
+    "question": "The radioisotope used in industrial radiography for the rapid checking of faults in welds and casting is",
+    "option_a": "carbon-14",
+    "option_b": "phosphorus-32",
+    "option_c": "cobalt-60",
+    "option_d": "iodine-131",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "The  shape of the carbon (lV) oxide molecule is",
+    "option_a": "pyramidal",
+    "option_b": "linear",
+    "option_c": "angular",
+    "option_d": "tetrahedral",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "Which of the following molecules is held together by hydrogen bond?",
+    "option_a": "CH<sub>4</sub>",
+    "option_b": "HBr",
+    "option_c": "H<sub>2</sub>SO<sub>4</sub>",
+    "option_d": "HF",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "The bond formed between two elements with electron configurations 1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> and 1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>4</sup> is",
+    "option_a": "metallic",
+    "option_b": "covalent",
+    "option_c": "dative",
+    "option_d": "ionic",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "The constituent of air that acts as a diluent is",
+    "option_a": "nitrogen",
+    "option_b": "carbon (IV) oxide",
+    "option_c": "noble gases",
+    "option_d": "oxygen",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "Steam changes the colour of anhydrous cobalt (ll) chloride from",
+    "option_a": "white  to red",
+    "option_b": "blue to white",
+    "option_c": "blue to pink",
+    "option_d": "white to blue",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "An example of a hygroscopic substance is",
+    "option_a": "CuO<sub>(S)</sub>.",
+    "option_b": "MgCL<sup>2(S)</sup>.",
+    "option_c": "CaCL<sup>2(S)</sup>.",
+    "option_d": "NaOH<sup>(S)</sup>.",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "If 24.4g of lead (ll) trioxonitrate (V) were dissolved in 42g of distilled water at 20<sup>o</sup>C; calculate the solubility of the solute in gdm<sup>-3</sup>.",
+    "option_a": "581.000.",
+    "option_b": "0.581",
+    "option_c": "5.810",
+    "option_d": "58.100",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "The solvent used for removing grease stain is",
+    "option_a": "turpentine",
+    "option_b": "ammonia solution",
+    "option_c": "ethanol",
+    "option_d": "solution of borax in water",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "In a water body, too much sewage leads to",
+    "option_a": "a decrease in the temperature of the water which cause in death of aquatic animals",
+    "option_b": "an increase in the number of aquatic animals in the water",
+    "option_c": "an increase in the bacterial population which reduces the level of oxygen in the water",
+    "option_d": "a decrease in the bacterial population which increases the level of oxygen in the water",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "10.0 dm<sup>3</sup> of water was added to 2.0 mol dm<sup>-3</sup> of 2.5dm<sup>3</sup> solution of HCl. What is the concentration of the final solution in mol dm<sup>-3</sup>?",
+    "option_a": "0.4",
+    "option_b": "8.0",
+    "option_c": "2.0",
+    "option_d": "0.5",
+    "answer": "A",
+    "solution": "C1V1 = C2V2 <br> C2 = \\(\\frac{C_1V_1}{V_2}\\) <br> = \\(\\frac{2.0 \\times 2.5}{12.5}\\) <br> = 0.4mol/dm-3"
+  },
+  {
+    "question": "Three drops of a 1.0 mol dm<sup>-3</sup> solution of HCl was added to 20 cm<sup>3</sup> of a solution of pH6.4. The pH of the resulting solution will be",
+    "option_a": "close to that of pure water",
+    "option_b": "less than 6.4",
+    "option_c": "greater than 6.4",
+    "option_d": "unaltered",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "Which of the following substances is not a salt?",
+    "option_a": "Aluminium oxide",
+    "option_b": "Sodium hydrogentrioxosulphate (V)",
+    "option_c": "Sodium trioxocarbonate (V)",
+    "option_d": "Zinc chloride",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "An insoluble salt can be prepared by",
+    "option_a": "the reaction of trioxocarbonate (V) with an acid",
+    "option_b": "double decomposition",
+    "option_c": "the action of dilute acid on an insoluble base",
+    "option_d": "the reaction of metals with an acid",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "2H<sub>2</sub>O<sub>(l)</sub> + 2F<sub>2(g)</sub> → 4HF<sub>(aq)</sub> + O<sub>2(g)</sub>.\n\nIn the reaction above, the substance that is being reduced is",
+    "option_a": "O<sub>2(g)</sub>",
+    "option_b": "H<sub>2</sub>O<sub>(l)</sub>",
+    "option_c": "F<sub>2(g)</sub>",
+    "option_d": "HF<sub>(aq)</sub>",
+    "answer": "C",
+    "solution": "F(2) + 2e \\(\\rightarrow\\) 2F- x 2 <br> 2F2 + 4e \\(\\rightarrow\\) 4F-"
+  },
+  {
+    "question": "In an electrochemical cell, polarization is caused by",
+    "option_a": "chlorine",
+    "option_b": "oxygen",
+    "option_c": "tetaoxsulphate (Vl) acid",
+    "option_d": "hydrogen",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "Calculate the volume in cm<sup>3</sup> of oxygen evolved as s.t.p. when a current of 5A is passed through acidified water for 193s \n\n{F = 96500 Cmol-1, Molar volume of a gas at s.t.p. = 22.4 dm<sup>3</sup>}",
+    "option_a": "224.000 dm<sup>3</sup>",
+    "option_b": "0.056 dm<sup>3</sup>",
+    "option_c": "0.224 dm<sup>3</sup>",
+    "option_d": "56.000 dm<sup>3</sup>",
+    "answer": "B",
+    "solution": "q = 1 x t \\(\\implies\\) q = (5 x 193)C\n\nq = 965C\n\n40H \\(\\implies\\) 2H2O + O2 + 4e <br> 4 X 96500C evolve 22.4 dm3 x 965\n\n4 x 96500 = 0.056 dm3"
+  },
+  {
+    "question": "In an endothermic reaction, if there is a loss in entropy the reaction will",
+    "option_a": "be indeterminate",
+    "option_b": "be spontaneous",
+    "option_c": "not be spontaneous",
+    "option_d": "be at equilibrium",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "the minimum amount of energy required for a reaction to take place is",
+    "option_a": "lattice energy",
+    "option_b": "ionization energy",
+    "option_c": "activation energy",
+    "option_d": "kinetic energy",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "Which of the following compounds is a neutral oxide?",
+    "option_a": "Carbon (IV) oxide",
+    "option_b": "Sulphur (Vl) oixide",
+    "option_c": "Sulphur (IV) oxide",
+    "option_d": "Carbon (ll) oxide",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "In the laboratory preparation of ammonia, the flask is placed in a slanting position so as to",
+    "option_a": "prevent condensed water from breaking the reaction flask",
+    "option_b": "enable the proper mixing of the reactions in the flask",
+    "option_c": "enhance the speed of the reaction",
+    "option_d": "prevent formation of precipitate",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "Which of the gases is employed as an anaesthesia?",
+    "option_a": "N<sub>2</sub>O",
+    "option_b": "NO<sub>2</sub>",
+    "option_c": "NH<sub>3</sub>",
+    "option_d": "NO",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "Sulphur (IV)oxide is a strong reducing agent in the presence of water due to the formation of",
+    "option_a": "hydroxide ion",
+    "option_b": "sulpgur (Vl)oxide",
+    "option_c": "hydrogen sulhide",
+    "option_d": "trioxosulphate (IV) salt",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "A metal that forms soluble trioxosulphate (IV) ion is",
+    "option_a": "barium",
+    "option_b": "potassium",
+    "option_c": "manganese",
+    "option_d": "aluminium",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "Copper is displaced from the solution of its salts by most metals because it",
+    "option_a": "is a transition element",
+    "option_b": "is at the bottom of the activity series",
+    "option_c": "is very reactive",
+    "option_d": "has completely filled 3d-orbitals",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "The coloured nature of transition metal ions are associated with their partially filled",
+    "option_a": "f- orbital",
+    "option_b": "s- orbital",
+    "option_c": "p-orbital",
+    "option_d": "d-orbital",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "Aluminium containers are frequently used to transport trioxonitrate (V) acid because aluminium",
+    "option_a": "has a silvery-white appearance",
+    "option_b": "has a low density",
+    "option_c": "does not react with the acid",
+    "option_d": "does not corrode",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "2- methylbutan- 2ol is an example of a",
+    "option_a": "dihydric alkanol",
+    "option_b": "tertiary alkanol",
+    "option_c": "secondary alkanol",
+    "option_d": "primary alkanol",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "The reaction between ammonia and ethyl ethanoate produces",
+    "option_a": "propanol and ethanamide",
+    "option_b": "propanol and propanamide",
+    "option_c": "ethanol and propanamide",
+    "option_d": "ethanol and ethanamide",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "The decarboxylation of ethanoic acid will produce carbon (IV)oxide and",
+    "option_a": "methane",
+    "option_b": "ethane",
+    "option_c": "propane",
+    "option_d": "butane",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "A primary amide is generally represented by the formula",
+    "option_a": "RCOOR",
+    "option_b": "RCONH<sub>2</sub>",
+    "option_c": "RCONHR",
+    "option_d": "RCONR<sub>2</sub>",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "Which of the following fraction is used as raw material for the cracking process?",
+    "option_a": "kerosine",
+    "option_b": "lubricating oil",
+    "option_c": "bitumen",
+    "option_d": "diesel oils",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "An organic compound contains 60% carbon, 13.3% hydrogen and 26.7% oxygen. Calculate the empirical formularn(C=12,H =1, O=16)",
+    "option_a": "C<sub>5</sub>H<sub>12</sub>O",
+    "option_b": "C<sub>3</sub>H<sub>8</sub>O",
+    "option_c": "C<sub>6</sub>H<sub>13</sub>O<sub>2</sub>",
+    "option_d": "C<sub>4</sub>H<sub>9</sub>O",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "From the diagram above, an ideal gas is represented by",
+    "option_a": "Z",
+    "option_b": "W",
+    "option_c": "X",
+    "option_d": "Y",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "In the graph above, the activation energy of the catalyzed reaction is",
+    "option_a": "100KJ",
+    "option_b": "300KJ",
+    "option_c": "250KJ",
+    "option_d": "200KJ",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "Choose the correct option from the graph above . 3Fe<sub>(S)</sub> + 4H<sub>2</sub>O<sub>(g)</sub> ⇌ Fe<sub>3</sub>O<sub>4(s)</sub>  + 4H<sub>2(g)</sub>. The equilibrium constant, K, of the reaction above is represented as",
+    "option_a": "A",
+    "option_b": "B",
+    "option_c": "C",
+    "option_d": "D",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "The IUPAC nomenclature for the compound above is",
+    "option_a": "4-methylpent-1-ene",
+    "option_b": "3-methylpent-2-ene",
+    "option_c": "2-methylpent-1ene",
+    "option_d": "2-methylpent-4-ene",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "Use the above option to answer this question. The dehydration of ammonium salt of alkanoic acids produces a compound with the general formula",
+    "option_a": "A",
+    "option_b": "B",
+    "option_c": "C",
+    "option_d": "D",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "Use the following option above to answer  this question. Which of the following compounds in solution will turn red litmus paper blue?",
+    "option_a": "A",
+    "option_b": "B",
+    "option_c": "C",
+    "option_d": "D",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "The compound above is an",
+    "option_a": "alkanone",
+    "option_b": "alkanoate",
+    "option_c": "alkanal",
+    "option_d": "akanol",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "How many unpaired electron are in the p-orbitals of a fluorine atom?",
+    "option_a": "3",
+    "option_b": "\\( 0 \\)",
+    "option_c": "1",
+    "option_d": "2",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "The radioactive emission with the least ionization power is",
+    "option_a": "\\( \\alpha - particles \\)",
+    "option_b": "X-rays",
+    "option_c": "\\( \\gamma -rays \\)",
+    "option_d": "\\( \\beta - rays \\)",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "Zn<sub>(s)</sub> + CuSO<sub>4(aq)</sub> \\( \\to \\) ZnSO<sub>4(aq)</sub> + Cu<sub>(s)</sub> <br> In the reaction above, the oxidizing agent is",
+    "option_a": "CuSO<sub>4(aq)</sub>",
+    "option_b": "ZnSO<sub>4(aq)</sub>",
+    "option_c": "Cu<sub>(s)</sub>",
+    "option_d": "Zn<sub>(s)</sub>",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "2SO<sub>2(g)</sub> + O<sub>2(g)</sub> \\( \\iff \\)2SO<sub>3(g)</sub> <br> \\( \\bigtriangleup H = -395.7kJmol^{-1} \\) <br> In the reaction above, the concentration of 2SO<sub>3(g)</sub> can be in creased by",
+    "option_a": "decreasing the pressure",
+    "option_b": "decreasing the temperature",
+    "option_c": "the addition of catalyst",
+    "option_d": "increasing the temperature",
+    "answer": "B",
+    "solution": ""
+  }
+]

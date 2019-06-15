@@ -1,0 +1,902 @@
+﻿[
+  {
+    "question": "Choose the option nearest in meaning to the underlined word(s). <br><br> Since its <u>inception</u>  1983, the newspaper has attracted thousands of readers?",
+    "option_a": "renaissance",
+    "option_b": "coming",
+    "option_c": "commencement",
+    "option_d": "publication",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option nearest in meaning to the underlined word(s). <br><br> Mrs. Asio wanted her sister to stop being so <u>detached</u>?",
+    "option_a": "friendly",
+    "option_b": "careless",
+    "option_c": "indifferent",
+    "option_d": "passionate",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option nearest in meaning to the underlined word(s).Lantana <u>dwelt</u> in a ruined cottage on the hillside?",
+    "option_a": "sat",
+    "option_b": "worked",
+    "option_c": "slept",
+    "option_d": "lived",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option nearest in meaning to the underlined word(s). <br><br> The mistake brought the show to an <u>ignominious</u> end?",
+    "option_a": "a good",
+    "option_b": "a palatable",
+    "option_c": "a disgraceful",
+    "option_d": "a satisfactory",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option nearest in meaning to the underlined word(s). <br><br> He <u>compliments</u> me on my way of doing things?",
+    "option_a": "complements",
+    "option_b": "imitates",
+    "option_c": "disgusts",
+    "option_d": "praises",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option nearest in meaning to the underlined word(s). <br><br> The girl is angry with her friend who had <u>ensnared</u> her into this relationship?",
+    "option_a": "tricked",
+    "option_b": "encourage",
+    "option_c": "forced",
+    "option_d": "enslaved",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option nearest in meaning to the underlined word(s). <br><br> Their new house was roofed with <u>corrugated</u> sheets?",
+    "option_a": "folded",
+    "option_b": "iron",
+    "option_c": "aluminium",
+    "option_d": "corrupted",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option nearest in meaning to the underlined word(s). <br><br> The stockbroker said it was <u>an astute</u> move to sell the shares then?",
+    "option_a": "a bad",
+    "option_b": "a shrewd",
+    "option_c": "an unprofitable",
+    "option_d": "an insincere",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option nearest in meaning to the underlined word(s). <br><br> The principal described Oche as the most <u>tactful</u> person he had ever worked with?",
+    "option_a": "passionate",
+    "option_b": "discreet",
+    "option_c": "hard-working",
+    "option_d": "innovative",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option nearest in meaning to the underlined word(s). <br><br> The old woman is suffering from <u>dementia</u>?",
+    "option_a": "lucidity",
+    "option_b": "senility",
+    "option_c": "insanity",
+    "option_d": "sagaccity",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option nearest in meaning to the underlined word(s). <br><br> Some drugs have a <u>deleterious</u> effect on a child's development?",
+    "option_a": "debilitating",
+    "option_b": "helpful",
+    "option_c": "harmful",
+    "option_d": "healing",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option nearest in meaning to the underlined word(s). <br><br> Fila has always been described as <u>belligerent</u>?",
+    "option_a": "beautiful",
+    "option_b": "attractive",
+    "option_c": "combative",
+    "option_d": "innocent",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option nearest in meaning to the underlined word(s). <br><br> Laraba saw a <u>forlorn</u> little figure sitting outside the class?",
+    "option_a": "wise and intelligent",
+    "option_b": "lonely and unhappy",
+    "option_c": "smart and healthy",
+    "option_d": "short and ugly",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option nearest in meaning to the underlined word(s). <br><br> The circular <u>supersedes</u> all previous correspondence on the matter?",
+    "option_a": "supports",
+    "option_b": "displaces",
+    "option_c": "eliminates",
+    "option_d": "circumvents",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option nearest in meaning to the underlined word(s). <br><br> Her problem was <u>exacerbated</u> by the loss of her father?",
+    "option_a": "exaggerated",
+    "option_b": "solved",
+    "option_c": "aggravated",
+    "option_d": "infuriated",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "Select the option that best explains the information conveyed in the sentence.  <br><br> If he were here, could be more fun?",
+    "option_a": "He was expected but did not show up to make the occasion lively",
+    "option_b": "There was no fun because he was not present",
+    "option_c": "He did not show up so the occasion lacked much fun",
+    "option_d": "He was being expected to supply more fun",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "Select the option that best explains the information conveyed in the sentence.  <br><br> The secretary said that the postponement of the meeting was due to unforeseen circumstances?",
+    "option_a": "The date of the meeting was shifted as a result of unexpected reasons",
+    "option_b": "The meeting's date was off for strange reasons",
+    "option_c": "The meeting was called as a result of obstacles hitherto unknown",
+    "option_d": "The meeting broke off as a bird's eye closely",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "Select the option that best explains the information conveyed in the sentence.  <br><br> The hunter has a bird's eye view of the animals.",
+    "option_a": "He views animals from a high position",
+    "option_b": "He views the bird's eye",
+    "option_c": "He views the bird on the tree with one eye",
+    "option_d": "He watches animals and bird's closely",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "Select the option that best explains the information conveyed in the sentence.  <br><br> Even though Susan was the last in the examination, her result wasn't too different from what had been expected.",
+    "option_a": "Her result was poor",
+    "option_b": "Her result was a dissapointment",
+    "option_c": "Her result was as expected",
+    "option_d": "She had not been serious with her studies",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "Select the option that best explains the information conveyed in the sentence.  <br><br> Mrs. Adamu does all her work with more haste, less speed.",
+    "option_a": "She accept whatever she does with more haste and speed",
+    "option_b": "She approaches whatever she does hurriedly",
+    "option_c": "She addresses everything she does very quickly to avoid mistakes",
+    "option_d": "She does everything carefully to avoid mistakes",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "Select the option that best explains the information conveyed in the sentence.  <br><br> She stopped her education as her uncle left her in the lurch?",
+    "option_a": "Her uncle deceived her",
+    "option_b": "Her uncle disinherited her",
+    "option_c": "Her uncle refused to help her",
+    "option_d": "Her uncle disrespected her",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "Select the option that best explains the information conveyed in the sentence.  <br><br> The plan to upgrade the dispensary to a general hospital did not materialized?",
+    "option_a": "The plan did not meet the required specifications",
+    "option_b": "The arrangement did not work out as wished",
+    "option_c": "It was difficult to obtain the materials",
+    "option_d": "The materials purchased were not the right ones",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "Select the option that best explains the information conveyed in the sentence.  <br><br> Okon's company took a hit last year?",
+    "option_a": "His company improved last year",
+    "option_b": "His company made a huge success last year",
+    "option_c": "His company was badly damaged last year",
+    "option_d": "His company was established last year",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "Choose the word that is opposite in meaning to the underlined word. <br><br> The warring communities were <u>coerced</u> into negotiating a settlement?",
+    "option_a": "driven",
+    "option_b": "compelled",
+    "option_c": "persuaded",
+    "option_d": "pressured",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "Choose the word that is opposite in meaning to the underlined word. <br><br> His father served as a <u>mercenary</u> in the army?",
+    "option_a": "preacher",
+    "option_b": "regular",
+    "option_c": "recruit",
+    "option_d": "officer",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "Choose the word that is opposite in meaning to the underlined word. <br><br> Jummai is <u>cruel</u> to her husband?",
+    "option_a": "harsh",
+    "option_b": "brutal",
+    "option_c": "passionate",
+    "option_d": "ferocious",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "Choose the word that is opposite in meaning to the underlined word. <br><br> The teacher who beat the student was treated with <u>mercy</u>?",
+    "option_a": "disrespect",
+    "option_b": "contempt",
+    "option_c": "vengeance",
+    "option_d": "kindness",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "Choose the word that is opposite in meaning to the underlined word. <br><br> His wife hates his <u>garrulous</u> attitude?",
+    "option_a": "outspoken",
+    "option_b": "unfriendly",
+    "option_c": "reticent",
+    "option_d": "thoughtful",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "Choose the word that is opposite in meaning to the underlined word. <br><br> 'Agoshito is a <u>callow</u> youth', said the teacher?",
+    "option_a": "an ignorant",
+    "option_b": "an experienced",
+    "option_c": "an idel",
+    "option_d": "an organized",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "Choose the word that is opposite in meaning to the underlined word. <br><br> What you are asking me to do is <u>herculean</u> task?",
+    "option_a": "a strenuous",
+    "option_b": "a demanding",
+    "option_c": "a lovely",
+    "option_d": "an easy",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "Choose the word that is opposite in meaning to the underlined word. <br><br> Nkechi was a <u>novice</u> when she was first employed?",
+    "option_a": "manager",
+    "option_b": "clerk",
+    "option_c": "supervisor",
+    "option_d": "professional",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "Choose the word that is opposite in meaning to the underlined word. <br><br> 'I do not trust him', he said, in a rare moment of <u>candour</u>?",
+    "option_a": "reproach",
+    "option_b": "dishonesty",
+    "option_c": "frankness",
+    "option_d": "fairness",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "Choose the word that is opposite in meaning to the underlined word. <br><br> Mrs. Akunilo looks <u>anaemic</u> today?",
+    "option_a": "strange",
+    "option_b": "sick",
+    "option_c": "weak",
+    "option_d": "strong",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "Choose the word that is opposite in meaning to the underlined word. <br><br> It is <u>inconceivable</u> that the son shone in the night?",
+    "option_a": "credible",
+    "option_b": "unthinkable",
+    "option_c": "impossible",
+    "option_d": "contestable",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "Choose the word that is opposite in meaning to the underlined word. <br><br> She only gives a <u>superficial</u> impression of warmth and friendliness?",
+    "option_a": "a strong",
+    "option_b": "a fake",
+    "option_c": "deep",
+    "option_d": "an unrealistic",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "36Choose the word that is opposite in meaning to the underlined word. <br><br> As a <u>prudent</u> businessman, Adeyi does not leave anything to chance.",
+    "option_a": "A frugal",
+    "option_b": "B shrewd",
+    "option_c": "C careless",
+    "option_d": "D unsuccessful",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "Choose the word that is opposite in meaning to the underlined word. <br><br> His <u>antipathy</u> affected the growth of is business?",
+    "option_a": "hatred",
+    "option_b": "receptiveness",
+    "option_c": "loyalty",
+    "option_d": "hostility",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "Choose the word that is opposite in meaning to the underlined word. <br><br> Okonkwo's <u>lethal</u> right foot the magic in the football match?",
+    "option_a": "weak",
+    "option_b": "wicked",
+    "option_c": "fat",
+    "option_d": "harmless",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option that best completes the gap(s). <br><br> When his car tyre ......... on the way, he did not know what to do.",
+    "option_a": "has burst",
+    "option_b": "had burst",
+    "option_c": "bursted",
+    "option_d": "burst",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option that best completes the gap(s). <br><br> Lami's father ........ as a gardener when he was young, but now he is a driver.",
+    "option_a": "had been working",
+    "option_b": "use to work",
+    "option_c": "has worked",
+    "option_d": "used to work",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option that best completes the gap(s). <br><br> ........ he switches on the light, the shadow disappears?",
+    "option_a": "Whenever",
+    "option_b": "Expect",
+    "option_c": "Since",
+    "option_d": "Until",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option that best completes the gap(s).The policemen became suspicious as the hoodlums ......in their office?",
+    "option_a": "ferreted",
+    "option_b": "ferretted",
+    "option_c": "ferreted about",
+    "option_d": "ferretted about",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option that best completes the gap(s). <br><br> It is important that you clear the refuse in front of your house every ........?",
+    "option_a": "fourtnight",
+    "option_b": "firtnight",
+    "option_c": "fourthninght",
+    "option_d": "fortnight",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option that best completes the gap(s). <br><br> Suara needn't come with us, .......?",
+    "option_a": "does she",
+    "option_b": "will she",
+    "option_c": "can she",
+    "option_d": "need she",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option that best completes the gap(s). <br><br> Unoka .... the whole house to finds his missing wristwatch?",
+    "option_a": "scourged",
+    "option_b": "scoured",
+    "option_c": "scored",
+    "option_d": "scouted",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option that best completes the gap(s). <br><br> Ife asked me ....... ?",
+    "option_a": "what time it was",
+    "option_b": "what is it by my time",
+    "option_c": "what  time is it",
+    "option_d": "what time it is",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option that best completes the gap(s). <br><br> There are many ways to kill a rat, so we should be..... in our approach to the task ahead of us?",
+    "option_a": "ecletic",
+    "option_b": "eclectic",
+    "option_c": "eclektic",
+    "option_d": "eclectik",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option that best completes the gap(s). <br><br> Audu took these actions purely ...... his own career?",
+    "option_a": "on furtherance of",
+    "option_b": "in furtherance of",
+    "option_c": "to furtherance in",
+    "option_d": "in furtherance with",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option that best completes the gap(s). <br><br> Here is Mr. Odumusu who teaches English ....... in our school?",
+    "option_a": "pronuntiation",
+    "option_b": "pronounciation",
+    "option_c": "pronunciation",
+    "option_d": "pronountiation",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option that best completes the gap(s). <br><br> Instead of ......., she lied?",
+    "option_a": "pleading",
+    "option_b": "her to plead",
+    "option_c": "her pleading",
+    "option_d": "plead",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option that best completes the gap(s). <br><br> Of the three girls, Uka is the ........?",
+    "option_a": "so much notorious",
+    "option_b": "notorious",
+    "option_c": "naughty",
+    "option_d": "naughtiest",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option that best completes the gap(s). <br><br> I wonder how he will ......being absent from school for a long time.",
+    "option_a": "make in",
+    "option_b": "make up",
+    "option_c": "make off",
+    "option_d": "make out",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option that best completes the gap(s). <br><br> Please sit on the ....... ?",
+    "option_a": "carier",
+    "option_b": "career",
+    "option_c": "carrier",
+    "option_d": "carrear",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option that best completes the gap(s). <br><br> I want to .......this chance to acquaint you the latest development?",
+    "option_a": "size",
+    "option_b": "seize",
+    "option_c": "sieze",
+    "option_d": "cease",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option that best completes the gap(s). <br><br> Getting a well paid job nowadays is an ...... task?",
+    "option_a": "utmost",
+    "option_b": "upbeat",
+    "option_c": "uphill",
+    "option_d": "upfield",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option that best completes the gap(s). <br><br> The secretary has no right to ....... my affairs?",
+    "option_a": "spy from",
+    "option_b": "meddle in",
+    "option_c": "toy at",
+    "option_d": "complain into",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option that best completes the gap(s). <br><br> Bola studiously avoided ....... the questions?",
+    "option_a": "parrying",
+    "option_b": "answering",
+    "option_c": "projecting",
+    "option_d": "destroying",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option that best completes the gap(s). <br><br> The school authority dismissed him for ...... but I won't tell you about it yet?",
+    "option_a": "certain reason",
+    "option_b": "a reason",
+    "option_c": "more reason",
+    "option_d": "a certain reason",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option that rhymes with the given word. <br><br> Fuel?",
+    "option_a": "cruel",
+    "option_b": "fool",
+    "option_c": "rule",
+    "option_d": "field",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option that rhymes with the given word. <br><br> Match?",
+    "option_a": "harsh",
+    "option_b": "batch",
+    "option_c": "such",
+    "option_d": "watch",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option that rhymes with the given word. <br><br> Sheer?",
+    "option_a": "sheila",
+    "option_b": "care",
+    "option_c": "ear",
+    "option_d": "sherry",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "Choose the appropriate stress pattern from the options. The syllables are written in capital letters. <br><br> termination?",
+    "option_a": "terminaTION",
+    "option_b": "TERmination",
+    "option_c": "termiNAtion",
+    "option_d": "terMInation",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "Choose the appropriate stress pattern from the options. The syllables are written in capital letters. <br><br> meditative?",
+    "option_a": "meDItative",
+    "option_b": "mediTAtive",
+    "option_c": "MEditative",
+    "option_d": "meditaTIVE",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "Choose the appropriate stress pattern from the options. The syllables are written in capital letters. <br><br> suggestible?",
+    "option_a": "suggeSTIble",
+    "option_b": "SUggestible",
+    "option_c": "suGGEstible",
+    "option_d": "suggestiBLE",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option that has the same vowel sound as the one represented by the underlined letter(s). <br><br> Bubble?",
+    "option_a": "guy",
+    "option_b": "bull",
+    "option_c": "bumper",
+    "option_d": "gurgle",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option that has the same vowel sound as the one represented by the underlined letter(s). <br><br> W<u>e</u>ight?",
+    "option_a": "whale",
+    "option_b": "white",
+    "option_c": "whet",
+    "option_d": "writhe",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option that has the same vowel sound as the one represented by the underlined letter(s). <br><br> l<u>ea</u>ch?",
+    "option_a": "gear",
+    "option_b": "cedar",
+    "option_c": "cheer",
+    "option_d": "death",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option that has the same consonant sound as the one represented by the underlined letter(s). <br><br> Men<u>t</u>ion?",
+    "option_a": "that",
+    "option_b": "machine",
+    "option_c": "church",
+    "option_d": "test",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option that has the same consonant sound as the one represented by the underlined letter(s). <br><br> Pres<u>ti</u>ge?",
+    "option_a": "bag",
+    "option_b": "badge",
+    "option_c": "reggae",
+    "option_d": "leisure",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option that has the consonant sound as the one represented by the underlined letter(s). <br><br> <u>Kn</u>ot?",
+    "option_a": "cot",
+    "option_b": "keep",
+    "option_c": "nom",
+    "option_d": "king",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "The word in capital letters has the emphatic stress. Choose the option to which the given sentence relates. <br><br> Uche LOVES Toyota cars?",
+    "option_a": "Who loves Toyota cars?",
+    "option_b": "What brand of car  Uche love?",
+    "option_c": "Does Uche hate Toyota cars?",
+    "option_d": "Does Uche love bicycle?",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "The word in capital letters has the emphatic stress. Choose the option to which the given sentence relates. <br><br> The POLICE arrested the suspect.",
+    "option_a": "Did the police placate the suspect?",
+    "option_b": "Who arrested the suspect?",
+    "option_c": "Who did the police arrest?",
+    "option_d": "Did the police arrest the suspect?",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "The word in capital letters has the emphatic stress. Choose the option to which the given sentence relates. <br><br> Maiduguri is the CAPITAL of Borno State.",
+    "option_a": "Is Maiduguri the capital of Plateau State?",
+    "option_b": "Which State is Maiduguri the capital of?",
+    "option_c": "Is Maiduguri a town in Borno State?",
+    "option_d": "What is the capital Borno State?",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "<br><br>    though assumption is the lowest level of knowledge; It is still a form of knowledge, and knowledge is key. Assumptions are the foundation upon which interpretations and conclusion are built. Everything I life operates under certain assumptions. \n   We make management decisions based on the assumptions we hold about how management ought to function and how people ought to be governed. For others, it is unconsciously but potent all the same. Our assumptions will either drown us or help us soar through life. \n   We have always seen life as an immense mansion with many rooms. Some roots lead to wealth others to the opposite. Ultimately, we decide where was end up; and life, thus far, has proved that every one of us decides well. We all behave differently where we have different levels of understanding, and behave the same way where our understanding is the same. We eat because we all understand the consequences of not eating. We all wear clothes because each of us comprehends lunacy. The list goes on and on. It is inevitable that some of us will make choices that get and keep us on the lover rung of the ladder by reason of exposure, training or some other variables. Life is about roleplaying. We choose our roles wisely or foolishly, consciously or unconsciously. Some of us get wiser to new levels of self-awareness enough to redefine our roles. Others make no effort to build further capacity and therefore remain where they are. \n   It is based on these realities that we draw the conclusion that not everyone will be wealthy in life. We lead, inspire and motivate people to strive and succeed. It is also important that we paint the full and true picture of life so that we an discourage vain pursuits. Balance must be enthroned as a critical component of truth, and people know, for instance that ‘top ‘is not a place that all must ascent. \n   Our greatest consolation lies in our deep conviction that true prosperity is in fulfilment through hard work that in intangible acquisitions. There are set roles that some of us have been wired up to paying life but which we are not content enough to pay because society esteems such roles to be inferior. Take the almost sacred office of a teacher for instance, there are people who have the natural gifts and inclinations to be school teachers. but the teaching profession, as it is, does not appear to be lucrative. So we have people who would have been fulfilled and effective working as school teachers serving in banks.  <br><br> \n     <br><br>      <br><br>     According to the passage, balance must be enthroned because it is\n                        \n                        \n                        \n                            A a critical interdependent function\n                            \n                        \n                        \n                            B an amazing help for conscience\n                            \n                        \n                        \n                            C a critical part of fidelity\n                            \n                        \n                        \n                            D a serious way of ensuring success\n                            \n                        \n                        \n                        \n                            \n                                \n                                    Answer & Comment\n                                    \n                                    B\n                                \n                                \n                                \n                                     \n                                    \n                                    \n                                \n                                \n                                \n                                    \n                                                                                \n                                            Comment",
+    "option_a": "a critical interdependent function",
+    "option_b": "an amazing help for conscience",
+    "option_c": "a critical part of fidelity",
+    "option_d": "a serious way of ensuring success",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "<br><br>    though assumption is the lowest level of knowledge; It is still a form of knowledge, and knowledge is key. Assumptions are the foundation upon which interpretations and conclusion are built. Everything I life operates under certain assumptions. \n   We make management decisions based on the assumptions we hold about how management ought to function and how people ought to be governed. For others, it is unconsciously but potent all the same. Our assumptions will either drown us or help us soar through life. \n   We have always seen life as an immense mansion with many rooms. Some roots lead to wealth others to the opposite. Ultimately, we decide where was end up; and life, thus far, has proved that every one of us decides well. We all behave differently where we have different levels of understanding, and behave the same way where our understanding is the same. We eat because we all understand the consequences of not eating. We all wear clothes because each of us comprehends lunacy. The list goes on and on. It is inevitable that some of us will make choices that get and keep us on the lover rung of the ladder by reason of exposure, training or some other variables. Life is about roleplaying. We choose our roles wisely or foolishly, consciously or unconsciously. Some of us get wiser to new levels of self-awareness enough to redefine our roles. Others make no effort to build further capacity and therefore remain where they are. \n   It is based on these realities that we draw the conclusion that not everyone will be wealthy in life. We lead, inspire and motivate people to strive and succeed. It is also important that we paint the full and true picture of life so that we an discourage vain pursuits. Balance must be enthroned as a critical component of truth, and people know, for instance that ‘top ‘is not a place that all must ascent. \n   Our greatest consolation lies in our deep conviction that true prosperity is in fulfilment through hard work that in intangible acquisitions. There are set roles that some of us have been wired up to paying life but which we are not content enough to pay because society esteems such roles to be inferior. Take the almost sacred office of a teacher for instance, there are people who have the natural gifts and inclinations to be school teachers. but the teaching profession, as it is, does not appear to be lucrative. So we have people who would have been fulfilled and effective working as school teachers serving in banks.  <br><br> \n     <br><br>      <br><br>     The word inclinations, as used in the passage, means\n                        \n                        \n                        \n                            A creeds\n                            \n                        \n                        \n                            B tendencies\n                            \n                        \n                        \n                            C inhibitions\n                            \n                        \n                        \n                            D power\n                            \n                        \n                        \n                        \n                            \n                                \n                                    Answer & Comment\n                                    \n                                    B\n                                \n                                \n                                \n                                     \n                                    \n                                    \n                                \n                                \n                                \n                                    \n                                                                                \n                                            Comment",
+    "option_a": "creeds",
+    "option_b": "tendencies",
+    "option_c": "inhibitions",
+    "option_d": "power",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "<br><br>    though assumption is the lowest level of knowledge; It is still a form of knowledge, and knowledge is key. Assumptions are the foundation upon which interpretations and conclusion are built. Everything I life operates under certain assumptions. \n   We make management decisions based on the assumptions we hold about how management ought to function and how people ought to be governed. For others, it is unconsciously but potent all the same. Our assumptions will either drown us or help us soar through life. \n   We have always seen life as an immense mansion with many rooms. Some roots lead to wealth others to the opposite. Ultimately, we decide where was end up; and life, thus far, has proved that every one of us decides well. We all behave differently where we have different levels of understanding, and behave the same way where our understanding is the same. We eat because we all understand the consequences of not eating. We all wear clothes because each of us comprehends lunacy. The list goes on and on. It is inevitable that some of us will make choices that get and keep us on the lover rung of the ladder by reason of exposure, training or some other variables. Life is about roleplaying. We choose our roles wisely or foolishly, consciously or unconsciously. Some of us get wiser to new levels of self-awareness enough to redefine our roles. Others make no effort to build further capacity and therefore remain where they are. \n   It is based on these realities that we draw the conclusion that not everyone will be wealthy in life. We lead, inspire and motivate people to strive and succeed. It is also important that we paint the full and true picture of life so that we an discourage vain pursuits. Balance must be enthroned as a critical component of truth, and people know, for instance that ‘top ‘is not a place that all must ascent. \n   Our greatest consolation lies in our deep conviction that true prosperity is in fulfilment through hard work that in intangible acquisitions. There are set roles that some of us have been wired up to paying life but which we are not content enough to pay because society esteems such roles to be inferior. Take the almost sacred office of a teacher for instance, there are people who have the natural gifts and inclinations to be school teachers. but the teaching profession, as it is, does not appear to be lucrative. So we have people who would have been fulfilled and effective working as school teachers serving in banks.  <br><br> \n     <br><br>      <br><br>     Which of the following statements is true according to the passage?\n                        \n                        \n                        \n                            A Greatness in life emerges when square pegs are put in round holes\n                            \n                        \n                        \n                            B People do certain things in life because they know the repercussion\n                            \n                        \n                        \n                            C People agree on all issues and behave the same way for the same reason\n                            \n                        \n                        \n                            D Understanding life at different levels gives no account of visible acquisition\n                            \n                        \n                        \n                        \n                            \n                                \n                                    Answer & Comment\n                                    \n                                    D\n                                \n                                \n                                \n                                     \n                                    \n                                    \n                                \n                                \n                                \n                                    \n                                                                                \n                                            Comment",
+    "option_a": "Greatness in life emerges when square pegs are put in round holes",
+    "option_b": "People do certain things in life because they know the repercussion",
+    "option_c": "People agree on all issues and behave the same way for the same reason",
+    "option_d": "Understanding life at different levels gives no account of visible acquisition",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "<br><br>    though assumption is the lowest level of knowledge; It is still a form of knowledge, and knowledge is key. Assumptions are the foundation upon which interpretations and conclusion are built. Everything I life operates under certain assumptions. \n   We make management decisions based on the assumptions we hold about how management ought to function and how people ought to be governed. For others, it is unconsciously but potent all the same. Our assumptions will either drown us or help us soar through life. \n   We have always seen life as an immense mansion with many rooms. Some roots lead to wealth others to the opposite. Ultimately, we decide where was end up; and life, thus far, has proved that every one of us decides well. We all behave differently where we have different levels of understanding, and behave the same way where our understanding is the same. We eat because we all understand the consequences of not eating. We all wear clothes because each of us comprehends lunacy. The list goes on and on. It is inevitable that some of us will make choices that get and keep us on the lover rung of the ladder by reason of exposure, training or some other variables. Life is about roleplaying. We choose our roles wisely or foolishly, consciously or unconsciously. Some of us get wiser to new levels of self-awareness enough to redefine our roles. Others make no effort to build further capacity and therefore remain where they are. \n   It is based on these realities that we draw the conclusion that not everyone will be wealthy in life. We lead, inspire and motivate people to strive and succeed. It is also important that we paint the full and true picture of life so that we an discourage vain pursuits. Balance must be enthroned as a critical component of truth, and people know, for instance that ‘top ‘is not a place that all must ascent. \n   Our greatest consolation lies in our deep conviction that true prosperity is in fulfilment through hard work that in intangible acquisitions. There are set roles that some of us have been wired up to paying life but which we are not content enough to pay because society esteems such roles to be inferior. Take the almost sacred office of a teacher for instance, there are people who have the natural gifts and inclinations to be school teachers. but the teaching profession, as it is, does not appear to be lucrative. So we have people who would have been fulfilled and effective working as school teachers serving in banks.  <br><br> \n     <br><br>      <br><br>     From the passage, it can be inferred that\n                        \n                        \n                        \n                            A people insincerely discuss facts that govern their behaviour\n                            \n                        \n                        \n                            B all managerial decisions are based on assumptions\n                            \n                        \n                        \n                            C people make conscious efforts to acquire hidden knowledge\n                            \n                        \n                        \n                            D all things in life exist on some beliefs\n                            \n                        \n                        \n                        \n                            \n                                \n                                    Answer & Comment\n                                    \n                                    C\n                                \n                                \n                                \n                                     \n                                    \n                                    \n                                \n                                \n                                \n                                    \n                                                                                \n                                            Comment",
+    "option_a": "people insincerely discuss facts that govern their behaviour",
+    "option_b": "all managerial decisions are based on assumptions",
+    "option_c": "people make conscious efforts to acquire hidden knowledge",
+    "option_d": "all things in life exist on some beliefs",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "<br><br>    Like a clock with the pendulum in full swing, the mind moves as fast as time. But we ought to mind our thoughts, for if they turn to be our enemies. They will too many for us and will drag us down to ruin. \n   But some people may say that they cannot help having bad thought even though they sting like vipers. That may be son, but the question is do they hate them or not? We cannot keep thieves from looking in at our windows, but if we open our doors to them and receive them joyfully, we are bad as they. We cannot help the birds flying over our heads; but we may keep form building their nests in our hair. Vain thoughts will knock at the door but we must not open to them. \n   Though bad and evil thoughts rise in our hearts, they must not be allowed to reign. He who turns a morsel over and over in his mouth does so because he likes flavours, and he who meditates upon evil, loves it, and is ripe to commit it.  think of the devil, and he will appear, turn your thoughts towards will and your hands will soon follow. Snails leave their slime behind them, and so do vain thoughts. An arrow may fly through the air, and level no trace, but an evil though always leaves a trail like serpent. \n   Where are is much traffic of bad thinking, there will be much mire and dirty. Every wave of wicked thought adds something to the corruption which rots upon the shore of life. It is dreadful to think that a vile imagination. Once indulged, gets  the key of our minds, and an get in again very easily, whether or not we let it in, and what may follow, no one knows,. Nurse evil on the laps of thought, and it will grow into a giant. \n   Therefore, there is wisdom in watching every day, the thoughts and imaginations of our hearts. Good thoughts are blessed guests and should be welcomed, well fed, and much sought after, but bad thoughts must fly out as swiftly as they moved in.  <br><br> \n     <br><br>      <br><br>     Which of the following represents the writer's view in the passage?\n                        \n                        \n                        \n                            A Evil thoughts may come but there is virtue in keeping them out\n                            \n                        \n                        \n                            B Evil thoughts will continue to stings us likes vipers as long as there are enemies who cause offence\n                            \n                        \n                        \n                            C Like the pendulum, evil thoughts will always come to our minds no matter what we do\n                            \n                        \n                        \n                            D Like most birds, evil thoughts fly swiftly in our minds without perching\n                            \n                        \n                        \n                        \n                            \n                                \n                                    Answer & Comment\n                                    \n                                    A\n                                \n                                \n                                \n                                     \n                                    \n                                    \n                                \n                                \n                                \n                                    \n                                                                                \n                                            Comment\n                                            \n                                                \n                                                                                            \n                                        \n                                        \n                                            \n                                            \n                                            \n                                        \n                                    \n                                \n                            \n                        \n                         \n                            \n                                Advertisement <br><br> \n(adsbygoogle = window.adsbygoogle || []).push({});",
+    "option_a": "Evil thoughts may come but there is virtue in keeping them out",
+    "option_b": "Evil thoughts will continue to stings us likes vipers as long as there are enemies who cause offence",
+    "option_c": "Like the pendulum, evil thoughts will always come to our minds no matter what we do",
+    "option_d": "Like most birds, evil thoughts fly swiftly in our minds without perching",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "<br><br>    Like a clock with the pendulum in full swing, the mind moves as fast as time. But we ought to mind our thoughts, for if they turn to be our enemies. They will too many for us and will drag us down to ruin. \n   But some people may say that they cannot help having bad thought even though they sting like vipers. That may be son, but the question is do they hate them or not? We cannot keep thieves from looking in at our windows, but if we open our doors to them and receive them joyfully, we are bad as they. We cannot help the birds flying over our heads; but we may keep form building their nests in our hair. Vain thoughts will knock at the door but we must not open to them. \n   Though bad and evil thoughts rise in our hearts, they must not be allowed to reign. He who turns a morsel over and over in his mouth does so because he likes flavours, and he who meditates upon evil, loves it, and is ripe to commit it.  think of the devil, and he will appear, turn your thoughts towards will and your hands will soon follow. Snails leave their slime behind them, and so do vain thoughts. An arrow may fly through the air, and level no trace, but an evil though always leaves a trail like serpent. \n   Where are is much traffic of bad thinking, there will be much mire and dirty. Every wave of wicked thought adds something to the corruption which rots upon the shore of life. It is dreadful to think that a vile imagination. Once indulged, gets  the key of our minds, and an get in again very easily, whether or not we let it in, and what may follow, no one knows,. Nurse evil on the laps of thought, and it will grow into a giant. \n   Therefore, there is wisdom in watching every day, the thoughts and imaginations of our hearts. Good thoughts are blessed guests and should be welcomed, well fed, and much sought after, but bad thoughts must fly out as swiftly as they moved in.  <br><br> \n     <br><br>      <br><br>     Which of the following statements represents the view expressed by the writer in the first paragraph?\n                        \n                        \n                        \n                            A Evil thoughts will eventually ruin the evill man\n                            \n                        \n                        \n                            B If we do not stop the pendulum of thoughts from swinging, our thoughts will soon become our enemies\n                            \n                        \n                        \n                            C Too many evil thoughts level fatal consequences\n                            \n                        \n                        \n                            D It is possible to decide what controls our thoughts.\n                            \n                        \n                        \n                        \n                            \n                                \n                                    Answer & Comment\n                                    \n                                    C\n                                \n                                \n                                \n                                     \n                                    \n                                    \n                                \n                                \n                                \n                                    \n                                                                                \n                                            Comment",
+    "option_a": "Evil thoughts will eventually ruin the evill man",
+    "option_b": "If we do not stop the pendulum of thoughts from swinging, our thoughts will soon become our enemies",
+    "option_c": "Too many evil thoughts level fatal consequences",
+    "option_d": "It is possible to decide what controls our thoughts",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "<br><br>    Like a clock with the pendulum in full swing, the mind moves as fast as time. But we ought to mind our thoughts, for if they turn to be our enemies. They will too many for us and will drag us down to ruin. \n   But some people may say that they cannot help having bad thought even though they sting like vipers. That may be son, but the question is do they hate them or not? We cannot keep thieves from looking in at our windows, but if we open our doors to them and receive them joyfully, we are bad as they. We cannot help the birds flying over our heads; but we may keep form building their nests in our hair. Vain thoughts will knock at the door but we must not open to them. \n   Though bad and evil thoughts rise in our hearts, they must not be allowed to reign. He who turns a morsel over and over in his mouth does so because he likes flavours, and he who meditates upon evil, loves it, and is ripe to commit it.  think of the devil, and he will appear, turn your thoughts towards will and your hands will soon follow. Snails leave their slime behind them, and so do vain thoughts. An arrow may fly through the air, and level no trace, but an evil though always leaves a trail like serpent. \n   Where are is much traffic of bad thinking, there will be much mire and dirty. Every wave of wicked thought adds something to the corruption which rots upon the shore of life. It is dreadful to think that a vile imagination. Once indulged, gets  the key of our minds, and an get in again very easily, whether or not we let it in, and what may follow, no one knows,. Nurse evil on the laps of thought, and it will grow into a giant. \n   Therefore, there is wisdom in watching every day, the thoughts and imaginations of our hearts. Good thoughts are blessed guests and should be welcomed, well fed, and much sought after, but bad thoughts must fly out as swiftly as they moved in.  <br><br> \n     <br><br>      <br><br>     From the argument in the second paragraph, it can be concluded that evil thoughts control the lives of people who\n                        \n                        \n                        \n                            A are helpless because they fly out of their minds\n                            \n                        \n                        \n                            B cherist idle and slothful ways\n                            \n                        \n                        \n                            C are thieves with evil instincts\n                            \n                        \n                        \n                            D treasure and ruminate on them\n                            \n                        \n                        \n                        \n                            \n                                \n                                    Answer & Comment\n                                    \n                                    B\n                                \n                                \n                                \n                                     \n                                    \n                                    \n                                \n                                \n                                \n                                    \n                                                                                \n                                            Comment",
+    "option_a": "are helpless because they fly out of their minds",
+    "option_b": "cherist idle and slothful ways",
+    "option_c": "are thieves with evil instincts",
+    "option_d": "treasure and ruminate on them",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "<br><br>    Like a clock with the pendulum in full swing, the mind moves as fast as time. But we ought to mind our thoughts, for if they turn to be our enemies. They will too many for us and will drag us down to ruin. \n   But some people may say that they cannot help having bad thought even though they sting like vipers. That may be son, but the question is do they hate them or not? We cannot keep thieves from looking in at our windows, but if we open our doors to them and receive them joyfully, we are bad as they. We cannot help the birds flying over our heads; but we may keep form building their nests in our hair. Vain thoughts will knock at the door but we must not open to them. \n   Though bad and evil thoughts rise in our hearts, they must not be allowed to reign. He who turns a morsel over and over in his mouth does so because he likes flavours, and he who meditates upon evil, loves it, and is ripe to commit it.  think of the devil, and he will appear, turn your thoughts towards will and your hands will soon follow. Snails leave their slime behind them, and so do vain thoughts. An arrow may fly through the air, and level no trace, but an evil though always leaves a trail like serpent. \n   Where are is much traffic of bad thinking, there will be much mire and dirty. Every wave of wicked thought adds something to the corruption which rots upon the shore of life. It is dreadful to think that a vile imagination. Once indulged, gets  the key of our minds, and an get in again very easily, whether or not we let it in, and what may follow, no one knows,. Nurse evil on the laps of thought, and it will grow into a giant. \n   Therefore, there is wisdom in watching every day, the thoughts and imaginations of our hearts. Good thoughts are blessed guests and should be welcomed, well fed, and much sought after, but bad thoughts must fly out as swiftly as they moved in.  <br><br> \n     <br><br>      <br><br>     The expression Think of the devil and he will appear...  as used in the passage, suggest that\n                        \n                        \n                        \n                            A like the devil thoughts must not reign in our hearts\n                            \n                        \n                        \n                            B evil thoughts are fantasies which exist only in people's mind\n                            \n                        \n                        \n                            C uncontrolled evil thoughts may lead to evil deeds\n                            \n                        \n                        \n                            D the devil gives evil thoughts only to those who invite him in\n                            \n                        \n                        \n                        \n                            \n                                \n                                    Answer & Comment\n                                    \n                                    C\n                                \n                                \n                                \n                                     \n                                    \n                                    \n                                \n                                \n                                \n                                    \n                                                                                \n                                            Comment",
+    "option_a": "like the devil thoughts must not reign in our hearts",
+    "option_b": "evil thoughts are fantasies which exist only in people's mind",
+    "option_c": "uncontrolled evil thoughts may lead to evil deeds",
+    "option_d": "the devil gives evil thoughts only to those who invite him in",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "<br><br>    Like a clock with the pendulum in full swing, the mind moves as fast as time. But we ought to mind our thoughts, for if they turn to be our enemies. They will too many for us and will drag us down to ruin. \n   But some people may say that they cannot help having bad thought even though they sting like vipers. That may be son, but the question is do they hate them or not? We cannot keep thieves from looking in at our windows, but if we open our doors to them and receive them joyfully, we are bad as they. We cannot help the birds flying over our heads; but we may keep form building their nests in our hair. Vain thoughts will knock at the door but we must not open to them. \n   Though bad and evil thoughts rise in our hearts, they must not be allowed to reign. He who turns a morsel over and over in his mouth does so because he likes flavours, and he who meditates upon evil, loves it, and is ripe to commit it.  think of the devil, and he will appear, turn your thoughts towards will and your hands will soon follow. Snails leave their slime behind them, and so do vain thoughts. An arrow may fly through the air, and level no trace, but an evil though always leaves a trail like serpent. \n   Where are is much traffic of bad thinking, there will be much mire and dirty. Every wave of wicked thought adds something to the corruption which rots upon the shore of life. It is dreadful to think that a vile imagination. Once indulged, gets  the key of our minds, and an get in again very easily, whether or not we let it in, and what may follow, no one knows,. Nurse evil on the laps of thought, and it will grow into a giant. \n   Therefore, there is wisdom in watching every day, the thoughts and imaginations of our hearts. Good thoughts are blessed guests and should be welcomed, well fed, and much sought after, but bad thoughts must fly out as swiftly as they moved in.  <br><br> \n     <br><br>      <br><br>     Which of the following statements summarizes the argument of the last paragraph?\n                        \n                        \n                        \n                            A Heavy traffic on a miry and dirty road may lead to evil thoughts\n                            \n                        \n                        \n                            B The more evil we think, the more vile we are likely to because\n                            \n                        \n                        \n                            C Evil people should not be welcomed as guets in our homes the same way as we welcome good people\n                            \n                        \n                        \n                            D Evil thought control the key to the human heart and no one can keep them out.\n                            \n                        \n                        \n                        \n                            \n                                \n                                    Answer & Comment\n                                    \n                                    B\n                                \n                                \n                                \n                                     \n                                    \n                                    \n                                \n                                \n                                \n                                    \n                                                                                \n                                            Comment",
+    "option_a": "Heavy traffic on a miry and dirty road may lead to evil thoughts",
+    "option_b": "The more evil we think, the more vile we are likely to because",
+    "option_c": "Evil people should not be welcomed as guets in our homes the same way as we welcome good people",
+    "option_d": "Evil thought control the key to the human heart and no one can keep them out.",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "<br><br>    In 1962, a team of scientists produced a special radio station that had a range of fifteen moles. Even though communication was being accomplished in space at a range of more than a million times this distance, the new radio station caused must excitement among scientists. The reason: its power supply was ‘battery ‘made of bacteria. For the first time, practical amounts of electricity were being produced by a form of life and put to use. \n   ‘biocell’, the new power supply had a liquid fuel containing tiny forms of life that changed the fuel directly into electric energy. This was far more than an interesting experiment. The biocell is being developed as producer of electricity for radios, for signals to guide ships, for lighting and for other uses. Thought the working biocell is only a few years old, some scientists feel that it will one day produce power cheaply as is now being done by other methods, and that the biocell will use materials that would otherwise be considered a waste. Early biocells were powered with sugar, but a wide range of fuels can be used. Work is being done using sea water to feed the bacteria. \n   Electricity from living cells is no new idea. Man experienced the strange ‘shock ‘produced by some fish even before electricity was really discovered. Then in time, there were other discoveries. Benjamin Franklin found that lightning in the sky was electricity. Lulgi Galvani found some electricity in the muscles and nerves of animals. Bust the African catfish produces far more electricity than most other living creatures. And another fish, the electric eel, well named, for it has an even greater electric charge. Research works also discovered that even humns produce small amounts of electricity in their bodies. Our hearts produce a very small amount that can be measured, so do our brains. The biocell is completely new in the field of power production and, as yet, no mass-produced models have begun to replace the older types of batteries. It might be wondered, and then what the excitement is all about.  <br><br> \n     <br><br>      <br><br>     A suitable title for the passage is\n                        \n                        \n                        \n                            A Energy from Living Things\n                            \n                        \n                        \n                            B Electricity and Living Creatures\n                            \n                        \n                        \n                            C Biocell and Scientific Discoveries\n                            \n                        \n                        \n                            D The Biocell''s Future\n                            \n                        \n                        \n                        \n                            \n                                \n                                    Answer & Comment\n                                    \n                                    D\n                                \n                                \n                                \n                                     \n                                    \n                                    \n                                \n                                \n                                \n                                    \n                                                                                \n                                            Comment\n                                            \n                                                \n                                                                                            \n                                        \n                                        \n                                            \n                                            \n                                            \n                                        \n                                    \n                                \n                            \n                        \n                         \n                            \n                                Advertisement <br><br> \n(adsbygoogle = window.adsbygoogle || []).push({});",
+    "option_a": "Energy from Living Things",
+    "option_b": "Electricity and Living Creatures",
+    "option_c": "Biocell and Scientific Discoveries",
+    "option_d": "The Biocell''s Future",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "<br><br>    In 1962, a team of scientists produced a special radio station that had a range of fifteen moles. Even though communication was being accomplished in space at a range of more than a million times this distance, the new radio station caused must excitement among scientists. The reason: its power supply was ‘battery ‘made of bacteria. For the first time, practical amounts of electricity were being produced by a form of life and put to use. \n   ‘biocell’, the new power supply had a liquid fuel containing tiny forms of life that changed the fuel directly into electric energy. This was far more than an interesting experiment. The biocell is being developed as producer of electricity for radios, for signals to guide ships, for lighting and for other uses. Thought the working biocell is only a few years old, some scientists feel that it will one day produce power cheaply as is now being done by other methods, and that the biocell will use materials that would otherwise be considered a waste. Early biocells were powered with sugar, but a wide range of fuels can be used. Work is being done using sea water to feed the bacteria. \n   Electricity from living cells is no new idea. Man experienced the strange ‘shock ‘produced by some fish even before electricity was really discovered. Then in time, there were other discoveries. Benjamin Franklin found that lightning in the sky was electricity. Lulgi Galvani found some electricity in the muscles and nerves of animals. Bust the African catfish produces far more electricity than most other living creatures. And another fish, the electric eel, well named, for it has an even greater electric charge. Research works also discovered that even humns produce small amounts of electricity in their bodies. Our hearts produce a very small amount that can be measured, so do our brains. The biocell is completely new in the field of power production and, as yet, no mass-produced models have begun to replace the older types of batteries. It might be wondered, and then what the excitement is all about.  <br><br> \n     <br><br>      <br><br>     The writer's posture, as conveyed in the statement Electricity from living cells is no new idea, can be described as\n                        \n                        \n                        \n                            A ineffectual\n                            \n                        \n                        \n                            B contentious\n                            \n                        \n                        \n                            C logical\n                            \n                        \n                        \n                            D unguarded\n                            \n                        \n                        \n                        \n                            \n                                \n                                    Answer & Comment\n                                    \n                                    A\n                                \n                                \n                                \n                                     \n                                    \n                                    \n                                \n                                \n                                \n                                    \n                                                                                \n                                            Comment",
+    "option_a": "ineffectual",
+    "option_b": "contentious",
+    "option_c": "logical",
+    "option_d": "unguarded",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "<br><br>    In 1962, a team of scientists produced a special radio station that had a range of fifteen moles. Even though communication was being accomplished in space at a range of more than a million times this distance, the new radio station caused must excitement among scientists. The reason: its power supply was ‘battery ‘made of bacteria. For the first time, practical amounts of electricity were being produced by a form of life and put to use. \n   ‘biocell’, the new power supply had a liquid fuel containing tiny forms of life that changed the fuel directly into electric energy. This was far more than an interesting experiment. The biocell is being developed as producer of electricity for radios, for signals to guide ships, for lighting and for other uses. Thought the working biocell is only a few years old, some scientists feel that it will one day produce power cheaply as is now being done by other methods, and that the biocell will use materials that would otherwise be considered a waste. Early biocells were powered with sugar, but a wide range of fuels can be used. Work is being done using sea water to feed the bacteria. \n   Electricity from living cells is no new idea. Man experienced the strange ‘shock ‘produced by some fish even before electricity was really discovered. Then in time, there were other discoveries. Benjamin Franklin found that lightning in the sky was electricity. Lulgi Galvani found some electricity in the muscles and nerves of animals. Bust the African catfish produces far more electricity than most other living creatures. And another fish, the electric eel, well named, for it has an even greater electric charge. Research works also discovered that even humns produce small amounts of electricity in their bodies. Our hearts produce a very small amount that can be measured, so do our brains. The biocell is completely new in the field of power production and, as yet, no mass-produced models have begun to replace the older types of batteries. It might be wondered, and then what the excitement is all about.  <br><br> \n     <br><br>      <br><br>     Which of the following is true according to the passage?\n                        \n                        \n                        \n                            A Scientists felt that biocells would produce very costly energy\n                            \n                        \n                        \n                            B Bicells, at the beginning, derived their energy from sugar\n                            \n                        \n                        \n                            C Sugar and fuel were initially used as sources of engergy for bicells\n                            \n                        \n                        \n                            D Biocells were froms of power used by the scientists\n                            \n                        \n                        \n                        \n                            \n                                \n                                    Answer & Comment\n                                    \n                                    C\n                                \n                                \n                                \n                                     \n                                    \n                                    \n                                \n                                \n                                \n                                    \n                                                                                \n                                            Comment",
+    "option_a": "Scientists felt that biocells would produce very costly energy",
+    "option_b": "Bicells, at the beginning, derived their energy from sugar",
+    "option_c": "Sugar and fuel were initially used as sources of engergy for bicell",
+    "option_d": "Biocells were froms of power used by the scientists",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "<br><br>    In 1962, a team of scientists produced a special radio station that had a range of fifteen moles. Even though communication was being accomplished in space at a range of more than a million times this distance, the new radio station caused must excitement among scientists. The reason: its power supply was ‘battery ‘made of bacteria. For the first time, practical amounts of electricity were being produced by a form of life and put to use. \n   ‘biocell’, the new power supply had a liquid fuel containing tiny forms of life that changed the fuel directly into electric energy. This was far more than an interesting experiment. The biocell is being developed as producer of electricity for radios, for signals to guide ships, for lighting and for other uses. Thought the working biocell is only a few years old, some scientists feel that it will one day produce power cheaply as is now being done by other methods, and that the biocell will use materials that would otherwise be considered a waste. Early biocells were powered with sugar, but a wide range of fuels can be used. Work is being done using sea water to feed the bacteria. \n   Electricity from living cells is no new idea. Man experienced the strange ‘shock ‘produced by some fish even before electricity was really discovered. Then in time, there were other discoveries. Benjamin Franklin found that lightning in the sky was electricity. Lulgi Galvani found some electricity in the muscles and nerves of animals. Bust the African catfish produces far more electricity than most other living creatures. And another fish, the electric eel, well named, for it has an even greater electric charge. Research works also discovered that even humns produce small amounts of electricity in their bodies. Our hearts produce a very small amount that can be measured, so do our brains. The biocell is completely new in the field of power production and, as yet, no mass-produced models have begun to replace the older types of batteries. It might be wondered, and then what the excitement is all about.  <br><br> \n     <br><br>      <br><br>     The inventors of biocell justified the need for it by saying that it would\n                        \n                        \n                        \n                            A develop ways for changing biocells into fuel for use\n                            \n                        \n                        \n                            B yield a source of energy without much spending\n                            \n                        \n                        \n                            C produce electricity for all types of machines\n                            \n                        \n                        \n                            D produce signals to guid all ships and other vessels\n                            \n                        \n                        \n                        \n                            \n                                \n                                    Answer & Comment\n                                    \n                                    B\n                                \n                                \n                                \n                                     \n                                    \n                                    \n                                \n                                \n                                \n                                    \n                                                                                \n                                            Comment",
+    "option_a": "develop ways for changing biocells into fuel for use",
+    "option_b": "yield a source of energy without much spending",
+    "option_c": "produce electricity for all types of machines",
+    "option_d": "produce signals to guid all ships and other vessels",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "<br><br>    In 1962, a team of scientists produced a special radio station that had a range of fifteen moles. Even though communication was being accomplished in space at a range of more than a million times this distance, the new radio station caused must excitement among scientists. The reason: its power supply was ‘battery ‘made of bacteria. For the first time, practical amounts of electricity were being produced by a form of life and put to use. \n   ‘biocell’, the new power supply had a liquid fuel containing tiny forms of life that changed the fuel directly into electric energy. This was far more than an interesting experiment. The biocell is being developed as producer of electricity for radios, for signals to guide ships, for lighting and for other uses. Thought the working biocell is only a few years old, some scientists feel that it will one day produce power cheaply as is now being done by other methods, and that the biocell will use materials that would otherwise be considered a waste. Early biocells were powered with sugar, but a wide range of fuels can be used. Work is being done using sea water to feed the bacteria. \n   Electricity from living cells is no new idea. Man experienced the strange ‘shock ‘produced by some fish even before electricity was really discovered. Then in time, there were other discoveries. Benjamin Franklin found that lightning in the sky was electricity. Lulgi Galvani found some electricity in the muscles and nerves of animals. Bust the African catfish produces far more electricity than most other living creatures. And another fish, the electric eel, well named, for it has an even greater electric charge. Research works also discovered that even humns produce small amounts of electricity in their bodies. Our hearts produce a very small amount that can be measured, so do our brains. The biocell is completely new in the field of power production and, as yet, no mass-produced models have begun to replace the older types of batteries. It might be wondered, and then what the excitement is all about.  <br><br> \n     <br><br>      <br><br>     According to the passage, electricity was first discovered in\n                        \n                        \n                        \n                            A hearts and brains\n                            \n                        \n                        \n                            B muscles of animals\n                            \n                        \n                        \n                            C lighting\n                            \n                        \n                        \n                            D fish\n                            \n                        \n                        \n                        \n                            \n                                \n                                    Answer & Comment\n                                    \n                                    D\n                                \n                                \n                                \n                                     \n                                    \n                                    \n                                \n                                \n                                \n                                    \n                                                                                \n                                            Comment",
+    "option_a": "hearts and brains",
+    "option_b": "muscles of animals",
+    "option_c": "lighting",
+    "option_d": "fish",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "<br><br>    The passage below has gaps numbered 16 to 25. Immediately following each gap, four options are provided. Choose the most appropriate option for each gap. Each question carries 2 marks. \n   Believe it or not, change is to human existence what the blood is to the human body. We live in era of amazing …. 16…. [A. well-defined B. fast-paced C. favourable D. social]  change spawned by advancing technology and industrialization. However, man’s  …17…. [A. knowledge of B. attitude to C. commitment to D. opinion of] promoting and defending change in a deliberate effort to establish…18… [A. customs B. companies C. trade-zones D. variations] that stimulate advancement for man’s concern is proving unfavourable to the climate with threatening ...19… [A. repercussions B. clouds C. pressure D. implication].  <br><br> Human-induced climate change has awakened widespread concern across the globe. As a matter of fact, climate change is now 20 [A. an acceptable B. a foremost C. the only D. the last]  global issue. It is a major test of Africa’s ….21…. [A. popularity B. energy C. ingenuity D. incapability] ! the fourth Assessment Report {AR4} of the intergovernmental Panel on Climate Change (IPCC) confirmed that human actions are changing the earth’s climate and creating maker disturbances in human ….22…[A. geography B. societies C. systems D life] and ecosystems.   The IPCC reports that the world has warned by an average of 0.76oC since pre-industrial times. The rising global  …23…. [A. command B. demand C. warming D. supply] for energy and the adverse changes in the climate put the earth and its inhabitants in a catch -22 situation. <br><br> Again, if the effects of climate change on each were commensurate with the level of greenhouse  …24 …. [A. structure B. paints C. emulsion D. emissions]  in spews out, perhaps Africa would have been spared and would probably be just an amused spectator. But it is, this is not the case. Here again, we see well-meaning global citizens appealing for the rest of the world to take responsibility for the problems of Africa, a strategy that cannot, thus far, termed  ….25…. [A. notable B. liable C. credible D. flexible]   <br><br> \n     <br><br>      <br><br>     In question number 16 above, choose the best option from letters A - D that best completes the gap.\n                        \n                        \n                        \n                            A well-defined\n                            \n                        \n                        \n                            B fast-paced\n                            \n                        \n                        \n                            C favourable\n                            \n                        \n                        \n                            D social\n                            \n                        \n                        \n                        \n                            \n                                \n                                    Answer & Comment\n                                    \n                                    B\n                                \n                                \n                                \n                                     \n                                    \n                                    \n                                \n                                \n                                \n                                    \n                                                                                \n                                            Comment\n                                            \n                                                \n                                                                                            \n                                        \n                                        \n                                            \n                                            \n                                            \n                                        \n                                    \n                                \n                            \n                        \n                         \n                            \n                                Advertisement <br><br> \n(adsbygoogle = window.adsbygoogle || []).push({});",
+    "option_a": "well-defined",
+    "option_b": "fast-paced",
+    "option_c": "favourable",
+    "option_d": "social",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "<br><br>    The passage below has gaps numbered 16 to 25. Immediately following each gap, four options are provided. Choose the most appropriate option for each gap. Each question carries 2 marks. \n   Believe it or not, change is to human existence what the blood is to the human body. We live in era of amazing …. 16…. [A. well-defined B. fast-paced C. favourable D. social]  change spawned by advancing technology and industrialization. However, man’s  …17…. [A. knowledge of B. attitude to C. commitment to D. opinion of] promoting and defending change in a deliberate effort to establish…18… [A. customs B. companies C. trade-zones D. variations] that stimulate advancement for man’s concern is proving unfavourable to the climate with threatening ...19… [A. repercussions B. clouds C. pressure D. implication].  <br><br> Human-induced climate change has awakened widespread concern across the globe. As a matter of fact, climate change is now 20 [A. an acceptable B. a foremost C. the only D. the last]  global issue. It is a major test of Africa’s ….21…. [A. popularity B. energy C. ingenuity D. incapability] ! the fourth Assessment Report {AR4} of the intergovernmental Panel on Climate Change (IPCC) confirmed that human actions are changing the earth’s climate and creating maker disturbances in human ….22…[A. geography B. societies C. systems D life] and ecosystems.   The IPCC reports that the world has warned by an average of 0.76oC since pre-industrial times. The rising global  …23…. [A. command B. demand C. warming D. supply] for energy and the adverse changes in the climate put the earth and its inhabitants in a catch -22 situation. <br><br> Again, if the effects of climate change on each were commensurate with the level of greenhouse  …24 …. [A. structure B. paints C. emulsion D. emissions]  in spews out, perhaps Africa would have been spared and would probably be just an amused spectator. But it is, this is not the case. Here again, we see well-meaning global citizens appealing for the rest of the world to take responsibility for the problems of Africa, a strategy that cannot, thus far, termed  ….25…. [A. notable B. liable C. credible D. flexible]   <br><br> \n     <br><br>      <br><br>     In question number 17 above, choose the best option from letters A - D that best completes the gap.\n                        \n                        \n                        \n                            A knowledge of\n                            \n                        \n                        \n                            B attitude to\n                            \n                        \n                        \n                            C commitment to\n                            \n                        \n                        \n                            D opinion of\n                            \n                        \n                        \n                        \n                            \n                                \n                                    Answer & Comment\n                                    \n                                    C\n                                \n                                \n                                \n                                     \n                                    \n                                    \n                                \n                                \n                                \n                                    \n                                                                                \n                                            Comment",
+    "option_a": "knowledge of",
+    "option_b": "attitude to",
+    "option_c": "commitment to",
+    "option_d": "opinion of",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "<br><br>    The passage below has gaps numbered 16 to 25. Immediately following each gap, four options are provided. Choose the most appropriate option for each gap. Each question carries 2 marks. \n   Believe it or not, change is to human existence what the blood is to the human body. We live in era of amazing …. 16…. [A. well-defined B. fast-paced C. favourable D. social]  change spawned by advancing technology and industrialization. However, man’s  …17…. [A. knowledge of B. attitude to C. commitment to D. opinion of] promoting and defending change in a deliberate effort to establish…18… [A. customs B. companies C. trade-zones D. variations] that stimulate advancement for man’s concern is proving unfavourable to the climate with threatening ...19… [A. repercussions B. clouds C. pressure D. implication].  <br><br> Human-induced climate change has awakened widespread concern across the globe. As a matter of fact, climate change is now 20 [A. an acceptable B. a foremost C. the only D. the last]  global issue. It is a major test of Africa’s ….21…. [A. popularity B. energy C. ingenuity D. incapability] ! the fourth Assessment Report {AR4} of the intergovernmental Panel on Climate Change (IPCC) confirmed that human actions are changing the earth’s climate and creating maker disturbances in human ….22…[A. geography B. societies C. systems D life] and ecosystems.   The IPCC reports that the world has warned by an average of 0.76oC since pre-industrial times. The rising global  …23…. [A. command B. demand C. warming D. supply] for energy and the adverse changes in the climate put the earth and its inhabitants in a catch -22 situation. <br><br> Again, if the effects of climate change on each were commensurate with the level of greenhouse  …24 …. [A. structure B. paints C. emulsion D. emissions]  in spews out, perhaps Africa would have been spared and would probably be just an amused spectator. But it is, this is not the case. Here again, we see well-meaning global citizens appealing for the rest of the world to take responsibility for the problems of Africa, a strategy that cannot, thus far, termed  ….25…. [A. notable B. liable C. credible D. flexible]   <br><br> \n     <br><br>      <br><br>     In question number 18 above, choose the best option from letters A - D that best completes the gap.\n                        \n                        \n                        \n                            A customs\n                            \n                        \n                        \n                            B companies\n                            \n                        \n                        \n                            C trade-zones\n                            \n                        \n                        \n                            D variations\n                            \n                        \n                        \n                        \n                            \n                                \n                                    Answer & Comment\n                                    \n                                    D\n                                \n                                \n                                \n                                     \n                                    \n                                    \n                                \n                                \n                                \n                                    \n                                                                                \n                                            Comment",
+    "option_a": "customs",
+    "option_b": "companies",
+    "option_c": "trade-zones",
+    "option_d": "variations",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "<br><br>    The passage below has gaps numbered 16 to 25. Immediately following each gap, four options are provided. Choose the most appropriate option for each gap. Each question carries 2 marks. \n   Believe it or not, change is to human existence what the blood is to the human body. We live in era of amazing …. 16…. [A. well-defined B. fast-paced C. favourable D. social]  change spawned by advancing technology and industrialization. However, man’s  …17…. [A. knowledge of B. attitude to C. commitment to D. opinion of] promoting and defending change in a deliberate effort to establish…18… [A. customs B. companies C. trade-zones D. variations] that stimulate advancement for man’s concern is proving unfavourable to the climate with threatening ...19… [A. repercussions B. clouds C. pressure D. implication].  <br><br> Human-induced climate change has awakened widespread concern across the globe. As a matter of fact, climate change is now 20 [A. an acceptable B. a foremost C. the only D. the last]  global issue. It is a major test of Africa’s ….21…. [A. popularity B. energy C. ingenuity D. incapability] ! the fourth Assessment Report {AR4} of the intergovernmental Panel on Climate Change (IPCC) confirmed that human actions are changing the earth’s climate and creating maker disturbances in human ….22…[A. geography B. societies C. systems D life] and ecosystems.   The IPCC reports that the world has warned by an average of 0.76oC since pre-industrial times. The rising global  …23…. [A. command B. demand C. warming D. supply] for energy and the adverse changes in the climate put the earth and its inhabitants in a catch -22 situation. <br><br> Again, if the effects of climate change on each were commensurate with the level of greenhouse  …24 …. [A. structure B. paints C. emulsion D. emissions]  in spews out, perhaps Africa would have been spared and would probably be just an amused spectator. But it is, this is not the case. Here again, we see well-meaning global citizens appealing for the rest of the world to take responsibility for the problems of Africa, a strategy that cannot, thus far, termed  ….25…. [A. notable B. liable C. credible D. flexible]   <br><br> \n     <br><br>      <br><br>     In question number 19 above, choose the best option from letters A - D that best completes the gap.\n                        \n                        \n                        \n                            A repecussions\n                            \n                        \n                        \n                            B clouds\n                            \n                        \n                        \n                            C pressure\n                            \n                        \n                        \n                            D implication\n                            \n                        \n                        \n                        \n                            \n                                \n                                    Answer & Comment\n                                    \n                                    A\n                                \n                                \n                                \n                                     \n                                    \n                                    \n                                \n                                \n                                \n                                    \n                                                                                \n                                            Comment",
+    "option_a": "repecussions",
+    "option_b": "clouds",
+    "option_c": "pressure",
+    "option_d": "implication",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "<br><br>    The passage below has gaps numbered 16 to 25. Immediately following each gap, four options are provided. Choose the most appropriate option for each gap. Each question carries 2 marks. \n   Believe it or not, change is to human existence what the blood is to the human body. We live in era of amazing …. 16…. [A. well-defined B. fast-paced C. favourable D. social]  change spawned by advancing technology and industrialization. However, man’s  …17…. [A. knowledge of B. attitude to C. commitment to D. opinion of] promoting and defending change in a deliberate effort to establish…18… [A. customs B. companies C. trade-zones D. variations] that stimulate advancement for man’s concern is proving unfavourable to the climate with threatening ...19… [A. repercussions B. clouds C. pressure D. implication].  <br><br> Human-induced climate change has awakened widespread concern across the globe. As a matter of fact, climate change is now 20 [A. an acceptable B. a foremost C. the only D. the last]  global issue. It is a major test of Africa’s ….21…. [A. popularity B. energy C. ingenuity D. incapability] ! the fourth Assessment Report {AR4} of the intergovernmental Panel on Climate Change (IPCC) confirmed that human actions are changing the earth’s climate and creating maker disturbances in human ….22…[A. geography B. societies C. systems D life] and ecosystems.   The IPCC reports that the world has warned by an average of 0.76oC since pre-industrial times. The rising global  …23…. [A. command B. demand C. warming D. supply] for energy and the adverse changes in the climate put the earth and its inhabitants in a catch -22 situation. <br><br> Again, if the effects of climate change on each were commensurate with the level of greenhouse  …24 …. [A. structure B. paints C. emulsion D. emissions]  in spews out, perhaps Africa would have been spared and would probably be just an amused spectator. But it is, this is not the case. Here again, we see well-meaning global citizens appealing for the rest of the world to take responsibility for the problems of Africa, a strategy that cannot, thus far, termed  ….25…. [A. notable B. liable C. credible D. flexible]   <br><br> \n     <br><br>      <br><br>     In question number 20 above, choose the best option from letters A - D that best completes the gap.\n                        \n                        \n                        \n                            A an acceptable\n                            \n                        \n                        \n                            B a foremost\n                            \n                        \n                        \n                            C the only\n                            \n                        \n                        \n                            D the last\n                            \n                        \n                        \n                        \n                            \n                                \n                                    Answer & Comment\n                                    \n                                    B\n                                \n                                \n                                \n                                     \n                                    \n                                    \n                                \n                                \n                                \n                                    \n                                                                                \n                                            Comment",
+    "option_a": "an acceptable",
+    "option_b": "a foremost",
+    "option_c": "the only",
+    "option_d": "the last",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "<br><br>    The passage below has gaps numbered 16 to 25. Immediately following each gap, four options are provided. Choose the most appropriate option for each gap. Each question carries 2 marks. \n   Believe it or not, change is to human existence what the blood is to the human body. We live in era of amazing …. 16…. [A. well-defined B. fast-paced C. favourable D. social]  change spawned by advancing technology and industrialization. However, man’s  …17…. [A. knowledge of B. attitude to C. commitment to D. opinion of] promoting and defending change in a deliberate effort to establish…18… [A. customs B. companies C. trade-zones D. variations] that stimulate advancement for man’s concern is proving unfavourable to the climate with threatening ...19… [A. repercussions B. clouds C. pressure D. implication].  <br><br> Human-induced climate change has awakened widespread concern across the globe. As a matter of fact, climate change is now 20 [A. an acceptable B. a foremost C. the only D. the last]  global issue. It is a major test of Africa’s ….21…. [A. popularity B. energy C. ingenuity D. incapability] ! the fourth Assessment Report {AR4} of the intergovernmental Panel on Climate Change (IPCC) confirmed that human actions are changing the earth’s climate and creating maker disturbances in human ….22…[A. geography B. societies C. systems D life] and ecosystems.   The IPCC reports that the world has warned by an average of 0.76oC since pre-industrial times. The rising global  …23…. [A. command B. demand C. warming D. supply] for energy and the adverse changes in the climate put the earth and its inhabitants in a catch -22 situation. <br><br> Again, if the effects of climate change on each were commensurate with the level of greenhouse  …24 …. [A. structure B. paints C. emulsion D. emissions]  in spews out, perhaps Africa would have been spared and would probably be just an amused spectator. But it is, this is not the case. Here again, we see well-meaning global citizens appealing for the rest of the world to take responsibility for the problems of Africa, a strategy that cannot, thus far, termed  ….25…. [A. notable B. liable C. credible D. flexible]   <br><br> \n     <br><br>      <br><br>     In question number 21 above, choose the best option from letters A - D that best completes the gap.\n                        \n                        \n                        \n                            A popularity\n                            \n                        \n                        \n                            B energy\n                            \n                        \n                        \n                            C ingenuity\n                            \n                        \n                        \n                            D incapability\n                            \n                        \n                        \n                        \n                            \n                                \n                                    Answer & Comment\n                                    \n                                    C\n                                \n                                \n                                \n                                     \n                                    \n                                    \n                                \n                                \n                                \n                                    \n                                                                                \n                                            Comment\n                                            \n                                                \n                                                                                            \n                                        \n                                        \n                                            \n                                            \n                                            \n                                        \n                                    \n                                \n                            \n                        \n                         \n                            \n                                Advertisement <br><br> \n(adsbygoogle = window.adsbygoogle || []).push({});",
+    "option_a": "popularity",
+    "option_b": "energy",
+    "option_c": "ingenuity",
+    "option_d": "incapability",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "<br><br>    The passage below has gaps numbered 16 to 25. Immediately following each gap, four options are provided. Choose the most appropriate option for each gap. Each question carries 2 marks. \n   Believe it or not, change is to human existence what the blood is to the human body. We live in era of amazing …. 16…. [A. well-defined B. fast-paced C. favourable D. social]  change spawned by advancing technology and industrialization. However, man’s  …17…. [A. knowledge of B. attitude to C. commitment to D. opinion of] promoting and defending change in a deliberate effort to establish…18… [A. customs B. companies C. trade-zones D. variations] that stimulate advancement for man’s concern is proving unfavourable to the climate with threatening ...19… [A. repercussions B. clouds C. pressure D. implication].  <br><br> Human-induced climate change has awakened widespread concern across the globe. As a matter of fact, climate change is now 20 [A. an acceptable B. a foremost C. the only D. the last]  global issue. It is a major test of Africa’s ….21…. [A. popularity B. energy C. ingenuity D. incapability] ! the fourth Assessment Report {AR4} of the intergovernmental Panel on Climate Change (IPCC) confirmed that human actions are changing the earth’s climate and creating maker disturbances in human ….22…[A. geography B. societies C. systems D life] and ecosystems.   The IPCC reports that the world has warned by an average of 0.76oC since pre-industrial times. The rising global  …23…. [A. command B. demand C. warming D. supply] for energy and the adverse changes in the climate put the earth and its inhabitants in a catch -22 situation. <br><br> Again, if the effects of climate change on each were commensurate with the level of greenhouse  …24 …. [A. structure B. paints C. emulsion D. emissions]  in spews out, perhaps Africa would have been spared and would probably be just an amused spectator. But it is, this is not the case. Here again, we see well-meaning global citizens appealing for the rest of the world to take responsibility for the problems of Africa, a strategy that cannot, thus far, termed  ….25…. [A. notable B. liable C. credible D. flexible]   <br><br> \n     <br><br>      <br><br>     In question number 22 above, choose the best option from letters A - D that best completes the gap.\n                        \n                        \n                        \n                            A geography\n                            \n                        \n                        \n                            B societies\n                            \n                        \n                        \n                            C systems\n                            \n                        \n                        \n                            D life\n                            \n                        \n                        \n                        \n                            \n                                \n                                    Answer & Comment\n                                    \n                                    D\n                                \n                                \n                                \n                                     \n                                    \n                                    \n                                \n                                \n                                \n                                    \n                                                                                \n                                            Comment",
+    "option_a": "geography",
+    "option_b": "societies",
+    "option_c": "systems",
+    "option_d": "life",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "<br><br>    The passage below has gaps numbered 16 to 25. Immediately following each gap, four options are provided. Choose the most appropriate option for each gap. Each question carries 2 marks. \n   Believe it or not, change is to human existence what the blood is to the human body. We live in era of amazing …. 16…. [A. well-defined B. fast-paced C. favourable D. social]  change spawned by advancing technology and industrialization. However, man’s  …17…. [A. knowledge of B. attitude to C. commitment to D. opinion of] promoting and defending change in a deliberate effort to establish…18… [A. customs B. companies C. trade-zones D. variations] that stimulate advancement for man’s concern is proving unfavourable to the climate with threatening ...19… [A. repercussions B. clouds C. pressure D. implication].  <br><br> Human-induced climate change has awakened widespread concern across the globe. As a matter of fact, climate change is now 20 [A. an acceptable B. a foremost C. the only D. the last]  global issue. It is a major test of Africa’s ….21…. [A. popularity B. energy C. ingenuity D. incapability] ! the fourth Assessment Report {AR4} of the intergovernmental Panel on Climate Change (IPCC) confirmed that human actions are changing the earth’s climate and creating maker disturbances in human ….22…[A. geography B. societies C. systems D life] and ecosystems.   The IPCC reports that the world has warned by an average of 0.76oC since pre-industrial times. The rising global  …23…. [A. command B. demand C. warming D. supply] for energy and the adverse changes in the climate put the earth and its inhabitants in a catch -22 situation. <br><br> Again, if the effects of climate change on each were commensurate with the level of greenhouse  …24 …. [A. structure B. paints C. emulsion D. emissions]  in spews out, perhaps Africa would have been spared and would probably be just an amused spectator. But it is, this is not the case. Here again, we see well-meaning global citizens appealing for the rest of the world to take responsibility for the problems of Africa, a strategy that cannot, thus far, termed  ….25…. [A. notable B. liable C. credible D. flexible]   <br><br> \n     <br><br>      <br><br>     In question number 23 above, choose the best option from letters A - D that best completes the gap.\n                        \n                        \n                        \n                            A command\n                            \n                        \n                        \n                            B demand\n                            \n                        \n                        \n                            C warming\n                            \n                        \n                        \n                            D supply\n                            \n                        \n                        \n                        \n                            \n                                \n                                    Answer & Comment\n                                    \n                                    C\n                                \n                                \n                                \n                                     \n                                    \n                                    \n                                \n                                \n                                \n                                    \n                                                                                \n                                            Comment",
+    "option_a": "command",
+    "option_b": "demand",
+    "option_c": "warming",
+    "option_d": "supply",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "<br><br>    The passage below has gaps numbered 16 to 25. Immediately following each gap, four options are provided. Choose the most appropriate option for each gap. Each question carries 2 marks. \n   Believe it or not, change is to human existence what the blood is to the human body. We live in era of amazing …. 16…. [A. well-defined B. fast-paced C. favourable D. social]  change spawned by advancing technology and industrialization. However, man’s  …17…. [A. knowledge of B. attitude to C. commitment to D. opinion of] promoting and defending change in a deliberate effort to establish…18… [A. customs B. companies C. trade-zones D. variations] that stimulate advancement for man’s concern is proving unfavourable to the climate with threatening ...19… [A. repercussions B. clouds C. pressure D. implication].  <br><br> Human-induced climate change has awakened widespread concern across the globe. As a matter of fact, climate change is now 20 [A. an acceptable B. a foremost C. the only D. the last]  global issue. It is a major test of Africa’s ….21…. [A. popularity B. energy C. ingenuity D. incapability] ! the fourth Assessment Report {AR4} of the intergovernmental Panel on Climate Change (IPCC) confirmed that human actions are changing the earth’s climate and creating maker disturbances in human ….22…[A. geography B. societies C. systems D life] and ecosystems.   The IPCC reports that the world has warned by an average of 0.76oC since pre-industrial times. The rising global  …23…. [A. command B. demand C. warming D. supply] for energy and the adverse changes in the climate put the earth and its inhabitants in a catch -22 situation. <br><br> Again, if the effects of climate change on each were commensurate with the level of greenhouse  …24 …. [A. structure B. paints C. emulsion D. emissions]  in spews out, perhaps Africa would have been spared and would probably be just an amused spectator. But it is, this is not the case. Here again, we see well-meaning global citizens appealing for the rest of the world to take responsibility for the problems of Africa, a strategy that cannot, thus far, termed  ….25…. [A. notable B. liable C. credible D. flexible]   <br><br> \n     <br><br>      <br><br>     In question number 24 above, choose the best option from letters A - D that best completes the gap.\n                        \n                        \n                        \n                            A structure\n                            \n                        \n                        \n                            B paints\n                            \n                        \n                        \n                            C emulsion\n                            \n                        \n                        \n                            D emissions\n                            \n                        \n                        \n                        \n                            \n                                \n                                    Answer & Comment\n                                    \n                                    D\n                                \n                                \n                                \n                                     \n                                    \n                                    \n                                \n                                \n                                \n                                    \n                                                                                \n                                            Comment",
+    "option_a": "structure",
+    "option_b": "paints",
+    "option_c": "emulsion",
+    "option_d": "emissions",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "<br><br>    The passage below has gaps numbered 16 to 25. Immediately following each gap, four options are provided. Choose the most appropriate option for each gap. Each question carries 2 marks. \n   Believe it or not, change is to human existence what the blood is to the human body. We live in era of amazing …. 16…. [A. well-defined B. fast-paced C. favourable D. social]  change spawned by advancing technology and industrialization. However, man’s  …17…. [A. knowledge of B. attitude to C. commitment to D. opinion of] promoting and defending change in a deliberate effort to establish…18… [A. customs B. companies C. trade-zones D. variations] that stimulate advancement for man’s concern is proving unfavourable to the climate with threatening ...19… [A. repercussions B. clouds C. pressure D. implication].  <br><br> Human-induced climate change has awakened widespread concern across the globe. As a matter of fact, climate change is now 20 [A. an acceptable B. a foremost C. the only D. the last]  global issue. It is a major test of Africa’s ….21…. [A. popularity B. energy C. ingenuity D. incapability] ! the fourth Assessment Report {AR4} of the intergovernmental Panel on Climate Change (IPCC) confirmed that human actions are changing the earth’s climate and creating maker disturbances in human ….22…[A. geography B. societies C. systems D life] and ecosystems.   The IPCC reports that the world has warned by an average of 0.76oC since pre-industrial times. The rising global  …23…. [A. command B. demand C. warming D. supply] for energy and the adverse changes in the climate put the earth and its inhabitants in a catch -22 situation. <br><br> Again, if the effects of climate change on each were commensurate with the level of greenhouse  …24 …. [A. structure B. paints C. emulsion D. emissions]  in spews out, perhaps Africa would have been spared and would probably be just an amused spectator. But it is, this is not the case. Here again, we see well-meaning global citizens appealing for the rest of the world to take responsibility for the problems of Africa, a strategy that cannot, thus far, termed  ….25…. [A. notable B. liable C. credible D. flexible]   <br><br> \n     <br><br>      <br><br>     In question number 25 above, choose the best option from letters A - D that best completes the gap.\n                        \n                        \n                        \n                            A notable\n                            \n                        \n                        \n                            B liable\n                            \n                        \n                        \n                            C credible\n                            \n                        \n                        \n                            D flexible\n                            \n                        \n                        \n                        \n                            \n                                \n                                    Answer & Comment\n                                    \n                                    B\n                                \n                                \n                                \n                                     \n                                    \n                                    \n                                \n                                \n                                \n                                    \n                                                                                \n                                            Comment",
+    "option_a": "notable",
+    "option_b": "liable",
+    "option_c": "credible",
+    "option_d": "flexible",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "select the option that best explains the information conveyed in the sentence. My eldest son, who is in Lagos, studying English.",
+    "option_a": "only my son is in lagos studying english",
+    "option_b": "my only son is in lagos studying english",
+    "option_c": "one of my sons is in lagos studying english",
+    "option_d": "my sons are in lagos but, only one is studying english",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "Select the option that best explains the information conveyed in the sentence. If I went to the village I would visit the King.",
+    "option_a": "If i go to the village, i will visit the king",
+    "option_b": "I did not go to the village and I did not visit the king",
+    "option_c": "All the times I went to the village I also visited the king",
+    "option_d": "I will visit the king when I go to the village",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option nearest in meaning to the underlined word(s). <br><br> Since its <u>inception</u>  1983, the newspaper has attracted thousands of readers?",
+    "option_a": "renaissance",
+    "option_b": "coming",
+    "option_c": "commencement",
+    "option_d": "publication",
+    "answer": "C",
+    "solution": ""
+  }
+]

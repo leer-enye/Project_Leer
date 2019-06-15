@@ -1,0 +1,902 @@
+﻿[
+  {
+    "question": "Select the option that best explains the information conveyed in the sentence. <br><br> The minister considered the ministry's budget to be a drop in the ocean in view of the number of projects in the pipeline.",
+    "option_a": "The pipeline project across the ocean will be abandoned unless budgetary allocation improves",
+    "option_b": "The amount available may be inadequate for projected expenditure",
+    "option_c": "The minister may be dropped for failing to complete a number of projects",
+    "option_d": "The money approved cannont complete the pipeline project acorss the ocean",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "Select the option that best explains the information conveyed in the sentence.<br><br> The police are looking for the woman who farmed her children out to her neighbours.",
+    "option_a": "The police wanted the woman for allowing her children to destroy her neighbour's crops.",
+    "option_b": "The woman and her children are in the habit of working in neighbour's farms and the police are not well disposed to this",
+    "option_c": "The police may arrest the woman for allowing her heighbours to take care of her children.",
+    "option_d": "The woman may be arrested for allowing her children to be a nuisance to her neighbours",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "Select the option that best explains the information conveyed in the sentence. <br><br>Jummai's father remarked that pigs would fly before she passed.",
+    "option_a": "She would have to cheat in order to pass.",
+    "option_b": "It would be possible to pass only if she worked harder.",
+    "option_c": "It would never be possible for her to pass.",
+    "option_d": "He would have to bribe her teachers to enable her to pass.",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "Select the option that best explains the information conveyed in the sentence.<br><br>The president said that he found himself between a rock and a hard place when the press said that he has resigned.",
+    "option_a": "Hard places are dangerous  for the president.",
+    "option_b": "He dreamt that he was abandoned.",
+    "option_c": "He thought that hard places were unsafe.",
+    "option_d": "He had a hard decision to make.",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "Select the option that best explains the information conveyed in the sentence.<br><br>Kunana is like a bear in the sore head.",
+    "option_a": "He is a bully.",
+    "option_b": "He is grumpy.",
+    "option_c": "He is ugly.",
+    "option_d": "He is quiet.",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "Select the option that best explains the information conveyed in the sentence <br><br>.Olu gave his brother a bumpy ride.",
+    "option_a": "Olu's brother rode on Olu's back to success.",
+    "option_b": "Olu took his brother on a bumpy road.",
+    "option_c": "Olu gave his brother a difficult time.",
+    "option_d": "Olu gave his brother a ride on his car.",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "Select the option that best explains the information conveyed in the sentence.<br><br> Adeola doesn't have to go to the farm today.",
+    "option_a": "Adeola may go to the farm today if he so wishes.",
+    "option_b": "Adeola ought not to have gone to the farm today.",
+    "option_c": "Adeola must not go to the farm today.",
+    "option_d": "Adeola should not go to the farm today.",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "Select the option that best explains the information conveyed in the sentence. <br><br>My boss asked me to take my eyes off the ball.",
+    "option_a": "I should stop paying attention to what is most important.",
+    "option_b": "I should be focused when i am about to stay off football.",
+    "option_c": "I should stay off football after sustaining an injuiry.",
+    "option_d": "I should be focused when playing football.",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "Select the option that best explains the information conveyed in the sentence. <br><br>The robber was hedged in by the people.",
+    "option_a": "The robber was surrounded  by the people.",
+    "option_b": "The robber was killed by the people.",
+    "option_c": "The robber was exposed by the people.",
+    "option_d": "The robber was caught by the people.",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "Select the option that best explains the information conveyed in the sentence. <br><br>Many workers are not happy because they live a hand-to-mouth life.",
+    "option_a": "They work hard with their hands.",
+    "option_b": "They are voracious and avaricious.",
+    "option_c": "They are barely surviving.",
+    "option_d": "They have rejected the use of spoons.",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option opposite in meaning to the underlined word or phrase. <br><br> Prolonged strike action <u>debilitated</u> the industry.",
+    "option_a": "Stroyed.",
+    "option_b": "Invigorated.",
+    "option_c": "Isolated.",
+    "option_d": "Weakened.",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option opposite in meaning to the underlined word or phrase. <br><br> One of the students bought a <u>plagiarised</u> copy of the book.",
+    "option_a": "An annotated.",
+    "option_b": "A used.",
+    "option_c": "An original.",
+    "option_d": "A revised.",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option opposite in meaning to the underlined word or phrase. <br><br>The young girl was taken <u>aback</u> by her father's gift of a car.",
+    "option_a": "Nonplussed.",
+    "option_b": "Shocked.",
+    "option_c": "Unmoved.",
+    "option_d": "Surprised.",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option opposite in meaning to the underlined word or phrase.<br><br> Musa is a gifted but <u>erratic</u> player.",
+    "option_a": "Unstable.",
+    "option_b": "Strong.",
+    "option_c": "Regular.",
+    "option_d": "Unpredictable.",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option opposite in meaning to the underlined word or phrase.<br><br> The lamp shades were <u>translucent</u>.",
+    "option_a": "Transparent.",
+    "option_b": "Opaque.",
+    "option_c": "Intersected.",
+    "option_d": "Luminous.",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option opposite in meaning to the underlined word or phrase.<br><br> My niece has an <u>unquenchable</u> thirst for adventure stories.",
+    "option_a": "An inextinguishable.",
+    "option_b": "A spurious.",
+    "option_c": "An illegitimate.",
+    "option_d": "A reduced.",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option opposite in meaning to the underlined word or phrase.<br><br> Some of my neighbours have an <u>antipathy</u> to dogs.",
+    "option_a": "Alarm for.",
+    "option_b": "Enmity towards.",
+    "option_c": "Affection for.",
+    "option_d": "Acronym for.",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option opposite in meaning to the underlined word or phrase.<br><br> The dressmaker <u>unpicked</u> the seam of the shirt.",
+    "option_a": "Tore up.",
+    "option_b": "Threaded.",
+    "option_c": "Sewed up.",
+    "option_d": "Picked up.",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option opposite in meaning to the underlined word or phrase. <br><br>The testimony of the witness was <u>vague</u>.",
+    "option_a": "Clear.",
+    "option_b": "Disturbing.",
+    "option_c": "True.",
+    "option_d": "Ambiguous.",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option opposite in meaning to the underlined word or phrase. <br><br>As a student, Isa tied <u>communal</u> living for a few years.",
+    "option_a": "Private.",
+    "option_b": "Collective.",
+    "option_c": "General.",
+    "option_d": "Shared.",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option nearest in meaning to the underlined word or phrase. <br><br>The chairman admires <u>incessant</u> meetings.",
+    "option_a": "Irregular.",
+    "option_b": "Unusual.",
+    "option_c": "Planned.",
+    "option_d": "Constant.",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option nearest in meaning to the underlined word or phrase.<br><br> Today's weather is <u>favourable</u> for a game of tennis.",
+    "option_a": "Disapproving.",
+    "option_b": "Impartial.",
+    "option_c": "Abnormal.",
+    "option_d": "Encouraging.",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option nearest in meaning to the underlined word or phrase.<br><br> All the candidates looked <u>aghast</u> at the reading of the questions.",
+    "option_a": "Relaxed.",
+    "option_b": "Fulfilled.",
+    "option_c": "Dismayed.",
+    "option_d": "Satisfied.",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option nearest in meaning to the underlined word or phrase.<br><br> Joke gave Muhammad a <u>jaunty</u> smile.",
+    "option_a": "A cheerful.",
+    "option_b": "A discouraging.",
+    "option_c": "An inviting.",
+    "option_d": "A frightful.",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option nearest in meaning to the underlined word or phrase.<br><br> The first round of the tournament was a <u>doddle.</u>",
+    "option_a": "Exasperating.",
+    "option_b": "Easy.",
+    "option_c": "Balanced.",
+    "option_d": "Dodgy.",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option nearest in meaning to the underlined word or phrase. The lazy man cast a <u>lustful</u> glance at his neighbour's wife.",
+    "option_a": "Envious.",
+    "option_b": "Hateful.",
+    "option_c": "quick.",
+    "option_d": "Covetous.",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option nearest in meaning to the underlined word or phrase. They accused him of <u>fomenting</u> political unrest.",
+    "option_a": "Guiding.",
+    "option_b": "Inciting.",
+    "option_c": "Discouraging.",
+    "option_d": "Preventing.",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option nearest in meaning to the underlined word or phrase. You can <u>learn</u> a great deal just from watching other players.",
+    "option_a": "Discover.",
+    "option_b": "Invent.",
+    "option_c": "Accumulate.",
+    "option_d": "Allow.",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option nearest in meaning to the underlined word or phrase. All the researchers were asked to <u>gather</u> information on the new viral infection.",
+    "option_a": "Give.",
+    "option_b": "Collect.",
+    "option_c": "Disseminate.",
+    "option_d": "Distort.",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option nearest in meaning to the underlined word or phrase. The dispute between the two countries has resulted in the <u>severing</u> of diplomatic relations.",
+    "option_a": "Strenghtening.",
+    "option_b": "Breaking.",
+    "option_c": "Securing.",
+    "option_d": "Swapping.",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option that best complete the gap.<br><br> The house and the senate will at noon next Wednesday, _________ to hear a special address by the president.",
+    "option_a": "A Collude.",
+    "option_b": "B Convene.",
+    "option_c": "C Adjourn.",
+    "option_d": "D Rise.",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option that best complete the gap.<br><br> At the _________ of the century, many ways of doing things were introduced.",
+    "option_a": "Sight.",
+    "option_b": "Turn.",
+    "option_c": "Event.",
+    "option_d": "Birth.",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option that best complete the gap.<br><br> You may have the pencil, but you can't have the ballpoint ________.",
+    "option_a": "As well.",
+    "option_b": "Either.",
+    "option_c": "Futhermore.",
+    "option_d": "Also.",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option that best complete the gap.<br><br> The president said that the country was not out of the _____ yet.",
+    "option_a": "Wood.",
+    "option_b": "Forest.",
+    "option_c": "Fog.",
+    "option_d": "Water.",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option that best complete the gap.<br><br> He went to the restaurant to enjoy the special _____.",
+    "option_a": "Chef.",
+    "option_b": "Suite.",
+    "option_c": "Cuisine.",
+    "option_d": "A  la carte.",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option that best complete the gap.<br><br> The invigilator _____ to know how long the examination _____ going on.",
+    "option_a": "Wanted/ had been.",
+    "option_b": "Wanted/ has been.",
+    "option_c": "Want/had been.",
+    "option_d": "Wanted/have been.",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option that best complete the gap.<br><br> The guard spent all the night pacing _____.",
+    "option_a": "To and fro.",
+    "option_b": "From and to.",
+    "option_c": "Fro and to.",
+    "option_d": "To and from.",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option that best complete the gap.<br><br> The woman refused to testify ______ her husband.",
+    "option_a": "From.",
+    "option_b": "In.",
+    "option_c": "At.",
+    "option_d": "Against.",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option that best complete the gap.<br><br> A bike must have found the very interesting movies quite _____.",
+    "option_a": "Perverting.",
+    "option_b": "Absolving.",
+    "option_c": "Absorbing.",
+    "option_d": "Nauseating.",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option that best complete the gap.<br><br> The words _____ divided between the end of one line.",
+    "option_a": "Has being.",
+    "option_b": "Have been.",
+    "option_c": "Have being.",
+    "option_d": "Has been.",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option that best complete the gap.<br><br> Those _____ are very beautiful.",
+    "option_a": "Flowers of ours.",
+    "option_b": "Flowers of her.",
+    "option_c": "Flowers of her's.",
+    "option_d": "Our flowers.",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option that best complete the gap.<br><br> Cooking has never been Jumoke's _____.",
+    "option_a": "Forte.",
+    "option_b": "Recital.",
+    "option_c": "Conduct",
+    "option_d": "Style.",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option that best complete the gap.<br><br> when the strike is over, there will probably be an increase in wages and a _____ increase in prices.",
+    "option_a": "Chronic.",
+    "option_b": "Sporadic.",
+    "option_c": "Concordant.",
+    "option_d": "Concurrent.",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option that best complete the gap.<br><br> My mother was _____ annoyed with me for coming late.",
+    "option_a": "Just.",
+    "option_b": "Very.",
+    "option_c": "Neither.",
+    "option_d": "Hotly.",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option that best complete the gap.<br><br> The chairman is too much _____ an idealist for coming late.",
+    "option_a": "With.",
+    "option_b": "From.",
+    "option_c": "About.`",
+    "option_d": "Of.",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option that best complete the gap.<br><br> The clock _____ 12 o'clock two hours ago.",
+    "option_a": "Striking.",
+    "option_b": "Strikes.",
+    "option_c": "Strike.",
+    "option_d": "Struck.",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option that best complete the gap.<br><br> What is the jury's _____ the matter.",
+    "option_a": "Verdict with.",
+    "option_b": "Verdict on.",
+    "option_c": "Verdict at.",
+    "option_d": "Verdict from.",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option that best complete the gap.<br><br> The unconscious man was _____ after receiving first aid.",
+    "option_a": "Revived.",
+    "option_b": "Reawakened.",
+    "option_c": "Reformed.",
+    "option_d": "Restored.",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option that best complete the gap.<br><br> The laughter _____ his face for a moment.",
+    "option_a": "Remade.",
+    "option_b": "Improved.",
+    "option_c": "Controlled.",
+    "option_d": "Animated.",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option that best complete the gap.<br><br> She traced  her family history _____ matrilineal.",
+    "option_a": "At.",
+    "option_b": "In.",
+    "option_c": "By.",
+    "option_d": "With.",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option that has the same vowel sound as the one represented by the letter underlined.<br><br> c<u>oo</u>l.",
+    "option_a": "Should.",
+    "option_b": "Full.",
+    "option_c": "Luke.",
+    "option_d": "Look.",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option that has the same vowel sound as the one represented by the letter underlined.<br><br> Od<u>our</u>.",
+    "option_a": "Floor.",
+    "option_b": "Flow.",
+    "option_c": "Sugar.",
+    "option_d": "Hold.",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option that has the same vowel sound as the one represented by the letter underlined.<br><br> P<u>al</u>m.",
+    "option_a": "Plait.",
+    "option_b": "Ranch.",
+    "option_c": "Florid.",
+    "option_d": "Launch.",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option that has the same consonant sound as the one represented by the letter underlined.<br><br> Vi<u>s</u>ion.",
+    "option_a": "Enclosure.",
+    "option_b": "Instruction.",
+    "option_c": "Mansion.",
+    "option_d": "Nation.",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option that has the same consonant sound as the one represented by the letter underlined.<br><br> <u>G</u>nash.",
+    "option_a": "Ring.",
+    "option_b": "Forge.",
+    "option_c": "New.",
+    "option_d": "King.",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option that has the same consonant sound as the one represented by the letter underlined.<br><br> Epita<u>ph</u>.",
+    "option_a": "Pneumonia.",
+    "option_b": "Pseudo.",
+    "option_c": "Fan.",
+    "option_d": "Paper.",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option that rhymes with the given word.<br><br> Ever.",
+    "option_a": "Heavier.",
+    "option_b": "Favour.",
+    "option_c": "Fever.",
+    "option_d": "Never.",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option that rhymes with the given word.<br><br> Keep.",
+    "option_a": "Dead.",
+    "option_b": "Reap.",
+    "option_c": "Seethe.",
+    "option_d": "Threat.",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option that rhymes with the given word. Tax.",
+    "option_a": "Ask.",
+    "option_b": "Box.",
+    "option_c": "Lacks.",
+    "option_d": "Back.",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "choose the most appropriate stress pattern from the options.<br><br> Valedictory.",
+    "option_a": "vaLEdictory.",
+    "option_b": "valeDICtory.",
+    "option_c": "valedicTORY.",
+    "option_d": "VALedictory.",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "Choose the most appropriate stress pattern from the option.<br><br> Congratulation.",
+    "option_a": "conGRAtulation.",
+    "option_b": "congraTUlation.",
+    "option_c": "congratuLAtion.",
+    "option_d": "CONgratulation.",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "Choose the most appropriate stress pattern from the option.<br><br> Conspiracy.",
+    "option_a": "CONspiracy.",
+    "option_b": "conspiRAcy.",
+    "option_c": "conspiraCY",
+    "option_d": "conSPI racy.",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "The word in capital letter has the emphatic stress. choose the option in which the given sentence relates.<br><br> My mother bought a BICYCLE yesterday.",
+    "option_a": "When did my mother buy a bicycle?",
+    "option_b": "what did my mother buy yesterday?",
+    "option_c": "Whose mother bought a bicycle yesterday?",
+    "option_d": "Did my mother steal a bicycle yeaterday?",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "The word in capital letter has the emphatic stress. choose the option in which the given sentence relates.<br><br>  AMINA went to Abuja by air.",
+    "option_a": "Did Amina go to Jos by air?",
+    "option_b": "Is Amina going to Abuja by air?",
+    "option_c": "Who went to Abuja by air?",
+    "option_d": "Did Amina go to Abuja by road?",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "The word in capital letter has the emphatic stress. choose the option in which the given sentence relates.<br><br> Musa is STAYING in Enugu.",
+    "option_a": "Was Musa staying in Enugu?",
+    "option_b": "Is Musa going through Enugu?",
+    "option_c": "Is Musa staying on the outskirt of Enugu?",
+    "option_d": "Is Audu staying in Enugu?",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "<br><br>  Political change and social transformation in the form of revolutions have radically altered the course of human civilization and history. Today, the world is witnessing political and social changes arising from the desire of people all over the globe for greater freedom and a voice in the way they are governed and a better standard of living. Pan of these struggles and processes have become more pronounced in the Third World since the end of the East-West cold War in the late 1980's, and in the face of the challenges being posed by the ongoing process of globalization.<br><br>   While political and social changes may appear to be distinct phenomena, they are analytically inseparable. Political and social changes refer to alteration or transformations in human behavior, norms and politico-social institutions. Such changes are often a collective response to the need to change, or as a tacit recognition of a shift in the prevalent power relations in the society. Therefore, the coming to power of a new set of rulers, or the establishment of new structure and processes of governance broadly typifies socio-political changes.<br><br>   It is important to note that changes can either be positive or negative. In most cases, political and social changes are caused by certain factors or reasons. This push people to collectively organize themselves to struggle for a change in the existing power relations. Another reason is to capture political power in the hope of making life better for the generality of the people. If politics is defined as who gels what, when and how; It then implies that political change refers to an alteration in the form of power and the identity of the group or class which controls the wields states power.\n\n            <br><br>     \n\n    \n\n    Which of the following is true according to the passage?\n         \n         \n         \n             A Change is inevitable\n             \n         \n         \n             B Change is inimitable\n             \n         \n         \n             C Change is inestimable\n             \n         \n         \n             D Change is invaluable\n             \n         \n         \n         \n             \n  \n      Answer & Comment\n      \n      A\n  \n  \n  \n       \n      \n      \n  \n  \n  \n      \n     \n              Comment",
+    "option_a": "Change is inevitable",
+    "option_b": "Change is inimitable",
+    "option_c": "Change is inestimable",
+    "option_d": "Change is invaluable",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "<br><br>  Political change and social transformation in the form of revolutions have radically altered the course of human civilization and history. Today, the world is witnessing political and social changes arising from the desire of people all over the globe for greater freedom and a voice in the way they are governed and a better standard of living. Pan of these struggles and processes have become more pronounced in the Third World since the end of the East-West cold War in the late 1980's, and in the face of the challenges being posed by the ongoing process of globalization.<br><br>   While political and social changes may appear to be distinct phenomena, they are analytically inseparable. Political and social changes refer to alteration or transformations in human behavior, norms and politico-social institutions. Such changes are often a collective response to the need to change, or as a tacit recognition of a shift in the prevalent power relations in the society. Therefore, the coming to power of a new set of rulers, or the establishment of new structure and processes of governance broadly typifies socio-political changes.<br><br>   It is important to note that changes can either be positive or negative. In most cases, political and social changes are caused by certain factors or reasons. This push people to collectively organize themselves to struggle for a change in the existing power relations. Another reason is to capture political power in the hope of making life better for the generality of the people. If politics is defined as who gels what, when and how; It then implies that political change refers to an alteration in the form of power and the identity of the group or class which controls the wields states power.\n\n            <br><br>     \n\n    \n\n    It can be deduced from the passage that political and social changes are\n         \n         \n         \n             A repulsive\n             \n         \n         \n             B Intertwined\n             \n         \n         \n             C Antithetical\n             \n         \n         \n             D Independent\n             \n         \n         \n         \n             \n  \n      Answer & Comment\n      \n      B\n  \n  \n  \n       \n      \n      \n  \n  \n  \n      \n     \n              Comment",
+    "option_a": "repulsive",
+    "option_b": "Intertwined",
+    "option_c": "Antithetical",
+    "option_d": "Independent",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "<br><br>  Political change and social transformation in the form of revolutions have radically altered the course of human civilization and history. Today, the world is witnessing political and social changes arising from the desire of people all over the globe for greater freedom and a voice in the way they are governed and a better standard of living. Pan of these struggles and processes have become more pronounced in the Third World since the end of the East-West cold War in the late 1980's, and in the face of the challenges being posed by the ongoing process of globalization.<br><br>   While political and social changes may appear to be distinct phenomena, they are analytically inseparable. Political and social changes refer to alteration or transformations in human behavior, norms and politico-social institutions. Such changes are often a collective response to the need to change, or as a tacit recognition of a shift in the prevalent power relations in the society. Therefore, the coming to power of a new set of rulers, or the establishment of new structure and processes of governance broadly typifies socio-political changes.<br><br>   It is important to note that changes can either be positive or negative. In most cases, political and social changes are caused by certain factors or reasons. This push people to collectively organize themselves to struggle for a change in the existing power relations. Another reason is to capture political power in the hope of making life better for the generality of the people. If politics is defined as who gels what, when and how; It then implies that political change refers to an alteration in the form of power and the identity of the group or class which controls the wields states power.\n\n            <br><br>     \n\n    \n\n    A suitable title for this passage is\n         \n         \n         \n             A Social Change and Political Empowerment\n             \n         \n         \n             B Reasons for Political Change\n             \n         \n         \n             C The Struggle for Political Power\n             \n         \n         \n             D Elements of Politics\n             \n         \n         \n         \n             \n  \n      Answer & Comment\n      \n      D\n  \n  \n  \n       \n      \n      \n  \n  \n  \n      \n     \n              Comment\n              \n   \n  \n          \n          \n              \n              \n              \n          \n      \n  \n             \n         \n          \n             \n  Advertisement<br><br> \n(adsbygoogle = window.adsbygoogle || []).push({});",
+    "option_a": "Social Change and Political Empowerment",
+    "option_b": "Reasons for Political Change",
+    "option_c": "The Struggle for Political Power",
+    "option_d": "Elements of Politics",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "<br><br>  Political change and social transformation in the form of revolutions have radically altered the course of human civilization and history. Today, the world is witnessing political and social changes arising from the desire of people all over the globe for greater freedom and a voice in the way they are governed and a better standard of living. Pan of these struggles and processes have become more pronounced in the Third World since the end of the East-West cold War in the late 1980's, and in the face of the challenges being posed by the ongoing process of globalization.<br><br>   While political and social changes may appear to be distinct phenomena, they are analytically inseparable. Political and social changes refer to alteration or transformations in human behavior, norms and politico-social institutions. Such changes are often a collective response to the need to change, or as a tacit recognition of a shift in the prevalent power relations in the society. Therefore, the coming to power of a new set of rulers, or the establishment of new structure and processes of governance broadly typifies socio-political changes.<br><br>   It is important to note that changes can either be positive or negative. In most cases, political and social changes are caused by certain factors or reasons. This push people to collectively organize themselves to struggle for a change in the existing power relations. Another reason is to capture political power in the hope of making life better for the generality of the people. If politics is defined as who gels what, when and how; It then implies that political change refers to an alteration in the form of power and the identity of the group or class which controls the wields states power.\n\n            <br><br>     \n\n    \n\n    The word alteration, as used in the passage, means\n         \n         \n         \n             A Complication\n             \n         \n         \n             B Multiplication\n             \n         \n         \n             C Recognition\n             \n         \n         \n             D Modification\n             \n         \n         \n         \n             \n  \n      Answer & Comment\n      \n      D\n  \n  \n  \n       \n      \n      \n  \n  \n  \n      \n     \n              Comment",
+    "option_a": "Complication",
+    "option_b": "Multiplication",
+    "option_c": "Recognition",
+    "option_d": "Modification",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "<br><br>  Like all reptiles, snakes are cold blooded, or more correctly, ectothermic - they cannot produce their own body heat; instead, they rely on the sun to heat their bodies. Because they do not rely on energy from food to generate body heat, snakes can survive on an extremely meager diet. some wait for months between successive meals, and a few survive by eating a large meal just once or twice a year. When they do eat, snakes swallow their prey whole rather than biting off small piece. Many snakes have specialized jaws that enable them to swallow animals that are far larger  than their own heads. Although uncommon,  some snakes, such as the African rock python, have been observed eating animals as large as an antelope or a small cow.<br><br> With over two thousand five hundred species belonging to more than ten families, snakes are a large and successful groups. They owe much of this success to their versatility - snakes occupy habitat ranging from  underground burrows to the top of the tree, to ocean depths as great as one hundred and fifty meters. They are found on every continent except Antarctica, and although they are most abundant in tropical areas, many survive in regions marked by extreme cold. The only places without snakes are parts of the polar regions and isolated islands, such as the Republic of Ireland and New-Zealand as opposed to places in Nigeria like Plateau and Gombe States in the Northern part where there is a large population of snakes.\n\n            <br><br>     \n\n    \n\n    It can be inferred from the passage that snakes are\n         \n         \n         \n             A Homogeneous reptiles\n             \n         \n         \n             B Heterogeneous creatures\n             \n         \n         \n             C Voracious cow eaters\n             \n         \n         \n             D Great insect eaters\n             \n         \n         \n         \n             \n  \n      Answer & Comment\n      \n      B\n  \n  \n  \n       \n      \n      \n  \n  \n  \n      \n     \n              Comment",
+    "option_a": "Homogeneous reptiles",
+    "option_b": "Heterogeneous creatures",
+    "option_c": "Voracious cow eaters",
+    "option_d": "Great insect eaters",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "<br><br>  Like all reptiles, snakes are cold blooded, or more correctly, ectothermic - they cannot produce their own body heat; instead, they rely on the sun to heat their bodies. Because they do not rely on energy from food to generate body heat, snakes can survive on an extremely meager diet. some wait for months between successive meals, and a few survive by eating a large meal just once or twice a year. When they do eat, snakes swallow their prey whole rather than biting off small piece. Many snakes have specialized jaws that enable them to swallow animals that are far larger  than their own heads. Although uncommon,  some snakes, such as the African rock python, have been observed eating animals as large as an antelope or a small cow.<br><br> With over two thousand five hundred species belonging to more than ten families, snakes are a large and successful groups. They owe much of this success to their versatility - snakes occupy habitat ranging from  underground burrows to the top of the tree, to ocean depths as great as one hundred and fifty meters. They are found on every continent except Antarctica, and although they are most abundant in tropical areas, many survive in regions marked by extreme cold. The only places without snakes are parts of the polar regions and isolated islands, such as the Republic of Ireland and New-Zealand as opposed to places in Nigeria like Plateau and Gombe States in the Northern part where there is a large population of snakes.\n\n            <br><br>     \n\n    \n\n    The most notable thing about snakes, according to the passage, is that they\n         \n         \n         \n             A Exist in families\n             \n         \n         \n             B Abound in Gombe and Plateau States\n             \n         \n         \n             C Are versatile in reproduction\n             \n         \n         \n             D Eat big but seldom\n             \n         \n         \n         \n             \n  \n      Answer & Comment\n      \n      D\n  \n  \n  \n       \n      \n      \n  \n  \n  \n      \n     \n              Comment",
+    "option_a": "Exist in families",
+    "option_b": "Abound in Gombe and Plateau States",
+    "option_c": "Are versatile in reproduction",
+    "option_d": "Eat big but seldom",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "<br><br>  Like all reptiles, snakes are cold blooded, or more correctly, ectothermic - they cannot produce their own body heat; instead, they rely on the sun to heat their bodies. Because they do not rely on energy from food to generate body heat, snakes can survive on an extremely meager diet. some wait for months between successive meals, and a few survive by eating a large meal just once or twice a year. When they do eat, snakes swallow their prey whole rather than biting off small piece. Many snakes have specialized jaws that enable them to swallow animals that are far larger  than their own heads. Although uncommon,  some snakes, such as the African rock python, have been observed eating animals as large as an antelope or a small cow.<br><br> With over two thousand five hundred species belonging to more than ten families, snakes are a large and successful groups. They owe much of this success to their versatility - snakes occupy habitat ranging from  underground burrows to the top of the tree, to ocean depths as great as one hundred and fifty meters. They are found on every continent except Antarctica, and although they are most abundant in tropical areas, many survive in regions marked by extreme cold. The only places without snakes are parts of the polar regions and isolated islands, such as the Republic of Ireland and New-Zealand as opposed to places in Nigeria like Plateau and Gombe States in the Northern part where there is a large population of snakes.\n\n            <br><br>     \n\n    \n\n    Which of the following is true according to the passage?\n         \n         \n         \n             A Snakes are seldom seen at the Antarctica.\n             \n         \n         \n             B Snakes are not in the polar regions.\n             \n         \n         \n             C Snakes are endemic on every continent.\n             \n         \n         \n             D There are countless number of snakes in the Republic of Ireland.\n             \n         \n         \n         \n             \n  \n      Answer & Comment\n      \n      C\n  \n  \n  \n       \n      \n      \n  \n  \n  \n      \n     \n              Comment",
+    "option_a": "Snakes are seldom seen at the Antarctica.",
+    "option_b": "Snakes are not in the polar regions.",
+    "option_c": "Snakes are endemic on every continent.",
+    "option_d": "There are countless number of snakes in the Republic of Ireland.",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "<br><br>  Like all reptiles, snakes are cold blooded, or more correctly, ectothermic - they cannot produce their own body heat; instead, they rely on the sun to heat their bodies. Because they do not rely on energy from food to generate body heat, snakes can survive on an extremely meager diet. some wait for months between successive meals, and a few survive by eating a large meal just once or twice a year. When they do eat, snakes swallow their prey whole rather than biting off small piece. Many snakes have specialized jaws that enable them to swallow animals that are far larger  than their own heads. Although uncommon,  some snakes, such as the African rock python, have been observed eating animals as large as an antelope or a small cow.<br><br> With over two thousand five hundred species belonging to more than ten families, snakes are a large and successful groups. They owe much of this success to their versatility - snakes occupy habitat ranging from  underground burrows to the top of the tree, to ocean depths as great as one hundred and fifty meters. They are found on every continent except Antarctica, and although they are most abundant in tropical areas, many survive in regions marked by extreme cold. The only places without snakes are parts of the polar regions and isolated islands, such as the Republic of Ireland and New-Zealand as opposed to places in Nigeria like Plateau and Gombe States in the Northern part where there is a large population of snakes.\n\n            <br><br>     \n\n    \n\n    It can be deduced from the passage that snakes have\n         \n         \n         \n             A Large appetite for antelopes\n             \n         \n         \n             B No external auditory organ\n             \n         \n         \n             C Visible internal locomotive organs\n             \n         \n         \n             D No visual sense of measurement\n             \n         \n         \n         \n             \n  \n      Answer & Comment\n      \n      D\n  \n  \n  \n       \n      \n      \n  \n  \n  \n      \n     \n              Comment\n              \n   \n  \n          \n          \n              \n              \n              \n          \n      \n  \n             \n         \n          \n             \n  Advertisement<br><br> \n(adsbygoogle = window.adsbygoogle || []).push({});",
+    "option_a": "Large appetite for antelopes",
+    "option_b": "No external auditory organ",
+    "option_c": "Visible internal locomotive organs",
+    "option_d": "No visual sense of measurement",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "<br><br>  Like all reptiles, snakes are cold blooded, or more correctly, ectothermic - they cannot produce their own body heat; instead, they rely on the sun to heat their bodies. Because they do not rely on energy from food to generate body heat, snakes can survive on an extremely meager diet. some wait for months between successive meals, and a few survive by eating a large meal just once or twice a year. When they do eat, snakes swallow their prey whole rather than biting off small piece. Many snakes have specialized jaws that enable them to swallow animals that are far larger  than their own heads. Although uncommon,  some snakes, such as the African rock python, have been observed eating animals as large as an antelope or a small cow.<br><br> With over two thousand five hundred species belonging to more than ten families, snakes are a large and successful groups. They owe much of this success to their versatility - snakes occupy habitat ranging from  underground burrows to the top of the tree, to ocean depths as great as one hundred and fifty meters. They are found on every continent except Antarctica, and although they are most abundant in tropical areas, many survive in regions marked by extreme cold. The only places without snakes are parts of the polar regions and isolated islands, such as the Republic of Ireland and New-Zealand as opposed to places in Nigeria like Plateau and Gombe States in the Northern part where there is a large population of snakes.\n\n            <br><br>     \n\n    \n\n    A suitable title for this passage is\n         \n         \n         \n             A Species of snakes in Nigeria ans Other lands\n             \n         \n         \n             B Feeding Habits of Snakes\n             \n         \n         \n             C Some Characteristics of Snakes\n             \n         \n         \n             D Snakes as legless, Cold-blooded reptiles\n             \n         \n         \n         \n             \n  \n      Answer & Comment\n      \n      C\n  \n  \n  \n       \n      \n      \n  \n  \n  \n      \n     \n              Comment",
+    "option_a": "Species of snakes in Nigeria ans Other lands",
+    "option_b": "Feeding Habits of Snakes",
+    "option_c": "Some Characteristics of Snakes",
+    "option_d": "Snakes as legless, Cold-blooded reptiles",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "<br><br>  Setting up a news paper involves a lot of preparations. The __11__ has to employ a lot of people. Other people working with him are cartographers, editors, typesetters, readers, who work in various ways to produce the text of the newspaper, __12__, who go out and collect story and items of news, and __13__, who specialize in one kind of topic. Another important person who works closely with the Editor-in-Chief is the __14__, who has to choose the most important stories__15__ go through stories sent to them and make necessary adjustments.<br><br> The Editor-in-Chief could determine for instance, whether a particular journalist should write articles daily or weekly in a particular column. Such a journalist is known as __16__. The editorials of the news paper will be coordinated by __17__. The publisher could decide to establish __18__ which would be on sale weekly, fortnightly, or monthly,__19__ the eyes catching, screaming headlines and captions of newspapers on sale everyday from the __20__.\n\n            <br><br>     \n\n    \n\n    Choose the most appropriate option for the gap labelled 11.\n         \n         \n         \n             A sub-editor\n             \n         \n         \n             B processor\n             \n         \n         \n             C lithographer\n             \n         \n         \n             D proprietor\n             \n         \n         \n         \n             \n  \n      Answer & Comment\n      \n      D\n  \n  \n  \n       \n      \n      \n  \n  \n  \n      \n     \n              Comment",
+    "option_a": "sub-editor",
+    "option_b": "processor",
+    "option_c": "lithographer",
+    "option_d": "proprietor",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "<br><br>  Setting up a news paper involves a lot of preparations. The __11__ has to employ a lot of people. Other people working with him are cartographers, editors, typesetters, readers, who work in various ways to produce the text of the newspaper, __12__, who go out and collect story and items of news, and __13__, who specialize in one kind of topic. Another important person who works closely with the Editor-in-Chief is the __14__, who has to choose the most important stories__15__ go through stories sent to them and make necessary adjustments.<br><br> The Editor-in-Chief could determine for instance, whether a particular journalist should write articles daily or weekly in a particular column. Such a journalist is known as __16__. The editorials of the news paper will be coordinated by __17__. The publisher could decide to establish __18__ which would be on sale weekly, fortnightly, or monthly,__19__ the eyes catching, screaming headlines and captions of newspapers on sale everyday from the __20__.\n\n            <br><br>     \n\n    \n\n    Choose the most appropriate option for the gap labelled 12.\n         \n         \n         \n             A vendors\n             \n         \n         \n             B agents\n             \n         \n         \n             C reporters\n             \n         \n         \n             D analysts\n             \n         \n         \n         \n             \n  \n      Answer & Comment\n      \n      C\n  \n  \n  \n       \n      \n      \n  \n  \n  \n      \n     \n              Comment",
+    "option_a": "vendors",
+    "option_b": "agents",
+    "option_c": "reporters",
+    "option_d": "analysts",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "<br><br>  Setting up a news paper involves a lot of preparations. The __11__ has to employ a lot of people. Other people working with him are cartographers, editors, typesetters, readers, who work in various ways to produce the text of the newspaper, __12__, who go out and collect story and items of news, and __13__, who specialize in one kind of topic. Another important person who works closely with the Editor-in-Chief is the __14__, who has to choose the most important stories__15__ go through stories sent to them and make necessary adjustments.<br><br> The Editor-in-Chief could determine for instance, whether a particular journalist should write articles daily or weekly in a particular column. Such a journalist is known as __16__. The editorials of the news paper will be coordinated by __17__. The publisher could decide to establish __18__ which would be on sale weekly, fortnightly, or monthly,__19__ the eyes catching, screaming headlines and captions of newspapers on sale everyday from the __20__.\n\n            <br><br>     \n\n    \n\n    Choose the most appropriate option for the gap labelled 13.\n         \n         \n         \n             A newscasters\n             \n         \n         \n             B correspondents\n             \n         \n         \n             C distributors\n             \n         \n         \n             D listeners\n             \n         \n         \n         \n             \n  \n      Answer & Comment\n      \n      B\n  \n  \n  \n       \n      \n      \n  \n  \n  \n      \n     \n              Comment",
+    "option_a": "newscasters",
+    "option_b": "correspondents",
+    "option_c": "distributors",
+    "option_d": "listeners",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "<br><br>  Setting up a news paper involves a lot of preparations. The __11__ has to employ a lot of people. Other people working with him are cartographers, editors, typesetters, readers, who work in various ways to produce the text of the newspaper, __12__, who go out and collect story and items of news, and __13__, who specialize in one kind of topic. Another important person who works closely with the Editor-in-Chief is the __14__, who has to choose the most important stories__15__ go through stories sent to them and make necessary adjustments.<br><br> The Editor-in-Chief could determine for instance, whether a particular journalist should write articles daily or weekly in a particular column. Such a journalist is known as __16__. The editorials of the news paper will be coordinated by __17__. The publisher could decide to establish __18__ which would be on sale weekly, fortnightly, or monthly,__19__ the eyes catching, screaming headlines and captions of newspapers on sale everyday from the __20__.\n\n            <br><br>     \n\n    \n\n    Choose the most appropriate option for the gap labelled 14.\n         \n         \n         \n             A reporter\n             \n         \n         \n             B anouncer\n             \n         \n         \n             C news editor\n             \n         \n         \n             D proof reader\n             \n         \n         \n         \n             \n  \n      Answer & Comment\n      \n      C\n  \n  \n  \n       \n      \n      \n  \n  \n  \n      \n     \n              Comment\n              \n   \n  \n          \n          \n              \n              \n              \n          \n      \n  \n             \n         \n          \n             \n  Advertisement<br><br> \n(adsbygoogle = window.adsbygoogle || []).push({});",
+    "option_a": "reporter",
+    "option_b": "anouncer",
+    "option_c": "news editor",
+    "option_d": "proof reader",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "<br><br>  Setting up a news paper involves a lot of preparations. The __11__ has to employ a lot of people. Other people working with him are cartographers, editors, typesetters, readers, who work in various ways to produce the text of the newspaper, __12__, who go out and collect story and items of news, and __13__, who specialize in one kind of topic. Another important person who works closely with the Editor-in-Chief is the __14__, who has to choose the most important stories__15__ go through stories sent to them and make necessary adjustments.<br><br> The Editor-in-Chief could determine for instance, whether a particular journalist should write articles daily or weekly in a particular column. Such a journalist is known as __16__. The editorials of the news paper will be coordinated by __17__. The publisher could decide to establish __18__ which would be on sale weekly, fortnightly, or monthly,__19__ the eyes catching, screaming headlines and captions of newspapers on sale everyday from the __20__.\n\n            <br><br>     \n\n    \n\n    Choose the most appropriate option for the gap labelled 15.\n         \n         \n         \n             A Producers\n             \n         \n         \n             B Sub-editors\n             \n         \n         \n             C Writers\n             \n         \n         \n             D Agents\n             \n         \n         \n         \n             \n  \n      Answer & Comment\n      \n      B\n  \n  \n  \n       \n      \n      \n  \n  \n  \n      \n     \n              Comment",
+    "option_a": "Producers",
+    "option_b": "Sub-editors",
+    "option_c": "Writers",
+    "option_d": "Agents",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "<br><br>  Setting up a news paper involves a lot of preparations. The __11__ has to employ a lot of people. Other people working with him are cartographers, editors, typesetters, readers, who work in various ways to produce the text of the newspaper, __12__, who go out and collect story and items of news, and __13__, who specialize in one kind of topic. Another important person who works closely with the Editor-in-Chief is the __14__, who has to choose the most important stories__15__ go through stories sent to them and make necessary adjustments.<br><br> The Editor-in-Chief could determine for instance, whether a particular journalist should write articles daily or weekly in a particular column. Such a journalist is known as __16__. The editorials of the news paper will be coordinated by __17__. The publisher could decide to establish __18__ which would be on sale weekly, fortnightly, or monthly,__19__ the eyes catching, screaming headlines and captions of newspapers on sale everyday from the __20__.\n\n            <br><br>     \n\n    \n\n    Choose the most appropriate option for the gap labelled 16.\n         \n         \n         \n             A an essayist\n             \n         \n         \n             B a freelancer\n             \n         \n         \n             C composer\n             \n         \n         \n             D columnist\n             \n         \n         \n         \n             \n  \n      Answer & Comment\n      \n      D\n  \n  \n  \n       \n      \n      \n  \n  \n  \n      \n     \n              Comment",
+    "option_a": "an essayist",
+    "option_b": "a freelancer",
+    "option_c": "composer",
+    "option_d": "columnist",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "<br><br>  Setting up a news paper involves a lot of preparations. The __11__ has to employ a lot of people. Other people working with him are cartographers, editors, typesetters, readers, who work in various ways to produce the text of the newspaper, __12__, who go out and collect story and items of news, and __13__, who specialize in one kind of topic. Another important person who works closely with the Editor-in-Chief is the __14__, who has to choose the most important stories__15__ go through stories sent to them and make necessary adjustments.<br><br> The Editor-in-Chief could determine for instance, whether a particular journalist should write articles daily or weekly in a particular column. Such a journalist is known as __16__. The editorials of the news paper will be coordinated by __17__. The publisher could decide to establish __18__ which would be on sale weekly, fortnightly, or monthly,__19__ the eyes catching, screaming headlines and captions of newspapers on sale everyday from the __20__.\n\n            <br><br>     \n\n    \n\n    Choose the most appropriate option for the gap labelled 17.\n         \n         \n         \n             A an agent\n             \n         \n         \n             B a guild of researchers\n             \n         \n         \n             C An editorial board\n             \n         \n         \n             D All readers\n             \n         \n         \n         \n             \n  \n      Answer & Comment\n      \n      C\n  \n  \n  \n       \n      \n      \n  \n  \n  \n      \n     \n              Comment",
+    "option_a": "an agent",
+    "option_b": "a guild of researchers",
+    "option_c": "An editorial board",
+    "option_d": "All readers",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "<br><br>  Setting up a news paper involves a lot of preparations. The __11__ has to employ a lot of people. Other people working with him are cartographers, editors, typesetters, readers, who work in various ways to produce the text of the newspaper, __12__, who go out and collect story and items of news, and __13__, who specialize in one kind of topic. Another important person who works closely with the Editor-in-Chief is the __14__, who has to choose the most important stories__15__ go through stories sent to them and make necessary adjustments.<br><br> The Editor-in-Chief could determine for instance, whether a particular journalist should write articles daily or weekly in a particular column. Such a journalist is known as __16__. The editorials of the news paper will be coordinated by __17__. The publisher could decide to establish __18__ which would be on sale weekly, fortnightly, or monthly,__19__ the eyes catching, screaming headlines and captions of newspapers on sale everyday from the __20__.\n\n            <br><br>     \n\n    \n\n    Choose the most appropriate option for the gap labelled 18.\n         \n         \n         \n             A a gazetteer\n             \n         \n         \n             B an article\n             \n         \n         \n             C a column\n             \n         \n         \n             D a magazine\n             \n         \n         \n         \n             \n  \n      Answer & Comment\n      \n      D\n  \n  \n  \n       \n      \n      \n  \n  \n  \n      \n     \n              Comment",
+    "option_a": "a gazetteer",
+    "option_b": "an article",
+    "option_c": "a column",
+    "option_d": "a magazine",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "<br><br>  Setting up a news paper involves a lot of preparations. The __11__ has to employ a lot of people. Other people working with him are cartographers, editors, typesetters, readers, who work in various ways to produce the text of the newspaper, __12__, who go out and collect story and items of news, and __13__, who specialize in one kind of topic. Another important person who works closely with the Editor-in-Chief is the __14__, who has to choose the most important stories__15__ go through stories sent to them and make necessary adjustments.<br><br> The Editor-in-Chief could determine for instance, whether a particular journalist should write articles daily or weekly in a particular column. Such a journalist is known as __16__. The editorials of the news paper will be coordinated by __17__. The publisher could decide to establish __18__ which would be on sale weekly, fortnightly, or monthly,__19__ the eyes catching, screaming headlines and captions of newspapers on sale everyday from the __20__.\n\n            <br><br>     \n\n    \n\n    Choose the most appropriate option for the gap labelled 19.\n         \n         \n         \n             A a contrast in\n             \n         \n         \n             B a contrast from\n             \n         \n         \n             C a contrast for\n             \n         \n         \n             D a contrast to\n             \n         \n         \n         \n             \n  \n      Answer & Comment\n      \n      D\n  \n  \n  \n       \n      \n      \n  \n  \n  \n      \n     \n              Comment\n              \n   \n  \n          \n          \n              \n              \n              \n          \n      \n  \n             \n         \n          \n             \n  Advertisement<br><br> \n(adsbygoogle = window.adsbygoogle || []).push({});",
+    "option_a": "a contrast in",
+    "option_b": "a contrast from",
+    "option_c": "a contrast for",
+    "option_d": "a contrast to",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "<br><br>  Setting up a news paper involves a lot of preparations. The __11__ has to employ a lot of people. Other people working with him are cartographers, editors, typesetters, readers, who work in various ways to produce the text of the newspaper, __12__, who go out and collect story and items of news, and __13__, who specialize in one kind of topic. Another important person who works closely with the Editor-in-Chief is the __14__, who has to choose the most important stories__15__ go through stories sent to them and make necessary adjustments.<br><br> The Editor-in-Chief could determine for instance, whether a particular journalist should write articles daily or weekly in a particular column. Such a journalist is known as __16__. The editorials of the news paper will be coordinated by __17__. The publisher could decide to establish __18__ which would be on sale weekly, fortnightly, or monthly,__19__ the eyes catching, screaming headlines and captions of newspapers on sale everyday from the __20__.\n\n            <br><br>     \n\n    \n\n    Choose the most appropriate option for the gap labelled 20.\n         \n         \n         \n             A salesmen\n             \n         \n         \n             B readers\n             \n         \n         \n             C distributors\n             \n         \n         \n             D pressmen\n             \n         \n         \n         \n             \n  \n      Answer & Comment\n      \n      A\n  \n  \n  \n       \n      \n      \n  \n  \n  \n      \n     \n              Comment",
+    "option_a": "salesmen",
+    "option_b": "readers",
+    "option_c": "distributors",
+    "option_d": "pressmen",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "Select the option that best explains the information conveyed in the sentence.<br><br> The minister considered the ministry's budget to be a drop in the ocean in view of the number of projects in the pipeline.",
+    "option_a": "The pipeline project across the ocean will be abandoned unless budgetary allocation improves",
+    "option_b": "The amount available may be inadequate for projected expenditure",
+    "option_c": "The minister may be dropped for failing to complete a number of projects",
+    "option_d": "The money approved cannont complete the pipeline project acorss the ocean",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "Select the option that best explains the information conveyed in the sentence.<br><br> The police are looking for the woman who farmed her children out to her neighbours.",
+    "option_a": "The police wanted the woman for allowing her children to destroy her neighbour's crops.",
+    "option_b": "The woman and her children are in the habit of working in neighbour's farms and the police are not well disposed to this",
+    "option_c": "The police may arrest the woman for allowing her heighbours to take care of her children.",
+    "option_d": "The woman may be arrested for allowing her children to be a nuisance to her neighbours",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "Select the option that best explains the information conveyed in the sentence.<br><br>Jummai's father remarked that pigs would fly before she passed.",
+    "option_a": "She would have to cheat in order to pass.",
+    "option_b": "It would be possible to pass only if she worked harder.",
+    "option_c": "It would never be possible for her to pass.",
+    "option_d": "He would have to bribe her teachers to enable her to pass.",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "Select the option that best explains the information conveyed in the sentence.<br><br>The president said that he found himself between a rock and a hard place when the press said that he has resigned.",
+    "option_a": "Hard places are dangerous  for the president.",
+    "option_b": "He dreamt that he was abandoned.",
+    "option_c": "He thought that hard places were unsafe.",
+    "option_d": "He had a hard decision to make.",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "Select the option that best explains the information conveyed in the sentence.<br><br>Kunana is like a bear in the sore head.",
+    "option_a": "He is a bully.",
+    "option_b": "He is grumpy.",
+    "option_c": "He is ugly.",
+    "option_d": "He is quiet.",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "Select the option that best explains the information conveyed in the sentence.<br><br>Olu gave his brother a bumpy ride.",
+    "option_a": "Olu's brother rode on Olu's back to success.",
+    "option_b": "Olu took his brother on a bumpy road.",
+    "option_c": "Olu gave his brother a difficult time.",
+    "option_d": "Olu gave his brother a ride on his car.",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "Select the option that best explains the information conveyed in the sentence.<br><br> Adeola doesn't have to go to the farm today.",
+    "option_a": "Adeola may go to the farm today if he so wishes.",
+    "option_b": "Adeola ought not to have gone to the farm today.",
+    "option_c": "Adeola must not go to the farm today.",
+    "option_d": "Adeola should not go to the farm today.",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "Select the option that best explains the information conveyed in the sentence.<br><br>My boss asked me to take my eyes off the ball.",
+    "option_a": "I should stop paying attention to what is most important.",
+    "option_b": "I should be focused when i am about to stay off football.",
+    "option_c": "I should stay off football after sustaining an injuiry.",
+    "option_d": "I should be focused when playing football.",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "Select the option that best explains the information conveyed in the sentence.<br><br>The robber was hedged in by the people.",
+    "option_a": "The robber was surrounded  by the people.",
+    "option_b": "The robber was killed by the people.",
+    "option_c": "The robber was exposed by the people.",
+    "option_d": "The robber was caught by the people.",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "Select the option that best explains the information conveyed in the sentence.<br><br>Many workers are not happy because they live a hand-to-mouth life.",
+    "option_a": "They work hard with their hands.",
+    "option_b": "They are voracious and avaricious.",
+    "option_c": "They are barely surviving.",
+    "option_d": "They have rejected the use of spoons.",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "95Choose the option opposite in meaning to the underlined word or phrase. <br><br>Prolonged strike action <u>debilitated</u> the industry.",
+    "option_a": "A Stroyed.",
+    "option_b": "B Invigorated.",
+    "option_c": "C Isolated.",
+    "option_d": "D Weakened.",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "96Choose the option opposite in meaning to the underlined word or phrase.<br><br> One of the students bought a <u>plagiarised</u> copy of the book.",
+    "option_a": "A An annotated.",
+    "option_b": "B A used.",
+    "option_c": "C An original.",
+    "option_d": "D A revised.",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "97Choose the option opposite in meaning to the underlined word or phrase.<br><br> The young girl was taken <u>aback</u> by her father's gift of a car.",
+    "option_a": "A Nonplussed.",
+    "option_b": "B Shocked.",
+    "option_c": "C Unmoved.",
+    "option_d": "D Surprised.",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "98Choose the option opposite in meaning to the underlined word or phrase.<br><br> Musa is a gifted but <u>erratic</u> player.",
+    "option_a": "A Unstable.",
+    "option_b": "B Strong.",
+    "option_c": "C Regular.",
+    "option_d": "D Unpredictable.",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "99Choose the option opposite in meaning to the underlined word or phrase.<br><br> The lamp shades were <u>translucent</u>.",
+    "option_a": "A Transparent.",
+    "option_b": "B Opaque.",
+    "option_c": "C Intersected.",
+    "option_d": "D Luminous.",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "100Choose the option opposite in meaning to the underlined word or phrase.<br><br> My niece has an <u>unquenchable</u> thirst for adventure stories.",
+    "option_a": "A An inextinguishable.",
+    "option_b": "B A spurious.",
+    "option_c": "C An illegitimate.",
+    "option_d": "D A reduced.",
+    "answer": "D",
+    "solution": ""
+  }
+]

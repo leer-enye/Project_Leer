@@ -1,0 +1,434 @@
+﻿[
+  {
+    "question": "Given T = { even numbers from 1 to 12 }<br> N = {common factors of 6, 8 and 12}<br> Find T ∩ N",
+    "option_a": "{2, 3}",
+    "option_b": "{2, 3, 4}",
+    "option_c": "{3, 4, 6}",
+    "option_d": "{2}",
+    "answer": "D",
+    "solution": "T = {evenn numbers from 1 to 12}<br> N = {common factors of 6,8 and 12}<br> Find T ∩ N<br> T = {2, 4, 6, 8, 10, 12}<br> N = {2}<br> T ∩ N = {2} i.e value common to T & N"
+  },
+  {
+    "question": "What is the next number in the series 2, 1, \\(\\frac{1}{2}\\), \\(\\frac{1}{4}\\)...",
+    "option_a": "\\(\\frac{1}{3}\\)",
+    "option_b": "\\(\\frac{2}{8}\\)",
+    "option_c": "\\(\\frac{3}{7}\\)",
+    "option_d": "\\(\\frac{1}{8}\\)",
+    "answer": "D",
+    "solution": "2, 1, \\(\\frac{1}{2}\\), \\(\\frac{1}{4}\\)..... <br> There are 4 terms in the series <br> Therefore the next number will be the 5th term <br> Tn = ar\\(^{n − 1}\\) (formular for geometric series) <br> a = first term = 2 <br> r = common rate = \\(\\frac{\\text{next term}}{\\text{previous term}}\\) = \\(\\frac{1}{2}\\) <br> n = number of terms <br> T5 = 5th term = ? <br> T5 = ar\\(^{5 - 1}\\) <br> = ar\\(^4\\) <br> = 2 × (ar\\(^{n − 1}\\))4 <br> = 2 × \\(\\frac{1}{16}\\) <br> = \\(\\frac{1}{8}\\)"
+  },
+  {
+    "question": "If U = {x : x is an integer and 1 ≤ x ≤ }<br>     E1 = {x: x is a multiple of 3}<br>     E2 = {x: x is a multiple of 4} and an integer is picked at random from U, find the probability that it is not in E2",
+    "option_a": "\\(\\frac{3}{4}\\)",
+    "option_b": "\\(\\frac{3}{10}\\)",
+    "option_c": "\\(\\frac{1}{4}\\)",
+    "option_d": "\\(\\frac{1}{20}\\)",
+    "answer": "A",
+    "solution": "U = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20} <br> E1 = {3, 6, 9, 12, 15, 18} <br> E2 = {4, 8, 12, 16, 20} <br> Probability of E2 = \\(\\frac{5}{20}\\) i.e \\(\\frac{\\text{Total number in}E_2}{\\text{Entire number in set}}\\) <br> Probability of set E2 = 1 − \\(\\frac{5}{20}\\) <br> = \\(\\frac{15}{20}\\) <br> = \\(\\frac{3}{4}\\)"
+  },
+  {
+    "question": "The curved surface area of a cylinder 5cm high is 110cm<sup>2</sup>. Find the radius of its base<br> π = \\(\\frac{22}{7}\\)",
+    "option_a": "2.6cm",
+    "option_b": "3.5cm",
+    "option_c": "3.6cm",
+    "option_d": "7.0cm",
+    "answer": "B",
+    "solution": "Curved surface area of cylinder = 2πrh <br> 110 = 2 × \\(\\frac{22}{7}\\) × r × 5 <br> r = \\(\\frac{110 \\times 7}{44 \\times 5}\\) <br> = 3.5cm"
+  },
+  {
+    "question": "If two graphs Y = px<sup>2</sup>  + q and y = 2x<sup>2</sup>  − 1 intersect at x = 2, find the value of p in terms of q",
+    "option_a": "q − \\(\\frac{8}{7}\\)",
+    "option_b": "7 − \\(\\frac{q}{4}\\)",
+    "option_c": "8 − \\(\\frac{q}{2}\\)",
+    "option_d": "7 + \\(\\frac{q}{8}\\)",
+    "answer": "B",
+    "solution": "Y = Px<sup>2</sup>  + q  <br> Y = 2x2 - 1 <br> Px2 + q = 2x2 - 1 <br> Px2 = 2x2 - 1 - q <br> p = \\(\\frac{2x^2 - 1 - q}{x^2}\\) <br> at x = 2 <br> P = \\(\\frac{2(2)^2 - 1 - q}{2^2}\\) <br> = \\(\\frac{2(4) - 1 -q}{4}\\) <br> = \\(\\frac{8 - 1 - q}{4}\\) <br> P = \\(\\frac{7 - q}{4}\\)"
+  },
+  {
+    "question": "6Evaluate (\\(\\sin\\)45<sup>o</sup>  + \\(\\sin\\)30<sup>o</sup> ) in surd form",
+    "option_a": "A \\(\\frac{\\sqrt{3}}{2\\sqrt{2}}\\)",
+    "option_b": "B √3 − \\(\\frac{1}{2}\\)",
+    "option_c": "C \\(\\frac{1}{2}\\)√2",
+    "option_d": "D 1 + \\(\\frac{\\sqrt{2}}{2}\\)",
+    "answer": "D",
+    "solution": "hypotenuse<br> sin = \\(\\frac{1}{2}\\) <br> \\(\\sin45 = \\frac{1}{\\sqrt{2}}\\) <br> = \\(\\frac{2}{2}\\) <br> ∴ (sin45 + sin30) <br> = \\(\\frac{1}{\\sqrt{2}} + \\frac{1}{2}\\) <br> = \\(\\frac{\\sqrt{2}}{2}\\) + \\(\\frac{1}{2}\\) <br> = \\(\\frac{\\sqrt{2} + 1}{2}\\) <br> = \\(\\frac{1 + \\sqrt{2}}{2}\\)"
+  },
+  {
+    "question": "If y = x Sin x, find \\(\\frac{dy}{dx}\\) when x = \\(\\frac{\\pi}{2}\\)",
+    "option_a": "\\(\\frac{- \\pi}{2}\\)",
+    "option_b": "-1",
+    "option_c": "1",
+    "option_d": "\\(\\frac{ \\pi}{2}\\)",
+    "answer": "C",
+    "solution": "y = xsinx <br> \\(\\frac{dy}{dx}\\) = \\(1 \\sin x + x \\cos x\\) <br> = \\(\\sin x + x \\cos x\\) <br> At x = \\(\\frac{\\pi}{2}\\) <br> = sin\\(\\frac{\\pi}{r}\\) + \\(\\frac{\\pi}{2} \\cos {\\frac{\\pi}{2}}\\) <br> = 1 + \\(\\frac{\\pi}{2}\\) × 10 <br> = 1"
+  },
+  {
+    "question": "If temperature t is directly proportional to heat h, and when t = 20oC, h = 50 J, find t when h = 60J",
+    "option_a": "24<sup>o</sup>C",
+    "option_b": "20<sup>o</sup>C",
+    "option_c": "34<sup>o</sup>C",
+    "option_d": "30<sup>o</sup>C",
+    "answer": "A",
+    "solution": "t ∝ h, t = 20, h <br> t = ? h = 60 <br> t = kh where k is constant <br> 20 = 50k  <br> k = \\(\\frac{20}{50}\\) <br> k = \\(\\frac{2}{5}\\) <br> when h = 60, t = ? <br> t = \\(\\frac{2}{5}\\) × 60 <br> t = 24oC"
+  },
+  {
+    "question": "Evaluate 1 - (\\(\\frac{1}{5}\\) x \\(\\frac{2}{3}\\)) + ( 5 + \\(\\frac{2}{3}\\))",
+    "option_a": "4",
+    "option_b": "3",
+    "option_c": "2\\(\\frac{2}{3}\\)",
+    "option_d": "3\\(\\frac{2}{3}\\)",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": " Given m = N\\(\\frac{\\sqrt{SL}}{T}\\) make T the subject of the formula",
+    "option_a": "\\(\\frac{\\text{NSL}}{M}\\)",
+    "option_b": "\\(\\frac{N^2SL}{M^2}\\)",
+    "option_c": "\\(\\frac{N^2SL}{M}\\)",
+    "option_d": "\\(\\frac{NSL}{M^2}\\)",
+    "answer": "B",
+    "solution": "M = \\(\\frac{\\sqrt{SL}}{T}\\),  <br> make T subject of formula square both sides <br> M2 = \\(\\frac{N^2SL}{T}\\) <br> TM2 = N2SL <br> T = \\(\\frac{N^2SL}{M^2}\\)"
+  },
+  {
+    "question": "Simplify 3 \\(^{n − 1}\\) × 27 \\(\\frac{n + 1}{81^n}\\)",
+    "option_a": "3\\(^{2n}\\)",
+    "option_b": "9",
+    "option_c": "3n",
+    "option_d": "3 \\(^{n + 1}\\)",
+    "answer": "B",
+    "solution": "3\\(^{n + 1}\\) × 27\\(\\frac{n + 1}{81^n}\\) <br> = 3\\(^{n + 1}\\) × 3 \\(\\frac{3^{(n + 1)}}{3^{4n}}\\) <br> = 3\\(^{n + 1 + 3n + 3 − 4n}\\) <br> = 3\\(^{4n − 4n − 1 + 3}\\) <br> = 32 <br> = 9"
+  },
+  {
+    "question": "The locus of a point which is equidistant from the line Pq forms a",
+    "option_a": "circle centre P",
+    "option_b": "pair of parallel lines each opposite to Pq",
+    "option_c": "circle centre q",
+    "option_d": "perpendicular line to Pq",
+    "answer": "D",
+    "solution": "The locus of points at a fixed distance from the point P is a circle with the given P at its centre. <br> The locus of points at a fixed distance from the point q is a circle with the given point q at its centre <br> The locus of points equidistant from two points P and q i.e line Pq is the perpendicular bisector of the segment determined by the points <br> Hence, The locus of a point which is equidistant from the line Pq forms a perpendicular line to Pq"
+  },
+  {
+    "question": "Given T = {even numbers from 1 to 12}<br> N = {common factors of 6, 8 and 12} Find T, N",
+    "option_a": "{2, 3}",
+    "option_b": "{2, 3, 4}",
+    "option_c": "{3, 4, 6}",
+    "option_d": "{2}",
+    "answer": "B",
+    "solution": "Given T = {even numbers from 1 to 12}<br>  = { 2, 4, 6, 8,10, 12} <br> N = {common factors of 6, 8 and 12}  <br> = {2} Find T n N = {2}"
+  },
+  {
+    "question": "Given the quadrilateral RSTO inscribed in the circle with O as centre. Find the size angle x and given RST = 60<sup>o</sup>",
+    "option_a": "10060<sup>o</sup>",
+    "option_b": "14060<sup>o</sup>",
+    "option_c": "12060<sup>o</sup>",
+    "option_d": "1060<sup>o</sup>",
+    "answer": "C",
+    "solution": "If RST = 6060<sup>o</sup> <br> RXT = 2 × RST <br> (angle at the centre twice angle at the circumference) <br> RXT = 2 × 60 <br> = 120o"
+  },
+  {
+    "question": "Find the sum of the range and the mode of the set of numbers 10, 9, 10, 9, 8, 7, 7, 10, 8, 10, 8, 4, 6, 9, 10, 9, 7, 10, 6, 5",
+    "option_a": "16",
+    "option_b": "14",
+    "option_c": "12",
+    "option_d": "10",
+    "answer": "A",
+    "solution": "Range = Highest Number - Lowest Number <br> Mode is the number with highest occurrence<br> 10, 9, 10, 9, 8, 7, 7, 10, 8, 4, 6,, 9, 10, 9, 7, 10, 6, 5 <br> Range = 10 − 4 = 6 <br> Mode = 10 <br> Sum of range and mode = range + mode = 6 + 10 <br> = 16"
+  },
+  {
+    "question": "Find the sum to infinity of the series <br> \\(\\frac{1}{4}\\), \\(\\frac{1}{8}\\), \\(\\frac{1}{16}\\),..........",
+    "option_a": "\\(\\frac{1}{2}\\)",
+    "option_b": "\\(\\frac{3}{5}\\)",
+    "option_c": "\\(\\frac{-1}{5}\\)",
+    "option_d": "\\(\\frac{73}{12}\\)",
+    "answer": "A",
+    "solution": "Sum to infinity <br> ∑ = arn − 1 <br> = \\(\\frac{a}{1}\\) − r <br> a = \\(\\frac{1}{4}\\) <br>  r = \\(\\frac{1}{8}\\) ÷ \\(\\frac{1}{4}\\) <br> r = \\(\\frac{1}{s}\\) × \\(\\frac{4}{1}\\) <br> = \\(\\frac{1}{2}\\) <br> S = \\(\\frac{1 \\div 4}{1}\\) − \\(\\frac{1}{2}\\) <br> = \\(\\frac{1}{4}\\) ÷ \\(\\frac{1}{2}\\) <br> = \\(\\frac{1}{4}\\) × \\(\\frac{2}{1}\\) <br> = \\(\\frac{1}{2}\\)"
+  },
+  {
+    "question": "The base in which the operation was performed was",
+    "option_a": "6",
+    "option_b": "2",
+    "option_c": "4",
+    "option_d": "5",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "The value of x + x ( xx) when x = 2 is",
+    "option_a": "16",
+    "option_b": "10",
+    "option_c": "18",
+    "option_d": "24",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "In a regular polygon, each interior angle doubles its corresponding exterior angle. Find the number of sides of the polygon",
+    "option_a": "8",
+    "option_b": "6",
+    "option_c": "4",
+    "option_d": "3",
+    "answer": "B",
+    "solution": "2x + x = 180<sup>o</sup> <br> 3x = 180<sup>o</sup> <br> x = 60<sup>o</sup> (exterior angle of the polygon) <br> angle = \\(\\frac{\\text{total angle}}{\\text{number of sides}}\\) <br> 60 = \\(\\frac{360}{n}\\) <br> n = \\(\\frac{360}{60}\\) <br> n = 6 sides"
+  },
+  {
+    "question": "A cylindrical tank has a capacity of 3080m<sup>3</sup>. What is the depth of the tank if the diameter of its base is 14m? Take pi = 22/7.",
+    "option_a": "23m",
+    "option_b": "25m",
+    "option_c": "20m",
+    "option_d": "22m",
+    "answer": "C",
+    "solution": "Capacity = Volume = 3080m<sup>3</sup> <br> base diameter = 14m <br> radius = \\(\\frac{\\text{diameter}}{2}\\) <br> = 7m <br> Volume of Cylidner = Capacity of cylinder <br> πr2h = 3080 <br> \\(\\frac{22}{7}\\) × 7 × 7 × h = 3080 <br> h = \\(\\frac{3080}{22 \\times 7}\\) <br> h = 20m"
+  },
+  {
+    "question": "Simplify 4\\(\\sqrt{27}\\) + 5\\(\\sqrt{12}\\) − 3\\(\\sqrt{75}\\)",
+    "option_a": "7",
+    "option_b": "− 7",
+    "option_c": "− 7\\(\\sqrt{3}\\)",
+    "option_d": "7\\(\\sqrt{3}\\)",
+    "answer": "D",
+    "solution": "4\\(\\sqrt{27}\\) + 5\\(\\sqrt{12}\\) − 3\\(\\sqrt{75}\\) <br> = 4\\(\\sqrt{3}\\) × 9 + 5\\(\\sqrt{3}\\) × 4 − 3\\(\\sqrt{3}\\) × 25 <br> = 4 × 3\\(\\sqrt{3}\\) + 5 × 2\\(\\sqrt{3}\\) − 3 × 5\\(\\sqrt{3}\\) <br> = 12\\(\\sqrt{3}\\) + 10\\(\\sqrt{3}\\) − 15\\(\\sqrt{3}\\) <br> = (12 + 10 − 15)\\(\\sqrt{3}\\) <br> = 7\\(\\sqrt{3}\\)"
+  },
+  {
+    "question": "A man covered a distance of 50 miles on his first trip, on a later trip he traveled 300 miles while going 3 times as fast. His new time compared with the old distance was?",
+    "option_a": "three times as much",
+    "option_b": "the same",
+    "option_c": "twice as much",
+    "option_d": "half as much",
+    "answer": "C",
+    "solution": "Let the speed of the 1st trip be x miles/hr <br> and the speed of the 2nd trip be 3x miles/hr <br> Speed = distance/time <br> ∴ Time taken to cover a distance of 50 miles on the 1st trip <br> = \\(\\frac{50}{xhr}\\) <br> time taken to cover a distance of 300 miles on the next trip <br> = \\(\\frac{300}{3xhr}\\) <br> = \\(\\frac{100}{xhr}\\)  <br> ∴the new time compared with the old time is twice as much"
+  },
+  {
+    "question": "In the figure, find x",
+    "option_a": "40<sup>o</sup>",
+    "option_b": "55<sup>o</sup>",
+    "option_c": "50<sup>o</sup>",
+    "option_d": "60<sup>o</sup>",
+    "answer": "A",
+    "solution": "Sum of angle at a point = 360o <br> 2x + 3x + 4x = 360 <br> 9x = 360 <br> x = \\(\\frac{360}{9}\\) <br> x = 40<sup>o</sup>"
+  },
+  {
+    "question": "24 Divide 4x3 - 3x + 1 by 2x - 1",
+    "option_a": "A 2x<sup>2</sup> -x + 1",
+    "option_b": "B 2x<sup>2</sup> - x -1",
+    "option_c": "C 2x<sup>2</sup> + x + 1",
+    "option_d": "D 2x<sup>2</sup> + x -1",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "A car dealer bought a second-hand car for of 250,000 and spent N 70,000 refurbishing it. He then sold the car for N400,000. What is the percentage gain?",
+    "option_a": "60%",
+    "option_b": "32%",
+    "option_c": "25%",
+    "option_d": "20%",
+    "answer": "C",
+    "solution": "Total Cost Price = N(250,000 + 70,000) <br> = N 32,000 <br> Selling Price = N 400,000(Given) <br> Gain = Selling Price - Cost Price <br> = 400,000 - 300,000 <br> = 80,000 <br> % gain = \\(\\frac{\\text{Gain}}{\\text{Cost Price}}\\) × 100 <br> = \\(\\frac{80,000}{320,000}\\) × 100 <br> Gain % = 25%"
+  },
+  {
+    "question": "Find the number of ways that the letters of the word EXCELLENCE be arranged",
+    "option_a": "\\(\\frac{10!}{2!2!2!}\\)",
+    "option_b": "\\(\\frac{10!}{4!2!}\\)",
+    "option_c": "\\(\\frac{10!}{4!2!2!}\\)",
+    "option_d": "\\(\\frac{10!}{2!2!}\\)",
+    "answer": "B",
+    "solution": "EXCELLENCE <br> It is a ten letter word = 10! <br> Since we have repeating letters, we have to divide to remove the duplicates accordingly. There are 4 Es, 2 Cs, 2 Ls <br> ∴ there are<br> \\(\\frac{10!}{4!2!2!}\\) ways to arrange"
+  },
+  {
+    "question": "Evaluate \\(\\frac{0.00000231}{0.007}\\) and leave the answer in standard form",
+    "option_a": "A 3.3 x 10<sup>4</sup>",
+    "option_b": "B 3.3 x 10<sup>-3</sup>",
+    "option_c": "C 3.3 x 10<sup>-4</sup>",
+    "option_d": "D 3.3 x 10<sup>-8</sup>",
+    "answer": "C",
+    "solution": "\\(\\frac{0.00000231}{0.007}\\) to standard form <br> = \\(\\frac{231 \\times 10^{-8}}{7 \\times 10^{-3}}\\) <br> = 33 × 10\\(^{-8 − (−3)}\\) <br> = 33 × 10\\(^{− 8 + 3}\\) <br> = 33 × 10-5"
+  },
+  {
+    "question": "If a rod 10cm in length was measured as 10.5cm, calculate the percentage error",
+    "option_a": "5%",
+    "option_b": "10%",
+    "option_c": "8%",
+    "option_d": "7%",
+    "answer": "A",
+    "solution": "Actual measurement = 10cm <br> approximated value of measurement = 10.5cm <br> % error = \\(\\frac{\\text{Actual measurement − Approximated}}{\\text{Actual measure}}\\) × 100 <br> = \\(\\frac{10 − 10.5}{10}\\) × 100 <br> = \\(\\frac{-0.5}{10}\\) × 100 <br> ignore -sign i.e take absolute value <br> = \\(\\frac{0.5}{10}\\) × 100 <br> = 5 %"
+  },
+  {
+    "question": "Find the principal which amounts to ₦ 5,500 at a simple interest in 5 years at 2% per annum",
+    "option_a": "₦ 4,900",
+    "option_b": "₦ 5,000",
+    "option_c": "₦ 4,700",
+    "option_d": "₦ 4,000",
+    "answer": "B",
+    "solution": "Principal = P, Simple Interest = I, Amount = A <br> Amount = Principal + Simple Interest <br> I = \\(\\frac{PRT}{100}\\) <br> R = rate, T = time <br> I = \\(\\frac{P \\times 5 \\times 2}{100}\\) <br> I = \\(\\frac{10P}{100}\\) <br> I = \\(\\frac{P}{10}\\) <br> Amount A = P + I <br> 5500 = P + \\(\\frac{P}{10}\\) <br> Multiply through by 100 <br> 5500 = 10P + P <br> 5500 = 11P <br> p = \\(\\frac{5500}{11}\\) <br> p = ₦5000"
+  },
+  {
+    "question": "The pie chart shows the allocation of money to each sector in a farm. The total amount allocated to the farm is ₦ 80 000. Find the amount allocated to fertilizer",
+    "option_a": "₦ 35, 000",
+    "option_b": "₦ 40,000",
+    "option_c": "₦ 25,000",
+    "option_d": "₦ 20,000",
+    "answer": "D",
+    "solution": "Total angle at a point = 3600 <br> ∴ To get the angle occupied by fertilizer we have, <br> 40 + 50 + 80 + 70 + 30 + fertilizer(x) = 360 <br> 270 + x = 360 <br> x = 360 - 270 <br> x = 90 <br> Total amount allocated to the farm<br> = ₦ 80,000 <br> ∴Amount allocated to the fertilizer <br> = \\(\\frac{\\text{fertilizer (angle) × Total amount}}{\\text{total angle}}\\) <br> = \\(\\frac{90}{360}\\) × 80,000 <br> = ₦20,000"
+  },
+  {
+    "question": "31 In how many ways can the word MATHEMATICS be arranged?",
+    "option_a": "\\(\\frac{11!}{9!2!}\\)",
+    "option_b": "\\(\\frac{11!}{9!2!2!}\\)",
+    "option_c": "\\(\\frac{11!}{2!2!2!}\\)",
+    "option_d": "\\(\\frac{11!}{2!2!}\\)",
+    "answer": "C",
+    "solution": "MATHEMATICS is an eleven letter word = 11! <br> There are 2Ms and 2As and 2Es  <br> Divide the number of repeating letters  <br> = \\(\\frac{11!}{2!2!2!}\\)"
+  },
+  {
+    "question": "In how many ways can the word MACICITA be arranged?",
+    "option_a": "\\(\\frac{8!}{2!}\\)",
+    "option_b": "\\(\\frac{8!}{3! 2!}\\)",
+    "option_c": "\\(\\frac{8!}{2! 2! 2!}\\)",
+    "option_d": "8!",
+    "answer": "C",
+    "solution": "MACICITA is an eight letter word = 8! <br> Since we have repeating letters, we have to divide to remove duplicates accordingly. There are 2A, 2C, 2I <br> ∴ \\(\\frac{8!}{2! 2! 2!}\\)"
+  },
+  {
+    "question": "y is inversely proportional to x and y and 6 when x = 7. Find the constant of the variation",
+    "option_a": "47",
+    "option_b": "42",
+    "option_c": "54",
+    "option_d": "46",
+    "answer": "B",
+    "solution": "Y ∝ \\(\\frac{1}{2}\\) <br> Y = 6, X = 7 <br> Y = \\(\\frac{k}{x}\\) where k is constant <br> 6 = \\(\\frac{k}{7}\\) <br> k = 42"
+  },
+  {
+    "question": "In the diagram MN, Pq and RS are parallel lines. What is the value of the angle marked X?",
+    "option_a": "123<sup>o</sup>",
+    "option_b": "170<sup>o</sup>",
+    "option_c": "117<sup>o</sup>",
+    "option_d": "137<sup>o</sup>",
+    "answer": "C",
+    "solution": "MN || Pq || RS <br> MN = Pq = RS (parallel lines) <br> Label the angle in the lines <br> a = i (corresponding angles are equal) <br> b = x (corresponding angles are equal) <br> If |MN| = |RS| <br> If a = i <br> and a = 63 = i <br> a + b = 180 (Adjacent interior angles are supplementary i.e add to 180) <br> ∴ i + x = 180 <br> 63 + x = 180 <br> x = 180 - 63 <br> x = 1170"
+  },
+  {
+    "question": "Find the equation of the locus of a point p (x, y) such that pv = pw, where v= (1, 1) and w = (3, 5)",
+    "option_a": "2x + 2y = 9",
+    "option_b": "2x + 3y = 8",
+    "option_c": "2x + y = 9",
+    "option_d": "x + 2y = 8",
+    "answer": "D",
+    "solution": "The locus of a point p(x, y) such that pv = pw where v = (1, 1) <br> and w = (3, 5). This means that the point p moves so that its distance from v and w are equidistance <br> \\(\\sqrt{(x − x_1)^2 + (y − y_1)^2}\\) = \\(\\sqrt{(x − x_2)^2 + (y − y_2)^2}\\) <br> \\(\\sqrt{(x -1)^2 + (y - 1)^2}\\) = \\(\\sqrt{(x - 3)^2 + (y - 5)^2}\\) <br> square both sides<br> (x - 1)2 + (y - 1)2 = (x - 3)2 + (y - 5)2 <br> x2 - 2x + 1 + y2 - 2y + 1 = x2 - 6x + 9 + y2 - 10y + 25 <br> x2 + y2 -2x -2y + 2 = x2 + y2 - 6x - 10y + 34 <br> Collecting like terms<br> x2 - x2 + y2 - y2 - 2x + 6x -2y + 10y = 34 - 2 <br> 4x + 8y = 32 <br> Divide through by 4 <br> x + 2y = 8"
+  },
+  {
+    "question": "Find ∫(x<sup>2</sup>  + 3x − 5)dx",
+    "option_a": "\\(\\frac{x_3}{3}\\) - \\(\\frac{3x_2}{2}\\) - 5x + k",
+    "option_b": "\\(\\frac{x_3}{3}\\) - \\(\\frac{3x_2}{2}\\) + 5x + k",
+    "option_c": "\\(\\frac{x_3}{3}\\) + \\(\\frac{3x_2}{2}\\) - 5x + k",
+    "option_d": "\\(\\frac{x_3}{3}\\) + \\(\\frac{3x_2}{2}\\) + 5x + k",
+    "answer": "C",
+    "solution": "∫xndx = \\(\\frac{x_{n + 1}}{n + 1}\\) <br> ∫dx = x + k  <br> where k is constant  <br> ∫(x2 + 3x − 5)dx  <br> ∫x2 dx + ∫3xdx − ∫5dx  <br> \\(\\frac{2_{2 + 1}}{2 + 1}\\) + \\(\\frac{3x^{1 + 1}}{1 + 1}\\) − 5x + k <br> \\(\\frac{x_3}{3}\\) + \\(\\frac{3x_2}{2}\\) − 5x + k"
+  },
+  {
+    "question": "In the diagram below MN is a chord of a circle KMN centre O and radius 10cm. If",
+    "option_a": "10cm",
+    "option_b": "18cm",
+    "option_c": "17cm",
+    "option_d": "12cm",
+    "answer": "A",
+    "solution": "Find the diagram<br> Sin 70<sup>o</sup> <br> x = 10 Sin 70<sup>o</sup> <br> = 9.3969 <br> Hence, length of chord MN = 2x <br> = 2 × 9.3969 <br> = 18.79 <br> = 19cm (nearest cm)"
+  },
+  {
+    "question": "If m * n = \\(\\frac{m}{n}\\) - \\(\\frac{m}{n}\\) for m, n belong to R, evaluate − 3 * 4",
+    "option_a": "3",
+    "option_b": "4",
+    "option_c": "5",
+    "option_d": "6",
+    "answer": "C",
+    "solution": "m * n = \\(\\frac{m}{n}\\) - \\(\\frac{m}{n}\\) <br> m = − 3 <br> n = 4 <br> ∴ − 3 × 4 = \\(\\frac{-3}{4}\\) - \\(\\frac{-4}{-3}\\) <br> = \\(\\frac{3(−3) − (− 4 × 4)}{12}\\) <br> = \\(\\frac{− 9 + 16}{12}\\) <br> = \\(\\frac{7}{12}\\)"
+  },
+  {
+    "question": "Factorize completely x<sup>2</sup> + 12xy + y  + 3x + 3y - 18",
+    "option_a": "(x + y + 6)(x + y -3)",
+    "option_b": "(x - y - 6)(x - y + 3)",
+    "option_c": "(x - y + 6)(x - y - 3)",
+    "option_d": "(x +  y - 6)(x + y + 3)",
+    "answer": "A",
+    "solution": "x + 2xy + y  + 3x + 3y - 18 <br> x  + 2xy + 3x + y  + 3y -18 <br> x  + 2xy - 3x + 6x + y  -3y + 6y -18 <br> x  + 2xy -3x + y  -3y + 6x + 6y -18 <br> x  + xy -3x + xy + y  - 3y + 6x + 6y -18 <br> x(x + y - 3) + y(x + y - 3) + 6(x + y - 3) <br> = (x + y - 3)(x + y + 6) <br> = (x + y + 6)(x + y -3)"
+  },
+  {
+    "question": "Make S the subject of the relation<br> p = s + \\(\\frac{sm^2}{nr}\\)",
+    "option_a": "s = \\(\\frac{nrp}{nr + m^2}\\)",
+    "option_b": "s = nr + \\(\\frac{m^2}{mrp}\\)",
+    "option_c": "s = \\(\\frac{nrp}{mr}\\) + m2",
+    "option_d": "s = \\(\\frac{nrp}{nr}\\) + m2",
+    "answer": "D",
+    "solution": "p = s + \\(\\frac{sm^2}{nr}\\) <br> p = s + ( 1 + \\(\\frac{m^2}{nr}\\)) <br> p = s (1 + \\(\\frac{nr + m^2}{nr}\\)) <br> nr × p = s (nr + m2) <br> s = \\(\\frac{nrp}{nr + m^2}\\)"
+  },
+  {
+    "question": "The operation * on the set R of real number is defined by x * y = 3x + 2y − 1, find 3* − 1",
+    "option_a": "9",
+    "option_b": "- 9",
+    "option_c": "6",
+    "option_d": "- 6",
+    "answer": "C",
+    "solution": "x * y is an operation on 3x + 2y − 1 <br> Find 3A − 1 <br> x = 3, y = −1 <br> 3 * − 1 on 3x + 2y − 1 <br> 3(3) + 2(−1) −1 <br> = 9 − 2 − 1 <br> = 6"
+  },
+  {
+    "question": "Find the gradient of the line joining the points (3, 2) and (1, 4)",
+    "option_a": "3/2",
+    "option_b": "2/1",
+    "option_c": "-1",
+    "option_d": "3/2",
+    "answer": "C",
+    "solution": "Gradient of line joining points (3, 2), (1, 4) <br> Gradient = \\(\\frac{\\text{Change in Y}}{\\text{Change in X}}\\) <br> = \\(\\frac{y_2 - Y_1}{x_2 - x_1}\\)\\)  <br> (X1, Y1) = (3, 2) <br> (X2, Y2) = (1, 4) <br> Gradient = \\(\\frac{4 − 2}{1 + 3}\\) <br> = \\(\\frac{2}{-2}\\) <br> = −1"
+  },
+  {
+    "question": "Simplify (3√64a3)\\(^{−1}\\)",
+    "option_a": "4a",
+    "option_b": "\\(\\frac{1}{8a}\\)",
+    "option_c": "8a",
+    "option_d": "\\(\\frac{1}{4a}\\)",
+    "answer": "D",
+    "solution": "(3√64a3)\\(^{-1}\\) <br> \\(\\frac{1}{(3√64a^3) <br> = \\(\\frac{1}{4a}\\)"
+  },
+  {
+    "question": "If \\(\\frac{2 \\sqrt{3} - \\sqrt{2}}{\\sqrt{3} + 2 \\sqrt{2}}\\) = m + n √ 6, <br> find the values of m and n respectively",
+    "option_a": "1, − 2",
+    "option_b": "− 2, n = 1",
+    "option_c": "\\(\\frac{-2}{5}\\), 1",
+    "option_d": "\\(\\frac{2}{3}\\)",
+    "answer": "B",
+    "solution": "\\(\\frac{2 \\sqrt{3} - \\sqrt{2}}{\\sqrt{3} + 2 \\sqrt{2}}\\)= m + n√6 <br> \\(\\frac{2 \\sqrt{3}  - \\sqrt{2}}{\\sqrt{3} + 2 \\sqrt{2}}\\) x \\(\\frac{\\sqrt{3} - 2 \\sqrt{2}}{\\sqrt{3} - \\sqrt{2}}\\) <br> \n\\(\\frac{2 \\sqrt{3} (\\sqrt{3} - 2 \\sqrt{2}) - \\sqrt{2}(\\sqrt{3} - 2 \\sqrt{2})}{\\sqrt{3}(\\sqrt{3} - 2 \\sqrt{2}) + 2 \\sqrt{2}(\\sqrt{3} - 2 \\sqrt{2})}\\) <br> \\(\\frac{2 \\times 3 - 4\\sqrt{6} - 6 + 2 \\times 2}{3 - 2 \\sqrt{6} + 2 \\sqrt{6} - 4 \\times 2}\\) <br> = \\(\\frac{6 - 4 \\sqrt{6} - \\sqrt{6} + 4}{3 - 8}\\) <br> = \\(\\frac{0 - 4 \\sqrt{6} - 6}{5}\\) <br> = \\(\\frac{10 - 5 \\sqrt{6}}{5}\\) <br> = − 2 + √6 <br> ∴ m + n\\(\\sqrt{6}\\) = − 2 + √6 <br> m = − 2, n = 1"
+  },
+  {
+    "question": "If α and β are the roots of the equation 3x2 + bx − 2 = 0. Find the value of \\(\\frac{1}{\\alpha}\\) + \\(\\frac{1}{\\beta}\\)",
+    "option_a": "\\(\\frac{-5}{3}\\)",
+    "option_b": "\\(\\frac{-2}{3}\\)",
+    "option_c": "\\(\\frac{1}{2}\\)",
+    "option_d": "\\(\\frac{5}{2}\\)",
+    "answer": "D",
+    "solution": "\\(\\frac{1}{\\alpha}\\) + \\(\\frac{1}{\\beta}\\) = \\(\\frac{\\beta -\\alpha}{\\alpha \\beta}\\)  <br> 3x2 + 5x + 5x − 2 = 0.  <br> Sum of root = α + β <br> Product of root = αβ <br> x2 + \\(\\frac{5x}{3}\\) − \\(\\frac{2}{3}\\) = 0 <br> αβ = − \\(\\frac{-2}{3}\\) <br> α + β = \\(\\frac{5}{3}\\) <br> ∴ \\(\\frac{\\alpha + \\beta}{\\alpha \\beta}\\) = − \\(\\frac{\\frac{5}{3}}{\\frac{2}{3}}}\\) <br> \n= − \\(\\frac{2}{3}\\) × \\(\\frac{3}{3}\\) <br> = \\(\\frac{5}{2}\\)"
+  },
+  {
+    "question": "Find the range of the following set of numbers 0.4, −0.4, 0.3, 0.47, −0.53, 0.2 and −0.2",
+    "option_a": "1.03",
+    "option_b": "0.07",
+    "option_c": "0.03",
+    "option_d": "1.0",
+    "answer": "D",
+    "solution": "0.4, −0.4, 0.3, 0.47, −0.53, 0.2, −0.2 <br> Range is the difference between the highest and lowest value <br> i.e Highest − Lowest <br> − 0.53, −0.4, −0.2, 0.2, 0.3, 0.4, 0.47 <br> 0.47 is the highest <br> − 0.53 is the lowest <br> ∴ = 0.47 − (− 0.53) <br> ∴0.47 + 0.53 <br> = 1.0"
+  },
+  {
+    "question": "Evaluate 1 − (\\(\\frac{1}{5}\\) + 1\\(\\frac{2}{3}\\)) + (5 + 1\\(\\frac{2}{3}\\))",
+    "option_a": "4",
+    "option_b": "3",
+    "option_c": "2\\(\\frac{2}{3}\\)",
+    "option_d": "3 \\(\\frac{2}{3}\\)",
+    "answer": "D",
+    "solution": "1 − (\\(\\frac{1}{5}\\) + 1\\(\\frac{2}{3}\\)) + (5 + 1\\(\\frac{2}{3}\\)) <br> 1 − (\\(\\frac{1}{5}\\) × \\(\\frac{5}{3}\\)) + (5 + \\(\\frac{5}{3}\\)) <br> 1 − \\(\\frac{1}{3}\\) + \\(\\frac{20}{3}\\) <br>  = \\(\\frac{22}{3}\\)"
+  },
+  {
+    "question": "What is the product of 2x<sup>2</sup> − x + 1 and 3 − 2x",
+    "option_a": "4x<sup>3</sup> − 8x<sup>2</sup> + 5x + 3",
+    "option_b": "-4x<sup>3<sup> + 8x<sup>2<sup> − 5x + 3",
+    "option_c": "−4x<sup>3<sup> − 8x<sup>2<sup> + 5x + 3",
+    "option_d": "4x<sup>3<sup> + 8x<sup>2<sup> − 5x + 3",
+    "answer": "B",
+    "solution": "(2x<sup>2<sup> - x + 1) × (3 - 2x); <br> 3(2x<sup>2<sup> - x + 1) - 2x (2x<sup>2<sup> - x + 1) <br> 6x<sup>2<sup> - 3x + 3 - 4x<sup>3<sup> + 2x<sup>2<sup> - 2x <br> -4x<sup>3<sup> + 8x<sup>2<sup> -5x + 3"
+  }
+]

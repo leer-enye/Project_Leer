@@ -1,0 +1,335 @@
+﻿[
+  {
+    "question": "Convert 2710 to another number in base three",
+    "option_a": "10013",
+    "option_b": "10103",
+    "option_c": "11003",
+    "option_d": "10003",
+    "answer": "D",
+    "solution": "\\(\\begin{array}{c|c} <br> 3 & \\text{27 rem 0} \\\\<br> \\hline <br> 3 & \\text{ 9 rem 0} \\\\<br> \\hline <br> 3 & \\text{ 3 rem 0} \\\\<br> \\hline <br> 3 & \\text{ 1 rem 1}\\\\<br> \\hline <br>  & 0<br> \\end{array}\\) <br> Hence the correct answer is 10003"
+  },
+  {
+    "question": "3 girls share a number of apples in the ration 5:3:2. If the highest share is 40 apples, find the smallest share",
+    "option_a": "36",
+    "option_b": "24",
+    "option_c": "16",
+    "option_d": "38",
+    "answer": "C",
+    "solution": "The sum, S of ratio is S = 5 + 3 + 2 = 10. <br> But highest share = \\(\\frac{5}{10} \\times T\\), where T is the total number of apples. <br> Thus, \\(40 = \\frac{5}{10} \\times T\\), <br> given 40 x 10 = 5T, <br> \\(T = \\frac{40 \\times 10}{5} = 80\\) <br> Hence the smallest share = \\(\\frac{2}{10} \\times 80\\) <br> = 16 apples"
+  },
+  {
+    "question": "Evaluate \\(\\frac{1.25 \\times 0.025}{0.05}\\), correct to 1 decimal place",
+    "option_a": "0.6",
+    "option_b": "6.2",
+    "option_c": "6.3",
+    "option_d": "0.5",
+    "answer": "A",
+    "solution": "\\(\\frac{1.25 \\times 0.025}{0.05}\\) <br> \\( = \\frac{125 \\times 10^{-2} \\times 25 \\times 10^{-3}}{5 \\times 10^{-2}}\\) <br> = 125 x 5 x 10-3 <br> = 625 x 0.001 <br> = 0.625 <br> = 0.6 Approx to 1 d.p."
+  },
+  {
+    "question": "Calculate the time taken for N3000 to earn N600 if invested at 8% simple interest",
+    "option_a": "2\\(\\frac{1}{2}\\) years",
+    "option_b": "3 years",
+    "option_c": "3\\(\\frac{1}{2}\\) years",
+    "option_d": "1\\(\\frac{1}{2}\\) years",
+    "answer": "A",
+    "solution": "Using \\(S.I =\\frac{P \\times T \\times R}{100}\\)  <br> \\(600 =\\frac{3000 \\times T \\times 8}{100}\\)  <br> \\(T =\\frac{600 \\times 100}{3000 \\times 8}\\)  <br> \\(\\frac{20}{8}\\)  <br> = 2\\(\\frac{1}{2}\\) years"
+  },
+  {
+    "question": "Simplify \\(\\frac{3^{-5n}}{9^{1-n}} \\times 27^{n + 1}\\)",
+    "option_a": "32",
+    "option_b": "33",
+    "option_c": "35",
+    "option_d": "3",
+    "answer": "D",
+    "solution": "\\(\\frac{3^{-5n}}{9^{1-n}} \\times 27^{n + 1}\\) <br> \\(\\frac{3^{-5n}}{3^{2(1-n)}} \\times 3^{3(n + 1)}\\) <br> \\(3^{-5n} \\div 3^{2(1-n)} \\times 3^{3(n + 1)}\\) <br> \n\\(3^{-5n - 2(1-n) + 3(n + 1)}\\) <br> \n\\(3^{-5n - 2 + 2n + 3n + 3}\\) <br> \\(3^{-5n + 5n + 3 - 2}\\) <br> \\(3^{1}\\) <br> = 3"
+  },
+  {
+    "question": "If log<sub>10</sub>4 = 0.6021, evaluate log<sub>10</sub>41/3",
+    "option_a": "0.3011",
+    "option_b": "0.9021",
+    "option_c": "1.8063",
+    "option_d": "0.2007",
+    "answer": "D",
+    "solution": "log<sub>10</sub>41/3 = 1/3 log<sub>10</sub>4 <br> = 1/3 x 0.6021 <br> = 0.2007"
+  },
+  {
+    "question": "Simplify \\(\\frac{\\sqrt{5}(\\sqrt{147} - \\sqrt{12}}{\\sqrt{15}}\\)",
+    "option_a": "5",
+    "option_b": "\\(\\frac{1}{5}\\)",
+    "option_c": "\\(\\frac{1}{9}\\)",
+    "option_d": "9",
+    "answer": "A",
+    "solution": "\\(\\frac{\\sqrt{5}(\\sqrt{147} - \\sqrt{12}}{\\sqrt{15}}\\) <br> \\(\\frac{\\sqrt{5}(\\sqrt{49 \\times 3} - \\sqrt{4 \\times 3}}{\\sqrt{5 \\times 3}}\\) <br> \\(\\frac{\\sqrt{5}(7\\sqrt{3} - 2\\sqrt{3}}{\\sqrt{5} \\times \\sqrt{3}}\\) <br> \\(\\frac{\\sqrt{3} (7 - 2}{\\sqrt{3}}\\) <br> = 5"
+  },
+  {
+    "question": "if P = {x:x is odd, \\(-1 < x \\leq 20\\)} and q is {y:y is prime, \\(-2 < y \\leq 25\\), find P \\(\\cap\\) q",
+    "option_a": "{3,5,7,11,17,19}",
+    "option_b": "{3,5,11,13,17,19}",
+    "option_c": "{3,5,7,11,13,17,19}",
+    "option_d": "{2,3,5,7,11,13,17,19}",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "If S = \\(\\sqrt{t^2 - 4t + 4}\\), find t in terms of S",
+    "option_a": "S<sup>2</sup> - 2",
+    "option_b": "S + 2",
+    "option_c": "S - 2",
+    "option_d": "S<sup>2</sup> + 2",
+    "answer": "B",
+    "solution": "S = \\(\\sqrt{t^2 - 4t + 4}\\) <br> S2 = t2 - 4t + 4 <br> t2 - 4t + 4 - S2 = 0 <br> Using \\(t = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}\\) <br> Substituting, we have; <br> Using \\(t = \\frac{-(-4) \\pm \\sqrt{(-4)^2 - 4(1)(4 - S^2)}}{2(1)}\\) <br> \\(t = \\frac{4 \\pm \\sqrt{16 - 4(4 - S^2)}}{2}\\) <br> \\(t = \\frac{4 \\pm \\sqrt{16 - 16 + 4S^2}}{2}\\) <br> \\(t = \\frac{4 \\pm \\sqrt{4S^2}}{2}\\) <br> \\(t = \\frac{2(2 \\pm S)}{2}\\) <br> Hence t = 2 + S or t = 2 - S"
+  },
+  {
+    "question": "If x - 4 is a factor of x<sup>2</sup> - x - k, then k is",
+    "option_a": "4",
+    "option_b": "12",
+    "option_c": "20",
+    "option_d": "2",
+    "answer": "B",
+    "solution": "Let f(x) = x<sup>2</sup> - x - k<br> Then by the factor theorem, <br> (x - 4): f(4) = (4)<sup>2</sup> - (4) - k = 0 <br> 16 - 4 - k = 0 <br> 12 - k = 0 <br> k = 12"
+  },
+  {
+    "question": "The remainder when 6p<sup>3</sup> - p<sup>2</sup> - 47p + 30 is divided by p - 3 is",
+    "option_a": "21",
+    "option_b": "42",
+    "option_c": "63",
+    "option_d": "18",
+    "answer": "B",
+    "solution": "Let f(p) = 6p<sup>3</sup> - p<sup>2</sup> - 47p + 30 <br> Then by the remainder theorem, <br> (p - 3): f(3) = remainder R, <br> i.e. f(3) = 6(3)<sup>3</sup> - (3)<sup>2</sup> - 47(3) + 30 = R <br> 162 - 9 - 141 + 30 = R <br> 192 - 150 =  R <br> R = 42"
+  },
+  {
+    "question": "P varies jointly as m and u, and varies inversely as q. Given that p = 4, m = 3 and u = 2 and q = 1, find the value of p when m = 6, u = 4 and q =\\(\\frac{8}{5}\\)",
+    "option_a": "12\\(\\frac{8}{5}\\)",
+    "option_b": "15",
+    "option_c": "10",
+    "option_d": "28\\(\\frac{8}{5}\\)",
+    "answer": "C",
+    "solution": "P \\(\\propto\\) mu, p \\(\\propto \\frac{1}{q}\\) <br> p = muk ................ (1) <br> p = \\(\\frac{1}{q}k\\).... (2) <br> Combining (1) and (2), we get <br> P = \\(\\frac{mu}{q}k\\) <br> 4 = \\(\\frac{m \\times u}{1}k\\) <br> giving k = \\(\\frac{4}{6} = \\frac{2}{3}\\) <br> So, P = \\(\\frac{mu}{q} \\times \\frac{2}{3} = \\frac{2mu}{3q}\\) <br> Hence, P = \\(\\frac{2 \\times 6 \\times 4}{3 \\times \\frac{8}{5}}\\) <br> P = \\(\\frac{2 \\times 6 \\times 4 \\times 5}{3 \\times 8}\\) <br> p = 10"
+  },
+  {
+    "question": "If r varies inversely as the square root of s and t, how does s vary with r and t?",
+    "option_a": "s varies inversely as r and t2",
+    "option_b": "s varies inverely as r2 and t",
+    "option_c": "s varies directly as r2 and t2",
+    "option_d": "s varies directly as r and t",
+    "answer": "B",
+    "solution": "\\(r \\propto \\frac{1}{\\sqrt{s}}, r \\propto \\frac{1}{\\sqrt{t}}\\) <br> \\(r \\propto \\frac{1}{\\sqrt{s}}\\) ..... (1) <br> \\(r \\propto \\frac{1}{\\sqrt{t}}\\) ..... (2) <br> Combining (1) and (2), we get <br> \\(r = \\frac{k}{\\sqrt{s} \\times \\sqrt{t}} = \\frac{k}{\\sqrt{st}}\\) <br> This gives \\(\\sqrt{st} = \\frac{k}{r}\\) <br> By taking the square of both sides, we get <br> st = \\(\\frac{k^2}{r^2}\\) <br> s = \\(\\frac{k^2}{r^{2}t}\\)"
+  },
+  {
+    "question": "Evaluate 3(x + 2) > 6(x + 3)",
+    "option_a": "x < 4",
+    "option_b": "x > -4",
+    "option_c": "x < -4",
+    "option_d": "x > 4",
+    "answer": "C",
+    "solution": "3(x + 2) > 6(x + 3) <br> 3x + 6 > 6x + 18 <br> 3x - 6x > 18 - 6 <br> -3x > 12 <br> x < -4"
+  },
+  {
+    "question": "Solve for x: |x - 2| < 3",
+    "option_a": "x < 5",
+    "option_b": "-2 < x < 3",
+    "option_c": "-1 < x < 5",
+    "option_d": "x < 1",
+    "answer": "C",
+    "solution": "|x - 2| < 3 implies <br> -(x - 2) < 3 .... or .... +(x - 2) < 3 <br> -x + 2 < 3 .... or .... x - 2 < 3 <br> -x < 3 - 2  .... or .... x < 3 + 2 <br> x > 1  .... or .... x < 1 <br> combining the two inequalities results, we get; <br> -1 < x < 5"
+  },
+  {
+    "question": "If the sum of the first two terms of a G.P. is 3, and the sum of the second and the third terms is -6, find the sum of the first term and the common ratio",
+    "option_a": "-2",
+    "option_b": "-3",
+    "option_c": "-5",
+    "option_d": "5",
+    "answer": "C",
+    "solution": "Using S<sub>n</sub> = \\(a\\frac{r^2 - 1}{r - 1}\\) <br> we get  S2 = 3 = \\(a\\frac{r^2 - 1}{r - 1}\\) <br> giving 3(r - 1) = a(r2 - 1) <br> 3r - 3 = ar2 - a <br> ar2 - 3r - a = -3 ..... (1) <br> ar + ar2 = -6 ..... (2) <br> From (2), a = \\(\\frac{-6}{(r + r^2)}\\) <br> Substitute \\(\\frac{-6}{(r + r^2)}\\) for a in (1) <br> \\((\\frac{-6}{(r + r^2)})r^2 - 3r - \\frac{-6}{(r + r^2)} = -3\\) <br> Multiply through by (r + r2) to get <br> -6r2 - 3r(r + r2) + 6 = -3(r + r2) <br> -6r2 - 3r2 - 3r3 + 6 = -3r - 3r2 <br> Equating to zero, we have <br> 3r3 - 3r2 + 3r2 + 6r2 - 3r - 6 = 0 <br> This reduces to; <br> 3r3 + 6r2 - 3r - 6 = 0 <br> 3(r3 + 2r2 - r - 2) = 0 <br> By the factor theorem, <br> (r + 2): f(-2) = (-2)3 + 2(-2)2 - (-2) - 2 <br> -8 + 8 + 2 - 2 = 0 <br> giving r = -2 as the only valid value of r for the G.P. <br> From (3), = \\(\\frac{-6}{-2 + (-2)^2} = \\frac{-6}{-2 + 4}\\) <br> a = -6/2 = -3 <br> Hence (a + r) = (-3 + -2) = -5"
+  },
+  {
+    "question": "The nth term of the progression \\(\\frac{4}{2}\\), \\(\\frac{7}{3}\\), \\(\\frac{10}{4}\\), \\(\\frac{13}{5}\\) is ...",
+    "option_a": "\\(\\frac{1 - 3n}{n + 1}\\)",
+    "option_b": "\\(\\frac{3n + 1}{n + 1}\\)",
+    "option_c": "\\(\\frac{3n + 1}{n - 1}\\)",
+    "option_d": "\\(\\frac{3n - 1}{n + 1}\\)",
+    "answer": "B",
+    "solution": "Using Tn = \\(\\frac{3n + 1}{n + 1}\\), <br> T1 = \\(\\frac{3(1) + 1}{(1) + 1} = \\frac{4}{2}\\) <br> T2 = \\(\\frac{3(2) + 1}{(2) + 1} = \\frac{7}{3}\\) <br> T3 = \\(\\frac{3(3) + 1}{(3) + 1} = \\frac{10}{4}\\)"
+  },
+  {
+    "question": "If a binary operation * is defined by x * y = x + 2y, find 2 * (3 * 4)",
+    "option_a": "24",
+    "option_b": "16",
+    "option_c": "14",
+    "option_d": "26",
+    "answer": "A",
+    "solution": "x * y = x + 2y (given) <br> 3 * 4 = 3 + 2(4) = 11 <br> Hence, 2 * (3 * 4) = 2 * 11 <br> = 2 + 2(11) <br> = 2 + 22 <br> = 24"
+  },
+  {
+    "question": "If P = \\(\\begin{vmatrix} 5 & 3 \\ 2 & 1 \\end{vmatrix}\\) and q = \\(\\begin{vmatrix} 4 & 2 \\ 3 & 5 \\end{vmatrix}\\), find 2P + q",
+    "option_a": "\\(\\begin{vmatrix} 7 & 7 \\ 14 & 8 \\end{vmatrix}\\)",
+    "option_b": "\\(\\begin{vmatrix} 14 & 8 \\ 7 & 7 \\end{vmatrix}\\)",
+    "option_c": "\\(\\begin{vmatrix} 7 & 7 \\ 8 & 14 \\end{vmatrix}\\)",
+    "option_d": "\\(\\begin{vmatrix} 8 & 14 \\ 7 & 7 \\end{vmatrix}\\)",
+    "answer": "B",
+    "solution": "2P + q = 2\\(\\begin{pmatrix} 5 & 3 \\ 2 & 1 \\end{pmatrix}\\) + \\(\\begin{pmatrix} 4 & 2 \\ 3 & 5 \\end{pmatrix}\\) <br> = \\(\\begin{pmatrix} 10 & 6 \\ 4 & 2 \\end{pmatrix}\\) + \\(\\begin{pmatrix} 4 & 2 \\ 3 & 5 \\end{pmatrix}\\) <br> = \\(\\begin{pmatrix} 14 & 8 \\ 7 & 7 \\end{pmatrix}\\)"
+  },
+  {
+    "question": "Find the inverse \\(\\begin{vmatrix} 5 & 3 \\ 6 & 4  \\end{vmatrix}\\)",
+    "option_a": "\\(\\begin{vmatrix} 2 & -\\frac{3}{2} \\ -3 & -\\frac{5}{2}  \\end{vmatrix}\\)",
+    "option_b": "\\(\\begin{vmatrix} 2 & -\\frac{3}{2} \\ -3 & \\frac{5}{2}  \\end{vmatrix}\\)",
+    "option_c": "\\(\\begin{vmatrix} 2 & \\frac{3}{2} \\ -3 & \\frac{5}{2}  \\end{vmatrix}\\)",
+    "option_d": "\\(\\begin{vmatrix} 2 & \\frac{3}{2} \\ -3 & \\frac{5}{2}  \\end{vmatrix}\\)",
+    "answer": "B",
+    "solution": "Let A = \\(\\begin{pmatrix} 5 & 3 \\ 6 & 4 \\end{pmatrix}\\) <br> Then |A| = \\(\\begin{pmatrix} 5 & 3 \\ 6 & 4 \\end{pmatrix}\\) = 20 - 18 = 2 <br> Hence A-1 = \\(\\frac{1}{|A|}\\begin{pmatrix} 4 & -3 \\ -6 & 5 \\end{pmatrix}\\) <br>  = \\(\\frac{1}{2}\\begin{pmatrix} 4 & -3 \\ -6 & 5 \\end{pmatrix}\\) <br>  = \\(\\begin{pmatrix} 4 \\times 1/2 & -3 \\times 1/2 \\ -6 \\times 1/2 & 5 \\times 1/2 \\end{pmatrix}\\) <br> = \\(\\begin{vmatrix} 2 & -\\frac{3}{2} \\ -3 & \\frac{5}{2}  \\end{vmatrix}\\)"
+  },
+  {
+    "question": "If y = x sin x, find \\(\\frac{\\delta y}{\\delta x}\\)",
+    "option_a": "sin x - cos x",
+    "option_b": "cos x - x sin x",
+    "option_c": "cos x + x sin x",
+    "option_d": "sin x + x cos x",
+    "answer": "D",
+    "solution": "y = x sin x <br> Where u = x and v = sin x <br> Then \\(\\frac{\\delta u}{\\delta x}\\) = 1 and \\(\\frac{\\delta v}{\\delta x}\\) = cos x <br> By the chain rule, \\(\\frac{\\delta y}{\\delta x} = v\\frac{\\delta u}{\\delta x} + u\\frac{\\delta v}{\\delta x}\\) <br> = (sin x)1 + x cos x <br> = sin x + x cos x"
+  },
+  {
+    "question": "If y = (2x + 2)<sup>3</sup>, find  \\(\\frac{\\delta x}{\\delta y}\\)",
+    "option_a": "3(2x +2)<sup>2</sup>",
+    "option_b": "6(2x +2)",
+    "option_c": "3(2x +2)",
+    "option_d": "6(2x +2)<sup>2</sup>",
+    "answer": "D",
+    "solution": "y = (2x +2)<sup>3</sup> <br> Then \\(\\frac{\\delta y}{\\delta x}\\) =2 * 3(2x +2)<sup>2</sup> <br> = 6(2x +2)<sup>2</sup>"
+  },
+  {
+    "question": "The radius of a circle is increasing at the rate of 0.02cms-1. Find the rate at which the area is increasing when the radius of the circle is 7cm.",
+    "option_a": "0.75cm2S-1",
+    "option_b": "0.53cm2S-1",
+    "option_c": "0.35cm2S-1",
+    "option_d": "0.88cm2S-1",
+    "answer": "D",
+    "solution": "A = \\(\\pi\\)r<sup>2</sup>, \\(\\frac{\\delta A}{\\delta r}\\) = 2πr  <br> So, using \\(\\frac{\\delta A}{\\delta t}\\) = \\(\\frac {\\delta A}{\\delta r}\\) x \\(\\frac {\\delta A}{\\delta t}\\)  <br> = 2\\(\\pi\\)r x 0.02  <br> = 2\\(\\pi\\) x 7 x 0.02 <br> = 2 x \\(\\frac{22}{7}\\) x 0.02 <br> = 0.88cm2s-1"
+  },
+  {
+    "question": "Find the mean of t + 2, 2t - 4, 3t + 2 and 2t.",
+    "option_a": "t + 1",
+    "option_b": "2t",
+    "option_c": "2t + 1",
+    "option_d": "t",
+    "answer": "B",
+    "solution": "\\(\\sum x\\) = (t + 2) + (2t + 4) + (3t + 2) + 2t = 8t  <br> N = 4_  <br> ∴ Mean, x = \\(\\frac{\\sum x}{N} = \\frac{8t}{4} = 2t\\) <br> = 2t"
+  },
+  {
+    "question": "The mean of seven numbers is 10. If six of the numbers are 2, 4, 8, 14, 16 and 18, find the mode.",
+    "option_a": "6",
+    "option_b": "8",
+    "option_c": "14",
+    "option_d": "2",
+    "answer": "B",
+    "solution": "Using x = \\(\\frac{\\sum x}{N}\\) in each case, we get; <br> \\(\\sum_{6}^{i=1} x_i\\) = 10 x 7 = 70 <br> \\(\\sum_{7}^{i=1} x_i\\) = 2 + 4 + 8 + 14 + 16 + 18 = 62 <br> Hence the missing number can be obtained from <br> \\(\\sum_{6}^{i=1} x_i - \\sum_{7}^{i=1} x_i\\) = 70 - 62 = 8 <br> So, all the seven numbers are 2, 4, 8, 8, 14, 16, 18 <br> Mode = 8"
+  },
+  {
+    "question": "\\(\\begin{array}{c|c}Age & 20 & 25 & 30 & 35 & 40 & 45 \\\\<br> \\hline \\text{No. of people} & 3 & 5 & 1 & 1 & 2 & 3 \\end{array}\\) <br> Calculate the median age of the frequency distribution in the table above",
+    "option_a": "25",
+    "option_b": "30",
+    "option_c": "35",
+    "option_d": "20",
+    "answer": "A",
+    "solution": "N = \\(\\sum f\\) = 15 <br> Hence the median age is the \\(\\frac{N + 1}{2}\\)th age, i.e. <br> \\(\\frac{15 + 1}{2}\\)th = 8th <br> From the table, the age that falls on the 8th position when arranged in ascending order is 25years"
+  },
+  {
+    "question": "If the variance of 3+x, 6, 4, x and 7-x is 4 and the mean is 5, find the standard deviation",
+    "option_a": "\\(\\sqrt{3}\\)",
+    "option_b": "2",
+    "option_c": "3",
+    "option_d": "\\(\\sqrt{2}\\)",
+    "answer": "B",
+    "solution": "Let \\(\\delta^2\\) and \\(\\delta\\) denote the variance and standard deviation of the distribution respectively. <br> But \\(\\delta^2\\) = 4 (given) <br> Hence \\(\\delta\\) = \\(\\sqrt{4}\\) = 2"
+  },
+  {
+    "question": "\\(\\begin{array}{c|c} Score & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 \\ \\hline Frequency & 1 & 0 & 7 & 5 & 2 & 3 & 1 & 1 \\end{array}\\)<br> The table above shows the scores of 20 students in further mathematics test. What is the range of the distribution?",
+    "option_a": "7",
+    "option_b": "6",
+    "option_c": "3",
+    "option_d": "10",
+    "answer": "A",
+    "solution": "Range = Highest score - Lowest score <br> = 10 - 3 <br> = 7"
+  },
+  {
+    "question": "In how many ways can a student select 2 subjects from 5 subjects?",
+    "option_a": "\\(\\frac{5!}{3!}\\)",
+    "option_b": "\\(\\frac{5!}{2!2!}\\)",
+    "option_c": "\\(\\frac{5!}{2!3!}\\)",
+    "option_d": "\\(\\frac{5!}{2!}\\)",
+    "answer": "C",
+    "solution": "A student can select 2 subjects from 5 subjects in;<br> 5C3 ways, i.e. = \\(\\frac{5!}{2!(5 - 2)!}\\) <br> = \\(\\frac{5!}{2!3!}\\)"
+  },
+  {
+    "question": "In how many ways can 3 seats be occupied if 5 people are willing to sit?",
+    "option_a": "60",
+    "option_b": "20",
+    "option_c": "5",
+    "option_d": "120",
+    "answer": "A",
+    "solution": "5 people can take 3 places in;<br> 5P3 ways,  = \\(\\frac{5!}{(5 - 3)!}\\) = \\(\\frac{5!}{2!}\\) <br> = \\(\\frac{5 \\times 4 \\times 3 \\times 2!}{2!}\\) <br> = 5 x 4 x 3 <br> = 60 ways"
+  },
+  {
+    "question": "What is the probability that an integer x \\((1 \\leq x \\leq 25)\\) chosen at random is divisible by both 2 and 3?",
+    "option_a": "\\(\\frac{1}{25}\\)",
+    "option_b": "\\(\\frac{1}{5}\\)",
+    "option_c": "\\(\\frac{4}{25}\\)",
+    "option_d": "\\(\\frac{3}{4}\\)",
+    "answer": "C",
+    "solution": "\\((1 \\leq x \\leq 25)\\) = {1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25} <br> Number N of x divisible by both 2 and 3 is 4. <br> n(\\(\\varepsilon\\)) = 25 <br> = \\(\\frac{N}{n(\\varepsilon)}\\) <br> = \\(\\frac{4}{25}\\)"
+  },
+  {
+    "question": "A basket contains 9 apples, 8 bananas and 7 oranges. A fruit is picked from the basket, find the probability that it is neither an apple nor an orange.",
+    "option_a": "\\(\\frac{3}{8}\\)",
+    "option_b": "\\(\\frac{1}{3}\\)",
+    "option_c": "\\(\\frac{7}{24}\\)",
+    "option_d": "\\(\\frac{2}{3}\\)",
+    "answer": "B",
+    "solution": "n(apples) = 9<br> n(bananas) = 9<br> n(oranges) = 9 <br> n(\\(\\varepsilon\\)) = 24 <br> Hence Prob(not apple, nor orange) = Prob(banana) = \\(\\frac{8}{24}\\) = \\(\\frac{1}{3}\\)"
+  },
+  {
+    "question": "The graph is shown is correctly represented by",
+    "option_a": "y = x<sup>2</sup> - x - 2",
+    "option_b": "y = x<sup>2</sup> - 3x + 2",
+    "option_c": "y = x<sup>2</sup> - x - 1",
+    "option_d": "y = x<sup>2</sup> + x - 2",
+    "answer": "A",
+    "solution": "The graph crosses the x-axis at x = -1 and x = 2 <br> Thus, x + 1 = 0 and x - 2 = 0 <br> x2 - 2x + x - 2 = 0 <br> x2 - x - 2 = 0 <br> giving y = x2 - x - 2"
+  },
+  {
+    "question": "In the diagram given, find the value of x.",
+    "option_a": "30<sup>o</sup>",
+    "option_b": "40<sup>o</sup>",
+    "option_c": "45<sup>o</sup>",
+    "option_d": "15<sup>o</sup>",
+    "answer": "B",
+    "solution": "In the diagram above, < CDE = < CED = 15<sup>o</sup> <br> (base < s of isos. \\(\\bigtriangleup\\)) <br> < ECD = 180<sup>o</sup> - (15 + 15)o <br> = 180o - 30o = 150o <br> But x + 110o = 150o <br> (Sum of opp. interior < s of a\\(\\bigtriangleup\\) = opp. exterior < ) <br> x = 150o - 110o = 40o"
+  },
+  {
+    "question": "The value x in the figure given is",
+    "option_a": "110<sup>o</sup>",
+    "option_b": "100<sup>o</sup>",
+    "option_c": "70<sup>o</sup>",
+    "option_d": "130<sup>o</sup>",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "The bar chart above shows the allotment of time(in minutes) per week for selected subjects in a certain school. What is the total time allocated to the six subjects per week?",
+    "option_a": "460mins",
+    "option_b": "720mins",
+    "option_c": "960mins",
+    "option_d": "200mins",
+    "answer": "B",
+    "solution": "80 + 160 + 200 + 80 = 128 + 72 = 720minutes"
+  },
+  {
+    "question": "The pie chart above shows the statistical distribution of 80 students in five subjects in an examination. Calculate how many student offer Mathematics.",
+    "option_a": "30",
+    "option_b": "11",
+    "option_c": "50",
+    "option_d": "20",
+    "answer": "B",
+    "solution": "5xo + (16x - 24)o + 5xo + (4x + 12)o + (6x + 12)o = 360o <br> 360xo - 24 + 12 + 12 = 360o <br> 36xo = 360o <br> xo = \\(\\frac{360^0}{36}\\) <br> = 10o <br> Thus, the angle of sector representing Mathematics is 5 x 10o = 50o. Hence the number of students who offer mathematics is <br> \\(\\frac{55^o}{36} \\times 80 \\approx 11\\)"
+  }
+]

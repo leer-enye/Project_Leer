@@ -1,0 +1,371 @@
+﻿[
+  {
+    "question": "The filter in the cigarette reduce the nicotine construct by",
+    "option_a": "burning",
+    "option_b": "absorption",
+    "option_c": "evaporation",
+    "option_d": "absorption",
+    "answer": "A",
+    "solution": "Nicotine is a substance in cigarette which makes difficult to make one stop smoking. This can be derived by burning. Options B,C,D will not reduce this nicotine"
+  },
+  {
+    "question": "Which of these require crystallization most?",
+    "option_a": "Drug making",
+    "option_b": "Cement making",
+    "option_c": "Paint making",
+    "option_d": "Perfume making",
+    "answer": "A",
+    "solution": "Crystallization is required the most in industries where the purity of their products is important e.g in the manufacture of drugs and in sugar production. Options B,C and D do not undergo crystallization"
+  },
+  {
+    "question": "Iron is often galvanized in order to",
+    "option_a": "Make it more malleable",
+    "option_b": "Remove the impurities unit",
+    "option_c": "Protect it against corrosion",
+    "option_d": "Render it passive",
+    "answer": "C",
+    "solution": "Iron is galvanized with zinc covering to protect it against corrosion. Option A, B, D are the main reasons iron is galvanized"
+  },
+  {
+    "question": "In the industrial production of H2 is removed by (solution)",
+    "option_a": "washing under pressure",
+    "option_b": "drying over phosphorus (V) oxide",
+    "option_c": "passing the mixture to the limewater",
+    "option_d": "using ammonical copper (I) chlorine",
+    "answer": "A",
+    "solution": "Washing under pressure is an action in the industrial production of H. Options B,C,D will not yield Co and H"
+  },
+  {
+    "question": "The gas that is most useful in protecting humans against solar marathon is",
+    "option_a": "chlorine",
+    "option_b": "ozone",
+    "option_c": "carbon IV oxide",
+    "option_d": "hydrogen sulphur",
+    "answer": "B",
+    "solution": "The ozone layer or ozone shield refers to a region of Earth's stratosphere that absorbs most of the Sun's ultraviolet (UV) radiation. It contains high concentrations of ozone (O3) relative to other parts of the atmosphere, although still very small relative to other gases in the stratosphere"
+  },
+  {
+    "question": "Vulcanization involve the removal of",
+    "option_a": "monometer",
+    "option_b": "the single bond",
+    "option_c": "the double bond",
+    "option_d": "a polymer",
+    "answer": "C",
+    "solution": "Vulcanizer is the removal of double bend in a chemical reaction. Option A,B,D can not be removed by vulcanizer"
+  },
+  {
+    "question": "The acid in electrolysis of water is dilute",
+    "option_a": "HNO<sub>3</sub>",
+    "option_b": "CH<sub>3</sub>COOH",
+    "option_c": "H<sub>2</sub>SO",
+    "option_d": "HCl",
+    "answer": "C",
+    "solution": "HeSO<sub>4</sub> is the acid used in the electrolysis of water. Option A,B,D are concentrated acid and they will react with the water"
+  },
+  {
+    "question": "A small quantity of solid ammonium chloride (NH4Cl) texted gently in a test tube, the solid gradually disappear produce two gases. Later, a white cloudy deposit was absence on the cooler part of the test tube. The ammonium chloride is to have undergo",
+    "option_a": "distillation",
+    "option_b": "sublimation",
+    "option_c": "precipitation",
+    "option_d": "evaporation",
+    "answer": "B",
+    "solution": "Sublimation is the transformation of solid gaseous state without passing through the liquid state. Options A,C,D do not show case these character of sublimation as they do not bye pass states. They are in a particular order"
+  },
+  {
+    "question": "When salt loses its water of crystallization to the atmosphere on exposure, the process is said to be",
+    "option_a": "efflorescence",
+    "option_b": "déliquescence",
+    "option_c": "effervescence",
+    "option_d": "fluorescence",
+    "answer": "A",
+    "solution": "Efflorescence is a process of long exposure to the atmosphere which favors salt loss of water. Options B, C, D are not related to loss of water"
+  },
+  {
+    "question": "Atomicity of ozone is",
+    "option_a": "1",
+    "option_b": "2",
+    "option_c": "3",
+    "option_d": "4",
+    "answer": "C",
+    "solution": "Ozone means Oz as the atomicity is 3. Option A,B,D cannot give ozone because their atomicity is not 3"
+  },
+  {
+    "question": "Which of the noble gases has the greatest ionization energy",
+    "option_a": "He",
+    "option_b": "Xe",
+    "option_c": "Ar",
+    "option_d": "Rr",
+    "answer": "A",
+    "solution": "Helium has the greatest ionization energy because they are less stable. Options B,C,D have low ionization energy because one more stable and do not react easily"
+  },
+  {
+    "question": "The weakest attractive force that can be observed between two molecules is",
+    "option_a": "ionic",
+    "option_b": "covalent",
+    "option_c": "co-ordinate covalent",
+    "option_d": "vander Waals",
+    "answer": "D",
+    "solution": "Vander Waals are the weakest attractive forces that exist between two molecules. Option A,B,C are not weak forces because the force attraction that exist between their interested molecule are very strong"
+  },
+  {
+    "question": "An elements used in production of matches is",
+    "option_a": "nitrogen",
+    "option_b": "aluminum",
+    "option_c": "copper",
+    "option_d": "sulphur",
+    "answer": "D",
+    "solution": "Sulphur is an element that burns with a strongly explosive smell, as a result it is explosive smell"
+  },
+  {
+    "question": "Cathode rays cause an object placed behind a perforated anode to cast a shadow on the screen. This observation shows that the rays",
+    "option_a": "are positively charged",
+    "option_b": "are negatively charged",
+    "option_c": "Have mass",
+    "option_d": "travel in straight lines",
+    "answer": "D",
+    "solution": "Rays travels in straight lines and finds its way through any opening available. It could be refracted, reflected or transmitted based on any obstacle. Option A,B,C are not the reason why the cathode are coasted shadows"
+  },
+  {
+    "question": "Flow of current in electrolytes is due to the movement of",
+    "option_a": "electrons",
+    "option_b": "Holes and electron",
+    "option_c": "Ions",
+    "option_d": "Charges",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "A suitable reagent for distinguish between ethanoic and ethanol is",
+    "option_a": "bromine water",
+    "option_b": "Fehling’s solution",
+    "option_c": "sodium hydrogen trioxocarbonate (iv)",
+    "option_d": "Ammoniacal silver trioxonitrate(V)",
+    "answer": "C",
+    "solution": "Sodium hydrogen trionocarbonate iv is the only distinguishing reagent between ethanoic and ethanol. Option A, B, D are not conspicuous in distinguishing between ethanoic and ethanol"
+  },
+  {
+    "question": "In the discovery of protein, the instrument used is",
+    "option_a": "cathode ray tube",
+    "option_b": "glass tube and discharge tube",
+    "option_c": "discharge tube with terminal cathode",
+    "option_d": "discharge tube with central cathode",
+    "answer": "D",
+    "solution": "Discharge tube with central cathode is an apparatus for producing cathode rays and positive rays. Option A,B,C will not yield cathode rays and positive rays"
+  },
+  {
+    "question": "The above orbital diagram shown the electronic configuration of",
+    "option_a": "chlorine",
+    "option_b": "nitrogen",
+    "option_c": "calcium",
+    "option_d": "neon",
+    "answer": "B",
+    "solution": "Nitrogen has an electronic configuration of 7 i.e<br>  1s2 2ps2 2p3. option A,C,D are chlorine 17, calcium 20, neon 10"
+  },
+  {
+    "question": "Which of the following metals burns with brick red",
+    "option_a": "Pb",
+    "option_b": "Ca",
+    "option_c": "Na",
+    "option_d": "Mg",
+    "answer": "B",
+    "solution": "Calcium is the only metal that burn with brick red flame. Option A,C,D will not burn with brick red flame rather burn with brick blue flame"
+  },
+  {
+    "question": "In the production of soap, concentrated sodium chloride solution is added to",
+    "option_a": "increase the solubility of soap",
+    "option_b": "decrease the solubility of the soap",
+    "option_c": "saponify the soap",
+    "option_d": "emulsify the soap",
+    "answer": "B",
+    "solution": "Concentrated sodium chloride solution will the solubility of soap along the course of soap production. Options A,C,D are not appropriate"
+  },
+  {
+    "question": "A liquid that will dissolve fat is",
+    "option_a": "hydrochloric acid",
+    "option_b": "calcium hydrochloride",
+    "option_c": "kerosene",
+    "option_d": "water",
+    "answer": "C",
+    "solution": "Kerosene is only liquid that will dissolve fat. Option A,B,D will not dissolve fat because of their chemical composition"
+  },
+  {
+    "question": "Tartaric acid is used industrially to",
+    "option_a": "make baking powder",
+    "option_b": "make fruit juice",
+    "option_c": "remove rust",
+    "option_d": "dry substance",
+    "answer": "A",
+    "solution": "A is the correct answer. Tartaric acid is found in cream of tartar, which is used in cooking candies and frostings for cakes. Tartaric acid is also found in baking powder, where it serves as the source of acid that reacts with sodium bicarbonate (baking soda)"
+  },
+  {
+    "question": "P<sub>1</sub>V<sub>1</sub> = P<sub>2</sub>V<sub>2</sub> supports ?",
+    "option_a": "Charles’s law",
+    "option_b": "Boyles’s law",
+    "option_c": "Graham’s law",
+    "option_d": "Avogadro’s law",
+    "answer": "B",
+    "solution": "V = 1/P<br> \ncross multiply<br> \nK = VP<br> \nV1P1 = V2V2<br> \nFor a fixed amount of an ideal gas kept at a fixed temperature, pressure and volume are inversely proportional. Or Boyle's law is a gas law, stating that the pressure and volume of a gas have an inverse relationship, when temperature is held constant.<br> The equations supports only Boyle’s law. Option A,C,D are not in support of the equation..."
+  },
+  {
+    "question": "A fixed mass of gas a volume of 92cm<sup>3</sup> at 3°C. When will be its volume at 18Cm<sup>3</sup> if the pressure remains constant?",
+    "option_a": "15.3cm<sup>3</sup>",
+    "option_b": "87.3cm<sup>3</sup>",
+    "option_c": "2.0cm<sup>3</sup>",
+    "option_d": "97.0cm<sup>3</sup>",
+    "answer": "D",
+    "solution": "V1 ÷ T1 = V2 ÷ T2<br> T1 = 3 × 273 = 276k<br> T2 = 18 + 273 = 291k<br> V1 = 92cm3<br> V2 = ?<br> V2 = (V1T2) ÷ T1 = (92 × 291) ÷ 276<br> = 97.0cm3"
+  },
+  {
+    "question": "Which of the following ion’s requires the quantity of electricity for discharge at an electrode",
+    "option_a": "2.0 mole of q3+",
+    "option_b": "2.5 mole of R2+",
+    "option_c": "3.0 mole of T-",
+    "option_d": "4.0 mole of Y-",
+    "answer": "A",
+    "solution": "2.0 mole of q3+ ions require the largest quantity of electricity for discharge at an electric. option B,C,D are all carrying a smaller quantity of electricity which not be proven for ant discharge"
+  },
+  {
+    "question": "Hydrogen can be displaced from a lot alkaline solution by",
+    "option_a": "Fe",
+    "option_b": "Cu",
+    "option_c": "Cn",
+    "option_d": "Sn",
+    "answer": "A",
+    "solution": "Fe displaces hydrogen from hot alkaline solution. Options B,C,d will not displace hydrogen"
+  },
+  {
+    "question": "Which of the following types of alkanols undergo oxidation to produce alkanoic acids.<br> \nI. Primary alkanols<br> II. Secondary alkanols<br> III. Tertiary alkanols",
+    "option_a": "I, II and III",
+    "option_b": "I and II only",
+    "option_c": "III only",
+    "option_d": "I only",
+    "answer": "D",
+    "solution": "Only primary alkanols undergo oxidation to produce alkanoic acid. Option A,B,C will not produce alkanoic acid"
+  },
+  {
+    "question": "Rare gases are suitable because they",
+    "option_a": "are monoatomic",
+    "option_b": "form ions easily",
+    "option_c": "have duplet or octet electronic configuration in the outermost shells in their atoms",
+    "option_d": "are volatile gases",
+    "answer": "C",
+    "solution": "Rare gases are stable because they have duplet or octet electronic configurations in the outermost shells in their atoms, as a result they don’t go into solution easily. option A, B, Dare not because they go into solution easily (unstable)"
+  },
+  {
+    "question": "A major source of oxide of oxygen is from the burning of",
+    "option_a": "coal",
+    "option_b": "wood",
+    "option_c": "fuel",
+    "option_d": "chlorofluorocarbons",
+    "answer": "A",
+    "solution": "Coal is a major senses of oxide of nitrogen. Option B,C, D do not contribute to the anode Nitrogen either. They are sources of oxides of carbon of sulphur etc"
+  },
+  {
+    "question": "Which of the activities is commonly used as a nuclear fuel",
+    "option_a": "uranium",
+    "option_b": "palladium",
+    "option_c": "actium",
+    "option_d": "thorium",
+    "answer": "A",
+    "solution": "Uranium is common nuclear because of its less stability as a result has a great tendency to increase energy than. Options B,C,D which are not stable"
+  },
+  {
+    "question": "The leachate of a certain ash is used in local soap because it contain",
+    "option_a": "sodium chloride and potassium hydroxide",
+    "option_b": "sodium hydroxide",
+    "option_c": "potassium hydroxide",
+    "option_d": "soluble carbonates and hydrogen carbonate",
+    "answer": "B",
+    "solution": "Sodium hydroxide (NaOH) is made suitable or soap production locally. Option A,C,D will not contribute to soap making"
+  },
+  {
+    "question": "All these are electromagnetic waves except",
+    "option_a": "White light",
+    "option_b": "Photon",
+    "option_c": "X-ray",
+    "option_d": "Infrared",
+    "answer": "B",
+    "solution": "Photon is unit of energy that carries light and has zero mass A, C and D are all electromagnetic waves of higher mass"
+  },
+  {
+    "question": "Cu<sub>2</sub>S<sub>(s)</sub> + O<sub>2(g)</sub> = 2CU<sub>(s)</sub> + SO<sub>2(g)</sub>",
+    "option_a": "+1 to 0",
+    "option_b": "0 to +2",
+    "option_c": "+2 to +1",
+    "option_d": "0 to +1",
+    "answer": "A",
+    "solution": "The oxidation number is from h to O as a result of release of sulphur. Option B, C, D are not the actual oxidation number for copper"
+  },
+  {
+    "question": "The number of isomers formed by C<sub>6</sub>H<sub>14</sub> is",
+    "option_a": "4",
+    "option_b": "5",
+    "option_c": "2",
+    "option_d": "3",
+    "answer": "B",
+    "solution": "The number of isomers C6H14 cm is 5. it will not form options A,C, D"
+  },
+  {
+    "question": "There are basic particles from which matter called be made except",
+    "option_a": "Salt",
+    "option_b": "Atom",
+    "option_c": "Ion",
+    "option_d": "Molecule",
+    "answer": "A",
+    "solution": "Salt is a chemical used for varieties of purposes, so it’s not part of matter, Atom being the smallest part of molecule and ion are charge which are part of matter"
+  },
+  {
+    "question": "In the electrolysis of CuSo<sub>4(g)</sub> using platinum electrode the reaction at the anode is",
+    "option_a": "4H<sup>+</sup> 4e - 2H<sub>2</sub>",
+    "option_b": "4OH<sup>-</sup>- 4e = 2H<sub>2</sub>O + O<sub>2</sub>",
+    "option_c": "2OH - 2e- = 2OH",
+    "option_d": "2OH- + 2OH = 2H<sub>2</sub>O + O<sub>2</sub>",
+    "answer": "B",
+    "solution": "40H − 4e → 2H<sub>2</sub>O + O<sub>2</sub> is the reaction of sun at the anode in the electrolysis of CuSO<sub>4(g)</sub> using platinum particles. Option A,C,D are not formed as a result of the equation"
+  },
+  {
+    "question": "5 block elements of the periodic table one made up of",
+    "option_a": "groups 1, 2, 3",
+    "option_b": "groups 1, and 2",
+    "option_c": "group 3",
+    "option_d": "group 3 to 7",
+    "answer": "B",
+    "solution": "5 block elements only are made up of group 1 and 2 options A,C,D takes place of the other blocks in the periodic table p,d,f etc."
+  },
+  {
+    "question": "The oxidation state of oxygen on tetraoxosulphate iv acid is",
+    "option_a": "-4",
+    "option_b": "-2",
+    "option_c": "4",
+    "option_d": "-8",
+    "answer": "B",
+    "solution": "In SO<sub>4</sub>. The state of oxygen oxidation number is -2. Options A,C,D do not belong to the oxidation state in SO<sub>4</sub>"
+  },
+  {
+    "question": "In the electrolysis of brine the anode is",
+    "option_a": "platinum",
+    "option_b": "copper",
+    "option_c": "zinc",
+    "option_d": "carbon",
+    "answer": "D",
+    "solution": "In the industrial of brine carbon is the anode while mercury is the cathode. Options of A, B, C are not used in brine solution because they are alloy of mercury"
+  },
+  {
+    "question": "Calculate the relative molecular mass of Limestone CaCO<sub>3</sub>, (Ca = 40, C =12, O = 16)",
+    "option_a": "56",
+    "option_b": "100",
+    "option_c": "76",
+    "option_d": "90",
+    "answer": "B",
+    "solution": "One molecule of CaCO has 1Ca, 1C and 30 atom relative molecular mass of CaCO<sub>3</sub><br> 1 × Ar of Ca +1 × Ar of C +3 × Ar of O<br> (1 × 40 + 1 × 12 + 3 × 1)<br> 40 + 12 + 48<br> =100<br> \nOption A,C and D will not give 100"
+  },
+  {
+    "question": "When stem is passed over red hot carbon the substances produced are",
+    "option_a": "hydrogen and trioxocarbonate (IV) acid",
+    "option_b": "hydrogen, oxygen and carbon (IV) oxide",
+    "option_c": "hydrogen and carbon (ii) oxide",
+    "option_d": "hydrogen and carbon (IV) oxide",
+    "answer": "C",
+    "solution": "Hydrogen and carbon (ii) oxide will be formed when red steam is passed ever red-hot carbon. Option A,B,D are not produced through this process"
+  }
+]

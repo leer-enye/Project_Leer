@@ -1,0 +1,442 @@
+[
+  {
+   "question": "The basis upon which assets of an organization is valued is the",
+   "option_a": "historical concept",
+   "option_b": "business entity concept",
+   "option_c": "periodicity concept",
+   "option_d": "materiality concept", 
+   "answer": "A", 
+   "solution": ""
+  },
+  {
+   "question": "An accountant must not only be interested in record keeping but also in",
+   "option_a": "the application of proffessional competency",
+   "option_b": "the accuracy of postings",
+   "option_c": "the casting of financial figures",
+   "option_d": "effective preparation of balance sheet",
+   "answer": "A"
+  },
+  {
+   "question": "The correct posting in a double entry system of account when there is an increase in double assets, expenses, capital or liabilities is to debit",
+   "option_a": "capital and debit liabilities",
+   "option_b": "liabilities and credit assets",
+   "option_c": "assets and credit capital",
+   "option_d": "capital and credit assets", 
+   "answer": "C", 
+   "solution": ""
+  },
+  {
+   "question": "The capital of a sole trader can be increased by",
+   "option_a": "debiting the capital account",
+   "option_b": "crediting the capital account",
+   "option_c": "debiting the cash account",
+   "option_d": "crediting the cash account", 
+   "answer": "C", 
+   "solution": ""
+  },
+  {
+   "question": "Akirika bought a motor van for his business by cash. The entries are to debit",
+   "option_a": "motor van and credit Akirika",
+   "option_b": "sales and credit Akrika",
+   "option_c": "motor van and credit cash",
+   "option_d": "cash and credit motor van", 
+   "answer": "C", 
+   "solution": ""
+  },
+  {
+   "question": "Ibrahim, a micro business operator, sold 10 bags of sugar to Jide at a total cost of #12,000.<br> In the book of Ibrahim, the entry to record the transaction would be to debit",
+   "option_a": "sugar account #12,000 and credit Jide #12,000",
+   "option_b": "Jide #12,000 and credit sales account #12,000",
+   "option_c": "Ibrahim #12,000 and credit Jide #12,000",
+   "option_d": "sugar account #12,000 and credit Ibrahim #12,000", 
+   "answer": "B", 
+   "solution": ""
+  },
+  {
+   "question": "Ibrahim, a micro business operator, sold 10 bags of sugar to Jide at a total cost of #12,000.<br> The record in Jide's book would be to debit",
+   "option_a": "purchases #12,000 and credit Ibrahim #12,000",
+   "option_b": "purchases #12,000 and credit sugar account #12,000",
+   "option_c": "Jide #12,000 and credit purchases",
+   "option_d": "Ibrahim #12,000 and sugar account #12,000", 
+   "answer": "A", 
+   "solution": ""
+  },
+  {
+   "question": "In a three-column cash book, dishonored cheques will be shown on the",
+   "option_a": "bank column (debit)",
+   "option_b": "bank column(credit)",
+   "option_c": "cash column(debit)",
+   "option_d": "cash column(credit)", 
+   "answer": "A", 
+   "solution": ""
+  },
+  {
+   "question": "Cash can be drawn from the bank using",
+   "option_a": "a bank teller",
+   "option_b": "a credit card",
+   "option_c": "a recharge card",
+   "option_d": "ATM card", 
+   "answer": "D", 
+   "solution": ""
+  },
+  {
+   "question": "In a modern day banking system, cash transfer cannot be made where the transferor",
+   "option_a": "has no sufficient cash with the bank",
+   "option_b": "has no account with the bank",
+   "option_c": "does not reside in the bank's country",
+   "option_d": "does not possess the domestic currency", 
+   "answer": "A", 
+   "solution": ""
+  },
+  {
+   "question": "Given:<br> Cash book balance- #5000<br> Dishonored cheque- #1000<br> Direct credit - # 800<br> Direct debit - # 500<br> The adjusted cash book balance is",
+   "option_a": "#6,300",
+   "option_b": "#4,300",
+   "option_c": "#3,700",
+   "option_d": "#2,700", 
+   "answer": "A", 
+   "solution": ""
+  },
+  {
+   "question": "At the end of a financial period, the trading<br> profit and loss account of a sole trader<br> shows a profit of #180,000. it is however<br> discovered that revenue of #15,000 is<br> recorded as expenses while expenses of<br> #4,000 is recorded as revenue.<br> Determine the adjusted net profit",
+   "option_a": "#210,000",
+   "option_b": "#202,000",
+   "option_c": "#195,000",
+   "option_d": "#184,000", 
+   "answer": "B", 
+   "solution": ""
+  },
+  {
+   "question": "At the end of a financial period, the trading<br> profit and loss account of a sole trader<br> shows a profit of #180,000. it is however<br> discovered that revenue of #15,000 is<br> recorded as expenses while expenses of<br> #4,000 is recorded as revenue.<br> The revenue to be added as an adjustment is",
+   "option_a": "#34,000",
+   "option_b": "#30,000",
+   "option_c": "#15,000",
+   "option_d": "#4,000", 
+   "answer":"B", 
+   "solution": ""
+  },
+  {
+   "question": "Which of the following is an item of special assets?",
+   "option_a": "Fixed assets",
+   "option_b": "Current assets",
+   "option_c": "Trademark",
+   "option_d": "Gratuity", 
+   "answer": "C", 
+   "solution": ""
+  },
+  {
+   "question": "1/5/07 Purchased 100 bags of milk at #10.00k each<br> 3/5/07 Purchased 60 bags of milk at #11.50k each<br> 15/5/07 Issued 85 bags of milk<br> 15/5/07 Purchased 180 bags of milk at #12.80K each<br> 22/5/07 Issued 145 bags of milk.<br> Using FIFO method, what would be the value of stock as at 9/5/07?",
+   "option_a": "#862.50",
+   "option_b": "#840.00",
+   "option_c": "#806.25",
+   "option_d": "#750.00", 
+   "answer":"D", 
+   "solution": ""
+  },
+  {
+   "question": "1/5/07 Purchased 100 bags of milk at #10.00k each<br> 3/5/07 Purchased 60 bags of milk at #11.50k each<br> 15/5/07 Issued 85 bags of milk<br> 15/5/07 Purchased 180 bags of milk at #12.80K each<br> 22/5/07 Issued 145 bags of milk.<br> Using simple average method, calculate the value of stock after 22/5/07",
+   "option_a": "#1,198.00",
+   "option_b": "#1,218.38",
+   "option_c": "#1,257.67",
+   "option_d": "#1,408.00", 
+   "answer": "D", 
+   "solution": ""
+  },
+  {
+   "question": "The LIFO method has an advantage over FIFO in that stocks are valued at",
+   "option_a": "previous prices",
+   "option_b": "current prices",
+   "option_c": "average rates",
+   "option_d": "flat rates", 
+   "answer": "B", 
+   "solution":""
+  },
+  {
+   "question": "In sales ledger control account, returns inwards is usually",
+   "option_a": "debited and debtors credited",
+   "option_b": "credited and sales returns debited",
+   "option_c": "debited and cash credited",
+   "option_d": "credited and bank credited", 
+   "answer": "B", 
+   "solution": ""
+  },
+  {
+   "question": "Purchasers ledger control account can also be referred to as",
+   "option_a": "sales day book",
+   "option_b": "purchasers day book",
+   "option_c": "creditors legder",
+   "option_d": "debtors ledger", 
+   "answer": "C", 
+   "solution": ""
+  },
+  {
+   "question": "Which of the following is a debit item in the sales ledger control account",
+   "option_a": "Cheque reciepts",
+   "option_b": "Dishonoured cheques",
+   "option_c": "Discount allowed",
+   "option_d": "Bills recievable", 
+   "answer": "B", 
+   "solution": ""
+  },
+  {
+   "question": "In manufacturing accounts, finance expenses are charged to the",
+   "option_a": "departmental account",
+   "option_b": "trading acount",
+   "option_c": "profit and loss account",
+   "option_d": "balance sheet", 
+   "answer": "C", 
+   "solution": ""
+  },
+  {
+   "question": "Total production cost- #360,000<br> Factory overhead cost- #56,000<br> Selling price per unit- # 120<br> Production volume 4000 units<br> What is the total manufacturing profit?",
+   "option_a": "#64,000",
+   "option_b": "#120,000",
+   "option_c": "#360,000",
+   "option_d": "#480,000", 
+   "answer": "B", 
+   "solution": ""
+  },
+  {
+   "question": "Total production cost- #360,000<br> Factory overhead cost- #56,000<br> Selling price per unit- # 120<br> Production volume 4000 units<br> Determine the value of prime cost",
+   "option_a": "#416,000",
+   "option_b": "#304,000",
+   "option_c": "#240,000",
+   "option_d": "#184,000", 
+   "answer": "B",
+   "solution": ""
+  },
+  {
+   "question": "The main advantage of a departmental account is that its",
+   "option_a": "expenses are shared",
+   "option_b": "gross profit is computed",
+   "option_c": "net profit is computed",
+   "option_d": "balance sheet is obtained", 
+   "answer": "A", 
+   "solution": ""
+  },
+  {
+   "question": "The excess revenue over expenditure is charged to",
+   "option_a": "profit and loss",
+   "option_b": "revenue account",
+   "option_c": "accumulated fund",
+   "option_d": "income and expenditure acccount", 
+   "answer": "C", 
+   "solution": ""
+  },
+  {
+   "question": "Given:<br> Fixtures-#30,000<br> Debtors-#7,000<br> Stock- #8,000<br> Creditors-#3,000<br> Goodwill-#10,000<br> Determine the capital",
+   "option_a": "#10,000",
+   "option_b": "#42,000",
+   "option_c": "#45,000",
+   "option_d": "#52,000", 
+   "answer": "D", 
+   "solution": ""
+  },
+  {
+   "question": "In the head office ledger, the value of goods sent to the branch are",
+   "option_a": "debited to the head office current account",
+   "option_b": "debited to the branch current account",
+   "option_c": "credited to the head office current account",
+   "option_d": "credited to the branch current account", 
+   "answer":"A", 
+   "solution": ""
+  },
+  {
+   "question": "Which of the following methods of invoicing goods to branches facilitate easy checks on the activities of branches?",
+   "option_a": "cost price",
+   "option_b": "fixed percentage on cost",
+   "option_c": "selling price",
+   "option_d": "invoice price", 
+   "answer": "A", 
+   "solution": ""
+  },
+  {
+   "question": "The partners capital are: Modibbo #60,000<br> and Jakata #90,000. The partners share<br> profit and losses in the ratio of their capital<br> contributions.<br> The net profit for the year is #12,000.<br> Find Modibbo's share of the profit",
+   "option_a": "#62,000",
+   "option_b": "#48,000",
+   "option_c": "#44,000",
+   "option_d": "#43,000", 
+   "answer": "B", 
+   "solution": ""
+  },
+  {
+   "question": "The partners capital are: Modibbo #60,000<br> and Jakata #90,000. The partners share<br> profit and losses in the ratio of their capital<br> contributions.<br> The net profit for the year is #12,000.<br> What is Jakata's sharing profit?",
+   "option_a": "3:5",
+   "option_b": "1:2",
+   "option_c": "2:5",
+   "option_d": "1:5", 
+   "answer": "D", 
+   "solution": ""
+  },
+  {
+   "question": "In what way can goodwill be written off in a partnership business?",
+   "option_a": "Using the partners' profit and loss sharing ratio",
+   "option_b": "By neglecting the ratio of partners capital contributions",
+   "option_c": "By sharing it unequally among the partners where no agreement exists",
+   "option_d": "By sharing it among the active partners only", 
+   "answer": "A", 
+   "solution": ""
+  },
+  {
+   "question": "Ngozi and Musa with a capital of #30,000 each decide to admit Mary into the partnership business with a capital of #20,000 and goodwill #15,000.If the profits and losses are to be shared equally, the journal entries to record goodwill are",
+   "option_a": "debit goodwill #15,000, cash #20,000 and credit Mary's capital #35,000",
+   "option_b": "credit goodwill #15,000, cash #20,000 and debit Mary's #35,000",
+   "option_c": "debit goodwill #15,000, credit cash #20,000 and credit Mary's capital #20,000",
+   "option_d": "debit old partners capital #15,000, credit cash #20,000 and Mary's capital #35,000", 
+   "answer": "A", 
+   "solution": ""
+  },
+  {
+   "question": "In converting a partnership into a limited liability company, the necessary accounts to be opened in the books of the company are",
+   "option_a": "business purchase account and ordinary share capital account",
+   "option_b": "Business purchase account, vendor account and ordinary share capital account",
+   "option_c": "business purchase account and vendor account",
+   "option_d": "ordinary share capital account, vendor account and unpaid share capital account", 
+   "answer": "B", 
+   "solution":""
+  },
+  {
+   "question": "Given:<br> 1. The Memorandum of Association of the Company<br> 11.The Article of Association of the Company<br> 111. The Incorporation documents<br> From the above, which of the following is delivered to the Registrar of companies for incorporation",
+   "option_a": "1 and 11",
+   "option_b": "1, 11 and 111",
+   "option_c": "1 and 111",
+   "option_d": "11 and 111", 
+   "answer": "B", 
+   "solution": ""
+  },
+  {
+   "question": "When shares are oversubscribed and money returned to unsuccessful applicants, the entry to record such money is to debit",
+   "option_a": "application and allotment account and credit unsubscribed shares",
+   "option_b": "application and allotment account and credit cash",
+   "option_c": "oversubscribed shares and credit allotment account",
+   "option_d": "oversubscribed shares and credit allotment account", 
+   "answer": "B", 
+   "solution": ""
+  },
+  {
+   "question": "Investment at cost of a company is to be disclosed under",
+   "option_a": "trading accounts",
+   "option_b": "profit and loss account",
+   "option_c": "balance sheet",
+   "option_d": "source and application of fund", 
+   "answer": "C", 
+   "solution": ""
+  },
+  {
+   "question": "Purchasers - #44,880<br> Sales - #85,850<br> Trade creditors - #12,250<br> Trade debtors - #24,000<br> Accrued expenses - # 350<br> Prepaid expenses - # 700<br> Stock 1/1/2006 - #25,120<br> Stock 31/12/2006 - #27,840<br> Calculate the acid test ration",
+   "option_a": "1:94:1",
+   "option_b": "1:96:1",
+   "option_c": "1:1:94",
+   "option_d": "1:1:96", 
+   "answer": "B", 
+   "solution": ""
+  },
+  {
+   "question": "Purchasers - #44,880<br> Sales - #85,850<br> Trade creditors - #12,250<br> Trade debtors - #24,000<br> Accrued expenses - # 350<br> Prepaid expenses - # 700<br> Stock 1/1/2006 - #25,120<br> Stock 31/12/2006 - #27,840<br> Determine the number of times stock was turned over during the period to the nearest figure",
+   "option_a": "1",
+   "option_b": "2",
+   "option_c": "3",
+   "option_d": "4", 
+   "answer": "B", 
+   "solution": ""
+  },
+  {
+   "question": "Which of the following is a source of revenue to the federation account?",
+   "option_a": "Market fees",
+   "option_b": "Bicycle licences",
+   "option_c": "Tarrifs",
+   "option_d": "Property rates", 
+   "answer": "C", 
+   "solution": ""
+  },
+  {
+   "question": "The book into which all types of a ministry's expenditure are recorded is the",
+   "option_a": "ledger book",
+   "option_b": "payment book",
+   "option_c": "vote book",
+   "option_d": "expenditure book", 
+   "answer": "C", 
+   "solution": ""
+  },
+  {
+   "question": "The Petroleum Technology Development Fund is under the",
+   "option_a": "general fund",
+   "option_b": "contingency fund",
+   "option_c": "trust fund",
+   "option_d": "capital fund", 
+   "answer": "D", 
+   "solution": ""
+  },
+  {
+   "question": "The power to appoint the Auditor General of the Federation is vested in the",
+   "option_a": "National Assembly",
+   "option_b": "President",
+   "option_c": "Judicial Service Commission",
+   "option_d": "Civil Service Commission", 
+   "answer": "B", 
+   "solution": ""
+  },
+  {
+   "question": "Given:<br> Determine the balance",
+   "option_a": "415,000 debit",
+   "option_b": "215,000 credit",
+   "option_c": "215,000 debit",
+   "option_d": "315,000", 
+   "answer": "C", 
+   "solution": ""
+  },
+  {
+   "question": "Given:<br> From the above information, the gross profit fro department X is",
+   "option_a": "N3,800",
+   "option_b": "N2,300",
+   "option_c": "N2,200",
+   "option_d": "N2,000", 
+   "answer": "C", 
+   "solution": ""
+  },
+  {
+   "question": "Debtors opening and closing balances amount to N6,500 and N7,600 respectively, What is the sales value?",
+   "option_a": "N15,300",
+   "option_b": "N17,500",
+   "option_c": "N28,400",
+   "option_d": "N31,600", 
+   "answer": "B", 
+   "solution": ""
+  },
+  {
+   "question": "The 5% discount shown above indicates",
+   "option_a": "trade discount",
+   "option_b": "cash discount",
+   "option_c": "discount allowed",
+   "option_d": "discount received", 
+   "answer": "A", 
+   "solution": ""
+  },
+  {
+   "question": "Use the information above to answer the question<br> Find the gross profit.",
+   "option_a": "N370,000",
+   "option_b": "N230,000",
+   "option_c": "N150,000",
+   "option_d": "N140,000", 
+   "answer": "D", 
+   "solution": ""
+  },
+  {
+   "question": "Use the information above to answer the question<br> Calculate the net profit.",
+   "option_a": "N35,000",
+   "option_b": "N40,000",
+   "option_c": "N105,000",
+   "option_d": "N115,000", 
+   "answer": "C", 
+   "solution": ""
+  },
+  {
+   "question": "Determine the bank balance",
+   "option_a": "N 6,950 credit",
+   "option_b": "N6,950 debit",
+   "option_c": "N6,000 credit",
+   "option_d": "N6,000 debit", 
+   "answer": "B", 
+   "solution": ""
+  }
+]

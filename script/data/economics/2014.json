@@ -1,0 +1,443 @@
+﻿[
+  {
+    "question": "The choice of how to produce in a command economy is determined by",
+    "option_a": "government",
+    "option_b": "consumer",
+    "option_c": "industrialists",
+    "option_d": "labour unions",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "In capitalist economies, questions about what to produce are ultimately answered by",
+    "option_a": "income level of households",
+    "option_b": "available technical skills in the economy",
+    "option_c": "output decisions of firms",
+    "option_d": "holding decision of households",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "The best measure of dispersion to determine the tallest tree in a forest is",
+    "option_a": "range",
+    "option_b": "variance",
+    "option_c": "standard deviation",
+    "option_d": "mean deviation",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "A change in demand for a normal goods implies that, there is a",
+    "option_a": "change in the quantity demanded  as price changes",
+    "option_b": "shift in the demand curve",
+    "option_c": "movement along a given demand curve",
+    "option_d": "change in the price elasticity of demand",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "If a 10% rise in price causes a 5% decrease in the quantity demanded of a commodity, the elasticity of demand is",
+    "option_a": "unitary elastic",
+    "option_b": "zero elastic",
+    "option_c": "elastic",
+    "option_d": "inelastic",
+    "answer": "C",
+    "solution": "In economics, the Total Revenue Test is a means for determining whether demand is elastic or inelastic. If an increase in price causes an increase in total revenue, then demand can be said to be inelastic, since the increase in price does not have a large impact on quantity demanded. If an increase in price causes a decrease in total revenue, then demand can be said to be elastic, since the increase in price has a large impact on quantity demanded."
+  },
+  {
+    "question": "A rightward shift of the budget line is caused by a",
+    "option_a": "fall in consumer income",
+    "option_b": "change in consumer taste",
+    "option_c": "fall in the commodity relative price",
+    "option_d": "rise in the commodity relative price",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "Given the supply function P = 1/4(Qs+10) when P = N10, what is Qs?",
+    "option_a": "20",
+    "option_b": "15",
+    "option_c": "50",
+    "option_d": "30",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "When price is set below equilibrium, this will lead to",
+    "option_a": "an increase in the quantity supplied",
+    "option_b": "a new equilibrium",
+    "option_c": "a decrease in the quantity supplied",
+    "option_d": "a fall in price",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "Price mechanism determines the prices of commodities through",
+    "option_a": "auctioning",
+    "option_b": "market forces",
+    "option_c": "the sales of treasury bills",
+    "option_d": "government legislation",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "If the  production of a large firm is higher than that of a small firm, it is experiencing.",
+    "option_a": "external economies of scale",
+    "option_b": "external diseconomies of scale",
+    "option_c": "internal economies of scale",
+    "option_d": "internal diseconomies of scale",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "Division of labour requires that, the tasks in a production line be performed",
+    "option_a": "by specialists",
+    "option_b": "in stages",
+    "option_c": "by all workers",
+    "option_d": "by unskilled labourers",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "Given that FC = N500, VC = N1,500, and q = 50 units. Find the average cost of the product.",
+    "option_a": "N30",
+    "option_b": "N40",
+    "option_c": "N10",
+    "option_d": "N20",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "Rent and administrative expenses are examples of",
+    "option_a": "average fixed costs",
+    "option_b": "average variable costs",
+    "option_c": "fixed costs",
+    "option_d": "variable costs",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "A perfect competitor will continue to expand output up to the point where",
+    "option_a": "TC > TR",
+    "option_b": "MR = AR",
+    "option_c": "MC < MR",
+    "option_d": "MC > MR",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "One of the characteristics of a monopolist is that, he can influence",
+    "option_a": "quantity produced by other producers",
+    "option_b": "prices charged by other producers",
+    "option_c": "both price and quantity",
+    "option_d": "price or quantity",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "A monopolist can boost up his revenue by",
+    "option_a": "adjusting both price and output upward",
+    "option_b": "reducing total output to match price",
+    "option_c": "increasing price",
+    "option_d": "reducing price",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "Which of the following can be used to measure the Gross National product in an open economy?",
+    "option_a": "C+I+G+(X+M)",
+    "option_b": "C+I+G+X",
+    "option_c": "C+I+G",
+    "option_d": "C+I+G+(X-M)",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "If MPC = 2/3 and investment is N100 million, the level of national income is",
+    "option_a": "N100 million",
+    "option_b": "N10 million",
+    "option_c": "N303 million",
+    "option_d": "N300 million",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "The precautionary demand for money is determined by",
+    "option_a": "the rate of interest",
+    "option_b": "the level of savings",
+    "option_c": "the level of income",
+    "option_d": "general price level",
+    "answer": "A",
+    "solution": "The precautionary demand is dependent on the size of income, the availability of credit, and the rate of interest."
+  },
+  {
+    "question": "An inflation that co-exists with high rate of unemployment is",
+    "option_a": "hyperinflation",
+    "option_b": "stagflation",
+    "option_c": "demand-pull inflation",
+    "option_d": "cost-push inflation",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "One of the challenges facing the banking industry in Nigeria is",
+    "option_a": "ensuring technological security",
+    "option_b": "providing employment",
+    "option_c": "providing loans for investment",
+    "option_d": "creating more money",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "Short-term loans for investment are usually obtained through the",
+    "option_a": "stock market",
+    "option_b": "development banks",
+    "option_c": "money market",
+    "option_d": "capital market",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "Given a base year and the price index of 175% the following year, which of the following year will arise?",
+    "option_a": "The cost of living decreases of that year",
+    "option_b": "The cost of living remains unchanged",
+    "option_c": "The value of money rises by 75%",
+    "option_d": "The value of money falls by 75%",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "Wage freeze is a policy measure aimed at",
+    "option_a": "encouraging investors",
+    "option_b": "curbing inflation",
+    "option_c": "regulating standard of living",
+    "option_d": "curbing deflation",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "A major obstacle to the development of Nigeria economy is",
+    "option_a": "low capital formation",
+    "option_b": "rural-urban migration",
+    "option_c": "over dependence on oil",
+    "option_d": "poor developmental policies",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "A major feature of an underdeveloped economy is",
+    "option_a": "excess capacity utilization",
+    "option_b": "low rate of population growth",
+    "option_c": "low level of standard of living",
+    "option_d": "low level of unemployment",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "An important role of agriculture in Nigeria's economic development is the",
+    "option_a": "processing of raw materials for industries",
+    "option_b": "regulation of price system",
+    "option_c": "provision of infrastructure",
+    "option_d": "provision of employment",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "An advantage of large-scale farming over peasant farming is in the area of",
+    "option_a": "providing research and massive employment of labour",
+    "option_b": "redistributing national income to various regions of the country",
+    "option_c": "encouraging the use of traditional implements",
+    "option_d": "encouraging urban-rural migration",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "A major disadvantage of localization of industry is",
+    "option_a": "the risk of structural unemployment",
+    "option_b": "over-utilization of  installed industrial capacity",
+    "option_c": "the risk of seasonal unemployment",
+    "option_d": "under-utilization of installed industrial capacity",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "One major factor that determines the location of an industry is",
+    "option_a": "tax exemption grant",
+    "option_b": "its proximity to the market",
+    "option_c": "the capital base",
+    "option_d": "the social responsibility of the firm",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "The major contribution of OPEC to the Nigerian economy is the",
+    "option_a": "provision of social infrastructures",
+    "option_b": "granting of subsidies on petroleum products",
+    "option_c": "stabilization of oil prices",
+    "option_d": "building of refineries",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "The loading of crude oil at the terminal is an activity in the",
+    "option_a": "downstream sector of the oil industry",
+    "option_b": "upstream  and downstream sector of the oil industry",
+    "option_c": "upstream sector of the oil industry",
+    "option_d": "midstream and upstream sectors of the oil industry",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "The short-run average variable cost of a firm will rise owing to",
+    "option_a": "the expansion of factory space",
+    "option_b": "the building of new warehouse",
+    "option_c": "an increase in the cost of labour",
+    "option_d": "an increase in the salaries of directors",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "Firms embark on vertical integration in other to",
+    "option_a": "take over markets formally controlled by other firms",
+    "option_b": "prevent other firms from entering the market",
+    "option_c": "reduce advertisement and management cost",
+    "option_d": "enjoy economies of large-scale production",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "The voting power in co-operative societies is vested on",
+    "option_a": "management",
+    "option_b": "members without loan",
+    "option_c": "shareholders",
+    "option_d": "members with the highest contribution",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "An accurate census figure is an important tool for planners in",
+    "option_a": "providing employment",
+    "option_b": "siting industries",
+    "option_c": "providing social amenities",
+    "option_d": "allocating resources",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "An accurate population census is important in other to",
+    "option_a": "produce more food for the growing population",
+    "option_b": "provide employment opportunities for the people",
+    "option_c": "estimate a country's per capita income",
+    "option_d": "fast track industrial development",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "A major determinant of floating exchange rate is",
+    "option_a": "the highest denomination of the currency",
+    "option_b": "an Act of the parliament",
+    "option_c": "the system of government",
+    "option_d": "the forest of demand and supply",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "If the importation of a commodity is limited to a definite quantity, the trade control measure imposed is",
+    "option_a": "excise duties",
+    "option_b": "import duties",
+    "option_c": "quotas",
+    "option_d": "tariff",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "The main objective of WTO is to",
+    "option_a": "ensure adequate protection of infant industries",
+    "option_b": "provide a mechanism for tariff reduction",
+    "option_c": "assist countries with chronic balance of payments problem",
+    "option_d": "assist developing countries to execute developmental projects",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "The major determinant of the total volume of output in an economy is the",
+    "option_a": "level of total expenditure",
+    "option_b": "composition of consumer spending",
+    "option_c": "number of farmers",
+    "option_d": "size of the labour force",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "The labour force of a country is determined by the",
+    "option_a": "age structure of the population",
+    "option_b": "geographical distribution of the population",
+    "option_c": "sex distribution of the population",
+    "option_d": "number of people available for work",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "What is the percentage contribution of services to the national income?",
+    "option_a": "15%",
+    "option_b": "10%",
+    "option_c": "54%",
+    "option_d": "24%",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "If the national income is 360m, the contribution of the manufacturing sector is",
+    "option_a": "312m",
+    "option_b": "39m",
+    "option_c": "318m",
+    "option_d": "317m",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "A combination of factors responsible for a shift from DoDo to D1D1 are",
+    "option_a": "consumers income and change in technology",
+    "option_b": "price of the commodity and weather conditions",
+    "option_c": "consumers income and population size",
+    "option_d": "consumers taste and change in price",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "From the graph above, the consumer will attain equilibrium at point",
+    "option_a": "J",
+    "option_b": "K",
+    "option_c": "L",
+    "option_d": "M",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "From the table above, Calculate the price elasticity of supply",
+    "option_a": "0.50",
+    "option_b": "0.80",
+    "option_c": "2.00",
+    "option_d": "1.25",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "From the table above, find the values of E and F respectively",
+    "option_a": "27 and 1",
+    "option_b": "68 and 12",
+    "option_c": "28 and 5",
+    "option_d": "12 and 19",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "Given that Qd = 40-2P and Qs = 6P+24. Calculate the equilibrium price.",
+    "option_a": "34",
+    "option_b": "32",
+    "option_c": "36",
+    "option_d": "16",
+    "answer": "C",
+    "solution": ""
+  }
+]

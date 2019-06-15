@@ -1,0 +1,443 @@
+﻿[
+  {
+    "question": "Which of these accounts is dissolution expenses credited?",
+    "option_a": "partners capital account",
+    "option_b": "revaluation account",
+    "option_c": "partners current account",
+    "option_d": "Realization account",
+    "answer": "D",
+    "solution": "Realization account: the cash realized from sales of asset is credited to it"
+  },
+  {
+    "question": "Capital for a profit making organization is generated through",
+    "option_a": "Subscription",
+    "option_b": "shares",
+    "option_c": "donation",
+    "option_d": "gift",
+    "answer": "B",
+    "solution": "Share: profit making organizations use different shares such as ordinary and preference shares to source for money from the public"
+  },
+  {
+    "question": "The account where the profit are distributed to the partner in their profit sharing ratio in partnership",
+    "option_a": "trading account",
+    "option_b": "appropriation account",
+    "option_c": "balance sheet",
+    "option_d": "profit and loss account",
+    "answer": "B",
+    "solution": "Appropriation account is the account into which the net profit found in the profit and loss account of the partner will be carried down to and will be shared according to their sharing ratio"
+  },
+  {
+    "question": "In manufacturing account, depreciation of office machine is charged to",
+    "option_a": "trading account",
+    "option_b": "appropriation account",
+    "option_c": "balance street",
+    "option_d": "profit and loss account",
+    "answer": "D",
+    "solution": "profit and loss account: the depreciation of the office machine is considered as part of administrative expense which must be charged against the profit of the company"
+  },
+  {
+    "question": "Given: <br><br>I. Cash refunds <br><br>II. Debit note issued <br><br>III. Dishonored cheque <br><br>IV. Purchases<br><br>The item on the credit side of purchases ledger control account includes",
+    "option_a": "I,II and III only",
+    "option_b": "I and II only",
+    "option_c": "III and IV only",
+    "option_d": "I, III and IV only",
+    "answer": "D",
+    "solution": "Purchases control account it is also called total creditor control account <br><br>I,II & IV : some of the items that appear on the credit side of purchases ledger are cash refund to supplier, dishonored cheque by banks and credit purchases"
+  },
+  {
+    "question": "You add the following when starting with the balance as per cash book when preparing the bank reconciliation statement except",
+    "option_a": "Unpresented",
+    "option_b": "Dividend",
+    "option_c": "Uncredited cheque",
+    "option_d": "credit transfer",
+    "answer": "C",
+    "solution": "Uncredited cheque: This have to be deducted when starting balance as per cash book"
+  },
+  {
+    "question": "Which fund is used to meet unforeseen or urgent expenditure",
+    "option_a": "General reserve fund",
+    "option_b": "Consolidated Reserve Fund",
+    "option_c": "contingencies fund",
+    "option_d": "special fund",
+    "answer": "B",
+    "solution": "contingencies fund: if there is an urgent and unforeseen need for expenditure for which no other provision exist, such expenses shall be deducted from the contingencies fund"
+  },
+  {
+    "question": "In the period of rising prices, which method of stock valuation is most appropriate?",
+    "option_a": "Last in First Out",
+    "option_b": "weighted average",
+    "option_c": "First in First Out",
+    "option_d": "Simple average",
+    "answer": "A",
+    "solution": "Last in first out:when price rise it results to lower bet income because the leftover inventory might be extremely old and perhaps obsolete"
+  },
+  {
+    "question": "Which of these is the subsidiary book for return inwards?",
+    "option_a": "Sales day book",
+    "option_b": "Sales return journal",
+    "option_c": "Purchases day journal",
+    "option_d": "Cash book",
+    "answer": "B",
+    "solution": "Sales return journal otherwise called return inward book is meant for recording of all good returned by customer"
+  },
+  {
+    "question": "A double entry for a transaction that offsets one amount against another on both sides of the cashbook is a",
+    "option_a": "original entry",
+    "option_b": "contra entry",
+    "option_c": "prime entry",
+    "option_d": "contract entry",
+    "answer": "B",
+    "solution": "contra entry is used to offset amount or same transaction against another on both side of the cashbook"
+  },
+  {
+    "question": "What is the main purpose of transaction file?",
+    "option_a": "To record assets and liabilities",
+    "option_b": "To update income and expenses",
+    "option_c": "to update master files",
+    "option_d": "to make organization decision",
+    "answer": "C",
+    "solution": "The main purpose of organization file is to update the master file of the organization"
+  },
+  {
+    "question": "Processed data is only useful to user if it is",
+    "option_a": "complex",
+    "option_b": "quantitative",
+    "option_c": "relevant",
+    "option_d": "qualitative",
+    "answer": "C",
+    "solution": "first thing to be considered when gathering data is the relevant and usefulness of the data or information before considering the qualitative aspect and other things<br><br>Relevant : even if the information of data is not processed, if the processed data is relevant, it will be useful to the user"
+  },
+  {
+    "question": "Changes can occur in partnership when: <br><br>i. partnership is dissolved <br><br>ii. There is amalgamation of partnership <br><br>iii.There is a change in the profit or loss sharing ratio <br><br>Iv. Intangible asset increase",
+    "option_a": "I,II and IV",
+    "option_b": "I & III",
+    "option_c": "I,II and III",
+    "option_d": "I, III and IV",
+    "answer": "C",
+    "solution": "I II and III:Changes will occur in partnership is dissolved amalgamation and changes in profit or loss sharing ratio"
+  },
+  {
+    "question": "The authority warrant issued prior to the approval of the appropriate bill at the beginning of the year",
+    "option_a": "provisional general warrant",
+    "option_b": "annual general warrant",
+    "option_c": "Reserved expenditure warrant",
+    "option_d": "contigencies",
+    "answer": "A",
+    "solution": "Provisional general warrant is issued by minister to enable money to be released for expenditure for the early of the year before the appropriation Act is passed"
+  },
+  {
+    "question": "one of the options below is not the source of income for non- profit organization",
+    "option_a": "Entrance fees",
+    "option_b": "subscription/dues",
+    "option_c": "odrinary shares",
+    "option_d": "Donations",
+    "answer": "C",
+    "solution": "Ordinary shares: This type of source of income is only used in profit oriented organization to generate fund the pubic so as to enable the organization make more profit at the end of a specified period"
+  },
+  {
+    "question": "\\begin{array}{c|c}   & N \\\\ \\hline \n\\text{Stock Jan 1} & 2600 \\\\ \\hline  \\text{Purchases} & 4000 \\\\ \\hline \\text{Carriage inwards}  & 500 \\\\ \\hline \\text{Sales}  & 9000 \\\\ \\hline \\text{Carriage outwards} & 500 \n\\end{array}\nDetermine the net profit",
+    "option_a": "₦4,000",
+    "option_b": "₦4,500",
+    "option_c": "₦5,000",
+    "option_d": "₦1,400",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "Salaries in arrears is treated in the balance sheet as a",
+    "option_a": "current asset",
+    "option_b": "current liability",
+    "option_c": "fixed asset",
+    "option_d": "long term liability",
+    "answer": "B",
+    "solution": "Current Liability: salaries in arrears fall into the category of them under the current liability because it is benefit due to outsiders but still enjoying by the organisation and can't exceed a year"
+  },
+  {
+    "question": "\\begin{array}{c|c}  & N \\\\ \\hline \\text{Plant and Machinery}  & 190 000 \\\\ \\hline \\text{Motor Vehicle} & 170 000 \\\\ \\hline \\text{Stock}  & 60 000 \\\\ \\hline \\text{Current Liabilities} & 50 000 \\\\ \\hline \\text{Purchase consideration}  & 400 000 \\end{array}\nDetermine the amount of goodwill",
+    "option_a": "₦110 000",
+    "option_b": "₦ 80 000",
+    "option_c": "₦ 90 000",
+    "option_d": "₦ 30 000",
+    "answer": "D",
+    "solution": "\\(\\begin{array}{c|c}  \\text{Assets} & N \\ \\hline \\text{Plant and Machinery}  & 190 000 \\ \\hline \\text{Motor Vehicle} & 170 000 \\ \\hline \\text{Stock}  & 60 000 \\ \\hline    & 420,000 \\ \\hline \\text{Less Liabilities} & 50 000 \\ \\hline \\text{Value / Net worth of the business}  & 370,000\\end{array}\\)<br><br>\nPurchase Consideration less worth of the business<br><br>400,000 - N 370,000<br><br>\n= N30,000<br><br>\nGoodwill is an asset that can not be seen or touched. It is referred to as intangible asset.<br><br>Goodwill is generated as may be the good name ot the business, confident of the customers an the product of the business. It is quantifiable by the management an monetary terms."
+  },
+  {
+    "question": "When starting with the cash book balance in preparing the bank reconciliation statement, the followings are added",
+    "option_a": "Unpresented cheque",
+    "option_b": "Dividend",
+    "option_c": "Uncredited cheque",
+    "option_d": "credit transfer",
+    "answer": "C",
+    "solution": "Uncredited cheque have to be less when starting with balance as per cashbook not add because the cheque are yet to be credited by the bank"
+  },
+  {
+    "question": "Which of these is the main source document for recording cash paid into bank?",
+    "option_a": "invoice",
+    "option_b": "cheque book",
+    "option_c": "credit note",
+    "option_d": "pay-in-slip",
+    "answer": "D",
+    "solution": "Pay-in-slip:this is in form of a slip designed with the name of the bank on top that has dates amounts in figure and word, column for the denomination of money paid in signature bank teller, stamp to prove the money is deposited into the bank"
+  },
+  {
+    "question": "Given:<br><br>I. It records subscription in arrears <br><br>II. Payments of liabilities is effected <br><br>III. The account does not show if cash payment is revenue or capital expenditure <br><br>IV. It performs the same function as cashbook <br><br>The features of receipts and payment account includes",
+    "option_a": "I,II and IV",
+    "option_b": "II,III and IV",
+    "option_c": "III and IV",
+    "option_d": "I,II and III",
+    "answer": "B",
+    "solution": "The receipts and payment account is one of the account of a non-profit oriented organization that performs the same functions as cash account in a profit oriented organization<br><br>all forms of payment since cash is involved will be recorded and also performs the same functions as the cashbook does for profit oriented organization"
+  },
+  {
+    "question": "The movement of goods from head office to a branch is treated in the head office as",
+    "option_a": "Sales",
+    "option_b": "issue",
+    "option_c": "purchases",
+    "option_d": "requisition",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "The following are the importance of branch account except",
+    "option_a": "it enable the organization to determine the branch that is making either profit or loss",
+    "option_b": "it allows proper control over the branch by the head office",
+    "option_c": "it assist the organization to determine the performance of a branch manager",
+    "option_d": "it allows fraud and wastage of resources",
+    "answer": "D",
+    "solution": "The activities and resources of branches is strictly monitored by the head office and each branch is supplied according to its need so it will be difficult to commit fraud or waste any resources"
+  },
+  {
+    "question": "The current growth in the volume of trading and financial dealing in Nigeria is helped by",
+    "option_a": "increased financial activities",
+    "option_b": "government intervention",
+    "option_c": "credit as a factor in business",
+    "option_d": "Payment for goods in cash",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "One of the options below have the same features as the profit and loss account in non-profit organization",
+    "option_a": "Income and expenditure account",
+    "option_b": "profit and loss account",
+    "option_c": "receipts and payment account",
+    "option_d": "Non profit account",
+    "answer": "A",
+    "solution": "Income and expenditure : This is the type of account that operate same features as the profit and loss account it takes in consideration all arrears and prepayments"
+  },
+  {
+    "question": "Calculate the discount received in Department B <br><br>\\(\\begin{array}{c|c}  & \\text{Dept A} & \\text{Dept B} \\ \\hline   &  N &  \\ \\hline \\text{Sales} & 250 000 & 500 000 \\ \\hline  \\text{Purchases} & 150 000 & 250 000 \\ \\hline \\text{Discount received} & 24 000 &   \\ \\hline \\text{Discount allowed}  & 15 000  &  &  <br><br>\\end{array}\\)",
+    "option_a": "₦12,000",
+    "option_b": "₦15,000",
+    "option_c": "₦16,000",
+    "option_d": "₦9,000",
+    "answer": "B",
+    "solution": "Before calculating the discount received in Dep. B<br><br>\nWe need to calculate the percentage of purchases for Dep B<br><br>\nOut of the total purchases<br><br>\nDep. A purchases 150,000<br><br>\nDep. B purchases  250,000<br><br>\n400,000  -   Total purchases<br><br>\nthere4; \\(\\frac{250,000 \\times  24,000}{\\text{(Total discount received)}}\\) x 400,000<br><br>\n= 15,000"
+  },
+  {
+    "question": "An advantage of FIFO method of stock valuation is that",
+    "option_a": "it serves-as a control during inflation",
+    "option_b": "it is calculated at the end of the year",
+    "option_c": "it is progressive in nature",
+    "option_d": "its flow of cost is in sequence with the flow of stock.",
+    "answer": "D",
+    "solution": "The first in first out(FIFO) method of stock valuation, major advantage 1 it is very easy to apply 2 no manipulation of income is possible 3 the balance sheet amount for inventory is likely to approximate the current market value <br><br>\nits flow of cost is in sequence with the flow of stock: since the first stock will be considered for sale before other stock. the cost is always in sequence with the flow of stock because it correspondence with the normal physical flow of goods"
+  },
+  {
+    "question": "Discount allowed is enjoyed by",
+    "option_a": "Managers",
+    "option_b": "Customers",
+    "option_c": "Suppliers",
+    "option_d": "Staff of the company",
+    "answer": "B",
+    "solution": "Customer: customers are the one that enjoys discount allowed. It is allowed to them by the suppliers. it can be in cash or trade"
+  },
+  {
+    "question": "\\(\\begin{array}{c|c}  & \\text{Dept A} & \\text{Dept B} \\ \\hline   &  N &  \\ \\hline \\text{Sales} & 250 000 & 150,000 \\ \\hline  \\text{Purchases} & 500,000 & 250 000 \\ \\hline \\text{Discount received} & 24 000 &   \\ \\hline \\text{Discount allowed}  & 15 000  &  &  <br><br>\\end{array}\\)<br><br>\nDetermine the discount allowed by Department A",
+    "option_a": "₦5,000",
+    "option_b": "₦9,375",
+    "option_c": "₦5,625",
+    "option_d": "₦8,000",
+    "answer": "B",
+    "solution": "To determine the discount allowed by Department A, the percentage of sales by Department A need to be calculated<br><br>\nDep A    250,000<br><br>\nDep B    \\(\\frac{150,000}{400,000}\\)<br><br>\n% of Dep A = \\(\\frac{250,000}{400000}\\) X 100<br><br>\n= 62.5%<br><br>\n∴ Discount allowed in Dep A = \\(\\frac{62.5}{100}\\) x  250,000<br><br>\n= ₦ 9,375<br><br>\n= ₦ 9,375"
+  },
+  {
+    "question": "The accounting entries for goods stolen in branch will be to debit",
+    "option_a": "The accounting entries for goods stolen in branch will be to debit",
+    "option_b": "branch stock account and credit branch adjustment account",
+    "option_c": "branch adjustment account and credit profit and loss account",
+    "option_d": "branch adjustment account and credit branch stock account",
+    "answer": "A",
+    "solution": "A branch account is a small part of business account operating with some degree of independence . It maintains its own personal/self accounting entries to determine the profit/loss made by a specific period of time<br><br>\nThe accounting entries is to debit profit and loss account and credit branch stock. The profit and loss is debited because the cost of the stolen goods must be charged against the profit for the period to balance the account and the branch stock account is credited because the cost of the goods is out of the branch already."
+  },
+  {
+    "question": "\\(\\begin{array}{c|c}  & \\text{N} \\ \\hline \\text{Balance as per cashbook}  & 5 467 \\ \\hline \\text{Uncredited cheques}  & 4 410 \\ \\hline \\text{Unpresented cheques}  & 19 404 \\ \\hline  \\text{Cheques wrongly debited by bank} & 1 404 \\end{array}\\)<br><br>\nThe balance as per bank statement is",
+    "option_a": "₦21,901",
+    "option_b": "₦19,021",
+    "option_c": "₦21,109",
+    "option_d": "₦21,091",
+    "answer": "A",
+    "solution": "Bank reconciliation statement helps to reconcile the cashbook and bank statement if there are disagreement <br><br>A is correct: 21,901 is correct because the cheque wrongly debited by the bank will have increase the bank balance therefore to get the value of the bank statement needed to first of all add back the cashbook"
+  },
+  {
+    "question": "The following appears in trading account except",
+    "option_a": "sales",
+    "option_b": "carriage outward",
+    "option_c": "carriage inward",
+    "option_d": "opening stock",
+    "answer": "B",
+    "solution": "carriage outward: it is the cost of transporting goods from the company to the buyer. it is on debit side of the profit and loss account because it is an expenses incurred on distributing the goods to customer."
+  },
+  {
+    "question": "Goodwill can be created in the books of a partnership firm when",
+    "option_a": "the partnership experiences super profit",
+    "option_b": "a new member is admitted",
+    "option_c": "the business is being expanded",
+    "option_d": "the business suffers high loss",
+    "answer": "A",
+    "solution": "The partnership experiences super profit: super profit is the profit that is generated by intangible asset or the profit that is attributed by the tangible asset when such profit is capitalized we get intangible asset or goodwill"
+  },
+  {
+    "question": "\\(\\begin{array}{c|c}  & \\text{N} \\ \\hline \\text{Debtors opening} & 4000 \\ \\hline \\text{Debtors clsoing} & 1500 \\ \\hline \\text{Cash received from debtors} & 8500 \\ \\hline \\text{Bad debts written off} & 350 \\ \\hline \\text{Discount allowed} & 500 \\ \\hline \\text{Discount Received} & 1000\\end{array}\\)<br><br>\nWhat is the amount of sales of sales for the year?",
+    "option_a": "₦3850",
+    "option_b": "₦6650",
+    "option_c": "₦1550",
+    "option_d": "₦6850",
+    "answer": "D",
+    "solution": "Dr Total Debtors Control A/c Cr <br><br>\n\\(\\begin{array}{c|c} \\text{bal b/f.....4,000} & \\text{Cash received..... 8,500} \\ \\hline \\text{Credit sales.....6,850} &  \\text{Bad debt written off.....50} \\ \\hline <br><br>  & \\text{Dr. Allowed.....500} \\ \\hline   & \\text{bal c/d.....1,500} \\ \\hline 10,850 & 10,850 \\ \\hline \\text{bal b/d.....1,500} & \\end{array}\\)<br><br>\nD is correct ₦6850 as the sales for the year accordingly to the above calculations<br><br>The total debtors account is meant to control the transactions with customers whether in cash or credits and to know the remaining cash receivables from customers."
+  },
+  {
+    "question": "Given: <br><br>I. Settlement of debts <br><br>II. Cessation of business<br><br>III. Introduction of assets <br><br>IV. Disposal of assets <br><br>Which of these constitutes dissolution of partnership?",
+    "option_a": "II and IV only",
+    "option_b": "I,II and IV only",
+    "option_c": "I,II and III only",
+    "option_d": "II,III and IV only",
+    "answer": "B",
+    "solution": "Dissolution of partnership business simply means the break up of partnership business and which are caused by many factors<br><br>II,III and IV: disposal of asset does not constitute dissolution"
+  },
+  {
+    "question": "The use of a three column cash book is determined by",
+    "option_a": "cash discount",
+    "option_b": "trade discount",
+    "option_c": "cash transaction",
+    "option_d": "Bank transaction",
+    "answer": "A",
+    "solution": "A cash discount is a deduction allowed by the seller of goods or by the provider of services in order to motivate the customer to pay within a specified time"
+  },
+  {
+    "question": "The discount column on the left-hand side of cashbook represents a discount",
+    "option_a": "received from a creditor",
+    "option_b": "allowed to a debtor",
+    "option_c": "received from a debtor",
+    "option_d": "allowed to a creditor",
+    "answer": "B",
+    "solution": "Allowed to a debtor: the debit side of the cashbook is where all proceeds from sales are recorded and have to be matched with the discount allowed to the debtor /creditor"
+  },
+  {
+    "question": "Which of the following is used to service all operations of government?",
+    "option_a": "Consolidated Revenue Fund",
+    "option_b": "Consolidated Reserve Fund",
+    "option_c": "Special Operational Fund",
+    "option_d": "General-Reserve Fund",
+    "answer": "A",
+    "solution": "consolidation revenue fund generate its revenue through allocation from the federation account, court fees and fines etc and is used to finance government operation e g cost, overhead"
+  },
+  {
+    "question": "\\(\\begin{array}{c|c}   & \\text{N} \\ \\hline \\text{Balance as per cashbook} & 5 467 \\ \\hline  \\text{Uncredited cheques}  & 4 410 \\ \\hline \\text{Unpresented cheque} & 19 404 \\ \\hline \\text{Cheques wrongly debited by bank} & 1 440 <br><br>\\end{array}\\)",
+    "option_a": "₦4207",
+    "option_b": "₦9527",
+    "option_c": "₦6907",
+    "option_d": "₦9877",
+    "answer": "B",
+    "solution": "\\(\\begin{array}{c|c}   & \\text{N} & \\text{N} \\ \\hline \\text{Balance as per cash book} &  &  5469 \\ \\hline  \\text{Unpresented cheque}  & 19494 &  \\ \\hline \\text{Cheque wrongly debited} & 1440 & 20844 \\ \\hline   &   &  26,311 \\ \\hline \\text{Uncredited cheque} &  & 4410 \\ \\hline \\text{Balnce as per bank statement}  &   & 21,901\\end{array}\\)"
+  },
+  {
+    "question": "The tier of government that uses financial memorandum",
+    "option_a": "Federal government",
+    "option_b": "state government",
+    "option_c": "local government",
+    "option_d": "municipal government",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "What is the effect of transaction when cash is paid into the bank",
+    "option_a": "Bank balance decrease and cash balance increase",
+    "option_b": "bank balance decrease and cash balance decrease",
+    "option_c": "cash balance increase and bank balance increase",
+    "option_d": "cash balance decrease and bank balance increase",
+    "answer": "D",
+    "solution": "Cash balance decrease and bank balance increase: The cash as leaving the cash till and will be deposited into the bank"
+  },
+  {
+    "question": "The principle of double entry developed from the axioms of accounting equation is given as",
+    "option_a": "Assets + Liability = Equity",
+    "option_b": "Assets + Equity = Liabilities",
+    "option_c": "Liabilities + Equity = Asset",
+    "option_d": "Liabilities + Equity = Net assets",
+    "answer": "C",
+    "solution": "Liabilities + Equity = Asset is given as the fundamental equation"
+  },
+  {
+    "question": "\\(\\begin{array}{c|c}  & \\text{N} \\ \\hline \\text{Stock Jan 1} & 2000 \\ \\hline \\text{Purchases} & 4000 \\ \\hline \\text{Carriage inwards} & 500 \\ \\hline \\text{Sales} & 9000 \\ \\hline \\text{Carriage outwards} & 500\\end{array}\\)<br><br>\nCarriage outwards",
+    "option_a": "₦9,000",
+    "option_b": "₦2,500",
+    "option_c": "₦3,000",
+    "option_d": "₦1,500",
+    "answer": "B",
+    "solution": "\\(\\begin{array}{c|c} \\text{Sales} &   & 9000 \\ \\hline \\text{Stock Jan 1} & 2000 &   \\ \\hline \\text{Purchases} & 4000 &   \\ \\hline \\text{Carriage inwards} & 500 & 6500 \\ \\hline \\text{Gross profit} &   & 2500 \\end{array}\\)"
+  },
+  {
+    "question": "The correct expression of accounting equation is",
+    "option_a": "Assets = Liabilities + Equity",
+    "option_b": "Net assets = Liabilities + Equity",
+    "option_c": "Assets + Liabilities = Equity",
+    "option_d": "Assets = Equity - liabilities",
+    "answer": "A",
+    "solution": "The fundamental accounting equation is Asset = Capital + Liabilities <br><br>Asset = Liabilities + Equity the total assets of the company is generated through liabilities to outsiders that the company is still enjoying in addition with the equity by the owners of the business"
+  },
+  {
+    "question": "Subscription in advance is treated in the balance sheet as a",
+    "option_a": "current asset",
+    "option_b": "current liability",
+    "option_c": "fixed asset",
+    "option_d": "long term liability",
+    "answer": "B",
+    "solution": "current assets are assets of the company that can be easily converted to cash when needed<br><br>\ncurrent liability: this is the liability owned to outsiders but still enjoying its benefit within a year e.g creditors, wages in arrears"
+  },
+  {
+    "question": "Which of these is a content of a master file?",
+    "option_a": "All records relevant to the organisation.",
+    "option_b": "Records of assets of the organisation",
+    "option_c": "A collection of data items",
+    "option_d": "All records relating to employees",
+    "answer": "A",
+    "solution": "All record relevant to the organization: the records which are only relevant to the organization such as the name and address as well as summary information such as amount due and year to date sales will be in master file"
+  },
+  {
+    "question": "An evidence of payment issued to a government ministry by a revenue collector is",
+    "option_a": "treasury receipt",
+    "option_b": "receipt voucher",
+    "option_c": "payment voucher",
+    "option_d": "treasury card",
+    "answer": "B",
+    "solution": "Receipt voucher is raised as evidence by revenue collector when government funds and property or received <br><br>\nReceipt voucher: these are vouchers raised as evidence for the receipt of government funds and property. The revenue collected is prepared for the government ministry as a means that revenue has been collected"
+  },
+  {
+    "question": "A part of public company's profits belonging to the shareholders is",
+    "option_a": "public issue",
+    "option_b": "bonus",
+    "option_c": "right issue",
+    "option_d": "dividends",
+    "answer": "D",
+    "solution": "Dividend is known as the kind of benefit enjoyed by the shareholder for investing their fund in a particular organisation"
+  },
+  {
+    "question": "When expenses are paid on behalf of the venture, the accounting entries is to debit",
+    "option_a": "bank account and credit joint venture account",
+    "option_b": "expenses account and credit bank account",
+    "option_c": "joint venture account and credit expenses account",
+    "option_d": "joint venture account and credit bank account",
+    "answer": "D",
+    "solution": "Joint venture account is an account that all expenditure incurred for the venture is debited and all income is credited to.<br><br>Debit joint venture and credit bank account because expenses incurred on behalf of the venture has to be debited to the joint venture account and since the money is joint out the bank must be credited to balance the account"
+  }
+]

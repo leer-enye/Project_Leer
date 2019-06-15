@@ -1,0 +1,46 @@
+[
+    {
+        "name": "accounts",
+        "description": "accouting principle"
+    },
+    {
+        "name": "biology",
+        "description": "Biology"
+    },
+    {
+        "name": "chemistry",
+        "description": "chemistry"
+    },
+    {
+        "name": "commerce",
+        "description": "commerce"
+    },
+    {
+        "name": "crs",
+        "description": "crs"
+    },
+    {
+        "name": "economics",
+        "description": "economics"
+    },
+    {
+        "name": "english",
+        "description": "english"
+    },
+    {
+        "name": "government",
+        "description": "government"
+    },
+    {
+        "name": "literature",
+        "description": "literature"
+    },
+    {
+        "name": "mathematics",
+        "description": "mathematics"
+    },
+    {
+        "name": "physics",
+        "description": "physics"
+    }
+]

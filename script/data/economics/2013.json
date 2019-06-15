@@ -1,0 +1,443 @@
+﻿[
+  {
+    "question": "If P = \\(\\frac{1}{4}\\)(Qs + 10). What is the quantity supplied at N14?",
+    "option_a": "14",
+    "option_b": "60",
+    "option_c": "46",
+    "option_d": "32",
+    "answer": "C",
+    "solution": "= \\(\\frac{1}{4}\\)(qs + 10)<br><br> 14 = \\(\\frac{\\text{qs + 10}}{4}\\)<br><br> 56 = qs + 10<br><br> 56 - 10 = qs<br><br> qs = 46"
+  },
+  {
+    "question": "The profit of a monopolist can be eliminated where price equals",
+    "option_a": "AFC",
+    "option_b": "MC",
+    "option_c": "AC",
+    "option_d": "AVC",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "An economy in which both the public and private sectors contribute to economic growth is as",
+    "option_a": "feudal economy",
+    "option_b": "capitalist economy",
+    "option_c": "socialist economy",
+    "option_d": "mixed economy",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "If the standard deviation of a given data is 53, what is the variance?",
+    "option_a": "2082",
+    "option_b": "2809",
+    "option_c": "2808",
+    "option_d": "2209",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "Which of the following set of statistical tools is used for further economic analysis?",
+    "option_a": "the median and standard deviation",
+    "option_b": "the mean and mode",
+    "option_c": "the mean and standard deviation",
+    "option_d": "the mode and median",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "An advantage of the range as a measure of dispersion is that it",
+    "option_a": "can be used to calculate open-ended distribution",
+    "option_b": "make use of all values of observations in a distribution",
+    "option_c": "takes all values into consideration",
+    "option_d": "is useful for further statistical calculation",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "Find the median of the following set of data 35,10,14,38,15,18,22,30 and 28",
+    "option_a": "10",
+    "option_b": "38",
+    "option_c": "35",
+    "option_d": "22",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "An increase in demand without a corresponding change in supply will lead to",
+    "option_a": "a decrease in equilirium price and increase in equilibrium quantity",
+    "option_b": "an increase in equilibrium price and quantity",
+    "option_c": "a decrease in equilibrium price and quantity",
+    "option_d": "an increase in equilibrium price and a decrease in equilibrium quantity",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "An increase in the price of a commodity will result in",
+    "option_a": "a decrease in the quantity demanded",
+    "option_b": "an increase in demand",
+    "option_c": "an increase in quantity demanded",
+    "option_d": "a decrease in demand",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "If the price of a bicycle changes from N120 to N80 and quantity bought changes from 300 to 500 units, the elasticity of demand for bicycle is",
+    "option_a": "66.7",
+    "option_b": "0.5",
+    "option_c": "1.5",
+    "option_d": "2.0",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "One of the assumptions of the cardinalist approach is",
+    "option_a": "diminishing marginal rate of substitution",
+    "option_b": "the consistency and transitivity of choice",
+    "option_c": "that total utility depends on the quantity of the commodities consumed",
+    "option_d": "unstable marginal utility of money",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "Utility is the satisfaction derived from the",
+    "option_a": "distribution of goods and services",
+    "option_b": "use of goods and services",
+    "option_c": "demand of goods and services",
+    "option_d": "production of goods and services",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "One of the major factors that brings about changes in supply is",
+    "option_a": "market discrimination",
+    "option_b": "availability of storage facilities",
+    "option_c": "the cost of storage",
+    "option_d": "incentives granted to workers",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "If the supply of a product is elastic, a small reduction in price will",
+    "option_a": "reduce the cost of production",
+    "option_b": "reduce the quantity supplied",
+    "option_c": "increase the quantity supplied",
+    "option_d": "lead to no change in the quantity supplied",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "If the price of a commodity is fixed below equilibrium, this will lead to",
+    "option_a": "excess demand",
+    "option_b": "a decrease in price",
+    "option_c": "an increase in price",
+    "option_d": "excess supply",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "One of the criticisms of the price mechanism is that",
+    "option_a": "producers are sovereign",
+    "option_b": "it provides low degree of freedom",
+    "option_c": "it widens the inequitable gap",
+    "option_d": "consumers are sovereign",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "In Nigeria, government can reduce the cost of accommodation by fixing rent",
+    "option_a": "at the prevailing rate",
+    "option_b": "at the equilibrium price",
+    "option_c": "above the equilibrium price",
+    "option_d": "below the equilibrium price",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "If a refinery achieves a reduction in cost by purchasing and transporting crude oil in large quantities, it enjoys",
+    "option_a": "economies of scale",
+    "option_b": "specialization",
+    "option_c": "division of labour",
+    "option_d": "diseconomies of scale",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "An isoquant lying above to the right of another represents",
+    "option_a": "a higher output level",
+    "option_b": "constant returns to scale",
+    "option_c": "over-capacity utilization",
+    "option_d": "a lower output level",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "A measure of national income used as comparison of standard of living among nations is",
+    "option_a": "net national product",
+    "option_b": "gross domestic product",
+    "option_c": "gross national product",
+    "option_d": "per capita income",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "The speculative demand for money is inversely related to the",
+    "option_a": "interest rate",
+    "option_b": "level of income",
+    "option_c": "exchange rate",
+    "option_d": "inflation rate",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "If Mr .K obtains a N50.000 loan from a bank for the purpose of providing household needs, the demand for money is said to be",
+    "option_a": "transactionary",
+    "option_b": "speculative",
+    "option_c": "precautionary and speculative",
+    "option_d": "transactional and speculative",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "Which of the following is used by the Central Bank of Nigeria to control inflation?",
+    "option_a": "Tariff on imports",
+    "option_b": "Tax rate",
+    "option_c": "Exchange rate",
+    "option_d": "Discount rate",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "If CBN reduces money supply, the interest rate will",
+    "option_a": "fluctuate",
+    "option_b": "rise",
+    "option_c": "fall",
+    "option_d": "remain unchanged",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "A tax on land will ultimately fall",
+    "option_a": "partly on agents and users",
+    "option_b": "entirely on users",
+    "option_c": "entirely on owners",
+    "option_d": "partly on users and owners",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "An example of an expansionary fiscal policy action is",
+    "option_a": "decrease in the corporate profit tax rates",
+    "option_b": "decrease in welfare payments",
+    "option_c": "purchase of government securities",
+    "option_d": "decrease in the bank rate",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "One of the goals of development plans in Nigeria is to",
+    "option_a": "increase the profitability of multinational businesses",
+    "option_b": "improve the country's GDP",
+    "option_c": "achieve higher standard of living for the citizens",
+    "option_d": "deregulate the economy",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "Life insurance companies contribute to economic development by holding a part of their assets in",
+    "option_a": "long-term financial instruments",
+    "option_b": "money market instruments",
+    "option_c": "cash and near money",
+    "option_d": "short-term financial instruments",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "In order to add value to Nigeria agricultural produce, there is need to",
+    "option_a": "cultivate high breed crops",
+    "option_b": "process them into finished goods",
+    "option_c": "adopt modern storage methods",
+    "option_d": "advertise them in European markets",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "The main reason for low agricultural produce in west Africa is  need to",
+    "option_a": "the presence of large-scale agro-allied industries",
+    "option_b": "high dependency ratio",
+    "option_c": "over dependence on agriculture for subsistence",
+    "option_d": "the use of crude implements in farming process",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "The most important determinant for the location of a brick industry is the availability of",
+    "option_a": "market",
+    "option_b": "power supply",
+    "option_c": "water",
+    "option_d": "raw materials",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "In Nigeria, efficiency in public corporations can be achieved through",
+    "option_a": "public offer",
+    "option_b": "indigenization",
+    "option_c": "privatization",
+    "option_d": "nationalization",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "Government participation in the oil industry was necessitated by the",
+    "option_a": "annual increase in production",
+    "option_b": "formation of OPEC",
+    "option_c": "high demand for crude oil",
+    "option_d": "huge investment outlay",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "The deregulation of the petroleum sector in Nigeria will bring about",
+    "option_a": "efficiency in pricing and distribution of the products",
+    "option_b": "an end to the importation of fuel",
+    "option_c": "an end to foreign firms' dominance",
+    "option_d": "fixing appropriate production quotas",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "A distinguishing characteristic of consumer co-operative society is that the",
+    "option_a": "the maximum number of shareholders is 20",
+    "option_b": "members are the owners",
+    "option_c": "members are the workers",
+    "option_d": "the minimum number of shareholders is 5",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "A major disadvantage of partnership business is",
+    "option_a": "difficulty in the transfer of shares",
+    "option_b": "distrust among members",
+    "option_c": "limited liability",
+    "option_d": "large capital outlay",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "The quality of labour force in Nigeria can be improved by",
+    "option_a": "establishing more tertiary institutions",
+    "option_b": "creating sufficient job opportunities",
+    "option_c": "encouraging the study of science and technology",
+    "option_d": "establishing more skills acquisition centres",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "The effect of emigration on a country's population is",
+    "option_a": "decrease in the population",
+    "option_b": "decrease in job opportunities",
+    "option_c": "increase in population",
+    "option_d": "increase in dependency ratio",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "A measure for preventing the external value of the naria from falling is for the government to",
+    "option_a": "increase its spending with foreign reserve",
+    "option_b": "sell its own currency",
+    "option_c": "reduce interest rate",
+    "option_d": "buy its currency with foreign reserve",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "A fiscal policy instrument that can influence the demand pattern in an economy is",
+    "option_a": "government spending",
+    "option_b": "interest rate",
+    "option_c": "income tax",
+    "option_d": "tariff",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "One of the main achievements of the Economic Commission for Africa is",
+    "option_a": "eliminating trade restrictions among states",
+    "option_b": "encouraging transport and communication development",
+    "option_c": "guaranteeing a steady flow of foreign investment into Africa",
+    "option_d": "providing the machinery for collaboration on monetary issues",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "The rate of interest change on loans depends largely on",
+    "option_a": "the prevailing exchange rate",
+    "option_b": "marginal efficiency of capital",
+    "option_c": "the risk associated with the loan",
+    "option_d": "the prevailing tax rate",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "A valid explanation for real wage growth is",
+    "option_a": "an increase in the rate of productivity",
+    "option_b": "the rising cost of capital accumulation",
+    "option_c": "a contraction of emploment in service industries",
+    "option_d": "an increase in the quantity of labour",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "If Mr. X lost his clerical job at a store and searched for a similar job for ten months before finding one this implies that Mr.X was",
+    "option_a": "structurally unemployed",
+    "option_b": "frictionally unemployed",
+    "option_c": "seasonally unemployed",
+    "option_d": "cyclically unemployed",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "From the graph above, the price elasticity of demand is",
+    "option_a": "unitarily elastic",
+    "option_b": "perfectly elastic",
+    "option_c": "perfectly inelastic",
+    "option_d": "fairly inelastic",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "From the indifference curve above, consumer will prefer combination",
+    "option_a": "F",
+    "option_b": "S",
+    "option_c": "M",
+    "option_d": "K",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "From the graph above, R represents",
+    "option_a": "marginal cost",
+    "option_b": "total cost",
+    "option_c": "variable cost",
+    "option_d": "fixed cost",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "The optimum level of output of the firm is",
+    "option_a": "BC",
+    "option_b": "OB",
+    "option_c": "OS",
+    "option_d": "BS",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "The total revenue of the firm is represented by",
+    "option_a": "GHEF",
+    "option_b": "GHJC",
+    "option_c": "EFJC",
+    "option_d": "GHOB",
+    "answer": "D",
+    "solution": ""
+  }
+]

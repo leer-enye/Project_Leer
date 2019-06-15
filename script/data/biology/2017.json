@@ -1,0 +1,451 @@
+﻿[
+  {
+    "question": "The matured sex cell which takes part in sexual reproduction is referred to as",
+    "option_a": "gamete",
+    "option_b": "fetus",
+    "option_c": "embryo",
+    "option_d": "zygote",
+    "answer": "A",
+    "solution": "Gametes are reproductive cells (sex cells) that unite during sexual reproduction to form a new cell called a zygote. Male gametes are sperm and female gametes are ova (eggs). <br><br> Embryo is the stage of animal development in the uterus before the animal is considered a fetus. In humans this is equivalent to the first three months."
+  },
+  {
+    "question": "The biome that is characterized with large herbivores, few and scattered fire resistant trees is",
+    "option_a": "savanna",
+    "option_b": "tropical rain forest",
+    "option_c": "montane forest",
+    "option_d": "desert",
+    "answer": "A",
+    "solution": "Savannas are quite low in tree species diversity because of stringent ecological requirements but fairly high in diversity of herbaceous plants. Tree growth is controlled not only by rainfall but also by soil type; large areas of hardpan soils, allow no tree roots to penetrate except through cracks, and the cracks determine tree distribution.<br><br> Large mammals are at their most diverse in this open environment, in which they can move about freely and yet find shelter among woody vegetation. Large herbivores are successful because of the tremendous biomass of herbaceous vegetation produced annually, and there are many carnivores to crop them in turn.<br><br> Tropical rain forests occur in areas of tropical rainforest climate in which there is no dry season, distinct buttress roots of trees.<br><br> Montane forest refers to any ecosystem found in mountains. These ecosystems are strongly affected by climate, which gets colder as elevation increases. <br><br> A desert is a barren area of landscape where little precipitation occurs and consequently living conditions are hostile for plant and animal life."
+  },
+  {
+    "question": "Red blood cells are also known as _________?",
+    "option_a": "erythrocytes",
+    "option_b": "thrombocytes",
+    "option_c": "phagocytes",
+    "option_d": "leucocytes",
+    "answer": "A",
+    "solution": "Red blood cell aslo kn own as erythrocytea disk-shaped, biconcave cell in the blood that contains hemoglobin, lacks a nucleus, and transports oxygen and carbon dioxide to and from the tissues<br><br> \nWhite blood cells or leukocytes, are cells of the immune system involved in defending the body against both infectious disease and foreign materials.<br><br> \nPlatelets, or thrombocytes or yellow blood cells, are very small, irregularly shaped clear cell fragments (i.e. cells that do not have a nucleus containing DNA. Platelets are a natural source of growth factors. They circulate in the blood of mammals and are involved in hemostasis, leading to the formation of blood clots. <br><br> \nPhagocytes are cells that protect the body by ingesting harmful foreign particles, bacteria, and dead or dying cells"
+  },
+  {
+    "question": "The joint between the femur and tibia is known as ________?",
+    "option_a": "hinge joint",
+    "option_b": "ball-and-socket joint",
+    "option_c": "pivot joint",
+    "option_d": "gliding joint",
+    "answer": "A",
+    "solution": "The knee joint is one of the strongest and most important joints in the human body. It allows the lower leg to move relative to the thigh while supporting the body’s weight. <br><br> \nMovements at the knee joint are essential to many everyday activities, including walking, running, sitting and standing.<br><br> \nThe knee, also known as the hinge joint(tibiofemoral joint) formed between three bones: the femur, tibia, and patella. <br><br> \nA gliding joint, also known as a plane joint or planar joint, is a common type ofjoint formed between bones that meet at flat or nearly flat articular surfaces.<br><br> \nPivot joint, also called rotary joint is a freely moveable joint that allows only rotary movement around a single axis. Pivot joints also provide for the twisting movement of the bones of the forearm (radius and ulna) against the upper arm.<br><br> \nThe ball and socket joint (or spheroidal joint) is a type of synovial joint which enables the bone to move in many places (nearly all directions). These are found in the hip."
+  },
+  {
+    "question": "What is the primary function of cofactors?",
+    "option_a": "To aid in enzyme function",
+    "option_b": "To synthesize enzymes",
+    "option_c": "To inhibit enzymes",
+    "option_d": "To break down old enzymes",
+    "answer": "A",
+    "solution": "Most enzymes do not function optimally, or even at all, unless bound to other non-protein helper molecules called cofactors."
+  },
+  {
+    "question": "Use the diagram below to answer the question that follow: <br><br> The diagram represents a",
+    "option_a": "hygrometer",
+    "option_b": "Wind vane",
+    "option_c": "Anemometer",
+    "option_d": "rain gauge",
+    "answer": "B",
+    "solution": "Wind vane is used to measure the direction of the wind."
+  },
+  {
+    "question": "Coloration of the eye is ______ variation",
+    "option_a": "physiological",
+    "option_b": "morphological",
+    "option_c": "adaptive",
+    "option_d": "recessive",
+    "answer": "B",
+    "solution": "Eye coloration is a caused by morphological variation"
+  },
+  {
+    "question": "Which of the following choices correctly describes the composition of the cell membrane?",
+    "option_a": "contains only lipids",
+    "option_b": "contains lipids and protein",
+    "option_c": "contains lipids and cytosol",
+    "option_d": "contains only proteins",
+    "answer": "B",
+    "solution": "It consists of a lipid bi-layer with embedded proteins. The basic function of the cell membrane is to protect the cell from its surroundings. <br><br> \nThe cell membrane controls the movement of substances in and out of cells and organelles. In this way, it is selectively permeable to ions and organic molecules"
+  },
+  {
+    "question": "The feeding relationship among a set of members of a community is referred to as _______?",
+    "option_a": "a food web",
+    "option_b": "pyramid of energy",
+    "option_c": "a food chain",
+    "option_d": "pyramid of member",
+    "answer": "D",
+    "solution": "Feeding relationships between organisms in a community are represented by food chains, which show the sequence in which organisms feed on each other. The chain generally begins with an autotroph such as a green plant (e.g. stinging nettle ---> small tortoiseshell butterfly caterpillar --> house sparrow --> sparrowhawk), or with dead organic matter (detritus) (e.g. leaf litter --> earthworm --> young blackbird --> fox). The arrows indicate the passage of food, and therefore energy flow, from one organism to another.<br><br> \nPyramids of energy are the most accurate representation of feeding relationships in a community, providing information about the amount of energy flowing through each trophic level over a set period of time.<br><br> \nFood web involve many complex feeding relationship and most most ecosystems are more complex than food chain"
+  },
+  {
+    "question": "Nitrogen is released into the atmosphere when ________",
+    "option_a": "plants absorbs mineral salt",
+    "option_b": "sugar is completely broken down",
+    "option_c": "through plant uptake",
+    "option_d": "when lightning strike",
+    "answer": "D",
+    "solution": "Nitrogen is essential to all living systems, which makes the nitrogen cycle one of Earth's most important nutrient cycles.<br><br> \nAtmospheric nitrogen becomes part of living organisms in two ways. The first is through bacteria in the soil that form nitrates out of nitrogen in the air. The second is through lightning. During electrical storms, large amounts of nitrogen are oxidized and united with water to produce an acid that falls to Earth in rainfall and deposits nitrates in the soil."
+  },
+  {
+    "question": "Size, colour and fingerprints are examples of ______",
+    "option_a": "physiological variation",
+    "option_b": "discontinuous variation",
+    "option_c": "morphological variation",
+    "option_d": "adaptive variation",
+    "answer": "C",
+    "solution": "Morphological variation includes aspects of the outward appearance i.e shape, structure, color, pattern, size which is in contrast to physiology variation which deals primarily with function. <br><br> \nMorphological variation arises from a number of factors which can be bluntly classified as either genetic or environmental implanted into the process of evolution. <br><br> \nDiscontinuous variation is variation that has distinct groups for organisms to belong to i.e tongue rolling, finger prints, eye color, blood groups"
+  },
+  {
+    "question": "The level of organism in spirogyra and volvox is",
+    "option_a": "organ",
+    "option_b": "system",
+    "option_c": "cell",
+    "option_d": "Tissue",
+    "answer": "C",
+    "solution": "spirogyra and volvox are cells"
+  },
+  {
+    "question": "Which of the following scenarios is an example of cohesion?",
+    "option_a": "Water molecules stick to the surface of a mirror.",
+    "option_b": "Water sticks to the walls of blood vessels.",
+    "option_c": "Water molecules stay on the tip of a pine needle because the water is attracted to the surface of the needle.",
+    "option_d": "Water molecules stick to one another and form a bead",
+    "answer": "D",
+    "solution": "Cohesion is an ability of water molecule to stick to one another due to the presence of hydrogen bonding"
+  },
+  {
+    "question": "The common thing in plant and animal cell is",
+    "option_a": "chloroplast",
+    "option_b": "cell wall",
+    "option_c": "nucleus",
+    "option_d": "centrioles",
+    "answer": "C",
+    "solution": "Nucleus is a specialized structure occurring in most cells (except bacteria and blue-green algae) and separated from the rest of the cell by a double layer, the nuclear membrane. This membrane seems to be continuous with the endoplasmic reticulum (a membranous network) of the cell and has pores, which probably permit the entrance of large molecules. The nucleus controls and regulates the activities of the cell (e.g., growth and metabolism) and carries the genes, structures that contain the hereditary information."
+  },
+  {
+    "question": "The modification in structure, physiology and behaviour of plant and animal is called ______",
+    "option_a": "adaption",
+    "option_b": "evolution",
+    "option_c": "variation",
+    "option_d": "succession",
+    "answer": "A",
+    "solution": "Adaptation is process by which an animal or plant species becomes fitted to its environment; it is the result of natural selection’s acting upon heritable variation. Even the simpler organisms must be adapted in a great variety of ways: in their structure, physiology, and genetics, in their locomotion or dispersal, in their means of defense and attack, in their reproduction and development, and in other respects.<br><br> <br><br> Evolution explains how living things change over a long time, and how they have come to be the way they are<br><br> Variation is any difference between cells, individual organisms, or groups of organisms of any species caused either by genetic differences (genotypic variation) or by the effect of environmental factors on the expression of the genetic potentials (phenotypic variation). Variation may be shown in physical appearance, metabolism, fertility, mode of reproduction, behaviour, learning and mental ability.<br><br> \nSuccession is the process by which the structure of a biological community evolves over time. Two different types of succession—primary and secondary—have been distinguished. Primary succession occurs in essentially lifeless areas—regions in which the soil is incapable of sustaining life as a result of such factors as lava flows, newly formed sand dunes, or rocks left from a retreating glacier. <br><br> \nSecondary succession occurs in areas where a community that previously existed has been removed; it is typified by smaller-scale disturbances that do not eliminate all life and nutrients from the environment."
+  },
+  {
+    "question": "Use the diagram to answer the question that follows <br><br> \nThe instrument is used to measure",
+    "option_a": "atmospheric pressure",
+    "option_b": "relative humidity",
+    "option_c": "direction of wind",
+    "option_d": "spread of wind",
+    "answer": "C",
+    "solution": "Wind vane is an instrument for showing the direction of the wind."
+  },
+  {
+    "question": "A bacteria that is spherically shaped is called?",
+    "option_a": "diplobacillus",
+    "option_b": "coccus",
+    "option_c": "bacillus",
+    "option_d": "vibrio",
+    "answer": "B",
+    "solution": "A coccus (plural cocci) is any bacterium that has a spherical, ovoid, or generally round shape. A bacillus is any bacterium that has a rod shape. <br><br> \nVibrio is bacteria possessing a curved-rod shape<br><br> \nDiplobacillus is a rod-shaped bacterium occurring in pairs linked end to end."
+  },
+  {
+    "question": "The flame cells are used for excretion in",
+    "option_a": "Fluke",
+    "option_b": "Nematode",
+    "option_c": "Bacteria",
+    "option_d": "Volvox",
+    "answer": "A",
+    "solution": "A flame cell is a specialized excretory cell found in the simplest freshwater invertebrates, including flatworms (fluke, planaria)<br><br> \nFlame cells function like a kidney, removing waste materials. <br><br> Excretion of ammonia waste through the body wall, and is not associated with any specific organs"
+  },
+  {
+    "question": "Food chain refers to the feeding relationships between animals in a ______?",
+    "option_a": "Family",
+    "option_b": "phylum",
+    "option_c": "community",
+    "option_d": "group",
+    "answer": "C",
+    "solution": "Food chain refers to the sequence of transfers of matter and energy in the form of food from organism to organism. Food chains intertwine locally into a food web because most organisms consume more than one type of animal or plant. Plants, which convert solar energy to food by photosynthesis, are the primary food source. In a predator chain, a plant-eating animal is eaten by a flesh-eating animal. In a parasite chain, a smaller organism consumes part of a larger host and may itself be parasitized by even smaller organisms. <br><br> \nIn a saprophytic chain, microorganisms live on dead organic matter."
+  },
+  {
+    "question": "The host of Taenia Solium is _________",
+    "option_a": "cow",
+    "option_b": "pig",
+    "option_c": "sheep",
+    "option_d": "dog",
+    "answer": "B",
+    "solution": "It is transmitted to pig through human feaces or contaminated vegetation contaminated with human excreta."
+  },
+  {
+    "question": "Use the diagram to answer the question that follows. <br><br> \nThe dentition is found in",
+    "option_a": "rat",
+    "option_b": "dog",
+    "option_c": "sheep",
+    "option_d": "man",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "When an ovary is placed on the receptacle above the other floral parts it is referred to as",
+    "option_a": "half inferior ovary",
+    "option_b": "superior ovary",
+    "option_c": "inferior ovary",
+    "option_d": "half superior ovary",
+    "answer": "B",
+    "solution": "A superior ovary is an ovary attached to the receptacle above the attachment of other floral parts<br><br> A half-inferior ovary is embedded or surrounded by the receptacle.<br><br> \nAn inferior ovary lies below the attachment of other floral parts."
+  },
+  {
+    "question": "The type of nutrition exhibited when organism lives on the body surface or inside the body of another type of organism is",
+    "option_a": "Holozoic",
+    "option_b": "parasitic",
+    "option_c": "saprohytic",
+    "option_d": "carnivores",
+    "answer": "B",
+    "solution": "Parasitic nutrition is heterotrophic nutrition where a parasitic organism lives on the body surface or inside the body of another type of organism (a host) and gets nutrition directly from the body of the host. Since these parasites derive nourishment from their host, this symbiotic interaction is often described as harmful to the host.<br><br> Saprotrophic nutrition is a process of chemoheterotrophic extracellular digestion involved in the processing of decayed organic matter. <br><br> \nThe organism feeds on dead matter i.e fungi<br><br> A carnivore is an organism that derives its energy and nutrient requirements from a diet consisting mainly or exclusively of animal tissue, whether through predation or scavenging"
+  },
+  {
+    "question": "An example of organism which exists as a colony is",
+    "option_a": "Volvox",
+    "option_b": "paramecium",
+    "option_c": "euglena",
+    "option_d": "chlamydomonas",
+    "answer": "A",
+    "solution": "Volvox is an example of organism thatforms spherical colonies of up to 50,000 cells.<br><br> A colony is composed of two or more individuals living in close association with, or connected to, one another, usually for mutual benefit such as stronger defense or the ability to attack bigger prey.<br><br> \nIt is a cluster of identical cells (clones) on the surface of (or within) a solid medium, usually derived from a single parent cell."
+  },
+  {
+    "question": "The following are example of morphological variation except",
+    "option_a": "size",
+    "option_b": "ability to taste PTC",
+    "option_c": "color",
+    "option_d": "fingerprint",
+    "answer": "B",
+    "solution": "Morphological variation includes aspects of the outward appearance i.e shape, structure, color, pattern, size which is in contrast to physiology variation which deals primarily with function. <br><br> \nMorphological variation arises from a number of factors which can be bluntly classified as either genetic or environmental implanted into the process of evolution."
+  },
+  {
+    "question": "Ability to taste PTC in some individuals is a character that is",
+    "option_a": "acquired",
+    "option_b": "heritable",
+    "option_c": "sex-linked",
+    "option_d": "morphological",
+    "answer": "B",
+    "solution": "PTC(phenylthiocarbamide) has the unusual property that it either tastes very bitter or is virtually tasteless, depending on the genetic makeup of the taster. The ability to taste PTC is often treated as a dominant genetic trait, although inheritance and expression of this trait are somewhat more complex.<br><br> \nTo some people, small amounts of the compounds phenylthiocarbamide (PTC) taste very bitter; other people do not taste these compounds. The myth is that there are only two kinds of people, tasters and non-tasters, and that the trait is controlled by a single gene, with the allele for tasting dominant over the allele for non-tasting.<br><br> ∴ ability to taste PTC in some individuals is a character that is heritable"
+  },
+  {
+    "question": "Agglutination is the _______ of the ________",
+    "option_a": "coagulation, white bloodcell",
+    "option_b": "coagulation, water",
+    "option_c": "white blood cells, red blood cell",
+    "option_d": "coagulation, red blood cell",
+    "answer": "D",
+    "solution": "The clumping of cells such as bacteria or red blood cells in the presence of an antibody or complement.<br><br> \nDuring blood transfusions, the antibodies react with the transfused blood group(if its of different blood group), the erythrocytes clump up and stick together causing them to agglutinate"
+  },
+  {
+    "question": "What organelle is the site of photosynthesis in plants?",
+    "option_a": "Chloroplasts",
+    "option_b": "Ribosomes",
+    "option_c": "Cytoplasm",
+    "option_d": "Mitochondria",
+    "answer": "A",
+    "solution": "Chloroplast is the combination of two biological terms, plastid (an organelle in a plant cell), and chloros, which means green. chlorophyll which is an important pigments for photosynthesis.<br><br> \nA ribosome is a complex cellular mechanism used to translate genetic code into chains of amino acids. Long chains of amino acids fold and function as proteins .<br><br> \nThe jellylike material that makes up much of a cell inside the cell membrane, and, in eukaryotic cells, surrounds the nucleus.<br><br> \nMitochondrial is a spherical or elongated organelle in the cytoplasm of nearly all eukaryotic cells, containing genetic material and many enzymes important for cell metabolism, including those responsible for the conversion of food to usable energy"
+  },
+  {
+    "question": "Which of the following is a characteristics of a bacteria except _______?",
+    "option_a": "they can be seen under microscope",
+    "option_b": "they range from 0.5 µ m in diameter",
+    "option_c": "They are grouped accordingly to their cell shape",
+    "option_d": "they so not cause disease",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "The level of organization of Amoeba and Euglena cell is <br><br> ________?",
+    "option_a": "organ",
+    "option_b": "system",
+    "option_c": "cell",
+    "option_d": "tissue",
+    "answer": "C",
+    "solution": "In unicellular organisms, the single cell performs all life functions. Examples are Amoeba, Euglena<br><br> Life can be organised into several different levels of function and complexity. <br><br> \nThese functional levels are: cells, tissues, organs, systems and organisms.<br><br> Every living thing is made up of a cell or a number of cells."
+  },
+  {
+    "question": "The appendicular skeleton comprises of",
+    "option_a": "pectoral and pelvic girdles",
+    "option_b": "forelimbs, skull and pectoral girdle",
+    "option_c": "lungs and ribs",
+    "option_d": "skull and the vertebral column",
+    "answer": "A",
+    "solution": "The appendicular skeleton is the portion of the skeleton of vertebrates consisting of the bones that support the appendages. <br><br> \nThe appendicular skeleton includes the skeletal elements within the limbs, as well as supporting pectoral and pelvic girdles <br><br> \nPectoral girdles, arms and forearms, pelvis, thighs and legs, feet and ankles"
+  },
+  {
+    "question": "The protista that is a producer is an aquatic food chain is",
+    "option_a": "trypanosome",
+    "option_b": "paramecium",
+    "option_c": "chamydomonas",
+    "option_d": "amoeba",
+    "answer": "B",
+    "solution": "Protists are single celled organisms that contain chloroplasts to aid photosynthesis.<br><br> \nAlgae → Protozoa → Small Insects → Large aquatic Insects → Small fish → Large fish"
+  },
+  {
+    "question": "Which scenario would cause a covalent bond to form?",
+    "option_a": "Two atoms share electrons so they can fill their outer shells",
+    "option_b": "The constant motion of electrons and the creation of charge imbalances bonds two molecules together",
+    "option_c": "A hydrogen atom with a slight positive charge is attracted to a negative charge of another molecule or atom",
+    "option_d": "One atom loses one or more electrons and the other atom gains one or more electrons",
+    "answer": "A",
+    "solution": "Covalent bonds form so that atoms can become more stable. They do this by sharing electrons, rather than fully gaining or losing them."
+  },
+  {
+    "question": "The difference in structure, morphological and behavior of plant and animal is called",
+    "option_a": "adaptation",
+    "option_b": "evolution",
+    "option_c": "variation",
+    "option_d": "succession",
+    "answer": "C",
+    "solution": "Variation, in biology, any difference between cells, individual organisms, or groups of organisms of any species caused either by genetic differences (genotypic variation) or by the effect of environmental factors on the expression of the genetic potentials (phenotypic variation). <br><br> \nVariation may be shown in physical appearance, metabolism, fertility, mode of reproduction, behaviour, learning and mental ability, and other obvious or measurable characters."
+  },
+  {
+    "question": "5Use the diagram to answer the question that follows <br><br> \nThe structure is adapted for",
+    "option_a": "omnivores",
+    "option_b": "herbivores",
+    "option_c": "canivores",
+    "option_d": "omnivores and canivore",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "The product after the union of the male and female gamete in animals is called",
+    "option_a": "sperm",
+    "option_b": "egg",
+    "option_c": "embryo",
+    "option_d": "zygote",
+    "answer": "D",
+    "solution": "Human fertilization is the union of a human egg and sperm, usually occurring in the ampulla of the fallopian tube. <br><br> \nThe result of this union is the production of a zygote cell, or fertilized egg, initiating prenatal development."
+  },
+  {
+    "question": "The possession of scales, laying of eggs with shells and bony structure of the head are characteristics shared by",
+    "option_a": "birds and reptiles",
+    "option_b": "fishes and birds",
+    "option_c": "reptiles and fishes",
+    "option_d": "birds and molluscs",
+    "answer": "A",
+    "solution": "Its long been recognized that birds and reptiles share many characteristics: <br><br> \nBoth have skulls that abut the first neck vertebra with a single ball-and-socket joint.<br><br> \nBoth birds and reptiles excrete nitrogenous wastes as uric acid; mammals excrete urea, fish ammonia.<br><br> \nBoth lay similar highly yolked eggs<br><br> Bird feather is homologous to the reptile scale. Both develop from an epidermal elevation over a nourishing dermal core. Scales flatten, feather buds roll into a cylinder shaped tube"
+  },
+  {
+    "question": "The lungs of the lung fish is an adaptation for respiration _______?",
+    "option_a": "to complement gills while in water",
+    "option_b": "to complement gills while on land",
+    "option_c": "while on land",
+    "option_d": "while in water",
+    "answer": "D",
+    "solution": "Lungfish are best known for retaining the ability to breathe air, to survive drought"
+  },
+  {
+    "question": "Which of the following is an example of active transport?",
+    "option_a": "Oxygen exchanging between red blood cells and liver cells",
+    "option_b": "Carbon dioxide exchanging between muscle cells and red blood cells",
+    "option_c": "Water moving out of the small intestine",
+    "option_d": "Sodium being reabsorbed in the kidney",
+    "answer": "A",
+    "solution": "Although sodium ions are small, their charge prevents them from moving across the cell membrane through simple diffusion. They must be transported using active transport."
+  },
+  {
+    "question": "The key event in the transition of the amphibians from water to land is the ________",
+    "option_a": "replacement of the gills with lungs",
+    "option_b": "possession of webbed limbs",
+    "option_c": "limbs",
+    "option_d": "possession of tympanic membrane",
+    "answer": "A",
+    "solution": "Amphibians display some interesting and changing characteristics as they metamorphose through various forms on their way to adulthood. The frog, for instance, begins life underwater as a larva with gills and becomes and air-breather with lungs as an adult. <br><br> &therefore; in case of draught, frog can amphibians can use lungs to breathe on land"
+  }, {
+    "question": "Erythrocytes are known as ________",
+    "option_a": "white blood cell",
+    "option_b": "red blood cells",
+    "option_c": "phagocytes",
+    "option_d": "leucocytes",
+    "answer": "B",
+    "solution": "A red blood cell(erthyrocytes), which (in humans) is typically a biconcave disc without a nucleus. <br><br> \nErythrocytes contain the pigment haemoglobin, which imparts the red colour to blood, and transport oxygen and carbon dioxide to and from the tissues."
+  },
+  {
+    "question": "Gregor Mendel is regarded as the father of ______",
+    "option_a": "variation",
+    "option_b": "genetics",
+    "option_c": "mycology",
+    "option_d": "natural selection",
+    "answer": "B",
+    "solution": "Gregor Mendel, through his work on pea plants, discovered the fundamental laws of inheritance. <br><br> \nHe deduced that genes come in pairs and are inherited as distinct units, one from each parent. Mendel tracked the segregation of parental genes and their appearance in the offspring as dominant or recessive traits."
+  },
+  {
+    "question": "The most efficient respiratory structure used by free living protozoan is ________",
+    "option_a": "body surface",
+    "option_b": "gills",
+    "option_c": "buccal cavity",
+    "option_d": "spiracle",
+    "answer": "A",
+    "solution": "Protozoa do not have any organellae for the process of respiration. The limiting permeable membrane (body surface) acts as a respiratory surface. <br><br> \nThe free molecular oxy¬gen from the surrounding media enters into the body by diffusion. Presence of a cyto¬chrome system has been demonstrated in protozoa."
+  },
+  {
+    "question": "Carbon (iv) oxide is added to the atmosphere when ________?",
+    "option_a": "plants build-up organic compounds",
+    "option_b": "plants absorb mineral salts",
+    "option_c": "sugars are completely broken down in animals",
+    "option_d": "there is thunderstorm",
+    "answer": "A",
+    "solution": "Plant build of of organic compounds such as oil, coal and gas is a great source of emission of carbon dioxide into the atmosphere<br><br> Human activities such as the burning of oil, coal and gas, as well as deforestation are the primary cause of the increased carbon dioxide concentrations in the atmosphere.<br><br> Other source such has respiration by animals, thunderstorm release carbon dioxide in smaller quantities compare to 87% of carbon dioxide emission from plants build-up organic compounds through human activities"
+  },
+  {
+    "question": "The host of liver flake are ______?",
+    "option_a": "pig and snail",
+    "option_b": "pig and sheep",
+    "option_c": "sheep and snail",
+    "option_d": "pig",
+    "answer": "B",
+    "solution": "Liver fluke (Fasciola hepatica) is a parasite affecting a range of livestock and other species. Final hosts in which it can develop to sexual maturity include livestock such as sheep, cattle, horses, pigs, goats, alpacas and deer. People can be infected by eating water cress growing along creeks in fluke-infested country"
+  },
+  {
+    "question": "Use the diagram to answer the question that follows <br><br> \nThe part labelled  is the ________",
+    "option_a": "carpel",
+    "option_b": "sepal",
+    "option_c": "petal",
+    "option_d": "stamen",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "Which of the following factors can reduce the population of a community?",
+    "option_a": "Immigration",
+    "option_b": "edaphic",
+    "option_c": "predation",
+    "option_d": "mutualism",
+    "answer": "C",
+    "solution": "Predation include all interactions in which one organism consumes all or part of another. This includes predator-prey, herbivore-plant, and parasite-host interactions.<br><br> \nMigration is the movement of individuals of a species from one place to another. <br><br> Mutualism is the way two organisms of different species exist in a relationship in which each individual benefits from the activity of the other. <br><br> \nEdaphic factor is an abiotic factor relating to the physical or chemical composition of the soil found in a particular area."
+  },
+  {
+    "question": "In mosses the structure which performs the function of water absorption is the _________?",
+    "option_a": "root hairs",
+    "option_b": "rhizoids",
+    "option_c": "capsule",
+    "option_d": "hyphae",
+    "answer": "B",
+    "solution": "Mosses do not have a proper roots, but have threadlike rhizoids that anchor them to their substrate. <br><br> \nRhizoids absorb water by capillary action, in which water moves up between threads of rhizoids and not through each of them as it does in roots.<br><br> \nhyphae are also important in the reproductive process in that they produce new spores while root hairs are important for the uptake of nutrients"
+  },
+  {
+    "question": "How does an enzyme affect the rate of a reaction?",
+    "option_a": "It lowers the activation energy of the reaction, increasing the reaction rate.",
+    "option_b": "It raises the activation energy of the reaction, decreasing the reaction rate.",
+    "option_c": "It lowers the activation energy of the reaction, decreasing the reaction rate.",
+    "option_d": "It raises the activation energy of the reaction, increasing the reaction rate.",
+    "answer": "A",
+    "solution": "Enzymes lower the activation energy of a reaction, increasing the reaction rate."
+  },
+  {
+    "question": "Insects that goes through adult stage without becoming pupa are except ________",
+    "option_a": "crickets",
+    "option_b": "cockroach",
+    "option_c": "grasshopper",
+    "option_d": "bees",
+    "answer": "D",
+    "solution": "The first stage of incomplete metamorphosis is the egg. During this time, the insect will hatch into a form called a nymph.<br><br> \nThe nymph is basically a small version of the adult insect."
+  }
+]

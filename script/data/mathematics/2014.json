@@ -1,0 +1,434 @@
+﻿[
+  {
+    "question": "Find the value of 1101112 + 101002",
+    "option_a": "11010112",
+    "option_b": "10010012",
+    "option_c": "10010112",
+    "option_d": "10011112",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "A woman bought a grinder for N60,000. She sold it at a loss of 15%. How much did she sell it?",
+    "option_a": "N53,000",
+    "option_b": "N52,000",
+    "option_c": "N51,000",
+    "option_d": "N50,000",
+    "answer": "C",
+    "solution": "SP = Nx<br>CP = N60,000<br>Percentage loss = 15%<br>Using percentage loss... <br> \\(\\frac{CP - SP}{CP} = \\text{100%}\\) <br> \\(\\text{15%} = \\frac{60000 - x}{60000} \\times \\text{100%}\\) <br> \\(\\text{15%} \\times 60000 = (60000 - x)\\text{100%}\\) <br> \\(60000 - x = \\frac{\\text{15%} \\times 60000}{\\text{100%}}\\) <br> 60000 - x = 3 x 3000 <br> 60000 -x = 9000 <br> x = 60000 - 9000 <br> x = N51,000"
+  },
+  {
+    "question": "Express the product of 0.00043 and 2000 in standard form.",
+    "option_a": "8.6 x 10<sup>-3</sup>",
+    "option_b": "8.3 x 10<sup>-2</sup>",
+    "option_c": "8.6 x 10<sup>-1</sup>",
+    "option_d": "8.6 x 10",
+    "answer": "C",
+    "solution": "0.00043 x 2000 <br> = 43 x 10-5 x 2 x 103 <br> = 43 x 2 x 10-5+3 <br> = 86 x 10-2 <br> = 8.6 x 101 x 10-2 <br> = 8.6 x 10-1"
+  },
+  {
+    "question": "A man donates 10% of his monthly net earnings to his church. If it amounts to N4,500, what is his net monthly income?",
+    "option_a": "N40,500",
+    "option_b": "N45,000",
+    "option_c": "N52,500",
+    "option_d": "N62,000",
+    "answer": "B",
+    "solution": "Let;<br>M = Man monthly net earnings <br> Then; <br> \\(\\text{N4500} = \\frac{\\text{10%}}{\\text{100%}} \\times M \\) <br> \\(M = \\frac{\\text{N4500} \\times \\text{100%}}{\\text{10%}} \\) <br> M = N45,000"
+  },
+  {
+    "question": "If log7.5 = 0.8751, evaluate 2 log75 + log750",
+    "option_a": "6.6252",
+    "option_b": "6.6253",
+    "option_c": "66.252",
+    "option_d": "66.253",
+    "answer": "B",
+    "solution": "If log 7.5 = 0.8751<br>Then 2log75 + log750<br>= 2(1.8751) + 2.8751<br>= 3.7502 + 2.8751<br>= 6.6253"
+  },
+  {
+    "question": "Solve for x in 8x-2 = 2/25",
+    "option_a": "4",
+    "option_b": "6",
+    "option_c": "8",
+    "option_d": "10",
+    "answer": "D",
+    "solution": "8x-2 = 2/25 <br> x-2 = 2/25 x 1/8 <br> x-2 = 2/200 <br> x-2 = 1/100 <br> 1/x2 = 1/100 <br> x2 = 100 <br> x = 10"
+  },
+  {
+    "question": "Simplify \\(\\frac{2\\sqrt{2} - \\sqrt{3}}{\\sqrt{2} + \\sqrt{3}}\\)",
+    "option_a": "3\\(\\sqrt{6} - 7\\)",
+    "option_b": "3\\(\\sqrt{6} - 7\\)",
+    "option_c": "3\\(\\sqrt{6} - 1\\)",
+    "option_d": "3\\(\\sqrt{6} + 1\\)",
+    "answer": "A",
+    "solution": "\\(= \\frac{2\\sqrt{2} - \\sqrt{3}}{\\sqrt{2} + \\sqrt{3}} \\times \\frac{\\sqrt{2} - \\sqrt{3}}{\\sqrt{2} + \\sqrt{3}}\\) <br> \\(= \\frac{2\\sqrt{2}(\\sqrt{2}) + (2\\sqrt{2})(-\\sqrt{3})-\\sqrt{3}(\\sqrt{2})-\\sqrt{3}(-\\sqrt{3})}{(\\sqrt{2})^2-(\\sqrt{3})^2}\\) <br> \\(= \\frac{2 \\times 2 - 2\\sqrt{6} - \\sqrt{6} + 3}{2 - 3}\\) <br> \\(= \\frac{4 - 3\\sqrt{6} + 3}{-1}\\) <br> \\(= \\frac{7 - 3\\sqrt{6}}{-1}\\) <br> \\(= \\frac{7}{-1} - \\frac{3\\sqrt{6}}{-1}\\) <br> \\(= -7 + 3\\sqrt{6}\\) <br> \\(= 3\\sqrt{6}-7\\)"
+  },
+  {
+    "question": "Evaluate Log<sub>2</sub>8 + Log<sub>2</sub>16 - Log<sub>2</sub>4",
+    "option_a": "3",
+    "option_b": "4",
+    "option_c": "5",
+    "option_d": "6",
+    "answer": "C",
+    "solution": "\\( = log_2 \\frac{8 \\times 16}{4}\\) <br> \\( = log_2 32\\) <br> \\( = log_2 2^5\\) <br> \\( = 5log_2 2\\) <br> \\( = 5 \\times 1\\) <br> \\( = 5 \\)"
+  },
+  {
+    "question": "If P = {1,2,3,4,5} and P \\(\\cup\\) q = {1,2,3,4,5,6,7}, list the elements in q",
+    "option_a": "{6}",
+    "option_b": "{7}",
+    "option_c": "{6,7}",
+    "option_d": "{5,6}",
+    "answer": "C",
+    "solution": "q = (P \\(\\cup\\) q) - P<br>{6,7}"
+  },
+  {
+    "question": "If gt<sup>2</sup> - k - w = 0, make g the subject of the formula",
+    "option_a": "\\(\\frac{k + w}{t^2}\\)",
+    "option_b": "\\(\\frac{k - w}{t^2}\\)",
+    "option_c": "\\(\\frac{k + w}{t}\\)",
+    "option_d": "\\(\\frac{k - w}{t}\\)",
+    "answer": "A",
+    "solution": "gt<sup>2</sup> - k - w = 0 <br> gt<sup>2</sup> = k + w <br> \\(g = \\frac{k + w}{t^2}\\)"
+  },
+  {
+    "question": "Factorize 2y<sup>2</sup> - 15xy + 18x<sup>2</sup>",
+    "option_a": "(2y - 3x) (y + 6x)",
+    "option_b": "(2y - 3x) (y - 6x)",
+    "option_c": "(2y + 3x) (y - 6x)",
+    "option_d": "(3y + 2x) (y - 6x)",
+    "answer": "B",
+    "solution": "2y<sup>2</sup> - 15xy + 18x<sup>2</sup> <br> 2y<sup>2</sup> - 12xy - 3xy + 18x<sup>2</sup> <br> 2y(y - 6x) - 3x(y - 6x) <br> (2y - 3x) (y - 6x)"
+  },
+  {
+    "question": "Find the value of k if y - 1 is a factor of y<sup>3</sup> + 4y<sup>2</sup> + ky - 6",
+    "option_a": "-6",
+    "option_b": "-4",
+    "option_c": "O",
+    "option_d": "1",
+    "answer": "D",
+    "solution": "if y - 1 is a factor of y<sup>3</sup> + 4y<sup>2</sup> + ky - 6, then <br> f(1) = (1)3 + 4(1)2 + k(1) - 6 = 0 (factor theorem) <br> 1 + 4 + k - 6 = 0 <br> 5 - 6 + k = 0 <br> -1 + k = 0 <br> k = 1"
+  },
+  {
+    "question": "y varies directly as w<sup>2</sup>. When y = 8, w = 2. Find y when w = 3",
+    "option_a": "18",
+    "option_b": "12",
+    "option_c": "9",
+    "option_d": "6",
+    "answer": "A",
+    "solution": "\\(y \\propto w^2\\) <br> y = kw2 <br> 8 = k(2)2 <br> 8 = k(4) <br> k = 8/4 <br> k = 2 <br> Thus y = 2w2<br>When w = 3, y = 2(3)2 <br> y = 2 x 9 = 18"
+  },
+  {
+    "question": "P varies directly as q and inversely as R. When q = 36 and R = 16, P = 27. Find the relation between P, q and R.",
+    "option_a": "\\(P = \\frac{q}{12R}\\)",
+    "option_b": "\\(P = \\frac{12q}{R}\\)",
+    "option_c": "\\(P = 12qR\\)",
+    "option_d": "\\(P = \\frac{12}{qR}\\)",
+    "answer": "B",
+    "solution": "\\(P \\propto \\frac{q}{R}\\) <br> \\(P = K \\frac{q}{R}\\) <br> When q = 36, R = 16, P = 27 <br> Then substitute into the equation <br> \\(27 = K \\frac{36}{16}\\) <br> \n\\(K = \\frac{27 \\times 16}{36}\\) <br> \\(K = 12\\) <br> So the equation connecting P, q and R is <br> \\(P = \\frac{12q}{R}\\)"
+  },
+  {
+    "question": "What is the solution of \\(\\frac{x - 5}{x + 3} < -1\\)?",
+    "option_a": "-3 < x < 1",
+    "option_b": "x < -3  or x > 1",
+    "option_c": "-3 < x < 5",
+    "option_d": "x < -3 or x > 5",
+    "answer": "A",
+    "solution": "Consider the range -3 < x < -1 <br> = { -2, -1, 0}, for instance <br> When x = -2, <br> \\(\\frac{-2 - 5}{-2 + 3} < -1\\) <br> \\(\\frac{-7}{1} < -1\\) <br> When x = -1, <br> \\(\\frac{-1 - 5}{-1 + 3} < -1\\) <br> \\(\\frac{-6}{2} < -1\\) <br> = -3 < -1 <br> When x = 0, <br> \\(\\frac{0 - 5}{0 + 3} < -1\\) <br> \\(\\frac{- 5}{3} < -1\\) <br> Hence -3 < x < 1"
+  },
+  {
+    "question": "Evaluate the inequality \\(\\frac{x}{2} + \\frac{3}{4} \\leq \\frac{5x}{6} - \\frac{7}{12}\\)",
+    "option_a": "\\(x \\geq 4\\)",
+    "option_b": "\\(x \\leq 3\\)",
+    "option_c": "\\(x \\geq -3\\)",
+    "option_d": "\\(x \\leq -4\\)",
+    "answer": "A",
+    "solution": "\\(\\frac{x}{2} + \\frac{3}{4} \\leq \\frac{5x}{6} - \\frac{7}{12}\\) <br> \\(12\\frac{x}{2} + 12\\frac{3}{4} \\leq 12\\frac{5x}{6} - 12\\frac{7}{12}\\) <br> 6x + 9 \\(\\leq\\) 10x - 7 <br> 6x - 10x \\(\\leq\\) - 7 - 9 <br> -4x \\(\\leq\\) -16 <br> -4x/-4 \\(\\geq\\) -16/-4 <br> x \\(\\geq\\) 4"
+  },
+  {
+    "question": "The 4th term of an A.P. is 13 while the 10th term is 31. Find the 24th term.",
+    "option_a": "89",
+    "option_b": "75",
+    "option_c": "73",
+    "option_d": "69",
+    "answer": "C",
+    "solution": "a + 3d = 13 .......... (1)<br>a + 9d = 31 .......... (2) <br> (2) - (1): 6d = 18 <br> d = 18/6 = 3 <br> From (1), a + 3(3) = 13 <br> a + 9 = 13 <br> a = 13 - 9 = 4 <br> Hence,<br>T24 = a + 23d<br>T24 = 4 + 23(3)<br>T24 = 4 + 69<br>T24 = 73"
+  },
+  {
+    "question": "What is the common ratio of the G.P. \\((\\sqrt{10} + \\sqrt{5}) + (\\sqrt{10} + 2\\sqrt{5}) + ... \\)?",
+    "option_a": "\\(\\sqrt{2}\\)",
+    "option_b": "\\(\\sqrt{5}\\)",
+    "option_c": "3",
+    "option_d": "5",
+    "answer": "A",
+    "solution": "Common ratio r of the G.P is <br> \\(r = \\frac{T_n + 1}{T_n} = \\frac{T_2}{T_1}\\) <br> \\(r = \\frac{\\sqrt{10} + 2\\sqrt{5}}{\\sqrt{10} + \\sqrt{5}}\\) <br> \\(r = \\frac{\\sqrt{10} + 2\\sqrt{5}}{\\sqrt{10} + \\sqrt{5}} \\times \\frac{\\sqrt{10} - \\sqrt{5}}{\\sqrt{10} - \\sqrt{5}} \\) <br> \\( = \\frac{(\\sqrt{10})(\\sqrt{10}) + (\\sqrt{10})(-\\sqrt{5}) + (2\\sqrt{5})(\\sqrt{10}) + (2\\sqrt{5})(-\\sqrt{5})}{(\\sqrt{10})^2 - (\\sqrt{5})^2}\\) <br> \\(\\frac{10 - \\sqrt{50} + 2\\sqrt{50} - 10}{10 - 5}\\) <br> \\(\\frac{\\sqrt{50}}{5}\\) <br> \\(\\frac{\\sqrt{25 \\times 2}}{5}\\) <br> \\(\\frac{5\\sqrt{2}}{5}\\) <br> \\(\\sqrt{2}\\)"
+  },
+  {
+    "question": "A binary operation * is defined by x * y = xy. If x * 2 = 12 - x, find the possible values of x",
+    "option_a": "3,4",
+    "option_b": "3,-4",
+    "option_c": "-3,4",
+    "option_d": "-3,-4",
+    "answer": "B",
+    "solution": "x * y = xy<br>x * 2 = 12 - x <br> Thus by comparison, <br> x = x, y = 2 <br> But x * y = x * 2 <br> xy = 12 - x <br> x2 = 12 - x <br> x2 + x - 12 = 0 <br> x2 + 4x - 3x - 12 = 0 <br> x(x + 4) - 3(x + 4) = 0 <br> (x - 3)(x + 4) = 0 <br> x - 3 = 0 or x + 4 = 0 <br> So x = 3 or x = -4"
+  },
+  {
+    "question": "Find y, \\(\\begin{pmatrix} 5 & -6\\ 2 & -7 \\end{pmatrix}\\begin{pmatrix} x\\ y \\end{pmatrix} = \\begin{pmatrix} 7\\ -11 \\end{pmatrix}\\)",
+    "option_a": "8",
+    "option_b": "5",
+    "option_c": "3",
+    "option_d": "2",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "If \\(\\begin{vmatrix} -x & 12\\ -1 & 4 \\end{vmatrix} = -12\\)",
+    "option_a": "-6",
+    "option_b": "-2",
+    "option_c": "3",
+    "option_d": "6",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "Find the value of \\(\\begin{vmatrix} 0 & 3 & 2\\ 1 & 7 & 8\\ 0 & 5 & 4 \\end{vmatrix}\\)",
+    "option_a": "12",
+    "option_b": "10",
+    "option_c": "-1",
+    "option_d": "-2",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "How many sides has a regular polygon whose interior angle is 135<sup>o</sup>",
+    "option_a": "12",
+    "option_b": "10",
+    "option_c": "9",
+    "option_d": "8",
+    "answer": "D",
+    "solution": "If each interior angle of the polygon is 135o<sup>o</sup>, then each exterior angle is 180<sup>o</sup> - 135<sup>o</sup> = 45<sup>o</sup>. Hence, number of sides =  <br> \\(\\frac{360^o}{\\text{one exterior angle}}\\) <br> \\(\\frac{360^o}{45^o}\\) <br> = 8"
+  },
+  {
+    "question": "A cylindrical tank has a capacity of 6160m<sup>3</sup>. What is the depth of the tank if the radius of its base is 28cm?",
+    "option_a": "8.0m",
+    "option_b": "7.5m",
+    "option_c": "5.0m",
+    "option_d": "2.5m",
+    "answer": "D",
+    "solution": "Using \\(V = \\pi r^2 h\\) <br> 6160 = 22/7 x 28 x 28 x h <br> \\(h = \\frac{6160}{22 \\times 4 \\times 28} \\) <br> \\(h = 2.5m \\)"
+  },
+  {
+    "question": "The locus of a dog tethered to a pole with a rope of 4m is a",
+    "option_a": "circle with diameter 4m",
+    "option_b": "circle with radius 4m",
+    "option_c": "semi-circle with diameter 4m",
+    "option_d": "semi-circle with radius 4m",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "Find the mid point of S(-5, 4) and T(-3, -2)",
+    "option_a": "-4, 2",
+    "option_b": "4, -2",
+    "option_c": "-4, 1",
+    "option_d": "4, -1",
+    "answer": "C",
+    "solution": "Mid point of S(-5, 4) and T(-3, -2) is  <br> \\([\\frac{1}{2}(-5 + -3), \\frac{1}{2}(4 + 2)]\\) <br> \\([\\frac{1}{2}(x_1 + x_2), \\frac{1}{2}(y_1 + y_2)]\\) <br> \\([\\frac{1}{2}(-8), \\frac{1}{2}(2)]\\) <br> \\([-4, 1]\\)"
+  },
+  {
+    "question": "The gradient of a line joining (x,4) and (1,2) is \\(\\frac{1}{2}\\). Find the value of x",
+    "option_a": "5",
+    "option_b": "3",
+    "option_c": "-3",
+    "option_d": "-5",
+    "answer": "A",
+    "solution": "\\(\\text{Gradient m} = \\frac{y_2 - y_1}{x_2 - x_1}\\) <br> \\(\\frac{1}{2} = \\frac{2 - 4}{1 - x}\\) <br> 1 - x = 2(2 - 4) <br> 1 - x = 4 - 8 <br> 1 - x = -4 <br> -x = -4 - 1 <br> x = 5"
+  },
+  {
+    "question": "Calculate the mid point of the line segment y - 4x + 3 = 0, which lies between the x-axis and y-axis.",
+    "option_a": "\\(\\begin{pmatrix} 3 & -3 \\ 8 & 2 \\end{pmatrix}\\)",
+    "option_b": "\\(\\begin{pmatrix} 3 & 3 \\ 8 & 2 \\end{pmatrix}\\)",
+    "option_c": "\\(\\begin{pmatrix} -2 & 2 \\ 2 & 2 \\end{pmatrix}\\)",
+    "option_d": "\\(\\begin{pmatrix} -2 & 3 \\ 3 & 2 \\end{pmatrix}\\)",
+    "answer": "A",
+    "solution": "y - 4x + 3 = 0 <br> When y = 0, 0 - 4x + 3 = 0 <br> Then -4x = -3 <br> x = 3/4 <br> So the line cuts the x-axis at point (3/4, 0). <br> When  x = 0, y - 4(0) + 3 = 0 <br> Then y + 3 = 0 <br> y = -3 <br> So the line cuts the y-axis at the point (0, 3) <br> Hence the midpoint of the line y - 4x + 3 = 0, which lies between the x-axis and the y-axis is; <br> \\([\\frac{1}{2}(x_1 + x_2), \\frac{1}{2}(y_1 + y_2)]\\) <br> \\([\\frac{1}{2}(\\frac{3}{4} + 0), \\frac{1}{2}(0 + -3)]\\) <br> \\([\\frac{1}{2}(\\frac{3}{4}), \\frac{1}{2}(-3)]\\) <br> \\([\\frac{3}{8}, \\frac{-3}{2}]\\)"
+  },
+  {
+    "question": "Find the equation of the straight line through (-2, 3) and perpendicular to 4x + 3y - 5 = 0",
+    "option_a": "3x - 4y + 18 = 0",
+    "option_b": "3x + 2y - 18 = 0",
+    "option_c": "4x + 5y + 3 = 0",
+    "option_d": "5x - 2y - 11 = 0",
+    "answer": "A",
+    "solution": "4x + 3y - 5 = 0 (given) <br> The equation of the line perpendicular to the given line takes the form 3x - 4y = k <br> Thus, substitution x = -2 and y = 3 in 3x - 4y = k gives; <br> 3(-2) - 4(3) = k <br> -6 - 12 = k <br> k = -18 <br> Hence the required equation is 3x - 4y = -18 <br> 3x - 4y + 18 = 0"
+  },
+  {
+    "question": "If \\(\\sin\\theta = \\frac{12}{13}\\), find the value of \\(1 + \\cos\\theta\\)",
+    "option_a": "\\(\\frac{25}{13}\\)",
+    "option_b": "\\(\\frac{18}{13}\\)",
+    "option_c": "\\(\\frac{8}{13}\\)",
+    "option_d": "\\(\\frac{5}{13}\\)",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "If y = 4x<sup>3</sup> - 2x<sup>2</sup> + x, find \\(\\frac{\\delta y}{\\delta x}\\)",
+    "option_a": "8x<sup>2</sup> - 2x + 1",
+    "option_b": "8x<sup>2</sup> - 4x + 1",
+    "option_c": "12x<sup>2</sup> - 2x + 1",
+    "option_d": "12x<sup>2</sup> - 4x + 1",
+    "answer": "D",
+    "solution": "If y = 4x<sup>3</sup> - 2x<sup>2</sup> + x, then; <br> \\(\\frac{\\delta y}{\\delta x}\\) = 3(4x2) - 2(2x) + 1 <br> = 12x2 - 4x + 1"
+  },
+  {
+    "question": "If y = cos 3x, find \\(\\frac{\\delta y}{\\delta x}\\)",
+    "option_a": "\\(\\frac{1}{3} \\sin 3x\\)",
+    "option_b": "\\(-\\frac{1}{3} \\sin 3x\\)",
+    "option_c": "3 sin 3x",
+    "option_d": "-3 sin 3x",
+    "answer": "D",
+    "solution": "y = cos 3x <br> Let u = 3x so that y = cos u <br> Now, \\(\\frac{\\delta y}{\\delta x} = 3\\), <br> \\(\\frac{\\delta y}{\\delta x} = -sin u\\) <br> By the chain rule, <br> \\(\\frac{\\delta y}{\\delta x} = \\frac{\\delta y}{\\delta u} \\times \\frac{\\delta u}{\\delta x}\\) <br> \\(\\frac{\\delta y}{\\delta x} = (-\\sin u) (3)\\) <br> \\(\\frac{\\delta y}{\\delta x} = -3 \\sin u\\) <br> \\(\\frac{\\delta y}{\\delta x} = -3 \\sin 3x\\)"
+  },
+  {
+    "question": "Find the minimum value of y = x<sup>2</sup> - 2x - 3",
+    "option_a": "4",
+    "option_b": "1",
+    "option_c": "-1",
+    "option_d": "-4",
+    "answer": "D",
+    "solution": "y = x<sup>2</sup> - 2x - 3, <br> Then \\(\\frac{\\delta y}{\\delta x} = 2x - 2\\) <br> But at minimum point,\\(\\frac{\\delta y}{\\delta x} = 0\\), <br> Which means 2x - 2 = 0 <br> 2x = 2 <br> x = 1. <br> Hence the minimum value of y = x2 - 2x - 3 is; <br> ymin = (1)2 - 2(1) - 3 <br> ymin = 1 - 2 - 3 <br> ymin = -4"
+  },
+  {
+    "question": "Evaluate \\(\\int \\sin 2x dx\\)",
+    "option_a": "cos 2x + k",
+    "option_b": "\\(\\frac{1}{2}\\)cos 2x + k",
+    "option_c": "\\(-\\frac{1}{2}\\)cos 2x + k",
+    "option_d": "-cos 2x + k",
+    "answer": "C",
+    "solution": "\\(\\int \\sin 2x dx = \\frac{1}{2} (-\\cos 2x) + k\\) <br> \\(- \\frac{1}{2} \\cos 2x + k\\)"
+  },
+  {
+    "question": "Evaluate \\(\\int (2x + 3)^{\\frac{1}{2}} \\delta x\\)",
+    "option_a": "\\(\\frac{1}{12} (2x + 3)^6 + k\\)",
+    "option_b": "\\(\\frac{1}{3} (2x + 3)^{\\frac{1}{2}} + k\\)",
+    "option_c": "\\(\\frac{1}{3} (2x + 3)^{\\frac{3}{2}} + k\\)",
+    "option_d": "\\(\\frac{1}{12} (2x + 3)^{\\frac{3}{4}} + k\\)",
+    "answer": "C",
+    "solution": "\\(\\int (2x + 3)^{\\frac{1}{2}} \\delta x\\) <br> let u = 2x + 3, \\(\\frac{\\delta y}{\\delta x} = 2\\) <br> \\(\\delta x = \\frac{\\delta u}{2}\\) <br> Now \\(\\int (2x + 3)^{\\frac{1}{2}} \\delta x = \\int u^{\\frac{1}{2}}.{\\frac{\\delta x}{2}}\\) <br> \\( = \\frac{1}{2} \\int u^{\\frac{1}{2}} \\delta u\\) <br> \\( = \\frac{1}{2} u^{\\frac{3}{2}} \\times \\frac{2}{3} + k\\) <br> \\( = \\frac{1}{3} u^{\\frac{3}{2}} + k\\) <br> \\( = \\frac{1}{3} (2x + 3)^{\\frac{3}{2}} + k\\)"
+  },
+  {
+    "question": "The mean of 2 - 4, 4 + t, 3 - 2t and t - 1 is",
+    "option_a": "t",
+    "option_b": "-t",
+    "option_c": "2",
+    "option_d": "-2",
+    "answer": "C",
+    "solution": "Mean x = \\(\\frac{\\sum x}{n}\\) <br> = [(2 - t) + (4 + t) + (3 - 2t) + (2 + t) + (t - 1) \\(\\div\\)] 5 <br> = [11 - 1 + 3t - 3t] \\(\\div\\) 5 <br> = 10 \\(\\div\\) 5 <br> = 2"
+  },
+  {
+    "question": "\\(\\begin{array}{c|c}<br>  Values & 0 & 1 & 2 & 3 & 4 \\\\<br>  \\hline<br>  Frequency & 1 & 2 & 2 & 1 & 9<br>\\end{array}\\) <br> Find the mode of the distribution above",
+    "option_a": "1",
+    "option_b": "2",
+    "option_c": "3",
+    "option_d": "4",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "Find the median of 5,9,1,10,3,8,9,2,4,5,5,5,7,3 and 6",
+    "option_a": "6",
+    "option_b": "5",
+    "option_c": "4",
+    "option_d": "3",
+    "answer": "B",
+    "solution": "First arrange the numbers in order of magnitude;<br>1,2,3,3,4,5,5,5,5,6,7,8,9,9,10 <br> Hence the median = 5"
+  },
+  {
+    "question": "Find the standard deviation of 5, 4, 3, 2, 1",
+    "option_a": "\\(\\sqrt{2}\\)",
+    "option_b": "\\(\\sqrt{3}\\)",
+    "option_c": "\\(\\sqrt{6}\\)",
+    "option_d": "\\(\\sqrt{10}\\)",
+    "answer": "A",
+    "solution": "Mean x = \\(\\frac{\\sum x}{n}\\) <br> \\( = \\frac{5 + 4 + 3 + 2 + 1}{5}\\) <br> \\( = \\frac{15}{5}\\) <br> = 3 <br> \\(\\begin{array}{c|c}<br>  x & d = x - 3 & d^2 \\\\<br>  \\hline<br>  5 & 2 & 4 \\\\<br>  4 & 1 & 1 \\\\<br>3 & 0 & 0 \\\\<br>2 & -1 & 1 \\\\<br>1 & -2 & 4 \\\\<br>  \\hline<br> &  & \\sum d^2 + 10<br>\\end{array}\\) <br> Hence, standard deviation; <br> \\( = \\sqrt{\\frac{\\sum d^2}{n}}  = \\sqrt{\\frac{10}{5}}\\) <br> \n\\( = \\sqrt{2}\\)"
+  },
+  {
+    "question": "In how many ways can a team of 3 girls be selected from 7 girls?",
+    "option_a": "\\(\\frac{7!}{3!}\\)",
+    "option_b": "\\(\\frac{7!}{4!}\\)",
+    "option_c": "\\(\\frac{7!}{3!4!}\\)",
+    "option_d": "\\(\\frac{7!}{2!5!}\\)",
+    "answer": "C",
+    "solution": "A team of 2 girls can be selected from 7 girls in \\(^7C_3\\) <br> \\( = \\frac{7!}{(7 - 3)! 3!}\\) <br> \\( = \\frac{7!}{4! 3!} ways\\)"
+  },
+  {
+    "question": "\\(\\begin{array}{c|c}<br>  Numbers & 1 & 2 & 3 & 4 & 5 & 6 \\\\<br>  \\hline<br>  Frequency & 18 & 22 & 20 & 16 & 10 & 14<br>\\end{array}\\) <br> The table above represents the outcome of throwing a die 100 times. What is the probability of obtaining at least a 4?",
+    "option_a": "\\(\\frac{1}{5}\\)",
+    "option_b": "\\(\\frac{1}{2}\\)",
+    "option_c": "\\(\\frac{2}{5}\\)",
+    "option_d": "\\(\\frac{3}{4}\\)",
+    "answer": "C",
+    "solution": "Let E demote the event of obtaining at least a 4<br>Then n(E) = 16 + 10 + 14 = 40 <br> Hence, prob (E) = \\(\\frac{n(E)}{n(S)}\\) <br> \\( = \\frac{40}{100}\\) <br> \\( = \\frac{2}{5}\\)"
+  },
+  {
+    "question": "A number is chosen at random from 10 to 30 both inclusive. What is the probability that the number is divisible by 3?",
+    "option_a": "\\(\\frac{2}{15}\\)",
+    "option_b": "\\(\\frac{1}{10}\\)",
+    "option_c": "\\(\\frac{1}{3}\\)",
+    "option_d": "\\(\\frac{2}{5}\\)",
+    "answer": "C",
+    "solution": "Sample space S = {10, 11, 12, ... 30} <br> Let E denote the event of choosing a number divisible by 3 <br> Then E = {12, 15, 18, 21, 24, 27, 30} and n(E) = 7 <br> Prob (E) = \\(\\frac{n(E)}{n(E)}\\) <br> Prob (E) = \\(\\frac{7}{21}\\) <br> Prob (E) = \\(\\frac{1}{3}\\)"
+  },
+  {
+    "question": "From the venn diagram above, the shaded parts represent",
+    "option_a": "(P\\(\\cap\\)q)\\(\\cup\\)(P\\(\\cap\\)R)",
+    "option_b": "(P\\(\\cup\\)q)\\(\\cap\\)(P\\(\\cap\\)R)",
+    "option_c": "(P\\(\\cup\\)q)\\(\\cup\\)(P\\(\\cup\\)R)",
+    "option_d": "(P\\(\\cap\\)q)\\(\\cup\\)(P\\(\\cup\\)R)",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "In the figure above, KL//NM, LN bisects < KNM. If angles KLN is 54<sup>o</sup> and angle MKN is 35<sup>o</sup>, calculate the size of angle KMN.",
+    "option_a": "91<sup>o</sup>",
+    "option_b": "89<sup>o</sup>",
+    "option_c": "37<sup>o</sup>",
+    "option_d": "19<sup>o</sup>",
+    "answer": "C",
+    "solution": "In the diagram above, \\(\\alpha\\) = 54<sup>o</sup>(alternate angles; KL||MN) < KNM = 2\\(\\alpha\\) (LN is bisector of < KNM) = 108<sup>o</sup> <br> 35<sup>o</sup> + < KMN + 108<sup>o</sup> = 180<sup>o</sup>(sum of angles of \\(\\bigtriangleup\\)) <br> < KMN + 143<sup>o</sup> = 180<sup>o</sup> <br> < KMN = 180<sup>o</sup> - 143<sup>o</sup> <br> = 37<sup>o</sup>"
+  },
+  {
+    "question": "From the  figure above, what is the value of p?",
+    "option_a": "135<sup>o</sup>",
+    "option_b": "90<sup>o</sup>",
+    "option_c": "60<sup>o</sup>",
+    "option_d": "45<sup>o</sup>",
+    "answer": "B",
+    "solution": "In the figure above, q<sup>o</sup> = 30<sup>o</sup> (vertically opposite angles) <br> (P + 2q)<sup>o</sup> + 30<sup>o</sup> = 180<sup>o</sup>(angles on a straight line) <br> p + 2 x 30<sup>o</sup> + 30<sup>o</sup> = 180<sup>o</sup> <br> p + 60<sup>o</sup> + 30<sup>o</sup> = 180<sup>o</sup> <br> p + 90<sup>o</sup> = 180<sup>o</sup> <br> p = 180<sup>o</sup> - 90<sup>o</sup> <br> = 90<sup>o</sup>"
+  },
+  {
+    "question": "Find the value of x in the figure above",
+    "option_a": "20\\(\\sqrt{3}\\)cm",
+    "option_b": "10\\(\\sqrt{3}\\)cm",
+    "option_c": "5\\(\\sqrt{3}\\)cm",
+    "option_d": "4\\(\\sqrt{3}\\)cm",
+    "answer": "B",
+    "solution": "In the figure above, \\(\\frac{x}{\\sin 60^o} = \\frac{10}{\\sin 30^o}\\) (Sine rule) <br> x = \\(\\frac{10 \\sin 60^o}{\\sin 30^o}\\) <br> = 10 x \\(\\frac{\\sqrt{3}}{2} \\times \\frac{1}{2}\\) <br> = 10 x \\(\\frac{\\sqrt{3}}{2} \\times \\frac{2}{1}\\) <br> = 10\\(\\sqrt{3}\\)cm"
+  },
+  {
+    "question": "in the figure above, what is the equation of the line that passes the y-axis at (0,5) and passes the x-axis at (5,0)?",
+    "option_a": "y = x + 5",
+    "option_b": "y = -x + 5",
+    "option_c": "y = x - 5",
+    "option_d": "y = -x - 5",
+    "answer": "B",
+    "solution": "(x1, y1) = (0,5) <br> (x2, y2) = (5, 0) <br> Using \\(\\frac{y - y_1}{y_1 - y_1} = \\frac{x - x_1}{x_1 - x_1}\\) <br> \\(\\frac{y - 5}{0 - 5} = \\frac{x - 0}{5 - 0}\\) <br> \\(\\frac{y - 5}{-5} = \\frac{x}{5}\\) <br> 5(y - 5) = -5x <br> y - 5 = -x <br> x + y = 5 <br> y = -x + 5"
+  },
+  {
+    "question": "The pie chart above shows the monthly distribution of a man's salary on food items. If he spent N8,000 on rice, how much did he spent on yam?",
+    "option_a": "N42,000",
+    "option_b": "N18,000",
+    "option_c": "N16,000",
+    "option_d": "N12,000",
+    "answer": "C",
+    "solution": "Angle of sector subtended by yam  <br> = 360o - (70 + 80 + 50)o <br> = 360o - 200o <br> = 160o <br> But \\(\\frac{80^o}{360^o}\\) x T = 8000 <br> T = \\(\\frac{8000 \\times 360^o}{80^o}\\) <br> = N36,000 <br> Hence the amount spent on yam = \\(\\frac{160^o}{260} \\times N36,000\\) <br> = N16,000"
+  }
+]

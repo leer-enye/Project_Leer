@@ -1,0 +1,425 @@
+﻿[
+  {
+    "question": "When a brick is taken from the earth's surface to the moon, its mass",
+    "option_a": "remains constant",
+    "option_b": "reduces",
+    "option_c": "increases",
+    "option_d": "becomes zero",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "The resultant of two forces is 50N. If the forces are perpendicular to each other and one of them makes an angle 0f 30o with the resultant, find its magnitude.",
+    "option_a": "100.0N",
+    "option_b": "57.7N",
+    "option_c": "43.3N",
+    "option_d": "25.0N",
+    "answer": "C",
+    "solution": "F = 50Cos30o = 43.3"
+  },
+  {
+    "question": "The pair of physical quantities that are scalar only are ?",
+    "option_a": "volume and area",
+    "option_b": "moment and momentum",
+    "option_c": "length and displacement",
+    "option_d": "Impulse and time",
+    "answer": "A",
+    "solution": "This is because volume and the area have only magnitude but no direction"
+  },
+  {
+    "question": "A simple pendulum of length 0.4m has a period of 2s. What is the period a similar pendulum of length 0.8m at the same place?",
+    "option_a": "8s",
+    "option_b": "4s",
+    "option_c": "2\\(\\sqrt{2}s\\)",
+    "option_d": "\\(\\sqrt{2}s\\)",
+    "answer": "C",
+    "solution": "T<sub>2</sub> = \\(\\sqrt{\\frac{L^2  \\times  T_1^2}{L_1}}\\) <br> = \\(\\sqrt{\\frac{0.8  \\times  2^2}{0.4}}\\) <br> = 2\\(\\sqrt{2}s\\)"
+  },
+  {
+    "question": "A train with an initial velocity of 20ms-1 is subjected to a uniform deceleration of 2m-2. The time required to bring the train to a complete halt is?",
+    "option_a": "5s",
+    "option_b": "10s",
+    "option_c": "20s",
+    "option_d": "40s",
+    "answer": "B",
+    "solution": "t = \\(\\frac{v - u}{a}\\)  = \\(\\frac{0 - 20}{-2}\\) = 10s"
+  },
+  {
+    "question": "Calculate the apparent weight loss of a man weighing 70kg in an elevator moving downwards with an acceleration of 1.5ms-2. <br> [g = 10ms-2]",
+    "option_a": "686N",
+    "option_b": "595N",
+    "option_c": "581N",
+    "option_d": "105N",
+    "answer": "D",
+    "solution": "Wt loss = mg - m (g - a) <br> = 70 x 10 - 70 (10 - 1.5) = 105N"
+  },
+  {
+    "question": "A piece of cork floats in a liquid. What fraction of its volume will be immersed in the liquid? <br> [Density of the cork = 0.25 x 103kgm-3, Density of the liquid = 1.25 x 103kgm-3]",
+    "option_a": "0.8",
+    "option_b": "0.5",
+    "option_c": "0.2",
+    "option_d": "0.1",
+    "answer": "C",
+    "solution": "\\(\\frac{0.25 \\times 10^3} {1.25 \\times 10^3}\\) = 0.2"
+  },
+  {
+    "question": "An object is moving with a velocity of 5ms<sup>-1</sup>. At what height must a similar body be situated to have a potential energy equal in value with kinetic energy of the moving body?",
+    "option_a": "25.0m",
+    "option_b": "20.0m",
+    "option_c": "1.3m",
+    "option_d": "1.0m",
+    "answer": "C",
+    "solution": "P.E = K.E <br> Therefore, h = \\(\\frac{v^2}{2g} = \\frac{5^2}{2 \\times 10}\\)<br> = 1.25<br> Approx 1.3 (C)"
+  },
+  {
+    "question": "If a pump is capable of lifting 5000kg of water through a vertical height of 60m in 15 min, the power of the pump is",
+    "option_a": "2.5 x 10 5js<sup>-1</sup>",
+    "option_b": "2.5 x 104js<sup>-1</sup>",
+    "option_c": "3.3 x 103js<sup>-1</sup>",
+    "option_d": "3.3 x 102js<sup>-1</sup>",
+    "answer": "C",
+    "solution": "P = \\(\\frac{mgh}{t}\\)<br> P = \\(\\frac{5000 \\times 10 \\times 60}{(15 \\times 60)s}\\)<br> P = 3333.3333<br> P = 3.3 x 103js-1"
+  },
+  {
+    "question": "The coefficient of friction between two perfectly smooth surface is",
+    "option_a": "infinity",
+    "option_b": "one",
+    "option_c": "half",
+    "option_d": "zero",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "What effort will a machine of efficiency 90% apply to lift a load of 180N if its efforts arm is twice as long as its load arm?",
+    "option_a": "80N",
+    "option_b": "90N",
+    "option_c": "100N",
+    "option_d": "120N",
+    "answer": "C",
+    "solution": "M.A. = \\(\\frac{Eff \\times V.R.}{100}\\)<br> M.A. = \\(\\frac{90 \\times 2}{100}\\)<br> M.A. = 1.8<br> E = \\(\\frac{L}{M.A.}\\)<br> E = \\(\\frac{180}{1.8}\\)<br> E = 100N"
+  },
+  {
+    "question": "Calculate the work done when a force of 20N stretches a spring by 50mm.",
+    "option_a": "0.5J",
+    "option_b": "1.5J",
+    "option_c": "2.0J",
+    "option_d": "2.5J",
+    "answer": "A",
+    "solution": " W = \\(\\frac{1}{2}Fe\\)<br> W = \\(\\frac{1}{2}\\times 20 \\times 0.05\\)<br> W = 0.5J"
+  },
+  {
+    "question": "At what depth below the sea-level would one experience a change of pressure equal to one atmosphere? Density of sea water = 1013kg-3, one atmosphere = 0.01 x 105Nm-2, g = 10ms-2",
+    "option_a": "0.1m",
+    "option_b": "1.0m",
+    "option_c": "10.0m",
+    "option_d": "100.0m",
+    "answer": "C",
+    "solution": "H = \\(\\frac{P}{e_g}\\)<br> H = \\(\\frac{1.01 \\times 10^5}{1013 \\times 10}\\)<br> H = 9.97"
+  },
+  {
+    "question": "What volume of alcohol will have same mass as 4.2m<sup>-3</sup> of petrol?<br>Density of alcohol = 8.4 x 10<sup>2</sup>kgm<sup>-3</sup>, density of petrol =7.2x10<sup>3</sup>kgm<sup>-3</sup>",
+    "option_a": "0.8m<sup>3</sup>",
+    "option_b": "1.4m<sup>3</sup>",
+    "option_c": "3.6m<sup>3</sup>",
+    "option_d": "49.m<sup>3</sup>",
+    "answer": "C",
+    "solution": "Mp = ep x Vp<br> Mp = 7.2 x 102 x 4.2 = 3024<br> VA = \\(\\frac{M}{e_A}\\)<br> VA = \\(\\frac{3024}{8.4 \\times 10^2}\\)<br> VA = 3.6"
+  },
+  {
+    "question": "Calculate the length which corresponds to a temperature of 20oC if the ice and steam points of an unguarded thermometer are 400 mm apart",
+    "option_a": "20mm",
+    "option_b": "30mm",
+    "option_c": "60mm",
+    "option_d": "80mm",
+    "answer": "D",
+    "solution": "At 100<sup>o</sup>C = 400 <br> Therefore,<br> At 20<sup>o</sup>C = \\(\\frac{400}{100} \\times \\frac{20}{1}\\) = 80"
+  },
+  {
+    "question": "A wire of length 100.0m at 30o has linear expansive of 2x10<sup>-5</sup>K<sup>-1</sup> Calculate the length of the wire at a temperature of - 10<sup>o</sup>C",
+    "option_a": "100.08m",
+    "option_b": "100.04m",
+    "option_c": "99.96m",
+    "option_d": "99.92m",
+    "answer": "D",
+    "solution": "\\(L_2 = L_1 + \\alpha(\\theta_2 - \\theta_1)\\)<br> = 100 + 0.00002(-10-30) = 99.92"
+  },
+  {
+    "question": "A gas at a pressure of 105Nm<sup>-2</sup> expands from 0.6m<sup>-3</sup> to 1.2m<sup>3</sup> at constant temperature, the worgk done is",
+    "option_a": "7.0 x 10<sup>6</sup>J",
+    "option_b": "6.0 x 10<sup>6</sup>J",
+    "option_c": "6.0 x 10<sup>5</sup>J",
+    "option_d": "6.0 x 10<sup>4</sup>J",
+    "answer": "D",
+    "solution": " W = \\(\\frac{W_1 \\times V_1}{V_2}\\)<br> W = \\(\\frac{10 \\times 0.6}{1.2}\\)<br> W = 6.0 x 10 4J"
+  },
+  {
+    "question": "Two liquids X and Y having the same mass are supplied with the same quantity of heat. If the temperature rise in X is twice that of Y, the ratio of specific heat capacity of X to that of Y is",
+    "option_a": "2:1",
+    "option_b": "1:2",
+    "option_c": "4:1",
+    "option_d": "1:4",
+    "answer": "A",
+    "solution": "MC\\(x \\theta\\) = MC\\(y \\theta\\)<br> 2C = C<br> 2 : 1"
+  },
+  {
+    "question": "Food cook quicker in salt water than in pure water because of the effect of",
+    "option_a": "dissolved substances on the boiling point",
+    "option_b": "atmospheric pressure on the boiling point",
+    "option_c": "food nutrients on the thermal energy",
+    "option_d": "salts on the thermal conductivity of water",
+    "answer": "A",
+    "solution": "Water impurities (such as salt water) boils at higher temperature than pure water. This helps to cook the food quicker."
+  },
+  {
+    "question": "Steam from boiling water causes more damage on the skin than does boiling water because",
+    "option_a": "water has a high specific heat",
+    "option_b": "steam has latent heat of fusion",
+    "option_c": "the steam is at a highter temperature than the water",
+    "option_d": "steam brings heat more easily by convection",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "What will happen to the boiling point of pure water when it is heated in a place 30m below sea level?",
+    "option_a": "It will be more than 100 oC",
+    "option_b": "It will be last than 100 oC",
+    "option_c": "It will still be at 100 oC",
+    "option_d": "It will be fluctuating",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "The rise or fall of a liquid in a narrow tube is because of the",
+    "option_a": "viscosity of the liquid",
+    "option_b": "surface tension of the liquid",
+    "option_c": "friction between the walls of the tube and the liquid",
+    "option_d": "osmotic pressure of the liquid",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "The mechanism of heat transfer from one point to another through the vibration of the molecules of the medium is",
+    "option_a": "covection",
+    "option_b": "conduction",
+    "option_c": "radiation",
+    "option_d": "diffusion",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "A wave that travels through stretched strings is known as",
+    "option_a": "electromagnetic wave",
+    "option_b": "micro wave",
+    "option_c": "mechanical wave",
+    "option_d": "seismic wave",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "A transverse wave and a longitudinal wave travelling in the same direction in a medium differ essentially in their",
+    "option_a": "frequency",
+    "option_b": "amplitude",
+    "option_c": "direction of vibration of the particles of the medium",
+    "option_d": "period of vibration of the particles of the medium",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "What is the velocity of sound at 100<sup>o</sup>C if the velocity of sound at 0<sup>o</sup>C is 340ms<sup>-1</sup>?",
+    "option_a": "497m<sup>-1</sup>",
+    "option_b": "440m<sup>-1</sup>",
+    "option_c": "397m<sup>-1</sup>",
+    "option_d": "240m<sup>-1</sup>",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "If a sonometer has a fundamental frequency of 450HZ, what is the frequency of the fifth overtone?",
+    "option_a": "2700Hz",
+    "option_b": "456Hz",
+    "option_c": "444Hz",
+    "option_d": "75Hz",
+    "answer": "A",
+    "solution": "5th Overtone = 6f<sub>o</sub> = 6 x 450 = 2700Hz"
+  },
+  {
+    "question": "A man 1.5m tall is standing 3m in front of a pinhole camera whose distance between the hole and the screen is 0.1m. What is the height of the image of the man on the screen?",
+    "option_a": "0.05m",
+    "option_b": "0.15m",
+    "option_c": "0.30m",
+    "option_d": "1.00m",
+    "answer": "A",
+    "solution": "\\(h_i = \\frac{h_o \\times V}{u}\\)<br> \\(h_i = \\frac{1.5 \\times 0.1}{3}\\)<br> = 0.05m"
+  },
+  {
+    "question": "A ray of light passing through the centre of curvature of a concave mirror is reflected by the mirror at",
+    "option_a": "0<sup>o</sup>",
+    "option_b": "45<sup>o</sup>",
+    "option_c": "90<sup>o</sup>",
+    "option_d": "180<sup>o</sup>",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "Total internal reflection will not occur when light travels from",
+    "option_a": "water to air",
+    "option_b": "water into glass",
+    "option_c": "glass to air",
+    "option_d": "glass into water",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "If the linear magnification of the objective and eyepiece convex lenses of a compound microscope are 4 and 7 respectively. Calculate the angular magnification of the microscope",
+    "option_a": "2",
+    "option_b": "3",
+    "option_c": "11",
+    "option_d": "28",
+    "answer": "D",
+    "solution": "M = M<sub>1</sub> x M<sub>2</sub> = 4 x 7 = 28"
+  },
+  {
+    "question": "The angle of deviation of light of various colours passing through a triangular prism increases in the order",
+    "option_a": "red → green → blue",
+    "option_b": "green → violet → blue",
+    "option_c": "blue → red → green",
+    "option_d": "blue → green → red",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "Calculate the force acting on an electron of charge 1.5 x 10<sup>-19</sup>C placed in an electric field of intensity 10<sup>5</sup>Vm<sup>-1</sup>",
+    "option_a": "1.5x10<sup>-11</sup>N",
+    "option_b": "1.5x10<sup>-12</sup>N",
+    "option_c": "1.5x10<sup>-13</sup>N",
+    "option_d": "1.5x10<sup>-14</sup>N",
+    "answer": "D",
+    "solution": " F = qE<br> F = 1.5 x 10<sup>-19</sup> x 10<sup>5</sup><br> F = 1.5 x 10<sup>-14</sup>N"
+  },
+  {
+    "question": "Capacitors are used in the induction coil to",
+    "option_a": "control circuits",
+    "option_b": "prevent distortion of electric fields",
+    "option_c": "prevent electric sparks",
+    "option_d": "dissipate energy",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "A cell of emf 1.5V is connected in series with a 1Ω resistor and a current of 0.3A flows through the resistor. Find the internal resistance of the cell",
+    "option_a": "4.0Ω",
+    "option_b": "3.0Ω",
+    "option_c": "1.5Ω",
+    "option_d": "1.0Ω",
+    "answer": "A",
+    "solution": "r = \\(\\frac{E}{I} - R\\)<br> r = \\(\\frac{1.5}{0.3} - 1\\)<br> r = 4\\(\\Omega\\)"
+  },
+  {
+    "question": "Which of the following obeys ohms laws?",
+    "option_a": "electroytes",
+    "option_b": "metals",
+    "option_c": "diode",
+    "option_d": "glass",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "A house has ten 40W and five 100W bulbs. How much will it cost the owner of the house to keep them lit for 10 hours if the cost of a unit is 5N?",
+    "option_a": "N90",
+    "option_b": "N50",
+    "option_c": "N45",
+    "option_d": "N5",
+    "answer": "C",
+    "solution": "P = 40 x 10 + 100 x 5<br> P = 400 + 500 = 900W<br> Cost = \\(\\frac{900 \\times 10 \\times 5}{1000}\\)<br> Cost = N45"
+  },
+  {
+    "question": "An electric device is rated 2000W, 250V. Calculate the maximum current it can take",
+    "option_a": "9A",
+    "option_b": "8A",
+    "option_c": "7A",
+    "option_d": "6A",
+    "answer": "B",
+    "solution": "I = \\(\\frac{P}{v}\\)<br> I = \\(\\frac{2000}{250}\\)<br> I = 8A"
+  },
+  {
+    "question": "When a charge moves through an electric circuit in the direction of an electric force, it",
+    "option_a": "gains both potential and kinetic energy",
+    "option_b": "gains potential energy and lose kinetic energy",
+    "option_c": "loses potential energy and gains kinetic energy",
+    "option_d": "loses both potential and kinetic energy",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "To convert a galvanometer to a voltmeter, a",
+    "option_a": "high resistance is connected to it in series",
+    "option_b": "high resistance is connected to it in parallel",
+    "option_c": "low resistance is connected to it in parallel",
+    "option_d": "low resistance is connected to it in series",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "Induced emfs are best explained using",
+    "option_a": "Ohm's law",
+    "option_b": "Faraday's law",
+    "option_c": "Colomb's law",
+    "option_d": "Lenz's law",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "If a current of 2.5A flows through an electrolyte for 3 hours and 1.8g of a substance is deposited, what is the mass of the substance that will be deposited if a current of 4A flows through it for 4.8 hours?",
+    "option_a": "2.4g",
+    "option_b": "3.2g",
+    "option_c": "4.6g",
+    "option_d": "4.8g",
+    "answer": "C",
+    "solution": "First let's find z<br> z = \\(\\frac{M}{It}\\)<br> z = \\(\\frac{1.8}{2.5 \\times (3 \\times 60 \\times 60)}\\)<br> Therefore, the new M equals<br> M = zIt<br> M = \\(\\frac{1.8 \\times 4 \\times 4.8 \\times 60 \\times 60}{2.5 \\times 3 \\times 60 \\times 60}\\)<br> M = 4.6g"
+  },
+  {
+    "question": "Calculate the energy of the third level of an atom if the ground state energy is - 24.8eV",
+    "option_a": "-9.20eV",
+    "option_b": "-8.20eV",
+    "option_c": "-2.75eV",
+    "option_d": "-1.75eV",
+    "answer": "C",
+    "solution": "\\(E_3 = \\frac{E}{n^2}\\)<br> \\(E_3 = \\frac{-24.8}{3^2}\\)<br> \\(E_3 = 2.75eV\\)"
+  },
+  {
+    "question": "In photo-emission, the number of photo-electrons ejected per second depends on the",
+    "option_a": "frequency of the beam",
+    "option_b": "work function of the metal",
+    "option_c": "threshold frequency of the metal",
+    "option_d": "intensity of the beam",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "The particle nature of light is demonstrated by the",
+    "option_a": "photoelectric effect",
+    "option_b": "speed of light",
+    "option_c": "colours of light",
+    "option_d": "diffraction of light",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "The energy of a photo having a wavelength of 10<sup>-10</sup>m is <br> (h= 6.63 x 10<sup>-34</sup>Js, c = 3.0 x 10<sup>8</sup>ms<sup>-1</sup>)",
+    "option_a": "2.0 x 10<sup>-15</sup>J",
+    "option_b": "1.7 x 10<sup>-13</sup>J",
+    "option_c": "2.0 x 10<sup>-12</sup>J",
+    "option_d": "1.7 x 10<sup>-12</sup>J",
+    "answer": "A",
+    "solution": "E = \\(\\frac{hc}{\\lambda}\\)<br> E = \\(\\frac{6.63 \\times 10^{-34} \\times 3 \\times 10^18}{10^{-10}}\\)<br> E = 2 x 10-15J"
+  },
+  {
+    "question": "The bond between silicon and germanium is",
+    "option_a": "dative",
+    "option_b": "covalent bond",
+    "option_c": "trivalent",
+    "option_d": "ionic",
+    "answer": "B",
+    "solution": ""
+  }
+]

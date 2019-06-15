@@ -1,0 +1,443 @@
+﻿[
+  {
+    "question": "What is the concentration of a solution containing 2g of NaOH in 100cm<sup>3</sup> of solution?<br> [Na = 23, O = 16, H = 1]",
+    "option_a": "0.40 mol dm<sup>-3</sup>",
+    "option_b": "0.50 mol dm<sup>-3</sup>",
+    "option_c": "0.05 mol dm<sup>-3</sup>",
+    "option_d": "0.30 mol dm<sup>-3</sup>",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "Which of the following properties is NOT peculiar to matter?",
+    "option_a": "kinetic energy of particles increase from solid to gas",
+    "option_b": "Random motion of particles increases from liquid to gas",
+    "option_c": "Orderliness of particles increases from gas to liquid",
+    "option_d": "Random motion of particles increases from gas to solid",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "From the diagram above, an ideal can be represented by",
+    "option_a": "M",
+    "option_b": "N",
+    "option_c": "K",
+    "option_d": "L",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "Which of the following questions is correct about the periodic table?",
+    "option_a": "The non-metallic properties of the elements tend to decrease across  each period",
+    "option_b": "The valence electrons of the elements increase progressively across the period",
+    "option_c": "Elements in the same group have the same numbeer of electron shells",
+    "option_d": "Elements in the same period have the number of valence electrons",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "The relative atomic mass of a naturally occurring lithium consisting of 90% Li and 10% Li is",
+    "option_a": "6.9",
+    "option_b": "7.1",
+    "option_c": "6.2",
+    "option_d": "6.8",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "An isotope has an atomic number of 15 and a mass number of 31. The number of protons it contain is",
+    "option_a": "16",
+    "option_b": "15",
+    "option_c": "46",
+    "option_d": "31",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "The molecular lattice of iodine is held together by",
+    "option_a": "dative bond",
+    "option_b": "metallic bond",
+    "option_c": "hydrogen bond",
+    "option_d": "van der Waal's forces",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "The arrangement of particles in crystal lattices can be studied using",
+    "option_a": "X - rays",
+    "option_b": "γ - rays",
+    "option_c": "α - rays",
+    "option_d": "β - rays",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "From the diagram above, find the amount of solute deposited when 200 cm<sup>3</sup> of the solution is cooled from 55<sup>o</sup>C to 40<sup>o</sup>C",
+    "option_a": "0.10 mole",
+    "option_b": "0.20mole",
+    "option_c": "0.01 mole",
+    "option_d": "0.02 mole",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "The importance of sodium aluminate (III) in the treatment of water is to",
+    "option_a": "cause coagulation",
+    "option_b": "neutralize acidity",
+    "option_c": "prevent goitre and tooth decay",
+    "option_d": "kill germs",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "What type of bond exits between an element X with atomic number 12 and Y with atomic number 17?",
+    "option_a": "Electrovalent",
+    "option_b": "Metallic",
+    "option_c": "Covalent",
+    "option_d": "Dative",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "Hardness of water is mainly due to the presence of",
+    "option_a": "calcium hydroxide or magnesium hydroxide",
+    "option_b": "calcium trioxocarbonate (IV) or calcium tetraoxosulphate (VI)",
+    "option_c": "sodium hydroxide or magnesium ydroxide",
+    "option_d": "calcium chloride or sodium chloride salts",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "A suitable solvent for iodine and nephthalene is",
+    "option_a": "carbon (IV) sulphide",
+    "option_b": "ethanol",
+    "option_c": "water",
+    "option_d": "benzene",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "Which of the following noble gases is commonly found in the atmosphere?",
+    "option_a": "Xenon",
+    "option_b": "Neon",
+    "option_c": "Helium",
+    "option_d": "Argon",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "N<sub>2</sub>O<sub>4(g)</sub> ↔ 2NO<sub>2(g)</sub> ΔH = +ve<br> In the reaction above, an increase in temperature will",
+    "option_a": "increase the value of the equilibrium constant",
+    "option_b": "decreases the value of the equilibrium constant",
+    "option_c": "increase in the reactant production",
+    "option_d": "shift the equilibrium to the left",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "CH<sub>3</sub>COOH<sub>(aq)</sub> + OH<sup>-</sup><sub>(aq)</sub> ↔ CH<sub>3</sub>COO<sup>-</sup><sub<(aq)</sub> + H<sub>2</sub>O<sub>(l)</sub><br> In the reaction above ,CH<sub>3</sub>COO<sup>-</sub><sub>(aq)</sub> is",
+    "option_a": "conjugate base",
+    "option_b": "acid",
+    "option_c": "base",
+    "option_d": "conjugate acid",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "How many cations will be produced from a solution of potassium aluminium tetraoxosulphate (VI)?",
+    "option_a": "3",
+    "option_b": "4",
+    "option_c": "1",
+    "option_d": "2",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "Which of the following is NOT an alkali?",
+    "option_a": "NH<sub>3</sub>",
+    "option_b": "Mg(OH)<sub>2</sub>",
+    "option_c": "Ca(OH)<sub>2</sub>",
+    "option_d": "NaOH",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "An effect of thermal pollution on water bodies is that the",
+    "option_a": "volume of water reduces",
+    "option_b": "volume of chemical waste increase",
+    "option_c": "level of oxides of nitrogen increase",
+    "option_d": "level of oxygen reduces",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "Which of the following is a deliquescent compound?",
+    "option_a": "Na<sub>2</sub>CO<sub>3</sub>",
+    "option_b": "CaCl<sub>2</sub>",
+    "option_c": "CuO",
+    "option_d": "Na<sub>2</sub>CO<sub>3</sub>.10H<sub>2</sub>O",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "A chemical reaction which the hydration energy is greater than the lattice energy is referred to as",
+    "option_a": "a spontaneous reaction",
+    "option_b": "an endothermic reaction",
+    "option_c": "an exothermic reaction",
+    "option_d": "a reversible reaction",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "The function of zinc electrode in a galvanic cells is that it",
+    "option_a": "undergoes reduction",
+    "option_b": "serves as the positive electrode",
+    "option_c": "production electons",
+    "option_d": "uses up electrons",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "CH<sub>4(g)</sub> + Cl<sub>2(g)</sub> → CH<sub>3</sub> Cl<sub>(s)</sub> + HCl<sub>(g)</sub><br> The major factor that influence the rate of the reaction above is",
+    "option_a": "catalyst",
+    "option_b": "temperature",
+    "option_c": "concentration",
+    "option_d": "light",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "The condition required for corrosion to take place is the presence of",
+    "option_a": "water and carbon (IV) oxide",
+    "option_b": "water, carbon (IV) oxide and oxygen",
+    "option_c": "oxygen and carbon (IV) oxide",
+    "option_d": "water and oxygen",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "The diagram above best illustrates the effect of decrease in",
+    "option_a": "concentration",
+    "option_b": "temperature",
+    "option_c": "surface area",
+    "option_d": "pressure",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "MnO<sup>-</sup><sub>4(aq)</sub> + Y + 5Fe<sup>2+</sup><sub>(aq)</sub> → Mn<sup>2+</sup><sub>(aq)</sub> + 5Fe<sup>2+<sup><sub>(aq)</sub> + 4H<sub>2</sub>O<sub>(l)</sub><br> In the equation above, Y is",
+    "option_a": "5H<sup>+</sup><sub>(aq)</sub>",
+    "option_b": "4H<sup>+</sup><sub>(aq)</sub>",
+    "option_c": "C 10H<sup>+</sup><sub>(aq)</sub>",
+    "option_d": "D 8H<sup>+</sup><sub>(aq)</sub>",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "Given that M is the mass of a substance deposited during electrolysis and q is the quantity of electricity consumed, then Faraday's first law can be written as<br> [Electrochemical equivalent]",
+    "option_a": "\\(M = \frac{E}{q}\\)",
+    "option_b": "M = Eq",
+    "option_c": "\\(M = \frac{q}{E}\\)",
+    "option_d": "\\(M = \frac{E}{2q}\\)",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "The impurities formed during the laboratory preparation of chlorine gas are removed by",
+    "option_a": "H<sub>2</sub>O",
+    "option_b": "NH<sub>3</sub>",
+    "option_c": "H<sub>2</sub>SO<sub>4</sub>",
+    "option_d": "HCl",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "The effect of the presence of impurities such as carbon and sulphur on iron is that they",
+    "option_a": "give it high tensile strenght",
+    "option_b": "make it malleable and ductile",
+    "option_c": "increase its melting point",
+    "option_d": "lower its melting point",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "A few drops of concentrated HNO<sub>3</sub> is added to an unknown solution and boiled for a while. If this produces a brown solution, the cation presents is likely to be",
+    "option_a": "Pb<sup>2+</sup>",
+    "option_b": "B Cu<sup>2+</sup>",
+    "option_c": "C Fe<sup>3+</sup>",
+    "option_d": "D Fe<sup>2+</sup>",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "The bleaching action of chlorine gas is effective due to the presence of",
+    "option_a": "hydrogen chloride",
+    "option_b": "water",
+    "option_c": "air",
+    "option_d": "oxygen",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "In the laboratory preparation of oxygen, dried oxygen is usually collected over",
+    "option_a": "hydrochloric acid",
+    "option_b": "mercury",
+    "option_c": "calcium chloride",
+    "option_d": "tetraoxosulphate (VI) acid",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "The property of concentrated H<sub>2</sub>SO<sub>4</sub> that makes it suitable for preparing HNO3 is its",
+    "option_a": "boiling point",
+    "option_b": "density",
+    "option_c": "oxidizing properties",
+    "option_d": "dehydrating properties",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "Bronze is preferred to copper in the making of medals because it",
+    "option_a": "is stronger",
+    "option_b": "can withstand low temperature",
+    "option_c": "is lighter",
+    "option_d": "has low tensile strength",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "The constituents of baking powder that makes the dough to rise is",
+    "option_a": "NaHCO<sub>3</sub>",
+    "option_b": "NaOH",
+    "option_c": "Na<sub>2</sub>CO<sub>3</sub>",
+    "option_d": "NaCl",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "The ability of carbon to form long chains is referred to as",
+    "option_a": "alkylation",
+    "option_b": "acylation",
+    "option_c": "catenation",
+    "option_d": "carbonation",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "Which of the following compounds will undergo polymerization reaction?",
+    "option_a": "C<sub>2</sub>H<sub>4</sub>",
+    "option_b": "C<sub>2</sub>H<sub>5</sub>COOH",
+    "option_c": "C<sub>2</sub>H<sub>6</sub>",
+    "option_d": "C<sub>2</sub>H<sub>5</sub>OH",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "The compound above exhibits",
+    "option_a": "geometric isomerism",
+    "option_b": "optical isomerism",
+    "option_c": "structural isomerism",
+    "option_d": "positional isomerism",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "An organic compound has an empirical formula CH<sub>2</sub>O and vapour density of 45.<br> What is the molecular formula?<br> [C = 12, H = 1, O = 16]",
+    "option_a": "C<sub>3</sub>H<sub>7</sub>OH",
+    "option_b": "C<sub>2</sub>H<sub>5</sub>OH",
+    "option_c": "C<sub>3</sub>H<sub>6</sub>O<sub>3</sub>",
+    "option_d": "C<sub>2</sub>H<sub>4</sub>O<sub>2</sub>",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "At 25<sup>o</sup> and zymase as catalyst, <br> C<sub>6</sub>H<sub>12</sub>O<sub>6</sub> → 2C<sub>2</sub>H<sub>5</sub>OH + 2CO<sub>2</sub> + energy<br> The reaction above represented by the equation above is useful in the production of",
+    "option_a": "Propanol",
+    "option_b":  "butanol",
+    "option_c": "methanol",
+    "option_d": "ethanol",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "The number of isomers that can be obtained from C<sub>4</sub>H<sub>10</sub> is",
+    "option_a": "3",
+    "option_b": "4",
+    "option_c": "1",
+    "option_d": "2",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "The functional groups present in the compound above are",
+    "option_a": "alkene and halo-group",
+    "option_b": "hydroxyl and chloro-group",
+    "option_c": "alkene and chloro-group",
+    "option_d": "hydroxyl and halo-group",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "Two organic compounds K and L were treated with a few drops of Fehling's solutions respectively . K formed a brick-red precipitate while L, remains unaffected. The compound K is an",
+    "option_a": "alkanol",
+    "option_b": "alkane",
+    "option_c": "alkanal",
+    "option_d": "alkanone",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "Which of the following statements is true about 2-methylpropane and butane",
+    "option_a": "They are members of the same homologous series",
+    "option_b": "They have the same boiling point",
+    "option_c": "They have different number of carbon atoms",
+    "option_d": "They have the same chemical properties",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "with conc H<sub>2</sub>SO<sub>4</sub> as catalyst<br> CH<sub>3</sub>COOH + C<sub>2</sub>H<sub>5</sub>OH → CH<sub>3</sub>COOC<sub>2</sub>H<sub>5</sub> + H<sub>2</sub>O",
+    "option_a": "esterification",
+    "option_b": "Condensation",
+    "option_c": "saponification",
+    "option_d": "neutralization",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "In the diagram above , X is the ``",
+    "option_a": "enthalpy",
+    "option_b": "enthalpy change",
+    "option_c": "activation energy",
+    "option_d": "activated complex",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "The compound above exhibits",
+    "option_a": "geometric isomerism",
+    "option_b": "optical isomerism",
+    "option_c": "structural isomerism",
+    "option_d": "positional isomerism",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "choose the correct answer in the option above. Which of the following is a primary amine?",
+    "option_a": "A",
+    "option_b": "B",
+    "option_c": "C",
+    "option_d": "D",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "The principle of column chromatography is based on the ability of the constituents to",
+    "option_a": "move at different speeds in the column",
+    "option_b": "dissolve in each other in the column",
+    "option_c": "react with the solvent in the column",
+    "option_d": "react with each other in the column",
+    "answer": "A",
+    "solution": ""
+  }
+]

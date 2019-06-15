@@ -1,0 +1,443 @@
+﻿[
+  {
+    "question": "The lowest level of organization in living organisms is",
+    "option_a": "organ",
+    "option_b": "cell",
+    "option_c": "system",
+    "option_d": "tissue",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "Which of the following is the most complex according to their cellular level of organization?",
+    "option_a": "Heart",
+    "option_b": "Hair",
+    "option_c": "Euglena",
+    "option_d": "Hydra",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "Which of the following organisms is multicellular?",
+    "option_a": "Chlamydomonas",
+    "option_b": "Spirogyra",
+    "option_c": "Amoeba",
+    "option_d": "Euglena",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "In bryophytes, sex organs are produced in the",
+    "option_a": "protonema",
+    "option_b": "sporophyte",
+    "option_c": "gametophyte",
+    "option_d": "rhizoid",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "Seed plants are the most dominant vegetation on land because of",
+    "option_a": "their motile gamates",
+    "option_b": "their ability to photosynthesize",
+    "option_c": "efficient seed dispersal",
+    "option_d": "availability of water",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "Which of the following is an aboreal organism?",
+    "option_a": "Elephant",
+    "option_b": "Fish",
+    "option_c": "Antelope",
+    "option_d": "Bird",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "i/, c0/0, pm/, m/. The general formula above represent that of",
+    "option_a": "an omnivore",
+    "option_b": "a detritus feeder",
+    "option_c": "a carnivore",
+    "option_d": "a herbivore",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "A circulatory system is very essential in mammals but not in smaller organisms like Amoeba because",
+    "option_a": "Amoeba lives in freshwater",
+    "option_b": "Diffusion is sufficient to transport materials in Amoeba",
+    "option_c": "Amoeba lacks blood containing  haemoglobin",
+    "option_d": "Amoeba exibits anaerobic respiration",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "In vascular plants, the sieve tubes and companion cells are present in the",
+    "option_a": "cambium",
+    "option_b": "cortex",
+    "option_c": "xylem",
+    "option_d": "phloem",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "The stomata of leaves are similar in function to the",
+    "option_a": "pharynx of humans",
+    "option_b": "scales of fish",
+    "option_c": "spiracle of insects",
+    "option_d": "trachea of toads",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "The use of moist skin for respiration in amphibians is known as",
+    "option_a": "cellular respiration",
+    "option_b": "cutaneous respiration",
+    "option_c": "buccal respiration",
+    "option_d": "pulmonary respiration",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "Water in plants is removed as water vapour through the process of",
+    "option_a": "diffusion",
+    "option_b": "osmosis",
+    "option_c": "evaporation",
+    "option_d": "transpiration",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "An example of an organ of perennation in plants is",
+    "option_a": "rhizome",
+    "option_b": "seed",
+    "option_c": "petal of a flower",
+    "option_d": "calyx of flower",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "Alternation of generation is a feature shown in",
+    "option_a": "mosses",
+    "option_b": "fungi",
+    "option_c": "grasses",
+    "option_d": "conifers",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "Coordination and regulation of body activities in mammals are achieved by the",
+    "option_a": "nerves and muscle",
+    "option_b": "nerves and hormones",
+    "option_c": "nerves only",
+    "option_d": "hormones only",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "The Cerebellum of the Brain controls",
+    "option_a": "Reflex Action",
+    "option_b": "Muscular Activity",
+    "option_c": "Emotional Expressions",
+    "option_d": "the Endocrine System",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "The part of the brain responsible for peristalsis is the",
+    "option_a": "Olfactory Lobe",
+    "option_b": "Medulla Oblongata",
+    "option_c": "Hypothallamus",
+    "option_d": "Thalamus",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "Which of the following instruments is used for measuring atmospheric pressure?",
+    "option_a": "Hydrometer",
+    "option_b": "Hygrometer",
+    "option_c": "Thermometer",
+    "option_d": "Barometer",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "The influence of soil on organisms in a habitat is referred to as",
+    "option_a": "Edaphic",
+    "option_b": "Physiographic",
+    "option_c": "Biotic",
+    "option_d": "Topographic",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "The genetic make-up of an organism is described as",
+    "option_a": "Allele",
+    "option_b": "Chromosome",
+    "option_c": "Phenotype",
+    "option_d": "Genotype",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "The major limiting factor of productivity in the aquatic habitat is",
+    "option_a": "Food",
+    "option_b": "Temperature",
+    "option_c": "Water",
+    "option_d": "Sunlight",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "Which of the following group of organisms feeds directly on green plants?",
+    "option_a": "Primary Consumers",
+    "option_b": "Secondary Consumers",
+    "option_c": "Producers",
+    "option_d": "Decomposers",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "A characteristic feature of tropical rainforest is that it",
+    "option_a": "Contains trees with narrow leaves",
+    "option_b": "Contains large number of plant species",
+    "option_c": "Contains fewer number of plant species",
+    "option_d": "Has total annual rainfall of less than 50cm",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "The study of how and why population size change over time is",
+    "option_a": "Population estimation",
+    "option_b": "Population dynamics",
+    "option_c": "Population ecology",
+    "option_d": "Population Cycle",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "A severe and long dry season is a characteristic feature of",
+    "option_a": "Sahel Savanna",
+    "option_b": "Mangrove Swamps",
+    "option_c": "Sudan Savanna",
+    "option_d": "Guinea Savanna",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "Which of the following is a nitrogen-fixing blue-green algae of soil?",
+    "option_a": "Rhizobium",
+    "option_b": "Nitrosomonas",
+    "option_c": "Clostridium",
+    "option_d": "Anabaena",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "The soil with highest water-retaining capacity is",
+    "option_a": "Clayey Soil",
+    "option_b": "Stoney soil",
+    "option_c": "Sandy soil",
+    "option_d": "Loamy Soil",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "The causative agent of Poliomyelitis is",
+    "option_a": "Virus",
+    "option_b": "Fungus",
+    "option_c": "Protozoan",
+    "option_d": "Bacterium",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "One of the ways of controlling noise pollution in urban areas is",
+    "option_a": "by siting industries away from residential areas",
+    "option_b": "that fuel should be completely combusted by engines",
+    "option_c": "by planting trees on both sides of the road",
+    "option_d": "by wearing ear devices",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "A constituent of the exhaust fumes from electricity generating sets which causes serious pollution is",
+    "option_a": "Carbon (II) Oxide",
+    "option_b": "Water Vapour",
+    "option_c": "Ozone",
+    "option_d": "Carbon (IV) Oxide",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "Which of the following is true of small pox?",
+    "option_a": "It is transmitted by bacteria",
+    "option_b": "It can effectively be controlled with antibiotics",
+    "option_c": "It can effectively be controlled by vaccination",
+    "option_d": "It is a water-borne infection",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "A pollutant that is mostly associated with acid rain is",
+    "option_a": "Nitrogen (IV) Oxide",
+    "option_b": "Ozone",
+    "option_c": "Fluorine",
+    "option_d": "Carbon (IV) Oxide",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "When the adults have reach a certain degree of weakness, the process of binary fission is replaced by conjugation in",
+    "option_a": "Paramecium",
+    "option_b": "Euglena",
+    "option_c": "Amoeba",
+    "option_d": "Plasmodium",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "Whorls, arches, loops and compounds are types of variation in",
+    "option_a": "Colour",
+    "option_b": "Finger prints",
+    "option_c": "Hair Colour",
+    "option_d": "Blood group",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "A couple has 0 children, all female. Which of the following best explains the situation",
+    "option_a": "The sex determination was by the man's X chromosome",
+    "option_b": "The man's sperm count is low",
+    "option_c": "The woman is not capable of producing male children",
+    "option_d": "The sex determination was by the man's Y chromosome",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "A biological agent with antiviral property is",
+    "option_a": "Interferon",
+    "option_b": "enzyme",
+    "option_c": "antibiotic",
+    "option_d": "disinfectant",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "One of the advantages of outbreeding is",
+    "option_a": "pests tolerance",
+    "option_b": "disease resistance",
+    "option_c": "fast growth",
+    "option_d": "tall height",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "An individual with blood group AB can receive blood from those in blood group(s)",
+    "option_a": "A, B, AB, O",
+    "option_b": "A, AB and O only",
+    "option_c": "AB only",
+    "option_d": "A and B only",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "The stream-lined shape of fishes is an adaptation for",
+    "option_a": "Securing mates",
+    "option_b": "easy movement",
+    "option_c": "obtaining food",
+    "option_d": "defence and attack",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "An example of a poikilothermic organism is a",
+    "option_a": "Lizard",
+    "option_b": "Cockroach",
+    "option_c": "rabbit",
+    "option_d": "bird",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "All living organisms are constantly involved in a struggle for existence. This was proposed by",
+    "option_a": "Morgan",
+    "option_b": "Darwin",
+    "option_c": "Lamarck",
+    "option_d": "Wallace",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "Adaptive radiation is illustrated in",
+    "option_a": "modified insect mouthparts",
+    "option_b": "dentition in mammals",
+    "option_c": "wings in birds and bats",
+    "option_d": "appendages in insects",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "i. Growth is mainly apical ii. Growth is specific with definite shape iii. Growth is throughout life. Which of the above correctly describes the growth pattern in plants?",
+    "option_a": "i, ii and iii only",
+    "option_b": "ii and iii only",
+    "option_c": "i and ii only",
+    "option_d": "i and iii only",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "Use the diagram to answer this question. The part labelled II is the",
+    "option_a": "nucleus",
+    "option_b": "eyespot",
+    "option_c": "basal granule",
+    "option_d": "contractile vacuole",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "Use the diagram above to answer this question. The part responsible for photosynthesis is labelled",
+    "option_a": "III",
+    "option_b": "IV",
+    "option_c": "I",
+    "option_d": "II",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "Use the diagram above to answer this question. The young proglottid is represented by",
+    "option_a": "III",
+    "option_b": "IV",
+    "option_c": "I",
+    "option_d": "II",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "In the diagram, the organs for attachments to the lining of the host's intestine are labelled",
+    "option_a": "ii and iii",
+    "option_b": "iii and iv",
+    "option_c": "i and ii",
+    "option_d": "i and iii",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "In the diagram, the part labelled I is the",
+    "option_a": "xylem",
+    "option_b": "phleom",
+    "option_c": "root hairs",
+    "option_d": "cortex",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "The diagram is the transverse section of a",
+    "option_a": "monocotyledonous stem",
+    "option_b": "dicotyledonous stem",
+    "option_c": "monocotyledonous root",
+    "option_d": "dicotyledonous root",
+    "answer": "D",
+    "solution": ""
+  }
+]

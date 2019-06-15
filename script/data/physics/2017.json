@@ -1,0 +1,452 @@
+﻿[
+  {
+    "question": "Which is the incorrect formula for a body accelerating uniformly?",
+    "option_a": "a = v<sup>2</sup> − u\\(\\frac{2}{2}\\)",
+    "option_b": "v<sup>2</sup> = u<sup>2</sup> + 2as",
+    "option_c": "s = \\(\\frac{1}{2}\\)ut + at<sup>2</sup>",
+    "option_d": "v<sup>2</sup> − u<sup>2</sup> = 2as",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "Which of the following is not an electromagnetic radiation?",
+    "option_a": "x - ray",
+    "option_b": "Radio waves",
+    "option_c": "sunlight",
+    "option_d": "sound waves",
+    "answer": "D",
+    "solution": "Electromagnetic waves do not require any material medium, but sound waves is a mechanical wave that require a material medium"
+  },
+  {
+    "question": "Calculate the electric field intensity between two plates of potential difference 6.5V when separated by a distance of 35cm.",
+    "option_a": "18.57NC\\(^{-1}\\)",
+    "option_b": "53.06N C\\(^{-1}\\)",
+    "option_c": "2.28NC\\(^{-1}\\)",
+    "option_d": "0.80NC\\(^{-1}\\)",
+    "answer": "A",
+    "solution": "Electric Field Intensity (E) = \\(\\frac{v}{d}\\) <br> = \\(\\frac{\\text{potential difference}}{\\text{distance}}\\) <br> = \\(\\frac{6.5v}{35cm}\\) <br> = \\(\\frac{6.5}{35 \\times 10^{- 2}}\\) <br> = 18.57NC\\(^{-1}\\)"
+  },
+  {
+    "question": "Why do soldiers march disorderly while crossing a bridge?",
+    "option_a": "To prevent resonance on the bridge",
+    "option_b": "To set the bridge into resonance",
+    "option_c": "To make the b ridge collapse",
+    "option_d": "To spread their weight evenly on the bridge",
+    "answer": "A",
+    "solution": "Soldiers march disorderly while crossing a bridge to prevent resonance because when soldiers march in orderly manner across a bridge, they generate a rhythmic oscillation of wave out. The bridge and at a certain point, would start oscillation to the same rhym as that of the marching steps. This oscillation would reach a maximum peak when the bridge can no longer sustain its own strength and hence collapses. So for this reasons, soldier are ordered to march disorderly while crossing a bridge"
+  },
+  {
+    "question": "Calculate the upthrust on an object of volume 50cm<sup>3</sup> which is immersed in liquid of density 10<sup>3</sup>kgm<sup>-3</sup> [g = 10ms<sup>-2</sup>]",
+    "option_a": "0.8N",
+    "option_b": "2.5N",
+    "option_c": "0.5N",
+    "option_d": "1.0N",
+    "answer": "C",
+    "solution": "Upthrust = change in weight <br> density = \\(\\frac{\\text{mass}}{\\text{volume}}\\) <br> Mass of liquid displaced = Density of Liquid × Volume; <br> = 10<sup>3</sup> × 50 × 10− 6m<sup>3</sup> <br> = 0.05kg <br> (Note that the volume of 50cm<sup>3</sup> was converted to m<sup>3</sup> by multiplying by 10<sup>6</sup>) i.e 50cm<sup>3</sup> = 50 × 10<sup>−6</sup>m<sup>3</sup>) <br> Since mass displaced = 0.05kg <br> Upthrust = mg = 0.05 × 10 <br> = 0.5N"
+  },
+  {
+    "question": "Under what conditions are cathode rays produced in a discharge tube?",
+    "option_a": "High pressure and low voltage",
+    "option_b": "High pressure and high voltage",
+    "option_c": "Low pressure and low voltage",
+    "option_d": "Low pressure and high volatge",
+    "answer": "D",
+    "solution": "Cathode rays are produced in a discharge tube under Low pressure and high voltage"
+  },
+  {
+    "question": "Under which of the following conditions is workdone",
+    "option_a": "A man supports a heavy food above his head with his hands",
+    "option_b": "A boy climbs onto a table",
+    "option_c": "A man pushes unto a table",
+    "option_d": "A woman holds a pot of water",
+    "answer": "B",
+    "solution": "For work to be done, distance must be involved because<br>workdone = force × distance"
+  },
+  {
+    "question": "Calculate the specific latent heat of vaporization of steam of 1.13 x 10<sup>6</sup>J pf heat energy is required to convert 15kg of it to water.",
+    "option_a": "7.53 x 10<sup>5</sup> Jkg\\(^{-1}\\)",
+    "option_b": "7.53 x 10<sup>-2</sup>Jkg\\(^{-1}\\)",
+    "option_c": "7.53 x 10<sup>4</sup>Jkg\\(^{-1}\\)",
+    "option_d": "7.53 x 10<sup>-3</sup>Jkg\\(^{-1}\\)",
+    "answer": "C",
+    "solution": "Latent Energy = mass(m) × specific latent heat (L)<br>ε = mL <br> L = ε/m\\(\\frac{E}{m}\\) <br> = \\(\\frac{1.13 \\times 106}{15}\\) <br> = 7.53 × 104Jkg\\(^{-1}\\)"
+  },
+  {
+    "question": "A cell of internal resistance 2 π supplies current to a 6 π resistor. The efficiency of the cell is",
+    "option_a": "12.0%",
+    "option_b": "25.0%",
+    "option_c": "33.3%",
+    "option_d": "75.0%",
+    "answer": "C",
+    "solution": "Internal resistance determine the maximum current that can be supplied <br> Efficiency = \\(\\frac{r}{R}\\) × 100 <br> = \\(\\frca{2}{6}\\) × 100  <br> = 33.3%"
+  },
+  {
+    "question": "Which of the following statements is NOT correct?",
+    "option_a": "Molecules of a liquid are stationary",
+    "option_b": "Brownian motion is an evidence of particle nature of matter",
+    "option_c": "Matter is made up of molecules",
+    "option_d": "The molecules of matter are in constant motion",
+    "answer": "A",
+    "solution": "Molecules of liquid are not stationary<br>Brownian motion is an evidence of particle nature of matter<br>matter is made up of molecules<br>The molecules of matter are in constant motion"
+  },
+  {
+    "question": "A block and tackle pulley arrangement has 6 pulleys in which an effort of 50N supports a load of 200N, calculate the efficiency of the machine",
+    "option_a": "80.0%",
+    "option_b": "76.6%",
+    "option_c": "66.7%",
+    "option_d": "60.7%",
+    "answer": "C",
+    "solution": "Efficiency = \\(\\frac{ma}{V.R}\\) x \\(\\frac{100}{1}\\) <br> V.R = number of pulleys = 6 <br> ma = \\(\\frac{\\text{Load}}{\\text{Effort}}\\)   =  \\(\\frac{200}{50}\\)  =  4 <br> Effiecieny = \\(\\frac{4}{6}\\) ×  100  =  66.67%"
+  },
+  {
+    "question": "Three 3ω resistance are connected in parallel what is the equivalent resistance?",
+    "option_a": "1ω",
+    "option_b": "9ω",
+    "option_c": "3ω",
+    "option_d": "0.33ω",
+    "answer": "A",
+    "solution": "Resistor connected in a parallel have an equivalence given by<br>\\(\\frac{1}{\\text{Reff}}\\) = \\(\\frac{1}{3}\\) + \\(\\frac{1}{3}\\) + \\(\\frac{1}{3}\\)  <br> = \\(\\frac{1 + 1 + 1}{3}\\) = \\(\\frac{3}{3}\\) =  1 <br> Reff = 1ω"
+  },
+  {
+    "question": "Which of the following instruments helps to maintain the correct humidity and temperature of a building?",
+    "option_a": "A compressor",
+    "option_b": "A refrigerator",
+    "option_c": "Air blower",
+    "option_d": "Air conditioner",
+    "answer": "D",
+    "solution": "Compressor is an instrument to supply air or other gas at increased pressure<br>Refrigerator is an appliance to keep things cold<br>Air blower is used to release air<br>Air conditioner is used to remove heat and maintain a stable temperature in an occupied space"
+  },
+  {
+    "question": "An element and its isotope only differ in the number of",
+    "option_a": "protons",
+    "option_b": "electrons",
+    "option_c": "ions",
+    "option_d": "neutrons",
+    "answer": "D",
+    "solution": "Isotopy is due to difference in mass number, what causes the difference is the difference in the number of neutrons present"
+  },
+  {
+    "question": "The thermal expansion of a solid is an advantage in",
+    "option_a": "Balance wheel of a watch",
+    "option_b": "Construction of steel rail lines",
+    "option_c": "Construction of large steel bridges",
+    "option_d": "Fitting of tyres on wheels",
+    "answer": "A",
+    "solution": "Thermal expansion of a solid is majorly advantageous in the use of bimetallic strip in the balance of a watch so as not to lose time"
+  },
+  {
+    "question": "The S.I unit of moment of a force is",
+    "option_a": "kgm",
+    "option_b": "µm",
+    "option_c": "Jm",
+    "option_d": "µm\\(^{-1}\\)",
+    "answer": "B",
+    "solution": "Moment of a force is the product of a force and the perpendicular distance from the line of action of the force <br>Moment = force × distance<br>= N × m<br>= Nm"
+  },
+  {
+    "question": "A block and tackle pulley arrangement has 6 pulleys in which an effort of 50N supports a load of 200N, calculate the efficiency of the machine",
+    "option_a": "80.0%",
+    "option_b": "76.6%",
+    "option_c": "66.7%",
+    "option_d": "60.7%",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "Calculate the light of the image formed by a pinhole camera of length 12cm used to photograph an object 60cm away from the hole and 70cm high",
+    "option_a": "10 cm",
+    "option_b": "16 cm",
+    "option_c": "5 cm",
+    "option_d": "14 cm",
+    "answer": "D",
+    "solution": "Magnification = \\(\\frac{\\text{Length of camera}}{\\text{distance of object from pin hole}}\\) <br> m = \\(\\frac{12}{60}\\) <br> = 0.2 <br> Also magnification m = \\(\\frac{\\text{Height of image}}{\\text{Height of object}}\\) <br> ∴ Height of image = m × height of object <br> = 0.2 × 70 <br> = 14cm"
+  },
+  {
+    "question": "When two objects P and q are supplied with the same quantity of heat, the temperature change in P is observed to be twice that of q. The mass of P is half that of q. The ratio of the specific heat capacity pf P to q is",
+    "option_a": "1:4",
+    "option_b": "4:1",
+    "option_c": "1:1",
+    "option_d": "2:1",
+    "answer": "C",
+    "solution": "H = mcθ <br> HP = Hq, θP = 2θ, <br> mP = \\(\\frac{1}{2}\\)mq <br> ∴ HP = mqCPθP, also Hq = mqCqθq <br> Since HP = Hq <br> ∴ mPcPθP = mqcPθq <br> Putting in the conditions <br> \\(\\frac{1}{2}\\)mq × cP × 2θq = mq × θq × cq <br> ∴ cP = cq <br> \\(\\frac{C_p}{C_q}\\)= \\(\\frac{1}{1}\\)  <br> = 1:1"
+  },
+  {
+    "question": "When the r.m.s value of a source of electricity supply is given as 240v, it means that the peak value of the supply is",
+    "option_a": "240v",
+    "option_b": "340v",
+    "option_c": "480v",
+    "option_d": "57600v",
+    "answer": "B",
+    "solution": "The relationship between the peak value and r.m.s value of electricity supply is given as <br> V\\(_{r.m.s}\\) = \\(\\frac{V_o}{\\sqrt{2}}\\) <br> where Vo = peak voltage <br> ∴ Vo = V\\(_{r.m.s}\\) × √2 <br> = 240 × √2 <br> = 339.5v <br> = 340v"
+  },
+  {
+    "question": "Which of the following operations can be used to convert an alternative current dynamo into a direct current dynamo",
+    "option_a": "number of turns in the coil is increased",
+    "option_b": "strength of the field magnet is increased",
+    "option_c": "slip rings are replaced with split ring cummutator",
+    "option_d": "coil is wound on a soft iron armature",
+    "answer": "C",
+    "solution": "A d.c generator is one in which its current is allowed to flow in one direction even through it may vary in value an a.c generator can only be made to produce a d.c by replacing the two slip rings with a single split ring or commutator."
+  },
+  {
+    "question": "The net capacitance in the circuit above is",
+    "option_a": "80µF",
+    "option_b": "6.0µF",
+    "option_c": "4.0µF",
+    "option_d": "2.0µF",
+    "answer": "D",
+    "solution": "For capacitance i n parallel, 2µF and 2µF are in parallel, <br>their equivalence is 2µF and 2µF = 4µF <br> The 4µF generated is now in series with the remaining 4µF. <br> The net  capacitance for series connection is <br> \\(\\frac{1}{C}\\) = \\(\\frac{1}{4}\\) + \\(\\frac{1}{4}\\) = 1 + \\(\\frac{1}{4}\\) = \\(\\frac{2}{4}\\) <br> C = \\(\\frac{4}{2}\\) <br>  = 2µF"
+  },
+  {
+    "question": "The instrument used to measure the pressure of a gas is",
+    "option_a": "barometer",
+    "option_b": "thermometer",
+    "option_c": "hygrometer",
+    "option_d": "manometer",
+    "answer": "D",
+    "solution": "Barometer is used to measure atmosphere pressure<br>Thermometer is used to measure temperature<br>Hygrometer is used to measure relative density of a liquid<br>Manometer is used to measure the pressure of a gas"
+  },
+  {
+    "question": "A man of mass 50kg ascends a flight of stains 5m high in 5 seconds. If acceleration due to gravity is 10ms\\(^{-2}\\) the power expended is",
+    "option_a": "100w",
+    "option_b": "200w",
+    "option_c": "400w",
+    "option_d": "500w",
+    "answer": "D",
+    "solution": "Power is the time rate of doing work  <br> i.e power = \\(\\frac{\\text{energy}}{\\text{time}}\\) <br> Since energy = mgH <br> ∴ power = \\(\\frac{mgH}{t}\\) <br> = \\(\\frac{50 \\times 10 \\times 5}{t}\\) <br> = 500W"
+  },
+  {
+    "question": "A radio station broadcast at a frequency of 600KHZ. If the speed of light in air is 3 × 108ms\\(^{−1}\\). Calculate the wavelength of the radio wave",
+    "option_a": "2.20 × 10\\(^3\\)m",
+    "option_b": "5.0 × 10\\(^2\\)m",
+    "option_c": "5.0 × 10\\(^5\\)m",
+    "option_d": "11.8 × 10\\(^{11}\\)m",
+    "answer": "B",
+    "solution": "V = fλ <br> λ = \\(\\frac{v}{f}\\)  <br> = \\(\\frac{3 \\times 10^8}{600 \\times 10^3}\\) = 500m <br> = 5 × 102m <br> N.B 600KHz Frequency = 600 × 103Hz"
+  },
+  {
+    "question": "Which of the following is a scalar quantity?",
+    "option_a": "Tension",
+    "option_b": "Weight",
+    "option_c": "Impulse",
+    "option_d": "Mass",
+    "answer": "D",
+    "solution": "Scalar quantity is a quantity with only magnitude, it has no direction<br>Tension, weight, impulse are vector quantities because they have direction. Mass is the only scalar quantity there"
+  },
+  {
+    "question": "Determine the focal length of a thin converging lens if the power is 5.0 dioptres",
+    "option_a": "0.1 m",
+    "option_b": "0.2 m",
+    "option_c": "2.0 m",
+    "option_d": "2.5 m",
+    "answer": "B",
+    "solution": "Power of a lens = \\(\\frac{1}{f}\\) <br> f = focal length <br> f = \\(\\frac{1}{p}\\) <br> = \\(\\frac{1}{5}\\) <br>  = 0.2m"
+  },
+  {
+    "question": "A string of length 5cm is extended by 0.04m when a load of 0.8kg is suspended at the end. How far will it extend if a force of 16N is applied? [g = 10ms\\(^{-2}\\)]",
+    "option_a": "0.04m",
+    "option_b": "0.12m",
+    "option_c": "0.01m",
+    "option_d": "0.08m",
+    "answer": "D",
+    "solution": "From Hoke's Law, F = ke, K = Constant of Force <br> For he first case, Force = mg,  <br> = 0.8 × 10 = 8N <br> ∴ 8 = k × 0.04 <br> k = \\(\\frac{8}{0.04}\\) <br> = \\(\\frac{200N}{m}\\) <br> Since K is constant <br> For the second case, F = ke <br> F = 200 × e <br> ∴ e = \\(\\frac{F}{200}\\) <br> = \\(\\frac{16}{200}\\) <br> = 0.08m"
+  },
+  {
+    "question": "How can energy loss be minimized through Eddy-current?",
+    "option_a": "By using high resistance wire",
+    "option_b": "By using insulated soft iron wires",
+    "option_c": "By using low resistance wires",
+    "option_d": "By using turns of wires",
+    "answer": "A",
+    "solution": "Eddy currents are produced by the varying flux cathode, the iron core of an equipment thus reducing efficiency due to power consumption. It can be reduced by laminating the core by breaking up the path of eddy current or by increasing the resistance of the core<br>Usage of insulated soft iron wire is to reduce hysteresis loss<br>Usage of low resistance wire (thick wire) is to reduce I2R loss<br>Usage of thick wire is to reduce leakage heat loss due to leakage of magnetic flux<br>Thus the correct answer is to use high resistance wire or thin wire"
+  },
+  {
+    "question": "From the diagram above, calculate the energy stored in the capacitor",
+    "option_a": "4.0 x 10\\(^{-2}\\)J",
+    "option_b": "4.0 x 10\\(^{-4}\\)J",
+    "option_c": "8.0 x 10\\(^{-4}\\)J",
+    "option_d": "8.0 x 10\\(^{-2}\\)J",
+    "answer": "B",
+    "solution": "c = 8µF, v = 10v <br> Energy stored = \\(\\frac{1}{2}\\) cv2 <br> = \\(\\frac{1}{2}\\) × (8 × 10− 6) × 102 <br> = 4 × 10\\(^{-4}\\)"
+  },
+  {
+    "question": "A constant force of %n acts for a % seconds on a mass of 5kg initially at rest. Calculate the final momentum",
+    "option_a": "125kgms<sup>−1</sup>",
+    "option_b": "25kgm<sup>−1</sup>",
+    "option_c": "15kgms<sup>−1</sup>",
+    "option_d": "0kgms<sup>−1</sup>",
+    "answer": "B",
+    "solution": "Impulse = momentum <br> Impulse = Force (f) × time (t) <br> Momentum = mass (m) × velocity (v) <br> ∴ Ft = Final momentum - initial momentum <br> FT = mv - mu <br> Since it is initially at rest u = 0 <br> ∴ 5 × 5 = mv − m(0) <br> 25 = mv <br> ∴ Final momentum = 25kgms\\(^{-1}\\)"
+  },
+  {
+    "question": "I. Refraction II. Interference III. Diffraction Which of the above properties are common to all waves?",
+    "option_a": "II and III only",
+    "option_b": "I, II and III",
+    "option_c": "I and II only",
+    "option_d": "I and III only",
+    "answer": "B",
+    "solution": "Refraction, Interference and diffraction are all properties of waves"
+  },
+  {
+    "question": "I. Refraction II. Interference III. Diffraction Which of the above properties are common to all waves?",
+    "option_a": "II and III only",
+    "option_b": "I, II and III",
+    "option_c": "I and II only",
+    "option_d": "I and III only",
+    "answer": "B",
+    "solution": "Refraction, Interference and diffraction are all properties of waves"
+  },
+  {
+    "question": "Which of the following is correct about an electric cell?",
+    "option_a": "Primary cell produces a large current for a long time",
+    "option_b": "Secondary cell has a very high internal resistance",
+    "option_c": "Primary cell has a very low internal resistance",
+    "option_d": "Secondary cell has a very low internal resistance",
+    "answer": "D",
+    "solution": "About electric cell<br>Primary cells are used up gradually often the cells are use and it can't be recharged<br>Secondary cells or accumulated can be recharged and used for a long period of time and their main advantage is that they have low internal resistance"
+  },
+  {
+    "question": "Which of the following is a semiconductor",
+    "option_a": "copper",
+    "option_b": "silicon",
+    "option_c": "plastic",
+    "option_d": "Iron",
+    "answer": "B",
+    "solution": "Semi-conductor have an elecctric conductivity intermediate in value between that of a pure metal and a good insulator. Silicon is an example"
+  },
+  {
+    "question": "Which of the following surfaces will absorbs radiant heat energy heat?",
+    "option_a": "white",
+    "option_b": "red",
+    "option_c": "black",
+    "option_d": "blue",
+    "answer": "C",
+    "solution": "A black solution is a better radiator of heat and allow a better absorber of heat."
+  },
+  {
+    "question": "It is known that a neutron exists in a light atomic nucleus<br>Which of the following also exists in the nucleus?",
+    "option_a": "An electron",
+    "option_b": "A β - particle",
+    "option_c": "β - particle",
+    "option_d": "proton",
+    "answer": "D",
+    "solution": "Nucleus of atom is made up of neutron and proton"
+  },
+  {
+    "question": "The instrument to measure the relative density of light is",
+    "option_a": "thermometer",
+    "option_b": "hydrometer",
+    "option_c": "spring balance",
+    "option_d": "beaker",
+    "answer": "B",
+    "solution": "Thermometer is used to measure temperature<br>Hydrometer is used to measure relative density of liquid.<br>Spring balance is used to measure the weight of an object <br>Beaker is used to measure or take volume of a liquid"
+  },
+  {
+    "question": "What is the speed of a body vibrating at 50 cyclic per second",
+    "option_a": "100 πrads\\(_{−1}\\)",
+    "option_b": "200 πrads\\(_{−1}\\)",
+    "option_c": "50 πrads\\(_{−1}\\)",
+    "option_d": "400 πrads\\(_{−1}\\)",
+    "answer": "A",
+    "solution": "1 cycle = 3600 = 2π rad <br> ∴ 50 cycle = 2 π rad × 50 = 100 πrad <br> ∴ = angular speed = 50 cycles per seconds = 100 π rads\\(_{−1}\\)"
+  },
+  {
+    "question": "The action of blotting paper on ink is due to",
+    "option_a": "diffusion",
+    "option_b": "osmosis",
+    "option_c": "capillarity",
+    "option_d": "surface tension",
+    "answer": "C",
+    "solution": "Capillarity is the tendency of a liquid to rise or fall in a narrow tube and it explains why a blotting paper absorbs ink"
+  },
+  {
+    "question": "When two mirrors are placed at an angle of 900 to each other, how many images will be formed when an object is placed in front of the mirrors",
+    "option_a": "5",
+    "option_b": "4",
+    "option_c": "3",
+    "option_d": "2",
+    "answer": "C",
+    "solution": "When two mirror are inclined at an angle θ, the number of images formed, n = \\(\\frac{360}{\\theta}\\) − 1 <br> ∴ since \\(\\theta\\) = 90o <br> ∴ \\(\\frac{360}{\\theta}\\) − 1 <br> = 4 − 1 <br> = 3"
+  },
+  {
+    "question": "If silicon is doped with phosphorus, what type of semiconductor material will be formed?",
+    "option_a": "Zener material",
+    "option_b": "P-n junction",
+    "option_c": "n-type",
+    "option_d": "p-type",
+    "answer": "C",
+    "solution": "When silicon is doped with a trivalent atom. A p-type semi-conductor will be formed when silicon is doped with a pentavalent atom such as arsenic, a n-type semi-conductor will be formed<br>Phosphorous is a pentavalent element, so it will produce a o -type semi-conductor"
+  },
+  {
+    "question": "Calculate the angle of minimum deviation of a 60o prism of a refractive index [sin-10.75 = 49o]",
+    "option_a": "38.00<sup>o</sup>",
+    "option_b": "19.47<sup>o</sup>",
+    "option_c": "16.25o<sup>o</sup>",
+    "option_d": "49<sup>o</sup>",
+    "answer": "A",
+    "solution": "For a refractive index () = \\(\\frac{\\sin\\frac{1}{2} (A + D)}{\\sin\\frac{1}{2}A}\\)  <br> D = angle of minimum deviation <br> A  = refractive angle of  the prism <br> 1.5 =  \\(\\frac{\\sin\\frac{1}{2} (60 + D)}{\\sin\\frac{1}{2} \\times 60}\\)  <br> 1.5 =   \\(\\frac{\\sin\\frac{1}{2} (60 + D)}{\\sin 30}\\)  <br> Sin \\(\\frac{1}{2}\\) (60 + D) = 1.5 * Sin 30 <br> Sin \\(\\frac{1}{2}\\) (60 + D) = 0.75 <br> \\(\\frac{1}{2}\\)  (60 + D) = Sin-1 (0.75) <br> but Sin-1 (0.75) = 49o <br> \\(\\frac{1}{2}\\) (60 + D) = 49 <br> 60 + D = 2 * 49 = 98o <br> D = 98o - 60o <br> D = 38o"
+  },
+  {
+    "question": "What is the cost of running seven 40 W lamps and five 80 W la mps for 12 hours of the electrical energy cost N7.00kWk?",
+    "option_a": "N80.00",
+    "option_b": "N45.36",
+    "option_c": "N65.00",
+    "option_d": "N57.12",
+    "answer": "D",
+    "solution": "Seven 40W lamps = 7 × 40 = 280W <br> Five 80W lamps = 5 × 80 = 400W <br> Total power = 280W + 400W <br> = 680W <br> = \\(\\frac{680KW}{1000}\\) = 0.68KW <br> The kilowatt hour = 0.68 KW × 12 hrs  <br> = 8.16 KWh <br> Cost is N 7 per KWh <br> So the cost of running them = 8.16KWh × N 7/KWh <br> = 57.12"
+  },
+  {
+    "question": "From the diagram above, calculate the total current in the circuit",
+    "option_a": "5.0A",
+    "option_b": "3.7A",
+    "option_c": "4.5A",
+    "option_d": "4.0A",
+    "answer": "B",
+    "solution": "V = IR from ohms law <br> I = \\(\\frac{V}{R}\\) <br> Since the resistance are in parallel <br> \\(\\frac{1}{Reff}\\) = \\(\\frac{1}{8}\\) + \\(\\frac{1}{12}\\) + \\(\\frac{1}{6}\\) <br> = \\(\\frac{2 + 3 + 6}{36}\\)   = \\(\\frac{11}{36}\\) <br> Reff = \\(\\frac{36}{11}\\) = 3.27 <br> I = I1 + I2 + I3  <br> = \\(\\frac{V}{Reff}\\)= \\(\\frac{12}{3.27}\\) <br> = 3.669A <br> I = 3.7A"
+  },
+  {
+    "question": "Calculate the time taken for a mango fruit that fall from the tree 20 m to the ground [g = 10 ms<sup>-2</sup>]",
+    "option_a": "10s",
+    "option_b": "5s",
+    "option_c": "4s",
+    "option_d": "2s",
+    "answer": "D",
+    "solution": "u = , H = 20, g = 10 <br> From equation of motion under gravity <br> H = ut ± \\(\\frac{1}{2}\\)gt<sup>2</sup>, It is falling so g is +ve <br> H = 0 + \\(\\frac{1}{2}\\)gt<sup>2</sup> <br> H = \\(\\frac{1}{2}\\)gt2 <br> 2H = gt<sup>2</sup> <br> \\(\\frac{2H}{g}\\) = t<sup>2</sup> <br> t = \\(\\frac{\\sqrt{2H}}{g}\\) <br>  = \\(\\frac{\\sqrt {2 \\times 20}}{10}\\) <br> = √4  <br> = 2s"
+  },
+  {
+    "question": "Which of the following is not a mechanical wave?",
+    "option_a": "wave in closed pipe",
+    "option_b": "radio waves",
+    "option_c": "water waves",
+    "option_d": "sound waves",
+    "answer": "B",
+    "solution": "Mechanical waves require material medium for their propagation only radio waves among the options docs require a material medium"
+  },
+  {
+    "question": "The velocity ratio of an inclined plane where angle of inclination in θ is",
+    "option_a": "Sinθ",
+    "option_b": "Cosθ",
+    "option_c": "Tanθ",
+    "option_d": "\\(\\frac{1}{\\sin \\theta}\\)",
+    "answer": "D",
+    "solution": "Consider an inclined plane shown below, as the effort moves along OB, the load moves is lifted up through a vertical height AB <br> V.R = \\(\\frac{\\text{distance moved by effort}}{\\text{distance moved by load}}\\)  =  \\(\\frac{OB}{AB}\\) <br> But Sinθ = \\(\\frac{opp}{hyp}\\) = \\(\\frac{AB}{OB}\\) <br> therefore; = \\(\\frac{OB}{AB}\\) = \\(\\frac{1}{\\sin \\theta}\\)"
+  },
+  {
+    "question": "The volume of a fixed mass of gas is 10cm<sup>3</sup> when its pressure is 400cmHg. Determine the volume of the gas when its pressure is 200cmHg.",
+    "option_a": "30cm<sup>3</sup>",
+    "option_b": "40cm<sup>3</sup>",
+    "option_c": "50cm<sup>3</sup>",
+    "option_d": "20cm<sup>3</sup>",
+    "answer": "D",
+    "solution": "Using boyle's law <br> P<sub>1</sub>V<sub>1</sub> = P<sub>2</sub>V<sub>2</sub> <br> V<sub>2</sub> = \\(\\frac{P_1 V_1}{200}\\) = \\(\\frac{400 \\times 10}{200}\\) <br> = 20cm<sup>3</sup>"
+  },
+  {
+    "question": "Which of the following representations is correct for an atom X with 28 electrons and 30 neutrons?",
+    "option_a": "\\(^{58}_{28}X\\)",
+    "option_b": "\\(^{30}_{28}X\\)",
+    "option_c": "\\(^{28}_{30}X\\)",
+    "option_d": "\\(^{58}_{30}X\\)",
+    "answer": "A",
+    "solution": "An atom can be represented thus, <br> \\(^{Z}_{A}X\\)  where Z = mass number <br> A = atomic number <br> A = number of proton = number of electrons in a free state = 28 <br> Z = number of protons + number of neutrons = 28 + 30 = 58 <br> \\(^{58}_{28}X\\)is the representation"
+  }
+]

@@ -1,0 +1,445 @@
+﻿[
+  {
+    "question": "Economics is the study of human behaviour as it relates to the",
+    "option_a": "efficient allocation of resources",
+    "option_b": "production of goods",
+    "option_c": "operation of companies",
+    "option_d": "generation of income",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "The downturn in the prices of shares on stock markets is a highlight of",
+    "option_a": "efficient allocation of resources",
+    "option_b": "the invisible hand",
+    "option_c": "the regulatory nature of the market",
+    "option_d": "consumer rationality",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "The standard deviation of a set of data is",
+    "option_a": "always measured from the mode",
+    "option_b": "the most representative of averages",
+    "option_c": "always measured from the median",
+    "option_d": "a measure of dispersion",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "The mean is the best measure of central tendency because it",
+    "option_a": "is not affected by extreme values in a data",
+    "option_b": "is a midpoint value in an array of data",
+    "option_c": "is a balancing point in an observation",
+    "option_d": "can be calculated from incomplete data",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "The most popular sizes of dresses and shoes are determined by the",
+    "option_a": "range",
+    "option_b": "mean",
+    "option_c": "mode",
+    "option_d": "median",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "If the demand for a good is more elastic than its supply, the tax burden is borne",
+    "option_a": "equally by consumers and producers",
+    "option_b": "more by producers",
+    "option_c": "more by consumers",
+    "option_d": "more by retailers and producers",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "If the price of a commodity with elastic demand increases, the revenue accruing to the producer will",
+    "option_a": "double",
+    "option_b": "increase",
+    "option_c": "be constant",
+    "option_d": "decrease",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "Consumer surplus tends to be higher when demand is",
+    "option_a": "inelastic",
+    "option_b": "perfectly elastic",
+    "option_c": "elastic",
+    "option_d": "unitarily elastic",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "One of the assumptions of ordinal utility theory is that",
+    "option_a": "choice is not consistent",
+    "option_b": "utility can be ranked",
+    "option_c": "total utility is a function of price",
+    "option_d": "satisfaction is measurable",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "The law of diminishing marginal utility explains why",
+    "option_a": "the slope of a normal demand curve is negative",
+    "option_b": "an abnormal demand curve slopes upwards",
+    "option_c": "the slope of a normal demand curve is positive",
+    "option_d": "the consumption of inferior goods increases with income",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "If a consumer plans to spend 120k on four oranges but spent 80k, his consumer surplus is",
+    "option_a": "N1.50",
+    "option_b": "N0.40",
+    "option_c": "N1.00",
+    "option_d": "N2.00",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "A set of factors that can shift the supply curve are changes in",
+    "option_a": "weather, price and technology",
+    "option_b": "technology, weather and population",
+    "option_c": "technology, price and taste",
+    "option_d": "population, price and taste",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "If the coefficient of price elasticity of supply is greater than one, the supply is said to be",
+    "option_a": "perfectly elastic",
+    "option_b": "fairly inelastic",
+    "option_c": "infinitely inelastic",
+    "option_d": "fairly elastic",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "If commodity X is a by-product of commodity  Y , this implies that both commodities are",
+    "option_a": "in competitive supply",
+    "option_b": "in composite supply",
+    "option_c": "jointly supplied",
+    "option_d": "in excess supply",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "In perfect competition,price is determined by the",
+    "option_a": "government",
+    "option_b": "sellers",
+    "option_c": "buyers",
+    "option_d": "market",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    
+    "question": "In order to reduce hardship faced by consumers due to high prices government can introduce",
+    "option_a": "maximum prices",
+    "option_b": "commodity boards",
+    "option_c": "minimum prices",
+    "option_d": "price control boards",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "Average product is less than marginal product when",
+    "option_a": "there is constant returns to scale",
+    "option_b": "there is increasing returns to scale",
+    "option_c": "there is decreasing returns to scale",
+    "option_d": "diminishing returns set in",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    
+    "question": "A firm enjoying economies of scale is said to be",
+    "option_a": "reducing average cost as production increases",
+    "option_b": "benefiting from the activties of other firms",
+    "option_c": "maximizing profits as production increases",
+    "option_d": "having an upward-sloping average cost curve",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "The rising portion of the long-run average cost curve of a firm is an indication that it is experiencing",
+    "option_a": "increasing efficiency",
+    "option_b": "economies of scale",
+    "option_c": "diseconomies of scale",
+    "option_d": "increasing marginal returns",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "An industry's supply curve is more likely to be elastic when firms are",
+    "option_a": "enjoying free entry and exit",
+    "option_b": "operating at full capacity",
+    "option_c": "operating below capacity",
+    "option_d": "maximizing profits",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "One of the characteristics of monopolistic competition is that",
+    "option_a": "there is mobility of factors of production",
+    "option_b": "no single seller dominates the market",
+    "option_c": "the firms are price-takers",
+    "option_d": "consumers have perfect knowledge of price",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "The demand curve for factors of production",
+    "option_a": "is perfect elastic",
+    "option_b": "slopes upwards",
+    "option_c": "slopes of downwards",
+    "option_d": "is perfectly inelastic",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "An agreement among firms on price and segmentation is termed",
+    "option_a": "cartel",
+    "option_b": "collusion",
+    "option_c": "haggling",
+    "option_d": "specialization",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "In national income accounting, tax is determined by the",
+    "option_a": "level of income",
+    "option_b": "level of consumption",
+    "option_c": "level of investment",
+    "option_d": "rate of savings",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "A decrease in aggregate spending in an economy will ultimately lead to",
+    "option_a": "boom",
+    "option_b": "inflation",
+    "option_c": "deflation",
+    "option_d": "recession",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "If MPC is 0.7 while government expenditure increased by N 150m, the equilibrium national income is",
+    "option_a": "N 214 million",
+    "option_b": "N 45 million",
+    "option_c": "N 105 million",
+    "option_d": "N 500 million",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "The function of money which makes division of labour possible is its",
+    "option_a": "unit of account",
+    "option_b": "store of value",
+    "option_c": "medium of exchange",
+    "option_d": "standard of deferred payment",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "By buying treasury bills, the Central Bank of Nigeria intends to",
+    "option_a": "increase money supply in the economy",
+    "option_b": "reduce the cash reserve ratio for banks",
+    "option_c": "reduce money supply in the economy",
+    "option_d": "increase the capital base of commercial banks",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "One of the functions of commercial banks is",
+    "option_a": "maintaining stable price in the economy",
+    "option_b": "regulating monetary policies",
+    "option_c": "granting loans to customers",
+    "option_d": "issuing bank notes and coins",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "In Nigeria, the distribution of job opportunities",
+    "option_a": "balanced budgeting",
+    "option_b": "deficit budgeting",
+    "option_c": "surplus budgeting",
+    "option_d": "zero budgeting",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "A strategy for curbing unemployment is to",
+    "option_a": "implement government stabilization policy",
+    "option_b": "increase taxes and decrease government expenditure",
+    "option_c": "increase government expenditure and decrease taxes",
+    "option_d": "ensure even distribution of job opportunities",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "National development plans in Nigeria fail mainly because of",
+    "option_a": "overdependence on foreign aids",
+    "option_b": "inadequate funding of projects",
+    "option_c": "poor implementation strategies",
+    "option_d": "shortage of skilled manpower",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "The ultimate aim of agricultural policies in Nigeria is to achieve",
+    "option_a": "food sufficiency",
+    "option_b": "industrialization",
+    "option_c": "full employment",
+    "option_d": "industrial capacity utilization",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "Government can boost agricultural output in Nigeria primarily by",
+    "option_a": "embarking on buffer stock programmes",
+    "option_b": "placing embargo on food importation",
+    "option_c": "granting subsidies on farm inputs",
+    "option_d": "placing farmers on monthly income",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "The ultimate aim of agricultural policies in Nigeria is to achieve",
+    "option_a": "food sufficiency",
+    "option_b": "industrialization",
+    "option_c": "full employment",
+    "option_d": "industrial capacity utilization",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "Localization of industries refers to the",
+    "option_a": "spread of firms producing different products",
+    "option_b": "siting of industries near the market",
+    "option_c": "concentration of firms of an industry",
+    "option_d": "siting of firms producing different products",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "In developing countries, governments influence the location of industries in order to",
+    "option_a": "spread development",
+    "option_b": "redistribute wealth",
+    "option_c": "encourage enterpreneurs",
+    "option_d": "encourage industries to earn high profits",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "A disadvantage of Nigeria's dependence on imported petroleum products is the",
+    "option_a": "instability in the demand for the products",
+    "option_b": "dominance of multinational firms",
+    "option_c": "instability in the supply of the product",
+    "option_d": "poor maintenance of the refineries",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "The maximum number of shareholders for a limited liability company's is",
+    "option_a": "twenty",
+    "option_b": "five",
+    "option_c": "seven",
+    "option_d": "infinite",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "One of the characteristics of free trade zone is",
+    "option_a": "common tariff against non-member countries",
+    "option_b": "different trade policies of non-member countries",
+    "option_c": "free factor mobility within the zone",
+    "option_d": "harmonized trade among member countries",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "The primary motive for an individual engaging in production is to",
+    "option_a": "make profit",
+    "option_b": "satisfy basic human wants",
+    "option_c": "redistribute wealth",
+    "option_d": "put inputs into use",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "If Nigeria imports vehicles from Japan the transaction will appear as a",
+    "option_a": "debit on Japan's balance of payments",
+    "option_b": "credit on Japan's balance of payments",
+    "option_c": "credit on Nigeria's balance of trade",
+    "option_d": "credit on Nigeria's balance of payment",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "One of the objectives of ADB is to",
+    "option_a": "provide subsidies on imported goods to member countries",
+    "option_b": "mobilize short-term loans for member countries",
+    "option_c": "promote economic and social development of member countries",
+    "option_d": "provide technical assistance to only poor member countries",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "The choice of the method of production in an economy is determined by the",
+    "option_a": "level of technical know-how",
+    "option_b": "rate of propulation growth",
+    "option_c": "availability of natural resources",
+    "option_d": "level of income",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "The amount of labour hired depends on the",
+    "option_a": "number of skilled labour available",
+    "option_b": "skill of labour",
+    "option_c": "marginal productivity of labour",
+    "option_d": "price of the inputs",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "What is the population growth rate in 2003?",
+    "option_a": "33.3%",
+    "option_b": "20.0%",
+    "option_c": "11.0%",
+    "option_d": "50%",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "The percentage of working population in 2002 is?",
+    "option_a": "50%",
+    "option_b": "25%",
+    "option_c": "8%",
+    "option_d": "80%",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "if \\(\\bar{x}\\) = 6 and N = 6, determine the value of ∑fx",
+    "option_a": "36",
+    "option_b": "12",
+    "option_c": "1",
+    "option_d": "72",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "The velocity of money is represented as",
+    "option_a": "\\(\\frac{\\text{Money supply}}{\\text{Real GDP}}\\)",
+    "option_b": "\\(\\frac{\\text{Real GDP}}{\\text{Money supply}}\\)",
+    "option_c": "\\(\\frac{\\text{Nominal GDP}}{\\text{Money supply}}\\)",
+    "option_d": "\\(\\frac{\\text{Real GDP}}{\\text{Nominal GDP}}\\)",
+    "answer": "C",
+    "solution": ""
+  }
+]

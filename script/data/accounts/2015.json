@@ -1,0 +1,407 @@
+﻿[
+  {
+    "question": "An expenses is said to be revenue in nature if it",
+    "option_a": "adds or contributes to the operating income of the business",
+    "option_b": "necessitates the introduction of additional capital",
+    "option_c": "reduces the capital of the business",
+    "option_d": "adds to or improves the value of fixed assets",
+    "answer": "A",
+    "solution": "This is a very correct option to the question asked. Preliminary or preoperative expenses is a good example. They are expended and have a very great contribution to the income generated."
+  },
+  {
+    "question": "An entry in a subsidiary book which does not form part of the double entry system is a",
+    "option_a": "contra entry",
+    "option_b": "single entry",
+    "option_c": "journal entry",
+    "option_d": "memorandum entry",
+    "answer": "D",
+    "solution": "A memorandum entry is not a complete journal entry because it does not contain debit and credit amounts e.g. stock split which does not affect the common stock account."
+  },
+  {
+    "question": "Determine wage expenses from the given information, wages outstanding at the beginning, wages paid during the period 15000 and wages outstanding of the period 2,000",
+    "option_a": "N16,000",
+    "option_b": "N17,000",
+    "option_c": "N13,000",
+    "option_d": "N14,000",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "Which method of pricing can be used satisfactorily in either rising or falling price situation?",
+    "option_a": "Market price",
+    "option_b": "Average method",
+    "option_c": "FIFO",
+    "option_d": "Standard price",
+    "answer": "B",
+    "solution": "An average method which accommodate all the prices and then divide (inform of mean) is well acceptable in either of the two situation."
+  },
+  {
+    "question": "Use the information below to answer this question.<br><br>\\(\\begin{array}{c|c} \n\n\\text{Stock} & 11,250 \\\\\n\n\\hline \n\n\\text{Debtors} & 18,750 \\\\\n\n\\hline\n\n\\text{Creditors} & 3,750 \\\\\n\n\\hline\n\n\\text{Bank} & 4,000 \\\\\n\n\\hline\n\n\\text{Net profit} & 7,500 \\\\\n\n\\hline\n\n\\text{Net} & 60,000 \\\\\n\n\\end{array}\\)<br><br>Calculate the acid test ratio",
+    "option_a": "5 : 1",
+    "option_b": "6 : 1",
+    "option_c": "6 : 1 : 1",
+    "option_d": "4 : 1",
+    "answer": "C",
+    "solution": "given that acid test ratio is:<br><br>\\(\\frac {\\text{Current assets – stock}}{\\text{Current liabilities}}\\)<br><br>Current assets:\\(\\frac {\\text{stock + Debtors + bank – stock}}{\\text{Current liabilities}}\\)<br><br>\\(\\frac{11250 + 18750 + 4000 – 11250}{3750}\\)<br><br>  =  34000 – 11250 = 22750 = 6:1:1"
+  },
+  {
+    "question": "Use the following information to answer this question.<br><br>Club building   400,000<br><br>Subscription prepaid  3,000<br><br>Sport kits      150,000<br><br>Bar creditors    85,000<br><br>Subscription owing    32,000<br><br>What is the club’s accumulated fund?",
+    "option_a": "N699, 000",
+    "option_b": "N641, 000",
+    "option_c": "N402, 000",
+    "option_d": "N605, 000",
+    "answer": "A",
+    "solution": "Total asset less current liabilities<br><br>400000 + 205000 + 150,000 + 32000– 85000– 3000 = 699000"
+  },
+  {
+    "question": "What will be the number of shares to be issued to a subscriber who applied for 50,000 units.",
+    "option_a": "20,000",
+    "option_b": "18,000",
+    "option_c": "15,000",
+    "option_d": "12,000",
+    "answer": "A",
+    "solution": "Allotment = 500,000 = 0.4 or 40%<br><br>∴ Each subscriber would get 40% shares of what they applied for.<br><br>∴ 50,000 x 0.4 = 20,000 units"
+  },
+  {
+    "question": "Use the information below to answer this question.<br><br>Buhari and Osinbajo are in partnership with the following partnership agreement <br><br>\n\n               Buhari            Osinbajo<br><br>Capital        40, 000             70, 000 <br><br>Salary         10, 000             15, 000 <br><br>Interest on capital  5%             5% <br><br>Profit/loss sharing ratio  40        60 <br><br>\nThe net profit for the year ended is N80,000.<br><br>\"Drawings are N80, 000 and N12, 000 for Buhari and Osinbajo respectively\"\n\nWhat is Osinbajo share of profit?",
+    "option_a": "N19, 800",
+    "option_b": "N49, 500",
+    "option_c": "N48, 000",
+    "option_d": "N29, 700",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "The major distinguishing element between the final account of a partnership and that of a sole trader is the",
+    "option_a": "drawing A/C",
+    "option_b": "capital A/C",
+    "option_c": "Creditor A/C",
+    "option_d": "Appropriation A/C",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "Use the information below to answer this question.<br><br>\\(\\begin{array}{c|c} \n\n\\text{Stock} & 11,250 \\\\\n\n\\hline \n\n\\text{Debtors} & 18,750 \\\\\n\n\\hline\n\n\\text{Creditors} & 3,750 \\\\\n\n\\hline\n\n\\text{Bank} & 4,000 \\\\\n\n\\hline\n\n\\text{Net profit} & 7,500 \\\\\n\n\\hline\n\n\\text{Net} & 60,000 \\\\\n\n\\end{array}\\)<br><br>Determine the debtors collection period",
+    "option_a": "114 days",
+    "option_b": "68 days",
+    "option_c": "37 days",
+    "option_d": "41 days",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "Prime cost is one of the following",
+    "option_a": "expenses which can be identified with an allocated to cost centers",
+    "option_b": "aggregate direct material cost, direct labour cost and variable direct expenses",
+    "option_c": "the cost taken into account in the production process whether direct or indirect",
+    "option_d": "the cost of commodities supply to an undertaking",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "The accounting concept that allows the cost of kitchen cutlery to be expensed, though it can be used for more than one year is",
+    "option_a": "Materiality",
+    "option_b": "Accrual",
+    "option_c": "Going concern",
+    "option_d": "Business entity",
+    "answer": "A",
+    "solution": "Materiality states that only items of material values are recorded e.g. the cost of a stapler should not be capitalized but expensed just as kitchen cutlery."
+  },
+  {
+    "question": "Use the information below to answer this question.<br><br>Timo and Chris are computer engineers who went into partnership as Teachi and Co. Timo brought cash ofN12,000 furniture worth of N18,000 and vehicle worth of 70,000. Chris equally brought in cash of 10,000 his building valued at 105,000 and personal computers worth N35,000.<br><br>What is the profit sharing ratio if it’s based on capital contribution by Teechi and Co?",
+    "option_a": "2 : 3",
+    "option_b": "3 : 2",
+    "option_c": "6 : 5",
+    "option_d": "5 : 6",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "When the invoice of a customer is overcast, the supplier will send to him a",
+    "option_a": "debit note",
+    "option_b": "cheque",
+    "option_c": "credit note",
+    "option_d": "payment voucher",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "Using LIFO method of stock valuation, analyze the issue quantities and their prices",
+    "option_a": "260 units at N1.50",
+    "option_b": "700 units at N1.50",
+    "option_c": "200 units at N1.50 and 500 units at N1.00",
+    "option_d": "350 units at N1.50 and 350 units at N1.00",
+    "answer": "A",
+    "solution": "given that a maximum of 260 units can be taken from the last receipt, the balance of 440 units (700-260) would be issued at N 1.00 which would be taken from the first materials received (100 units)"
+  },
+  {
+    "question": "CR.               DR.\n\nSales ledger balance    9, 500\n\nSales ledger balance    420      \n\nBought ledgers balance  6, 115   \n\nBought ledger balance   350      \n\nCredit sales            82, 000      \n\nPurchases journal   54, 700\n\nDiscount allowed    450      \n\nDiscount received   200      \n\nCash refunded to customers (debtors)    120\n\nPurchases ledger balance        250\n\nSales ledger balance                    120      <br><br>The amount brought down in the sales ledger control account would be",
+    "option_a": "N9, N1740; N120",
+    "option_b": "N90, N990",
+    "option_c": "N90, N870; N120",
+    "option_d": "N80, N750",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "The ledger entries to be made if cash sales is banked is debit",
+    "option_a": "cash, credit sales",
+    "option_b": "sales, credit cash",
+    "option_c": "bank, credit cash",
+    "option_d": "bank, credit sales",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "In a bank reconciliation statement, Dishonoured cheques is added to",
+    "option_a": "unpresented cheques",
+    "option_b": "uncredited cheques",
+    "option_c": "statement of account",
+    "option_d": "aggregate balanace as per cash book",
+    "answer": "B",
+    "solution": "dishonoured cheques are added to uncredited cheques just like standing order and bank charges."
+  },
+  {
+    "question": "Which of the following is a debit entry in debtors control account?",
+    "option_a": "discount allowed",
+    "option_b": "return inwards",
+    "option_c": "credit sales",
+    "option_d": "cash from debtors",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "Which of the following is not a proper form of the accounting equation",
+    "option_a": "fixed assets + current assets  - liabilities = capital",
+    "option_b": "fixed assests + current assests + liabilities = capital",
+    "option_c": "fixed assets – liabilities + current assets = capital",
+    "option_d": "fixed asset + current asset – capital = liabilities",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "The accounting convention that state that stock should be value that the lower of cost and net realized value is --------------- convention",
+    "option_a": "marching",
+    "option_b": "consistency",
+    "option_c": "realization",
+    "option_d": "prudency",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "What does liquidity ratio measure?",
+    "option_a": "measures operating efficiency of a company",
+    "option_b": "measures the ability of a company to meet its current obligations.",
+    "option_c": "measures the value of investments of a company",
+    "option_d": "measures the financial leverage of a company",
+    "answer": "B",
+    "solution": "liquidity ratio attempt to measure the ability to meet up with current obligations e.g. current ratio which measures the current asset to current liabilities."
+  },
+  {
+    "question": "Derive the stock turnover period.(Average stock = 23,000. Cost of sales = 300,000 year = 365 days).",
+    "option_a": "28 days",
+    "option_b": "42 days",
+    "option_c": "27 days",
+    "option_d": "23 days",
+    "answer": "A",
+    "solution": "Average stock / cost of sales x 365days."
+  },
+  {
+    "question": "The following accounting entries are made when bad debt is recovered",
+    "option_a": "debit bad debts accounts and credit bad debt recovered account",
+    "option_b": "debit debtors accounts and recovered account",
+    "option_c": "debit bad debts recovered account and credit bad debts account",
+    "option_d": "debit bad debts account and credit profit and loss account",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "One of the items listed below will not be found in a company’s memorandum and article of association. Which is it?",
+    "option_a": "objects and their alteration",
+    "option_b": "location of business",
+    "option_c": "bank signatories",
+    "option_d": "powers of directors",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "The act of making necessary adjustment after comparing the actual cost with targeted cost is cost ----------------------------",
+    "option_a": "conversion",
+    "option_b": "control",
+    "option_c": "allocation",
+    "option_d": "analysis",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "Sales ledger control account contains the total amount in respect of",
+    "option_a": "creditors",
+    "option_b": "debtors",
+    "option_c": "investors",
+    "option_d": "shareholders",
+    "answer": "B",
+    "solution": "The sales ledger control account is also known as debtors control account and includes all entries of debtors as if only one existed."
+  },
+  {
+    "question": "The following account are prepared when goods are sent to branch except",
+    "option_a": "Branch stock",
+    "option_b": "Goods set to branch account",
+    "option_c": "Branch adjustment account",
+    "option_d": "Branch debtors account",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "The basis of accounting for public sector is",
+    "option_a": "accrual basis",
+    "option_b": "cost basis",
+    "option_c": "revenue basis",
+    "option_d": "cash basis",
+    "answer": "D",
+    "solution": "This is the basis for recording in government accounting where revenue are recorded when cash is received."
+  },
+  {
+    "question": "Use the information below to answer this question<br><br>SegunOjo, didn’t keep her books on double principle. On 1st Jan, 2014, cash in hand was 850, bank overdraft 3500, debtor 15,500,stock 18,000, fittings 9,000 and creditors 12,700. As at Dec, 2014, cash in hand was 1200, cash at bank 2,500, debtors 10,000, stock 20,500, furnishing 4,000 and creditors 17,000<br><br>Determine the closing capital 31/12/2014",
+    "option_a": "17,500",
+    "option_b": "38,200",
+    "option_c": "20,700",
+    "option_d": "27,200",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "If the partnership agreement does not specify how net profit is to be divided, the profit should be divided<br><br> .",
+    "option_a": "equally",
+    "option_b": "in accordance with an established",
+    "option_c": "in proportion of current account balances",
+    "option_d": "in proportion of weighted average of capital",
+    "answer": "A",
+    "solution": "profit or loss are expected to be share equally in the absence of any agreement"
+  },
+  {
+    "question": "Use the information below to answer this question.<br><br>A business has three departments x, y and z<br><br>You are given the following information<br><br>    Selling and distribution expenses N5200\n\n    Rent for the yearN6000\n\n    Department turnover floor space in square metres<br><br>    X N60,000 80<br><br>    Y N80,000 60<br><br>    Z N100,000 60<br><br>How much rent is apportioned to department Z?",
+    "option_a": "N1, 500",
+    "option_b": "N3, 000",
+    "option_c": "N1, 800",
+    "option_d": "N2, 000",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "A sales for N2,570 was recorded in the sales day book as N2750. The error committed was",
+    "option_a": "error of principle",
+    "option_b": "error of commission",
+    "option_c": "error of original entry",
+    "option_d": "compensating error",
+    "answer": "C",
+    "solution": "This type of error deals directly with the wrong use of figures"
+  },
+  {
+    "question": "Use the information below to answer this question<br><br>Segun Ojo, didn’t keep her books on double principle. On 1st Jan, 2014, cash in hand was 850, bank overdraft 3500, debtor 15,500,stock 18,000, fittings 9,000 and creditors 12,700. As at Dec, 2014, cash in hand was 1200, cash at bank 2,500, debtors 10,000, stock 20,500, furnishing 4,000 and creditors 17,000<br><br>Compute the capital as at 1st Jan, 2014.",
+    "option_a": "27,150",
+    "option_b": "43,350",
+    "option_c": "16,200",
+    "option_d": "34,350",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "Keeping records under single entry system has the advantage of",
+    "option_a": "quality in terms of records",
+    "option_b": "Simplicity in terms of operation",
+    "option_c": "Accuracy in terms of operation",
+    "option_d": "Completeness in terms of records",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "Preliminary expenses is an example of",
+    "option_a": "fictitious assets",
+    "option_b": "liquid assets",
+    "option_c": "wasting assets",
+    "option_d": "tangible assets",
+    "answer": "A",
+    "solution": "preliminary expenses are just like other asset but are unrealizable."
+  },
+  {
+    "question": "Use the information below to answer this question.<br><br>\\(\\begin{array}{c|c} \n\n\\text{Raw materials jan.} & 5,000 \\\\\n\n\\hline \n\n\\text{Raw materials dec.} & 5,800 \\\\\n\n\\hline\n\n\\text{Purchase of raw materials} & 45,000 \\\\\n\n\\hline\n\n\\text{Salary} & 61,000 \\\\\n\n\\hline\n\n\\text{Factory lubricant} & 2,050 \\\\\n\n\\hline\n\n\\text{plant depreciation} & 1,300 \\\\\n\n\\hline\n\n\\text{Factory insurance} & 1,250 \\\\\n\n\\end{array}\\)<br><br>The prime cost for the company is",
+    "option_a": "N169, 200",
+    "option_b": "N44, 200",
+    "option_c": "N55, 800",
+    "option_d": "N230, 200",
+    "answer": "A",
+    "solution": "The prime cost are direct cost,direct material cost, direct labour cost and direct expenses.<br><br>Therefore:<br><br>Raw materials (jan)5000<br><br>Add purchases 45,000<br><br>Less raw materials (dec) 5,800<br><br>Cost of raw materials consume 44,200<br><br>Prime cost 169,200"
+  },
+  {
+    "question": "What is the ledger entry for sale of generator on credit to Patrick?",
+    "option_a": "credit sales account and debit Patrick’s account",
+    "option_b": "credit generator account and debit cash account",
+    "option_c": "credit sales account and debit cash account",
+    "option_d": "credit generator account and debit Patrick’s account",
+    "answer": "D",
+    "solution": "Patrick is receiving and should be debited while generator account is giving"
+  },
+  {
+    "question": "Sai Baba made sales of N10,000 having computed his gross profit % to sales to be 20. His opening stock was N250 and ending stock is N200. Calculate his purchases.",
+    "option_a": "N7950",
+    "option_b": "N8050",
+    "option_c": "N7050",
+    "option_d": "N8950",
+    "answer": "A",
+    "solution": "The gross profit percentage of sales would be<br><br>20% x N 10,000 = N 2000<br><br>If cost of sales + gross profit = N 10,000 = N 2000<br><br>:. N 8000 + N 2000 = N 10,000<br><br>If cost of goods available for sales less closing stock<br><br> = cost of sales<br><br>:. N8200 + N200 = N8000<br><br>Hence; cost of goods available for sale = opening stock + purchases<br><br>:. N8200 = N250 + A<br><br> = N 8200 – N 250<br><br>=N 7950"
+  },
+  {
+    "question": "Use the information below to answer this question.<br><br>Jejelaye Plc stock records for 2009 was given below:<br><br>Jan 1    received    100 units   at         N1.00<br><br>Jan 8    received    260 units   at         N1.05<br><br>Jan 20   issued      700units   at       .........<br><br>Feb 3    received    400 units  at         N1.15<br><br>What will be the issued price of 700 units, using simple average method",
+    "option_a": "N1.183",
+    "option_b": "N1.025",
+    "option_c": "N1.00",
+    "option_d": "N1.05",
+    "answer": "B",
+    "solution": "simple average method usually add up all receipt prices ahead of the issued material divided by 2"
+  },
+  {
+    "question": "Income and expenditure account is more detailed than receipts and payments account because it disclosed",
+    "option_a": "cash",
+    "option_b": "cheques",
+    "option_c": "debtors",
+    "option_d": "stocks",
+    "answer": "C",
+    "solution": "the income and expenditure account unlike the receipts and payments takes records of accruals and prepayment"
+  },
+  {
+    "question": "Capital reserves includes the following except",
+    "option_a": "revaluation surplus",
+    "option_b": "pre-incoporation profit",
+    "option_c": "share premium",
+    "option_d": "general reserves",
+    "answer": "D",
+    "solution": "general reserves is not a form of capital reserves. It is considered as revenue reserves"
+  },
+  {
+    "question": "Which of the following is not a feature of accounting information?",
+    "option_a": "timeliness",
+    "option_b": "accuracy",
+    "option_c": "completeness",
+    "option_d": "affordability",
+    "answer": "D",
+    "solution": "accounting information and report must be accurate, complete and timely. Money spent to obtain an information is not as important as how useful are those information in taking decisions."
+  },
+  {
+    "question": "The accounting concepts which assumes that business will continue to be in existence into the foresee ablefure is",
+    "option_a": "periodicity",
+    "option_b": "business entity",
+    "option_c": "dual aspect",
+    "option_d": "going concern",
+    "answer": "D",
+    "solution": "This concept is the only one among the listed that assumes that the business will continue to operate for an indefinitely long period of time."
+  },
+  {
+    "question": "The purpose of a trading account is to ascertain",
+    "option_a": "sales",
+    "option_b": "carriage outwards",
+    "option_c": "gross profit or loss",
+    "option_d": "net profit or loss",
+    "answer": "C",
+    "solution": "The trading account is primarily prepared to ascertain gross profit or loss."
+  }
+]

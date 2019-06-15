@@ -1,0 +1,407 @@
+﻿[
+  {
+    "question": "A tissue is composed of a group of",
+    "option_a": "similar cells",
+    "option_b": "tissues",
+    "option_c": "systems",
+    "option_d": "related organs",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "The population of different organisms that exist together in a habitat is called",
+    "option_a": "biomes",
+    "option_b": "biosphere",
+    "option_c": "community",
+    "option_d": "ecology",
+    "answer": "C",
+    "solution": "A biome is a regional or global land area that is characterized by the plants, animals and climate in that area\n\nOption B is wrong. This is because, biosphere is the part of the earth that supports life.\n\nOption C is correct. This is because, community consists of different organisms living together in a habitat.\n\nOption D is wrong. This is because ecology is the study of organisms and their environment."
+  },
+  {
+    "question": "Which of the following serves as the brain box in man",
+    "option_a": "skeleton",
+    "option_b": "skull",
+    "option_c": "head",
+    "option_d": "spinal column",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "Which organ removes the largest amount of excess water from the body?",
+    "option_a": "Liver",
+    "option_b": "Lung",
+    "option_c": "Kidney",
+    "option_d": "skin",
+    "answer": "C",
+    "solution": "Lungs: Remove carbon dioxide\n\nSkin: Sweat glands remove water, salts, and other wastes\n\nLarge intestine: Removes solid waste and some water in the form of feces\n\nKidneys: Remove urea, salts, and excess water from the blood"
+  },
+  {
+    "question": "The following parts are involved in breathing process, except",
+    "option_a": "mouth",
+    "option_b": "nostrils",
+    "option_c": "ribs",
+    "option_d": "diaphragm",
+    "answer": "A",
+    "solution": "The act of breathing has two stages – inhalation and exhalation\n\n\n- Inhalation – the intake of air into the lungs through expansion of chest volume.\n\n\n- Exhalation – the expulsion of air from the lungs through contraction of chest volume.\n\n\nInhalation and exhalation involves muscles:\n\n\n- Rib muscles = the muscles between the ribs in the chest.\n\n- Diaphragm muscle"
+  },
+  {
+    "question": "Which of these is not a sampling method for determining population size?",
+    "option_a": "capture and re-capture method",
+    "option_b": "complete census",
+    "option_c": "Transect method",
+    "option_d": "systematic sampling",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "A group of organisms of the same kind inhabiting the same environment is called",
+    "option_a": "ecosystem",
+    "option_b": "habitat",
+    "option_c": "population",
+    "option_d": "species",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "The light sensitive cells in the human eye is called the ................",
+    "option_a": "Choroid",
+    "option_b": "Sclerotic layer",
+    "option_c": "retina",
+    "option_d": "cones",
+    "answer": "D",
+    "solution": "Cone cells, or cones, are one of two types of photo-receptor cells in the retina of the eye. They are responsible for color vision and function best in relatively bright light, as opposed to rod cells, which work better in dim light. Cone cells are densely packed in the fovea centralis, a 0.3 mm diameter rod-free area with very thin, densely packed cones which quickly reduce in number towards the periphery of the retina. There are about six to seven million cones in a human eye and are most concentrated towards the macula"
+  },
+  {
+    "question": "The earliest form of life in animal kingdom is the",
+    "option_a": "class",
+    "option_b": "amphibian",
+    "option_c": "aves pisces",
+    "option_d": "reptilia",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "Which of the following disease is not sexually transmitted?",
+    "option_a": "Gonorrhea",
+    "option_b": "Herpes",
+    "option_c": "Influenza",
+    "option_d": "Syphilis",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "Which of the following is not a monocotyledonous seed?",
+    "option_a": "cowpea",
+    "option_b": "maize",
+    "option_c": "millet",
+    "option_d": "what",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "The lowest unit of classification is the",
+    "option_a": "class",
+    "option_b": "genus",
+    "option_c": "phylum",
+    "option_d": "species",
+    "answer": "D",
+    "solution": "Species is the lowest unit in the hierarchy of classifying living organisms.See the illustration below.\n\n\nFrom kingdom phylum → class → order → family → genus → species"
+  },
+  {
+    "question": "One of the following diseases is caused by fungi",
+    "option_a": "cassava mosaic",
+    "option_b": "coffee leaf rust",
+    "option_c": "leaf blight of cassava rossette",
+    "option_d": "disease of groundnut",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "The by-product of photosynthesis is",
+    "option_a": "CO<sub>2</sub>",
+    "option_b": "O<sub>2</sub>",
+    "option_c": "C<sub>6</sub>H<sub>12</sub>O<sub>6</sub>",
+    "option_d": "H<sub>2</sub>O",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "Gaseous exchange in the lungs takes place in the",
+    "option_a": "alveoli",
+    "option_b": "bronchi",
+    "option_c": "bronchioles",
+    "option_d": "trachea",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "In eukaryotic cells,cellular respiration takes place in the",
+    "option_a": "nucleus",
+    "option_b": "cytoplasm",
+    "option_c": "centrioles",
+    "option_d": "mitochondrion",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "One of the following causes Ebola fever",
+    "option_a": "Bacteria",
+    "option_b": "Fungi",
+    "option_c": "Protozoa",
+    "option_d": "Viruses",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "The theory of survival of the fittest was propounded by …..",
+    "option_a": "Darwin",
+    "option_b": "Hooke",
+    "option_c": "Lamarck",
+    "option_d": "Linnaeus",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "The deficiency of vitamin D leads to",
+    "option_a": "beriberi",
+    "option_b": "pellagra",
+    "option_c": "ricket",
+    "option_d": "scurvy",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "One of these is used for excretion in earthworm",
+    "option_a": "Contractile vacuole",
+    "option_b": "Flame cell",
+    "option_c": "Malpighian tubule",
+    "option_d": "Nephridium",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "The following group of plants is the most advanced except",
+    "option_a": "bryophyte",
+    "option_b": "pteridophyta",
+    "option_c": "spermatophyte",
+    "option_d": "thallophytic",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "Which of the following hormonal glands is located on top of the kidney?",
+    "option_a": "Adrenal",
+    "option_b": "gonads",
+    "option_c": "pancreas",
+    "option_d": "thyroid",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "One of these is present in both plant and animal cell?",
+    "option_a": "Cell membrane",
+    "option_b": "Cell wall",
+    "option_c": "Chloroplast",
+    "option_d": "Large cell vacuole",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "When the solute concentration of the cell and its surrounding medium are the same, the solution is said to be",
+    "option_a": "hypertonic",
+    "option_b": "hypotonic",
+    "option_c": "isotonic",
+    "option_d": "acidic",
+    "answer": "C",
+    "solution": "Any time there is the same solute concentration of both cell and its surrounding medium, the solution is said to be isotonic. So, there will be no losing or gaining of water into the cell or the surrounding medium."
+  },
+  {
+    "question": "The primary consumer in the food chain below is ................\n\n\nGreen plants → Grasshopper → Lizard → Snake → Hawk",
+    "option_a": "Grass hopper",
+    "option_b": "green plants",
+    "option_c": "hawk",
+    "option_d": "lizard",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "Angiosperms belong to the class",
+    "option_a": "bryophyte",
+    "option_b": "pteredophyta",
+    "option_c": "spermatophyte",
+    "option_d": "thallophytic",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "In the kidney, both useful substances and wastes are removed from the blood by",
+    "option_a": "Filtration",
+    "option_b": "selective absorption",
+    "option_c": "dialysis machine",
+    "option_d": "excretion",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "Which of the following is not part of the mammalian male reproductive organ?",
+    "option_a": "Epididymis",
+    "option_b": "Vas deferens",
+    "option_c": "testis",
+    "option_d": "Vulva",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "Which of the following reagent is used for testing the presence of protein in food?",
+    "option_a": "Benedict solution",
+    "option_b": "Fetiling’s Solution",
+    "option_c": "Millon’s reagent",
+    "option_d": "Sudan III",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "The breaking down of food in the alimentary canal is called",
+    "option_a": "digestion",
+    "option_b": "egestion",
+    "option_c": "excretion",
+    "option_d": "ingestion",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "The followings are the functions of the kidneys, except",
+    "option_a": "Regulation of water content in the blood",
+    "option_b": "Maintenance of blood PH and homeostasis",
+    "option_c": "Excretion of CO2",
+    "option_d": "Removal of waste products from the blood",
+    "answer": "C",
+    "solution": "Excretion of CO2 is done by the lungs through the nostrils."
+  },
+  {
+    "question": "The following distrupts the balance in an ecosystem except",
+    "option_a": "afforestation",
+    "option_b": "deforestation",
+    "option_c": "migration",
+    "option_d": "pollution",
+    "answer": "A",
+    "solution": "The planting of trees known as afforestation will prevents wind outbreak that can affect humanity and their resources as well as preventing soil erosion."
+  },
+  {
+    "question": "The following animals are viviparous expect",
+    "option_a": "Cow",
+    "option_b": "Dog",
+    "option_c": "Goat",
+    "option_d": "Pigeon",
+    "answer": "D",
+    "solution": "Pigeon is an oviparous animal that lays its egg before hatching."
+  },
+  {
+    "question": "The following animals is an invertebrate except",
+    "option_a": "flat worms",
+    "option_b": "round worms",
+    "option_c": "chordate",
+    "option_d": "protozoan",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "The following are kidney diseases except",
+    "option_a": "diuresis",
+    "option_b": "hepatitis",
+    "option_c": "nephritis",
+    "option_d": "oedema",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "The part that supplies food from the mother to the foetus is",
+    "option_a": "Amnion",
+    "option_b": "Chorion",
+    "option_c": "Umbilical Cord",
+    "option_d": "Placenta",
+    "answer": "D",
+    "solution": "Placenta establishes an intimate connection between the embryo and the mother. This connects the placenta to transfer food,water and oxygen from mother to the embryo or foetus"
+  },
+  {
+    "question": "Which of these is not the part of the eye?",
+    "option_a": "Cochlea",
+    "option_b": "Conjunctiva",
+    "option_c": "Cornea",
+    "option_d": "Iris",
+    "answer": "A",
+    "solution": "Cochlea is the structure of the mammalian hearing organ called ear."
+  },
+  {
+    "question": "De-oxygenated blood is transported to the lungs through the",
+    "option_a": "renal vein",
+    "option_b": "hepatic portal vein",
+    "option_c": "pulmonary artery",
+    "option_d": "pulmonary vein",
+    "answer": "C",
+    "solution": "Deoxygenated blood (blood containing carbon (iv) oxide) in the heart to be returned back to the lungs for the removal of the CO2,pulmonary artery aids in the process."
+  },
+  {
+    "question": "One of the following is the unit of life",
+    "option_a": "cell",
+    "option_b": "tissues",
+    "option_c": "organ",
+    "option_d": "system",
+    "answer": "A",
+    "solution": "Cell is the basic functional and structural unit of life."
+  },
+  {
+    "question": "The following are examples of a true fruit, except",
+    "option_a": "mango",
+    "option_b": "oil palm",
+    "option_c": "orange",
+    "option_d": "pineapple",
+    "answer": "D",
+    "solution": "A, B and C are not correct.Because,They are all true fruits (i.e, the fruits that develops solely from a fertilized ovary.\n\nOption D is correct. This is because, pineapple is a false fruit (a fruit developed or formed from the ovary and other floral parts of the plant or fruit flowers."
+  },
+  {
+    "question": "The vector that transmit trypanosome is the",
+    "option_a": "butterfly",
+    "option_b": "housefly",
+    "option_c": "mosquito",
+    "option_d": "tsetse fly",
+    "answer": "D",
+    "solution": "Tsetse fly is the vector that transmits trypanosome that causes trypanosomiasis or sleeping sickness."
+  },
+  {
+    "question": "The following are ductless glands except",
+    "option_a": "adrenal",
+    "option_b": "pancreatic",
+    "option_c": "parathyroid",
+    "option_d": "salivary",
+    "answer": "D",
+    "solution": "Salivary glands are found in the mouth, which secretes a juice called saliva that contains an enzyme called ptyalin."
+  },
+  {
+    "question": "White blood cells are also known as",
+    "option_a": "erythrocytes",
+    "option_b": "leucocytes",
+    "option_c": "lymphocytes",
+    "option_d": "phagocytes",
+    "answer": "B",
+    "solution": "leucocytes is another name for white blood cells"
+  },
+  {
+    "question": "The removal of remnant particles of digestion from the body is called",
+    "option_a": "assimilation",
+    "option_b": "egestion",
+    "option_c": "elimination",
+    "option_d": "excretion",
+    "answer": "B",
+    "solution": "The removal of the remnant particles of digestion called faeces is done through a process called egestion."
+  },
+  {
+    "question": "Enzyme ptyalin acts on starch in the",
+    "option_a": "oesophagus",
+    "option_b": "large intestine",
+    "option_c": "mouth",
+    "option_d": "stomach",
+    "answer": "C",
+    "solution": "Options A and B are not correct.\n\nOption C is correct. This is because, the mouth is the location where enzyme ptyalin acts on starchy food.\n\nOption D is wrong. This is because, stomach is location for the action of renin and pepsin enzymes."
+  }
+]

@@ -1,0 +1,443 @@
+﻿[
+  {
+    "question": "The type of labour that makes use of physical effort in production processes is the",
+    "option_a": "unskilled labour",
+    "option_b": "skilled labour",
+    "option_c": "blue-collar job",
+    "option_d": "white-collar job",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "The assembling of products into usable forms is known as",
+    "option_a": "creation",
+    "option_b": "manufacturing",
+    "option_c": "construction",
+    "option_d": "formation",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "The final link in the chain of distribution is",
+    "option_a": "middlemen",
+    "option_b": "whole saling",
+    "option_c": "consumer",
+    "option_d": "retailing",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "A country is said to be experiencing an unfavorable balance of trade if her",
+    "option_a": "exports exceed imports",
+    "option_b": "visible exports exceed visible imports",
+    "option_c": "imports and exports are equal",
+    "option_d": "visible imports exceed visible exports",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "Trading position of Nigeria is the same as her",
+    "option_a": "desire to trade with many countries",
+    "option_b": "willingness to grant grant credit to foreigners",
+    "option_c": "balance of trade",
+    "option_d": "terms of trade",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "The role of customs and exercise authority includes the",
+    "option_a": "provision of a good transport system to facilitate imports and exports",
+    "option_b": "provision of security at the port",
+    "option_c": "control of the flow of goods in and out of the country",
+    "option_d": "provision of dockyards for ship repairs",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "The document lodged with the customs authorities before a ship can leave the port is  a",
+    "option_a": "shipping note",
+    "option_b": "ship report",
+    "option_c": "ship manifest",
+    "option_d": "dock warrant",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "The document which must be endorsed by the ambassador of a country of destination before shipment of goods is a",
+    "option_a": "consular invoice",
+    "option_b": "certificate of origin",
+    "option_c": "bill of lading",
+    "option_d": "close indent",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "A country's terms of trade are said to improve when the ratio of her export",
+    "option_a": "decreases",
+    "option_b": "remains constant",
+    "option_c": "increases",
+    "option_d": "equals import",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "Which of the following advertising medium appeals to only the literate in the society",
+    "option_a": "radio advertising",
+    "option_b": "print media advertising",
+    "option_c": "television advertising",
+    "option_d": "cinema advertising",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "The two main forms of communication are",
+    "option_a": "oral and written",
+    "option_b": "verbal and non-verbal",
+    "option_c": "e-mail and fax",
+    "option_d": "traditional and modern media",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "The most reliable and efficient means of conveying urgent documents is through",
+    "option_a": "postal order",
+    "option_b": "ordinary letters",
+    "option_c": "registered letters",
+    "option_d": "courier services",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "An undertaking given by a person to another assuring his integrity is",
+    "option_a": "proximate cause",
+    "option_b": "fidelity quarantee",
+    "option_c": "subrogation",
+    "option_d": "insurable interest",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "An importance of warehousing is in the",
+    "option_a": "production of goods",
+    "option_b": "transportation of goods",
+    "option_c": "importation of goods",
+    "option_d": "repackaging of goods",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "In order to increase the capital owned, a sole trader may",
+    "option_a": "seek for bank loan",
+    "option_b": "issue debentures",
+    "option_c": "acquire extra shop fittings on credit",
+    "option_d": "draw less of his profit for personal use",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "A business partner who provides capital but abstains from participation in administration of a firm is a",
+    "option_a": "general partner",
+    "option_b": "nominal partner",
+    "option_c": "secret partner",
+    "option_d": "dormant partner",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "Which of the following will not be stated in a Memorandum of Association",
+    "option_a": "Name clause",
+    "option_b": "rights of shareholders",
+    "option_c": "object clause",
+    "option_d": "registered office",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "The amount of authorized capital that shareholders have subscribed to is",
+    "option_a": "issued share capital",
+    "option_b": "authorized share capital",
+    "option_c": "owner's equity",
+    "option_d": "working capital",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "The rate of turnover of a firm in a given year  is 5 times while the average stock is #12,500. what is the turnover of the firm?",
+    "option_a": "#24,000",
+    "option_b": "#46,500",
+    "option_c": "#62,500",
+    "option_d": "#65,000",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "A lawyer that defrauds his client may be derobed by the Nigerian Bar association in order to",
+    "option_a": "protect other lawyers",
+    "option_b": "protect the intergrity of the association",
+    "option_c": "compensate the affected client",
+    "option_d": "prevent the client from sueing the association",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "In the Nigerian GSM industry,a parliament is organized by the Nigerian Communications Commission in order to",
+    "option_a": "increase profit of service providers",
+    "option_b": "protect the interest of government",
+    "option_c": "encourage more people into the business",
+    "option_d": "protect the interest of consumers",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "Trade fairs in Nigeria are organised by",
+    "option_a": "the Federal Government",
+    "option_b": "Manufacturers'' Association of Nigeria",
+    "option_c": "Ministry of Commerce and Industry",
+    "option_d": "Chambers of Commerce",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "Money is generally accepted for transactions due to",
+    "option_a": "the legal backing",
+    "option_b": "the rule of law",
+    "option_c": "its acceptability in the global market",
+    "option_d": "the Central Bank Governor's signature",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "Which of the following is a quality of money",
+    "option_a": "Availability",
+    "option_b": "Scarcity",
+    "option_c": "Indivisibility",
+    "option_d": "Convertibility",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "Money can be simply be referred to as a",
+    "option_a": "measure of value",
+    "option_b": "standard of value",
+    "option_c": "means of settlement",
+    "option_d": "durable asset for doing business",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "Gilt-edged securities are issued mainly by",
+    "option_a": "individuals",
+    "option_b": "non-governmental organisations",
+    "option_c": "Government",
+    "option_d": "multi-national companies",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "The initial function of a manager is",
+    "option_a": "setting up an organisation",
+    "option_b": "coordinating",
+    "option_c": "planning",
+    "option_d": "provision of welfare package",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "The most suitable organizational structure for small or medium sized enterprises is",
+    "option_a": "line structure",
+    "option_b": "staff structure",
+    "option_c": "committee structure",
+    "option_d": "functional structure",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "In a staff-authority relationship, the opinion of a specialist in one department  to another is",
+    "option_a": "a directive",
+    "option_b": "an advice",
+    "option_c": "a command",
+    "option_d": "a delegation",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "Management of a business involves the development of ideas for the",
+    "option_a": "distribution of goods and services that human wants",
+    "option_b": "transportation of goods and services that human wants",
+    "option_c": "transfer of title of ownership of goodsand services to individuals",
+    "option_d": "production of goods and services that satisfy human needs",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "Which of the following is used as a pricing policy?",
+    "option_a": "Packaging",
+    "option_b": "Market selection",
+    "option_c": "Labelling",
+    "option_d": "Market skimming",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "The essential utility derived from the use of a product is known as",
+    "option_a": "augmented benefit",
+    "option_b": "branded benefit",
+    "option_c": "core benefit",
+    "option_d": "formal benefit",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "The breaking down of a market into separate and identifiable elements is known as",
+    "option_a": "differentiation",
+    "option_b": "segmentation",
+    "option_c": "skimming",
+    "option_d": "penetration",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "A contract that is acknowledged before the law court is referred to as",
+    "option_a": "informal contract",
+    "option_b": "formal contract",
+    "option_c": "contract of records",
+    "option_d": "specialty contract",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "An agent employed to sell goods delivered to him by the principal is referred to as a",
+    "option_a": "special agent",
+    "option_b": "del credere agent",
+    "option_c": "factor",
+    "option_d": "universal agent",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "A motor dealer who agreed to sell a car to Mr X but delivered it to Mr Y on the delivery date agreed with Mr X. He has discharged the contract by",
+    "option_a": "performance",
+    "option_b": "frustration",
+    "option_c": "an agreement",
+    "option_d": "breach",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "The right to retain possession of goods until the contract price is paid is referred to as",
+    "option_a": "a promise",
+    "option_b": "ultra vires",
+    "option_c": "a breach",
+    "option_d": "a lien",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "A contract can be terminated through",
+    "option_a": "physical combat",
+    "option_b": "family intervention",
+    "option_c": "frustration",
+    "option_d": "consultation",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "The sole legal right held by the author to publish his book is",
+    "option_a": "trademark",
+    "option_b": "copyright",
+    "option_c": "patent right",
+    "option_d": "bookmark",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "The process of transferring data from one computer to another is referred to as",
+    "option_a": "downloading",
+    "option_b": "faxing",
+    "option_c": "browsing",
+    "option_d": "decoding",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "The physical component of a computer system is",
+    "option_a": "software",
+    "option_b": "hardware",
+    "option_c": "hard disk",
+    "option_d": "floppy disk",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "The type of computer software used mainly for management information is",
+    "option_a": "corel draw",
+    "option_b": "autocad",
+    "option_c": "data base",
+    "option_d": "word perfect",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "To meet security requirements before gaining access to data, a computer operator supplies",
+    "option_a": "an e-mail address",
+    "option_b": "a yahoo address",
+    "option_c": "a password",
+    "option_d": "a modem",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "A major factor that affects business operations is",
+    "option_a": "technology",
+    "option_b": "supply",
+    "option_c": "product",
+    "option_d": "rivalry",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "The environmental hazard that is most difficult to control is",
+    "option_a": "land pollution",
+    "option_b": "water pollution",
+    "option_c": "air pollution",
+    "option_d": "political unrest",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "A computer accessory through which information can be retrieved is the",
+    "option_a": "hard disk",
+    "option_b": "input device",
+    "option_c": "control unit",
+    "option_d": "floppy disk",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "The difference between indemnity insurance and  non-indemnity insurance is that the latter provides",
+    "option_a": "cover for exporters against risks",
+    "option_b": "cover for importers against risks",
+    "option_c": "full payment to the insured",
+    "option_d": "consolation payment to the insured",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "Use the table above to answer this question <br><br> If  Mr. N takes a fire insurance policy with average clause, his compensation will be",
+    "option_a": "N 5000",
+    "option_b": "N 7, 500",
+    "option_c": "N 70, 000",
+    "option_d": "N 75, 000",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "Use the above table to answer this question <br><br> What insurance principle has Mr P Violated if he decides to overstate the actual value of his  property?",
+    "option_a": "Indemnity",
+    "option_b": "Insurable interest",
+    "option_c": "Uberrimae fidei",
+    "option_d": "Subrogation",
+    "answer": "C",
+    "solution": ""
+  }
+]

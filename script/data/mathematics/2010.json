@@ -1,0 +1,389 @@
+﻿[
+  {
+    "question": "Evaluate \\(\\left ( \\frac{81}{16} \\right)^{-\\frac{1}{4}} \\times 2^{-1}\\)",
+    "option_a": "1/3",
+    "option_b": "3",
+    "option_c": "6",
+    "option_d": "1/6",
+    "answer": "A",
+    "solution": "\\(\\left(\\frac{81}{16}\\right)^{\\frac{-1}{4}}\\times 2^{-1}=\\frac{1}{\\left(\\frac{81}{16}\\right)^{\\frac{1}{4}}}\\times \\frac{1}{2}\\\\<br>=\\left(\\frac{16}{81}\\right)^{\\frac{1}{4}}\\times \\frac{1}{2}\\\\<br>=\\left(\\frac{2}{3}\\right)^{4\\times \\frac{1}{4}}\\\\<br>=\\frac{2}{3}\\times \\frac{1}{2}\\\\<br>=\\frac{1}{3}\\)"
+  },
+  {
+    "question": "Rationalise \\(\\frac{2\\sqrt{3}+\\sqrt{5}}{\\sqrt{5}-\\sqrt{3}}\\)",
+    "option_a": "\\(\\frac{3\\sqrt{15}+11}{2}\\)",
+    "option_b": "\\(3\\sqrt{15}-11\\)",
+    "option_c": "\\(\\frac{3\\sqrt{15}-11}{2}\\)",
+    "option_d": "\\(3\\sqrt{15}+11\\)",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "Express the product of 0.21 and 0.34 in standard form",
+    "option_a": "7.14 x 10^{-3}",
+    "option_b": "7.14 x 10^{-2}",
+    "option_c": "7.14 x 10^{-1}",
+    "option_d": "7.14 x 10^{-4}",
+    "answer": "B",
+    "solution": " 0.21 x 0.34 = 0.0714 = 7.14 x 10^{-2}"
+  },
+  {
+    "question": "In a survey of 50 newspaper readers, 40 read Champion and 30 read Guardian, how many read both papers?",
+    "option_a": "10",
+    "option_b": "5",
+    "option_c": "15",
+    "option_d": "20",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "Factorize completely \\(\\frac{x^{3} + 3x^{2} -10x}{2x^{2} -8}\\)",
+    "option_a": "\\(\\frac{x\\left ( x-5 \\right)}{2\\left ( x+2 \\right )}\\)",
+    "option_b": "\\(\\frac{x\\left ( x-5 \\right )}{2\\left ( x-2 \\right )}\\)",
+    "option_c": "\\(\\frac{x\\left ( x+5 \\right )}{2\\left ( x+2 \\right )}\\)",
+    "option_d": "\\(\\frac{x^{2} + 5}{2x+4}\\)",
+    "answer": "C",
+    "solution": "\\(\\frac{x\\left ( x^{2}+3x-10\\right)}{2\\left ( x^{2}-4 \\right )} = \\frac{x\\left ( x-2 \\right )\\left ( x+5 \\right )}{2\\left ( x+2 \right )\\left ( x-2 \\right )} = \\frac{x\\left ( x+5 \\right )}{2\\left ( x+2 \\right )}\\)"
+  },
+  {
+    "question": "If y varies directly as the square root of x and y = 3 when x = 16. Calculate y when x = 64",
+    "option_a": "12",
+    "option_b": "6",
+    "option_c": "3",
+    "option_d": "5",
+    "answer": "B",
+    "solution": "\\(y \\alpha \\sqrt{x} \\Rightarrow \\frac{y_{1}}{\\sqrt{x_{1}}} = \\frac{y_{2}}{\\sqrt{x_{2}}} \\Rightarrow \\frac{3}{\\sqrt{16}} = \\frac{y_{2}}{\\sqrt{64}} \\Rightarrow y_{2} = 6\\)"
+  },
+  {
+    "question": "If \\(x*y = x+y^{2}\\), find then value of (2*3)*5",
+    "option_a": "36",
+    "option_b": "25",
+    "option_c": "11",
+    "option_d": "55",
+    "answer": "A",
+    "solution": "\\(x*y = x+y^{2}\\), 2 * 3 = 2 + 32<br>= 2 + 9<br>= 11<br>(2 * 3) * 5 = 11 + 52<br>= 11 + 25 <br>= 36"
+  },
+  {
+    "question": "If p and q are two non zero numbers and 18(p+q) = (18+p)q, which of the following must be true?",
+    "option_a": "q = 18",
+    "option_b": "p < 1",
+    "option_c": "p = 18",
+    "option_d": "q < 1",
+    "answer": "A",
+    "solution": "You can get this by substituting q = 18, in the equation: 18(p+q) = (18+p)q"
+  },
+  {
+    "question": "If \\(\\begin{vmatrix} x& 3\\ 2& 7 \\end{vmatrix}\\) = 15 find the value of x",
+    "option_a": "3",
+    "option_b": "4",
+    "option_c": "5",
+    "option_d": "2",
+    "answer": "A",
+    "solution": "[7*x - 3*2] = 15 => 7x -6 = 15 => 7x = 15 + 6 => 7x = 21 => x = 21/7 => x = 3"
+  },
+  {
+    "question": "If two smaller sides of a right angled triangle are 4cm and 5cm, find its area",
+    "option_a": "10 cm<sup>2</sup>",
+    "option_b": "6 cm<sup>2</sup>",
+    "option_c": "24 cm<sup>2</sup>",
+    "option_d": "8 cm<sup>2</sup>",
+    "answer": "A",
+    "solution": " Area of a triangle = 1/2 base x height<br>= 1/2 x 4 x 5<br>= 10 cm<sup>2</sup>"
+  },
+  {
+    "question": "An arc subtends an angle of 50<sup>o</sup> at the center of circle of radius 6cm. Calculate the area of the sector formed",
+    "option_a": "100/7",
+    "option_b": "80/7",
+    "option_c": "110/7",
+    "option_d": "90/7",
+    "answer": "C",
+    "solution": " Area of a sector =  θ  x πr2360<br>= 50/360 x 22/7 x 36/1<br>= 110/7"
+  },
+  {
+    "question": "What is the locus of point that is equidistant from points P(1,3) and q(3,5)?",
+    "option_a": "y = -χ + 6",
+    "option_b": "y = -χ - 6",
+    "option_c": "y = χ + 6",
+    "option_d": "y = χ - 6",
+    "answer": "A",
+    "solution": " Locus of a point equidistant from two fixed points is the perpendicular bisector of the straight line joining the points Gradients of Pq = (5-3 / 3-1) = 2/2 = 1<br>Gradient bisector = -1<br>Equation of perpendicular bisector \ny - y1 = m(χ - χ1\ny - 4 = -χ + 2\ny = -χ + 6"
+  },
+  {
+    "question": "If the area of ΔPqR above is 12√3 cm<sup>2</sup>, find the value of q?",
+    "option_a": "6 cm",
+    "option_b": "7 cm",
+    "option_c": "8 cm",
+    "option_d": "5 cm",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "If  y = (2x + 1)<sup>3</sup> find dy/dx",
+    "option_a": "A 3(2x+1)<sup>2</sup>",
+    "option_b": "B 6(2x+1)",
+    "option_c": "C 3(2x+1)",
+    "option_d": "D 6(2x+1)<sup>2</sup>",
+    "answer": "D",
+    "solution": "y = (2x + 1)<sup>3</sup> => dy/dx = 3(2x + 1)<sup>3-1</sup> x 2 => 3(2x + 1)<sup>2</sup> x 2 => 6(2x + 1)<sup>2</sup>"
+  },
+  {
+    "question": "Find ∫(sin x + 2)dx",
+    "option_a": "cos x + x<sup>2</sup> + K",
+    "option_b": "cos x + 2x + K",
+    "option_c": "-cos x + x<sup>2</sup> + K",
+    "option_d": "-cos x + 2x + K",
+    "answer": "D",
+    "solution": " ∫(sin χ + 2)dχ = (∫sin χ + ∫2)dx =>  -cos χ + 2χ + K"
+  },
+  {
+    "question": "Marks2345678No. of students3152423<br>from the table above, if the pass mark is 5, how many students failed the test?",
+    "option_a": "6",
+    "option_b": "2",
+    "option_c": "7",
+    "option_d": "9",
+    "answer": "D",
+    "solution": " MarksNumber of students 233145Total9"
+  },
+  {
+    "question": "Marks12345Frequency22844<br>The table above show the marks obtained in a given test.<br>How many student too the test",
+    "option_a": "16",
+    "option_b": "13",
+    "option_c": "20",
+    "option_d": "15",
+    "answer": "C",
+    "solution": "∑f = 2 + 2 + 8 + 4 + 4 => 20"
+  },
+  {
+    "question": "Marks12345Frequency22844\nThe table above show the marks obtained in a given test.\nFind the mean mark",
+    "option_a": "3.1",
+    "option_b": "3.0",
+    "option_c": "3.2",
+    "option_d": "3.3",
+    "answer": "D",
+    "solution": " Mark(χ)ffχ122224382444165420∑f = 20∑fχ = 66\nMean = ∑fχ∑f\n= 6620<br>= 3.3"
+  },
+  {
+    "question": "Find r, if 6r7<sub>8</sub> = 511<sub>9</sub>",
+    "option_a": "3",
+    "option_b": "2",
+    "option_c": "6",
+    "option_d": "5",
+    "answer": "A",
+    "solution": "6r7<sub>8</sub> = 511<sub>9</sub> => "
+  },
+  {
+    "question": "Simplify (\\(\\frac{3}{4}\\) of \\(\\frac{4}{9}\\) \\(\\div\\) 9\\(\\frac{1}{2}\\)) \\(\\div\\) 1\\(\\frac{5}{19}\\)",
+    "option_a": "A \\(\\frac{1}{5}\\)",
+    "option_b": "B \\(\\frac{1}{4}\\)",
+    "option_c": "C \\(\\frac{1}{36}\\)",
+    "option_d": "D \\(\\frac{1}{25}\\)",
+    "answer": "C",
+    "solution": "(\\(\\frac{3}{4}\\) of \\(\\frac{4}{9}\\) \\(\\div\\) 9\\(\\frac{1}{2}\\)) \\(\\div\\) 1\\(\\frac{5}{19}\\)<br>\nApplying the rule of BODMAS, we have: <br>\n(\\(\\frac{3}{4}\\) x \\(\\frac{4}{9}\\) \\(\\div\\)\\(\\frac{24}{19}\\)) \\(\\div\\)\\(\\frac{24}{19}\\)<br>\n(\\(\\frac{3}{9}\\) \\(\\div\\) \\(\\frac{19}{2}\\)) \\(\\div\\)\\(\\frac{24}{19}\\) =  (\\(\\frac{3}{9}\\) x \\(\\frac{2}{19}\\)) \\(\\div\\)\\(\\frac{24}{19}\\)<br>\n(\\(\\frac{1}{3}\\) x \\(\\frac{2}{19}\\)) \\(\\div\\)\\(\\frac{24}{19}\\)<br>\n\\(\\frac{1}{3}\\) x \\(\\frac{2}{19}\\) x \\(\\frac{19}{24}\\)<br>\n= \\(\\frac{1}{36}\\)"
+  },
+  {
+    "question": "A student measures a piece of rope and found that it was 1.26m long. If the actual length of the rope was 1.25m, what was the percentage error in the measurement?",
+    "option_a": "0.25%",
+    "option_b": "0.01%",
+    "option_c": "0.80%",
+    "option_d": "0.40%",
+    "answer": "C",
+    "solution": "Actual length of rope = 1.25mMeasured length of rope = 1.26merror = (1.26 - 1.25)m - 0.01mPercentage error = \\(\\frac{error}{\\text{actual length}}\\) x 100%= \\(\\frac{0.01}{1.25}\\) x 100% = 0.08%"
+  },
+  {
+    "question": "At what rate will the interest on N400 increases to N24 in 3 years reckoning in simple interest?",
+    "option_a": "3%",
+    "option_b": "2%",
+    "option_c": "5%",
+    "option_d": "4%",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "If p : q = \\(\\frac{2}{3}\\) : \\(\\frac{5}{6}\\) and q : r = \\(\\frac{3}{4}\\) : \\(\\frac{1}{2}\\), find p : q : r",
+    "option_a": "A 12 : 15 : 10",
+    "option_b": "B 12 : 15 : 16",
+    "option_c": "C 10 : 15 : 24",
+    "option_d": "D 9 : 10 : 15",
+    "answer": "A",
+    "solution": "If p : q = \\(\\frac{2}{3}\\) : \\(\\frac{5}{6}\\), then the sum S1 of ratio = \\(\\frac{2}{3}\\) + \\(\\frac{5}{6}\\) = \\(\\frac{9}{6}\\)<br>\nIf q : r = \\(\\frac{3}{4}\\) : \\(\\frac{1}{2}\\), then the sum S2 of ratio = \\(\\frac{3}{4}\\) + \\(\\frac{1}{2}\\) = \\(\\frac{5}{4}\\)<br>\nLet p + q = T1, then <br>\nq = (\\(\\frac{5}{6} \\div \\frac{9}{6}\\))T1 = (\\(\\frac{5}{6} \\times \\frac{6}{9}\\))T1 = \\(\\frac{5}{9}\\)T1<br>\nAgain, let q + r = T2, then <br>\nq = (\\(\\frac{3}{4} \\div \\frac{5}{4}\\))T2 = (\\(\\frac{3}{4} \\times \\frac{4}{5}\\))T2 = \\(\\frac{3}{5}\\)T2<br>\nUsing q = q<br>\n\\(\\frac{5}{9}\\)T1 = \\(\\frac{3}{5}\\)T2<br>\n5 x 5T1 = 9 x 3T2<br>\n\\(\\frac{T_1}{T_2}\\) = \\(\\frac{9 \\times 3}{5 x 5}\\) = \\(\\frac{27}{5}\\) <br>\nGiving that, T1 = 27 and T2 = 25<br>\nP = (\\(\\frac{2}{3} \\div S_1\\))T1 = (\\(\\frac{2}{3} \\div \\frac{9}{6}\\))T1<br>\n= (\\(\\frac{2}{3} \\times \\frac{6}{9}\\))27 = 12<br>\nq = (\\(\\frac{5}{6} \\div S_1\\))T1 = (\\(\\frac{5}{6} \\div \\frac{9}{6}\\))T1<br>\n= (\\(\\frac{5}{6} \\times \\frac{6}{9}\\))27 = 15 <br>\nand r = (\\(\\frac{1}{2} \\div S_2\\))T2 = (\\(\\frac{1}{2} \\div \\frac{5}{4}\\))T2<br>\n= (\\(\\frac{1}{2} \\times \\frac{4}{5}\\))25 = 10<br>\nHence p : q : r = 12: 15 : 10"
+  },
+  {
+    "question": "Given that log 2 = 0.3010, log 7 = 0.8451. Evaluate log 112.",
+    "option_a": "2.1461",
+    "option_b": "2.0491",
+    "option_c": "3.1461",
+    "option_d": "2.5441",
+    "answer": "B",
+    "solution": "log 112 = log(16 x 7)<br>\n= log 16 + log7 <br>\n= log 24 + log7<br>\n= 4log2 + log7<br>\n= 4(0.3010) + 0.8451<br>\n= 1.204 + 0.8451<br>\n= 2.0491"
+  },
+  {
+    "question": "If x \\(\\ast\\) y = x + y<sup>2</sup>, find the value of (2 \\(\\ast\\) 3)\\(\\ast\\)5",
+    "option_a": "A 25",
+    "option_b": "B 11",
+    "option_c": "C 55",
+    "option_d": "D 36",
+    "answer": "D",
+    "solution": " Given that,<br>\nX \\(\\ast\\) y = X + y<sup>2</sup> <br>\n(2 \\(\\ast\\) 3) \\(\\ast\\) 5 = (2 + 32)\\(\\ast\\)5<br>\n=  (2 + 9)\\(\\ast\\)5 = 11 \\(\\ast\\)5 <br>\nHence 11 \\(\\ast\\) 5 = 11 + 52<br>\n= 11 + 25 = 36"
+  },
+  {
+    "question": "If p and q are two non zero numbers and 18 (p + q) = (18 + p)q, which of the following must be true ?",
+    "option_a": "p ˂ 1",
+    "option_b": "p = 18",
+    "option_c": "q ˂ 1",
+    "option_d": "q = 18",
+    "answer": "B",
+    "solution": "18(p+q) = (18+p)q<br>18p + 18q = 18q + pq<br>By comparison<br>18p = 18q or p = q<br>Again, 18q = pq or 18 = p which is required"
+  },
+  {
+    "question": "The 3rd term of an arithmetic progression is -9 and the 7th term is -29. Find the 10th term of the progression",
+    "option_a": "-44",
+    "option_b": "-165",
+    "option_c": "165",
+    "option_d": "44",
+    "answer": "A",
+    "solution": "3rd term : a + 2d = -9 .......(1)<br>7th term : a + 6d = -29 ......(2)<br>(2) - (1): 4d     = -20<br>:. d =  -20/4 = -5<br>From (1) : a + 2(-5) = -9<br>           a - 10    = -9<br>:. a = -9 + 10       =  1<br>:. 10th term of A.P is a + 9d = 1 + 9 (-5)<br>= 1 - 45 = -44"
+  },
+  {
+    "question": "Find \\(\\int\\)(sin x + 2) dx.",
+    "option_a": "-cosx + 2x + k",
+    "option_b": "cosx + 2x + k",
+    "option_c": "-cosx + x<sup>2</sup> + k",
+    "option_d": "cosx + x<sup>2</sup> + k",
+    "answer": "A",
+    "solution": "\\(\\int\\)(Sin x + 2)dx = -cos x + 2x + k"
+  },
+  {
+    "question": "At what value of X does the function y = -3 - 2x + X<sup>2</sup> attain a minimum value?",
+    "option_a": "-1",
+    "option_b": "14",
+    "option_c": "4",
+    "option_d": "1",
+    "answer": "D",
+    "solution": "Given that y = -3 - 2x + X<sup>2</sup> => then, \\(\\frac{dy}{dx}\\) = -2 + 2x => At maximum value, \\(\\frac{dy}{dx}\\) = O => therefore, -2 + 2x => 2x = 2 => x = 2/2 = 1"
+  },
+  {
+    "question": "Find the equation of a line parallel to y = -4x + 2 passing through (2,3)",
+    "option_a": "y + 4x + 11 = 0",
+    "option_b": "y - 4x - 11 = 0",
+    "option_c": "y + 4x - 11 = 0",
+    "option_d": "y - 4x + 11 = 0",
+    "answer": "C",
+    "solution": "By comparing y = mx + c => with y = -4x + 2, => the gradient of y = -4x + 2 is m1 = -4 => let the gradient of the line parallel to the given line be m2, => then, m2 = m1 = -4 => (condition for parallelism) => using, y - y<sub>1</sub> = m<sub>2</sub>(x - x<sub>1</sub>) => Hence the equation of the parallel line is <br>\ny - 3 = -4(x-2)<br>\ny - 3 = -4 x + 8<br>\ny + 4x = 8 + 3<br>\ny + 4x = 11<br>\ny + 4x - 11 = 0"
+  },
+  {
+    "question": "Make q the subject of formula if p = \\(\\frac{M}{5}\\)(X + q) + 1",
+    "option_a": "\\(\\frac{5P - MX + 5}{M}\\)",
+    "option_b": "\\(\\frac{5P - MX - 5}{M}\\)",
+    "option_c": "\\(\\frac{5P + MX + 5}{M}\\)",
+    "option_d": "\\(\\frac{5P + MX - 5}{M}\\)",
+    "answer": "B",
+    "solution": "p = \\(\\frac{M}{5}\\)(X + q) + 1<br>\nP - 1 = \\(\\frac{M}{5}\\)(X + q)<br>\n\\(\\frac{5}{M}\\)(p - 1) = X + q<br>\n\\(\\frac{5}{M}\\)(p - 1)- x = q<br>\nq = \\(\\frac{5(p -1) - Mx}{M}\\)<br>\n= \\(\\frac{5p - 5 - Mx}{M}\\)<br>\n= \\(\\frac{5p - Mx - 5}{M}\\)"
+  },
+  {
+    "question": "If 9x<sup>2</sup> + 6xy + 4y<sup>2</sup> is a factor of 27x<sup>3</sup> - 8y<sup>3</sup>, find the other factor.",
+    "option_a": "A 2y + 3x",
+    "option_b": "B 2y - 3x",
+    "option_c": "C 3x + 2y",
+    "option_d": "D 3x - 2y",
+    "answer": "D",
+    "solution": "27x3 - 8y3 = (3x - 2y)3<br>\nBut 9x2 + 6xy + 4y2 = (3x +2y)2<br>\nSo, 27x3 - 8y3 = (3x - 2y)(3x - 2y)2<br>\nHence the other factor is 3x - 2y"
+  },
+  {
+    "question": "Factorize completely \\(\\frac{x^3 + 3x^2 - 10x}{2x^2 - 8}\\)",
+    "option_a": "\\(\\frac{x(x - 5)}{2(x + 2)}\\)",
+    "option_b": "\\(\\frac{x(x + 5)}{2(x + 2)}\\)",
+    "option_c": "\\(\\frac{x(x - 5)}{2(x - 2)}\\)",
+    "option_d": "\\(\\frac{x ^2 + 5}{2x + 4}\\)",
+    "answer": "B",
+    "solution": "\\(\\frac{x^3 + 3x^2 - 10x}{2x^2 - 8}\\) = \\(\\frac {x(x^2 + 3x - 10)}{2(x^2 - 4)}\\) =>  \\(\\frac {x(x^2 + 5x - 2x - 10)}{2(x + 2)(x - 2)}\\) => \\(\\frac {x(x - 2)(x + 5)}{2(x + 2)(x - 2)}\\) => \\(\\frac {x(x + 5)}{2(x + 2)}\\)"
+  },
+  {
+    "question": "\\(\\begin{array}{c|c} Marks & 1 & 2 & 3 & 4 & 5\\ \\hline Frequency & 2 & 2 & 8 & 4 & 4\\end{array}\\)<br>The table above shows the marks obtained in a given test. Find the mean mark.",
+    "option_a": "3.1",
+    "option_b": "3.0",
+    "option_c": "3.3",
+    "option_d": "3.2",
+    "answer": "C",
+    "solution": "\\(\\begin{array} & Marks(x) & freq.(f) & fx \\1 & 2 & 2 \\ 2 & 2 & 4 \\ 3 & 8 & 24 \\ 4 & 4 & 16\\ 5 & 4 & 20  \\ \\hline  & \\sum f = 20 & \\sum fx = 66\\end{array}\\)<br>___________________________________<br>\nMean mark ,\\(\\bar{x}\\) = \\(\\frac{\\sum fx}{\\sum f}\\)<br>\n= \\(\\frac{66}{20}\\)<br>\n\\(\\bar{x}\\) = 3.3"
+  },
+  {
+    "question": "In how many ways can a committee of 2 women and 3 men be chosen from 6 men and 5 women?",
+    "option_a": "100",
+    "option_b": "200",
+    "option_c": "30",
+    "option_d": "50",
+    "answer": "B",
+    "solution": "A committee of 2 women and 3 men can be chosen from 6 men and 5 women, in \\(^{5}C_{2}\\) x \\(^{6}C_{3}\\) ways <br>\n= \\(\\frac{5!}{(5 - 2)!2!} \\times {\\frac{6!}{(6 - 3)!3!}}\\)<br>\n= \\(\\frac{5!}{3!2!} \\times {\\frac{6!}{3 \\times 3!}}\\)<br>\n= \\(\\frac{5 \\times 4 \\times 3!}{3! \\times 2!} \\times {\\frac{6 \\times 5 \\times 4 \\times 3!}{3! \\times 3!}}\\)<br>\n= \\(\\frac{5 \\times 4}{1 \\times 2} \\times {\\frac{6 \\times 5 \\times 4}{1 \\times 2 \\times 3}}\\)<br>\n= 10 x \\(\\frac{6 \\times 20}{6}\\)<br>\n= 200"
+  },
+  {
+    "question": "If three unbiased coins are tossed, find the probability that they are all heads",
+    "option_a": "\\(\\frac{1}{2}\\)",
+    "option_b": "\\(\\frac{1}{3}\\)",
+    "option_c": "\\(\\frac{1}{9}\\)",
+    "option_d": "\\(\\frac{1}{8}\\)",
+    "answer": "D",
+    "solution": "P(H) = \\(\\frac{1}{2}\\) and P(T) = \\(\\frac{1}{2}\\) => Using the binomial prob. distribution, => (H + T)3 = H3 + 3H2T1 + 3HT2 + T3 => Hence the probability that three heads show in a toss of the three coins is H3 => (\\(\\frac{1}{2}\\))3 => \\(\\frac{1}{8}\\)"
+  },
+  {
+    "question": "Find the standard deviation of 2, 3, 5 and 6",
+    "option_a": "√6",
+    "option_b": "√10",
+    "option_c": "√\\(\\frac{2}{5}\\)",
+    "option_d": "√\\(\\frac{5}{2}\\)",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "A man bought a second-hand photocopying machine for N34000. He serviced i at a cost N2000 and then sold it at a profit of 15%. What was the selling price?",
+    "option_a": "N37550",
+    "option_b": "N40400",
+    "option_c": "N41400",
+    "option_d": "42400",
+    "answer": "C",
+    "solution": "Total cost = N34,000 + N2,000 <br>\n= N36,000<br>\n15% = N115<br>\n\\(\\frac{115}{100}\\) x N36,000<br>\n= N41,400"
+  },
+  {
+    "question": "W is directly proportional to U. If W = 5 when U = 3, find U when W = \\(\\frac{2}{7}\\)",
+    "option_a": "\\(\\frac{6}{35}\\)",
+    "option_b": "\\(\\frac{10}{21}\\)",
+    "option_c": "\\(\\frac{21}{10}\\)",
+    "option_d": "\\(\\frac{35}{6}\\)",
+    "answer": "A",
+    "solution": "W \\(\\alpha\\) U<br>\nW = ku<br>\nu = \\(\\frac{w}{k}\\); \\(\\frac{2}{7}\\) x \\(\\frac{3}{5}\\)<br>\n= \\(\\frac{6}{35}\\)"
+  },
+  {
+    "question": "Determine the value of x for which (x2 - 1)>0",
+    "option_a": "x < -1 or x > 1",
+    "option_b": "-1 < x < 1",
+    "option_c": "x > 0",
+    "option_d": "x < -1",
+    "answer": "A",
+    "solution": "x(x - 1) > 0<br>\nx < -1 or x > 1"
+  },
+  {
+    "question": "From the diagram above, find x",
+    "option_a": "75<sup>o</sup>",
+    "option_b": "65<sup>o</sup>",
+    "option_c": "55<sup>o</sup>",
+    "option_d": "50<sup>o</sup>",
+    "answer": "B",
+    "solution": "In the diagram above, < STU = < TRS = 25<sup>o</sup> => (< between tangent to circle and a circle and a chord through the point of contact = < in the alternate segment)<br>\n< RTS = 90<sup>o</sup> <br>\n(< in a semicircle = 90<sup>o</sup>)<br>x<sup>o</sup> + < RTS + < STU = 180<sup>o</sup><br>\nx<sup>o</sup> + 90<sup>o</sup> + 25<sup>o</sup> = 180<sup>o</sup><br>\nx<sup>o</sup> + 115<sup>o</sup> = 180<sup>o</sup><br>\nx<sup>o</sup> = 180<sup>o</sup> - 115<sup>o</sup> = 65<sup>o</sup>"
+  },
+  {
+    "question": "From the cyclic quadrilateral TUVW above, find the value of x",
+    "option_a": "20<sup>o</sup>",
+    "option_b": "23<sup>o</sup>",
+    "option_c": "24<sup>o</sup>",
+    "option_d": "26<sup>o</sup>",
+    "answer": "C",
+    "solution": "In the diagram above 88o + (3x + 20)<sup>o</sup> = 180<sup>o</sup> <br>\n(oppsite < s of circlic quad. are supplementary) <br>\n88o + 20o + 3x = 180o<br>\n108o + 3x = 180o<br>\n3x = 180o - 108o<br>\n= 72o"
+  },
+  {
+    "question": "If the area of \\(\\bigtriangleup\\)PqR above is 12\\(\\sqrt{3}\\)cm<sup>2</sup>, find the value of q?",
+    "option_a": "7cm",
+    "option_b": "8cm",
+    "option_c": "5cm",
+    "option_d": "6cm",
+    "answer": "D",
+    "solution": "Let A denote the area of \\(\\bigtriangleup\\)PqR, then A = \\(\\frac{1}{2} bh\\)<br>\nUsing Sin 60 = \\(\\frac{h}{q}\\)<br>\nh = q sin 60<br>\nSo A = \\(\\frac{1}{2}b(q \\sin 60^o)\\)<br>\n12\\(\\sqrt{3} = \\frac{1}{2} \\times 8 \\times q \\times \\frac{\\sqrt{3}}{3}\\)<br>\n12\\(\\sqrt{3}\\) - 2q\\(\\sqrt{3}\\)<br>\nq = \\(\\frac{12}{2} = 6\\)cm"
+  }
+]

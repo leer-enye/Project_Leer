@@ -1,0 +1,380 @@
+﻿[
+  {
+    "question": "In order to remove the error of parallax when talking measurements with a metre rule, the eye should be focused",
+    "option_a": "slantingly towards the right on the markings",
+    "option_b": "slantingly towards the left on the markings",
+    "option_c": "vertically downwards on the markings",
+    "option_d": "vertically upwards on the markings",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "A load is pulled at a uniform speed along a horizontal floor by a rope at 45<sup>o</sup> to floor. If the force in the rope is 1500N, what is the frictional force on the load ?",
+    "option_a": "1524N",
+    "option_b": "1350N",
+    "option_c": "1260N",
+    "option_d": "1061N",
+    "answer": "D",
+    "solution": "F = mg cos 45<sup>o</sup> = 1500 x 0.708"
+  },
+  {
+    "question": "Calculate the total distance covered by a train before coming to rest if its initial speed is 30ms<sup>-1</sup> with a constant retardation of 0.1m<sup>-2</sup>",
+    "option_a": "5500m",
+    "option_b": "4500m",
+    "option_c": "4200m",
+    "option_d": "3000m",
+    "answer": "B",
+    "solution": "S = \\(\\frac{V^2 - U^2}{20}\\)<br>S = \\(\\frac{0^2 - 30^2}{2 \\times 0.1}\\)"
+  },
+  {
+    "question": "A car starts from rest and moves with a uniform acceleration of 30ms<sup>-2</sup> for 20s. Calculate the distance covered at the end of the motion",
+    "option_a": "6km",
+    "option_b": "12km",
+    "option_c": "18km",
+    "option_d": "24km",
+    "answer": "A",
+    "solution": "S = \\(ut + \\frac{1}{2}at^2\\)<br>S = \\(0 \\times 2 + \\frac{1}{2} \\times 30 \\times 20^2\\)"
+  },
+  {
+    "question": "A rocket is fired from the earth's surface to a distant planet. By Newton's law of universal gravitation, the force F will",
+    "option_a": "increase as r reduces",
+    "option_b": "increase as G varies",
+    "option_c": "remains constant",
+    "option_d": "increases as r increases",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "If a freely suspended object is pulled to one side and released, it oscillates about the point of suspension because the",
+    "option_a": "acceleration is directly proportional to the displacement",
+    "option_b": "motion is directed away from the equilibrium point",
+    "option_c": "acceleration is directly proportional to the square of the displacement",
+    "option_d": "velocity is minimum at the equilibrium ponit",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "An object moves in a circular path of radius 0.5m with a speed of 1ms<sup>-1</sup> What is its angular velocity?",
+    "option_a": "8 rads<sup>-1</sup>",
+    "option_b": "4 rads<sup>-1</sup>",
+    "option_c": "2 rads<sup>-1</sup>",
+    "option_d": "1 rads<sup>-1</sup>",
+    "answer": "C",
+    "solution": "W = \\(\\frac{v}{r} = \\frac{1}{0.5}\\)"
+  },
+  {
+    "question": "An object of mass 20kg slides down an inclined plane at an angle of 30<sup>o</sup> to the horizontal. The coefficient of static friction is?<br> [g = 10ms<sup>-2</sup>]",
+    "option_a": "0.2",
+    "option_b": "0.3",
+    "option_c": "0.5",
+    "option_d": "0.6",
+    "answer": "D",
+    "solution": "\\(\\mu = tan\\theta = tan30\\)"
+  },
+  {
+    "question": "A block and tackle is used to raise a load of 250N through a vertical distance of 30m. What is the efficiency of the system if the work done against friction is 1500J?",
+    "option_a": "62.5%",
+    "option_b": "73.3%",
+    "option_c": "83.3%",
+    "option_d": "94.3%",
+    "answer": "C",
+    "solution": "Y = \\(\\frac{work output}{work input} \\times \\frac{150}{1}\\)<br>Y = \\(\\frac{250 \\times 30}{250 \\times 30 + 1500} \\times \\frac{150}{1}\\)"
+  },
+  {
+    "question": "If a load of 1 kg stretches a cord by 1.2cm, what is the force constant of the cord?  {g=10ms<sup>-2</sup>}",
+    "option_a": "866Nm<sup>-1</sup>",
+    "option_b": "833Nm<sup>-1</sup>",
+    "option_c": "769Nm<sup>-1</sup>",
+    "option_d": "667Nm<sup>-1</sup>",
+    "answer": "B",
+    "solution": "K = \\(\\frac{F}{e}\\)<br>K = \\(\\frac{1 \\times 10}{\\frac{0.2}{100}}\\)<br>K = \\(\\frac{10}{12} \\times \\frac{1000}{1}\\)"
+  },
+  {
+    "question": "An object of volume 1 m<sup>3</sup> and mass 2kg is totally immersed in a liquid of density 1 kgm<sup>-3</sup> . Calculate its apparent weight.",
+    "option_a": "20N",
+    "option_b": "10N",
+    "option_c": "2N",
+    "option_d": "1N",
+    "answer": "B",
+    "solution": "M = DV = 1 x 1 = 1kg<br>App Wt = (2 - 1)g = 1 x 10<br>= 10"
+  },
+  {
+    "question": "The pressure at any point in a liquid at rest depends only on the",
+    "option_a": "depth and the density",
+    "option_b": "mass and the volume",
+    "option_c": "quantity and the surface area",
+    "option_d": "surface area and the viscosity",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "A balloon whose volume is 300m<sup>3</sup> is filled with hydrogen. If the density of air is 1.3 kgm<sup>-3</sup>, find the upthrust on the balloon. [g = 10ms<sup>-2</sup>]",
+    "option_a": "3000N",
+    "option_b": "3800N",
+    "option_c": "3900N",
+    "option_d": "4200N",
+    "answer": "C",
+    "solution": "F = mg = D x V x g = 1.3 x 300 x 10 = 3900"
+  },
+  {
+    "question": "Clinical thermometers are examples of",
+    "option_a": "pressure gas thermometer",
+    "option_b": "resistance thermometer",
+    "option_c": "alcohol thermometer",
+    "option_d": "mercury- in - glass thermometer",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "Two metals P and q are heated through the same temperature difference. If the ratio of the linear expansivities of P to q is 2:3 and the ratio of their<br> length is 3: 4 respectively, the ratio of the increase in lengths of P to q is",
+    "option_a": "1:2",
+    "option_b": "2:1",
+    "option_c": "8:9",
+    "option_d": "9:8",
+    "answer": "A",
+    "solution": "P: \\(\\frac{\\alpha h \\theta}{\\alpha h \\theta}\\)<br>\\(\\frac{2 \\times 3 \\times \\theta}{3 \\times 4 \\times \\theta}\\)<br>\\(\\frac{1}{2}\\)"
+  },
+  {
+    "question": "2000cm<sup>3</sup> of a gas is collected at 27<sup>o</sup>C and 700mmHg. What is the volume of the gas at standard temperature and pressure?",
+    "option_a": "1896.5cm<sup>3</sup>",
+    "option_b": "1767.3cm<sup>3</sup>",
+    "option_c": "1676.3cm<sup>3</sup>",
+    "option_d": "1456.5cm<sup>3</sup>",
+    "answer": "C",
+    "solution": "\\(V_2 = \\frac{P_1V_1T_2}{P_2T_2}\\)<br>\\(V_2 = \\frac{700 \\times 2000 \\times 273}{760 \\times 300}\\)"
+  },
+  {
+    "question": "Calculate the temperature change when 500J of heat is supplied to 100g of water",
+    "option_a": "12.1<sup>o</sup>C",
+    "option_b": "2.1<sup>o</sup>C",
+    "option_c": "1.2<sup>o</sup>C",
+    "option_d": "0.1<sup>o</sup>C",
+    "answer": "C",
+    "solution": "\\(\\theta = \\frac{q}{MC}\\)<br>\\(\\theta = \\frac{500}{0.1 \\times 4200}\\)"
+  },
+  {
+    "question": "Which of the following is NOT a factor that can increase the rate of evaporation of water in a lake?",
+    "option_a": "increase in the pressure of the atmosphere",
+    "option_b": "rise in temperature",
+    "option_c": "increase in the average speed of the molecules of water",
+    "option_d": "increase in the kinetic energy of the molecules of water",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "The quantity of heat energy required to melt completely 1 kg of ice at -30<sup>o</sup>C is<br> [latent heat of fusion = 3.5 x 10 5Jkg<sup>-1</sup>, specific heat capacity of ice = 2.1x10<sup>3</sup>Jkg<sup>-1</sup>K<sup>-1</sup>]",
+    "option_a": "4.13x10<sup>6</sup>J",
+    "option_b": "4.13x10<sup>5</sup>J",
+    "option_c": "3.56x10<sup>4</sup>J",
+    "option_d": "3.56x10<sup>2</sup>J",
+    "answer": "B",
+    "solution": " q = mL + mcθ = 1 x 3.5 x 10 5 + 1 x 2.1 x 10 3 x 30"
+  },
+  {
+    "question": "I. It is a rapid, constant and irregular motion of tiny particles. II. It gives evidence that tiny particles of matter called molecules exist. III. It takes place only in gases. IV. It gives evidence that molecules are in a constant state of random motion. which of the combinations above is correct about Brownian notion?",
+    "option_a": "I,II and III only",
+    "option_b": "II,III and IV only",
+    "option_c": "I,III and lV only",
+    "option_d": "l, ll and lV only",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "The equation of a wave traveling in a horizontal direction is expressed as y = 15 sin 2/5 (60t - x) what is its wave length?",
+    "option_a": "60m",
+    "option_b": "15m",
+    "option_c": "5m",
+    "option_d": "2m",
+    "answer": "C",
+    "solution": "\\(\\frac{\\lambda}{2 \\pi}\\)<br>\\(\\frac{5}{2 \\pi}\\) = 5m"
+  },
+  {
+    "question": "Which of the following factors will affect the velocity of sound?",
+    "option_a": "An increase in the pitch of the sound",
+    "option_b": "An increase in the loudness of the sound",
+    "option_c": "Wind travelling in the same direction of the sound",
+    "option_d": "A change in the atmospheric pressure at constant temperature",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "The characteristic of a vibration that determines its intensity is the",
+    "option_a": "Frequency",
+    "option_b": "Overtone",
+    "option_c": "Wavelength",
+    "option_d": "Amplitude",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "Where can a man place his face to get an enlarged image when using a concave mirror to shave?",
+    "option_a": "Between the centre of curvature and the principal focus",
+    "option_b": "At the principal focus",
+    "option_c": "Between the principal focus and the pole",
+    "option_d": "At the centre of curvature",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "A pinhole camera is placed 300m in front of a building so that the image is formed on a screen 5cm from the the pinhole. If the image is 2.5cm high, the height of the building will be",
+    "option_a": "25m",
+    "option_b": "50m",
+    "option_c": "100m",
+    "option_d": "150m",
+    "answer": "D",
+    "solution": "==> \\(\\frac{v}{u}\\) = \\(\\frac{hi}{ho}\\) <br>==> \\(\\frac{5}{300}\\) = \\(\\frac{2.5}{ho}\\)<br>= 150m"
+  },
+  {
+    "question": "The magnification of an object 2cm tall when placed 10cm in front of a plane mirror is",
+    "option_a": "6.0",
+    "option_b": "1.0",
+    "option_c": "0.7",
+    "option_d": "0.6",
+    "answer": "B",
+    "solution": "M = v = \\(\\frac{2}{2}\\) = 1"
+  },
+  {
+    "question": "After reflection from the concave mirror, rays of light from the sun converges",
+    "option_a": "at the radius of curvature",
+    "option_b": "at the focus",
+    "option_c": "beyond the radius of curvature",
+    "option_d": "between the focus and radius of curvature",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "A glass block of thickness 10cm is placed on an object. If an observer views the object vertically, the displacement of the object is",
+    "option_a": "3.33cm",
+    "option_b": "5.00cm",
+    "option_c": "6.67cm",
+    "option_d": "8.50cm",
+    "answer": "A",
+    "solution": "\\(\\mu\\) = R.9 = 1.5 = 10<br>A.P A.d, Ad = 6.66<br>Displacement = R.d - A.d = 10 - 6.66<br>= 3.33"
+  },
+  {
+    "question": "I. Rays of light travel from a less dense medium to a denser medium. II. The Angle of incidence is greater than critical angle. III. Rays of light travel from a denser medium to a less dense medium. Which of the statements above are conditions for total internal reflection to occur?",
+    "option_a": "I & II only",
+    "option_b": "I & III only",
+    "option_c": "II & III only",
+    "option_d": "II only",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "The use of lenses is Not applicable in the",
+    "option_a": "projector",
+    "option_b": "human eye",
+    "option_c": "periscope",
+    "option_d": "telescope",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "Disperson of white light is the ability of white light to",
+    "option_a": "penetrate air, water and glass",
+    "option_b": "move in a straight line",
+    "option_c": "move around corners",
+    "option_d": "separate to its component colours",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "A newly charged 12V accumulator can easily start a car whereas eight new dry cells in series with a effective e.m.f. of 12V cannot start the same car because",
+    "option_a": "The current capacity is high",
+    "option_b": "The current capacity is low",
+    "option_c": "it cannot be re-charged",
+    "option_d": "it cannot easily be connected to a car",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "The fuse in an electric device is always connected to the",
+    "option_a": "neutral side of an electric supply",
+    "option_b": "earth side of an electric supply",
+    "option_c": "live side of an electric supply",
+    "option_d": "terminal side of an electric supply",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "A particle carrying a charge of 1. 0 x 10-8C enters a magnetic field at 3.0x 10<sup>-2</sup> ms<sup>-1</sup> at right angles to the field. If the force on this particle is 1.8 x 10<sup>-8</sup>N, what is the magnitude of the field?",
+    "option_a": "6.0x10<sup>-1</sup>T",
+    "option_b": "6.0x10T",
+    "option_c": "6.0x10<sup>-3</sup>T",
+    "option_d": "6.0x10<sup>-4</sup>T",
+    "answer": "B",
+    "solution": "F = BqV<br>B = \\(\\frac{F}{qV}\\)<br>B = \\(\\frac{1.8 \\times 10^{-8}}{1.0 \\times 10^{-8} \\times 3.0 \\times 10^{-2}}\\)"
+  },
+  {
+    "question": "The current output from of an a.c. source is given as I = 10sin to t. The d.c equivalent of the current is",
+    "option_a": "5.0A",
+    "option_b": "7.1A",
+    "option_c": "10.0A",
+    "option_d": "14.1A",
+    "answer": "B",
+    "solution": "I<sub>rms</sub> = \\(\\frac{10}{\\sqrt{2}}\\)"
+  },
+  {
+    "question": "A conductor of length 1m moves with a velocity of 50ms<sup>-1</sub> at an angle of 30<sup>o</sup> to  the direction of a uniform magnetic field of flux density 1.5Wbm<sup>-2</sup>. What is the e.m.f induced in the conductor?",
+    "option_a": "37.5V",
+    "option_b": "50.5V",
+    "option_c": "75.0V",
+    "option_d": "80.5V",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "The process of detecting a pin mistakenly swallowed by a child is X-ray",
+    "option_a": "Diagnosis",
+    "option_b": "Therapy",
+    "option_c": "Crystallography",
+    "option_d": "Mammography",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "Which of the following particies CANNOT be deflected by both electric and magnetic fields?",
+    "option_a": "Gamma rays",
+    "option_b": "Alpha particles",
+    "option_c": "Wave particles",
+    "option_d": "Beta particles",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "A piece of radioactive material contains 1000 atmos. If its half -life is 20seconds, the time taken for 125 atoms to remain is",
+    "option_a": "20 seconds",
+    "option_b": "40 seconds",
+    "option_c": "80 seconds",
+    "option_d": "60 seconds",
+    "answer": "D",
+    "solution": "1000 → 500 → 250 → 125<br>20 + 20 + 20 = 60s"
+  },
+  {
+    "question": "The p-n junction diodes can act as rectifiers because they",
+    "option_a": "conduct current when forward-biased",
+    "option_b": "conduct current when reverse-biased",
+    "option_c": "block current when forward-biased",
+    "option_d": "conduct current in both directions",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "If a reverse-biased voltage is applied across a p-n junction, the depletion layer width is",
+    "option_a": "increased",
+    "option_b": "decreased",
+    "option_c": "constant",
+    "option_d": "halved",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "I. Small size.<br> II. Low power requirement<br> III. Not easily damaged by high temperature<br> IV. Highly durable. Which of the above are the advantages of semiconductors?",
+    "option_a": "I,II and lll only",
+    "option_b": "ll,lll and lV only",
+    "option_c": "l, Hand lV only",
+    "option_d": "l, ll, lll and lV",
+    "answer": "D",
+    "solution": ""
+  }
+]

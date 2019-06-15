@@ -1,0 +1,443 @@
+﻿[
+  {
+    "question": "The most important function of commerce is in?",
+    "option_a": "enhancing business relationships",
+    "option_b": "helping people to improve their profits",
+    "option_c": "facilitating exchange among individuals and firms",
+    "option_d": "assisting trade through banking and insurance",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "The three main classification of  occupation are?",
+    "option_a": "construction, trade and services",
+    "option_b": "manufacturing, industry and services",
+    "option_c": "farming, banking and trading",
+    "option_d": "industry, commerce and services",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "An oil exploration company is engaged in?",
+    "option_a": "tertiary production",
+    "option_b": "constructive occupation",
+    "option_c": "extractive occupation",
+    "option_d": "secondary production",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "Service rendered to the public is provided by?",
+    "option_a": "governement",
+    "option_b": "civil servants",
+    "option_c": "professionals",
+    "option_d": "domestic servants",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "The creation of goods and services o satisfy human wants is referred to as?",
+    "option_a": "manufacturing",
+    "option_b": "commercialization",
+    "option_c": "production",
+    "option_d": "entrepreneurship",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "Resources obtained from the extractive sector that  are transformed into finished products are examples of?",
+    "option_a": "primary production",
+    "option_b": "tertiary production",
+    "option_c": "direct production",
+    "option_d": "secondary production",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "Which of the following is a limitation of division of labour?",
+    "option_a": "Decline in craftmanship",
+    "option_b": "Monotony of work",
+    "option_c": "Reduction in output",
+    "option_d": "Reduction in labour force",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "An individual that links the producer with the retailer is?",
+    "option_a": "an agent",
+    "option_b": "a wholesaler",
+    "option_c": "an entrepreneur",
+    "option_d": "a principal",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "One of the functions of a retailer is the?",
+    "option_a": "financing of production activities",
+    "option_b": "provision of credit facilities to relations",
+    "option_c": "provision of jobs for customers",
+    "option_d": "breaking of bulk",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "The main frame of selling directly to the consumers by manufacturers is to?",
+    "option_a": "reduce transportation cost",
+    "option_b": "make contact with individual consumers",
+    "option_c": "discourage the activities of middlemen",
+    "option_d": "maximize profit margin",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "Balance of payment problems arise if a country's?",
+    "option_a": "exports is more than imports",
+    "option_b": "imports is more than exports",
+    "option_c": "currency devaluation",
+    "option_d": "invisible exports is more than visible exports",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "The three components of a country's balance of payments are?",
+    "option_a": "current account, capital account and monetary movement account",
+    "option_b": "capital account, trade account and business record",
+    "option_c": "sales account, profit and loss account  and capital account",
+    "option_d": "monetary movement account, trade account and sales ledger",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "A document that indicates obligation that is transferable by delivery and endorsement is a?",
+    "option_a": "bill of lading",
+    "option_b": "bill of exchange",
+    "option_c": "documentary evidence",
+    "option_d": "negotiable instrument",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "The document which can be exchange for a bill of lading is?",
+    "option_a": "freight note",
+    "option_b": "mate receipt",
+    "option_c": "export invoice",
+    "option_d": "ship report",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "The price quoted which includes the cost of insurance, freight and all delivery charges to the importer's warehouse is?",
+    "option_a": "Free Alongside Ship",
+    "option_b": "Franco",
+    "option_c": "Free On Board",
+    "option_d": "Free On Rail",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "The purchase of goods under the CWO system of payment implies that?",
+    "option_a": "money must be enclosed when ordering",
+    "option_b": "payment must be made on delivery",
+    "option_c": "payment must be made within few days",
+    "option_d": "cash must be paid on the spot",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "The most effective nut limited medium of advertising in Nigeria is?",
+    "option_a": "billboard",
+    "option_b": "television",
+    "option_c": "newspaper",
+    "option_d": "radio",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "A cheque that has been drawn but not presented for payment can still be honored?",
+    "option_a": "wintin 6 months",
+    "option_b": "after 9 months",
+    "option_c": "within 9 months",
+    "option_d": "after 6 months",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "The major source of income to commercial banks is?",
+    "option_a": "tourism",
+    "option_b": "banking",
+    "option_c": "communication",
+    "option_d": "transportation",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "Mr. Lawal insured his warehouse against burglary but it was later gutted  by fire. this implies that?",
+    "option_a": "the loss should be borne by the insurer",
+    "option_b": "Mr. Lawal is liable only for half of the estimated loss",
+    "option_c": "the insurer should make a consolation payment for the loss",
+    "option_d": "the loss should be borne by Mr. Lawal",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "The agreement of insurers to spread risks among themselves is a major feature of?",
+    "option_a": "reinsurance",
+    "option_b": "life insurance",
+    "option_c": "underwriter",
+    "option_d": "marine insurance",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "Inbound tourism occurs when?",
+    "option_a": "non-residents  of a country travel to other countries",
+    "option_b": "resident of a country travel to another country",
+    "option_c": "non-resident of a country tyravel within it",
+    "option_d": "resident of a country travel within it",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "One of the major disadvantages of pipeline transportation is its?",
+    "option_a": "high cost of construction",
+    "option_b": "limitation in scope",
+    "option_c": "vulnerability to climate changes",
+    "option_d": "high maintainance cost",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "The business organization that can effectively  combine management with control is?",
+    "option_a": "private limited liability company",
+    "option_b": "sole proprietorship",
+    "option_c": "public limited liability company",
+    "option_d": "co-operation society",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "When two or more companies agree to execute a project too large for one to handle, this is referred to as?",
+    "option_a": "an amalgamation",
+    "option_b": "a cartel",
+    "option_c": "a merger",
+    "option_d": "a consortium",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "In the event of voluntary liquidation, the appointed of a liquidator is the responsibility of the?",
+    "option_a": "directors",
+    "option_b": "creditors",
+    "option_c": "promoters",
+    "option_d": "court",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "A source of business financing which involves pledging of a specific assets is?",
+    "option_a": "bond",
+    "option_b": "mortage",
+    "option_c": "debentures",
+    "option_d": "loan",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "An example of a trade association is?",
+    "option_a": "ALGON",
+    "option_b": "NLC",
+    "option_c": "NURTW",
+    "option_d": "NULGE",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "A broker is an agent who links a potential investor with?",
+    "option_a": "a shareholder who wants to register a company",
+    "option_b": "other members of the exchange who want to trade",
+    "option_c": "governement official on the exchange",
+    "option_d": "a quoted company",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "Second-tier Securities Market differ from the First-tier Securities Market in that the former is?",
+    "option_a": "highly restricted",
+    "option_b": "regulated by the SEC",
+    "option_c": "regulated by the NIPC",
+    "option_d": "less restricted",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "A communication process providing information for decision-making in an organization is the?",
+    "option_a": "Management information System",
+    "option_b": "Transmission Control Protocol",
+    "option_c": "Information Retrieval System",
+    "option_d": "File Transfer Protocol",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "The managerial ability of a supervisor in an organization may be underutilized if the?",
+    "option_a": "morale of the supervisedis high",
+    "option_b": "span of control is wide",
+    "option_c": "span of control is narrow",
+    "option_d": "morale of thr supervisor is low",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "The arrangement and interrelationship of the various components and positions of a business is referred to as?",
+    "option_a": "organizational structure",
+    "option_b": "clarity of objective",
+    "option_c": "unity of direction",
+    "option_d": "line structure",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "The variety of goods and services which a company offers for sale is its?",
+    "option_a": "place mix",
+    "option_b": "promotion mix",
+    "option_c": "price mix",
+    "option_d": "product mix",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "Activities undertaken to create awareness for goods by conducting contest is?",
+    "option_a": "marketing concept",
+    "option_b": "consumerism",
+    "option_c": "sales promotion",
+    "option_d": "marketing mix",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "The slogan, a wonderful world, used by a communication network is a form of?",
+    "option_a": "product differentiation",
+    "option_b": "persuasive advertising",
+    "option_c": "publicity",
+    "option_d": "packaging",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "To make a simple contract valid, the intention must be?",
+    "option_a": "legal and written",
+    "option_b": "legal and binding",
+    "option_c": "legal and attractive",
+    "option_d": "legal and harmonious",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "The major parties to an agency relationship are the?",
+    "option_a": "principal and the creditor",
+    "option_b": "bailee and the bailor",
+    "option_c": "principal and the agent",
+    "option_d": "shareholder and the creditor",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "One of the obligations of an employer to an employee is to?",
+    "option_a": "indemnify him against liabilities incurred on duty",
+    "option_b": "award scholarship to his children",
+    "option_c": "terminate his appointment without prior notice",
+    "option_d": "indemnity himagainst injuries caused through negligence",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "The body charged with the responsibility of regulating foods and drugs in Nigeria is the?",
+    "option_a": "SON",
+    "option_b": "NDLEA",
+    "option_c": "NAFDAC",
+    "option_d": "CAC",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "The physical components of a computer system refers to the?",
+    "option_a": "system unit",
+    "option_b": "hardware",
+    "option_c": "software",
+    "option_d": "compact disk",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "An example of a computer operating system is?",
+    "option_a": "the Pagemaker",
+    "option_b": "the Word Perfect",
+    "option_c": "Microsoft Word 2000",
+    "option_d": "Windows 2000",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "Intranet differs from extranet in that the former?",
+    "option_a": "requires a modem before it could be used",
+    "option_b": "can generally be accessed by the public",
+    "option_c": "is restricted to employees of an organization",
+    "option_d": "requires internet protocols",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "A predominant make-up language for web pages is the?",
+    "option_a": "IP",
+    "option_b": "HTTP",
+    "option_c": "HTML",
+    "option_d": "TCP",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "A software application which enables a user to display and interact with texts, images and videos is the?",
+    "option_a": "web server",
+    "option_b": "Internet Protocol",
+    "option_c": "coreldraw",
+    "option_d": "web browser",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "The symbol at in an internet mail address is used to?",
+    "option_a": "seperate the user name from the machine name",
+    "option_b": "link the user with other Internet users",
+    "option_c": "locate the addresses of Internet users",
+    "option_d": "link the user with the machine",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "A business organization is said to be socially responsible when it?",
+    "option_a": "gets involved in issues relating to the society",
+    "option_b": "rewards its staff for long-term service",
+    "option_c": "offers discounts to customers",
+    "option_d": "invites the public to its annual general meetings",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "Resources obtained from the extractive sector that are transformed into finished products are examples of",
+    "option_a": "primary production",
+    "option_b": "tertiary production",
+    "option_c": "direct production",
+    "option_d": "secondary production.",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "From the diagram above, what does I stand for?",
+    "option_a": "Aids to trade",
+    "option_b": "Publicity",
+    "option_c": "Home trade",
+    "option_d": "Advertising",
+    "answer": "B",
+    "solution": ""
+  }
+]

@@ -1,0 +1,443 @@
+[
+  {
+   "question": "Accounting information seeks to provide",
+   "option_a": "permanent records for all transactions",
+   "option_b": "analysis of accounts to trade debtors",
+   "option_c": "audited reports on the accounts of a company",
+   "option_d": "data about the employees of a company", 
+   "answer": "A", 
+   "solution": ""
+  },
+  {
+   "question": "When the debit side total of an account, t means that the account has",
+   "option_a": "been overdrawn",
+   "option_b": "been understand",
+   "option_c": "debit balance",
+   "option_d": "credit balance", 
+   "answer": "C", 
+   "solution": ""
+  },
+  {
+   "question": "July 1 - Started business with #10,500<br> July 31- Paid Agromachinex #6,000 owing<br> them<br> The double entry for July 1 would be",
+   "option_a": "debit capital and credit cash",
+   "option_b": "credit cash and debit bank",
+   "option_c": "debit cash and credit capital",
+   "option_d": "debit purchases and credit cash", 
+   "answer": "C", 
+   "solution": ""
+  },
+  {
+   "question": "July 1 - Started business with #10,500<br> July 31- Paid Agromachinex #6,000 owing<br> them<br> The double entry for July 31 would be",
+   "option_a": "debit Agromachinex and credit cash",
+   "option_b": "debit equipment and credit Agromachinex",
+   "option_c": "credit capital and debit cash",
+   "option_d": "credit cash and debit purchases", 
+   "answer": "A", 
+   "solution": ""
+  },
+  {
+   "question": "The total credit sales for a period can be extracted from the",
+   "option_a": "cash book",
+   "option_b": "sales day book",
+   "option_c": "petty cash book",
+   "option_d": "returns inwards", 
+   "answer": "B", 
+   "solution": ""
+  },
+  {
+   "question": "The major source document which enables an employer to calculate the employee wages is the",
+   "option_a": "nominal roll of employees",
+   "option_b": "record of number of hours worked",
+   "option_c": "effort of the employee",
+   "option_d": "record of number of dependants per employee", 
+   "answer": "B", 
+   "solution": ""
+  },
+  {
+   "question": "Which of the following items is a capital expenditure?",
+   "option_a": "Maintenance of office machine",
+   "option_b": "Purchase of office stationery",
+   "option_c": "Carriage inwards",
+   "option_d": "Purchase of office machinery",
+   "answer": "D", 
+   "solution": ""
+  },
+  {
+   "question": "The corresponding entry of personal accounts found in the debit side of the cash is to",
+   "option_a": "credit real accounts",
+   "option_b": "debit real accounts",
+   "option_c": "credit the ledger",
+   "option_d": "debit the ledger", 
+   "answer": "C", 
+   "solution": ""
+  },
+  {
+   "question": "Alaka who owed Saka #15,000, settled his debt after deducting cash discount of 10percent. To record the discount in the book of Saka, debit",
+   "option_a": "discount recieved account and credit Alaka's account",
+   "option_b": "Alaka's account and credit discount recieved account",
+   "option_c": "Saka's account and credit discount recieved account",
+   "option_d": "discount allowed account and credit Alaka's account", 
+   "answer": "D", 
+   "solution": ""
+  },
+  {
+   "question": "1. The amount of the imprest is the same from one organization to another<br> 11.At the end of a fixed period, the petty cashier received a fixed sum of money.<br> 111. At the end of a period, the petty cashier is reimbursed with the amount spent in that period.<br> 1V. The system is a method by which a measure of control is kept on petty cash expenses.<br> Which of the above is correct about the imprest system?",
+   "option_a": "1, 11 and 111",
+   "option_b": "1, 111 and 1V",
+   "option_c": "11 and 1V",
+   "option_d": "111 and 1V", 
+   "answer": "C", 
+   "solution": ""
+  },
+  {
+   "question": "A machine bought for #35,000 was estimated to have a life span of 5 years with a scrap value of #9,000<br> The yearly depreciation using the straight line method would be",
+   "option_a": "#8,800",
+   "option_b": "#6,500",
+   "option_c": "#5,200",
+   "option_d": "#4,400", 
+   "answer": "C", 
+   "solution": ""
+  },
+  {
+   "question": "A machine bought for #35,000 was estimated to have a life span of 5 years with a scrap value of #9,000.<br> If the scrap value is presently #15,000 what will be the yearly depreciation using straight line method?",
+   "option_a": "#4,000",
+   "option_b": "#7,000",
+   "option_c": "#11,000",
+   "option_d": "#24,000", 
+   "answer": "A", 
+   "solution": ""
+  },
+  {
+   "question": "The purchase of mattresses from Freehold enterprises by cheque amounted to #305,150. The correct entries for this transaction in the book of the buyer is to debit",
+   "option_a": "sales account and credit bank account",
+   "option_b": "purchases and credit bank account",
+   "option_c": "cash and credit freehold",
+   "option_d": "bank and credit freehold", 
+   "answer": "B", 
+   "solution": ""
+  },
+  {
+   "question": "Sales - #232,000<br> Opening stock - # 28,000<br> Purchases - #128,000<br> Carriage inwards - # 4,000<br> Carriage outwards - # 6,000<br> Closing stock - # 10,000<br> Discount received - # 18,000<br> Expenses - # 20,000<br> Calculate the gross profit",
+   "option_a": "#100,000",
+   "option_b": "#86,000",
+   "option_c": "#82,000",
+   "option_d": "#76,000", 
+   "answer": "C", 
+   "solution": ""
+  },
+  {
+   "question": "Sales - #232,000<br> Opening stock - # 28,000<br> Purchases - #128,000<br> Carriage inwards - # 4,000<br> Carriage outwards - # 6,000<br> Closing stock - # 10,000<br> Discount received - # 18,000<br> Expenses - # 20,000<br> Calculate the expenses debited to the profit and loss account",
+   "option_a": "A #17,000",
+   "option_b": "B #23,000",
+   "option_c": "C #26,000",
+   "option_d": "D #30,000", 
+   "answer": "C", 
+   "solution": ""
+  },
+  {
+   "question": "Given:<br> Opening capital - #1,500<br> Capital introduced - # 500<br> Profit for the year - # 800<br> Cash drawings - # 250<br> Calculate the closing capital",
+   "option_a": "#2,550",
+   "option_b": "#2,500",
+   "option_c": "#2,350",
+   "option_d": "#2,250", 
+   "answer": "A", 
+   "solution": ""
+  },
+  {
+   "question": "What type of stock valuation would a vegetable seller adopt in valuing it's product?",
+   "option_a": "LIFO",
+   "option_b": "FIFO",
+   "option_c": "Simple average",
+   "option_d": "Weighted average", 
+   "answer": "B", 
+   "solution": ""
+  },
+  {
+   "question": "The total cash and cheques received from customers in a control account is derived from the",
+   "option_a": "purchases day book",
+   "option_b": "cash book",
+   "option_c": "income and expenditure account",
+   "option_d": "sales journal", 
+   "answer": "B", 
+   "solution": ""
+  },
+  {
+   "question": "1/1/2010 31/12/2010<br> Creditors - #9,000 #9,800<br> Rent owing - #3,800 #2,500<br> Rates prepaid - #2,000 #3,500<br> Motor van - #8,000 #8,000<br> Premises - #10,000 #10,500<br> Find the opening capital",
+   "option_a": "#5,700",
+   "option_b": "#7,700",
+   "option_c": "#9,800",
+   "option_d": "#14,900", 
+   "answer": "B", 
+   "solution": ""
+  },
+  {
+   "question": "1/1/2010 31/12/2010<br> Creditors - #9,000 #9,800<br> Rent owing - #3,800 #2,500<br> Rates prepaid - #2,000 #3,500<br> Motor van - #8,000 #8,000<br> Premises - #10,000 #10,500<br> Calculate the closing capital",
+   "option_a": "#8,700",
+   "option_b": "#9,500",
+   "option_c": "#9,700",
+   "option_d": "#10,700", 
+   "answer": "C", 
+   "solution": ""
+  },
+  {
+   "question": "Given:<br> Opening capital - #50,000<br> Closing capital - #64,000<br> Drawings - #16,000<br> Determine the net profit",
+   "option_a": "#2,000",
+   "option_b": "#14,000",
+   "option_c": "#20,000",
+   "option_d": "#30,000", 
+   "answer": "D", 
+   "solution": ""
+  },
+  {
+   "question": "The estimated profit or loss for a period is calculated by",
+   "option_a": "closing capital less opening capital add drawings",
+   "option_b": "opening capital less closing capital add drawings",
+   "option_c": "opening capital less drawings add closing capital",
+   "option_d": "opening capital add closing add drawings", 
+   "answer" :"A", 
+   "solution": ""
+  },
+  {
+   "question": "Given:<br> Drawings - #3,500<br> Net loss - #2,500<br> Capital 1/1/2007 - #35,000<br> Additional capital - #10,000<br> The adjusted capital as at 31/1/2007 is",
+   "option_a": "#35,000",
+   "option_b": "#39,000",
+   "option_c": "#45,000",
+   "option_d": "#46,000", 
+   "answer": "C", 
+   "solution": ""
+  },
+  {
+   "question": "When goods produced are transferrd at cost plus mark-up sale, the difference between the cost and the transferred price is a",
+   "option_a": "discount",
+   "option_b": "sales commission",
+   "option_c": "manufacturing profit",
+   "option_d": "factory reserves", 
+   "answer": "C", 
+   "solution": ""
+  },
+  {
+   "question": "The addition of prime cost, indirect cost and opening work-in-progress less the closing work-in-progress will result in cost of",
+   "option_a": "goods available for sale",
+   "option_b": "goods sold",
+   "option_c": "goods manufactured",
+   "option_d": "materials put into production", 
+   "answer": "C", 
+   "solution": ""
+  },
+  {
+   "question": "Opening stock of raw materials - #75,000<br> Purchase of raw materials - #330,000<br> Closing stock of raw materials - #80,000<br> Direct wages - #30,000<br> Carriages of raw materials - #10,000<br> Calculate the cost of raw materials used",
+   "option_a": "#495,000",
+   "option_b": "#415,000",
+   "option_c": "#335,000",
+   "option_d": "#305,000", 
+   "answer": "C", 
+   "solution": ""
+  },
+  {
+   "question": "Purchase of raw materials - #330,000<br> Closing stock of raw materials - #80,000<br> Direct wages - #30,000<br> Carriages of raw materials - #10,000<br> Determine the prime cost",
+   "option_a": "#525,000",
+   "option_b": "#515,000",
+   "option_c": "#465,000",
+   "option_d": "#365,000", 
+   "answer": "D", 
+   "solution": ""
+  },
+  {
+   "question": "In manufacturing account, the work-in-progress at the end of the year is",
+   "option_a": "deducted from the cost of goods completed during this year",
+   "option_b": "added to the cost of goods completed",
+   "option_c": "stated in the profit and loss account",
+   "option_d": "stated in the prime cost section", 
+   "answer": "A", 
+   "solution": ""
+  },
+  {
+   "question": "Which of the following is accounted for in receipts and payment account",
+   "option_a": "Subscriptions recieved in advance",
+   "option_b": "Subscriptions due not yet recieved",
+   "option_c": "Accrued expenses on annual dances",
+   "option_d": "Depreciation of the club house", 
+   "answer": "A", 
+   "solution": ""
+  },
+  {
+   "question": "Which of the following expenses relates to the profit and loss account of a manufacturing firm",
+   "option_a": "Direct materials",
+   "option_b": "Direct labour",
+   "option_c": "Administrative overhead",
+   "option_d": "Work-in-progress", 
+   "answer": "C", 
+   "solution" : ""
+  },
+  {
+   "question": "1. Direct materials<br> 11.Direct labour<br> 111.Direct expenses<br> 1V. Factory expenses<br> Prime cost consist of",
+   "option_a": "1,11 and 111",
+   "option_b": "1,11 and 1V",
+   "option_c": "1,111 and 1V",
+   "option_d": "11,111 and 1V", 
+   "answer": "A", 
+   "solution": ""
+  },
+  {
+   "question": "The amount paid by a new partner on admission as a compensation for the reputation built up by old partners is a",
+   "option_a": "bonus",
+   "option_b": "commission",
+   "option_c": "premium",
+   "option_d": "goodwill", 
+   "answer": "D", 
+   "solution":""
+  },
+  {
+   "question": "A partnership's internal regulations are set out by",
+   "option_a": "a deed",
+   "option_b": "a law",
+   "option_c": "a constitution",
+   "option_d": "an article", 
+   "answer": "A",
+  "solution": ""
+  },
+  {
+   "question": "In a partnership account, interest on drawings is",
+   "option_a": "debited to appropriation account",
+   "option_b": "credited to appropiation account",
+   "option_c": "treated as an expense in profit and loss account",
+   "option_d": "recorded in the balance sheet as current assets", 
+   "answer": "B", 
+   "solution" : ""
+  },
+  {
+   "question": "When a share valued at 50k is issued at #1.59, it is said to be issued at",
+   "option_a": "par",
+   "option_b": "premium",
+   "option_c": "discount",
+   "option_d": "interest", 
+   "answer": "B", 
+   "solution": ""
+  },
+  {
+   "question": "The purchase consideration that is lower than the net asset implies that, the buyer has gained the advantage of",
+   "option_a": "net income",
+   "option_b": "revenue reserve",
+   "option_c": "capital reserve",
+   "option_d": "net loss", 
+   "answer": "C", 
+   "solution": ""
+  },
+  {
+   "question": "When shares are issued at a discount, entries are to debit",
+   "option_a": "application allotment account and credit discount accoun",
+   "option_b": "discount account and credit",
+   "option_c": "cash account and credit discount account",
+   "option_d": "discount account and credit bank account", 
+   "answer": "A", 
+   "solution": ""
+  },
+  {
+   "question": "When there is no basis of apportionment in an organization, the expenses should be apportioned based on",
+   "option_a": "sales",
+   "option_b": "purchases",
+   "option_c": "equality",
+   "option_d": "floor space", 
+   "answer": "C", 
+   "solution" : ""
+  },
+  {
+   "question": "Department K Y<br> Opening stock #2,500 #800<br> Purchases #120,000 #100,000<br> Sales #180,000 #200,000<br> Salaries #8,000 #30,000<br> Closing stock #3,000 #1,500<br> Rate expenses of #1,500 are apportioned in the ratio 1:2.<br> The gross profit for K is",
+   "option_a": "#23,500",
+   "option_b": "#60,500",
+   "option_c": "#60,700",
+   "option_d": "#82,500", 
+   "answer": "B", 
+   "solution": ""
+  },
+  {
+   "question": "Department K Y<br> Opening stock #2,500 #800<br> Purchases #120,000 #100,000<br> Sales #180,000 #200,000<br> Salaries #8,000 #30,000<br> Closing stock #3,000 #1,500<br> Rate expenses of #1,500 are apportioned in the ratio 1:2.<br> What is he net profit of Y?",
+   "option_a": "#52,000",
+   "option_b": "#68,300",
+   "option_c": "#68,800",
+   "option_d": "#69,700", 
+   "answer": "D", 
+   "solution": ""
+  },
+  {
+   "question": "The objective of departmental account is to",
+   "option_a": "ascertain the cost of running the organization",
+   "option_b": "ascertain the amount of profit or loss for each department",
+   "option_c": "ascertain the amount of profits for losses for the enterprises",
+   "option_d": "offset the loss of each treatment", 
+   "answer": "B", 
+   "solution": ""
+  },
+  {
+   "question": "Which of the following is the capital reserve of a company",
+   "option_a": "Share premium",
+   "option_b": "Retained profit",
+   "option_c": "Accumulated depreciation",
+   "option_d": "Loss on forfeited shares", 
+   "answer": "A", 
+   "solution": ""
+  },
+  {
+   "question": "Given:<br> Applications were invited by the directors of Abiodun PLC for 500,000 ordinary shares of #1:00 each at #1:10 per share payable as follows;<br> On application 46k<br> On allotment 20k<br> 1st Call 15k<br> 2nd Call 19k<br> How much is to be paid for application?",
+   "option_a": "#230,000",
+   "option_b": "#280,000",
+   "option_c": "#500,000",
+   "option_d": "#550,000", 
+   "answer": "A", 
+   "solution": ""
+  },
+  {
+   "question": "The issued share capital is the number of shares that are",
+   "option_a": "authorized by share holders",
+   "option_b": "shared among the directors",
+   "option_c": "fully subscribed",
+   "option_d": "in the share certificate", 
+   "answer": "A", 
+   "solution": ""
+  },
+  {
+   "question": "The distributable profit available to shareholders at the end of each year is the",
+   "option_a": "total profit and debtors balance",
+   "option_b": "general reserve and retained profit",
+   "option_c": "retained profit and fictitious assets",
+   "option_d": "total profit less creditors balance", 
+   "answer": "D", 
+   "solution": ""
+  },
+  {
+   "question": "The debenture issued at par above the nominal value is said to be issued at a",
+   "option_a": "cost price",
+   "option_b": "mark-up",
+   "option_c": "premium",
+   "option_d": "margin", 
+   "answer": "C", 
+   "solution": ""
+  },
+  {
+   "question": "Accountant-general of the federation is responsible for",
+   "option_a": "the general supervision of all auditing personnel in all the ministeries",
+   "option_b": "the compilation of annual financial statement",
+   "option_c": "the interpretation of rules and regulations affecting the private sectors",
+   "option_d": "ensuring the efficient operation of the ministries", 
+   "answer": "B", 
+   "solution": ""
+  },
+  {
+   "question": "Given:<br> Assets and Liabilities of a Local Government<br> Bank balance #6,484,000<br> Cash # 900,000<br> General revenue balances #9,774,500<br> Accrued salaries #1,220,000<br> Investment in shares #1,480,000<br> Vehicles #7,620,000<br> Calculate the liabilities of the local government",
+   "option_a": "#10,994,500",
+   "option_b": "#17,394,500",
+   "option_c": "#18,774,500",
+   "option_d": "#18,874,500", 
+   "answer": "A", 
+   "solution": ""
+  },
+  {
+   "question": "An instrument which allows public officers to increase expenditure within a year is",
+   "option_a": "statutory allocation",
+   "option_b": "supplementary budget",
+   "option_c": "virement",
+   "option_d": "warrant", 
+   "answer": "B", 
+   "solution": ""
+  }
+]

@@ -1,0 +1,443 @@
+﻿[
+  {
+    "question": "A man standing on a lift that is descending does not feel any weight because",
+    "option_a": "the inside of the lift is air tight",
+    "option_b": "the lift is in vacuum",
+    "option_c": "there is no reaction from the floor of the lift",
+    "option_d": "there is no gravitational pull on the man in the lift",
+    "answer": "C",
+    "solution": "The resultant force acting on the man is given by w = mg - R <br>Mg - mg = 0<br>The man feels weightless because the reaction, R is equal to the weight mg"
+  },
+  {
+    "question": "Two balls X and Y weighing 5 g and 50 kg respectively were throne up vertically at the same time with a velocity of 100 ms1 .How will their positions be one second later?",
+    "option_a": "X and Y will be 500 m from each other",
+    "option_b": "Y will be 500 m ahead of X",
+    "option_c": "X will be 500 m ahead of Y",
+    "option_d": "X and Y both be 500 m from the poin of throw",
+    "answer": "D",
+    "solution": "v<sup>2</sup> = U<sup>2</sup> - 2Gs <br> 0 = 1002 - 2 x 10 x s = 10000 - 20s <br>s = (10000)/20 = 500m <br>Which is independent of mass.the two bodies where acted upon by the same retarding force of gravity which is independent of mass of the body; therefore both will be 500 m from the point of throw."
+  },
+  {
+    "question": "If it takes an object 3s to fall freely to the ground from a certain height, what is the distance covered by the object?",
+    "option_a": "90 m",
+    "option_b": "30 m",
+    "option_c": "45 m",
+    "option_d": "60 m",
+    "answer": "C",
+    "solution": "S = (1)/2gt2<br>S = (1)/2 x (10)/1 x 32 =5 x 9 = 45 m"
+  },
+  {
+    "question": "An object of mass 2 kg moves with a velocity of 10 ms1 round at circle of radius 4 m. Calculate the centripetal force on the object",
+    "option_a": "25 N",
+    "option_b": "100 N",
+    "option_c": "50 N",
+    "option_d": "40 N",
+    "answer": "C",
+    "solution": "Centripetal force, <br>F = \\( \\frac{mv^2}{r} \\)<br>  = \\( \\frac{2 \\times 10^2}{4} \\)<br>  = \\( \\frac{200}{4} \\)= 50N"
+  },
+  {
+    "question": "A carpenter on top of a roof of 20.0m high dropped a hammer of mass 1.5 kg and it fell directly to the ground. the kinetic energy of the hammer just before hitting the ground is?[g = 10 ms-2]",
+    "option_a": "600 J",
+    "option_b": "150J",
+    "option_c": "300 J",
+    "option_d": "450 J",
+    "answer": "C",
+    "solution": "K e just before hitting the gound <br>= P e at the maximum height (conservation of mechanical energy)<br>K e = P e = mgh = 1.5 x 10 x 20<br>= 300 J"
+  },
+  {
+    "question": "If a tube of small radius opened at both ends is placed in a liquid, the liquid will",
+    "option_a": "remain at the same level irrespective of whether the liquid wet the glass or not",
+    "option_b": "fall below the liquid level if the liquid wets the glass",
+    "option_c": "falls below the liquid level if the liquid does not wet the glass",
+    "option_d": "rise above the liquid level if the liquid does not wet the glass",
+    "answer": "C",
+    "solution": "The liquid will rise up the capillary if it wets glass and falls below its wets glass and falls below its initial level if it does not wet glass"
+  },
+  {
+    "question": "An object weighs 22 kg in water and 30kg in air. what is the upthrust exerted by the liquid on the object.<br> \n[g = 10 ms<sup>2</sup>]",
+    "option_a": "50 N",
+    "option_b": "520 N",
+    "option_c": "220 N",
+    "option_d": "80 N",
+    "answer": "D",
+    "solution": "upthrust = weight in air - weight in liquid = 30 x 10 - 22 x 10 = 300 - 220 = 80 N"
+  },
+  {
+    "question": "A metal of volume 40 cm<sup>3</sup> is heated from 30°c to 90°c, the increase in volume is",
+    "option_a": "0.12 cm<sup>3</sup>",
+    "option_b": "4.00 cm<sup>3</sup>",
+    "option_c": "1.20 cm<sup>3</sup>",
+    "option_d": "0.40 cm<sup>3</sup>",
+    "answer": "E",
+    "solution": "increase in volume, DV = RV1 ∆ θ = 3α Vsub>1"
+  },
+  {
+    "question": "A copper wire was subjected to a tensile stress of 7.7 x 10<sup>7</sup> x 10 Nm<sup>-2</sup>. calculate strain of the wire.<br> \n[young modules = 1.1 x 10<sup>11</sup> Nm<sup>-2</sup>]",
+    "option_a": "2. 0  x 10<sup>-5</sup>",
+    "option_b": "7.0 x 10<sup>-3</sup>",
+    "option_c": "7.0 x 10<sup>-4</sup>",
+    "option_d": "2.2 x 10<sup>-4</sup>",
+    "answer": "C",
+    "solution": "Young modules = \\( \\frac{\\text{Tensile stress}}{\\text{Tensile strain}}\\)<br>  = \\( 1.1 \\times 10^11 = \\frac{7.7 \\times 10^7}{\\text{Tensile Strain}} \\)<br> ∴ Tensile strain = \\( \\frac{7.7 \\times 10^7}{1.1 \\times 10^11}  \\)<br>  = \\( 7.0 \\times 10^{7-11}<br> = 7.0 \\times 10^{-4} \\)"
+  },
+  {
+    "question": "I.  High thermal capacity. <br>II. High sensitivity.<br>III.Easy readability.<br>IV. Accuracy over a wide range of temperature<br>From the statement above, the qualities of a good thermometer are",
+    "option_a": "I and II",
+    "option_b": "I, II,III and IV",
+    "option_c": "I, III and IV",
+    "option_d": "II, III and IV",
+    "answer": "D",
+    "solution": "A good thermometric liquid should not have a high thermal capacity so that the themperetue of the body being measured will not be affected<br>∴ II, III and IV are qualities of a good thermometer"
+  },
+  {
+    "question": "A machine is used to lift a load of 20 N through a height of 10 m. if the efficiency of the machine is 40%, how much work is done?",
+    "option_a": "80 J",
+    "option_b": "500 J",
+    "option_c": "300 J",
+    "option_d": "120 J",
+    "answer": "B",
+    "solution": "Efficiency = \\( \\frac{\\text{work output}}{\\text{work input}} \\times  \\frac{100}{1} \\)<br>  = 40 = \\( \\frac{20 \\times 10 }{x} \\times  \\frac{100}{1} \\)<br> = 500J"
+  },
+  {
+    "question": "I.   Density of the liquid.<br>II.  Depth below the surface of the liquid. <br>III. Surface area of the liquid. <br>In which of the statement above will pressure be dependent?",
+    "option_a": "I and II only.",
+    "option_b": "II and III only.",
+    "option_c": "I, II and III only.",
+    "option_d": "I and III only.",
+    "answer": "A",
+    "solution": "Pressure in liquid is independent of cross sectional area of the container/ liquid <br>∴ the correct options are I & II"
+  },
+  {
+    "question": "Which of the following could be effectively used to reduce friction?",
+    "option_a": "kerosene",
+    "option_b": "grease",
+    "option_c": "water",
+    "option_d": "petrol",
+    "answer": "B",
+    "solution": "grease is more viscous than the rest of the liquids"
+  },
+  {
+    "question": "Which of the following types of waves needs a medium for propagation?",
+    "option_a": "sound waves",
+    "option_b": "light waves",
+    "option_c": "radio waves",
+    "option_d": "x - rays",
+    "answer": "A",
+    "solution": "Sound is the only mechanical wave among the rest which are electromagnetic waves."
+  },
+  {
+    "question": "Which of the following electromagnetic waves has the highest frequency?",
+    "option_a": "utra - violet rays",
+    "option_b": "radio waves",
+    "option_c": "x - rays",
+    "option_d": "infrared - rays",
+    "answer": "C",
+    "solution": "r - rays has the highest frequency followed by X - rays, ultraviolet ray, visible light intra - red and the least is radio weaves"
+  },
+  {
+    "question": "A perfect emitter or absorber of radiant energy is a",
+    "option_a": "conductor",
+    "option_b": "black body",
+    "option_c": "white body",
+    "option_d": "red body",
+    "answer": "B",
+    "solution": "Dull, black surface are good emitters or absorbers of energy"
+  },
+  {
+    "question": "The ground is always cold at night because the",
+    "option_a": "atmosphere absorbs the sun's energy at night",
+    "option_b": "earth radiates heat to the atmosphere at night",
+    "option_c": "sun no longer shine at night",
+    "option_d": "atmosphere reflects the sun's energy at night",
+    "answer": "B",
+    "solution": "The earth radiate heat to the atmosphere at night  thereby lowering the temperature of the ground"
+  },
+  {
+    "question": "A cannon is fired from town X,after how long is the sound heard at a town Y 4.95 km away?<br> <br>[velocity of sound in the air = 330 ms-1]",
+    "option_a": "30 s",
+    "option_b": "10 s",
+    "option_c": "10 s",
+    "option_d": "15 s",
+    "answer": "A",
+    "solution": "V = (2X)/t<br>330 = (2 x 4.95 x 103)/t<br>t = (9.9. x 103/330 = (9900)/330 = (90)/3<br>= 30 secs"
+  },
+  {
+    "question": "The  phenomenon that shows that increase in pressure lowers the melting point can be observed in",
+    "option_a": "sublimation",
+    "option_b": "condensation",
+    "option_c": "coagulation",
+    "option_d": "regelation",
+    "answer": "D",
+    "solution": "Regelation means refreezing a phenomenon whereby melted ice free from increased pressure refreezed when they are released from the pressure."
+  },
+  {
+    "question": "A block of aluminum is heated electrically by a 30 w heater if the temperature rises by 10°c in 5 minutes, the heat capacity of the aluminum is",
+    "option_a": "900 JK<sup>-1</sup>",
+    "option_b": "90 JK<sup>-1</sup>",
+    "option_c": "100 JK<sup>-1</sup>",
+    "option_d": "200 JK<sup>-1</sup>",
+    "answer": "A",
+    "solution": "Heat supplied = Heat gained Pt = MCDθ<br>30 x 5 x 60 = c x 10<br>where c = mc which is the heat capacity <br>c = (30 x 5 x60)/10 = 900 JKg-1"
+  },
+  {
+    "question": "Steam burn is more severe than that of boiling water because",
+    "option_a": "steam burn is independent of relative humidity",
+    "option_b": "stem possesses greater heat energy per unit mass",
+    "option_c": "water boils at a higher temperature",
+    "option_d": "steam burn is dependent on relative humidity",
+    "answer": "B",
+    "solution": "The specific latent heat of vaporization of steam is 2.1 x 10<sup>6</sup>JKg<sup>-1</sup><br>while the energy required to raise the temperature of a unit mass of water from 0°c to 100°c = C x Dt = 4200 x 100 = 420000 = 4.2 x 10<sup>5</sup> JKg<sup>-1</sup><br>∴ steam possesses greater heat energy per unit mass"
+  },
+  {
+    "question": "I.  change of state <br>II. Diffusion <br>III. Radiation <br>IV. Osmosis<br>which of the processes above can be explained using the kinetic theory?",
+    "option_a": "I, II,III and IV",
+    "option_b": "I, II and III",
+    "option_c": "I, III and IV",
+    "option_d": "I, II and IV",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "Three similar cells each of e.m.f 2 v and internal resistance 2Ω  are connected in parallel, the total e.m.f and total internal resistance are respectively",
+    "option_a": "6 v, 6.0Ω",
+    "option_b": "2 v, 0.7Ω",
+    "option_c": "2 v, 6.0Ω",
+    "option_d": "6 v, 0.7Ω",
+    "answer": "B",
+    "solution": "Total energy in parred connection is equal to emt of one cell, = 2v but total internal resistance is given by <br>(1)/r = (1)/r1 + (1)/r2 + (1)/r3 = (1)/2 + (1)/2 + (1)/2 = (3)/2<br>∴ r = (2)/3 = 0.67Ω"
+  },
+  {
+    "question": "When the human eye loses its power of accomodation, the defect is known as",
+    "option_a": "short sightedness",
+    "option_b": "presbyobia",
+    "option_c": "astigmatism",
+    "option_d": "long sightedness",
+    "answer": "B",
+    "solution": "presbyopia is loss of accommodation"
+  },
+  {
+    "question": "When a red rose flower is observed in blue light, what colour does the observer see?",
+    "option_a": "Red",
+    "option_b": "Blue",
+    "option_c": "Magenta",
+    "option_d": "yellow",
+    "answer": "E",
+    "solution": "The colour which an object presents to the eye is the colour of light it reflects. Red rose flower will therefore absorb any other colour and reflect red. Therefore when viewed in blue light, it has no colur to reflect and will therefore appear black. Although mixture of red light and blue light = magenta . NO correct option."
+  },
+  {
+    "question": "The capacitance of a parallel plate capacitor is 20 μf in air and 60 μf in the presence of a dielectric. What is the dielectric constant?",
+    "option_a": "0.3",
+    "option_b": "6.0",
+    "option_c": "3.0",
+    "option_d": "2.0",
+    "answer": "C",
+    "solution": "Dielectric constant = (c)/c° = (60)/20 = 3"
+  },
+  {
+    "question": "A certain far - sighted person cannot see object that are closer to the eye than 50 cm clearly. Determine the power of the converging lens which will enable him to see at 25 cm",
+    "option_a": "0.06 D",
+    "option_b": "0.02 D",
+    "option_c": "0.03 D",
+    "option_d": "0.04 D",
+    "answer": "E",
+    "solution": "V = - 50, U = 25CM<br>(1)/r = (1)/v + (1)/u = (1)/-50 + (1)/25 = (1 + 2)/50 = (1)/50 f = +50cm = +0.5m <br>p = (1)/r = (1)/0.5 = (10)/5 = 2 diopters<br>The power of a lens is the reciprocal of the focal length in meters. it is expressed in diopters."
+  },
+  {
+    "question": "The eclipse of the sun occurs when the",
+    "option_a": "moon is between the sun and the earth",
+    "option_b": "earth is between the sun and the moon",
+    "option_c": "moon is not completely hidden in the earth's shadow",
+    "option_d": "moon's umbra falls on some part of the earth",
+    "answer": "A",
+    "solution": "Eclipse of the sun occurs when the moon which is opaque objects between the sun and the earth"
+  },
+  {
+    "question": "Which of the following is a property of steel?",
+    "option_a": "it cannot retain its magnetism longer than iron",
+    "option_b": "it can be used for making temporary magnets",
+    "option_c": "it can be used for making permanent magnets",
+    "option_d": "it can easily be magnetized and demagnetized",
+    "answer": "C",
+    "solution": "Steel is not easily magnetized and dismagnetized"
+  },
+  {
+    "question": "In measuring high frequency a.c, the instrument used is the",
+    "option_a": "d.c ammeter",
+    "option_b": "moving coil  ammeter",
+    "option_c": "moving iron ammeter",
+    "option_d": "hot wire ammeter",
+    "answer": "D",
+    "solution": "Hot wire ammeter is used because the heat affect of A C is same as that of DC"
+  },
+  {
+    "question": "If the charge of electricity is K wh is N4, what is the cost of operating an electrical appliance rated 250 v,2 A for six hours?",
+    "option_a": "N28",
+    "option_b": "N12",
+    "option_c": "N16",
+    "option_d": "N24",
+    "answer": "B",
+    "solution": "Energy consumed = power x time = lvt = 2 x 250 x 6hr = 300 wh = 3 kwh but 1 kwh = N4 <br>3 kwh = 3 x N4 = N 12"
+  },
+  {
+    "question": "Under which of the following conditions do gases conduct electricity?",
+    "option_a": "Low presssure and low p.d",
+    "option_b": "low pressure and high p.d",
+    "option_c": "high pressure an low p.d",
+    "option_d": "high pressure and high p.d",
+    "answer": "B",
+    "solution": "Under high potential difference and low pressure gases are good conductor of electricity"
+  },
+  {
+    "question": "Two inductors of inductance 4 II and 8 II are arrange in series and a current of 10 A is passed through them. What is the energy stored in them?",
+    "option_a": "500 J",
+    "option_b": "50 J",
+    "option_c": "133 J",
+    "option_d": "250 J",
+    "answer": "C",
+    "solution": "Effective inductance<br>(1)/L = (1)/4 + (1)/8 = (3)/8 <br>∴ L = (8)/3<br>Energy stored = (1)/2 LI2<br>= (1)/2 x (8)/3 x 10 x 10 = (400)/3 = 133.3 J"
+  },
+  {
+    "question": "Which of the following materials has an increase in resistance with temperature?",
+    "option_a": "water",
+    "option_b": "metals",
+    "option_c": "wood",
+    "option_d": "electrolyte",
+    "answer": "B",
+    "solution": "Resistance in metals are proportional to temperature"
+  },
+  {
+    "question": "The bond between silicon and germanium is",
+    "option_a": "covalent",
+    "option_b": "ionic",
+    "option_c": "dative",
+    "option_d": "electrovalent",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "A radioactive isotope has a decay constant of 10-5s4. Calculate half life",
+    "option_a": "6.93 x 105s",
+    "option_b": "6.93 x 105s",
+    "option_c": "6.93 x104s",
+    "option_d": "6.93 x 104s",
+    "answer": "C",
+    "solution": "T (1)/2 = (0.693)/λ = (0.693)/10-5 <br>=  0.693 x 105<br>= 6.93 x 104 sec"
+  },
+  {
+    "question": "The electrical properties of germanium can be altered drastically by the addition of impurity. This process is referred to as",
+    "option_a": "saturation",
+    "option_b": "bonding",
+    "option_c": "amplification",
+    "option_d": "dopping",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "If the threshold frequency for tungsten is 1.3 x 10<sup>15</sup>Hz, what is its work function?<br> \n[H = 6.6 x 10<sup>-34</sup> Js]",
+    "option_a": "8.58 x 10<sup>-19</sup> J",
+    "option_b": "8.50 x 10<sup>-15</sup> J",
+    "option_c": "8.58 x 10<sup>-17</sup> J",
+    "option_d": "8.85 x 10<sup>-18</sup>",
+    "answer": "A",
+    "solution": " Work function, w = hf<sub>o</sub> 6.6 x 10<sup>-34</sup> x 1.3 x 10<sup>15</sup><br>= 8.58 x 10<sup>-19</sup>"
+  },
+  {
+    "question": "Which of the following will be applied when a metal Y is used to electroplate another metal X in electrolysis?",
+    "option_a": "X is the anode and very high current is used",
+    "option_b": "X is the anode and Y is the cathode",
+    "option_c": "Y is the cathode and X is the anode",
+    "option_d": "Y is the anode and very high current is used",
+    "answer": "D",
+    "solution": "Metals and hydrogen are deposited at the cathode, while non-metals and oxygen are deposited on the anode <br>∴ metals Y will form the anode which is deposited at the cathode made of x"
+  },
+  {
+    "question": "The diagram above shows two vectors at right angles to each other. The value of the resultant vector is",
+    "option_a": "14.0 N",
+    "option_b": "10.0 N",
+    "option_c": "12.0 N",
+    "option_d": "13.0 N",
+    "answer": "B",
+    "solution": " The resultant, R is given by pythagoras rule, R<sup>2</sup> = P<sup>2</sup> + q<sup>2</sup> <br> = 62 + 82 = 36 + 64 = 100<br>R = √100 = 10.0N"
+  },
+  {
+    "question": "The diagram above show the positions of a cone. The position which can be described as neutral equilibrium is represented as",
+    "option_a": "Z only",
+    "option_b": "X only",
+    "option_c": "Y and Z",
+    "option_d": "Y and X",
+    "answer": "A",
+    "solution": "Under neutral equilibrium, the body rolls and the position of the center of gravity , C. G is neither raised nor lowered"
+  },
+  {
+    "question": "The correct expression for the potential at a point distance r from a charge q in an electric field is",
+    "option_a": "A",
+    "option_b": "B",
+    "option_c": "C",
+    "option_d": "D",
+    "answer": "D",
+    "solution": "Electric potential is work done in taking a unit mass or charge from infinity to that point \nV = w = Fr = q1q2 x rqq4πεor2q1\n = _q4πεor"
+  },
+  {
+    "question": "An image in a convex lens is upright and magnified 3 times. If the focal length of the lens is 15 cm, what is the object distance?",
+    "option_a": "10 cm",
+    "option_b": "25 cm",
+    "option_c": "16 cm",
+    "option_d": "14 cm",
+    "answer": "A",
+    "solution": " m = v/u = -3<br>v = -3u<br>f = 15cm\n1/v + 1/U = 1/f \n1/-3U + 1/u = 1/15\n2/3u = 1/15<br>3U = 15 x 2<br>U = 30/3 <br>= 10 cm"
+  },
+  {
+    "question": "A length of wire has a frequency of 255Hz when stretched by a force of b225N. If the fore increased to 324N, what is the new frequency of  vibration",
+    "option_a": "306 Hz",
+    "option_b": "512 Hz",
+    "option_c": "488 Hz",
+    "option_d": "356 Hz",
+    "answer": "A",
+    "solution": "f1 = 255Hz, T1 = 225N<br>f2 = ? T2 = 324N<br>But f ∝ √T => f = K√T <br>=> K = f/√T<br>∴ f1/√T1 = f2/√T2\n225/√225 = f2/√324\nf2 = 225√225√225<br>= 225 x 18__15<br>= 306Hz"
+  },
+  {
+    "question": "In the circuit above, three resistors, 2Ω, 4Ω and 12Ω are connected in parallel and a 12V battery is connected across the combination. The current flowing  through the 12Ω resistors is",
+    "option_a": "14.4 A",
+    "option_b": "1.0 A",
+    "option_c": "3.2 A",
+    "option_d": "9.6 A",
+    "answer": "B",
+    "solution": "IVR\n= 1212<br>= 1A"
+  },
+  {
+    "question": "If the volume of a gas increases steadily as the temperature decreases at constant pressure, the gas obeys",
+    "option_a": "Graham's Law",
+    "option_b": "Boyle's Law",
+    "option_c": "Pressure law",
+    "option_d": "Charles Law",
+    "answer": "E",
+    "solution": "Rate of diffusion is inversely proportional to the square root of density - Graham's law <br>  \\( P \\propto \\frac{1}{v} \\) at constant temperature - Boyle's law<br> \\( P \\propto T \\) at constant volume - Pressure law<br> \\( P \\propto T \\) at constant pressure - Charles law<br> therefore no correct option"
+  },
+  {
+    "question": "In Homes, electrical appliances and lamps are connected in parallel because",
+    "option_a": "Parallel connections do not heat up the wires",
+    "option_b": "series connections use high voltage",
+    "option_c": "less current will be used",
+    "option_d": "less voltage will be used",
+    "answer": "B",
+    "solution": "if appliances are connected in series, the effective voltage is the sum of individual voltages which will be high."
+  },
+  {
+    "question": "In an A.C circuit, the ratio of r.m.s value to peak value of current is",
+    "option_a": "2",
+    "option_b": "\\( \\frac{1}{2} \\)",
+    "option_c": "\\( \\frac{1}{\\sqrt{2}} \\)",
+    "option_d": "\\( \\sqrt{2} \\)",
+    "answer": "C",
+    "solution": "Irms = \\( \\frac{I_0}{\\sqrt{2}} \\)<br> \\( \\text{Therefore } \\sqrt{2Irms} = I_0 \\\\<br> \\frac{Irms}{I_0} = \\frac{1}{\\sqrt{2}} \\)"
+  },
+  {
+    "question": "Two resistors 5Ω and 10Ω are arranged first in series and later in parallel to a 24V source, the ratio of total power dissipated in the series and parallel arrangements respectively is",
+    "option_a": "5:3",
+    "option_b": "1:50",
+    "option_c": "50:1",
+    "option_d": "3:5",
+    "answer": "E",
+    "solution": ""
+  }
+]

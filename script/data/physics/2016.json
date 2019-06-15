@@ -1,0 +1,452 @@
+﻿[
+  {
+    "question": "Myopic defects in the human eye can be corrected through the use of a",
+    "option_a": "Concave Mirror",
+    "option_b": "Concave lens",
+    "option_c": "Prism",
+    "option_d": "Convex lens",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "A charged particle is moving in a uniform magnetic field. if the direction of motion of the charged particle is parallel to the magnetic field, the path of the charge will",
+    "option_a": "Be a straight line",
+    "option_b": "Curve inwards",
+    "option_c": "Be a parabola",
+    "option_d": "Curve outwards",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "What happens to a water pool on a day when the humidity of the air is very low?",
+    "option_a": "Temperature decreases",
+    "option_b": "Slow evaporation",
+    "option_c": "Temperature increases",
+    "option_d": "Rapid evaporation",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "A satellite moves in a circular orbit of radius 4R round the earth. The acceleration of the satellite in terms of g is",
+    "option_a": "\\(\\frac{g}{16}\\)",
+    "option_b": "\\(\\frac{g}{4}\\)",
+    "option_c": "\\(\\frac{4}{g}\\)",
+    "option_d": "\\(\\frac{16}{g}\\)",
+    "answer": "A",
+    "solution": "\\(\\frac{g}{R^2}\\) = \\(\\frac{g}{4^2}\\) = \\(\\frac{g}{16}\\)"
+  },
+  {
+    "question": "I.Chemical II.Sound III.Electricity<br>\nWhich of the above forms of energy can directly be converted to light energy?",
+    "option_a": "I and II only",
+    "option_b": "II and III only",
+    "option_c": "I, II and III",
+    "option_d": "I and III only",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "If the distance between the object and the pinhole of a pinhole camera is reduced by half the size of the image of the object",
+    "option_a": "Is quadrupled",
+    "option_b": "Is halved",
+    "option_c": "Remains the same",
+    "option_d": "Is double",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "An object is placed 15cm in front of a plane mirror. If the mirror is moved further 5cm away from the object and the image is",
+    "option_a": "80cm",
+    "option_b": "40cm",
+    "option_c": "50cm",
+    "option_d": "70cm",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "Which of the following statements is correct about a machine?",
+    "option_a": "Efficiency of a machine is always greater than I",
+    "option_b": "Efficiency decreases with an increase in friction",
+    "option_c": "Velocity ratio depends on friction",
+    "option_d": "Mechanical advantage increases with an increase in friction",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "The instrument used to view stars is the",
+    "option_a": "Prism binoculars",
+    "option_b": "Telescope",
+    "option_c": "Film projector",
+    "option_d": "Microscope",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "What is the angular magnification of a telescope having objective and eyepiece lenses of a focal lengths 30cm and 3cm respectively?",
+    "option_a": "60",
+    "option_b": "10",
+    "option_c": "30",
+    "option_d": "90",
+    "answer": "B",
+    "solution": "M = \\(\\frac{y}{x}\\) = \\(\\frac{30}{3}\\)<br>\n= 10"
+  },
+  {
+    "question": "A wire of length 10m is cooled from 50oC to 10oC. Calculate the decrease in the length of the wire. [c = 3 x 10<sup>-5</sup>K<sup>-1</sup>]",
+    "option_a": "1.8 x 10<sup>-4</sup>m",
+    "option_b": "1.5 x 10<sup>-4</sup>m",
+    "option_c": "1.5 x 10<sup>-3</sup>m",
+    "option_d": "1.8 x 10<sup>-3</sup>m",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "When an athlete perspires after running, he loses heat through",
+    "option_a": "Evaporation",
+    "option_b": "Conduction",
+    "option_c": "Radiation",
+    "option_d": "Convection",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "The rate of cooling of a heated quantity of liquid in an enclosure depends on the",
+    "option_a": "Pressure of the liquid",
+    "option_b": "Temperature in the enclosure",
+    "option_c": "Pressure of the enclosure",
+    "option_d": "Volume of the liquid",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "The heat required to raise a mass of a substance through 1K is known as",
+    "option_a": "Specific heat capacity",
+    "option_b": "Specific latent heat of vaporization",
+    "option_c": "Capacity latent heat of fusion",
+    "option_d": "Heat capacity",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "A boy in a barber's shop sits between two parallel mirrors. The number of images observed by him will be",
+    "option_a": "Infinite",
+    "option_b": "Ten",
+    "option_c": "Eight",
+    "option_d": "Forty",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "Semiconductor is a class of solid whose conductivity increases with an increase in",
+    "option_a": "Pressure",
+    "option_b": "Temperature",
+    "option_c": "Current",
+    "option_d": "Voltage",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "Which of the following statements is NOT correct?",
+    "option_a": "Brownian motion is an evidence of the particle nature of matter",
+    "option_b": "Atoms combine to form molecules",
+    "option_c": "The molecules of matter are in constant motion",
+    "option_d": "matter is made up of molecules",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "A dynamo primarily converts",
+    "option_a": "Mechanical energy into electrical energy",
+    "option_b": "Electrical energy into kinetic energy",
+    "option_c": "Potential energy into kinetic energy",
+    "option_d": "Kinetic energy into potential energy",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "A saturated vapour pressure of a liquid increases when the",
+    "option_a": "Temperature of a liquid increases",
+    "option_b": "Volume of the liquid increases",
+    "option_c": "Volume of the liquid decreases",
+    "option_d": "Temperature of the liquid decreases",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "What force has to be exerted on a mass 60kg to give it an acceleration of 10ms<sup>-2</sup> vertically upwards?<br>[g = 10ms<sup>-2</sup>",
+    "option_a": "300N",
+    "option_b": "600N",
+    "option_c": "1200N",
+    "option_d": "400N",
+    "answer": "C",
+    "solution": "F = Ma + mg = 60 x 10 x 60 x 10 = 1200N"
+  },
+  {
+    "question": "21 A metre rule is pivoted at its mid-point with a vertical force of 10N hanging from the distance 30cm from the mid-point. At what distance must a 15N force hang to balance the ruler horizontally?",
+    "option_a": "A 30cm",
+    "option_b": "B 10cm",
+    "option_c": "C 20cm",
+    "option_d": "D 25m",
+    "answer": "C",
+    "solution": "Clockwise moment = Anti-clockwise moment<br>10 x 30 = 15 x X<br>X = 20cm"
+  },
+  {
+    "question": "A projectile is fired from the ground level with a velocity of 300ms<sup>-1</sup> at an angle of a 30<sup>o</sup> to the horizontal.<br>Calculate the time taken to reach the maximum height?<br>[g = 10ms<sup>-2</sup>]",
+    "option_a": "30s",
+    "option_b": "20s",
+    "option_c": "25s",
+    "option_d": "15s",
+    "answer": "D",
+    "solution": "t = \\(\\frac{u sin\\theta}{g}\\) = \\(\\frac{300 \\text {sin} 30}{10}\\) = 15s"
+  },
+  {
+    "question": "A train with an initial velocity of 20ms<sup>-1</sup> is subjected to a uniform deceleration of 2ms<sup>-2</sup>. The time required to bring the train to a complete halt is",
+    "option_a": "40s",
+    "option_b": "10s",
+    "option_c": "20s",
+    "option_d": "5s",
+    "answer": "B",
+    "solution": "t = \\(\\frac{v - u}{a}\\) = \\(\\frac{20 - 0}{2}\\) <br>\n= 10s"
+  },
+  {
+    "question": "Which of the following electromagnetic waves has the shortest wavelength?",
+    "option_a": "Visible Light",
+    "option_b": "Ultraviolet rays",
+    "option_c": "Infrared rays",
+    "option_d": "Gamma rays",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "A radioactive isotope has a decay constant of 10<sup>-6</sup>s<sup>-1</sup>.<br>Calculate its half - life?",
+    "option_a": "5.93 x 10<sup>6</sup>s",
+    "option_b": "6.93 x 10<sup>7</sup>s",
+    "option_c": "6.93 x 10<sup>9</sup>s",
+    "option_d": "5.93 x 10<sup>7</sup>s",
+    "answer": "B",
+    "solution": "t1/2 = \\(\\frac{0.693}{\\gamma}\\) = \\(\\frac{0.693}{10^-6}\\)<br>\n= 6.93 x 10<sup>7</sup>"
+  },
+  {
+    "question": "Which of the following waves is both transverse and mechanical?",
+    "option_a": "Water waves",
+    "option_b": "Radio waves",
+    "option_c": "Sound waves",
+    "option_d": "X-rays",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "Calculate the temperature of 6 moles of an ideal gas at a pressure of 7.6 x 106Nm<sup>-2</sup> with a volume of 10<sup>-3</sup>m<sup>3</sup>.<br>[R = 8.3jmol<sup>-1</sup>K<sup>-1</sup>]",
+    "option_a": "201<sup>o</sup>C",
+    "option_b": "126<sup>o</sup>C",
+    "option_c": "153<sup>o</sup>C",
+    "option_d": "185<sup>o</sup>C",
+    "answer": "C",
+    "solution": "T = \\(\\frac{PV}{nR}\\) = \\(\\frac{7.6 x 10^6 x 10^-3}{6 x 8.3}\\)<br>\n= 153<sup>o</sup>C"
+  },
+  {
+    "question": "The relative density of a liquid is the ratio of the",
+    "option_a": "Mass of water to the mass of an equal volume of liquid",
+    "option_b": "Upthrust in the liquid to the upthrust in water",
+    "option_c": "Density of water to the density of the liquid",
+    "option_d": "Upthrust in water to the upthrust in the liquid",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "What will happen to the pressure of a gas if its temperature is reduced to -273oC?",
+    "option_a": "It will decrease",
+    "option_b": "it will drop to zero",
+    "option_c": "It will increase",
+    "option_d": "It will remain constant",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "Which of the following does Not use magnetic effect of current to function?",
+    "option_a": "Lead acid accumulator",
+    "option_b": "An electric bell",
+    "option_c": "A moving coil galvanometer",
+    "option_d": "A telephone receiver",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "Vapour is said to be saturated on top of an enclosed liquid if _________",
+    "option_a": "The rate of condensation is greater than that of vapourization",
+    "option_b": "The rate of condensation is equal to that of vapourization",
+    "option_c": "There is neither condensation nor vaporization of the liquid",
+    "option_d": "The rate of condensation is less that that of vaporization",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "A pool of water appears to be 1.00m deep when viewed vertically from above. What is the actual depth of the pool?<br>[Refractive index of water = 1.33]",
+    "option_a": "13.300m",
+    "option_b": "0.750m",
+    "option_c": "1.013m",
+    "option_d": "1.330m",
+    "answer": "D",
+    "solution": "n = \\(\\frac{\\text {Read depth}}{\\text{Apparent depth}}\\) = 1.33 = \\(\\frac{Rd}{1}\\)<br>\nRd = 1.33 x 1 = 1.330m"
+  },
+  {
+    "question": "Shadows and eclipse result from the",
+    "option_a": "Reflection of light",
+    "option_b": "Rectilinear propagation of light",
+    "option_c": "Diffraction of light",
+    "option_d": "Refraction of light",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "Which of the following is obtained when a magenta is mixed with green colour?",
+    "option_a": "Yellow",
+    "option_b": "Blue",
+    "option_c": "White",
+    "option_d": "Red",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "Which of the following instruments can be used to measure current in an a.c circuit?",
+    "option_a": "Hot wire ammeter",
+    "option_b": "Moving coil ammeter",
+    "option_c": "Tangent galvanometer",
+    "option_d": "Moving coil galvanometer",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "Which of the following statements about wave motion is correct?",
+    "option_a": "Electromagnetic waves are transverse",
+    "option_b": "Transverse waves do not require a medium for propagation",
+    "option_c": "Longitudinal waves vibrate perpendicular to the direction of travel",
+    "option_d": "All mechanical waves are longitudinal",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "A satellite revolving around the earth is kept on its orbit by",
+    "option_a": "Centripetal forces only",
+    "option_b": "Centripetal and frictional forces",
+    "option_c": "Centrifugal forces only",
+    "option_d": "Centripetal and centrifugal forces",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "A manometer is an instrument used for measuring",
+    "option_a": "Relative density of liquid",
+    "option_b": "Pressure in liquids and gases",
+    "option_c": "Humidity",
+    "option_d": "Atmospheric pressure",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "A body which weighs 50N in air displaces 3.7kg of water when partially immersed in water. Calculate the upthrust on the body?",
+    "option_a": "8.7N",
+    "option_b": "37.0N",
+    "option_c": "87.0N",
+    "option_d": "13.0N",
+    "answer": "B",
+    "solution": "Upthrust = Weight or water displaced<br>= 3.7 x 10 = 37N"
+  },
+  {
+    "question": "The impulse of a force is deduced from Newton's second law as",
+    "option_a": "F = ma",
+    "option_b": "F = m( \\(\\frac{v - u}{t}\\)",
+    "option_c": "F = mg",
+    "option_d": "F = mv - mu",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "Boiling occurs when the vapour pressure of a liquid is",
+    "option_a": "At the evaporation point",
+    "option_b": "Less than the atmospheric pressure",
+    "option_c": "Greater than the atmospheric pressure",
+    "option_d": "Equal to the atmospheric pressure",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "If the magnification of a virtual image formed by an object 10cm from a convex less is 3, then the focal length of the lens is",
+    "option_a": "10cm",
+    "option_b": "20cm",
+    "option_c": "25cm",
+    "option_d": "15cm",
+    "answer": "D",
+    "solution": "M = \\(\\frac{v}{u}\\) = 3 = \\(\\frac{v}{30}\\). V = 30m<br>\n\\(\\frac{1}{u}\\) + \\(\\frac{1}{v}\\) = \\(\\frac{1}{f}\\) = \\(\\frac{1}{10}\\) - \\(\\frac{1}{30}\\) = \\(\\frac{1}{f}\\)<br>\n\\(\\frac{3 - 1}{30}\\) = \\(\\frac{1}{f}<br>\nf = \\(\\frac{30}{2}\\) = 15cm"
+  },
+  {
+    "question": "An electron in a hydrogen atom makes a transition from the ground level to the third level. If the energy at the ground level,calculate the energy at the third level.<br>[h = 6.6 x 10<sup>-34</sup>Js; f = 10<sup>15</sup>Hz]",
+    "option_a": "1.41eV",
+    "option_b": "1.71eV",
+    "option_c": "1.61eV",
+    "option_d": "1.51eV",
+    "answer": "D",
+    "solution": "E = \\(\\frac{E_o}{n^2}\\) = \\(\\frac{13.6}{3^2}\\) = \\(\\frac{13.6eV}{9}\\)<br>\n= 1.51eV"
+  },
+  {
+    "question": "In the diagram above, which of the following velocity-time graphs shows uniform acceleration of a body from rest?",
+    "option_a": "C",
+    "option_b": "D",
+    "option_c": "B",
+    "option_d": "A",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "In the diagram above, the neutral point is at",
+    "option_a": "R",
+    "option_b": "X",
+    "option_c": "S",
+    "option_d": "P",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "From the diagram above, the measuring accuracy of the micrometer screw gauge is",
+    "option_a": "4.78mm",
+    "option_b": "4.16mm",
+    "option_c": "4.66mm",
+    "option_d": "4.70mm",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "In the diagram above, the direction of the force between N and S in the magnetic field is",
+    "option_a": "MP",
+    "option_b": "SN",
+    "option_c": "NS",
+    "option_d": "PM",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": " Which of the following statements is Not true about atoms?",
+    "option_a": "Atom of different elements have different atomic weights",
+    "option_b": "The mass of an atom is concentrated in the nucleus",
+    "option_c": "An atom is made up of a nucleus and number of electrons",
+    "option_d": "Atoms of all elements are identical",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "The frequency of beats produced when two tunning forks of frequencies 258Hz and 270Hz are sounded close to each other",
+    "option_a": "6Hz",
+    "option_b": "264Hz",
+    "option_c": "528Hz",
+    "option_d": "12Hz",
+    "answer": "D",
+    "solution": "Beat = f2 - f1 = 270 - 258 = 12Hz"
+  },
+  {
+    "question": "Calculate the inductance of a coil of resistance 30\\(\\Omega\\) connected to a 100V a.c source if the coil draws an r.m.s current of 2A",
+    "option_a": "0.60H",
+    "option_b": "2.50H",
+    "option_c": "1.25H",
+    "option_d": "0.04H",
+    "answer": "D",
+    "solution": ""
+  }
+]

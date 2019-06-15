@@ -1,0 +1,902 @@
+﻿[
+  {
+    "question": "Select the  option that best explains the information conveyed in the sentence. <br><br>  <strong>Though Mr. Iro is our new chairman, he views other members with jaundiced eye?</strong>",
+    "option_a": "He takes a rather forceful position on dealing with his members",
+    "option_b": "He takes an unfavourable position concerning his members",
+    "option_c": "He takes a sicky view of his members",
+    "option_d": "He takes a rather hazy view of his members",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "Select the option that best explains the information conveyed in the sentence. <br><br>  <strong>People are not interested in who rules?</strong>",
+    "option_a": "People are not ruled by the leaders they want",
+    "option_b": "People are not concerned about who rules them",
+    "option_c": "The rulers are not concerned about the people",
+    "option_d": "People who rule are not intersested in the ruled",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "Select the option that best explains the information conveyed in the sentence.  <br><br>  <strong>The witness said he had no axe to grind with his brothers?</strong>",
+    "option_a": "He had no hatred for the brothers",
+    "option_b": "He had no axe and therefore stole the matchet",
+    "option_c": "He had no axe and therefore borrowed their matchet",
+    "option_d": "He had no vested interest in the brothers.",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "Select the option that best explains the information conveyed in the sentence. <br><br>  <strong>The footballers moved with  their tails between their legs?</strong>",
+    "option_a": "They moved happily because they won the match the match",
+    "option_b": "They were unhappy because they had been despised by their opponents",
+    "option_c": "They were ashamed because they had been defeated",
+    "option_d": "They moved with their tails between their legs",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "Select the option that best explains the information conveyed in the sentence.  <br><br>  <strong>The headmaster managed to take his way out of having to give a speech?</strong>",
+    "option_a": "He delieverd a speech despite the difficult",
+    "option_b": "He managed to give a speech out of a difficult situation",
+    "option_c": "He managed to get himself out of a difficult situation",
+    "option_d": "He managed to talk on his way",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "Select the option that best explains the information conveyed in the sentence.  <br><br>  <strong> As regards the matter, we have crossed the rubicon?</strong>",
+    "option_a": "We are completely at loss",
+    "option_b": "We are irrevocably committed",
+    "option_c": "We are already qualified",
+    "option_d": "We are perfectly committed",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "Select the option that best explains the information conveyed in the sentence. <br><br>  <strong>Uche is full of himself?</strong>",
+    "option_a": "He is conceited",
+    "option_b": "He is complete",
+    "option_c": "He is a rich man",
+    "option_d": "He is careful",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "Select the option that best explains the information conveyed in the sentence.  <br><br>  <strong>As debutantes in that tournament, the super eagles were up against their first opponents by three goals to nil?</strong>",
+    "option_a": "The Super Eagles were playing in the tournament for the first time, but they won their match by three goals to nothing",
+    "option_b": "Though the Super Eagles were rated as the weakest side in the tournament, they won their first match by three goals to nil",
+    "option_c": "Even though the Super Eagles were playing without some of their stars, they won their match by three goals to nil",
+    "option_d": "As the best trackers inthe match, the Super Eagles easily defeated their opponents by three goals to nothing",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "Select the option that best explains the information conveyed in the sentence. <br><br>  <strong>The woman was mournful as her husband was found dead drunk?</strong>",
+    "option_a": "She was sad because her husband was absolutely drunk",
+    "option_b": "She was apprehensive that her husband would drink as soon as he recovered fromdrunken stupor",
+    "option_c": "She was sad because her husband was drunk and always as helpless as a dead man",
+    "option_d": "She was mourning because her husband drank and died",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option opposite in meaning to the underlined word(s). <strong> I am optimistic about the interview though it was a <u>mind-bending</u> exercise?</strong>",
+    "option_a": "an enervating",
+    "option_b": "a debilitating",
+    "option_c": "a difficult",
+    "option_d": "an easy",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option opposite in meaning to the underlined word(s).<br><br>  <strong>The trader was amused by the <u>cut-throat</u> rush for the goods?</strong>",
+    "option_a": "worrisome",
+    "option_b": "strange",
+    "option_c": "lacklustre",
+    "option_d": "mad",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option opposite in meaning to the underlined word(s).<br><br>  <strong>The teacher said that Ali's essay was full of many <u>redundant</u> details?</strong>",
+    "option_a": "unexplained",
+    "option_b": "strange",
+    "option_c": "necessary",
+    "option_d": "useful",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option opposite in meaning to the underlined word(s).<br><br>  <strong>His father surmounted the <u>myriad</u> of obstacles on his way?</strong>",
+    "option_a": "most",
+    "option_b": "few",
+    "option_c": "all",
+    "option_d": "many",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option opposite in meaning to the underlined word(s).<br><br>  Her <u>ingenuous</u> smile drew our attention?",
+    "option_a": "witty",
+    "option_b": "naive",
+    "option_c": "clever",
+    "option_d": "arrogant",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option opposite in meaning to the underlined word(s).<br><br>  <strong>Ndeni gave a <u>flawless</u> speech at the party?</strong>",
+    "option_a": "a wonferful",
+    "option_b": "a careless",
+    "option_c": "an interesting",
+    "option_d": "an imperfect",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option opposite in meaning to the underlined word(s).<br><br>  <strong>Beneath  Ado's <u>guff</u> exterior, he's really very kind-hearted?</strong>",
+    "option_a": "nice",
+    "option_b": "harsh",
+    "option_c": "rough",
+    "option_d": "gentle",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option opposite in meaning to the underlined word(s).<br><br>  <strong>Governing a country is not always as <u>straightforward</u> as people sometimes imagine?</strong>",
+    "option_a": "complicated",
+    "option_b": "troublesome",
+    "option_c": "untoward",
+    "option_d": "irksome",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option opposite in meaning to the underlined word(s).<br><br>  <strong>The captain says sport is being <u>debased</u> by commercial sponsorship?</strong>",
+    "option_a": "localized",
+    "option_b": "perverted",
+    "option_c": "elevated",
+    "option_d": "overvalued",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option opposite in meaning to the underlined word(s).<br><br>  <strong> Aisha seems to feel <u>ambivalent</u> about her future?</strong>",
+    "option_a": "decisive",
+    "option_b": "anxious",
+    "option_c": "ambitious",
+    "option_d": "inconsiderate",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option opposite in meaning to the underlined word(s).<br><br> The crowd was very <u>receptive</u> to the speaker's suggestion?",
+    "option_a": "disobedient",
+    "option_b": "discrepancy",
+    "option_c": "compromise",
+    "option_d": "agreement",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option opposite in meaning to the underlined word(s).<br><br> The report of the committee contained a <u>plethora</u> of details?",
+    "option_a": "shortage",
+    "option_b": "simplicity",
+    "option_c": "multitude",
+    "option_d": "spectrum",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option opposite in meaning to the underlined word(s).<br><br> The weather was still very <u>heavy and sultry</u>?",
+    "option_a": "wintry and shadowy",
+    "option_b": "cold and friendly",
+    "option_c": "cloudly and thundery",
+    "option_d": "hot and uncomfortable",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option nearest in meaning to the underlined word(s).<br><br> A political <u>impasses</u> does not offer the best opportunity for merrymaking?",
+    "option_a": "manifesto",
+    "option_b": "party",
+    "option_c": "gridlock",
+    "option_d": "rally",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option opposite in meaning to the underlined word(s).<br><br> Ada gave her husband a look that made words <u>superfluous</u>?",
+    "option_a": "redundant",
+    "option_b": "spurious",
+    "option_c": "unnecessary",
+    "option_d": "scanty",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option nearest in meaning to the underlined word(s).<br><br> We were all <u>enthusiastic</u> as we awaited the result of the election?",
+    "option_a": "bemused",
+    "option_b": "agitated",
+    "option_c": "elated",
+    "option_d": "nervous",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option nearest in meaning to the underlined word(s).<br><br> The uniform makes the guards look <u>absurd</u>?",
+    "option_a": "dirty",
+    "option_b": "smart",
+    "option_c": "sensible",
+    "option_d": "ridiculous",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option nearest in meaning to the underlined word(s).<br><br> The law is often <u>tardy</u> in reacting to changing attitude?",
+    "option_a": "quick",
+    "option_b": "slow",
+    "option_c": "exclusive",
+    "option_d": "generous",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option nearest in meaning to the underlined word(s).<br><br> Isa and Ilu ate <u>sumptuous</u> meals on their brother's wedding day?",
+    "option_a": "expensive",
+    "option_b": "foreign",
+    "option_c": "insipid",
+    "option_d": "cheap",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option nearest in meaning to the underlined word(s).<br><br> Kaltume <u>crouched</u> over the papers on her desk?",
+    "option_a": "wrote on",
+    "option_b": "stood on",
+    "option_c": "walked over",
+    "option_d": "bent over",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option nearest in meaning to the underlined word(s).<br><br> Thousands of workers have been victims of  <u>retrenchment</u> since the military came back to power?",
+    "option_a": "unemployment",
+    "option_b": "trench mentality",
+    "option_c": "suffering",
+    "option_d": "increase in penury",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option nearest in meaning to the underlined word(s).<br><br> The principal gave his speech <u>offhand</u> at the sports meeting?",
+    "option_a": "calmly",
+    "option_b": "beautifully",
+    "option_c": "unconcerned",
+    "option_d": "unprepared",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option nearest in meaning to the underlined word(s).<br><br> Jankoli was dressed in an old <u>assortment</u>  of clothes?",
+    "option_a": "avalanche",
+    "option_b": "homogeneity",
+    "option_c": "sameness",
+    "option_d": "melange",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option nearest in meaning to the underlined word(s).<br><br> The director's remark was extremely <u>apposite</u> to the shrine?",
+    "option_a": "collected",
+    "option_b": "overwhelmed",
+    "option_c": "embarrased",
+    "option_d": "astonished",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option nearest in meaning to the underlined word(s).<br><br> The director's remark was extremely <u>opposite</u> to the issue being discussed?",
+    "option_a": "appropriate",
+    "option_b": "inconsequential",
+    "option_c": "emphatic",
+    "option_d": "adquate",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option nearest in meaning to the underlined word(s).<br><br> The girl's father was <u>astounded</u> to see her appear from the shrine?",
+    "option_a": "collected",
+    "option_b": "overwhelmed",
+    "option_c": "embarrassed",
+    "option_d": "astonished",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option nearest in meaning to the underlined word(s).<br><br> Her reputation is without a <u>blemish</u>?",
+    "option_a": "struggle",
+    "option_b": "problem",
+    "option_c": "fault",
+    "option_d": "blessing",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option nearest in meaning to the underlined word(s).<br><br> Ugo's is <u>eligible</u> for the post of secretary?",
+    "option_a": "nominated",
+    "option_b": "invited",
+    "option_c": "qualified",
+    "option_d": "intelligent",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option nearest in meaning to the underlined word(s).<br><br> This is an abridge version of <u>No longer at Ease</u>?",
+    "option_a": "an outdated",
+    "option_b": "an enlarged",
+    "option_c": "an illiustrated",
+    "option_d": "a shortened",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option that best completes the gap(s).<br><br> Lemoti ....... as a painter, but also as a sculptor?",
+    "option_a": "is gifted only not",
+    "option_b": "is only not gifted",
+    "option_c": "is gifted not only",
+    "option_d": "is only gifted",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option that best completes the gap(s).<br><br> He can recall the important dates in the nation's history, it is interesting to listen as he rattles........?",
+    "option_a": "off",
+    "option_b": "over",
+    "option_c": "up",
+    "option_d": "out",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option that best completes the gap(s).<br><br> Last Monday his father asked me, ....... ?",
+    "option_a": "if iI had come some days before",
+    "option_b": "if I had come the day before",
+    "option_c": "did you come yesterday",
+    "option_d": "had I come yesterday",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option that best completes the gap(s).<br><br> The boy told his mother...... ?",
+    "option_a": "that was the girl he told her  about",
+    "option_b": "that was the girl I told you about her",
+    "option_c": "that was the girl I told her about",
+    "option_d": "that is the girl he told her about",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option that best completes the gap(s).<br><br> His wife was badly injured in the fracas, but I think she will pull ....... ?",
+    "option_a": "up",
+    "option_b": "over",
+    "option_c": "through",
+    "option_d": "back",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option that best completes the gap(s).<br><br> A wide range of options ....... made available to students in their final year last year?",
+    "option_a": "is",
+    "option_b": "were",
+    "option_c": "are",
+    "option_d": "was",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option that best completes the gap(s).<br><br> One of the women who ...... in the premises ...... been ordered to quit?",
+    "option_a": "sells / have",
+    "option_b": "sell / has",
+    "option_c": "sell / have",
+    "option_d": "sells / has",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option that best completes the gap(s).<br><br> The new trade agreement should facilitate ....... ?",
+    "option_a": "more economic rapid growth",
+    "option_b": "economic more rapid growth",
+    "option_c": "rapid economic more growth",
+    "option_d": "more rapid economic growth",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option that best completes the gap(s).<br><br> The principal said that he was pleased ...... my effort?",
+    "option_a": "on",
+    "option_b": "of",
+    "option_c": "with",
+    "option_d": "about",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option nearest in meaning to the underlined word(s).<br><br> The panacea for a country's economic mess lies in systematic planning and hardwork?",
+    "option_a": "cure",
+    "option_b": "hope",
+    "option_c": "foresight",
+    "option_d": "trouble",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option that best completes the gap(s).<br><br> Long after everyone ....... the hall, Obi still sat inside?",
+    "option_a": "left",
+    "option_b": "is leaving",
+    "option_c": "has left",
+    "option_d": "had left",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option that best completes the gap(s).<br><br> When we looked up, we ...... the plane some miles away?",
+    "option_a": "site",
+    "option_b": "cited",
+    "option_c": "sited",
+    "option_d": "sighted",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option that best completes the gap(s).<br><br> They are the ...... dresses?",
+    "option_a": "baby's",
+    "option_b": "baby",
+    "option_c": "babies",
+    "option_d": "babies'",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option that best completes the gap(s).<br><br> Vital ...... is still spread ..... word of mouth in most villages in Africa?",
+    "option_a": "information / from",
+    "option_b": "information / with",
+    "option_c": "information / by",
+    "option_d": "information / through",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option that best completes the gap(s).<br><br> Western education is one of the ...... child trafficking?",
+    "option_a": "legacies",
+    "option_b": "evidence",
+    "option_c": "remnants",
+    "option_d": "inheritance",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option that best completes the gap(s).<br><br> The man was happy that his son confessed his guilt and so the others were .......?",
+    "option_a": "implicated",
+    "option_b": "accused",
+    "option_c": "punished",
+    "option_d": "exonerated",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option that best completes the gap(s).<br><br> The federal Government has ....... child trafficking?",
+    "option_a": "postulated",
+    "option_b": "projected",
+    "option_c": "prescribed",
+    "option_d": "proscribed",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option that best completes the gap(s).<br><br> Based on the facts before me, I have no alternative ....... to hold you responsible?",
+    "option_a": "only",
+    "option_b": "as",
+    "option_c": "than",
+    "option_d": "but",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option that best completes the gap(s).<br><br> Many people would always find reasons to ....... the law?",
+    "option_a": "arrogate",
+    "option_b": "debase",
+    "option_c": "circumvent",
+    "option_d": "circumspect",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option that has the same vowel sound as the one represented by the underlined letters.<br><br> C<u>oup</u>?",
+    "option_a": "whup",
+    "option_b": "hoot",
+    "option_c": "couple",
+    "option_d": "scout",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option that has the same vowel sound as the one represented by the underlined letters.<br><br> <u>Ind<u>i</u>ct</u>?",
+    "option_a": "bright",
+    "option_b": "fish",
+    "option_c": "pick",
+    "option_d": "brick",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option that has the same vowel sound as the one represented by the underlined letters.<br><br> <u>R<u>oar</u>ed<u/>?",
+    "option_a": "towered",
+    "option_b": "coast",
+    "option_c": "brought",
+    "option_d": "rod",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option that has the same consonant sound as the one represented by the underlined letters.<br><br> O<u>f</u> course?",
+    "option_a": "plough",
+    "option_b": "dough",
+    "option_c": "over",
+    "option_d": "orphan",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option that has the same consonant sound as the one represented by the underlined letters.<br><br> Shea<u>th</u>",
+    "option_a": "bathe",
+    "option_b": "lenght",
+    "option_c": "months",
+    "option_d": "paths",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option that has the same consonant sound as the one represented by the underlined letters. <br><br> <u>H</u>igh?",
+    "option_a": "what",
+    "option_b": "honest",
+    "option_c": "who",
+    "option_d": "vehicle",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option that rhymes with the given word.<br><br> Boys?",
+    "option_a": "stays",
+    "option_b": "moist",
+    "option_c": "noise",
+    "option_d": "elbows",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option that rhymes with the given word.<br><br> Shine?",
+    "option_a": "clean",
+    "option_b": "fine",
+    "option_c": "machine",
+    "option_d": "lain",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "Choose the option that rhymes with the given word.<br><br> Seer?",
+    "option_a": "snare",
+    "option_b": "spare",
+    "option_c": "spear",
+    "option_d": "square",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "Choose the most appropriate stress pattern from the options. The stressed syllable are written in capital letters(s).<br><br> political",
+    "option_a": "politiCAL",
+    "option_b": "POlitical",
+    "option_c": "poliTIcal",
+    "option_d": "poLItical",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "Choose the most appropriate stress pattern from the options. The stressed syllable are written in capital letters(s).<br><br> satisfactory?",
+    "option_a": "satisfacTORY",
+    "option_b": "saTISfactory",
+    "option_c": "SATisfactory",
+    "option_d": "satisFACtory",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "Choose the most appropriate stress pattern from the options. The stressed syllable are written in capital letters(s).<br><br> captivity?",
+    "option_a": "captiviTY",
+    "option_b": "captiVIty",
+    "option_c": "capTIvity",
+    "option_d": "CAPtivity",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "The word in capital letters has the emphatic stress. Choose the option to which the given relates.<br><br> EMEKA finished his home work yesterday.",
+    "option_a": "Was Emeka helped to do his home work?",
+    "option_b": "Did Emeka do his home work yesterday?",
+    "option_c": "When did Emeka finish his home work?",
+    "option_d": "Who finished his home work yesterday?",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "The word in capital letters has the emphatic stress. Choose the option to which the given sentence relates.<br><br> Taiwo SAILED to London.",
+    "option_a": "Did Taiwo fly to London?",
+    "option_b": "Did Taiwo sail to Brazil?",
+    "option_c": "Did Taiwo sail to London",
+    "option_d": "Where did Taiwo sail to?",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "The word in capital letters has the emphatic stress. Choose the option to which the given  sentence relates.<br><br> My bag is made of LEATHER?",
+    "option_a": "Whose bag is made of leather?",
+    "option_b": "Is my bag made of polythene?",
+    "option_c": "Abu's bag made of leather?",
+    "option_d": "Is my bag made of leather?",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "<br><br>   One of the interesting things to me about our spaceship is that it is a mechanical vehicle, just as is an automobile. If you own a car, you realize that you must put oil and gas into it and must put water in the radiator and take care of the car as a whole. You begin to develop quite a little thermodynamic sense. You know that you are either going to have to keep the machine in a good order or it is going to be in trouble and fail to function. We  have not been seeing our spaceship earth as an integrally-designed machine which to be persistently successful, must be comprehended and serviced in total.\n  Now there is one outstanding important fact regarding Spaceship Earth and that is that no instrument book came with it. I think it is very significant that there is no instrument book for successfully operating our ship, in view of the infinite attention to all other details displayed by our ship. It must be taken as deliberate and purposeful that an instruction book was omitted. Lack of instruction has forced us to find out that there are two kinds of mangoes-unripe mangoes that will kill us and ripped mangoes which will nourish us. And we had to find out ways of telling which were-which mangoes before we ate it or otherwise we would die. So we were forced because of this to devise scientific experimental procedures and to interpret effectively the significance of the experimental findings. Thus, because the instruction manual was missing, we are learning how we can safely survive on the planet.\n  quite clearly, all living beings are utterly helpless at the moment of birth. The human child stays helpless longer than the young of any species. Apparently, it is part of the “invention” that man is meant to be utterly helpless through certain anthropological phases. When he begins to be able to get on a little better, he is meant to discover some of the physical principals inherent in the universe as well as the many resources around him which will further multiply his knowledge. Designed into this Spaceship Earth’s total wealth was a big safety factor. This allowed man to be very ignorant for a long time until he had amassed enough experience from which to extract progressively the system of generalized principals governing increase of energy. The designed omission of the instruction book forced man to discover retrospectively just what his most important capabilities are. He learned to generalize fundamental principles of universe.<br><br> \n     <br><br>      <br><br>     According to the writer, the exciting thing about spaceship Earth is that it\n                        \n                        \n                        \n                            A has no instrument manual\n                            \n                        \n                        \n                            B is not difficult to maintain\n                            \n                        \n                        \n                            C is peculiar to other automobiles\n                            \n                        \n                        \n                            D is relatively easy to operate\n                            \n                        \n                        \n                        \n                            \n                                \n                                    Answer & Comment\n                                     \n                                    A\n                                \n                                \n                                \n                                     \n                                    \n                                    \n                                \n                                \n                                \n                                    \n                                                                                \n                                            Comment\n                                            \n                                                \n                                                                                            \n                                        \n                                        \n                                            \n                                            \n                                            \n                                        \n                                    \n                                \n                            \n                        \n                         \n                            \n                                Advertisement<br><br> \n(adsbygoogle = window.adsbygoogle || []).push({});",
+    "option_a": "has no instrument manual",
+    "option_b": "is not difficult to maintain",
+    "option_c": "is peculiar to other automobiles",
+    "option_d": "is relatively easy to operate",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "<br><br>   One of the interesting things to me about our spaceship is that it is a mechanical vehicle, just as is an automobile. If you own a car, you realize that you must put oil and gas into it and must put water in the radiator and take care of the car as a whole. You begin to develop quite a little thermodynamic sense. You know that you are either going to have to keep the machine in a good order or it is going to be in trouble and fail to function. We  have not been seeing our spaceship earth as an integrally-designed machine which to be persistently successful, must be comprehended and serviced in total.\n  Now there is one outstanding important fact regarding Spaceship Earth and that is that no instrument book came with it. I think it is very significant that there is no instrument book for successfully operating our ship, in view of the infinite attention to all other details displayed by our ship. It must be taken as deliberate and purposeful that an instruction book was omitted. Lack of instruction has forced us to find out that there are two kinds of mangoes-unripe mangoes that will kill us and ripped mangoes which will nourish us. And we had to find out ways of telling which were-which mangoes before we ate it or otherwise we would die. So we were forced because of this to devise scientific experimental procedures and to interpret effectively the significance of the experimental findings. Thus, because the instruction manual was missing, we are learning how we can safely survive on the planet.\n  quite clearly, all living beings are utterly helpless at the moment of birth. The human child stays helpless longer than the young of any species. Apparently, it is part of the “invention” that man is meant to be utterly helpless through certain anthropological phases. When he begins to be able to get on a little better, he is meant to discover some of the physical principals inherent in the universe as well as the many resources around him which will further multiply his knowledge. Designed into this Spaceship Earth’s total wealth was a big safety factor. This allowed man to be very ignorant for a long time until he had amassed enough experience from which to extract progressively the system of generalized principals governing increase of energy. The designed omission of the instruction book forced man to discover retrospectively just what his most important capabilities are. He learned to generalize fundamental principles of universe.<br><br> \n     <br><br>      <br><br>     The absence of instrument manual in Spaceship Earth has\n                        \n                        \n                        \n                            A made the operation of the Spaceship Earth difficult\n                            \n                        \n                        \n                            B forced man to devise other means of travelling in space\n                            \n                        \n                        \n                            C challenged man's inquistiveness\n                            \n                        \n                        \n                            D made man helpless\n                            \n                        \n                        \n                        \n                            \n                                \n                                    Answer & Comment\n                                     \n                                    C\n                                \n                                \n                                \n                                     \n                                    \n                                    \n                                \n                                \n                                \n                                    \n                                                                                \n                                            Comment",
+    "option_a": "made the operation of the Spaceship Earth difficult",
+    "option_b": "forced man to devise other means of travelling in space",
+    "option_c": "challenged man's inquistiveness",
+    "option_d": "made man helpless",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "<br><br>   One of the interesting things to me about our spaceship is that it is a mechanical vehicle, just as is an automobile. If you own a car, you realize that you must put oil and gas into it and must put water in the radiator and take care of the car as a whole. You begin to develop quite a little thermodynamic sense. You know that you are either going to have to keep the machine in a good order or it is going to be in trouble and fail to function. We  have not been seeing our spaceship earth as an integrally-designed machine which to be persistently successful, must be comprehended and serviced in total.\n  Now there is one outstanding important fact regarding Spaceship Earth and that is that no instrument book came with it. I think it is very significant that there is no instrument book for successfully operating our ship, in view of the infinite attention to all other details displayed by our ship. It must be taken as deliberate and purposeful that an instruction book was omitted. Lack of instruction has forced us to find out that there are two kinds of mangoes-unripe mangoes that will kill us and ripped mangoes which will nourish us. And we had to find out ways of telling which were-which mangoes before we ate it or otherwise we would die. So we were forced because of this to devise scientific experimental procedures and to interpret effectively the significance of the experimental findings. Thus, because the instruction manual was missing, we are learning how we can safely survive on the planet.\n  quite clearly, all living beings are utterly helpless at the moment of birth. The human child stays helpless longer than the young of any species. Apparently, it is part of the “invention” that man is meant to be utterly helpless through certain anthropological phases. When he begins to be able to get on a little better, he is meant to discover some of the physical principals inherent in the universe as well as the many resources around him which will further multiply his knowledge. Designed into this Spaceship Earth’s total wealth was a big safety factor. This allowed man to be very ignorant for a long time until he had amassed enough experience from which to extract progressively the system of generalized principals governing increase of energy. The designed omission of the instruction book forced man to discover retrospectively just what his most important capabilities are. He learned to generalize fundamental principles of universe.<br><br> \n     <br><br>      <br><br>     From the passage, it can be deduced that man\n                        \n                        \n                        \n                            A learns by experiment and deduction\n                            \n                        \n                        \n                            B learns bychance and accidentally\n                            \n                        \n                        \n                            C is incapable of solving all his problems\n                            \n                        \n                        \n                            D by his nature is in constant search of knowledge\n                            \n                        \n                        \n                        \n                            \n                                \n                                    Answer & Comment\n                                     \n                                    A\n                                \n                                \n                                \n                                     \n                                    \n                                    \n                                \n                                \n                                \n                                    \n                                                                                \n                                            Comment",
+    "option_a": "learns by experiment and deduction",
+    "option_b": "learns bychance and accidentally",
+    "option_c": "is incapable of solving all his problems",
+    "option_d": "by his nature is in constant search of knowledge",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "<br><br>   One of the interesting things to me about our spaceship is that it is a mechanical vehicle, just as is an automobile. If you own a car, you realize that you must put oil and gas into it and must put water in the radiator and take care of the car as a whole. You begin to develop quite a little thermodynamic sense. You know that you are either going to have to keep the machine in a good order or it is going to be in trouble and fail to function. We  have not been seeing our spaceship earth as an integrally-designed machine which to be persistently successful, must be comprehended and serviced in total.\n  Now there is one outstanding important fact regarding Spaceship Earth and that is that no instrument book came with it. I think it is very significant that there is no instrument book for successfully operating our ship, in view of the infinite attention to all other details displayed by our ship. It must be taken as deliberate and purposeful that an instruction book was omitted. Lack of instruction has forced us to find out that there are two kinds of mangoes-unripe mangoes that will kill us and ripped mangoes which will nourish us. And we had to find out ways of telling which were-which mangoes before we ate it or otherwise we would die. So we were forced because of this to devise scientific experimental procedures and to interpret effectively the significance of the experimental findings. Thus, because the instruction manual was missing, we are learning how we can safely survive on the planet.\n  quite clearly, all living beings are utterly helpless at the moment of birth. The human child stays helpless longer than the young of any species. Apparently, it is part of the “invention” that man is meant to be utterly helpless through certain anthropological phases. When he begins to be able to get on a little better, he is meant to discover some of the physical principals inherent in the universe as well as the many resources around him which will further multiply his knowledge. Designed into this Spaceship Earth’s total wealth was a big safety factor. This allowed man to be very ignorant for a long time until he had amassed enough experience from which to extract progressively the system of generalized principals governing increase of energy. The designed omission of the instruction book forced man to discover retrospectively just what his most important capabilities are. He learned to generalize fundamental principles of universe.<br><br> \n     <br><br>      <br><br>     The writer's mood in the passage is that of\n                        \n                        \n                        \n                            A non-commital\n                            \n                        \n                        \n                            B pessimism\n                            \n                        \n                        \n                            C optimism\n                            \n                        \n                        \n                            D frustration\n                            \n                        \n                        \n                        \n                            \n                                \n                                    Answer & Comment\n                                     \n                                    C\n                                \n                                \n                                \n                                     \n                                    \n                                    \n                                \n                                \n                                \n                                    \n                                                                                \n                                            Comment",
+    "option_a": "non-commital",
+    "option_b": "pessimism",
+    "option_c": "optimism",
+    "option_d": "frustration",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "<br><br>   Stress is by far the most common cause of ill health in our society and may be the underlying cause of as many as 70-80 per cent of all visits to family doctors. It is also the problem that every doctor shares with patients. Experts note that stress is an issue everyone can relate to experimentally. In studying and better understanding about stress, we can derive personal as well as professional benefits. \n  Stress can be overcome without undergoing duress. They often say anyone who wants to help someone deal with his/her stress should learn to handle his/her first. The manifestation of stress is legion. It can contribute or mimic just about any symptom you can think of. However, the main symptoms are physical, mental, emotional and behavioural. The cause of stress are multiple and varied but they can be classified into external and internal. External stressors can include relatively getting sick or dying, jobs being lost or people criticizing or one becoming angry. However, most of the stress people experience is self-generated.\n  Experts tell us that we create the majority of our upsets indicating that because we cause most of our own stress, we can do something about it. This gives us a measure of choice and control that we do not always have when outside forces act on us. This also leads to a basic premise about stress reduction. To master stress-change, you have to figure out what you are doing that is contributing to your problems and change it. These changes fall into behaviour, thinking, lifestyle choices and/ or situations you are in. by getting  to the root causes of your stress, you can prevent recurrences.\n  As a way of draining off stress energy, nothing beats aerobic exercise. To understand why, we need to review what stress is. People often think of stress as pressure at work, a demanding boss, a sick child or rush-hour traffic. These may be trigger but stress is actually the body reaction to factors such as these. Stress is the fight-or-fight response in the body, mediated by adrenaline and other stress hormones and comprised such physiologic changes as increased heart rate and blood pressure, faster breathing, muscle tension, dilated pupils, dry mouth and increased blood sugar. In other words, stress is the state of increased arousal necessary for an organism to defend itself at a time of danger.\n  Exercise is the most logical way to dissipate the excess energy. It is what our bodies are trying to do when we pace around or tap our legs and fingers. It is much better to channel it into a more complete form of exercise like a brisk walk, a run, a bike ride, or a game of squash.\n  Just as we are all capable of mounting up and sustaining a stress reaction, we have also inherited the ability to put our bodies into a state of deep relaxation called the ‘relaxation response’. In this state, all the physiologic events in the stress reaction are reversed. Pulse slows, blood pressure falls, breathing slows and muscles relax.<br><br> \n     <br><br>      <br><br>     The expression 'stress is an issue every body can relate to experimentally' means that\n                        \n                        \n                        \n                            A it is better understood when experienced\n                            \n                        \n                        \n                            B its problem can be solved by everybody\n                            \n                        \n                        \n                            C everybody avoids it\n                            \n                        \n                        \n                            D everybody encounters it\n                            \n                        \n                        \n                        \n                            \n                                \n                                    Answer & Comment\n                                     \n                                    B\n                                \n                                \n                                \n                                     \n                                    \n                                    \n                                \n                                \n                                \n                                    \n                                                                                \n                                            Comment",
+    "option_a": "it is better understood when experienced",
+    "option_b": "its problem can be solved by everybody",
+    "option_c": "everybody avoids it",
+    "option_d": "everybody encounters it",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "<br><br>   Stress is by far the most common cause of ill health in our society and may be the underlying cause of as many as 70-80 per cent of all visits to family doctors. It is also the problem that every doctor shares with patients. Experts note that stress is an issue everyone can relate to experimentally. In studying and better understanding about stress, we can derive personal as well as professional benefits. \n  Stress can be overcome without undergoing duress. They often say anyone who wants to help someone deal with his/her stress should learn to handle his/her first. The manifestation of stress is legion. It can contribute or mimic just about any symptom you can think of. However, the main symptoms are physical, mental, emotional and behavioural. The cause of stress are multiple and varied but they can be classified into external and internal. External stressors can include relatively getting sick or dying, jobs being lost or people criticizing or one becoming angry. However, most of the stress people experience is self-generated.\n  Experts tell us that we create the majority of our upsets indicating that because we cause most of our own stress, we can do something about it. This gives us a measure of choice and control that we do not always have when outside forces act on us. This also leads to a basic premise about stress reduction. To master stress-change, you have to figure out what you are doing that is contributing to your problems and change it. These changes fall into behaviour, thinking, lifestyle choices and/ or situations you are in. by getting  to the root causes of your stress, you can prevent recurrences.\n  As a way of draining off stress energy, nothing beats aerobic exercise. To understand why, we need to review what stress is. People often think of stress as pressure at work, a demanding boss, a sick child or rush-hour traffic. These may be trigger but stress is actually the body reaction to factors such as these. Stress is the fight-or-fight response in the body, mediated by adrenaline and other stress hormones and comprised such physiologic changes as increased heart rate and blood pressure, faster breathing, muscle tension, dilated pupils, dry mouth and increased blood sugar. In other words, stress is the state of increased arousal necessary for an organism to defend itself at a time of danger.\n  Exercise is the most logical way to dissipate the excess energy. It is what our bodies are trying to do when we pace around or tap our legs and fingers. It is much better to channel it into a more complete form of exercise like a brisk walk, a run, a bike ride, or a game of squash.\n  Just as we are all capable of mounting up and sustaining a stress reaction, we have also inherited the ability to put our bodies into a state of deep relaxation called the ‘relaxation response’. In this state, all the physiologic events in the stress reaction are reversed. Pulse slows, blood pressure falls, breathing slows and muscles relax.<br><br> \n     <br><br>      <br><br>     Which of the following is true according to the passage?\n                        \n                        \n                        \n                            A stress is mostly caused by internal factors\n                            \n                        \n                        \n                            B stress can only be avoided during relaxation\n                            \n                        \n                        \n                            C stress is better handled by the individual\n                            \n                        \n                        \n                            D the issue of stress can be solved with no effort\n                            \n                        \n                        \n                        \n                            \n                                \n                                    Answer & Comment\n                                     \n                                    C\n                                \n                                \n                                \n                                     \n                                    \n                                    \n                                \n                                \n                                \n                                    \n                                                                                \n                                            Comment\n                                            \n                                                \n                                                                                            \n                                        \n                                        \n                                            \n                                            \n                                            \n                                        \n                                    \n                                \n                            \n                        \n                         \n                            \n                                Advertisement<br><br> \n(adsbygoogle = window.adsbygoogle || []).push({});",
+    "option_a": "stress is mostly caused by internal factors",
+    "option_b": "stress can only be avoided during relaxation",
+    "option_c": "stress is better handled by the individua",
+    "option_d": "the issue of stress can be solved with no effort",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "<br><br>   Stress is by far the most common cause of ill health in our society and may be the underlying cause of as many as 70-80 per cent of all visits to family doctors. It is also the problem that every doctor shares with patients. Experts note that stress is an issue everyone can relate to experimentally. In studying and better understanding about stress, we can derive personal as well as professional benefits. \n  Stress can be overcome without undergoing duress. They often say anyone who wants to help someone deal with his/her stress should learn to handle his/her first. The manifestation of stress is legion. It can contribute or mimic just about any symptom you can think of. However, the main symptoms are physical, mental, emotional and behavioural. The cause of stress are multiple and varied but they can be classified into external and internal. External stressors can include relatively getting sick or dying, jobs being lost or people criticizing or one becoming angry. However, most of the stress people experience is self-generated.\n  Experts tell us that we create the majority of our upsets indicating that because we cause most of our own stress, we can do something about it. This gives us a measure of choice and control that we do not always have when outside forces act on us. This also leads to a basic premise about stress reduction. To master stress-change, you have to figure out what you are doing that is contributing to your problems and change it. These changes fall into behaviour, thinking, lifestyle choices and/ or situations you are in. by getting  to the root causes of your stress, you can prevent recurrences.\n  As a way of draining off stress energy, nothing beats aerobic exercise. To understand why, we need to review what stress is. People often think of stress as pressure at work, a demanding boss, a sick child or rush-hour traffic. These may be trigger but stress is actually the body reaction to factors such as these. Stress is the fight-or-fight response in the body, mediated by adrenaline and other stress hormones and comprised such physiologic changes as increased heart rate and blood pressure, faster breathing, muscle tension, dilated pupils, dry mouth and increased blood sugar. In other words, stress is the state of increased arousal necessary for an organism to defend itself at a time of danger.\n  Exercise is the most logical way to dissipate the excess energy. It is what our bodies are trying to do when we pace around or tap our legs and fingers. It is much better to channel it into a more complete form of exercise like a brisk walk, a run, a bike ride, or a game of squash.\n  Just as we are all capable of mounting up and sustaining a stress reaction, we have also inherited the ability to put our bodies into a state of deep relaxation called the ‘relaxation response’. In this state, all the physiologic events in the stress reaction are reversed. Pulse slows, blood pressure falls, breathing slows and muscles relax.<br><br> \n     <br><br>      <br><br>     according to the passage, the major step in controlling stress is\n                        \n                        \n                        \n                            A changing one's attitude to stressors\n                            \n                        \n                        \n                            B understanding the history of the disease\n                            \n                        \n                        \n                            C visiting family doctors for checkup and treatment\n                            \n                        \n                        \n                            D constant exercise to disspate every energy\n                            \n                        \n                        \n                        \n                            \n                                \n                                    Answer & Comment\n                                     \n                                    B\n                                \n                                \n                                \n                                     \n                                    \n                                    \n                                \n                                \n                                \n                                    \n                                                                                \n                                            Comment",
+    "option_a": "changing one's attitude to stressors",
+    "option_b": "understanding the history of the disease",
+    "option_c": "visiting family doctors for checkup and treatmen",
+    "option_d": "constant exercise to disspate every energy",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "<br><br>   Stress is by far the most common cause of ill health in our society and may be the underlying cause of as many as 70-80 per cent of all visits to family doctors. It is also the problem that every doctor shares with patients. Experts note that stress is an issue everyone can relate to experimentally. In studying and better understanding about stress, we can derive personal as well as professional benefits. \n  Stress can be overcome without undergoing duress. They often say anyone who wants to help someone deal with his/her stress should learn to handle his/her first. The manifestation of stress is legion. It can contribute or mimic just about any symptom you can think of. However, the main symptoms are physical, mental, emotional and behavioural. The cause of stress are multiple and varied but they can be classified into external and internal. External stressors can include relatively getting sick or dying, jobs being lost or people criticizing or one becoming angry. However, most of the stress people experience is self-generated.\n  Experts tell us that we create the majority of our upsets indicating that because we cause most of our own stress, we can do something about it. This gives us a measure of choice and control that we do not always have when outside forces act on us. This also leads to a basic premise about stress reduction. To master stress-change, you have to figure out what you are doing that is contributing to your problems and change it. These changes fall into behaviour, thinking, lifestyle choices and/ or situations you are in. by getting  to the root causes of your stress, you can prevent recurrences.\n  As a way of draining off stress energy, nothing beats aerobic exercise. To understand why, we need to review what stress is. People often think of stress as pressure at work, a demanding boss, a sick child or rush-hour traffic. These may be trigger but stress is actually the body reaction to factors such as these. Stress is the fight-or-fight response in the body, mediated by adrenaline and other stress hormones and comprised such physiologic changes as increased heart rate and blood pressure, faster breathing, muscle tension, dilated pupils, dry mouth and increased blood sugar. In other words, stress is the state of increased arousal necessary for an organism to defend itself at a time of danger.\n  Exercise is the most logical way to dissipate the excess energy. It is what our bodies are trying to do when we pace around or tap our legs and fingers. It is much better to channel it into a more complete form of exercise like a brisk walk, a run, a bike ride, or a game of squash.\n  Just as we are all capable of mounting up and sustaining a stress reaction, we have also inherited the ability to put our bodies into a state of deep relaxation called the ‘relaxation response’. In this state, all the physiologic events in the stress reaction are reversed. Pulse slows, blood pressure falls, breathing slows and muscles relax.<br><br> \n     <br><br>      <br><br>     The experts feel one can control one's stress because\n                        \n                        \n                        \n                            A its cause are understandable\n                            \n                        \n                        \n                            B it is not difficult to control\n                            \n                        \n                        \n                            C external factors contribute less to stress\n                            \n                        \n                        \n                            D it is individually initiated\n                            \n                        \n                        \n                        \n                            \n                                \n                                    Answer & Comment\n                                     \n                                    D\n                                \n                                \n                                \n                                     \n                                    \n                                    \n                                \n                                \n                                \n                                    \n                                                                                \n                                            Comment",
+    "option_a": "its cause are understandable",
+    "option_b": "it is not difficult to control",
+    "option_c": "external factors contribute less to stress",
+    "option_d": "it is individually initiated",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "<br><br>   Stress is by far the most common cause of ill health in our society and may be the underlying cause of as many as 70-80 per cent of all visits to family doctors. It is also the problem that every doctor shares with patients. Experts note that stress is an issue everyone can relate to experimentally. In studying and better understanding about stress, we can derive personal as well as professional benefits. \n  Stress can be overcome without undergoing duress. They often say anyone who wants to help someone deal with his/her stress should learn to handle his/her first. The manifestation of stress is legion. It can contribute or mimic just about any symptom you can think of. However, the main symptoms are physical, mental, emotional and behavioural. The cause of stress are multiple and varied but they can be classified into external and internal. External stressors can include relatively getting sick or dying, jobs being lost or people criticizing or one becoming angry. However, most of the stress people experience is self-generated.\n  Experts tell us that we create the majority of our upsets indicating that because we cause most of our own stress, we can do something about it. This gives us a measure of choice and control that we do not always have when outside forces act on us. This also leads to a basic premise about stress reduction. To master stress-change, you have to figure out what you are doing that is contributing to your problems and change it. These changes fall into behaviour, thinking, lifestyle choices and/ or situations you are in. by getting  to the root causes of your stress, you can prevent recurrences.\n  As a way of draining off stress energy, nothing beats aerobic exercise. To understand why, we need to review what stress is. People often think of stress as pressure at work, a demanding boss, a sick child or rush-hour traffic. These may be trigger but stress is actually the body reaction to factors such as these. Stress is the fight-or-fight response in the body, mediated by adrenaline and other stress hormones and comprised such physiologic changes as increased heart rate and blood pressure, faster breathing, muscle tension, dilated pupils, dry mouth and increased blood sugar. In other words, stress is the state of increased arousal necessary for an organism to defend itself at a time of danger.\n  Exercise is the most logical way to dissipate the excess energy. It is what our bodies are trying to do when we pace around or tap our legs and fingers. It is much better to channel it into a more complete form of exercise like a brisk walk, a run, a bike ride, or a game of squash.\n  Just as we are all capable of mounting up and sustaining a stress reaction, we have also inherited the ability to put our bodies into a state of deep relaxation called the ‘relaxation response’. In this state, all the physiologic events in the stress reaction are reversed. Pulse slows, blood pressure falls, breathing slows and muscles relax.<br><br> \n     <br><br>      <br><br>     From the passage, it can be deduced that stress is\n                        \n                        \n                        \n                            A hormonal disorder in the body system\n                            \n                        \n                        \n                            B individually induced problems\n                            \n                        \n                        \n                            C bodily reaction to internal factors\n                            \n                        \n                        \n                            D bodily reaction to external factors\n                            \n                        \n                        \n                        \n                            \n                                \n                                    Answer & Comment\n                                     \n                                    A\n                                \n                                \n                                \n                                     \n                                    \n                                    \n                                \n                                \n                                \n                                    \n                                                                                \n                                            Comment",
+    "option_a": "hormonal disorder in the body system",
+    "option_b": "individually induced problems",
+    "option_c": "bodily reaction to internal factors",
+    "option_d": "bodily reaction to external factors",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "<br><br>   There are many indicators with which to assess or measure corruption. One of them is the affluent living habit of the public official compared to his/her income. Corruption occurs when a public official expects to be induced to perform an act which that public official is ordinarily required to do by law. \n  Corruption can slow down development. One of the most widely discussed consequences of corruption is the distortion of governmental expenditure. This often results in public money being wasted on white elephant projects, rather than people-oriented services such as health and education. As a result, more opportunities are presented for corrupt use or diversion of funds. Raising the ethical standards of governance can lead to many benefits especially for the economic, political and social development of a country.\n  Fighting corruption and promoting governance is therefore crucial to developing an environment that facilitates the social, political and economic development of the people. However, while there are often general statements made about the effects of corruption on poverty and development, there is not an explicit recognition that corruption is more than just wealth misappropriation or abuse of power. Corruption impoverishes countries and deprives their citizens of good governance. It destabilizes economic system. When organized crime and other illegal activities flourish, basic public functions are eroded and the quality of life of the people is reduced. Bribery, for example is universally regarded as a crime, but it also reflects socio-economic problems that require broad-based preventive measures and the involvement of the society at large.\n  Another implication of global measures against corruption is making government work better by improving the economy. Finally, redesigning political and regulatory structures will reduce corruption and other anti-system players that encourage corrupt practices.<br><br> \n     <br><br>      <br><br>     According to the writer, corruption is triggered off by\n                        \n                        \n                        \n                            A unnecessary afflunce\n                            \n                        \n                        \n                            B selfish interests\n                            \n                        \n                        \n                            C private officials\n                            \n                        \n                        \n                            D public officers\n                            \n                        \n                        \n                        \n                            \n                                \n                                    Answer & Comment\n                                     \n                                    C\n                                \n                                \n                                \n                                     \n                                    \n                                    \n                                \n                                \n                                \n                                    \n                                                                                \n                                            Comment",
+    "option_a": "unnecessary afflunce",
+    "option_b": "selfish interests",
+    "option_c": "private officials",
+    "option_d": "public officers",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "83  <br><br>   There are many indicators with which to assess or measure corruption. One of them is the affluent living habit of the public official compared to his/her income. Corruption occurs when a public official expects to be induced to perform an act which that public official is ordinarily required to do by law. \n  Corruption can slow down development. One of the most widely discussed consequences of corruption is the distortion of governmental expenditure. This often results in public money being wasted on white elephant projects, rather than people-oriented services such as health and education. As a result, more opportunities are presented for corrupt use or diversion of funds. Raising the ethical standards of governance can lead to many benefits especially for the economic, political and social development of a country.\n  Fighting corruption and promoting governance is therefore crucial to developing an environment that facilitates the social, political and economic development of the people. However, while there are often general statements made about the effects of corruption on poverty and development, there is not an explicit recognition that corruption is more than just wealth misappropriation or abuse of power. Corruption impoverishes countries and deprives their citizens of good governance. It destabilizes economic system. When organized crime and other illegal activities flourish, basic public functions are eroded and the quality of life of the people is reduced. Bribery, for example is universally regarded as a crime, but it also reflects socio-economic problems that require broad-based preventive measures and the involvement of the society at large.\n  Another implication of global measures against corruption is making government work better by improving the economy. Finally, redesigning political and regulatory structures will reduce corruption and other anti-system players that encourage corrupt practices.<br><br> \n     <br><br>      <br><br>     From the passage, one of the consequences of corruption is that\n                        \n                        \n                        \n                            A large projects are executed\n                            \n                        \n                        \n                            B it is beneficial to wealthy people who stole public wealth\n                            \n                        \n                        \n                            C it impedes the progress of a nation\n                            \n                        \n                        \n                            D people get what they want with so much money to spend\n                            \n                        \n                        \n                        \n                            \n                                \n                                    Answer & Comment\n                                     \n                                    D\n                                \n                                \n                                \n                                     \n                                    \n                                    \n                                \n                                \n                                \n                                    \n                                                                                \n                                            Comment\n                                            \n                                                \n                                                                                            \n                                        \n                                        \n                                            \n                                            \n                                            \n                                        \n                                    \n                                \n                            \n                        \n                         \n                            \n                                Advertisement<br><br> \n(adsbygoogle = window.adsbygoogle || []).push({});",
+    "option_a": "large projects are executed",
+    "option_b": "it is beneficial to wealthy people who stole public wealth",
+    "option_c": "it impedes the progress of a nation",
+    "option_d": "people get what they want with so much money to spend",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "<br><br>   There are many indicators with which to assess or measure corruption. One of them is the affluent living habit of the public official compared to his/her income. Corruption occurs when a public official expects to be induced to perform an act which that public official is ordinarily required to do by law. \n  Corruption can slow down development. One of the most widely discussed consequences of corruption is the distortion of governmental expenditure. This often results in public money being wasted on white elephant projects, rather than people-oriented services such as health and education. As a result, more opportunities are presented for corrupt use or diversion of funds. Raising the ethical standards of governance can lead to many benefits especially for the economic, political and social development of a country.\n  Fighting corruption and promoting governance is therefore crucial to developing an environment that facilitates the social, political and economic development of the people. However, while there are often general statements made about the effects of corruption on poverty and development, there is not an explicit recognition that corruption is more than just wealth misappropriation or abuse of power. Corruption impoverishes countries and deprives their citizens of good governance. It destabilizes economic system. When organized crime and other illegal activities flourish, basic public functions are eroded and the quality of life of the people is reduced. Bribery, for example is universally regarded as a crime, but it also reflects socio-economic problems that require broad-based preventive measures and the involvement of the society at large.\n  Another implication of global measures against corruption is making government work better by improving the economy. Finally, redesigning political and regulatory structures will reduce corruption and other anti-system players that encourage corrupt practices.<br><br> \n     <br><br>      <br><br>     Who. according to the writer should prevent corruption?\n                        \n                        \n                        \n                            A lawyers and police\n                            \n                        \n                        \n                            B corrupt public officers\n                            \n                        \n                        \n                            C the government\n                            \n                        \n                        \n                            D the people\n                            \n                        \n                        \n                        \n                            \n                                \n                                    Answer & Comment\n                                     \n                                    D\n                                \n                                \n                                \n                                     \n                                    \n                                    \n                                \n                                \n                                \n                                    \n                                                                                \n                                            Comment",
+    "option_a": "lawyers and police",
+    "option_b": "corrupt public officers",
+    "option_c": "the government",
+    "option_d": "the people",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "<br><br>   There are many indicators with which to assess or measure corruption. One of them is the affluent living habit of the public official compared to his/her income. Corruption occurs when a public official expects to be induced to perform an act which that public official is ordinarily required to do by law. \n  Corruption can slow down development. One of the most widely discussed consequences of corruption is the distortion of governmental expenditure. This often results in public money being wasted on white elephant projects, rather than people-oriented services such as health and education. As a result, more opportunities are presented for corrupt use or diversion of funds. Raising the ethical standards of governance can lead to many benefits especially for the economic, political and social development of a country.\n  Fighting corruption and promoting governance is therefore crucial to developing an environment that facilitates the social, political and economic development of the people. However, while there are often general statements made about the effects of corruption on poverty and development, there is not an explicit recognition that corruption is more than just wealth misappropriation or abuse of power. Corruption impoverishes countries and deprives their citizens of good governance. It destabilizes economic system. When organized crime and other illegal activities flourish, basic public functions are eroded and the quality of life of the people is reduced. Bribery, for example is universally regarded as a crime, but it also reflects socio-economic problems that require broad-based preventive measures and the involvement of the society at large.\n  Another implication of global measures against corruption is making government work better by improving the economy. Finally, redesigning political and regulatory structures will reduce corruption and other anti-system players that encourage corrupt practices.<br><br> \n     <br><br>      <br><br>     Which of the following is an indication of ethical standard of governance?\n                        \n                        \n                        \n                            A fundamental human right\n                            \n                        \n                        \n                            B socio-economic instability\n                            \n                        \n                        \n                            C democratic governance\n                            \n                        \n                        \n                            D bloated expenditure\n                            \n                        \n                        \n                        \n                            \n                                \n                                    Answer & Comment\n                                     \n                                    B\n                                \n                                \n                                \n                                     \n                                    \n                                    \n                                \n                                \n                                \n                                    \n                                                                                \n                                            Comment",
+    "option_a": "fundamental human right",
+    "option_b": "socio-economic instability",
+    "option_c": "democratic governance",
+    "option_d": "bloated expenditure",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "<br><br>   There are many indicators with which to assess or measure corruption. One of them is the affluent living habit of the public official compared to his/her income. Corruption occurs when a public official expects to be induced to perform an act which that public official is ordinarily required to do by law. \n  Corruption can slow down development. One of the most widely discussed consequences of corruption is the distortion of governmental expenditure. This often results in public money being wasted on white elephant projects, rather than people-oriented services such as health and education. As a result, more opportunities are presented for corrupt use or diversion of funds. Raising the ethical standards of governance can lead to many benefits especially for the economic, political and social development of a country.\n  Fighting corruption and promoting governance is therefore crucial to developing an environment that facilitates the social, political and economic development of the people. However, while there are often general statements made about the effects of corruption on poverty and development, there is not an explicit recognition that corruption is more than just wealth misappropriation or abuse of power. Corruption impoverishes countries and deprives their citizens of good governance. It destabilizes economic system. When organized crime and other illegal activities flourish, basic public functions are eroded and the quality of life of the people is reduced. Bribery, for example is universally regarded as a crime, but it also reflects socio-economic problems that require broad-based preventive measures and the involvement of the society at large.\n  Another implication of global measures against corruption is making government work better by improving the economy. Finally, redesigning political and regulatory structures will reduce corruption and other anti-system players that encourage corrupt practices.<br><br> \n     <br><br>      <br><br>     The essence of fighting corruption according to the passage is to\n                        \n                        \n                        \n                            A send the corrupt to gaol\n                            \n                        \n                        \n                            B promote good governance\n                            \n                        \n                        \n                            C punish corrupt politicians\n                            \n                        \n                        \n                            D make people richer\n                            \n                        \n                        \n                        \n                            \n                                \n                                    Answer & Comment\n                                     \n                                    B\n                                \n                                \n                                \n                                     \n                                    \n                                    \n                                \n                                \n                                \n                                    \n                                                                                \n                                            Comment",
+    "option_a": "send the corrupt to gaol",
+    "option_b": "promote good governance",
+    "option_c": "punish corrupt politicians",
+    "option_d": "make people richer",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "<br><br> The passage below has gaps numbered 16 to 25. Immediately following each gap, four options are provided. Choose the most appropriate option for each gap. Each question carries 2 marks.\n  Drought is a word that invokes strong emotions. This is not surprising as the...16...[A. ideology    B. phenomenon    C. idea    D. component] is usually accompanied by a number of unpleasant developments. These developments have ……..17…..[A. feedback    B. results    C. implication   D. outcomes] for all citizens, starting from the peasant farmers to the state and federal governments which may be plunged into emergency and crisis situation which, if not successfully ……18…..[A. managed    B. manipulated    C. examined    D. studied] could result in social unrest.\n  The timeliness of the onset of the rains in various regions of the country and their adequate distribution thereafter have become…..19…..[A. objects    B. subjects   C. issues    D. topics] of considerable anxiety to all people. The fact, however, is that periodic reduction in the normal…..20…..[A. amount    B. supply    C. size    D. flood] of rainfall in the country is not new.\n  Since large areas of the country are drought prone, the consequence are ……21…..[A. effective    B. disastrous    C. evident    D. inevitable]. Dry spells could be very severe. There are two aspects of coping with drought. One has to do with emergency measures and the other with ……22…..[A. routine    B. organized   C. urgent    D. delayed] measures. An immediate consequence of any drought would be famine. In addition, where whole populations are forced to abandon their lands or pastures in search of food, there are bound to be other lasting and…..23…..[A. longitudinal    B. objective    C. simultaneous    D. parallel] consequences such as distress, sales of cattle by livestock owners in order to buy food.\n  Government should provide farmers with agricultural inputs and ensure that they have easy access to these inputs under the relief…..24…..[A. action    B. process    C. scheme    D. plan]. Emergency measures will be much more……25…..[A. normal    B. correct    C. idealistic    D. effective] if a mechanism is established to ensure adequate preparedness and defence against the occurrence of drought. <br><br> \n     <br><br>      <br><br>     In question number 16 above, choose the best option from letters A-D that best completes the gap.\n                        \n                        \n                        \n                            A ideology\n                            \n                        \n                        \n                            B phenomenon\n                            \n                        \n                        \n                            C idea\n                            \n                        \n                        \n                            D component\n                            \n                        \n                        \n                        \n                            \n                                \n                                    Answer & Comment\n                                     \n                                    B\n                                \n                                \n                                \n                                     \n                                    \n                                    \n                                \n                                \n                                \n                                    \n                                                                                \n                                            Comment",
+    "option_a": "ideology",
+    "option_b": "phenomenon",
+    "option_c": "idea",
+    "option_d": "component",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "<br><br> The passage below has gaps numbered 16 to 25. Immediately following each gap, four options are provided. Choose the most appropriate option for each gap. Each question carries 2 marks.\n  Drought is a word that invokes strong emotions. This is not surprising as the...16...[A. ideology    B. phenomenon    C. idea    D. component] is usually accompanied by a number of unpleasant developments. These developments have ……..17…..[A. feedback    B. results    C. implication   D. outcomes] for all citizens, starting from the peasant farmers to the state and federal governments which may be plunged into emergency and crisis situation which, if not successfully ……18…..[A. managed    B. manipulated    C. examined    D. studied] could result in social unrest.\n  The timeliness of the onset of the rains in various regions of the country and their adequate distribution thereafter have become…..19…..[A. objects    B. subjects   C. issues    D. topics] of considerable anxiety to all people. The fact, however, is that periodic reduction in the normal…..20…..[A. amount    B. supply    C. size    D. flood] of rainfall in the country is not new.\n  Since large areas of the country are drought prone, the consequence are ……21…..[A. effective    B. disastrous    C. evident    D. inevitable]. Dry spells could be very severe. There are two aspects of coping with drought. One has to do with emergency measures and the other with ……22…..[A. routine    B. organized   C. urgent    D. delayed] measures. An immediate consequence of any drought would be famine. In addition, where whole populations are forced to abandon their lands or pastures in search of food, there are bound to be other lasting and…..23…..[A. longitudinal    B. objective    C. simultaneous    D. parallel] consequences such as distress, sales of cattle by livestock owners in order to buy food.\n  Government should provide farmers with agricultural inputs and ensure that they have easy access to these inputs under the relief…..24…..[A. action    B. process    C. scheme    D. plan]. Emergency measures will be much more……25…..[A. normal    B. correct    C. idealistic    D. effective] if a mechanism is established to ensure adequate preparedness and defence against the occurrence of drought. <br><br> \n     <br><br>      <br><br>     In question number 17 above, choose the best option from letters A-D that best completes the gap.\n                        \n                        \n                        \n                            A feedback\n                            \n                        \n                        \n                            B results\n                            \n                        \n                        \n                            C implication\n                            \n                        \n                        \n                            D outcomes\n                            \n                        \n                        \n                        \n                            \n                                \n                                    Answer & Comment\n                                     \n                                    C\n                                \n                                \n                                \n                                     \n                                    \n                                    \n                                \n                                \n                                \n                                    \n                                                                                \n                                            Comment\n                                            \n                                                \n                                                                                            \n                                        \n                                        \n                                            \n                                            \n                                            \n                                        \n                                    \n                                \n                            \n                        \n                         \n                            \n                                Advertisement<br><br> \n(adsbygoogle = window.adsbygoogle || []).push({});",
+    "option_a": "feedback",
+    "option_b": "results",
+    "option_c": "implication",
+    "option_d": "outcomes",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "<br><br> The passage below has gaps numbered 16 to 25. Immediately following each gap, four options are provided. Choose the most appropriate option for each gap. Each question carries 2 marks.\n  Drought is a word that invokes strong emotions. This is not surprising as the...16...[A. ideology    B. phenomenon    C. idea    D. component] is usually accompanied by a number of unpleasant developments. These developments have ……..17…..[A. feedback    B. results    C. implication   D. outcomes] for all citizens, starting from the peasant farmers to the state and federal governments which may be plunged into emergency and crisis situation which, if not successfully ……18…..[A. managed    B. manipulated    C. examined    D. studied] could result in social unrest.\n  The timeliness of the onset of the rains in various regions of the country and their adequate distribution thereafter have become…..19…..[A. objects    B. subjects   C. issues    D. topics] of considerable anxiety to all people. The fact, however, is that periodic reduction in the normal…..20…..[A. amount    B. supply    C. size    D. flood] of rainfall in the country is not new.\n  Since large areas of the country are drought prone, the consequence are ……21…..[A. effective    B. disastrous    C. evident    D. inevitable]. Dry spells could be very severe. There are two aspects of coping with drought. One has to do with emergency measures and the other with ……22…..[A. routine    B. organized   C. urgent    D. delayed] measures. An immediate consequence of any drought would be famine. In addition, where whole populations are forced to abandon their lands or pastures in search of food, there are bound to be other lasting and…..23…..[A. longitudinal    B. objective    C. simultaneous    D. parallel] consequences such as distress, sales of cattle by livestock owners in order to buy food.\n  Government should provide farmers with agricultural inputs and ensure that they have easy access to these inputs under the relief…..24…..[A. action    B. process    C. scheme    D. plan]. Emergency measures will be much more……25…..[A. normal    B. correct    C. idealistic    D. effective] if a mechanism is established to ensure adequate preparedness and defence against the occurrence of drought. <br><br> \n     <br><br>      <br><br>     In question number 18 above, choose the best option from letters A-D that best completes the gap.\n                        \n                        \n                        \n                            A managed\n                            \n                        \n                        \n                            B manipulated\n                            \n                        \n                        \n                            C examined\n                            \n                        \n                        \n                            D studied\n                            \n                        \n                        \n                        \n                            \n                                \n                                    Answer & Comment\n                                     \n                                    A\n                                \n                                \n                                \n                                     \n                                    \n                                    \n                                \n                                \n                                \n                                    \n                                                                                \n                                            Comment",
+    "option_a": "managed",
+    "option_b": "manipulated",
+    "option_c": "examined",
+    "option_d": "studied",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "<br><br> The passage below has gaps numbered 16 to 25. Immediately following each gap, four options are provided. Choose the most appropriate option for each gap. Each question carries 2 marks.\n  Drought is a word that invokes strong emotions. This is not surprising as the...16...[A. ideology    B. phenomenon    C. idea    D. component] is usually accompanied by a number of unpleasant developments. These developments have ……..17…..[A. feedback    B. results    C. implication   D. outcomes] for all citizens, starting from the peasant farmers to the state and federal governments which may be plunged into emergency and crisis situation which, if not successfully ……18…..[A. managed    B. manipulated    C. examined    D. studied] could result in social unrest.\n  The timeliness of the onset of the rains in various regions of the country and their adequate distribution thereafter have become…..19…..[A. objects    B. subjects   C. issues    D. topics] of considerable anxiety to all people. The fact, however, is that periodic reduction in the normal…..20…..[A. amount    B. supply    C. size    D. flood] of rainfall in the country is not new.\n  Since large areas of the country are drought prone, the consequence are ……21…..[A. effective    B. disastrous    C. evident    D. inevitable]. Dry spells could be very severe. There are two aspects of coping with drought. One has to do with emergency measures and the other with ……22…..[A. routine    B. organized   C. urgent    D. delayed] measures. An immediate consequence of any drought would be famine. In addition, where whole populations are forced to abandon their lands or pastures in search of food, there are bound to be other lasting and…..23…..[A. longitudinal    B. objective    C. simultaneous    D. parallel] consequences such as distress, sales of cattle by livestock owners in order to buy food.\n  Government should provide farmers with agricultural inputs and ensure that they have easy access to these inputs under the relief…..24…..[A. action    B. process    C. scheme    D. plan]. Emergency measures will be much more……25…..[A. normal    B. correct    C. idealistic    D. effective] if a mechanism is established to ensure adequate preparedness and defence against the occurrence of drought. <br><br> \n     <br><br>      <br><br>     In question number 19 above, choose the best option from letters A-D that best completes the gap.\n                        \n                        \n                        \n                            A objects\n                            \n                        \n                        \n                            B subjects\n                            \n                        \n                        \n                            C issues\n                            \n                        \n                        \n                            D topics\n                            \n                        \n                        \n                        \n                            \n                                \n                                    Answer & Comment\n                                     \n                                    A\n                                \n                                \n                                \n                                     \n                                    \n                                    \n                                \n                                \n                                \n                                    \n                                                                                \n                                            Comment",
+    "option_a": "objects",
+    "option_b": "subjects",
+    "option_c": "issues",
+    "option_d": "topics",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "<br><br> The passage below has gaps numbered 16 to 25. Immediately following each gap, four options are provided. Choose the most appropriate option for each gap. Each question carries 2 marks.\n  Drought is a word that invokes strong emotions. This is not surprising as the...16...[A. ideology    B. phenomenon    C. idea    D. component] is usually accompanied by a number of unpleasant developments. These developments have ……..17…..[A. feedback    B. results    C. implication   D. outcomes] for all citizens, starting from the peasant farmers to the state and federal governments which may be plunged into emergency and crisis situation which, if not successfully ……18…..[A. managed    B. manipulated    C. examined    D. studied] could result in social unrest.\n  The timeliness of the onset of the rains in various regions of the country and their adequate distribution thereafter have become…..19…..[A. objects    B. subjects   C. issues    D. topics] of considerable anxiety to all people. The fact, however, is that periodic reduction in the normal…..20…..[A. amount    B. supply    C. size    D. flood] of rainfall in the country is not new.\n  Since large areas of the country are drought prone, the consequence are ……21…..[A. effective    B. disastrous    C. evident    D. inevitable]. Dry spells could be very severe. There are two aspects of coping with drought. One has to do with emergency measures and the other with ……22…..[A. routine    B. organized   C. urgent    D. delayed] measures. An immediate consequence of any drought would be famine. In addition, where whole populations are forced to abandon their lands or pastures in search of food, there are bound to be other lasting and…..23…..[A. longitudinal    B. objective    C. simultaneous    D. parallel] consequences such as distress, sales of cattle by livestock owners in order to buy food.\n  Government should provide farmers with agricultural inputs and ensure that they have easy access to these inputs under the relief…..24…..[A. action    B. process    C. scheme    D. plan]. Emergency measures will be much more……25…..[A. normal    B. correct    C. idealistic    D. effective] if a mechanism is established to ensure adequate preparedness and defence against the occurrence of drought. <br><br> \n     <br><br>      <br><br>     In question number 20 above, choose the best option from letters A-D that best completes the gap.\n                        \n                        \n                        \n                            A amount\n                            \n                        \n                        \n                            B supply\n                            \n                        \n                        \n                            C size\n                            \n                        \n                        \n                            D flood\n                            \n                        \n                        \n                        \n                            \n                                \n                                    Answer & Comment\n                                     \n                                    A\n                                \n                                \n                                \n                                     \n                                    \n                                    \n                                \n                                \n                                \n                                    \n                                                                                \n                                            Comment",
+    "option_a": "amount",
+    "option_b": "supply",
+    "option_c": "size",
+    "option_d": "flood",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "<br><br> The passage below has gaps numbered 16 to 25. Immediately following each gap, four options are provided. Choose the most appropriate option for each gap. Each question carries 2 marks.\n  Drought is a word that invokes strong emotions. This is not surprising as the...16...[A. ideology    B. phenomenon    C. idea    D. component] is usually accompanied by a number of unpleasant developments. These developments have ……..17…..[A. feedback    B. results    C. implication   D. outcomes] for all citizens, starting from the peasant farmers to the state and federal governments which may be plunged into emergency and crisis situation which, if not successfully ……18…..[A. managed    B. manipulated    C. examined    D. studied] could result in social unrest.\n  The timeliness of the onset of the rains in various regions of the country and their adequate distribution thereafter have become…..19…..[A. objects    B. subjects   C. issues    D. topics] of considerable anxiety to all people. The fact, however, is that periodic reduction in the normal…..20…..[A. amount    B. supply    C. size    D. flood] of rainfall in the country is not new.\n  Since large areas of the country are drought prone, the consequence are ……21…..[A. effective    B. disastrous    C. evident    D. inevitable]. Dry spells could be very severe. There are two aspects of coping with drought. One has to do with emergency measures and the other with ……22…..[A. routine    B. organized   C. urgent    D. delayed] measures. An immediate consequence of any drought would be famine. In addition, where whole populations are forced to abandon their lands or pastures in search of food, there are bound to be other lasting and…..23…..[A. longitudinal    B. objective    C. simultaneous    D. parallel] consequences such as distress, sales of cattle by livestock owners in order to buy food.\n  Government should provide farmers with agricultural inputs and ensure that they have easy access to these inputs under the relief…..24…..[A. action    B. process    C. scheme    D. plan]. Emergency measures will be much more……25…..[A. normal    B. correct    C. idealistic    D. effective] if a mechanism is established to ensure adequate preparedness and defence against the occurrence of drought. <br><br> \n     <br><br>      <br><br>     In question number 21 above, choose the best option from letters A-D that best completes the gap.\n                        \n                        \n                        \n                            A effective\n                            \n                        \n                        \n                            B disastrous\n                            \n                        \n                        \n                            C evident\n                            \n                        \n                        \n                            D inevitable\n                            \n                        \n                        \n                        \n                            \n                                \n                                    Answer & Comment\n                                     \n                                    B\n                                \n                                \n                                \n                                     \n                                    \n                                    \n                                \n                                \n                                \n                                    \n                                                                                \n                                            Comment",
+    "option_a": "effective",
+    "option_b": "disastrous",
+    "option_c": "evident",
+    "option_d": "inevitable",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "<br><br> The passage below has gaps numbered 16 to 25. Immediately following each gap, four options are provided. Choose the most appropriate option for each gap. Each question carries 2 marks.\n  Drought is a word that invokes strong emotions. This is not surprising as the...16...[A. ideology    B. phenomenon    C. idea    D. component] is usually accompanied by a number of unpleasant developments. These developments have ……..17…..[A. feedback    B. results    C. implication   D. outcomes] for all citizens, starting from the peasant farmers to the state and federal governments which may be plunged into emergency and crisis situation which, if not successfully ……18…..[A. managed    B. manipulated    C. examined    D. studied] could result in social unrest.\n  The timeliness of the onset of the rains in various regions of the country and their adequate distribution thereafter have become…..19…..[A. objects    B. subjects   C. issues    D. topics] of considerable anxiety to all people. The fact, however, is that periodic reduction in the normal…..20…..[A. amount    B. supply    C. size    D. flood] of rainfall in the country is not new.\n  Since large areas of the country are drought prone, the consequence are ……21…..[A. effective    B. disastrous    C. evident    D. inevitable]. Dry spells could be very severe. There are two aspects of coping with drought. One has to do with emergency measures and the other with ……22…..[A. routine    B. organized   C. urgent    D. delayed] measures. An immediate consequence of any drought would be famine. In addition, where whole populations are forced to abandon their lands or pastures in search of food, there are bound to be other lasting and…..23…..[A. longitudinal    B. objective    C. simultaneous    D. parallel] consequences such as distress, sales of cattle by livestock owners in order to buy food.\n  Government should provide farmers with agricultural inputs and ensure that they have easy access to these inputs under the relief…..24…..[A. action    B. process    C. scheme    D. plan]. Emergency measures will be much more……25…..[A. normal    B. correct    C. idealistic    D. effective] if a mechanism is established to ensure adequate preparedness and defence against the occurrence of drought. <br><br> \n     <br><br>      <br><br>     In question number 22 above, choose the best option from letters A-D that best completes the gap.\n                        \n                        \n                        \n                            A routine\n                            \n                        \n                        \n                            B organized\n                            \n                        \n                        \n                            C urgent\n                            \n                        \n                        \n                            D delayed\n                            \n                        \n                        \n                        \n                            \n                                \n                                    Answer & Comment\n                                     \n                                    B\n                                \n                                \n                                \n                                     \n                                    \n                                    \n                                \n                                \n                                \n                                    \n                                                                                \n                                            Comment\n                                            \n                                                \n                                                                                            \n                                        \n                                        \n                                            \n                                            \n                                            \n                                        \n                                    \n                                \n                            \n                        \n                         \n                            \n                                Advertisement<br><br> \n(adsbygoogle = window.adsbygoogle || []).push({});",
+    "option_a": "routine",
+    "option_b": "organized",
+    "option_c": "urgent",
+    "option_d": "delayed",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "<br><br> The passage below has gaps numbered 16 to 25. Immediately following each gap, four options are provided. Choose the most appropriate option for each gap. Each question carries 2 marks.\n  Drought is a word that invokes strong emotions. This is not surprising as the...16...[A. ideology    B. phenomenon    C. idea    D. component] is usually accompanied by a number of unpleasant developments. These developments have ……..17…..[A. feedback    B. results    C. implication   D. outcomes] for all citizens, starting from the peasant farmers to the state and federal governments which may be plunged into emergency and crisis situation which, if not successfully ……18…..[A. managed    B. manipulated    C. examined    D. studied] could result in social unrest.\n  The timeliness of the onset of the rains in various regions of the country and their adequate distribution thereafter have become…..19…..[A. objects    B. subjects   C. issues    D. topics] of considerable anxiety to all people. The fact, however, is that periodic reduction in the normal…..20…..[A. amount    B. supply    C. size    D. flood] of rainfall in the country is not new.\n  Since large areas of the country are drought prone, the consequence are ……21…..[A. effective    B. disastrous    C. evident    D. inevitable]. Dry spells could be very severe. There are two aspects of coping with drought. One has to do with emergency measures and the other with ……22…..[A. routine    B. organized   C. urgent    D. delayed] measures. An immediate consequence of any drought would be famine. In addition, where whole populations are forced to abandon their lands or pastures in search of food, there are bound to be other lasting and…..23…..[A. longitudinal    B. objective    C. simultaneous    D. parallel] consequences such as distress, sales of cattle by livestock owners in order to buy food.\n  Government should provide farmers with agricultural inputs and ensure that they have easy access to these inputs under the relief…..24…..[A. action    B. process    C. scheme    D. plan]. Emergency measures will be much more……25…..[A. normal    B. correct    C. idealistic    D. effective] if a mechanism is established to ensure adequate preparedness and defence against the occurrence of drought. <br><br> \n     <br><br>      <br><br>     In question number 23 above, choose the best option from letters A-D that best completes the gap.\n                        \n                        \n                        \n                            A longitudinal\n                            \n                        \n                        \n                            B objevtive\n                            \n                        \n                        \n                            C simultaneous\n                            \n                        \n                        \n                            D parallel\n                            \n                        \n                        \n                        \n                            \n                                \n                                    Answer & Comment\n                                     \n                                    D\n                                \n                                \n                                \n                                     \n                                    \n                                    \n                                \n                                \n                                \n                                    \n                                                                                \n                                            Comment",
+    "option_a": "longitudinal",
+    "option_b": "objevtive",
+    "option_c": "simultaneous",
+    "option_d": "parallel",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "<br><br> The passage below has gaps numbered 16 to 25. Immediately following each gap, four options are provided. Choose the most appropriate option for each gap. Each question carries 2 marks.\n  Drought is a word that invokes strong emotions. This is not surprising as the...16...[A. ideology    B. phenomenon    C. idea    D. component] is usually accompanied by a number of unpleasant developments. These developments have ……..17…..[A. feedback    B. results    C. implication   D. outcomes] for all citizens, starting from the peasant farmers to the state and federal governments which may be plunged into emergency and crisis situation which, if not successfully ……18…..[A. managed    B. manipulated    C. examined    D. studied] could result in social unrest.\n  The timeliness of the onset of the rains in various regions of the country and their adequate distribution thereafter have become…..19…..[A. objects    B. subjects   C. issues    D. topics] of considerable anxiety to all people. The fact, however, is that periodic reduction in the normal…..20…..[A. amount    B. supply    C. size    D. flood] of rainfall in the country is not new.\n  Since large areas of the country are drought prone, the consequence are ……21…..[A. effective    B. disastrous    C. evident    D. inevitable]. Dry spells could be very severe. There are two aspects of coping with drought. One has to do with emergency measures and the other with ……22…..[A. routine    B. organized   C. urgent    D. delayed] measures. An immediate consequence of any drought would be famine. In addition, where whole populations are forced to abandon their lands or pastures in search of food, there are bound to be other lasting and…..23…..[A. longitudinal    B. objective    C. simultaneous    D. parallel] consequences such as distress, sales of cattle by livestock owners in order to buy food.\n  Government should provide farmers with agricultural inputs and ensure that they have easy access to these inputs under the relief…..24…..[A. action    B. process    C. scheme    D. plan]. Emergency measures will be much more……25…..[A. normal    B. correct    C. idealistic    D. effective] if a mechanism is established to ensure adequate preparedness and defence against the occurrence of drought. <br><br> \n     <br><br>      <br><br>     In question number 24 above, choose the best option from letters A-D that best completes the gap.\n                        \n                        \n                        \n                            A action\n                            \n                        \n                        \n                            B process\n                            \n                        \n                        \n                            C scheme\n                            \n                        \n                        \n                            D plan\n                            \n                        \n                        \n                        \n                            \n                                \n                                    Answer & Comment\n                                     \n                                    C\n                                \n                                \n                                \n                                     \n                                    \n                                    \n                                \n                                \n                                \n                                    \n                                                                                \n                                            Comment",
+    "option_a": "action",
+    "option_b": "process",
+    "option_c": "scheme",
+    "option_d": "plan",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "<br><br> The passage below has gaps numbered 16 to 25. Immediately following each gap, four options are provided. Choose the most appropriate option for each gap. Each question carries 2 marks.\n  Drought is a word that invokes strong emotions. This is not surprising as the...16...[A. ideology    B. phenomenon    C. idea    D. component] is usually accompanied by a number of unpleasant developments. These developments have ……..17…..[A. feedback    B. results    C. implication   D. outcomes] for all citizens, starting from the peasant farmers to the state and federal governments which may be plunged into emergency and crisis situation which, if not successfully ……18…..[A. managed    B. manipulated    C. examined    D. studied] could result in social unrest.\n  The timeliness of the onset of the rains in various regions of the country and their adequate distribution thereafter have become…..19…..[A. objects    B. subjects   C. issues    D. topics] of considerable anxiety to all people. The fact, however, is that periodic reduction in the normal…..20…..[A. amount    B. supply    C. size    D. flood] of rainfall in the country is not new.\n  Since large areas of the country are drought prone, the consequence are ……21…..[A. effective    B. disastrous    C. evident    D. inevitable]. Dry spells could be very severe. There are two aspects of coping with drought. One has to do with emergency measures and the other with ……22…..[A. routine    B. organized   C. urgent    D. delayed] measures. An immediate consequence of any drought would be famine. In addition, where whole populations are forced to abandon their lands or pastures in search of food, there are bound to be other lasting and…..23…..[A. longitudinal    B. objective    C. simultaneous    D. parallel] consequences such as distress, sales of cattle by livestock owners in order to buy food.\n  Government should provide farmers with agricultural inputs and ensure that they have easy access to these inputs under the relief…..24…..[A. action    B. process    C. scheme    D. plan]. Emergency measures will be much more……25…..[A. normal    B. correct    C. idealistic    D. effective] if a mechanism is established to ensure adequate preparedness and defence against the occurrence of drought. <br><br> \n     <br><br>      <br><br>     In question number 25 above, choose the best option from letters A-D that best completes the gap.\n                        \n                        \n                        \n                            A normal\n                            \n                        \n                        \n                            B correct\n                            \n                        \n                        \n                            C idealistic\n                            \n                        \n                        \n                            D effective\n                            \n                        \n                        \n                        \n                            \n                                \n                                    Answer & Comment\n                                     \n                                    D\n                                \n                                \n                                \n                                     \n                                    \n                                    \n                                \n                                \n                                \n                                    \n                                                                                \n                                            Comment",
+    "option_a": "normal",
+    "option_b": "correct",
+    "option_c": "idealistic",
+    "option_d": "effective",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "Select the  option that best explains the information conveyed in the sentence. <br><br> Though Mr. Iro is our new chairman, he views other members with jaundiced eye?",
+    "option_a": "He takes a rather forceful position on dealing with his members",
+    "option_b": "He takes an unfavourable position concerning his members",
+    "option_c": "He takes a sicky view of his members",
+    "option_d": "He takes a rather hazy view of his members",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "Select the option that best explains the information conveyed in the sentence. <br><br> People are not interested in who rules?",
+    "option_a": "People are not ruled by the leaders they want",
+    "option_b": "People are not concerned about who rules them",
+    "option_c": "The rulers are not concerned about the people",
+    "option_d": "People who rule are not intersested in the ruled",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "Select the option that best explains the information conveyed in the sentence.  <br><br> The witness said he had no axe to grind with his brothers?",
+    "option_a": "He had no hatred for the brothers",
+    "option_b": "He had no axe and therefore stole the matchet",
+    "option_c": "He had no axe and therefore borrowed their matchet",
+    "option_d": "He had no vested interest in the brothers.",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "Select the option that best explains the information conveyed in the sentence. <br><br> The footballers moved with  their tails between their legs?",
+    "option_a": "They moved happily because they won the match the match",
+    "option_b": "They were unhappy because they had been despised by their opponents",
+    "option_c": "They were ashamed because they had been defeated",
+    "option_d": "They moved with their tails between their legs",
+    "answer": "C",
+    "solution": ""
+  }
+]

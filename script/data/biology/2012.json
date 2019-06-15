@@ -1,0 +1,443 @@
+﻿[
+  {
+    "question": "Which of the following is most advanced in the evolutionary trend of animals?",
+    "option_a": "Liverfluke",
+    "option_b": "Earthworm",
+    "option_c": "Snail",
+    "option_d": "Cockroach",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "Which of the following is the lowest category of classification?",
+    "option_a": "class",
+    "option_b": "species",
+    "option_c": "family",
+    "option_d": "genus",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "Plants that show secondary growth are usually found among the",
+    "option_a": "thallophytes",
+    "option_b": "pteridophytes",
+    "option_c": "monocotyledons",
+    "option_d": "dicotyledons",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "The fungi are distinct group of eukaryote mainly because they have",
+    "option_a": "spores",
+    "option_b": "no chlorophyll",
+    "option_c": "many fruiting bodies",
+    "option_d": "sexual and sexual reproduction",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "An arthropod that is destructive at early stage of its life cycle is",
+    "option_a": "butterfly",
+    "option_b": "mosquito",
+    "option_c": "bee",
+    "option_d": "millepede",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "An animal body that can be cut along its axis in any plane to give two identical parts is said to be",
+    "option_a": "radially symmetrical",
+    "option_b": "bilaterally symmetrical",
+    "option_c": "asymmetrical",
+    "option_d": "symmetrical",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "Which of the following possesses mammary gland?",
+    "option_a": "Dogfish",
+    "option_b": "whale",
+    "option_c": "shark",
+    "option_d": "catfish",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "The feature that links birds to reptiles in evolution is the possession of",
+    "option_a": "feathers",
+    "option_b": "break",
+    "option_c": "skeleton",
+    "option_d": "scales",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "Countershading is an adaptive feature that enables animals to",
+    "option_a": "fight enemies",
+    "option_b": "remain undetected",
+    "option_c": "warn enemies",
+    "option_d": "attract mates",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "Which of the following plant structures lacks a waterproof cuticle?",
+    "option_a": "leaf",
+    "option_b": "stem",
+    "option_c": "root",
+    "option_d": "shoot",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "In the mammalian male reproductive system, the part that serves as a passage for both urine and semen is the",
+    "option_a": "urethra",
+    "option_b": "urter",
+    "option_c": "bladder",
+    "option_d": "seminal vesicle",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "In plants which of the following is required in minute quantities for growth?",
+    "option_a": "Copper",
+    "option_b": "Potassium",
+    "option_c": "Phosphorus",
+    "option_d": "Sodium",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "Which of the following organisms is both parasitic and  autotrophic?",
+    "option_a": "Sundew",
+    "option_b": "Lorathus",
+    "option_c": "Rhizopus",
+    "option_d": "Tapeworm",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "A function of the hydrochloric acid produced in the human stomach during digestion is to",
+    "option_a": "neutralise the effect of bile",
+    "option_b": "coagulate milk protein and emulsify fats",
+    "option_c": "stop the action of ptyalin",
+    "option_d": "break up food into smaller particles",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "Which of the following is a  polysaccharide?",
+    "option_a": "Glucose",
+    "option_b": "Sucrose",
+    "option_c": "Maltose",
+    "option_d": "Cellulose",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "In the kidney of mammals, the site of ultrafiltration is the",
+    "option_a": "uriniferous tubule",
+    "option_b": "Bowman's capsule",
+    "option_c": "loop of Henle",
+    "option_d": "renal tubule",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "Which of the following is involved in secondary thickening in plants?",
+    "option_a": "Collenchyma and xylem cells",
+    "option_b": "Vascular cambium",
+    "option_c": "Cork cambium and sclerenchyma",
+    "option_d": "Vascular cambium and cork cambium",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "An example of a fruit that develops from a single carpel is",
+    "option_a": "okro",
+    "option_b": "tomato",
+    "option_c": "bean",
+    "option_d": "orange",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "Plant growth can be artificially stimulated by the addition of",
+    "option_a": "gibberellin",
+    "option_b": "kinin",
+    "option_c": "abscisic acid",
+    "option_d": "ethylene",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "The autonomic nervous system consists of neurons that control the",
+    "option_a": "voluntary muscles",
+    "option_b": "heart beat",
+    "option_c": "tongue",
+    "option_d": "hands",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "The water cycle is maintained mainly by",
+    "option_a": "evaporation of water in the environment",
+    "option_b": "evaporation and condensation of water in the environment",
+    "option_c": "condensation of water in the environment",
+    "option_d": "transpiration and respiration in plants",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "Plants of temperate origin can be grown in tropical areas in the vegetation zones of the",
+    "option_a": "rain forest",
+    "option_b": "guinea savanna",
+    "option_c": "sudan savanna",
+    "option_d": "montane forest",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "Organisms living in an estuarine habitat are adapted to",
+    "option_a": "withstand wide fluctuations in temperature",
+    "option_b": "survive only in water with low salinity",
+    "option_c": "withstand wide fluctuations in salinity",
+    "option_d": "feed only on phytoplankton and dead organic matter",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "The presence of stilt roots, pneumatophores, sunken stomata and salt glands are adaptive features of plants found in the",
+    "option_a": "tropical rainforest",
+    "option_b": "mangrove swamps",
+    "option_c": "gressland",
+    "option_d": "montane forest",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "Which of the following animals can exist solely on the water they get from food and metabolic reactions?",
+    "option_a": "forest arboreal dweller",
+    "option_b": "Desert dwellers",
+    "option_c": "forest-ground dweller",
+    "option_d": "rainforest dwellers",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "The most likely first colonizers of a bare rock are",
+    "option_a": "mosses",
+    "option_b": "ferns",
+    "option_c": "lichen",
+    "option_d": "fungi",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "The carrying capacity of a habitat is reached when the population growth begins to",
+    "option_a": "increase slowly",
+    "option_b": "increase exponentially",
+    "option_c": "slow down",
+    "option_d": "remain steady",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "The abiotic factors that control human population include",
+    "option_a": "disease and famine",
+    "option_b": "space and rainfall",
+    "option_c": "flooding and earthquake",
+    "option_d": "temperature and disease",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "An indigenous method of renewing and maintaining soil fertility is by",
+    "option_a": "clearing farms by burning",
+    "option_b": "planting one crop type",
+    "option_c": "adding inorganic fertilizers yearly",
+    "option_d": "crop rotation and shifting cultivation",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "The diseases caused by water-borne pathogens include",
+    "option_a": "gonorrhoea and poliomyelitis",
+    "option_b": "typhoid and syphilis",
+    "option_c": "tuberculosis and cholera",
+    "option_d": "typhoid and cholera",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "Which of the following is true in blood transfusion?",
+    "option_a": "person of blood group AB can donate blood only to another person of blood group AB",
+    "option_b": "persons of blood groups A and B can donate or receive blood from each other",
+    "option_c": "A person of blood group AB acn receive blood only from persons of blood group A or B",
+    "option_d": "A person of blood group O can donate only to a person of blood group O",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "A yellow maize is planted and all the fruits obtained are of yellow seeds. When they are croos-bred, yellow seeds and white seeds are obtained in a ratio :1 . The yellow seed is said to be",
+    "option_a": "non-heritable",
+    "option_b": "sex-linked",
+    "option_c": "a recessive trait",
+    "option_d": "a dominant trait",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "When a colour-blind man marries a carrier woman. What is the probability of their offspring being colour blind?",
+    "option_a": "A 25%",
+    "option_b": "B 50%",
+    "option_c": "C 75%",
+    "option_d": "D 100%",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "The correct base pairing for DNA is",
+    "option_a": "adenine → thymine and guanine → cytosine",
+    "option_b": "adenine → guanine and thymine → cytosine",
+    "option_c": "adenine → cytosine and guanine → thymine",
+    "option_d": "adenine → adenine and cytosine → cytosine",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "The short thick break in birds is an adaptation for",
+    "option_a": "crushing seeds",
+    "option_b": "sucking nectar",
+    "option_c": "tearing flash",
+    "option_d": "straining mud",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "The basking of Agama lizards in the sun is to",
+    "option_a": "change the colour of their body",
+    "option_b": "raise their body temperature to become active",
+    "option_c": "fight to defend their territories",
+    "option_d": "attract the female for courtship",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "The significance of a very large number of termites involved in nuptial swarming is to",
+    "option_a": "provide birds with plenty of food",
+    "option_b": "ensure their perpetuation despite predatory pressure",
+    "option_c": "search for a favourable place to breed",
+    "option_d": "ensure that every individual gets a mate",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "The use and disuse of body parts and the inheritance of acquired traits were used to explain",
+    "option_a": "Darwin's theory",
+    "option_b": "Lamarek's theory",
+    "option_c": "genetic drift",
+    "option_d": "gene flow",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "From his study of Galapagos finches, Darwin derived his theory of evolution from",
+    "option_a": "comparative anatomy",
+    "option_b": "comparative physiology",
+    "option_c": "fossil remains",
+    "option_d": "comparative embryology",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "Use the diagram above to answer this question.\n\n\nThe organelle responsible for heredity is labelled",
+    "option_a": "l",
+    "option_b": "ll",
+    "option_c": "lll",
+    "option_d": "IV",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "Use the diagram above to answer this question.\n\n\nThe part labelled IV is the",
+    "option_a": "mitochondrion",
+    "option_b": "cell wall",
+    "option_c": "endoplasmic reticulum",
+    "option_d": "nucleus",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "Use the diagram above to answer this question.Arrows represent directional movement materials. \n\n\nTransportation in the xylem is represented by",
+    "option_a": "I",
+    "option_b": "II",
+    "option_c": "III",
+    "option_d": "IV",
+    "answer": "D",
+    "solution": ""
+  },
+  {
+    "question": "Use the diagram above to answer this question. Arrows represent directional movement materials. \n\n\nThe arrow labelled ll represents the",
+    "option_a": "release of oxygen",
+    "option_b": "intake of carbon (IV) oxide",
+    "option_c": "movement of photosynthates",
+    "option_d": "movement  of nutrients",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "Use the diagram above to answer this question.\n\n\nThe developing embryo is usually contained in the part labelled",
+    "option_a": "IV",
+    "option_b": "III",
+    "option_c": "II",
+    "option_d": "I",
+    "answer": "C",
+    "solution": ""
+  },
+  {
+    "question": "Use the diagram above to answer this question.\n\n\nThe function of the part labelled lll is to",
+    "option_a": "produce egg cells",
+    "option_b": "protect sperms during fertilization",
+    "option_c": "secrete hormones during coitus",
+    "option_d": "protect the developing embryo",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "Use the diagram above to answer this question.\n\n\nThe graph illustrates",
+    "option_a": "the highest frequency for height of 2 metres",
+    "option_b": "a discontinuously varying character",
+    "option_c": "a continuously varying character",
+    "option_d": "total yield in a cassava farm",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "The largest number of cassava plants has an approximate height of",
+    "option_a": "1.4m",
+    "option_b": "1.6m",
+    "option_c": "1.8m",
+    "option_d": "2.0m",
+    "answer": "B",
+    "solution": ""
+  },
+  {
+    "question": "The type of interaction shown is referred to as",
+    "option_a": "interspecific competition",
+    "option_b": "intraspecific competition",
+    "option_c": "mutualism",
+    "option_d": "cooperation",
+    "answer": "A",
+    "solution": ""
+  },
+  {
+    "question": "In the diagram, which of the following statement is true of the interaction",
+    "option_a": "P aurelia is better adapted for obtaining food than P caudatum",
+    "option_b": "P caudatum is better adapted for obtaining food than P. aurelia",
+    "option_c": "both organisms cannot coexist",
+    "option_d": "both organisms cannot reproduce",
+    "answer": "C",
+    "solution": ""
+  }
+]

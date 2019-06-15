@@ -1,0 +1,433 @@
+[
+  {
+   "question": "The historical development of accounting reveals that it?",
+   "option_a": "deals with debit and credit of items",
+   "option_b": "is a product of financial development",
+   "option_c": "is a product of its own evironmnent",
+   "option_d": "is an ideal subject for finacial development", 
+   "answer": "A", 
+   "solution": ""
+  },
+  {
+   "question": "In a trial balance, income and liabilities are?",
+   "option_a": "debited and credited respectively",
+   "option_b": "credited",
+   "option_c": "credited and debited respectively",
+   "option_d": "debited", 
+   "answer": "B", 
+   "solution": ""
+  },
+  {
+   "question": "The principle of double entry system ensures?",
+   "option_a": "mathematical accuracy in trial balance",
+   "option_b": "balances at the bank",
+   "option_c": "increase in the assets and liabilities",
+   "option_d": "balance of cash account", 
+   "answer": "A", 
+   "solution": ""
+  },
+  {
+   "question": "i) Deducted the smaller side figure from the bigger side figure .<br> ii) Add up both side<br> iii)Take the difference to the smaller and add to the smaller figure<br> The correct procedure for balancing account is?",
+   "option_a": "ii, i and iii",
+   "option_b": "i, iii and ii",
+   "option_c": "ii, iii and i",
+   "option_d": "i, ii and iii", 
+   "answer": "B", 
+   "solution": ""
+  },
+  {
+   "question": "Given:<br> Light expenses...................N400<br> Purchases........................N3,000<br> Sales............................N1,200<br> Creditors........................N2,250<br> Debtors..........................N50<br> Calculate the total of the trial balance?",
+   "option_a": "N4,250",
+   "option_b": "N3,500",
+   "option_c": "N4,300",
+   "option_d": "N3,450", 
+   "answer": "D", 
+   "solution": ""
+  },
+  {
+   "question": "The major feature of a journal is that it has?",
+   "option_a": "six columns, date, particulars, folio, amount, debit and credit",
+   "option_b": "five columns, date particulars, folio, debit and credit",
+   "option_c": "three columns, date particulars and folio",
+   "option_d": "four columns, date particulars, folio and amount", 
+   "answer": "B", 
+   "solution": ""
+  },
+  {
+   "question": "The medium of correcting errors whose differences are shown in the trial balance is by the use of?",
+   "option_a": "debtors' account",
+   "option_b": "creditor's account",
+   "option_c": "suspense account",
+   "option_d": "ledger account", 
+   "answer": "B", 
+   "solution": ""
+  },
+  {
+   "question": "Use the information below to answer question .<br> Adamu Stores bought accessories from Mu'azu Beverages for N400 on credit. A trade discount of 10% and a cash discount of 15% were provided.<br> Find the total amount paid?",
+   "option_a": "N260",
+   "option_b": "N300",
+   "option_c": "N200",
+   "option_d": "N380", 
+   "answer": "B", 
+   "solution": ""
+  },
+  {
+   "question": "Use the information below to answer question .<br> Adamu Stores bought accessories from Mu'azu Beverages for N400 on credit. A trade discount of 10% and a cash discount of 15% were provided.<br> Calculate the cash discount?",
+   "option_a": "N60",
+   "option_b": "N90",
+   "option_c": "N40",
+   "option_d": "N100", 
+   "answer": "A", 
+   "solution": ""
+  },
+  {
+   "question": "In bank reconciliation process, discrepancies cause by timing arises as a result of?",
+   "option_a": "cash book bank statement",
+   "option_b": "bank statement only",
+   "option_c": "cash book, bank statement and other incidental records",
+   "option_d": "cash book only", 
+   "answer": "A", 
+   "solution": ""
+  },
+  {
+   "question": "The process of reconciling cheques between banks is termed cheque?",
+   "option_a": "clearing",
+   "option_b": "truncation",
+   "option_c": "holding",
+   "option_d": "confirmation", 
+   "answer": "A", 
+   "solution": ""
+  },
+  {
+   "question": "In a bank reconciliation statement, interest charged for overdrawn balances should be added to the?",
+   "option_a": "balance as per bank statement",
+   "option_b": "bank balance as per adjusted cash book",
+   "option_c": "aggregate balance as per cash book",
+   "option_d": "bank balance as per cash book", 
+   "answer": "A", 
+   "solution": ""
+  },
+  {
+   "question": "Use the information below to answer question<br> i) Stock of goods<br> ii) Furniture<br> iii)Creditors<br> iv) Cash at bank<br> v) Loan from the bank<br> Determine the current liabilities?",
+   "option_a": "iii and v",
+   "option_b": "ii and iii",
+   "option_c": "iv and v",
+   "option_d": "i and ii", 
+   "answer": "A", 
+   "solution": ""
+  },
+  {
+   "question": "Use the information below to answer question<br> i) Stock of goods<br> ii) Furniture<br> iii)Creditors<br> iv) Cash at bank<br> v) Loan from the bank<br> Find the current assets?",
+   "option_a": "iii and v",
+   "option_b": "ii and i",
+   "option_c": "iv and v",
+   "option_d": "i and iv", 
+   "answer": "D", 
+   "solution": ""
+  },
+  {
+   "question": "The type of expense charged against administration of a firm is the?",
+   "option_a": "repairs on building",
+   "option_b": "interesr paid on loan",
+   "option_c": "discount allowed",
+   "option_d": "tax expense", 
+   "answer": "A", 
+   "solution": ""
+  },
+  {
+   "question": "In a period of declining price, which of the following methods would result in higher profit?",
+   "option_a": "FIFO",
+   "option_b": "Simple average",
+   "option_c": "LIFO",
+   "option_d": "Weighted average", 
+   "answer": "A", 
+   "solution": ""
+  },
+  {
+   "question": "The item on the credit side of the trading account is the?",
+   "option_a": "returns outwards",
+   "option_b": "caarriage on sales",
+   "option_c": "sales",
+   "option_d": "purchases", 
+   "answer": "C", 
+   "solution": ""
+  },
+  {
+   "question": "Use the information above to answer questions 19 and 20.<br> July 30 Closing stock 100 units at N90<br> July 8 Purchased 200 units at N95<br> July 10 Sold 160 units<br> July 17 Returned 80 faulty units purchased at N95<br> July 18 Purchased 200 units at N105<br> July 20 Sold 180 units<br> July 28 Purchased 200 units at N110<br> July 29 Sold 120 units<br> July 30 Sold 100 units<br> How many units were at hand as at July 30?",
+   "option_a": "80",
+   "option_b": "100",
+   "option_c": "60",
+   "option_d": "160", 
+   "answer": "C", 
+   "solution": ""
+  },
+  {
+   "question": "What is the value of stock as at the end of July 10 using FIFO?",
+   "option_a": "N14 400",
+   "option_b": "N13 300",
+   "option_c": "N15 200",
+   "option_d": "N12 600", 
+   "answer": "B", 
+   "solution": ""
+  },
+  {
+   "question": "A typical example of a real account is?",
+   "option_a": "prepayment",
+   "option_b": "expenses",
+   "option_c": "plant",
+   "option_d": "income", 
+   "answer": "C", 
+   "solution": ""
+  },
+  {
+   "question": "The control accounting can be used in?",
+   "option_a": "recording all the business transactions of the enterprise",
+   "option_b": "Keeping records of all direct deposit in the bank account",
+   "option_c": "monitoring the books of original entry",
+   "option_d": "monitoring the efficiency of bookkepping by accountants", 
+   "answer": "D", 
+   "solution": ""
+  },
+  {
+   "question": "Use the information below to answer questions 23 and 24.<br> Incomplete Record (Extract)<br> Sales......................................N10,600<br> Rent...........................N200<br> Depreciation of vehicle (cost N5000) 10%<br> Gross profit margin is 20%<br> What is the cost of goods sold?",
+   "option_a": "N4 800",
+   "option_b": "N8 480",
+   "option_c": "N2 320",
+   "option_d": "N 9 900", 
+   "answer": "B", 
+   "solution": ""
+  },
+  {
+   "question": "Calculate the net profit?",
+   "option_a": "N1 620",
+   "option_b": "N1 920",
+   "option_c": "N1 420",
+   "option_d": "2 120", 
+   "answer": "C", 
+   "solution": ""
+  },
+  {
+   "question": "The cost that are directly traceable to the the goods being produced is?",
+   "option_a": "party manufactured goods",
+   "option_b": "overhead cost",
+   "option_c": "total factory expenses",
+   "option_d": "prime cost", 
+   "answer": "D", 
+   "solution": ""
+  },
+  {
+   "question": "The product cost that does not form part of the product but is incidental to product and facilitates the production activities is the?",
+   "option_a": "prime cost",
+   "option_b": "indirect cost",
+   "option_c": "total cost",
+   "option_d": "direct cost", 
+   "answer": "B", 
+   "solution": ""
+  },
+  {
+   "question": "Work-in-progress is the?",
+   "option_a": "value of party finished goods",
+   "option_b": "value of finished goods sold",
+   "option_c": "sales less cost of goods sold",
+   "option_d": "value of goods produced", 
+   "answer": "A", 
+   "solution": ""
+  },
+  {
+   "question": "The major festure of not-for-profit-making-organization is that they are formed?",
+   "option_a": "to use accumulated fund to described the net amount owed to members",
+   "option_b": "mainly to improve the welfare of her member",
+   "option_c": "to engaged in trading activities to sponsor its activities",
+   "option_d": "in order to compute the receipts and payment account", 
+   "answer": "B", 
+   "solution": ""
+  },
+  {
+   "question": "The subscription paid in advance is treated in the balance sheet of a club as?",
+   "option_a": "a surplus",
+   "option_b": "a liability",
+   "option_c": "a deflicit",
+   "option_d": "an asset", 
+   "answer": "B", 
+   "solution": ""
+  },
+  {
+   "question": "The capital of not-for-profit-making organization is referred to as?",
+   "option_a": "entity fund",
+   "option_b": "capital owned",
+   "option_c": "accumulated fund",
+   "option_d": "capital employed", 
+   "answer": "C", 
+   "solution": ""
+  },
+  {
+   "question": "The major objective of departmental accounts is to ascertain the?",
+   "option_a": "contribution of each department to profit",
+   "option_b": "materials sold in each department",
+   "option_c": "insurance premium payable on employees",
+   "option_d": "number of employees in each department", 
+   "answer": "A", 
+   "solution": ""
+  },
+  {
+   "question": "The transactions relating to liquidation in partnership account is drawn by using?",
+   "option_a": "current account",
+   "option_b": "cash account",
+   "option_c": "capital account",
+   "option_d": "realization account", 
+   "answer": "C", 
+   "solution": ""
+  },
+  {
+   "question": "The cost method of charging goods to branch is used where?",
+   "option_a": "branch stock adjustment account is in use",
+   "option_b": "the retention of branch trading account is in addition to the cost of goods sold",
+   "option_c": "goods are sent without invoice or any source documents",
+   "option_d": "goods are of a perishable nature on which a pre-determined price is inapplicable", 
+   "answer": "A", 
+   "solution": ""
+  },
+  {
+   "question": "The correct entries to record goods transferred to branch from head office is to debit?",
+   "option_a": "branch stock account and credit goods sent to branch account",
+   "option_b": "branch supplies account and credit branch stock account",
+   "option_c": "branch stock account and credit purchases account",
+   "option_d": "goods sent to branch account and credit branch stock account", 
+   "answer": "A", 
+   "solution": ""
+  },
+  {
+   "question": "The two accounts that are normally opened in the head office when goods are transferred to a branch are?",
+   "option_a": "branch supplies and branch receipts",
+   "option_b": "branch stock account and goods sent to branch accounts",
+   "option_c": "goods sent to brannch account and branch receipt account",
+   "option_d": "goods sent to branch accounts and branch supplies", 
+   "answer": "B"
+  },
+  {
+   "question": "Goods invoiced to a branch can be sent using?",
+   "option_a": "cost price, selling price and fixed percentage on selling price",
+   "option_b": "cost price, selling price and fixed percentage on cost price",
+   "option_c": "cost priceand fixed percentage on cost price",
+   "option_d": "cost price and fixed percentage on selling price", 
+   "answer": "B", 
+   "solution": ""
+  },
+  {
+   "question": "The major point of agreement carried by the partnership deed is?",
+   "option_a": "5% interest annum on any loan",
+   "option_b": "an oral agreement among the partners",
+   "option_c": "method of inhertance by the partners' children",
+   "option_d": "the profit and loss sharing ratio of the partners", 
+   "answer": "D", 
+   "solution": ""
+  },
+  {
+   "question": "Use the information below to answer questions 40 and 41.<br> Keme and Kemi are in partnership sharing profit and losses in the ratio 3:2.<br> Capital - Keme.............N20 000<br> ........ - Kemi.............N10 000<br> Drawings - Keme.............N2 000<br> ........ - Kemi.............N3 000<br> Profit......................N6 000<br> Interest on capital.........5%<br> Interest on drawings........10%<br> The interest on Kemi's capital is?",
+   "option_a": "N1 000",
+   "option_b": "N2 000",
+   "option_c": "N500",
+   "option_d": "N3 000", 
+   "answer": "C", 
+   "solution": ""
+  },
+  {
+   "question": "The interest on Keme's drawings is calculated as?",
+   "option_a": "N200",
+   "option_b": "N150",
+   "option_c": "N300",
+   "option_d": "N100", 
+   "answer": "A", 
+   "solution": ""
+  },
+  {
+   "question": "Which of the following can be used on admission of a new partnership?",
+   "option_a": "Revaluation account",
+   "option_b": "Profit account",
+   "option_c": "Capital account",
+   "option_d": "Trading account", 
+   "answer": "A", 
+   "solution": ""
+  },
+  {
+   "question": "Goodwill is determined using?",
+   "option_a": "capital contribution",
+   "option_b": "number of partnerd admitted",
+   "option_c": "the business and customer relations",
+   "option_d": "number of active partners", 
+   "answer": "B", 
+   "solution": ""
+  },
+  {
+   "question": "The founders of a company are?",
+   "option_a": "promoters",
+   "option_b": "shareholders",
+   "option_c": "canvassers",
+   "option_d": "stakeholders", 
+   "answer": "A", 
+   "solution": ""
+  },
+  {
+   "question": "The fund in which all government receipt are paid is?",
+   "option_a": "A consolidated revenue fund",
+   "option_b": "B development fund",
+   "option_c": "C trust fund",
+   "option_d": "D contingency fund", 
+   "answer": "A", 
+   "solution": ""
+  },
+  {
+   "question": "Which of the following accounts for the highest revenue to Nigeria?",
+   "option_a": "Import duties",
+   "option_b": "Personal income tax",
+   "option_c": "Petroleum income tax",
+   "option_d": "Company tax", 
+   "answer": "C", 
+   "solution": ""
+  },
+  {
+   "question": "If Aboki Holdings Limited issued 120, 000 ordinary share of N2.00 each at market value of 5.50k each, the share premium would?",
+   "option_a": "N500 000",
+   "option_b": "N450 000",
+   "option_c": "N550 000",
+   "option_d": "N420 000", 
+   "answer": "D", 
+   "solution": ""
+  },
+  {
+   "question": "Which of the following is a signatory to federal government account?",
+   "option_a": "Auditor-General",
+   "option_b": "Governor of Central Bank",
+   "option_c": "Accountant-General",
+   "option_d": "Persident", 
+   "answer": "D", 
+   "solution": ""
+  },
+  {
+   "question": "The chief accounting officer of a local government is the?",
+   "option_a": "Chairman",
+   "option_b": "Treasurer",
+   "option_c": "Director of personnel",
+   "option_d": "Auditor", 
+   "answer": "A", 
+   "solution": ""
+  },
+  {
+   "question": "Which of the following signs general warrant for the release of money from the consolidated revenue fund?",
+   "option_a": "Minister of Finance",
+   "option_b": "Chairman, Economic Advisory Committee",
+   "option_c": "Permanent secretary",
+   "option_d": "Minister of Economic Planning", 
+   "answer": "A", 
+   "solution": ""
+  },
+  {
+   "question": "Calculate the cost of goods sold.",
+   "option_a": "N61 000",
+   "option_b": "N58 000",
+   "option_c": "N62000",
+   "option_d": "N57 000", 
+   "answer": "C", 
+   "solution": ""
+  }
+]
