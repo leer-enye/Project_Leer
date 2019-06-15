@@ -181,7 +181,10 @@ class User extends Component {
     challengeUser(selectedUser) {
         const { id, name, picture } = selectedUser;
         if (selectedUser && id && name && picture) {
-            this.socket.emit(selectUser, selectedUser);
+            this.socket.emit(selectUser, {
+                subject: '5d03ade5f721544844347cce',
+                user: selectedUser,
+            });
         }
     }
 
