@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { connect } from 'react-redux';
 
 import { actions, components, selectors } from '../../../components/challenge';
@@ -9,18 +9,39 @@ const { selectOpponentRequest } = actions;
 const { NEXT_LINKS } = constants;
 const { challengeInfoLink } = NEXT_LINKS;
 const { OpponentSelect } = components;
-const { getOnlineUsers } = selectors;
+const { getOnlineUsers, getChallengeReqStatus } = selectors;
 
-const ChooseOpponentPage = ({ onlineUsers, selectOpponent, challengeUserRequest }) => (
-    <OpponentSelect 
-        selectOpponent={selectOpponent}
-        challengeUserRequest={challengeUserRequest} 
-        onlineUsers={onlineUsers} 
-        next={challengeInfoLink} 
-    />
-);
+class ChooseOpponentPage extends Component { 
+    state= {} 
+
+    componentDidMount(){
+        const { getUserList } =  this.props;
+        getUserList();
+    }
+
+    render(){
+        const { 
+            onlineUsers,
+            selectOpponent,
+            challengeReqStatus,
+            challengeUserRequest, 
+        } = this.props;
+
+        return (  
+            <OpponentSelect 
+                selectOpponent={selectOpponent}
+                challengeUserRequest={challengeUserRequest} 
+                challengeReqStatus={challengeReqStatus}
+                onlineUsers={onlineUsers} 
+                next={challengeInfoLink} 
+            />
+        );
+    };
+
+}
 
 const mapStateToProps = state => ({
+    challengeReqStatus: getChallengeReqStatus(state),
     onlineUsers: getOnlineUsers(state),
 });
 
