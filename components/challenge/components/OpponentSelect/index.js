@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import Link from 'next/link';
 import { Typography, Row, Card, Col, Button } from 'antd';
 import {
@@ -25,40 +25,51 @@ const {
     opponentCardTextContent,
 } = CLASS_NAMES;
 
-const OpponentSelect = ({ next, opponents }) => <section>
-    <Title level={3}> {chooseOpponentLabel}</Title>
+class OpponentSelect extends Component{
+    state  = {}
 
-    <Row gutter={8} className={mt4}>
+    render(){
+        const { next, opponents, onlineUsers } = this.props;
+        console.log('from opponent select ==> ',  onlineUsers)
+        return (
+            <section>
+                <Title level={3}> {chooseOpponentLabel}</Title>
 
-        <Col span={24} className={mb4}>
-            <Button
-                size={BUTTON_SIZE_LG}
-                type={BUTTON_TYPE_PRIMARY}
-            >
-                {SELECT_RANDOMLY}
-            </Button>
-        </Col>
+                <Row gutter={8} className={mt4}>
 
-        {opponents.map(({ id, image, username }) => (
-            <Col key={id} span={8} md={8} xs={24} className={mb1}>
-                <Link href={next}>
-                    <Card className={opponentCard} hoverable>
-                        <img
-                            className={opponentCardImg}
-                            src={image}
-                            alt={`${username}`}
-                        />
-                        <div className={opponentCardTextContent}>
-                            <Title level={4} className={mb0}>{username}</Title>
-                            <div className={onlineIcon} />
-                        </div>
+                    <Col span={24} className={mb4}>
+                        <Button
+                            size={BUTTON_SIZE_LG}
+                            type={BUTTON_TYPE_PRIMARY}
+                        >
+                            {SELECT_RANDOMLY}
+                        </Button>
+                    </Col>
 
-                    </Card>
-                </Link>
-            </Col>
-        ))}
-    </Row>
-</section>;
+                    { onlineUsers.map(({ id, picture, name }) => (
+                        <Col key={id} span={8} md={8} xs={24} className={mb1}>
+                            <Link href={next}>
+                                <Card className={opponentCard} hoverable>
+                                    <img
+                                        className={opponentCardImg}
+                                        src={picture}
+                                        alt={`${name}`}
+                                    />
+                                    <div className={opponentCardTextContent}>
+                                        <Title level={4} className={mb0}>{name}</Title>
+                                        <div className={onlineIcon} />
+                                    </div>
+
+                                </Card>
+                            </Link>
+                        </Col>
+                    ))}
+                </Row>
+            </section>
+        );
+    }
+
+}
 
 OpponentSelect.defaultProps = {
     opponents: opponentSelect.opponents,
