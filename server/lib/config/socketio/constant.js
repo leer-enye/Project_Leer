@@ -9,9 +9,10 @@ const CUSTOM_EVENTS = {
     getUser: 'get_users',
     leaveRoom: 'leave_room',
     login: 'login',
+    onRejectedChallenge : 'on_rejected_challenge',
+    receiveQuestion: 'receive_question',
     rejectChallenge: 'reject_challenge',
     selectUser: 'selectUser',
-    sendQuestion: 'send_question',
     users: 'users',
 };
 
