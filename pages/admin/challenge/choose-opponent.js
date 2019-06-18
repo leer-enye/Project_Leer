@@ -19,6 +19,11 @@ class ChooseOpponentPage extends Component {
         getUserList();
     }
 
+    refreshUserList = () => {
+        const { getUserList } = this.props;
+        getUserList();
+    };
+
     render(){
         const { 
             onlineUsers,
@@ -33,6 +38,7 @@ class ChooseOpponentPage extends Component {
                 challengeUserRequest={challengeUserRequest} 
                 challengeReqStatus={challengeReqStatus}
                 onlineUsers={onlineUsers} 
+                refreshUserList={this.refreshUserList}
                 next={challengeInfoLink} 
             />
         );
