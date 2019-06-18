@@ -16,11 +16,13 @@ const {
     challengeEnd,
     challengeRequest,
     challengeStart,
+    getNextQuestion,
     getUser,
     leaveRoom,
     login,
     rejectChallenge,
     selectUser,
+    sendQuestion,
     users,
 } = CUSTOM_EVENTS;
 
@@ -82,6 +84,11 @@ class User extends Component {
         notification.close(key);
     }
 
+    getNextQuestion() {
+        const { room } = this.state;
+        this.socket.emit(getNextQuestion, { roomId: room });
+    }
+
     getUserList() {
         this.socket.emit(getUser, {});
     }
@@ -125,6 +132,7 @@ class User extends Component {
 
         this.socket.on(challengeStart, data => {
             this.setState({ room: data.room });
+            this.getNextQuestion();
         });
 
         this.socket.on(ackChallengeRequest, data => {
@@ -141,6 +149,10 @@ class User extends Component {
         this.socket.on(challengeEnd, () => {
             this.socket.leave(room);
             this.setState({ room: '' });
+        });
+
+        this.socket.on(sendQuestion, data => {
+            console.log(data);
         });
     }
 
@@ -169,7 +181,10 @@ class User extends Component {
     challengeUser(selectedUser) {
         const { id, name, picture } = selectedUser;
         if (selectedUser && id && name && picture) {
-            this.socket.emit(selectUser, selectedUser);
+            this.socket.emit(selectUser, {
+                subject: '5d03ade5f721544844347cce',
+                user: selectedUser,
+            });
         }
     }
 
