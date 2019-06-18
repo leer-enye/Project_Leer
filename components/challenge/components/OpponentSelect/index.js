@@ -2,7 +2,7 @@
 /* eslint-disable jsx-a11y/click-events-have-key-events */
 import React, { Component } from 'react';
 import Router from 'next/router';
-import { Typography, Row, Card, Col, Button } from 'antd';
+import { Typography, Row, Card, Col, Button, message } from 'antd';
 
 import {
     BUTTON_SIZE_LG,
@@ -32,18 +32,21 @@ class OpponentSelect extends Component{
     state  = {}
 
     handleSelect = opponent => {
-        const { challengeUserRequest, selectOpponent, next } = this.props;
+        const { challengeUserRequest, selectOpponent } = this.props;
         selectOpponent(opponent);
         challengeUserRequest(opponent);
-        Router.push(next);
+        // Router.push(next);
     };
 
     render(){
-        const { onlineUsers } = this.props;
+        const { challengeReqStatus, onlineUsers, next } = this.props;
+        // if challenge request has been approved redirect to challenge info page
+        if (challengeReqStatus === 'approved'){
+            return Router.push(next);
+        }
         return (
             <section>
                 <Title level={3}> {chooseOpponentLabel}</Title>
-
                 <Row gutter={8} className={mt4}>
 
                     <Col span={24} className={mb4}>
@@ -74,6 +77,11 @@ class OpponentSelect extends Component{
                         </Col>
                     ))}
                 </Row>
+                {/* {
+                    challengeReqStatus === 'pending' ?
+                        message.loading('Waiting for response from opponent', 0)
+                        :  null
+                } */}
             </section>
         );
     }
