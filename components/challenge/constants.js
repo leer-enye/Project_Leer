@@ -151,3 +151,4 @@ export const DEFAULT_PROPS = {
     },
 };
 
+export const NAME = 'challenge';
