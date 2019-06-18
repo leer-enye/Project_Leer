@@ -1,6 +1,9 @@
+/* eslint-disable jsx-a11y/no-static-element-interactions */
+/* eslint-disable jsx-a11y/click-events-have-key-events */
 import React, { Component } from 'react';
-import Link from 'next/link';
+import Router from 'next/router';
 import { Typography, Row, Card, Col, Button } from 'antd';
+
 import {
     BUTTON_SIZE_LG,
     BUTTON_TYPE_PRIMARY,
@@ -28,9 +31,15 @@ const {
 class OpponentSelect extends Component{
     state  = {}
 
+    handleSelect = opponent => {
+        const { challengeUserRequest, selectOpponent, next } = this.props;
+        selectOpponent(opponent);
+        challengeUserRequest(opponent);
+        Router.push(next);
+    };
+
     render(){
-        const { next, opponents, onlineUsers } = this.props;
-        console.log('from opponent select ==> ',  onlineUsers)
+        const { onlineUsers } = this.props;
         return (
             <section>
                 <Title level={3}> {chooseOpponentLabel}</Title>
@@ -46,9 +55,9 @@ class OpponentSelect extends Component{
                         </Button>
                     </Col>
 
-                    { onlineUsers.map(({ id, picture, name }) => (
+                    {onlineUsers.map(({ id, name, picture }) => (
                         <Col key={id} span={8} md={8} xs={24} className={mb1}>
-                            <Link href={next}>
+                            <div onClick={() => this.handleSelect({ id, name, picture })}>
                                 <Card className={opponentCard} hoverable>
                                     <img
                                         className={opponentCardImg}
@@ -61,7 +70,7 @@ class OpponentSelect extends Component{
                                     </div>
 
                                 </Card>
-                            </Link>
+                            </div>
                         </Col>
                     ))}
                 </Row>

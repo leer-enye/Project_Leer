@@ -4,7 +4,7 @@ import { Provider } from 'react-redux';
 import withRedux from 'next-redux-wrapper';
 import withReduxSaga from 'next-redux-saga';
 import io from 'socket.io-client';
-import { message } from 'antd';
+import { message, Modal } from 'antd';
 
 import { saveSessionRequest } from '../components/auth/actions';
 import { actions as challengeActions } from '../components/challenge';
@@ -32,6 +32,7 @@ const {
 const {
     setOnlineUsersRequest,
 } = challengeActions;
+const { confirm } = Modal;
 
 class MyApp extends App {
     
@@ -108,6 +109,20 @@ class MyApp extends App {
         }
     }
 
+    //  for displaying notifications once user is challenged
+    displayChallengeNotif = sender => {
+        confirm({
+            content: `${sender.name} just challenged you to a quiz on xyz`,
+            onCancel() {
+                console.log('Cancel');
+            },
+            onOk(){
+                console.log(' OK ');
+            },
+            title: 'Challenge Notification',
+        });
+    }
+
     // TODO show notification to user
     handleSocket = user => {
         // if no instance of user return
@@ -123,10 +138,8 @@ class MyApp extends App {
         const { _id, name, picture } = user;
 
         this.socket.on(connect, () => {
-            this.setState({ connected: true });
-
-            this.socket.emit(login, { _id, name, picture });
-            // message.info('User connected');               
+            // this.setState({ connected: true });
+            this.socket.emit(login, { _id, name, picture });            
         
         });
 
@@ -148,7 +161,7 @@ class MyApp extends App {
         this.socket.on(challengeRequest, data => {
             const { room: roomId, user: sender } = data;
             this.setState({ room: roomId });
-            this.openNotification(sender);
+            this.displayChallengeNotif(sender);
         });
 
         this.socket.on(challengeEnd, () => {
@@ -183,7 +196,11 @@ class MyApp extends App {
                 <Container>
                     <Provider store={store}>
                         <Layout selectedMenuItem={page}>
-                            <Component {...pageProps} socket={this.socket} />
+                            <Component 
+                                {...pageProps} 
+                                socket={this.socket} 
+                                challengeUserRequest={this.challengeUser}
+                            />
                         </Layout>
                     </Provider>
                 </Container>

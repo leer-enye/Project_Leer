@@ -13,11 +13,13 @@ import {
     SELECT_OPPONENT_ACTION_TYPES,
     SET_ONLINE_USERS_ACTION_TYPES
 } from './actionTypes';
+import { selectors } from '../auth';
 
 const { SELECT_COURSE_REQUEST } = SELECT_COURSE_ACTION_TYPES;
 const { SELECT_MODE_REQUEST } = SELECT_MODE_ACTION_TYPES;
 const { SELECT_OPPONENT_REQUEST } = SELECT_OPPONENT_ACTION_TYPES;
 const { SET_ONLINE_USERS_REQUEST } = SET_ONLINE_USERS_ACTION_TYPES;
+const { getUser } = selectors;
 
 function* selectCourse(action){
     try {
@@ -48,7 +50,12 @@ function* selectOpponent(action) {
 
 function* setOnlineUsers(action) {
     try {
-        yield put(setOnlineUsersAction(action.payload));
+        const user = yield select(getUser);
+        // filter current user from list of online users
+        console.log(action);
+        const onlineUsers = action.payload.filter(({ id }) => user._id !== id);
+        console.log(onlineUsers);
+        yield put(setOnlineUsersAction(onlineUsers));
     }
     catch (e) {
         //
