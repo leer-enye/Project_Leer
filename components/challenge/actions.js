@@ -1,10 +1,17 @@
 import {
+    FETCH_COURSES_ACTION_TYPES,
     SELECT_COURSE_ACTION_TYPES,
     SELECT_MODE_ACTION_TYPES,
     SELECT_OPPONENT_ACTION_TYPES,
     SET_ONLINE_USERS_ACTION_TYPES,
     SET_CHALLENGE_REQ_STATUS_ACTION_TYPES
 } from './actionTypes';
+
+const {
+    FETCH_COURSES_FULFILLED,
+    FETCH_COURSES_REJECTED,
+    FETCH_COURSES_REQUEST,
+} = FETCH_COURSES_ACTION_TYPES;
 
 const {
     SELECT_COURSE,
@@ -30,6 +37,19 @@ const {
     SET_CHALLENGE_REQ_STATUS,
     SET_CHALLENGE_REQ_STATUS_REQUEST,
 } = SET_CHALLENGE_REQ_STATUS_ACTION_TYPES;
+
+export const fetchCoursesRequest = () => ({
+    type: FETCH_COURSES_REQUEST,
+});
+
+export const fetchCoursesFulfilled = courses => ({
+    payload: courses,
+    type: FETCH_COURSES_FULFILLED,
+});
+
+export const fetchCoursesRejected = () => ({
+    type: FETCH_COURSES_REJECTED,
+});
 
 export const selectCourseRequest = course => ({
     payload: course,

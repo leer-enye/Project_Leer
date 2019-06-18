@@ -1,4 +1,5 @@
 import {
+    FETCH_COURSES_ACTION_TYPES,
     SELECT_COURSE_ACTION_TYPES,
     SELECT_MODE_ACTION_TYPES,
     SELECT_OPPONENT_ACTION_TYPES,
@@ -6,6 +7,7 @@ import {
     SET_CHALLENGE_REQ_STATUS_ACTION_TYPES
 } from './actionTypes';
 
+const { FETCH_COURSES_FULFILLED, FETCH_COURSES_REJECTED } = FETCH_COURSES_ACTION_TYPES;
 const { SELECT_COURSE } = SELECT_COURSE_ACTION_TYPES;
 const { SELECT_MODE } = SELECT_MODE_ACTION_TYPES;
 const { SELECT_OPPONENT } = SELECT_OPPONENT_ACTION_TYPES;
@@ -27,6 +29,17 @@ const initialState = {
 export default (state = initialState, action) => {
     switch(action.type){
     
+    case FETCH_COURSES_REJECTED:
+        return {
+            ...state,
+        };
+
+    case FETCH_COURSES_FULFILLED:
+        return {
+            ...state,
+            courses: action.payload,
+        };
+
     case SELECT_COURSE:
         return {
             ...state,

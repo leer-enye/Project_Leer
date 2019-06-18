@@ -12,7 +12,7 @@ const { Title } = Typography;
 const { courseCard, mt4 } = CLASS_NAMES;
 const { courseSelectLabel } = CHALLENGE_PAGES_HEADERS;
 
-const CourseSelect = ({ subjects, next, selectCourse }) => {
+const CourseSelect = ({ courses, next, selectCourse }) => {
     const handleSelect = subject => {
         selectCourse(subject);
         Router.push(next);
@@ -22,10 +22,10 @@ const CourseSelect = ({ subjects, next, selectCourse }) => {
         <section>
             <Title level={3}>{courseSelectLabel}</Title>
             <Row gutter={16} className={mt4}>
-                {subjects.map(({ name, id }) => (
-                    <Col key={id} span={6} md={6} xs={12}>
+                {courses.map(({ name, _id }) => (
+                    <Col key={_id} span={6} md={6} xs={12}>
                         {/* <Link href={next}> */}
-                        <div onClick={() => handleSelect({ id, name })}>
+                        <div onClick={() => handleSelect({ id: _id, name })}>
                             <Card className={courseCard} hoverable>
                                 {name}
                             </Card>
@@ -39,7 +39,7 @@ const CourseSelect = ({ subjects, next, selectCourse }) => {
 };
 
 CourseSelect.defaultProps = {
-    subjects: DEFAULT_PROPS.courseSelect.subjects,
+    courses: DEFAULT_PROPS.courseSelect.subjects,
 };
 
 export default CourseSelect;

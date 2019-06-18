@@ -152,3 +152,5 @@ export const DEFAULT_PROPS = {
 };
 
 export const NAME = 'challenge';
+
+export const FETCH_COURSES_URL = 'http://localhost:5000/api/subjects/';
