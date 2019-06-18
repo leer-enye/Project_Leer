@@ -1,7 +1,8 @@
 import {
     SELECT_COURSE_ACTION_TYPES,
     SELECT_MODE_ACTION_TYPES,
-    SELECT_OPPONENT_ACTION_TYPES
+    SELECT_OPPONENT_ACTION_TYPES,
+    SET_ONLINE_USERS_ACTION_TYPES
 } from './actionTypes';
 
 const {
@@ -18,6 +19,11 @@ const {
     SELECT_OPPONENT,
     SELECT_OPPONENT_REQUEST,
 } = SELECT_OPPONENT_ACTION_TYPES;
+
+const {
+    SET_ONLINE_USERS,
+    SET_ONLINE_USERS_REQUEST,
+} = SET_ONLINE_USERS_ACTION_TYPES;
 
 export const selectCourseRequest = course => ({
     payload: course,
@@ -47,4 +53,14 @@ export const selectOpponentRequest = opponent => ({
 export const selectOpponentAction = opponent => ({
     payload: opponent,
     type: SELECT_OPPONENT,
+});
+
+export const setOnlineUsersRequest = onlineUsers => ({
+    payload: onlineUsers,
+    type: SET_ONLINE_USERS_REQUEST,
+});
+
+export const setOnlineUsersAction = onlineUsers => ({
+    payload: onlineUsers,
+    type: SET_ONLINE_USERS,
 });
