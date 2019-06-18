@@ -15,8 +15,7 @@ const { courseSelectLabel } = CHALLENGE_PAGES_HEADERS;
 const CourseSelect = ({ subjects, next, selectCourse }) => {
     const handleSelect = subject => {
         selectCourse(subject);
-        console.log(next);
-        Router.replace(next, { shallow: true });
+        Router.push(next);
     };
 
     return (

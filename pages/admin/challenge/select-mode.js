@@ -1,15 +1,22 @@
 import React from 'react';
-import { components } from '../../../components/challenge';
+import { connect } from 'react-redux';
+
+import { components, actions } from '../../../components/challenge';
 import { constants } from '../../../components/common';
 import withAuthSync from '../../../hocs/withAuthSync';
 
+const { selectModeRequest } = actions;
 const { NEXT_LINKS } = constants;
 const { opponentSelectLink } = NEXT_LINKS;
 
 const { ModeSelect } = components;
 
-const SelectModePage = () => (
-    <ModeSelect next={opponentSelectLink} />
+const SelectModePage = ({ selectMode }) => (
+    <ModeSelect selectMode={selectMode} next={opponentSelectLink} />
 );
 
-export default withAuthSync(SelectModePage);
+const mapDispatchToProps = dispatch => ({
+    selectMode: data => dispatch(selectModeRequest(data)),
+});
+
+export default withAuthSync(connect(null, mapDispatchToProps)(SelectModePage));

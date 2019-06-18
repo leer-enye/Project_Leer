@@ -22,7 +22,7 @@ export const NEXT_LINKS = {
     challengeInfoLink: '/admin/challenge/challenge-info',
     challengeResultLink: '/admin/challenge/challenge-result',    
     courseSelectLink: '/admin/challenge/',
-    modeSelectLink: '/admin/challenge/select-mode/',
+    modeSelectLink: '/admin/challenge/select-mode',
     opponentSelectLink: '/admin/challenge/choose-opponent',
     quizLink: '/admin/challenge/quiz',
 };
