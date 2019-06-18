@@ -20,9 +20,10 @@ const {
     getUser,
     leaveRoom,
     login,
+    onRejectedChallenge,
+    receiveQuestion,
     rejectChallenge,
     selectUser,
-    sendQuestion,
     users,
 } = CUSTOM_EVENTS;
 
@@ -151,8 +152,13 @@ class User extends Component {
             this.setState({ room: '' });
         });
 
-        this.socket.on(sendQuestion, data => {
+        this.socket.on(receiveQuestion, data => {
             console.log(data);
+        });
+
+        this.socket.on(onRejectedChallenge, () => {
+            this.socket.leave(room);
+            this.setState({ room: '' });
         });
     }
 

@@ -16,9 +16,10 @@ const {
     getNextQuestion,
     leaveRoom,
     login,
+    onRejectedChallenge,
+    receiveQuestion,
     rejectChallenge,
     selectUser,
-    sendQuestion,
     users,
 } = CUSTOM_EVENTS;
 
@@ -38,7 +39,7 @@ module.exports = io => {
         const { id: userId } = socketUsers.get(socketId);
         userMapClone.delete(userId);
         const otherUsers = [...userMapClone.values()];
-        io.emit(users, { users: otherUsers });
+        io.emit(users, { availableUsers: otherUsers, users: allUsers });
     };
 
     io.on(connection, socket => {
@@ -129,7 +130,7 @@ module.exports = io => {
             const roomId = rooms.get(userId);
 
             if (roomId) {
-                socket.broadcast.to(roomId).emit(challengeEnd);
+                socket.broadcast.to(roomId).emit(onRejectedChallenge);
                 const [partyA, partyB] = roomId.split('#');
                 const peerId = partyA === userId ? partyB : partyA;
                 const peer = allUsers.get(peerId);
@@ -166,7 +167,7 @@ module.exports = io => {
             if (challenge.question.length > 0) {
                 challenge.increaseQuestionIndex();
                 const question = challenge.getCurrentQuestion();
-                socket.emit(sendQuestion, { question });
+                socket.emit(receiveQuestion, { question });
             } else {
                 const { host } = socket.handshake.headers; // .split(":").shift();
                 const path = `${host}/api/questions/`;
@@ -185,7 +186,7 @@ module.exports = io => {
                 const { questions } = json;
                 challenge.questions = questions;
                 const question = challenge.getCurrentQuestion();
-                socket.emit(sendQuestion, { question });
+                socket.emit(receiveQuestion, { question });
             }
         });
     });
