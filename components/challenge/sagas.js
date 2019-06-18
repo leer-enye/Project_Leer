@@ -45,6 +45,7 @@ function* selectOpponent(action) {
 
 function* watchSelectCourse(){
     try{
+        
         yield takeLatest(SELECT_COURSE_REQUEST, selectCourse);
     }
     catch(e){
@@ -72,9 +73,9 @@ function* watchSelectOpponent() {
 
 export default function* (){
     yield all([
-        watchSelectCourse,
-        watchSelectMode,
-        watchSelectOpponent,
+        watchSelectCourse(),
+        watchSelectMode(),
+        watchSelectOpponent(),
     ]);
 }
 
