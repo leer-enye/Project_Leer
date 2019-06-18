@@ -5,11 +5,13 @@ const CUSTOM_EVENTS = {
     challengeEnd: 'challenge_end',
     challengeRequest: 'challenge_request',
     challengeStart: 'challenge_start',
+    getNextQuestion: 'get_next_question',
     getUser: 'get_users',
     leaveRoom: 'leave_room',
     login: 'login',
     rejectChallenge: 'reject_challenge',
     selectUser: 'selectUser',
+    sendQuestion: 'send_question',
     users: 'users',
 };
 
