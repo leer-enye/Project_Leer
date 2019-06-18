@@ -31,6 +31,7 @@ const {
 } = CUSTOM_EVENTS;
 const {
     setOnlineUsersRequest,
+    setChallengeReqStatusRequest,
 } = challengeActions;
 const { confirm } = Modal;
 
@@ -73,8 +74,6 @@ class MyApp extends App {
         const { user } = store.getState().auth;
         // console.log(store.getState())
         if (user){
-            
-            console.log('handlesocket just ran');
             this.handleSocket(user);
         }
     }
@@ -113,11 +112,11 @@ class MyApp extends App {
     displayChallengeNotif = sender => {
         confirm({
             content: `${sender.name} just challenged you to a quiz on xyz`,
-            onCancel() {
-                console.log('Cancel');
+            onCancel: () => {
+                this.rejectChallengeRequest();
             },
-            onOk(){
-                console.log(' OK ');
+            onOk: () => {
+                this.acceptChallengeRequest();
             },
             title: 'Challenge Notification',
         });
@@ -144,13 +143,14 @@ class MyApp extends App {
         });
 
         this.socket.on(users, data => {
-            console.log('before dispatch, data is ==> ', data);
             store.dispatch(setOnlineUsersRequest(data.users));
             this.setState({ onlineUsers: data.users });
         });
 
         this.socket.on(challengeStart, data => {
+            console.log('it got to challenge start ')
             this.setState({ room: data.room });
+            store.dispatch(setChallengeReqStatusRequest('approved'));
         });
 
         this.socket.on(ackChallengeRequest, data => {
@@ -171,8 +171,10 @@ class MyApp extends App {
     }
 
     challengeUser = selectedUser => {
+        const { store } = this.props;
         const { id, name, picture } = selectedUser;
         if (selectedUser && id && name && picture) {
+            store.dispatch(setChallengeReqStatusRequest('pending'));
             this.socket.emit(selectUser, selectedUser);
         }
     }
@@ -199,6 +201,7 @@ class MyApp extends App {
                             <Component 
                                 {...pageProps} 
                                 socket={this.socket} 
+                                getUserList={this.getUserList}
                                 challengeUserRequest={this.challengeUser}
                             />
                         </Layout>
