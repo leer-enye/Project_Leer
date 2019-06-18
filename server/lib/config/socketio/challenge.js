@@ -1,10 +1,10 @@
 class Challenge {
-    constructor(roomId, subjectId) {
+    constructor(roomId, subjectId, userScore) {
         this.roomId = roomId;
         this.subjectId = subjectId;
         this.currentQuestionIndex = 0;
         this.questions = [];
-        this.score = new Map();
+        this.score = userScore;
     }
 
     increaseQuestionIndex() {
