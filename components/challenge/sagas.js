@@ -5,13 +5,15 @@ import {
     selectCourseAction,
     selectModeAction,
     selectOpponentAction,
-    setOnlineUsersAction
+    setOnlineUsersAction,
+    setChallengeReqStatusAction
 } from './actions';
 import {
     SELECT_COURSE_ACTION_TYPES,
     SELECT_MODE_ACTION_TYPES,
     SELECT_OPPONENT_ACTION_TYPES,
-    SET_ONLINE_USERS_ACTION_TYPES
+    SET_ONLINE_USERS_ACTION_TYPES,
+    SET_CHALLENGE_REQ_STATUS_ACTION_TYPES
 } from './actionTypes';
 import { selectors } from '../auth';
 
@@ -19,6 +21,7 @@ const { SELECT_COURSE_REQUEST } = SELECT_COURSE_ACTION_TYPES;
 const { SELECT_MODE_REQUEST } = SELECT_MODE_ACTION_TYPES;
 const { SELECT_OPPONENT_REQUEST } = SELECT_OPPONENT_ACTION_TYPES;
 const { SET_ONLINE_USERS_REQUEST } = SET_ONLINE_USERS_ACTION_TYPES;
+const { SET_CHALLENGE_REQ_STATUS_REQUEST } = SET_CHALLENGE_REQ_STATUS_ACTION_TYPES;
 const { getUser } = selectors;
 
 function* selectCourse(action){
@@ -56,6 +59,16 @@ function* setOnlineUsers(action) {
         const onlineUsers = action.payload.filter(({ id }) => user._id !== id);
         console.log(onlineUsers);
         yield put(setOnlineUsersAction(onlineUsers));
+    }
+    catch (e) {
+        //
+    }
+};
+
+function* setChallengeReqStatus(action) {
+    console.log('it got to set challenge')
+    try {
+        yield put(setChallengeReqStatusAction(action.payload));
     }
     catch (e) {
         //
@@ -101,12 +114,22 @@ function* watchSetOnlineUsers() {
     }
 };
 
+function* watchSetChallengeReqStatus() {
+    try {
+        yield takeLatest(SET_CHALLENGE_REQ_STATUS_REQUEST, setChallengeReqStatus);
+    }
+    catch (e) {
+        //
+    }
+};
+
 export default function* (){
     yield all([
         watchSelectCourse(),
         watchSelectMode(),
         watchSelectOpponent(),
         watchSetOnlineUsers(),
+        watchSetChallengeReqStatus(),
     ]);
 }
 
