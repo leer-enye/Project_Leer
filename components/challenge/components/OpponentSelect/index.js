@@ -2,7 +2,7 @@
 /* eslint-disable jsx-a11y/click-events-have-key-events */
 import React, { Component } from 'react';
 import Router from 'next/router';
-import { Typography, Row, Card, Col, Button, message } from 'antd';
+import { Typography, Row, Card, Col, Button, Icon, notification } from 'antd';
 
 import {
     BUTTON_SIZE_LG,
@@ -10,6 +10,7 @@ import {
     CHALLENGE_PAGES_HEADERS,
     CLASS_NAMES,
     DEFAULT_PROPS,
+    REFRESH_LIST,
     SELECT_RANDOMLY
 } from '../../constants';
 import './index.scss';
@@ -28,22 +29,75 @@ const {
     opponentCardTextContent,
 } = CLASS_NAMES;
 
+const NOTIFICATION_KEY = 'updatable';
+
 class OpponentSelect extends Component{
     state  = {}
+
+    // componentDidMount(){
+    //     const { challengeReqStatus, next } = this.props;
+    //     if (challengeReqStatus === 'approved'){
+    //         Router.push(next);
+    //     }
+    
+    // }
+
+    componentDidUpdate(prevProps){
+        console.log('component updated');
+        const { challengeReqStatus, next } = this.props;
+        // if there is no change in challenge request status, return
+        if (prevProps.challengeReqStatus === challengeReqStatus){
+            return;
+        }
+        
+        if (challengeReqStatus === 'approved'){
+            notification.open({
+                description: `Opponent accepted request`,
+                icon: <Icon style={{ color: '#52C41A' }} type="check-circle" />,
+                key: NOTIFICATION_KEY,
+                message: 'Challenge Request Info',
+
+            });
+            notification.close({
+                key: NOTIFICATION_KEY,
+            });
+            Router.replace(next);
+        }
+
+        if (challengeReqStatus === 'rejected'){
+            notification.open({
+                description: `Opponent rejected your challenge request`,
+                icon: <Icon style={{ color: '#F5212D' }} type="close-circle" />,
+                key: NOTIFICATION_KEY,
+                message: 'Challenge Request Info',
+
+            });
+            notification.close({
+                key: NOTIFICATION_KEY,
+            });
+        }
+
+    };
 
     handleSelect = opponent => {
         const { challengeUserRequest, selectOpponent } = this.props;
         selectOpponent(opponent);
         challengeUserRequest(opponent);
+        notification.open({
+            description: `Waiting for ${opponent.name}'s response`,
+            duration: 0,
+            icon: <Icon type="loading" />,
+            key: NOTIFICATION_KEY,
+            message: 'Challenge Request Info',
+            
+        });
         // Router.push(next);
     };
 
     render(){
-        const { challengeReqStatus, onlineUsers, next } = this.props;
+        const { onlineUsers, refreshUserList } = this.props;
         // if challenge request has been approved redirect to challenge info page
-        if (challengeReqStatus === 'approved'){
-            return Router.push(next);
-        }
+        
         return (
             <section>
                 <Title level={3}> {chooseOpponentLabel}</Title>
@@ -51,10 +105,19 @@ class OpponentSelect extends Component{
 
                     <Col span={24} className={mb4}>
                         <Button
-                            size={BUTTON_SIZE_LG}
                             type={BUTTON_TYPE_PRIMARY}
+                            size={BUTTON_SIZE_LG}
                         >
                             {SELECT_RANDOMLY}
+                        </Button>
+                    </Col>
+
+                    <Col span={24} className={mb1}>
+                        <Button
+                            onClick={refreshUserList}
+                        >
+                            {REFRESH_LIST}
+                            
                         </Button>
                     </Col>
 

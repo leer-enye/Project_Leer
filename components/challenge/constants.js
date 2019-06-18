@@ -7,6 +7,7 @@ export const FLEX_ROW_JUSTIFY_CENTER = 'center';
 export const FLEX_ROW_ALIGN_CENTER = 'middle';
 export const USER_ICON_TYPE = 'user';
 export const SELECT_RANDOMLY = 'Select Randomly';
+export const REFRESH_LIST = 'Refresh List';
 
 export const EXTRA_TEXTS = {
     backToHome: 'Back to Home',
