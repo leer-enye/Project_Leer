@@ -1,10 +1,11 @@
+import { Modal } from 'antd';
 import App, { Container } from 'next/app';
-import React from 'react';
-import { Provider } from 'react-redux';
+import Router from 'next/router';
 import withRedux from 'next-redux-wrapper';
 import withReduxSaga from 'next-redux-saga';
+import React from 'react';
+import { Provider } from 'react-redux';
 import io from 'socket.io-client';
-import { message, Modal } from 'antd';
 
 import { saveSessionRequest } from '../components/auth/actions';
 import { actions as challengeActions } from '../components/challenge';
@@ -15,7 +16,9 @@ import {
     SERVER_SYSTEM_EVENTS
 } from '../server/lib/config/socketio/constant';
 import createStore from "../store";
+import { constants as commonConstants } from '../components/common';
 
+const { confirm } = Modal;
 const {
     acceptChallenge,
     ackChallengeRequest,
@@ -25,6 +28,7 @@ const {
     getUser,
     leaveRoom,
     login,
+    onRejectedChallenge,
     rejectChallenge,
     selectUser,
     users,
@@ -33,11 +37,13 @@ const {
     setOnlineUsersRequest,
     setChallengeReqStatusRequest,
 } = challengeActions;
-const { confirm } = Modal;
+const {
+    NEXT_LINKS: { challengeInfoLink },
+} = commonConstants;
 
 class MyApp extends App {
-    
-    constructor(props){
+
+    constructor(props) {
         super(props);
 
         this.state = {
@@ -73,12 +79,12 @@ class MyApp extends App {
         const { store } = this.props;
         const { user } = store.getState().auth;
         // console.log(store.getState())
-        if (user){
+        if (user) {
             this.handleSocket(user);
         }
     }
 
-    componentWillUnmount(){
+    componentWillUnmount() {
         this.socket.off(challengeStart);
         this.socket.off(challengeRequest);
         this.socket.off(users);
@@ -109,14 +115,18 @@ class MyApp extends App {
     }
 
     //  for displaying notifications once user is challenged
-    displayChallengeNotif = sender => {
+    displayChallengeNotif = ({ sender, subject }) => {
+        console.log('notif => ', subject);
         confirm({
-            content: `${sender.name} just challenged you to a quiz on xyz`,
+            content: `${sender.name} just challenged you to a quiz on ${subject.name}`,
             onCancel: () => {
                 this.rejectChallengeRequest();
             },
             onOk: () => {
                 this.acceptChallengeRequest();
+                // if user accepts challenge, redirect to 
+                // challenge info page
+                Router.replace(challengeInfoLink);
             },
             title: 'Challenge Notification',
         });
@@ -125,7 +135,7 @@ class MyApp extends App {
     // TODO show notification to user
     handleSocket = user => {
         // if no instance of user return
-        if (user == null){
+        if (user == null) {
             return;
         }
 
@@ -138,17 +148,16 @@ class MyApp extends App {
 
         this.socket.on(connect, () => {
             // this.setState({ connected: true });
-            this.socket.emit(login, { _id, name, picture });            
-        
+            this.socket.emit(login, { _id, name, picture });
+
         });
 
         this.socket.on(users, data => {
-            store.dispatch(setOnlineUsersRequest(data.users));
-            this.setState({ onlineUsers: data.users });
+            store.dispatch(setOnlineUsersRequest(data.availableUsers));
+            // this.setState({ onlineUsers: data.users });
         });
 
         this.socket.on(challengeStart, data => {
-            console.log('it got to challenge start ')
             this.setState({ room: data.room });
             store.dispatch(setChallengeReqStatusRequest('approved'));
         });
@@ -158,24 +167,31 @@ class MyApp extends App {
             this.setState({ room: roomId });
         });
 
+        this.socket.on(onRejectedChallenge, () => {
+            store.dispatch(setChallengeReqStatusRequest('rejected'));
+        });
+
         this.socket.on(challengeRequest, data => {
-            const { room: roomId, user: sender } = data;
+            console.log('challenge request data => ', data);
+            const { room: roomId, user: sender, subject } = data;
             this.setState({ room: roomId });
-            this.displayChallengeNotif(sender);
+            this.displayChallengeNotif({ sender, subject });
         });
 
         this.socket.on(challengeEnd, () => {
             this.socket.leave(room);
+            store.dispatch(setChallengeReqStatusRequest('rejected'));
             this.setState({ room: '' });
         });
     }
 
     challengeUser = selectedUser => {
         const { store } = this.props;
+        const { selectedCourse }  = store.getState().challenge;
         const { id, name, picture } = selectedUser;
         if (selectedUser && id && name && picture) {
             store.dispatch(setChallengeReqStatusRequest('pending'));
-            this.socket.emit(selectUser, selectedUser);
+            this.socket.emit(selectUser, { subject: selectedCourse, user: selectedUser });
         }
     }
 
@@ -185,12 +201,12 @@ class MyApp extends App {
     //     if (connected) this.socket.emit(message, { text });
     // }
 
-    render(){
+    render() {
         const { Component, pageProps, router, store } = this.props;
-        
-        if (router.pathname.includes('/admin')){
+
+        if (router.pathname.includes('/admin')) {
             let page = router.pathname.split('/admin/')[1];
-            if (!page){
+            if (!page) {
                 page = 'home';
             }
 
@@ -198,9 +214,9 @@ class MyApp extends App {
                 <Container>
                     <Provider store={store}>
                         <Layout selectedMenuItem={page}>
-                            <Component 
-                                {...pageProps} 
-                                socket={this.socket} 
+                            <Component
+                                {...pageProps}
+                                socket={this.socket}
                                 getUserList={this.getUserList}
                                 challengeUserRequest={this.challengeUser}
                             />
