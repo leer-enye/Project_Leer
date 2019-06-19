@@ -44,6 +44,7 @@ class User extends Component {
         this.getUserList = this.getUserList.bind(this);
         this.acceptChallengeRequest = this.acceptChallengeRequest.bind(this);
         this.rejectChallengeRequest = this.rejectChallengeRequest.bind(this);
+        this.onCloseNotification = this.onCloseNotification.bind(this);
     }
 
     static async getInitialProps({ req }) {
@@ -79,9 +80,19 @@ class User extends Component {
         this.handleSocket();
     }
 
+    componentWillUnmount() {
+        this.socket.off(challengeStart);
+        this.socket.off(challengeRequest);
+        this.socket.off(users);
+        this.socket.off(ackChallengeRequest);
+        this.socket.off(challengeEnd);
+        this.socket.off(receiveQuestion);
+        this.socket.off(onRejectedChallenge);
+    }
+
     onCloseNotification() {
-        const { notificationKey: key } = this.state;
         this.acceptChallengeRequest();
+        const { notificationKey: key } = this.state;
         notification.close(key);
     }
 
@@ -142,9 +153,9 @@ class User extends Component {
         });
 
         this.socket.on(challengeRequest, data => {
-            const { room: roomId, user: sender } = data;
+            const { room: roomId, user: sender, subject } = data;
             this.setState({ room: roomId });
-            this.openNotification(sender);
+            this.openNotification(sender, subject);
         });
 
         this.socket.on(challengeEnd, () => {
@@ -162,7 +173,7 @@ class User extends Component {
         });
     }
 
-    openNotification(user) {
+    openNotification(user, subject) {
         const key = `open${Date.now()}`;
         this.setState({ notificationKey: key });
         const btn = (
@@ -176,7 +187,7 @@ class User extends Component {
         );
         notification.open({
             btn,
-            description: `${user.name} has challenged you`,
+            description: `${user.name} has challenged you in ${subject.name}`,
             duration: 0,
             key,
             message: 'Challenge Notification',
@@ -188,7 +199,7 @@ class User extends Component {
         const { id, name, picture } = selectedUser;
         if (selectedUser && id && name && picture) {
             this.socket.emit(selectUser, {
-                subject: '5d03ade5f721544844347cce',
+                subject: { _id: '5d03ade5f721544844347cce', name: 'English' },
                 user: selectedUser,
             });
         }

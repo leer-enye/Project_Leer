@@ -39,7 +39,11 @@ module.exports = io => {
         const { id: userId } = socketUsers.get(socketId);
         userMapClone.delete(userId);
         const otherUsers = [...userMapClone.values()];
-        io.emit(users, { availableUsers: otherUsers, users: allUsers });
+        const onlineUsers = [...allUsers.values()];
+        io.emit(users, {
+            availableUsers: otherUsers,
+            users: onlineUsers,
+        });
     };
 
     io.on(connection, socket => {
@@ -71,7 +75,6 @@ module.exports = io => {
             socket.emit(challengeEnd);
         });
         socket.on(selectUser, data => {
-            console.log('calling Select User');
             const { id: socketId } = socket;
             const originatingUser = socketUsers.get(socketId);
             const { subject, user } = data;
@@ -165,13 +168,15 @@ module.exports = io => {
             const { subject } = challenge;
             const { _id: subjectId } = subject;
 
-            if (challenge.question.length > 0) {
+            if (challenge.questions.length > 0) {
                 challenge.increaseQuestionIndex();
                 const question = challenge.getCurrentQuestion();
                 socket.emit(receiveQuestion, { question });
             } else {
+                const { NODE_ENV } = process.env;
+                const protocol = NODE_ENV === 'production' ? 'https' : 'http';
                 const { host } = socket.handshake.headers; // .split(":").shift();
-                const path = `${host}/api/questions/`;
+                const path = `${protocol}://${host}/api/questions/`;
                 const url = new URL(path);
                 const params = {
                     limit: 10,
@@ -181,7 +186,6 @@ module.exports = io => {
                     url.searchParams.append(key, params[key])
                 );
                 const apiURL = url.toString();
-                console.log(apiURL);
                 const res = await fetch(apiURL);
                 const { data: json } = await res.json();
                 const { questions } = json;
