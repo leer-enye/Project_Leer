@@ -32,6 +32,7 @@ const {
     challengeRequest,
     challengeStart,
     getQuestions,
+    submitScore,
     getNextQuestion,
     getUser,
     leaveRoom,
@@ -120,12 +121,18 @@ class MyApp extends App {
     }
 
     // get all questions
-    getQuestions() {
+    getQuestions = () => {
         const { store } = this.props;
         // get room from redux store
         const room = getChallengeRoom(store.getState());
         // emit getNextQuestion event with room id
         this.socket.emit(getQuestions, { roomId: room });
+    }
+
+    submitScore = ({ score, userId }) => {
+        const { store } = this.props;
+        const room = getChallengeRoom(store.getState());
+        this.socket.emit(submitScore, { roomId: room, score, userId });
     }
 
     getUserList = () => {
@@ -235,10 +242,14 @@ class MyApp extends App {
             this.displayChallengeNotif({ challengeStore, sender, subject });
         });
 
-        this.socket.on(challengeEnd, () => {
-            this.socket.leave(room);
-            store.dispatch(setChallengeReqStatusRequest('rejected'));
-            this.setState({ room: '' });
+        this.socket.on(challengeEnd, data => {
+            if (!data.scores){
+                this.socket.leave(room);
+                return store.dispatch(setChallengeReqStatusRequest('rejected'));
+                
+            }
+            // if it contains data.scores, then both users submitted their answers
+            console.log('challengeEnd => ', data.scores);
         });
     }
 
@@ -284,6 +295,7 @@ class MyApp extends App {
                             <Component
                                 {...pageProps}
                                 socket={this.socket}
+                                submitScore={this.submitScore}
                                 getUserList={this.getUserList}
                                 challengeUserRequest={this.challengeUser}
                             />

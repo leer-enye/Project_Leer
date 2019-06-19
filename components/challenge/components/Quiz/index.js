@@ -28,7 +28,7 @@ const {
     },
 } = constants;
 
-const Quiz = ({ challengers, quizItem, timeLeft, onAnswer }) => (
+const Quiz = ({ challengers, quizItem, timeLeft, onAnswer, quizEnded }) => (
     <div className={quizCard}>
         <header className={quizCardHeader}>
             {
@@ -44,7 +44,7 @@ const Quiz = ({ challengers, quizItem, timeLeft, onAnswer }) => (
                             </div>
                         </div>
                         {
-                            (index === 0) ?
+                            (index === 0) && !quizEnded ?
                                 <div className={timer}>
                                     <h4 className={timerLabel}>{timeLeftLabel}</h4>
                                     <Progress 
@@ -63,26 +63,39 @@ const Quiz = ({ challengers, quizItem, timeLeft, onAnswer }) => (
             }
         </header>
         <div className={quizCardMain}>
-            <p className={quizCardQuestion} dangerouslySetInnerHTML={{ __html: quizItem.text }}>
-            </p>
-               
-            <div>
-                <Row gutter={16}>
-                    {
-                        quizItem.options.map((value, id) => (
-                            <Col key={value} span ={12} md = {12} xs = {24} >
-                                <Card 
-                                    onClick={() => onAnswer(id)} 
-                                    className={quizCardOption} 
-                                    hoverable
-                                >
-                                    <div dangerouslySetInnerHTML={{ __html: value }}></div>
-                                </Card>
-                            </Col>
-                        ))
-                    }
-                </Row>
-            </div>
+            {
+                !quizEnded ? 
+                    <React.Fragment>
+                        <p 
+                            className={quizCardQuestion} 
+                            dangerouslySetInnerHTML={{ __html: quizItem.text }}>
+                        </p>
+
+                        <div>
+                            <Row gutter={16}>
+                                {
+                                    quizItem.options.map((value, id) => (
+                                        <Col key={value} span={12} md={12} xs={24} >
+                                            <Card
+                                                onClick={() => onAnswer(id)}
+                                                className={quizCardOption}
+                                                hoverable
+                                            >
+                                                <div 
+                                                    dangerouslySetInnerHTML={{ __html: value }}
+                                                >
+
+                                                </div>
+                                            </Card>
+                                        </Col>
+                                    ))
+                                }
+                            </Row>
+                        </div>
+                    </React.Fragment>:
+                    <p> Waiting for Opponent to submit </p>
+            }
+            
         </div>
     </div>
 );
