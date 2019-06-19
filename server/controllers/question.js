@@ -54,7 +54,19 @@ exports.create = async (req, res) => {
 // Retrieve and return all question from the database.
 exports.findAll = async (req, res) => {
     try {
-        const questions = await Question.find();
+        const { limit, subjectId } = req.params;
+        const { ObjectId } = Types;
+        const options = {};
+
+        if (subjectId) {
+            options.subjectId = new ObjectId(subjectId);
+        }
+
+        const questions = await Question.find(
+            options,
+            {},
+            { limit: limit || 10 }
+        );
 
         res.status(OK).send({
             status: SUCCESS,
