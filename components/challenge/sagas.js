@@ -45,7 +45,7 @@ function* fetchCourses(){
     }
     catch(e){
         //
-        console.error(e)
+        console.error(e);
         yield put(fetchCoursesRejected());
     }
 }

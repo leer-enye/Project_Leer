@@ -1,10 +1,7 @@
 import React from 'react';
-import Link from 'next/link';
-import { Row, Col, Typography, Button, Progress } from 'antd';
+import { Row, Col, Typography, Progress } from 'antd';
 
 import {
-    BUTTON_SIZE_LG,
-    BUTTON_TYPE_PRIMARY,
     CHALLENGE_PAGES_HEADERS,
     CLASS_NAMES,
     DEFAULT_PROPS,
@@ -29,7 +26,7 @@ const {
     vsDivider,
 } = CLASS_NAMES;
 const { challengeInfo } = DEFAULT_PROPS;
-const { startNow, vs } = EXTRA_TEXTS;
+const { vs } = EXTRA_TEXTS;
 
 const ChallengeInfo = ({ challengers, timeLeft }) => (
     <section>
@@ -67,7 +64,7 @@ const ChallengeInfo = ({ challengers, timeLeft }) => (
             <Col span={16}>
                 <Title level={3}> {details} </Title>
                 <Paragraph className={mb2}>
-                    {/* {DUMMY_PARAGRAPH} */}
+                    {DUMMY_PARAGRAPH}
                 </Paragraph>
                 <div className={textCenter}>
                     <Progress
@@ -78,14 +75,6 @@ const ChallengeInfo = ({ challengers, timeLeft }) => (
                         percent={(timeLeft / 5) * 100}
                         format={() => `${timeLeft}`}
                     />
-                    {/* <Link href={next}>
-                        <Button
-                            size={BUTTON_SIZE_LG}
-                            type={BUTTON_TYPE_PRIMARY}
-                        >
-                            {startNow}
-                        </Button>
-                    </Link> */}
                 </div>
             </Col>
         </Row>

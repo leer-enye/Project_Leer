@@ -16,8 +16,7 @@ import {
 import Layout from '../components/layout';
 import {
     CLIENT_SYSTEM_EVENTS,
-    CUSTOM_EVENTS,
-    SERVER_SYSTEM_EVENTS
+    CUSTOM_EVENTS
 } from '../server/lib/config/socketio/constant';
 import createStore from "../store";
 import { constants as commonConstants } from '../components/common';
@@ -175,8 +174,8 @@ class MyApp extends App {
         });
         
         // sender receives this after emitting `challengeUser` 
-        this.socket.on(ackChallengeRequest, data => {
-            // this.setState({ room: roomId });
+        this.socket.on(ackChallengeRequest, () => {
+            // TODO: check if anything needs to be done here
         });
 
         this.socket.on(onRejectedChallenge, () => {
@@ -184,7 +183,7 @@ class MyApp extends App {
         });
 
         this.socket.on(challengeRequest, data => {
-            const { challengeStore ,room: roomId, user: sender, subject } = data;
+            const { challengeStore , user: sender, subject } = data;
             this.displayChallengeNotif({ challengeStore, sender, subject });
         });
 

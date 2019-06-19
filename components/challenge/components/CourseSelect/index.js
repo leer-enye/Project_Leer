@@ -2,7 +2,6 @@
 /* eslint-disable jsx-a11y/no-static-element-interactions */
 import React from 'react';
 import Router from 'next/router';
-import Link from 'next/link';
 import { Typography, Row, Col, Card } from 'antd';
 
 import { CHALLENGE_PAGES_HEADERS, CLASS_NAMES, DEFAULT_PROPS } from '../../constants';
