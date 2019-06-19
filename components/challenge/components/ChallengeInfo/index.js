@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-import { Row, Col, Typography, Button } from 'antd';
+import { Row, Col, Typography, Button, Progress } from 'antd';
 
 import {
     BUTTON_SIZE_LG,
@@ -31,7 +31,7 @@ const {
 const { challengeInfo } = DEFAULT_PROPS;
 const { startNow, vs } = EXTRA_TEXTS;
 
-const ChallengeInfo = ({ challengers, next }) => (
+const ChallengeInfo = ({ challengers, timeLeft }) => (
     <section>
         <Title level={3}> {challengeInfoLabel} </Title>
         <Row
@@ -67,17 +67,25 @@ const ChallengeInfo = ({ challengers, next }) => (
             <Col span={16}>
                 <Title level={3}> {details} </Title>
                 <Paragraph className={mb2}>
-                    {DUMMY_PARAGRAPH}
+                    {/* {DUMMY_PARAGRAPH} */}
                 </Paragraph>
                 <div className={textCenter}>
-                    <Link href={next}>
+                    <Progress
+                        type='circle'
+                        width={100}
+                        // delay before first question is loaded 
+                        // (Default: 5s)
+                        percent={(timeLeft / 5) * 100}
+                        format={() => `${timeLeft}`}
+                    />
+                    {/* <Link href={next}>
                         <Button
                             size={BUTTON_SIZE_LG}
                             type={BUTTON_TYPE_PRIMARY}
                         >
                             {startNow}
                         </Button>
-                    </Link>
+                    </Link> */}
                 </div>
             </Col>
         </Row>

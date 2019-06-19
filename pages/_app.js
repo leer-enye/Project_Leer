@@ -44,7 +44,7 @@ const {
     setOnlineUsersRequest,
     setChallengeReqStatusRequest,
     setChallengeRoomRequest,
-    updateChallengeStoreRequest
+    updateChallengeStoreRequest,
 } = challengeActions;
 const {
     getChallengeStore,
@@ -94,11 +94,11 @@ class MyApp extends App {
     }
 
     componentWillUnmount() {
-        this.socket.off(challengeStart);
-        this.socket.off(challengeRequest);
-        this.socket.off(users);
-        this.socket.off(ackChallengeRequest);
-        this.socket.off(challengeEnd);
+        // this.socket.off(challengeStart);
+        // this.socket.off(challengeRequest);
+        // this.socket.off(users);
+        // this.socket.off(ackChallengeRequest);
+        // this.socket.off(challengeEnd);
     }
 
     getUserList = () => {
