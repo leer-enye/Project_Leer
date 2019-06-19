@@ -15,6 +15,7 @@ const CUSTOM_EVENTS = {
     receiveQuestions: 'receive_questions',
     rejectChallenge: 'reject_challenge',
     selectUser: 'selectUser',
+    submitScore: 'submit_score',
     users: 'users',
 };
 

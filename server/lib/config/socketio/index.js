@@ -22,6 +22,7 @@ const {
     receiveQuestions,
     rejectChallenge,
     selectUser,
+    submitScore,
     users,
 } = CUSTOM_EVENTS;
 
@@ -105,7 +106,17 @@ module.exports = io => {
                     [selectedUser.id, 0],
                 ];
                 const userScore = new Map(tempUserScores);
-                const challenge = new Challenge(roomId, subject, userScore);
+                const tempScoreReceivedStatus = [
+                    [originatingUser.id, false],
+                    [selectedUser.id, false],
+                ];
+                const scoreReceivedStatus = new Map(tempScoreReceivedStatus);
+                const challenge = new Challenge(
+                    roomId,
+                    subject,
+                    userScore,
+                    scoreReceivedStatus
+                );
                 roomChallenge.set(roomId, challenge);
 
                 peer.emit(challengeRequest, {
@@ -228,6 +239,28 @@ module.exports = io => {
             } else if (loadingState === loaded) {
                 const { questions } = challenge;
                 socket.emit(receiveQuestions, { questions });
+            }
+        });
+
+        socket.on(submitScore, data => {
+            const { roomId, score, userId } = data;
+            const challenge = roomChallenge.get(roomId);
+            challenge.submitScore(userId, score);
+            const { scores, scoresReceivedStatus } = challenge;
+            const [user1ReceivedScoreStatus, user2ReceivedScoreStatus] = [
+                ...scoresReceivedStatus.values(),
+            ];
+            if (
+                user1ReceivedScoreStatus === true &&
+				user2ReceivedScoreStatus === true
+            ) {
+                const output = [];
+                scores.forEach((value, key) => {
+                    const scoreObj = { key, value };
+                    output.push(scoreObj);
+                });
+
+                io.to(roomId).emit(challengeEnd, { scores: output });
             }
         });
     });
