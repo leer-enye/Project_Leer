@@ -1,3 +1,7 @@
+const { LOADING_STATE } = require('./constant');
+
+const { loading, loaded, notLoaded } = LOADING_STATE;
+
 class Challenge {
     constructor(roomId, subject, userScore) {
         this.roomId = roomId;
@@ -5,6 +9,7 @@ class Challenge {
         this.currentQuestionIndex = 0;
         this.questions = [];
         this.score = userScore;
+        this.loadingState = notLoaded;
     }
 
     increaseQuestionIndex() {
@@ -13,6 +18,16 @@ class Challenge {
 
     getCurrentQuestion() {
         return this.questions[this.currentQuestionIndex];
+    }
+
+    updateLoadingStatus(newState) {
+        if (newState === this.loadingState) return;
+        if (
+            newState === loaded ||
+			newState === loading ||
+			newState === notLoaded
+        )
+            this.loadingState = newState;
     }
 }
 module.exports = Challenge;

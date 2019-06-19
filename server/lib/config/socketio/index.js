@@ -4,7 +4,7 @@ const SOCKET_IO_EVENTS = require('./constant');
 const User = require('./user');
 const Challenge = require('./challenge');
 
-const { CUSTOM_EVENTS, SERVER_SYSTEM_EVENTS } = SOCKET_IO_EVENTS;
+const { CUSTOM_EVENTS, LOADING_STATE, SERVER_SYSTEM_EVENTS } = SOCKET_IO_EVENTS;
 
 const {
     acceptChallenge,
@@ -14,16 +14,19 @@ const {
     challengeStart,
     getUser,
     getNextQuestion,
+    getQuestions,
     leaveRoom,
     login,
     onRejectedChallenge,
     receiveQuestion,
+    receiveQuestions,
     rejectChallenge,
     selectUser,
     users,
 } = CUSTOM_EVENTS;
 
 const { connection, message, disconnet } = SERVER_SYSTEM_EVENTS;
+const { loading, loaded, notLoaded } = LOADING_STATE;
 
 module.exports = io => {
     const rooms = new Map(); // map user.id => roomId
@@ -194,6 +197,37 @@ module.exports = io => {
                 challenge.questions = questions;
                 const question = challenge.getCurrentQuestion();
                 socket.emit(receiveQuestion, { question });
+            }
+        });
+        socket.on(getQuestions, async data => {
+            const { roomId } = data;
+            const challenge = roomChallenge.get(roomId);
+            const { subject, loadingState } = challenge;
+            const { _id: subjectId } = subject;
+            if (loadingState === notLoaded) {
+                challenge.updateLoadingStatus(loading);
+                const { NODE_ENV } = process.env;
+                const protocol = NODE_ENV === 'production' ? 'https' : 'http';
+                const { host } = socket.handshake.headers; // .split(":").shift();
+                const path = `${protocol}://${host}/api/questions/`;
+                const url = new URL(path);
+                const params = {
+                    limit: 10,
+                    subjectId,
+                };
+                Object.keys(params).forEach(key =>
+                    url.searchParams.append(key, params[key])
+                );
+                const apiURL = url.toString();
+                const res = await fetch(apiURL);
+                const { data: json } = await res.json();
+                const { questions } = json;
+                challenge.questions = questions;
+                challenge.updateLoadingStatus(loaded);
+                io.in(roomId).emit(receiveQuestions, { questions });
+            } else if (loadingState === loaded) {
+                const { questions } = challenge;
+                socket.emit(receiveQuestions, { questions });
             }
         });
     });
