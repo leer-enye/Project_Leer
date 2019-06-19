@@ -3,12 +3,13 @@ const { LOADING_STATE } = require('./constant');
 const { loading, loaded, notLoaded } = LOADING_STATE;
 
 class Challenge {
-    constructor(roomId, subject, userScore) {
+    constructor(roomId, subject, userScores, scoresReceivedStatus) {
         this.roomId = roomId;
         this.subject = subject;
         this.currentQuestionIndex = 0;
         this.questions = [];
-        this.score = userScore;
+        this.scores = userScores;
+        this.scoresReceivedStatus = scoresReceivedStatus;
         this.loadingState = notLoaded;
     }
 
@@ -28,6 +29,11 @@ class Challenge {
 			newState === notLoaded
         )
             this.loadingState = newState;
+    }
+
+    submitScore(userId, score) {
+        this.scores.set(userId, score);
+        this.scoresReceivedStatus.set(userId, true);
     }
 }
 module.exports = Challenge;
