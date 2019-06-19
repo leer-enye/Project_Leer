@@ -63,7 +63,7 @@ module.exports = io => {
             const { id: socketId } = socket;
             const { id: userId } = socketUsers.get(socketId);
             const room = rooms[userId];
-            socket.broadcast.to(room).emit(message, data);
+            io.in(room).emit(message, data);
         });
         socket.on(leaveRoom, () => {
             const { id: socketId } = socket;
@@ -125,7 +125,8 @@ module.exports = io => {
             const { id: socketId } = socket;
             const { id: userId } = socketUsers.get(socketId);
             const roomId = rooms.get(userId);
-            socket.broadcast.to(roomId).emit(challengeStart, { room: roomId });
+            // sending to all clients in 'game' room, including sender
+            io.in(roomId).emit(challengeStart, { room: roomId });
         });
         socket.on(rejectChallenge, () => {
             const { id: socketId } = socket;
@@ -134,7 +135,7 @@ module.exports = io => {
             const roomId = rooms.get(userId);
 
             if (roomId) {
-                socket.broadcast.to(roomId).emit(onRejectedChallenge);
+                io.in(roomId).emit(onRejectedChallenge);
                 const [partyA, partyB] = roomId.split('#');
                 const peerId = partyA === userId ? partyB : partyA;
                 const peer = allUsers.get(peerId);
