@@ -81,7 +81,6 @@ class MyApp extends App {
         if (isServer) {
             const { cookie } = req.headers;
             if (cookie) {
-                console.log('go to session request => ', cookie);
                 store.dispatch(saveSessionRequest({ cookie }));
             }
         }
@@ -166,7 +165,6 @@ class MyApp extends App {
 
     //  for displaying notifications once user is challenged
     displayChallengeNotif = ({ challengeStore, sender, subject }) => {
-        console.log('notif => ', subject);
         confirm({
             content: `${sender.name} just challenged you to a quiz on ${subject.name}`,
             onCancel: () => {
@@ -221,7 +219,7 @@ class MyApp extends App {
         // receive question event is sent from server after getNextQuestion event
         // has been emitted from client
         this.socket.on(receiveQuestion, data => {
-            console.log('this question was received ==> ', data);
+            // console.log('this question was received ==> ', data);
             store.dispatch(setCurrentQuestionRequest(data.question));
         });
 

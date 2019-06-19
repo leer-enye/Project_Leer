@@ -45,7 +45,7 @@ function* fetchUser (){
     }
     catch(e){
         // error is probably because cookie has expired
-        console.log(e);
+        // console.log(e);
         yield put(removeSession());
         yield put(fetchUserRejected());
     }
@@ -66,8 +66,7 @@ function* updateUser(action) {
         yield put(updateUserFulfilled(user));
     }
     catch (e) {
-        console.log('got to error');
-        console.log(e);
+        // console.log(e);
         yield put(updateUserRejected(null));
     }
 }
@@ -79,7 +78,7 @@ function* watchSaveSession() {
         yield takeLatest(SAVE_SESSION_REQUEST, saveSession);
     }
     catch (e) {
-        console.log(e);
+        // console.log(e);
     }
 }
 
@@ -87,7 +86,7 @@ function* watchFetchUser(){
     try {
         yield takeLatest(FETCH_USER_REQUEST, fetchUser);
     }catch(e){
-        console.log(e);  
+        // console.log(e);  
     }
 }
 
@@ -95,7 +94,7 @@ function* watchUpdateUser() {
     try {
         yield takeLatest(UPDATE_USER_REQUEST, updateUser);
     } catch (e) {
-        console.log(e);
+        // console.log(e);
     }
 }
 
