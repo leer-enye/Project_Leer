@@ -21,3 +21,5 @@ export const getChallengeStore = state => ({
 });
 
 export const getCurrentQuestion = state => state[NAME].currentQuestion;
+
+export const getQuestions = state => state[NAME].questions;

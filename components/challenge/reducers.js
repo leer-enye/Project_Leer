@@ -7,6 +7,7 @@ import {
     SET_CHALLENGE_REQ_STATUS_ACTION_TYPES,
     SET_CHALLENGE_ROOM_ACTION_TYPES,
     SET_CURRENT_QUESTION_ACTION_TYPES,
+    SET_QUESTIONS_ACTION_TYPES,
     UPDATE_CHALLENGE_STORE_ACTION_TYPES
 } from './actionTypes';
 
@@ -18,6 +19,7 @@ const { SET_ONLINE_USERS } = SET_ONLINE_USERS_ACTION_TYPES;
 const { SET_CHALLENGE_REQ_STATUS } = SET_CHALLENGE_REQ_STATUS_ACTION_TYPES;
 const { SET_CHALLENGE_ROOM } = SET_CHALLENGE_ROOM_ACTION_TYPES;
 const { SET_CURRENT_QUESTION } = SET_CURRENT_QUESTION_ACTION_TYPES;
+const { SET_QUESTIONS } = SET_QUESTIONS_ACTION_TYPES;
 const { UPDATE_CHALLENGE_STORE } = UPDATE_CHALLENGE_STORE_ACTION_TYPES;
 
 const initialState = {
@@ -29,6 +31,7 @@ const initialState = {
     courses: [],
     currentQuestion: null,
     onlineUsers: [],
+    questions: [],
     selectedCourse: null,
     selectedMode: null,
     selectedOpponent: null,
@@ -88,6 +91,12 @@ export default (state = initialState, action) => {
         return {
             ...state,
             currentQuestion: action.payload,
+        };
+
+    case SET_QUESTIONS:
+        return {
+            ...state,
+            questions: action.payload,
         };
     
     // update details such as

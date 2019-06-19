@@ -7,6 +7,7 @@ import {
     SET_CHALLENGE_REQ_STATUS_ACTION_TYPES,
     SET_CHALLENGE_ROOM_ACTION_TYPES,
     SET_CURRENT_QUESTION_ACTION_TYPES,
+    SET_QUESTIONS_ACTION_TYPES,
     UPDATE_CHALLENGE_STORE_ACTION_TYPES
 } from './actionTypes';
 
@@ -55,6 +56,11 @@ const {
     SET_CURRENT_QUESTION,
     SET_CURRENT_QUESTION_REQUEST,
 } = SET_CURRENT_QUESTION_ACTION_TYPES;
+
+const {
+    SET_QUESTIONS,
+    SET_QUESTIONS_REQUEST
+} = SET_QUESTIONS_ACTION_TYPES;
 
 export const fetchCoursesRequest = () => ({
     type: FETCH_COURSES_REQUEST,
@@ -153,4 +159,16 @@ export const setCurrentQuestionRequest = question => ({
 export const setCurrentQuestionAction = question => ({
     payload: question,
     type: SET_CURRENT_QUESTION_REQUEST,
+});
+
+// for setting the challenge questions displayed in
+// quiz component
+export const setQuestionsRequest = questions => ({
+    payload: questions,
+    type: SET_QUESTIONS,
+});
+
+export const setQuestionsAction = questions => ({
+    payload: questions,
+    type: SET_QUESTIONS_REQUEST,
 });
