@@ -44,7 +44,6 @@ const { getUser } = selectors;
 function* fetchCourses(){
     try {
         const response = yield axios.get(FETCH_COURSES_URL);
-        console.log(response);
         const { data } = response.data;
         const { subjects } = data;
         yield put(fetchCoursesFulfilled(subjects));
@@ -68,7 +67,7 @@ function* selectCourse(action){
 function* selectMode(action) {
     try {
         yield put(selectModeAction(action.payload));
-    }
+    } 
     catch (e) {
         //
     }
