@@ -41,7 +41,7 @@ const ChallengeInfo = ({ challengers, timeLeft }) => (
                 <div className={challengersBox}>
                     {
                         challengers.map(({ _id, picture, level, name }, index) => (
-                            <React.Fragment key={_id}>
+                            <React.Fragment key={name}>
                                 <div className={challengerInfo}>
                                     <img src={picture} alt={name} />
                                     <h3 className={mb0}>{name}</h3>

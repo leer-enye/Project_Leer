@@ -154,4 +154,7 @@ export const DEFAULT_PROPS = {
 
 export const NAME = 'challenge';
 
-export const FETCH_COURSES_URL = 'http://localhost:5000/api/subjects/';
+const BASE_URL = process.env.NODE_ENV === 'production' ? 
+    'https://leer.tosinamuda.com' : 'http://localhost:5000';
+
+export const FETCH_COURSES_URL = `${BASE_URL}/api/subjects/`;
