@@ -19,3 +19,5 @@ export const getChallengeStore = state => ({
     selectedCourse: getSelectedCourse(state),
     selectedMode: getSelectedMode(state),
 });
+
+export const getCurrentQuestion = state => state[NAME].currentQuestion;

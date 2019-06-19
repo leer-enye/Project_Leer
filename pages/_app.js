@@ -31,10 +31,12 @@ const {
     challengeEnd,
     challengeRequest,
     challengeStart,
+    getNextQuestion,
     getUser,
     leaveRoom,
     login,
     onRejectedChallenge,
+    receiveQuestion,
     rejectChallenge,
     selectUser,
     users,
@@ -43,10 +45,12 @@ const {
     setOnlineUsersRequest,
     setChallengeReqStatusRequest,
     setChallengeRoomRequest,
+    setCurrentQuestionRequest,
     updateChallengeStoreRequest,
 } = challengeActions;
 const {
     getChallengeStore,
+    getChallengeRoom,
 } = challengeSelectors;
 
 class MyApp extends App {
@@ -98,6 +102,14 @@ class MyApp extends App {
         // this.socket.off(users);
         // this.socket.off(ackChallengeRequest);
         // this.socket.off(challengeEnd);
+    }
+
+    getNextQuestion() {
+        const { store } = this.props;
+        // get room from redux store
+        const room = getChallengeRoom(store.getState());
+        // emit getNextQuestion event with room id
+        this.socket.emit(getNextQuestion, { roomId: room });
     }
 
     getUserList = () => {
@@ -168,9 +180,20 @@ class MyApp extends App {
             // this.setState({ onlineUsers: data.users });
         });
 
+        // challengeStart is sent to both users when challengee
+        // accepts challenge;
         this.socket.on(challengeStart, data => {
             store.dispatch(setChallengeReqStatusRequest('approved'));
             store.dispatch(setChallengeRoomRequest(data.room));
+            // once challenge starts, emit getNextQuestion event
+            this.getNextQuestion();
+        });
+        
+        // receive question event is sent from server after getNextQuestion event
+        // has been emitted from client
+        this.socket.on(receiveQuestion, data => {
+            console.log('this question was received ==> ', data);
+            store.dispatch(setCurrentQuestionRequest(data.question));
         });
         
         // sender receives this after emitting `challengeUser` 

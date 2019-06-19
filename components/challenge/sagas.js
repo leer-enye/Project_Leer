@@ -10,6 +10,7 @@ import {
     setOnlineUsersAction,
     setChallengeReqStatusAction,
     setChallengeRoomAction,
+    setCurrentQuestionAction,
     updateChallengeStoreAction
 } from './actions';
 import {
@@ -20,6 +21,7 @@ import {
     SET_ONLINE_USERS_ACTION_TYPES,
     SET_CHALLENGE_REQ_STATUS_ACTION_TYPES,
     SET_CHALLENGE_ROOM_ACTION_TYPES,
+    SET_CURRENT_QUESTION_ACTION_TYPES,
     UPDATE_CHALLENGE_STORE_ACTION_TYPES
 } from './actionTypes';
 import { selectors } from '../auth';
@@ -32,6 +34,7 @@ const { SELECT_OPPONENT_REQUEST } = SELECT_OPPONENT_ACTION_TYPES;
 const { SET_ONLINE_USERS_REQUEST } = SET_ONLINE_USERS_ACTION_TYPES;
 const { SET_CHALLENGE_REQ_STATUS_REQUEST } = SET_CHALLENGE_REQ_STATUS_ACTION_TYPES;
 const { SET_CHALLENGE_ROOM_REQUEST } = SET_CHALLENGE_ROOM_ACTION_TYPES;
+const { SET_CURRENT_QUESTION_REQUEST } = SET_CURRENT_QUESTION_ACTION_TYPES;
 const { UPDATE_CHALLENGE_STORE_REQUEST } = UPDATE_CHALLENGE_STORE_ACTION_TYPES;
 const { getUser } = selectors;
 
@@ -106,6 +109,15 @@ function* setChallengeRoom(action) {
         //
     }
 };
+
+function* setCurrentQuestion(action){
+    try {
+        yield put(setCurrentQuestionAction(action.payload));
+    }
+    catch(e){
+        //
+    }
+}
 
 function* updateChallengeStore(action) {
     try {
@@ -182,6 +194,15 @@ function* watchSetChallengeRoom() {
     }
 };
 
+function* watchSetCurrentQuestion(){
+    try {
+        yield takeLatest(SET_CURRENT_QUESTION_REQUEST, setCurrentQuestion);
+    }
+    catch(e){
+        //
+    }
+}
+
 function* watchUpdateChallengeStore(){
     try {
         yield takeLatest(UPDATE_CHALLENGE_STORE_REQUEST, updateChallengeStore);
@@ -200,6 +221,7 @@ export default function* (){
         watchSetOnlineUsers(),
         watchSetChallengeReqStatus(),
         watchSetChallengeRoom(),
+        watchSetCurrentQuestion(),
         watchUpdateChallengeStore(),
     ]);
 }
