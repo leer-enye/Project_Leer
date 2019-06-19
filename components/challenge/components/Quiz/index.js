@@ -1,3 +1,4 @@
+/* eslint-disable react/no-danger */
 import React from 'react';
 import { Row, Col, Card, Progress } from 'antd';
 import * as constants from '../../constants';

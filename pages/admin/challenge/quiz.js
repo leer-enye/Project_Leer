@@ -3,7 +3,7 @@ import Router from 'next/router';
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 
-import { selectors as authSelectors } from '../../../components/auth'
+import { selectors as authSelectors } from '../../../components/auth';
 import { components, selectors as challengeSelectors } from '../../../components/challenge';
 import { constants } from '../../../components/common';
 import withAuthSync from '../../../hocs/withAuthSync';
@@ -50,7 +50,6 @@ class QuizPage extends Component {
     }
 
     countDown = () => {
-        console.log(' countdown is called ')
         const { seconds } = this.state;
         
         // if time has elapsed, clear timer and move to next question

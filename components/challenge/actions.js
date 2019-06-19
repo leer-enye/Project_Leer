@@ -59,7 +59,7 @@ const {
 
 const {
     SET_QUESTIONS,
-    SET_QUESTIONS_REQUEST
+    SET_QUESTIONS_REQUEST,
 } = SET_QUESTIONS_ACTION_TYPES;
 
 export const fetchCoursesRequest = () => ({
