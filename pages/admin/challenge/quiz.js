@@ -26,18 +26,18 @@ class QuizPage extends Component {
         this.state = {
             questionIndex: 0,
             quizActive: false,
+            quizEnded: false,
             score: 0, // users score
             seconds: 10,
-            
         };
 
         this.timer = 0;
     }
 
     componentDidMount(){
-        const { quizActive } = this.state;
+        const { quizActive, quizEnded } = this.state;
         
-        if (!quizActive){
+        if (!quizActive && !quizEnded){
             this.setState({ questionIndex: 0, quizActive: true  }, () => {
                 this.startTimer();
             });
@@ -87,8 +87,8 @@ class QuizPage extends Component {
     }
     
     nextQuestion = () => {
-        const { questionIndex } = this.state;
-        const { questions } = this.props;
+        const { questionIndex, score } = this.state;
+        const { questions, submitScore, user } = this.props;
         const newQuestionIndex = questionIndex + 1;
         
         // reset timer and move to next question if all questions have been answered
@@ -100,21 +100,24 @@ class QuizPage extends Component {
         }
 
         // if all questions have been answered, redirect to result page
-        return this.setState( { questionIndex: 0, quizActive: false }, () => {
-            Router.push('/admin/challenge/challenge-result');
+        return this.setState( { quizActive: false, quizEnded: true }, () => {
+            clearInterval(this.timer);
+            submitScore({ score, userId: user._id });
+            // Router.push('/admin/challenge/challenge-result');
         });
     }
 
     render(){
-        const { seconds, questionIndex } = this.state;
+        const { seconds, questionIndex, quizEnded } = this.state;
         const { questions, challengers } = this.props;
-        console.log(challengers);
+        
         return ( 
             <Row type={FLEX_ROW_TYPE} justify={FLEX_ROW_JUSTIFY_CENTER}>
                 <Col span={18} md={18} xs={22}>
                     <Quiz 
                         challengers={challengers}
                         quizItem={ questions[questionIndex] } 
+                        quizEnded={quizEnded}
                         onAnswer={this.onAnswerQuestion}  
                         next={challengeResultLink} 
                         timeLeft={seconds} 
@@ -132,6 +135,7 @@ QuizPage.defaultProps = {
 const mapStateToProps = state => ({
     challengers: [getUser(state), getSelectedOpponent(state)],
     questions: getQuestions(state),
+    user: getUser(state),
 });
 
 export default withAuthSync(connect(mapStateToProps, null)(QuizPage));
