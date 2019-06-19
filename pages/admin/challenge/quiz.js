@@ -10,7 +10,7 @@ import withAuthSync from '../../../hocs/withAuthSync';
 
 const { Quiz } = components;
 const { getUser } = authSelectors;
-const { getCurrentQuestion, getSelectedOpponent } = challengeSelectors;
+const { getQuestions, getSelectedOpponent } = challengeSelectors;
 const {
     DEFAULT_PROPS,
     FLEX_ROW_JUSTIFY_CENTER,
@@ -26,6 +26,7 @@ class QuizPage extends Component {
         this.state = {
             questionIndex: 0,
             quizActive: false,
+            score: 0, // users score
             seconds: 10,
             
         };
@@ -49,6 +50,7 @@ class QuizPage extends Component {
     }
 
     countDown = () => {
+        console.log(' countdown is called ')
         const { seconds } = this.state;
         
         // if time has elapsed, clear timer and move to next question
@@ -68,6 +70,21 @@ class QuizPage extends Component {
         if (this.timer === 0 && seconds > 0) {
             this.timer = setInterval(this.countDown, 1000);
         }
+    }
+
+    onAnswerQuestion = answer => {
+        const { questions } = this.props;
+        const { questionIndex, score } = this.state;
+        const question = questions[questionIndex];
+        
+        if (parseInt(answer, 10) === question.answer){
+            const newScore = score + 10;
+            return this.setState({ score: newScore }, () => {
+                this.nextQuestion();
+            });
+        };
+
+        return this.nextQuestion();
     }
     
     nextQuestion = () => {
@@ -91,14 +108,15 @@ class QuizPage extends Component {
 
     render(){
         const { seconds, questionIndex } = this.state;
-        const { questions, challengers, currentQuestion } = this.props;
+        const { questions, challengers } = this.props;
+        console.log(challengers);
         return ( 
             <Row type={FLEX_ROW_TYPE} justify={FLEX_ROW_JUSTIFY_CENTER}>
                 <Col span={18} md={18} xs={22}>
                     <Quiz 
                         challengers={challengers}
-                        quizItem={ currentQuestion } 
-                        onAnswer={this.nextQuestion}  
+                        quizItem={ questions[questionIndex] } 
+                        onAnswer={this.onAnswerQuestion}  
                         next={challengeResultLink} 
                         timeLeft={seconds} 
                     />
@@ -114,7 +132,7 @@ QuizPage.defaultProps = {
 
 const mapStateToProps = state => ({
     challengers: [getUser(state), getSelectedOpponent(state)],
-    currentQuestion: getCurrentQuestion(state),
+    questions: getQuestions(state),
 });
 
 export default withAuthSync(connect(mapStateToProps, null)(QuizPage));

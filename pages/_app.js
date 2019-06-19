@@ -31,12 +31,14 @@ const {
     challengeEnd,
     challengeRequest,
     challengeStart,
+    getQuestions,
     getNextQuestion,
     getUser,
     leaveRoom,
     login,
     onRejectedChallenge,
     receiveQuestion,
+    receiveQuestions,
     rejectChallenge,
     selectUser,
     users,
@@ -46,6 +48,7 @@ const {
     setChallengeReqStatusRequest,
     setChallengeRoomRequest,
     setCurrentQuestionRequest,
+    setQuestionsRequest,
     updateChallengeStoreRequest,
 } = challengeActions;
 const {
@@ -105,11 +108,24 @@ class MyApp extends App {
     }
 
     getNextQuestion() {
+        // TODO
+        // might remove this, used it when we were
+        // getting the questions one at a time
+
         const { store } = this.props;
         // get room from redux store
         const room = getChallengeRoom(store.getState());
         // emit getNextQuestion event with room id
         this.socket.emit(getNextQuestion, { roomId: room });
+    }
+
+    // get all questions
+    getQuestions() {
+        const { store } = this.props;
+        // get room from redux store
+        const room = getChallengeRoom(store.getState());
+        // emit getNextQuestion event with room id
+        this.socket.emit(getQuestions, { roomId: room });
     }
 
     getUserList = () => {
@@ -185,15 +201,24 @@ class MyApp extends App {
         this.socket.on(challengeStart, data => {
             store.dispatch(setChallengeReqStatusRequest('approved'));
             store.dispatch(setChallengeRoomRequest(data.room));
-            // once challenge starts, emit getNextQuestion event
-            this.getNextQuestion();
+            // once challenge starts, emit getQuestions event
+            this.getQuestions();
         });
         
+        // TODO
+        // used this when we were receiving a question at a time
         // receive question event is sent from server after getNextQuestion event
         // has been emitted from client
         this.socket.on(receiveQuestion, data => {
             console.log('this question was received ==> ', data);
             store.dispatch(setCurrentQuestionRequest(data.question));
+        });
+
+        // event is received when getQuestions is emmited
+        // returns all questions for client
+        this.socket.on(receiveQuestions, data => {
+            console.log('this question was received ==> ', data);
+            store.dispatch(setQuestionsRequest(data.questions));
         });
         
         // sender receives this after emitting `challengeUser` 
