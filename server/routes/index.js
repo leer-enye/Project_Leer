@@ -1,14 +1,8 @@
 const express = require('express');
-const contents = require('./api/content');
-const questions = require('./api/question');
-const subjects = require('./api/subject');
-const users = require('./api/user');
+const routes = require('./api');
 
 const router = express.Router();
 
-users(router);
-subjects(router);
-contents(router);
-questions(router);
+routes.forEach(item => item(router));
 
 module.exports = router;

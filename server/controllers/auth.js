@@ -6,26 +6,24 @@ const util = require('util');
 const { URL } = require('url');
 const querystring = require('querystring');
 const HttpStatus = require('http-status-codes');
+const { AuthUrls, Ports, StatusText } = require('./constants');
 
-const StatusText = require('./constants');
-
+const { loginURL, logoutURL: logoutURLTemplate, returnToURL } = AuthUrls;
+const { httpPort, httpsPort } = Ports;
 const { SUCCESS, ERROR, FAIL } = StatusText;
 const { OK, INTERNAL_SERVER_ERROR, UNAUTHORIZED } = HttpStatus;
-// load user model
-// const User = require('../models/User');
 
 dotenv.config();
 
 module.exports = {
     callback: (req, res, next) => {
         try {
-            // eslint-disable-next-line no-unused-vars
-            passport.authenticate('auth0', (err, user, info) => {
+            passport.authenticate('auth0', (err, user) => {
                 if (err) {
                     return next(err);
                 }
                 if (!user) {
-                    return res.redirect('/login'); // client side
+                    return res.redirect(loginURL); // client side
                 }
                 req.logIn(user, error => {
                     if (error) {
@@ -33,7 +31,7 @@ module.exports = {
                     }
                     const { returnTo } = req.session;
                     delete req.session.returnTo;
-                    res.redirect(returnTo || '/admin/profile'); // client side
+                    res.redirect(returnTo || returnToURL); // client side
                 });
             })(req, res, next);
         } catch (err) {
@@ -59,12 +57,12 @@ module.exports = {
             let returnTo = `${req.protocol}://${req.hostname}`;
             const port = req.connection.localPort;
 
-            if (port !== undefined && port !== 80 && port !== 443) {
+            if (port !== undefined && port !== httpPort && port !== httpsPort) {
                 returnTo += `:${port}`;
             }
 
             const logoutURL = new URL(
-                util.format('https://%s/logout', process.env.AUTH0_DOMAIN)
+                util.format(logoutURLTemplate, process.env.AUTH0_DOMAIN)
             );
             const searchString = querystring.stringify({
                 client_id: process.env.AUTH0_CLIENT_ID,

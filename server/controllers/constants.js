@@ -1,5 +1,18 @@
-const ERROR = 'error';
-const FAIL = 'fail';
-const SUCCESS = "success";
+const AuthUrls = {
+    loginURL: '/login',
+    logoutURL: 'https://%s/logout',
+    returnToURL: '/admin/profile',
+};
 
-module.exports = { ERROR, FAIL, SUCCESS };
+const StatusText = {
+    ERROR: 'error',
+    FAIL: 'fail',
+    SUCCESS: 'success',
+};
+
+const Ports = {
+    httpPort: 80,
+    httpsPort: 443,
+};
+
+module.exports = { AuthUrls, Ports, StatusText };

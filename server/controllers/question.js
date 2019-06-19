@@ -2,8 +2,8 @@
 /* eslint-disable consistent-return */
 const { Types } = require('mongoose');
 const HttpStatus = require('http-status-codes');
-const Question = require('../models/Question');
-const StatusText = require('./constants');
+const { Question } = require('../models/');
+const { StatusText } = require('./constants');
 
 const { SUCCESS, FAIL, ERROR } = StatusText;
 const {
