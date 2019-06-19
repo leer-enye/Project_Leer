@@ -37,6 +37,7 @@ function* fetchUser (){
     try {
         
         const session = yield select(getSession);
+        
         const response = yield axios.get(FETCH_USER_URL, { headers: session });
         const { data } = response.data;
         const { user } = data;
@@ -44,6 +45,7 @@ function* fetchUser (){
     }
     catch(e){
         // error is probably because cookie has expired
+        console.log(e);
         yield put(removeSession());
         yield put(fetchUserRejected());
     }

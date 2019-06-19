@@ -81,6 +81,7 @@ class MyApp extends App {
         if (isServer) {
             const { cookie } = req.headers;
             if (cookie) {
+                console.log('go to session request => ', cookie);
                 store.dispatch(saveSessionRequest({ cookie }));
             }
         }
@@ -252,7 +253,8 @@ class MyApp extends App {
                 
             }
             // if it contains data.scores, then both users submitted their answers
-            console.log('challengeEnd => ', data.scores);
+            return console.log('challengeEnd => ', data.scores);
+            
             // store.dispatch(setChallengeEndStatusRequest('completed'));
         });
     }
