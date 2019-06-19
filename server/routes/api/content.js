@@ -1,13 +1,13 @@
 const express = require('express');
-const { content } = require('../../controllers/');
+const { Content } = require('../../controllers/');
 
 const router = express.Router();
 
 module.exports = app => {
     app.use('/api/contents', router);
-    router.post('/', content.create);
-    router.get('/', content.findAll);
-    router.get('/:contentId', content.findOne);
-    router.put('/:contentId', content.update);
-    router.delete('/:contentId', content.delete);
+    router.post('/', Content.create);
+    router.get('/', Content.findAll);
+    router.get('/:contentId', Content.findOne);
+    router.put('/:contentId', Content.update);
+    router.delete('/:contentId', Content.delete);
 };

@@ -1,6 +1,6 @@
 const express = require('express');
 const passport = require('passport');
-const { auth, user } = require('../../controllers/');
+const { Auth, User } = require('../../controllers/');
 
 const router = express.Router();
 module.exports = app => {
@@ -12,16 +12,16 @@ module.exports = app => {
         passport.authenticate('auth0', {
             scope: 'openid email profile',
         }),
-        auth.login
+        Auth.login
     );
-    router.get('/callback', auth.callback);
-    router.get('/users', auth.users);
-    router.get('/logout', auth.logout);
+    router.get('/callback', Auth.callback);
+    router.get('/users', Auth.users);
+    router.get('/logout', Auth.logout);
 
     // User CRUD APIs
-    router.post('/', user.create);
-    router.get('/', user.findAll);
-    router.get('/:userId', user.findOne);
-    router.put('/:userId', user.update);
-    router.delete('/:userId', user.delete);
+    router.post('/', User.create);
+    router.get('/', User.findAll);
+    router.get('/:userId', User.findOne);
+    router.put('/:userId', User.update);
+    router.delete('/:userId', User.delete);
 };
