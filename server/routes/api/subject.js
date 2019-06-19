@@ -1,14 +1,13 @@
 const express = require('express');
-const subjects = require('../../controllers/subject');
+const { Subject } = require('../../controllers/');
 
 const router = express.Router();
 
 module.exports = app => {
     app.use('/api/subjects', router);
-    router.post('/', subjects.create);
-    router.get('/', subjects.findAll);
-    router.get('/:subjectId', subjects.findOne);
-    router.put('/:subjectId', subjects.update);
-    router.delete('/:subjectId', subjects.delete);
-
+    router.post('/', Subject.create);
+    router.get('/', Subject.findAll);
+    router.get('/:subjectId', Subject.findOne);
+    router.put('/:subjectId', Subject.update);
+    router.delete('/:subjectId', Subject.delete);
 };

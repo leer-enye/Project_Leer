@@ -1,8 +1,8 @@
 /* eslint-disable sort-keys */
 /* eslint-disable consistent-return */
 const HttpStatus = require('http-status-codes');
-const User = require('../models/User');
-const StatusText = require('./constants');
+const { User } = require('../models/');
+const { StatusText } = require('./constants');
 
 const { SUCCESS, FAIL, ERROR } = StatusText;
 const {
