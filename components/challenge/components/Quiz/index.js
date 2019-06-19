@@ -62,16 +62,20 @@ const Quiz = ({ challengers, quizItem, timeLeft, onAnswer }) => (
             }
         </header>
         <div className={quizCardMain}>
-            <p className={quizCardQuestion}>
-                { quizItem.text }
+            <p className={quizCardQuestion} dangerouslySetInnerHTML={{ __html: quizItem.text }}>
             </p>
+               
             <div>
                 <Row gutter={16}>
                     {
                         quizItem.options.map((value, id) => (
                             <Col key={value} span ={12} md = {12} xs = {24} >
-                                <Card onClick={() => onAnswer(id)} className={quizCardOption} hoverable>
-                                    { value }
+                                <Card 
+                                    onClick={() => onAnswer(id)} 
+                                    className={quizCardOption} 
+                                    hoverable
+                                >
+                                    <div dangerouslySetInnerHTML={{ __html: value }}></div>
                                 </Card>
                             </Col>
                         ))
