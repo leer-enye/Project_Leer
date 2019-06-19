@@ -74,7 +74,7 @@ module.exports = io => {
             console.log('calling Select User');
             const { id: socketId } = socket;
             const originatingUser = socketUsers.get(socketId);
-            const { subject: subjectId, user } = data;
+            const { subject, user } = data;
             const { id: selectedUserId } = user;
             const selectedUser = allUsers.get(selectedUserId);
             const { socketId: selectedUserSocketId } = selectedUser || {};
@@ -99,17 +99,17 @@ module.exports = io => {
                     [selectedUser.id, 0],
                 ];
                 const userScore = new Map(tempUserScores);
-                const challenge = new Challenge(roomId, subjectId, userScore);
+                const challenge = new Challenge(roomId, subject, userScore);
                 roomChallenge.set(roomId, challenge);
 
                 peer.emit(challengeRequest, {
                     room: roomId,
-                    subject: subjectId,
+                    subject,
                     user: originatingUser,
                 });
                 socket.emit(ackChallengeRequest, {
                     room: roomId,
-                    subject: subjectId,
+                    subject,
                     user: selectedUser,
                 });
 
@@ -162,7 +162,8 @@ module.exports = io => {
 
             const { roomId } = data;
             const challenge = roomChallenge.get(roomId);
-            const { subjectId } = challenge;
+            const { subject } = challenge;
+            const { _id: subjectId } = subject;
 
             if (challenge.question.length > 0) {
                 challenge.increaseQuestionIndex();

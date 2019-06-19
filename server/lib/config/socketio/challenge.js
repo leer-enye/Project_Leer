@@ -1,7 +1,7 @@
 class Challenge {
-    constructor(roomId, subjectId, userScore) {
+    constructor(roomId, subject, userScore) {
         this.roomId = roomId;
-        this.subjectId = subjectId;
+        this.subject = subject;
         this.currentQuestionIndex = 0;
         this.questions = [];
         this.score = userScore;
