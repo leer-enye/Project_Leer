@@ -8,7 +8,11 @@ import { Provider } from 'react-redux';
 import io from 'socket.io-client';
 
 import { saveSessionRequest } from '../components/auth/actions';
-import { actions as challengeActions } from '../components/challenge';
+import { getUser as getUserSelector } from '../components/auth/selectors';
+import { 
+    actions as challengeActions, 
+    selectors as challengeSelectors 
+} from '../components/challenge';
 import Layout from '../components/layout';
 import {
     CLIENT_SYSTEM_EVENTS,
@@ -19,6 +23,9 @@ import createStore from "../store";
 import { constants as commonConstants } from '../components/common';
 
 const { confirm } = Modal;
+const {
+    NEXT_LINKS: { challengeInfoLink },
+} = commonConstants;
 const {
     acceptChallenge,
     ackChallengeRequest,
@@ -36,10 +43,12 @@ const {
 const {
     setOnlineUsersRequest,
     setChallengeReqStatusRequest,
+    setChallengeRoomRequest,
+    updateChallengeStoreRequest
 } = challengeActions;
 const {
-    NEXT_LINKS: { challengeInfoLink },
-} = commonConstants;
+    getChallengeStore,
+} = challengeSelectors;
 
 class MyApp extends App {
 
@@ -100,7 +109,10 @@ class MyApp extends App {
         this.socket.emit(rejectChallenge, {});
     }
 
-    acceptChallengeRequest() {
+    acceptChallengeRequest(challengeStore) {
+        const { store } = this.props;
+        // once user accepts challenge, save challenge info from challenger to redux store.
+        store.dispatch(updateChallengeStoreRequest(challengeStore)); 
         this.socket.emit(acceptChallenge, {});
     }
 
@@ -115,7 +127,7 @@ class MyApp extends App {
     }
 
     //  for displaying notifications once user is challenged
-    displayChallengeNotif = ({ sender, subject }) => {
+    displayChallengeNotif = ({ challengeStore, sender, subject }) => {
         console.log('notif => ', subject);
         confirm({
             content: `${sender.name} just challenged you to a quiz on ${subject.name}`,
@@ -123,7 +135,7 @@ class MyApp extends App {
                 this.rejectChallengeRequest();
             },
             onOk: () => {
-                this.acceptChallengeRequest();
+                this.acceptChallengeRequest(challengeStore);
                 // if user accepts challenge, redirect to 
                 // challenge info page
                 Router.replace(challengeInfoLink);
@@ -158,13 +170,13 @@ class MyApp extends App {
         });
 
         this.socket.on(challengeStart, data => {
-            this.setState({ room: data.room });
             store.dispatch(setChallengeReqStatusRequest('approved'));
+            store.dispatch(setChallengeRoomRequest(data.room));
         });
-
+        
+        // sender receives this after emitting `challengeUser` 
         this.socket.on(ackChallengeRequest, data => {
-            const { room: roomId } = data;
-            this.setState({ room: roomId });
+            // this.setState({ room: roomId });
         });
 
         this.socket.on(onRejectedChallenge, () => {
@@ -172,10 +184,8 @@ class MyApp extends App {
         });
 
         this.socket.on(challengeRequest, data => {
-            console.log('challenge request data => ', data);
-            const { room: roomId, user: sender, subject } = data;
-            this.setState({ room: roomId });
-            this.displayChallengeNotif({ sender, subject });
+            const { challengeStore ,room: roomId, user: sender, subject } = data;
+            this.displayChallengeNotif({ challengeStore, sender, subject });
         });
 
         this.socket.on(challengeEnd, () => {
@@ -186,13 +196,23 @@ class MyApp extends App {
     }
 
     challengeUser = selectedUser => {
+        if (!selectedUser){
+            return;
+        }
+
         const { store } = this.props;
         const { selectedCourse }  = store.getState().challenge;
-        const { id, name, picture } = selectedUser;
-        if (selectedUser && id && name && picture) {
-            store.dispatch(setChallengeReqStatusRequest('pending'));
-            this.socket.emit(selectUser, { subject: selectedCourse, user: selectedUser });
-        }
+        // get current details in challenge store and send to challengee
+        const challengeStore = {
+            ...getChallengeStore(store.getState()),
+            selectedOpponent: getUserSelector(store.getState()),
+        };
+
+        store.dispatch(setChallengeReqStatusRequest('pending'));
+        this.socket.emit(selectUser, 
+            { challengeStore, subject: selectedCourse, user: selectedUser  }
+        );
+        
     }
 
     // sendMessage = text => {

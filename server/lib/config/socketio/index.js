@@ -74,7 +74,7 @@ module.exports = io => {
             console.log('calling Select User');
             const { id: socketId } = socket;
             const originatingUser = socketUsers.get(socketId);
-            const { subject: subjectId, user } = data;
+            const { challengeStore, subject: subjectId, user } = data;
             const { id: selectedUserId } = user;
             const selectedUser = allUsers.get(selectedUserId);
             const { socketId: selectedUserSocketId } = selectedUser || {};
@@ -103,6 +103,7 @@ module.exports = io => {
                 roomChallenge.set(roomId, challenge);
 
                 peer.emit(challengeRequest, {
+                    challengeStore,
                     room: roomId,
                     subject: subjectId,
                     user: originatingUser,

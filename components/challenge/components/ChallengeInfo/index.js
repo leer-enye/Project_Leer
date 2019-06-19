@@ -43,11 +43,11 @@ const ChallengeInfo = ({ challengers, next }) => (
             <Col span={16} md={16} xs={24} className={mb1}>
                 <div className={challengersBox}>
                     {
-                        challengers.map(({ id, image, level, username }, index) => (
+                        challengers.map(({ id, picture, level, name }, index) => (
                             <React.Fragment key={id}>
                                 <div className={challengerInfo}>
-                                    <img src={image} alt={username} />
-                                    <h3 className={mb0}>{username}</h3>
+                                    <img src={picture} alt={name} />
+                                    <h3 className={mb0}>{name}</h3>
                                     <p>{level}</p>
                                 </div>
                                 {
