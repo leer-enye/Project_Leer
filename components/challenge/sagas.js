@@ -8,7 +8,9 @@ import {
     selectModeAction,
     selectOpponentAction,
     setOnlineUsersAction,
-    setChallengeReqStatusAction
+    setChallengeReqStatusAction,
+    setChallengeRoomAction,
+    updateChallengeStoreAction
 } from './actions';
 import {
     FETCH_COURSES_ACTION_TYPES,
@@ -16,7 +18,9 @@ import {
     SELECT_MODE_ACTION_TYPES,
     SELECT_OPPONENT_ACTION_TYPES,
     SET_ONLINE_USERS_ACTION_TYPES,
-    SET_CHALLENGE_REQ_STATUS_ACTION_TYPES
+    SET_CHALLENGE_REQ_STATUS_ACTION_TYPES,
+    SET_CHALLENGE_ROOM_ACTION_TYPES,
+    UPDATE_CHALLENGE_STORE_ACTION_TYPES
 } from './actionTypes';
 import { selectors } from '../auth';
 import { FETCH_COURSES_URL } from './constants';
@@ -27,6 +31,8 @@ const { SELECT_MODE_REQUEST } = SELECT_MODE_ACTION_TYPES;
 const { SELECT_OPPONENT_REQUEST } = SELECT_OPPONENT_ACTION_TYPES;
 const { SET_ONLINE_USERS_REQUEST } = SET_ONLINE_USERS_ACTION_TYPES;
 const { SET_CHALLENGE_REQ_STATUS_REQUEST } = SET_CHALLENGE_REQ_STATUS_ACTION_TYPES;
+const { SET_CHALLENGE_ROOM_REQUEST } = SET_CHALLENGE_ROOM_ACTION_TYPES;
+const { UPDATE_CHALLENGE_STORE_REQUEST } = UPDATE_CHALLENGE_STORE_ACTION_TYPES;
 const { getUser } = selectors;
 
 function* fetchCourses(){
@@ -84,9 +90,26 @@ function* setOnlineUsers(action) {
 };
 
 function* setChallengeReqStatus(action) {
-    console.log('it got to set challenge')
     try {
         yield put(setChallengeReqStatusAction(action.payload));
+    }
+    catch (e) {
+        //
+    }
+};
+
+function* setChallengeRoom(action) {
+    try {
+        yield put(setChallengeRoomAction(action.payload));
+    }
+    catch (e) {
+        //
+    }
+};
+
+function* updateChallengeStore(action) {
+    try {
+        yield put(updateChallengeStoreAction(action.payload));
     }
     catch (e) {
         //
@@ -150,6 +173,24 @@ function* watchSetChallengeReqStatus() {
     }
 };
 
+function* watchSetChallengeRoom() {
+    try {
+        yield takeLatest(SET_CHALLENGE_ROOM_REQUEST, setChallengeRoom);
+    }
+    catch (e) {
+        //
+    }
+};
+
+function* watchUpdateChallengeStore(){
+    try {
+        yield takeLatest(UPDATE_CHALLENGE_STORE_REQUEST, updateChallengeStore);
+    }
+    catch(e){
+        //
+    }
+}
+
 export default function* (){
     yield all([
         watchFetchCourses(),
@@ -158,6 +199,8 @@ export default function* (){
         watchSelectOpponent(),
         watchSetOnlineUsers(),
         watchSetChallengeReqStatus(),
+        watchSetChallengeRoom(),
+        watchUpdateChallengeStore(),
     ]);
 }
 

@@ -4,7 +4,9 @@ import {
     SELECT_MODE_ACTION_TYPES,
     SELECT_OPPONENT_ACTION_TYPES,
     SET_ONLINE_USERS_ACTION_TYPES,
-    SET_CHALLENGE_REQ_STATUS_ACTION_TYPES
+    SET_CHALLENGE_REQ_STATUS_ACTION_TYPES,
+    SET_CHALLENGE_ROOM_ACTION_TYPES,
+    UPDATE_CHALLENGE_STORE_ACTION_TYPES
 } from './actionTypes';
 
 const { FETCH_COURSES_FULFILLED, FETCH_COURSES_REJECTED } = FETCH_COURSES_ACTION_TYPES;
@@ -13,12 +15,15 @@ const { SELECT_MODE } = SELECT_MODE_ACTION_TYPES;
 const { SELECT_OPPONENT } = SELECT_OPPONENT_ACTION_TYPES;
 const { SET_ONLINE_USERS } = SET_ONLINE_USERS_ACTION_TYPES;
 const { SET_CHALLENGE_REQ_STATUS } = SET_CHALLENGE_REQ_STATUS_ACTION_TYPES;
+const { SET_CHALLENGE_ROOM } = SET_CHALLENGE_ROOM_ACTION_TYPES;
+const { UPDATE_CHALLENGE_STORE } = UPDATE_CHALLENGE_STORE_ACTION_TYPES;
 
 const initialState = {
     // challengeReqStatus
     // can either be 'pending', 'approved' or 'rejected'
     // it is populated when a Challenge Request is made
     challengeReqStatus: null,
+    challengeRoom: null,
     courses: [],
     onlineUsers: [],
     selectedCourse: null,
@@ -68,6 +73,21 @@ export default (state = initialState, action) => {
         return {
             ...state,
             challengeReqStatus: action.payload,
+        };
+
+    case SET_CHALLENGE_ROOM:
+        return {
+            ...state,
+            challengeRoom: action.payload,
+        };
+    
+    // update details such as
+    // selectedMode, selectedOpponent
+    // selectedCourse, challengeRoom
+    case UPDATE_CHALLENGE_STORE:
+        return {
+            ...state,
+            ...action.payload,
         };
 
     default:

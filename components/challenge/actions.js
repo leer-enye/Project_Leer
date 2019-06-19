@@ -4,7 +4,9 @@ import {
     SELECT_MODE_ACTION_TYPES,
     SELECT_OPPONENT_ACTION_TYPES,
     SET_ONLINE_USERS_ACTION_TYPES,
-    SET_CHALLENGE_REQ_STATUS_ACTION_TYPES
+    SET_CHALLENGE_REQ_STATUS_ACTION_TYPES,
+    SET_CHALLENGE_ROOM_ACTION_TYPES,
+    UPDATE_CHALLENGE_STORE_ACTION_TYPES
 } from './actionTypes';
 
 const {
@@ -37,6 +39,16 @@ const {
     SET_CHALLENGE_REQ_STATUS,
     SET_CHALLENGE_REQ_STATUS_REQUEST,
 } = SET_CHALLENGE_REQ_STATUS_ACTION_TYPES;
+
+const {
+    SET_CHALLENGE_ROOM,
+    SET_CHALLENGE_ROOM_REQUEST,
+} = SET_CHALLENGE_ROOM_ACTION_TYPES;
+
+const {
+    UPDATE_CHALLENGE_STORE,
+    UPDATE_CHALLENGE_STORE_REQUEST,
+} = UPDATE_CHALLENGE_STORE_ACTION_TYPES;
 
 export const fetchCoursesRequest = () => ({
     type: FETCH_COURSES_REQUEST,
@@ -101,4 +113,26 @@ export const setChallengeReqStatusRequest = status => ({
 export const setChallengeReqStatusAction = status => ({
     payload: status,
     type: SET_CHALLENGE_REQ_STATUS_REQUEST,
+});
+
+export const setChallengeRoomRequest = room => ({
+    payload: room,
+    type: SET_CHALLENGE_ROOM,
+});
+
+export const setChallengeRoomAction = room => ({
+    payload: room,
+    type: SET_CHALLENGE_ROOM_REQUEST,
+});
+
+// update the store of the challengee with
+// challenge details from challenger
+export const updateChallengeStoreRequest = data => ({
+    payload: data,
+    type: UPDATE_CHALLENGE_STORE,
+});
+
+export const updateChallengeStoreAction = data => ({
+    payload: data,
+    type: UPDATE_CHALLENGE_STORE_REQUEST,
 });
