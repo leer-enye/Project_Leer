@@ -21,7 +21,7 @@ const Home = () => (
 				</div>
 				<ul className="header-nav__links">
 					<li>
-						<Link href="/admin/profile">
+						<Link href="/admin/challenge">
 							<a className="nav-link">Login</a>
 						</Link>
 					</li>
@@ -36,8 +36,8 @@ const Home = () => (
 		<section className="section-hero">
 			<div className="section-hero__text-content">
 				<h1 className="heading-1">PASS YOUR Next EXAM</h1>
-				<p> 
-                    Non dolore reprehenderit adipisicing dolore minim magna. Est
+				<p>
+					Non dolore reprehenderit adipisicing dolore minim magna. Est
 					anim eiusmod cillum Lorem ea quis dolor ea tempor
 					adipisicing. Quis occaecat ea ipsum sunt ea minim incididunt
 					consequat dolor est amet.

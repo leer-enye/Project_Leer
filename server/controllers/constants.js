@@ -1,7 +1,7 @@
 const AuthUrls = {
     loginURL: '/login',
     logoutURL: 'https://%s/logout',
-    returnToURL: '/admin/profile',
+    returnToURL: '/admin/challenge',
 };
 
 const StatusText = {
