@@ -5,6 +5,8 @@ Ut enim ad minim veniam, quis nostrud.`;
 export const FLEX_ROW_TYPE = 'flex';
 export const FLEX_ROW_JUSTIFY_CENTER = 'center';
 
+export const BASE_URL = 'http://leer.tosinamuda.com';
+
 export const SELECTED_MENU_ITEM = {
     challenge: 'challenge',
     home: 'home',
@@ -93,3 +95,5 @@ export const DEFAULT_PROPS = {
         ],
     },
 };
+
+

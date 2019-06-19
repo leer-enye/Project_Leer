@@ -9,6 +9,7 @@ import {
     selectOpponentAction,
     setOnlineUsersAction,
     setChallengeReqStatusAction,
+    setChallengeEndStatusAction,
     setChallengeRoomAction,
     setCurrentQuestionAction,
     setQuestionsAction,
@@ -21,6 +22,7 @@ import {
     SELECT_OPPONENT_ACTION_TYPES,
     SET_ONLINE_USERS_ACTION_TYPES,
     SET_CHALLENGE_REQ_STATUS_ACTION_TYPES,
+    SET_CHALLENGE_END_STATUS_ACTION_TYPES,
     SET_CHALLENGE_ROOM_ACTION_TYPES,
     SET_CURRENT_QUESTION_ACTION_TYPES,
     SET_QUESTIONS_ACTION_TYPES,
@@ -35,6 +37,7 @@ const { SELECT_MODE_REQUEST } = SELECT_MODE_ACTION_TYPES;
 const { SELECT_OPPONENT_REQUEST } = SELECT_OPPONENT_ACTION_TYPES;
 const { SET_ONLINE_USERS_REQUEST } = SET_ONLINE_USERS_ACTION_TYPES;
 const { SET_CHALLENGE_REQ_STATUS_REQUEST } = SET_CHALLENGE_REQ_STATUS_ACTION_TYPES;
+const { SET_CHALLENGE_END_STATUS_REQUEST } = SET_CHALLENGE_END_STATUS_ACTION_TYPES;
 const { SET_CHALLENGE_ROOM_REQUEST } = SET_CHALLENGE_ROOM_ACTION_TYPES;
 const { SET_CURRENT_QUESTION_REQUEST } = SET_CURRENT_QUESTION_ACTION_TYPES;
 const { SET_QUESTIONS_REQUEST } = SET_QUESTIONS_ACTION_TYPES;
@@ -43,7 +46,7 @@ const { getUser } = selectors;
 
 function* fetchCourses(){
     try {
-        const response = yield axios.get(FETCH_COURSES_URL);
+        const response = yield axios.get(`${FETCH_COURSES_URL}`);
         const { data } = response.data;
         const { subjects } = data;
         yield put(fetchCoursesFulfilled(subjects));
@@ -97,6 +100,15 @@ function* setOnlineUsers(action) {
 function* setChallengeReqStatus(action) {
     try {
         yield put(setChallengeReqStatusAction(action.payload));
+    }
+    catch (e) {
+        //
+    }
+};
+
+function* setChallengeEndStatus(action) {
+    try {
+        yield put(setChallengeEndStatusAction(action.payload));
     }
     catch (e) {
         //
@@ -196,6 +208,15 @@ function* watchSetChallengeReqStatus() {
     }
 };
 
+function* watchSetChallengeEndStatus() {
+    try {
+        yield takeLatest(SET_CHALLENGE_END_STATUS_REQUEST, setChallengeEndStatus);
+    }
+    catch (e) {
+        //
+    }
+};
+
 function* watchSetChallengeRoom() {
     try {
         yield takeLatest(SET_CHALLENGE_ROOM_REQUEST, setChallengeRoom);
@@ -240,6 +261,7 @@ export default function* (){
         watchSelectOpponent(),
         watchSetOnlineUsers(),
         watchSetChallengeReqStatus(),
+        watchSetChallengeEndStatus(),
         watchSetChallengeRoom(),
         watchSetCurrentQuestion(),
         watchSetQuestions(),

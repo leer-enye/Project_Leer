@@ -12,6 +12,8 @@ export const getSelectedMode = state => state[NAME].selectedMode;
 
 export const getChallengeReqStatus = state => state[NAME].challengeReqStatus;
 
+export const getChallengeEndStatus = state => state[NAME].challengeEndStatus;
+
 export const getChallengeRoom = state => state[NAME].challengeRoom;
 
 export const getChallengeStore = state => ({

@@ -34,16 +34,7 @@ const NOTIFICATION_KEY = 'updatable';
 class OpponentSelect extends Component{
     state  = {}
 
-    // componentDidMount(){
-    //     const { challengeReqStatus, next } = this.props;
-    //     if (challengeReqStatus === 'approved'){
-    //         Router.push(next);
-    //     }
-    
-    // }
-
     componentDidUpdate(prevProps){
-        console.log('component updated');
         const { challengeReqStatus, next } = this.props;
         // if there is no change in challenge request status, return
         if (prevProps.challengeReqStatus === challengeReqStatus){

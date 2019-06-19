@@ -5,6 +5,7 @@ import {
     SELECT_OPPONENT_ACTION_TYPES,
     SET_ONLINE_USERS_ACTION_TYPES,
     SET_CHALLENGE_REQ_STATUS_ACTION_TYPES,
+    SET_CHALLENGE_END_STATUS_ACTION_TYPES,
     SET_CHALLENGE_ROOM_ACTION_TYPES,
     SET_CURRENT_QUESTION_ACTION_TYPES,
     SET_QUESTIONS_ACTION_TYPES,
@@ -41,6 +42,11 @@ const {
     SET_CHALLENGE_REQ_STATUS,
     SET_CHALLENGE_REQ_STATUS_REQUEST,
 } = SET_CHALLENGE_REQ_STATUS_ACTION_TYPES;
+
+const {
+    SET_CHALLENGE_END_STATUS,
+    SET_CHALLENGE_END_STATUS_REQUEST,
+} = SET_CHALLENGE_END_STATUS_ACTION_TYPES;
 
 const {
     SET_CHALLENGE_ROOM,
@@ -125,6 +131,18 @@ export const setChallengeReqStatusRequest = status => ({
 export const setChallengeReqStatusAction = status => ({
     payload: status,
     type: SET_CHALLENGE_REQ_STATUS_REQUEST,
+});
+
+// used to determine when both users have submitted solution
+// it can either be 'completed', 'pending'
+export const setChallengeEndStatusRequest = status => ({
+    payload: status,
+    type: SET_CHALLENGE_END_STATUS,
+});
+
+export const setChallengeEndStatusAction = status => ({
+    payload: status,
+    type: SET_CHALLENGE_END_STATUS_REQUEST,
 });
 
 export const setChallengeRoomRequest = room => ({

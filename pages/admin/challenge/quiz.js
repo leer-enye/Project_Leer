@@ -10,7 +10,7 @@ import withAuthSync from '../../../hocs/withAuthSync';
 
 const { Quiz } = components;
 const { getUser } = authSelectors;
-const { getQuestions, getSelectedOpponent } = challengeSelectors;
+const { getChallengeEndStatus, getQuestions, getSelectedOpponent } = challengeSelectors;
 const {
     DEFAULT_PROPS,
     FLEX_ROW_JUSTIFY_CENTER,
@@ -42,6 +42,19 @@ class QuizPage extends Component {
                 this.startTimer();
             });
         }
+    }
+
+    componentDidUpdate(prevProps){
+        const { challengeEndStatus } = this.props;
+
+        if(prevProps.challengeEndStatus === challengeEndStatus){
+            return;
+        }
+
+        if (challengeEndStatus === 'completed'){
+            Router.replace(challengeResultLink);
+            return;
+        };
     }
 
     componentWillUnmount(){
@@ -100,8 +113,8 @@ class QuizPage extends Component {
         }
 
         // if all questions have been answered, redirect to result page
+        clearInterval(this.timer);
         return this.setState( { quizActive: false, quizEnded: true }, () => {
-            clearInterval(this.timer);
             submitScore({ score, userId: user._id });
             // Router.push('/admin/challenge/challenge-result');
         });
@@ -110,7 +123,7 @@ class QuizPage extends Component {
     render(){
         const { seconds, questionIndex, quizEnded } = this.state;
         const { questions, challengers } = this.props;
-        
+
         return ( 
             <Row type={FLEX_ROW_TYPE} justify={FLEX_ROW_JUSTIFY_CENTER}>
                 <Col span={18} md={18} xs={22}>
@@ -119,7 +132,6 @@ class QuizPage extends Component {
                         quizItem={ questions[questionIndex] } 
                         quizEnded={quizEnded}
                         onAnswer={this.onAnswerQuestion}  
-                        next={challengeResultLink} 
                         timeLeft={seconds} 
                     />
                 </Col>
@@ -133,6 +145,7 @@ QuizPage.defaultProps = {
 };
 
 const mapStateToProps = state => ({
+    challengeEndStatus: getChallengeEndStatus(state),
     challengers: [getUser(state), getSelectedOpponent(state)],
     questions: getQuestions(state),
     user: getUser(state),

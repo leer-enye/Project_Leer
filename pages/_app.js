@@ -47,6 +47,7 @@ const {
 const {
     setOnlineUsersRequest,
     setChallengeReqStatusRequest,
+    setChallengeEndStatusRequest,
     setChallengeRoomRequest,
     setCurrentQuestionRequest,
     setQuestionsRequest,
@@ -132,6 +133,8 @@ class MyApp extends App {
     submitScore = ({ score, userId }) => {
         const { store } = this.props;
         const room = getChallengeRoom(store.getState());
+        // basically tells quiz page to wait till second user submits score
+        store.dispatch(setChallengeEndStatusRequest('pending'));
         this.socket.emit(submitScore, { roomId: room, score, userId });
     }
 
@@ -250,6 +253,7 @@ class MyApp extends App {
             }
             // if it contains data.scores, then both users submitted their answers
             console.log('challengeEnd => ', data.scores);
+            // store.dispatch(setChallengeEndStatusRequest('completed'));
         });
     }
 
