@@ -1,11 +1,16 @@
-import React, { Component } from 'react';
-import Router from 'next/router';
 import { Row, Col } from 'antd';
-import { components } from '../../../components/challenge';
+import Router from 'next/router';
+import React, { Component } from 'react';
+import { connect } from 'react-redux';
+
+import { selectors as authSelectors } from '../../../components/auth'
+import { components, selectors as challengeSelectors } from '../../../components/challenge';
 import { constants } from '../../../components/common';
 import withAuthSync from '../../../hocs/withAuthSync';
 
 const { Quiz } = components;
+const { getUser } = authSelectors;
+const { getCurrentQuestion, getSelectedOpponent } = challengeSelectors;
 const {
     DEFAULT_PROPS,
     FLEX_ROW_JUSTIFY_CENTER,
@@ -86,12 +91,13 @@ class QuizPage extends Component {
 
     render(){
         const { seconds, questionIndex } = this.state;
-        const { questions } = this.props;
+        const { questions, challengers, currentQuestion } = this.props;
         return ( 
             <Row type={FLEX_ROW_TYPE} justify={FLEX_ROW_JUSTIFY_CENTER}>
                 <Col span={18} md={18} xs={22}>
                     <Quiz 
-                        quizItem={ questions[questionIndex] } 
+                        challengers={challengers}
+                        quizItem={ currentQuestion } 
                         onAnswer={this.nextQuestion}  
                         next={challengeResultLink} 
                         timeLeft={seconds} 
@@ -106,4 +112,9 @@ QuizPage.defaultProps = {
     questions: quizPage.questions,
 };
 
-export default withAuthSync(QuizPage);
+const mapStateToProps = state => ({
+    challengers: [getUser(state), getSelectedOpponent(state)],
+    currentQuestion: getCurrentQuestion(state),
+});
+
+export default withAuthSync(connect(mapStateToProps, null)(QuizPage));

@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import Router from 'next/router';
 
-import { components, selectors as challengeSelectors } from '../../../components/challenge';
 import { selectors as authSelectors } from '../../../components/auth';
+import { components, selectors as challengeSelectors } from '../../../components/challenge';
 import { constants } from '../../../components/common';
 import withAuthSync from '../../../hocs/withAuthSync';
 

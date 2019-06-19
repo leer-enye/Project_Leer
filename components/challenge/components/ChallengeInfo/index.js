@@ -40,8 +40,8 @@ const ChallengeInfo = ({ challengers, timeLeft }) => (
             <Col span={16} md={16} xs={24} className={mb1}>
                 <div className={challengersBox}>
                     {
-                        challengers.map(({ id, picture, level, name }, index) => (
-                            <React.Fragment key={id}>
+                        challengers.map(({ _id, picture, level, name }, index) => (
+                            <React.Fragment key={_id}>
                                 <div className={challengerInfo}>
                                     <img src={picture} alt={name} />
                                     <h3 className={mb0}>{name}</h3>

@@ -24,7 +24,7 @@ const CourseSelect = ({ courses, next, selectCourse }) => {
                 {courses.map(({ name, _id }) => (
                     <Col key={_id} span={6} md={6} xs={12}>
                         {/* <Link href={next}> */}
-                        <div onClick={() => handleSelect({ id: _id, name })}>
+                        <div onClick={() => handleSelect({ _id, name })}>
                             <Card className={courseCard} hoverable>
                                 {name}
                             </Card>
