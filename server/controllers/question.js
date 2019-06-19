@@ -211,6 +211,7 @@ exports.findRandom = async (req, res) => {
             data: { questions },
         });
     } catch (err) {
+        console.log(err);
         res.status(INTERNAL_SERVER_ERROR).send({
             status: ERROR,
             message: HttpStatus.getStatusText(INTERNAL_SERVER_ERROR),
