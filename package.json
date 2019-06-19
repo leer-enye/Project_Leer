@@ -3,7 +3,8 @@
   "scripts": {
     "dev": "next",
     "dev:server": "nodemon server/server.js",
-    "build": "next build ",
+    "build": "next build",
+    "heroku-postbuild": "yarn run build",
     "start": "NODE_ENV=production node server/server.js",
     "lint": "eslint .",
     "test": "exit 0"
