@@ -59,6 +59,7 @@ app.prepare()
             '/static',
             express.static(path.join(__dirname, '../static'))
         );
+        server.use(express.static(__dirname, { dotfiles: 'allow' }));
         server.use(
             bodyParser.urlencoded({
                 extended: false,
@@ -77,8 +78,11 @@ app.prepare()
             secret: SESSION_SECRET,
             store: new MongoStore({ mongooseConnection: mongoose.connection }),
         };
-        // sess.cookie.secure = !dev; // serve secure cookies, requires https
-        sess.cookie.secure = false;
+
+        if (NODE_ENV === 'production') {
+            server.set('trust proxy', 1); // trust first proxy
+            sess.cookie.secure = true; // serve secure cookies, requires https
+        }
 
         server.use(session(sess));
         server.use(passport.initialize());
