@@ -81,7 +81,7 @@ app.prepare()
 
         if (NODE_ENV === 'production') {
             server.set('trust proxy', 1); // trust first proxy
-            sess.cookie.secure = true; // serve secure cookies, requires https
+            sess.cookie.secure = false; // serve secure cookies, requires https
         }
 
         server.use(session(sess));
