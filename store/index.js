@@ -5,9 +5,10 @@ import rootReducer from '../components/rootReducer';
 import rootSaga from "../components/rootSaga";
 
 const bindMiddleware = middleware => {
-    // if (process.env.NODE_ENV !== 'production'){
-    //     return composeWithDevTools(applyMiddleware(...middleware));
-    // }
+    if (process.env.NODE_ENV !== 'production'){
+        return composeWithDevTools(applyMiddleware(...middleware));
+    }
+    // remove devtools from prod later
     return composeWithDevTools(applyMiddleware(...middleware));
     // return applyMiddleware(...middleware);
 };

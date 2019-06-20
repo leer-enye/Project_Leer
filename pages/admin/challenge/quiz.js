@@ -115,7 +115,7 @@ class QuizPage extends Component {
         // if all questions have been answered, redirect to result page
         clearInterval(this.timer);
         this.timer = 1; 
-        return this.setState( { seconds: 0, quizActive: false, quizEnded: true }, () => {
+        return this.setState({ quizActive: false, quizEnded: true, seconds: 0 }, () => {
             submitScore({ score, userId: user._id });
             // Router.push('/admin/challenge/challenge-result');
         });
