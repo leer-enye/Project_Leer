@@ -77,7 +77,8 @@ app.prepare()
             secret: SESSION_SECRET,
             store: new MongoStore({ mongooseConnection: mongoose.connection }),
         };
-        sess.cookie.secure = !dev; // serve secure cookies, requires https
+        // sess.cookie.secure = !dev; // serve secure cookies, requires https
+        sess.cookie.secure = false;
 
         server.use(session(sess));
         server.use(passport.initialize());
