@@ -59,6 +59,7 @@ app.prepare()
             '/static',
             express.static(path.join(__dirname, '../static'))
         );
+        server.use(express.static(__dirname, { dotfiles: 'allow' }));
         server.use(
             bodyParser.urlencoded({
                 extended: false,
