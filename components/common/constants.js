@@ -6,8 +6,7 @@ export const FLEX_ROW_TYPE = 'flex';
 export const FLEX_ROW_JUSTIFY_CENTER = 'center';
 
 // export const BASE_URL = 'http://leer.tosinamuda.com';
-// export const BASE_URL = 'http://localhost:5000';
-export const BASE_URL = ' https://leer-app.herokuapp.com';
+export const { BASE_URL } = process.env;
 
 export const SELECTED_MENU_ITEM = {
     challenge: 'challenge',
