@@ -34,11 +34,15 @@ const CustomSider = ({ selectedMenuItem, user }) => (
             {LOGO_TEXT}
         </Title>
         <div className={siderProfile}>
-            <Avatar size={80} icon={USER_ICON} />
+            {
+                user.picture ? 
+                    <Avatar size={80} src={user.picture} /> : 
+                    <Avatar size={80} icon={USER_ICON} /> 
+            }
             <Text
                 className={`${siderProfileText} ${textWhite}`}
             >
-                {`Hello ${user || ''}`}
+                {`Hello ${user.name || ''}`}
             </Text>
         </div>
 

@@ -1,17 +1,21 @@
 /* eslint-disable react/destructuring-assignment */
-import React from 'react';
 import { Layout, Typography } from 'antd';
+import React from 'react';
+import { connect } from 'react-redux';
+
+import { selectors } from '../auth';
 import { CustomSider } from "./components";
 import { LOGO_TEXT } from './constants';
 import './index.scss';
 
 const { Header, Content } = Layout;
 const { Title } = Typography;
+const { getUser } = selectors;
 
-const CustomLayout = props => (
+const CustomLayout = ({ children, user ,selectedMenuItem }) => (
     <React.Fragment>
         <Layout className="layout" hasSider>
-            <CustomSider selectedMenuItem={props.selectedMenuItem} />
+            <CustomSider user={user} selectedMenuItem={selectedMenuItem} />
             <Layout>
                 <Header className="header">
                     <Title className="header__logo" level={2}>
@@ -20,7 +24,7 @@ const CustomLayout = props => (
                 </Header>
                 <Content className="content">
                     <div>
-                        {props.children}
+                        { children }
                     </div>
                 </Content>
             </Layout>
@@ -28,4 +32,8 @@ const CustomLayout = props => (
     </React.Fragment>
 );
 
-export default CustomLayout;
+const mapStateToProps = state => ({
+    user: getUser(state),
+});
+
+export default connect(mapStateToProps, null)(CustomLayout);
