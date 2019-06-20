@@ -52,7 +52,7 @@ const Quiz = ({ challengers, quizItem, timeLeft, onAnswer, quizEnded }) => (
                                         type={circle}
                                         width={48} 
                                         // divide by allocated time 
-                                        // for each question (Default: 10s)
+                                        // for each question (Default: 10s) 
                                         percent={(timeLeft/15) * 100}
                                         format={() => `${timeLeft}s`} 
                                     />
