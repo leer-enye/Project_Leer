@@ -69,14 +69,9 @@ module.exports = io => {
             const room = rooms[userId];
             io.in(room).emit(message, data);
         });
-        socket.on(leaveRoom, () => {
-            const { id: socketId } = socket;
-            const { id: userId, name, picture } = socketUsers.get(socketId);
-            rooms.delete(userId);
-            const user = new User(userId, name, picture, socketId);
-            availableUsers.set(userId, user);
-            sendAvailableUserList(socket);
-            socket.emit(challengeEnd);
+        socket.on(leaveRoom, data => {
+            const { roomId } = data;
+            socket.leave(roomId);
         });
         socket.on(selectUser, data => {
             const { id: socketId } = socket;
@@ -154,6 +149,7 @@ module.exports = io => {
                 const peerId = partyA === userId ? partyB : partyA;
                 const peer = allUsers.get(peerId);
                 [userId, peerId].forEach(item => rooms.delete(item));
+                roomChallenge.delete(roomId);
                 availableUsers.set(peerId, peer);
                 availableUsers.set(userId, user);
             }
@@ -167,7 +163,7 @@ module.exports = io => {
                 if (roomId) {
                     rooms.delete(userId);
                     roomChallenge.delete(roomId);
-                    socket.emit(challengeEnd);
+                    socket.leave(roomId);
                 }
 
                 [allUsers, availableUsers].forEach(item => item.delete(userId));
@@ -244,6 +240,7 @@ module.exports = io => {
 
         socket.on(submitScore, data => {
             const { roomId, score, userId } = data;
+            const { id: socketId } = socket;
             const challenge = roomChallenge.get(roomId);
             challenge.submitScore(userId, score);
             const { scores, scoresReceivedStatus } = challenge;
@@ -261,6 +258,15 @@ module.exports = io => {
                 });
 
                 io.to(roomId).emit(challengeEnd, { scores: output });
+                const { name, picture } = socketUsers.get(socketId);
+                const user = new User(userId, name, picture, socketId);
+                const [partyA, partyB] = roomId.split('#');
+                const peerId = partyA === userId ? partyB : partyA;
+                const peer = allUsers.get(peerId);
+                [userId, peerId].forEach(item => rooms.delete(item));
+                roomChallenge.delete(roomId);
+                availableUsers.set(peerId, peer);
+                availableUsers.set(userId, user);
             }
         });
     });
