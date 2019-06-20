@@ -41,9 +41,13 @@ const strategy = new Auth0Strategy(
             providerName,
         };
 
+        console.log('New User ==> ', newUser, '\n\n\n\n');
+
         const user = new User(newUser);
         let updatedData = {};
         const userExists = await User.findOne({ email });
+
+        console.log('User exists ==> ', userExists, '\n\n\n\n');
 
         if (userExists) {
             // Update User Access Token
@@ -55,6 +59,8 @@ const strategy = new Auth0Strategy(
         } else {
             updatedData = await user.save();
         }
+
+        console.log('Updated Data ==> ', updatedData, '\n\n\n\n');
 
         return done(null, updatedData);
     }
