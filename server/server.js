@@ -78,7 +78,11 @@ app.prepare()
             secret: SESSION_SECRET,
             store: new MongoStore({ mongooseConnection: mongoose.connection }),
         };
-        sess.cookie.secure = !dev; // serve secure cookies, requires https
+
+        if (NODE_ENV === 'production') {
+            server.set('trust proxy', 1); // trust first proxy
+            sess.cookie.secure = true; // serve secure cookies, requires https
+        }
 
         server.use(session(sess));
         server.use(passport.initialize());
