@@ -1,6 +1,7 @@
+/* eslint-disable react/no-array-index-key */
 /* eslint-disable react/no-danger */
 import React from 'react';
-import { Row, Col, Card, Progress } from 'antd';
+import { Row, Col, Card, Progress, Icon } from 'antd';
 import * as constants from '../../constants';
 import './index.scss';
 
@@ -52,7 +53,7 @@ const Quiz = ({ challengers, quizItem, timeLeft, onAnswer, quizEnded }) => (
                                         width={48} 
                                         // divide by allocated time 
                                         // for each question (Default: 10s)
-                                        percent={(timeLeft/10) * 100}
+                                        percent={(timeLeft/15) * 100}
                                         format={() => `${timeLeft}s`} 
                                     />
                                 </div>
@@ -75,7 +76,7 @@ const Quiz = ({ challengers, quizItem, timeLeft, onAnswer, quizEnded }) => (
                             <Row gutter={16}>
                                 {
                                     quizItem.options.map((value, id) => (
-                                        <Col key={value} span={12} md={12} xs={24} >
+                                        <Col key={`${value}_${id}`} span={12} md={12} xs={24} >
                                             <Card
                                                 onClick={() => onAnswer(id)}
                                                 className={quizCardOption}
@@ -93,7 +94,7 @@ const Quiz = ({ challengers, quizItem, timeLeft, onAnswer, quizEnded }) => (
                             </Row>
                         </div>
                     </React.Fragment>:
-                    <p> Waiting for Opponent to submit </p>
+                    <p> Waiting for Opponent to submit <Icon type="loading" /> </p>
             }
             
         </div>

@@ -48,8 +48,9 @@ class ChallengeInfoPage extends Component{
         
         // if time has elapsed, clear timer and move to quiz page
         if ( seconds === 0 ){
+            this.timer = 1;
             clearInterval(this.timer);
-            return Router.replace(quizLink);
+            return Router.push(quizLink);
         }
 
         const newTime = seconds - 1;

@@ -56,6 +56,7 @@ const {
 const {
     getChallengeStore,
     getChallengeRoom,
+    getChallengeEndStatus,
 } = challengeSelectors;
 
 class MyApp extends App {
@@ -191,7 +192,6 @@ class MyApp extends App {
 
         const { connect } = CLIENT_SYSTEM_EVENTS;
 
-        const { room } = this.state;
         const { _id, name, picture } = user;
 
         this.socket.on(connect, () => {
@@ -218,10 +218,10 @@ class MyApp extends App {
         // used this when we were receiving a question at a time
         // receive question event is sent from server after getNextQuestion event
         // has been emitted from client
-        this.socket.on(receiveQuestion, data => {
+        // this.socket.on(receiveQuestion, data => {
             // console.log('this question was received ==> ', data);
-            store.dispatch(setCurrentQuestionRequest(data.question));
-        });
+            // store.dispatch(setCurrentQuestionRequest(data.question));
+        // });
 
         // event is received when getQuestions is emmited
         // returns all questions for client
@@ -245,15 +245,23 @@ class MyApp extends App {
         });
 
         this.socket.on(challengeEnd, data => {
-            if (!data.scores){
-                this.socket.leave(room);
-                return store.dispatch(setChallengeReqStatusRequest('rejected'));
-                
+            const room = getChallengeRoom(store.getState());
+            const challengeEndStatus = getChallengeEndStatus(store.getState());
+
+            if (challengeEndStatus == null){
+                // this makes sure both users have challengeEndStatus of
+                // pending 
+                store.dispatch(setChallengeEndStatusRequest('pending'));
             }
+
             // if it contains data.scores, then both users submitted their answers
-            return console.log('challengeEnd => ', data.scores);
-            
-            // store.dispatch(setChallengeEndStatusRequest('completed'));
+            if (data.scores){
+                if (room){
+                    this.socket.emit(leaveRoom, { roomId: room });
+                };
+                console.log('challengeEnd => ', data.scores);
+                return store.dispatch(setChallengeEndStatusRequest('completed'));
+            }
         });
     }
 

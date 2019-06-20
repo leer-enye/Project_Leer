@@ -35,7 +35,7 @@ const initialState = {
     challengeReqStatus: null,
     challengeRoom: null,
     courses: [],
-    currentQuestion: null,
+    currentQuestion: 0,
     onlineUsers: [],
     questions: [],
     selectedCourse: null,

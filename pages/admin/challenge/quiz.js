@@ -4,13 +4,19 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 
 import { selectors as authSelectors } from '../../../components/auth';
-import { components, selectors as challengeSelectors } from '../../../components/challenge';
+import { actions, components, selectors as challengeSelectors } from '../../../components/challenge';
 import { constants } from '../../../components/common';
 import withAuthSync from '../../../hocs/withAuthSync';
 
+const { setCurrentQuestionRequest, setChallengeEndStatusAction } = actions;
 const { Quiz } = components;
 const { getUser } = authSelectors;
-const { getChallengeEndStatus, getQuestions, getSelectedOpponent } = challengeSelectors;
+const { 
+    getChallengeEndStatus,
+    getCurrentQuestion, 
+    getQuestions, 
+    getSelectedOpponent, 
+} = challengeSelectors;
 const {
     DEFAULT_PROPS,
     FLEX_ROW_JUSTIFY_CENTER,
@@ -24,11 +30,10 @@ class QuizPage extends Component {
     constructor(props){
         super(props);
         this.state = {
-            questionIndex: 0,
             quizActive: false,
             quizEnded: false,
             score: 0, // users score
-            seconds: 10,
+            seconds: 15,
         };
 
         this.timer = 0;
@@ -37,8 +42,15 @@ class QuizPage extends Component {
     componentDidMount(){
         const { quizActive, quizEnded } = this.state;
         
-        if (!quizActive && !quizEnded){
-            this.setState({ questionIndex: 0, quizActive: true  }, () => {
+        // if quiz has ended return 
+        if (quizEnded){
+            return;
+        };
+
+        // this is executed first time component is mounted
+        if (!quizActive){
+            console.log('first time quiz is started \n\n');
+            this.setState({ quizActive: true, seconds: 15 }, () => {
                 this.startTimer();
             });
         }
@@ -46,15 +58,19 @@ class QuizPage extends Component {
 
     componentDidUpdate(prevProps){
         const { challengeEndStatus } = this.props;
-
-        if(prevProps.challengeEndStatus === challengeEndStatus){
+        
+        if (prevProps.challengeEndStatus === challengeEndStatus) {
             return;
         }
 
-        if (challengeEndStatus === 'completed'){
-            Router.replace(challengeResultLink);
-            return;
-        };
+        if (prevProps.challengeEndStatus !== challengeEndStatus){
+            console.log('previous challengeEndStatus is => ', prevProps.challengeEndStatus)
+            console.log('current challengeEndStatus is => ', challengeEndStatus)
+
+            if( challengeEndStatus === 'completed' ){
+                Router.push(challengeResultLink);   
+            }
+        }
     }
 
     componentWillUnmount(){
@@ -68,7 +84,7 @@ class QuizPage extends Component {
         // if time has elapsed, clear timer and move to next question
         if (seconds === 0) {
             clearInterval(this.timer);
-            return this.nextQuestion();
+            return this.onAnswerQuestion(null);
         };
         
         // reduce seconds by 1 and update timer
@@ -80,57 +96,67 @@ class QuizPage extends Component {
         const { seconds } = this.state;
          
         if (this.timer === 0 && seconds > 0) {
+            console.log('Countdown started again');
             this.timer = setInterval(this.countDown, 1000);
         }
     }
 
     onAnswerQuestion = answer => {
-        const { questions } = this.props;
-        const { questionIndex, score } = this.state;
-        const question = questions[questionIndex];
+        const { questions, currentQuestionIndex } = this.props;
+        const { score } = this.state;
+        const question = questions[currentQuestionIndex];
         
-        if (parseInt(answer, 10) === question.answer){
-            const newScore = score + 10;
-            return this.setState({ score: newScore }, () => {
-                this.nextQuestion();
-            });
+        // if user is wrong, move to the next question
+        // without updating score
+        if (parseInt(answer, 10) !== question.answer){
+            return this.nextQuestion();
         };
 
-        return this.nextQuestion();
+        // if user is right, update score
+        const newScore = score + 10;
+        return this.setState({ score: newScore }, () => this.nextQuestion());
     }
     
     nextQuestion = () => {
-        const { questionIndex, score } = this.state;
-        const { questions, submitScore, user } = this.props;
-        const newQuestionIndex = questionIndex + 1;
+        const { score } = this.state;
+        const { 
+            currentQuestionIndex, 
+            questions, 
+            setCurrentQuestion, 
+            submitScore, 
+            user, 
+        } = this.props;
+        const newQuestionIndex = currentQuestionIndex + 1;
         
         // reset timer and move to next question if all questions have been answered
         if (newQuestionIndex < questions.length){
-            return this.setState({ questionIndex: newQuestionIndex, seconds: 10  }, () => {
-                this.timer = 0;
-                this.startTimer();
-            });
+            // set the index of the next question in store
+            setCurrentQuestion(newQuestionIndex);
+            // clear any existing setInterval
+            // before restarting timer
+            clearInterval(this.timer);
+            this.timer = 0;
+            return this.setState({ seconds: 15  }, () => this.startTimer());
         }
 
         // if all questions have been answered, redirect to result page
-        clearInterval(this.timer);
-        this.timer = 1; 
         return this.setState({ quizActive: false, quizEnded: true, seconds: 0 }, () => {
+            console.log('got to end of the quiz');
+            clearInterval(this.timer);
             submitScore({ score, userId: user._id });
-            // Router.push('/admin/challenge/challenge-result');
         });
     }
 
     render(){
-        const { seconds, questionIndex, quizEnded } = this.state;
-        const { questions, challengers } = this.props;
-
+        const { seconds, quizEnded } = this.state;
+        const { questions, currentQuestionIndex, challengers } = this.props;
+        
         return ( 
             <Row type={FLEX_ROW_TYPE} justify={FLEX_ROW_JUSTIFY_CENTER}>
                 <Col span={18} md={18} xs={22}>
                     <Quiz 
                         challengers={challengers}
-                        quizItem={ questions[questionIndex] } 
+                        quizItem={ questions[currentQuestionIndex] } 
                         quizEnded={quizEnded}
                         onAnswer={this.onAnswerQuestion}  
                         timeLeft={seconds} 
@@ -145,11 +171,16 @@ QuizPage.defaultProps = {
     questions: quizPage.questions,
 };
 
+const mapDispatchToProps = dispatch => ({
+    setCurrentQuestion: questionIndex => dispatch(setCurrentQuestionRequest(questionIndex)), 
+});
+
 const mapStateToProps = state => ({
     challengeEndStatus: getChallengeEndStatus(state),
     challengers: [getUser(state), getSelectedOpponent(state)],
+    currentQuestionIndex: getCurrentQuestion(state),
     questions: getQuestions(state),
     user: getUser(state),
 });
 
-export default withAuthSync(connect(mapStateToProps, null)(QuizPage));
+export default withAuthSync(connect(mapStateToProps, mapDispatchToProps)(QuizPage));
