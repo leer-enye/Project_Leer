@@ -4,11 +4,15 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 
 import { selectors as authSelectors } from '../../../components/auth';
-import { actions, components, selectors as challengeSelectors } from '../../../components/challenge';
+import { 
+    actions, 
+    components, 
+    selectors as challengeSelectors 
+} from '../../../components/challenge';
 import { constants } from '../../../components/common';
 import withAuthSync from '../../../hocs/withAuthSync';
 
-const { setCurrentQuestionRequest, setChallengeEndStatusAction } = actions;
+const { setCurrentQuestionRequest } = actions;
 const { Quiz } = components;
 const { getUser } = authSelectors;
 const { 
@@ -64,8 +68,8 @@ class QuizPage extends Component {
         }
 
         if (prevProps.challengeEndStatus !== challengeEndStatus){
-            console.log('previous challengeEndStatus is => ', prevProps.challengeEndStatus)
-            console.log('current challengeEndStatus is => ', challengeEndStatus)
+            // console.log('previous challengeEndStatus is => ', prevProps.challengeEndStatus)
+            // console.log('current challengeEndStatus is => ', challengeEndStatus)
 
             if( challengeEndStatus === 'completed' ){
                 Router.push(challengeResultLink);   

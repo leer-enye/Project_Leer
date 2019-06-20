@@ -38,7 +38,6 @@ const {
     leaveRoom,
     login,
     onRejectedChallenge,
-    receiveQuestion,
     receiveQuestions,
     rejectChallenge,
     selectUser,
@@ -49,7 +48,6 @@ const {
     setChallengeReqStatusRequest,
     setChallengeEndStatusRequest,
     setChallengeRoomRequest,
-    setCurrentQuestionRequest,
     setQuestionsRequest,
     updateChallengeStoreRequest,
 } = challengeActions;
@@ -219,8 +217,8 @@ class MyApp extends App {
         // receive question event is sent from server after getNextQuestion event
         // has been emitted from client
         // this.socket.on(receiveQuestion, data => {
-            // console.log('this question was received ==> ', data);
-            // store.dispatch(setCurrentQuestionRequest(data.question));
+        //      console.log('this question was received ==> ', data);
+        //      store.dispatch(setCurrentQuestionRequest(data.question));
         // });
 
         // event is received when getQuestions is emmited
@@ -260,7 +258,7 @@ class MyApp extends App {
                     this.socket.emit(leaveRoom, { roomId: room });
                 };
                 console.log('challengeEnd => ', data.scores);
-                return store.dispatch(setChallengeEndStatusRequest('completed'));
+                store.dispatch(setChallengeEndStatusRequest('completed'));
             }
         });
     }
