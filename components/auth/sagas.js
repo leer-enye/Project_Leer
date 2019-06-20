@@ -29,6 +29,7 @@ function* saveSession(action){
         yield put(fetchUserRequest());
     }
     catch(e){
+        yield put(removeSession());
         // console.log(e);
     }
 }
