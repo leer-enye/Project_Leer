@@ -16,35 +16,77 @@
 
 
 .opponent-card {
-    height: 100px;
-    width: 300px;
+    // height: 100px;
+    width: 250px;
+    height: 250px;
 
     .ant-card-body {
         padding: 0 !important;
         display: flex;
+        flex-direction: column;
         height: 100%;
+        overflow: hidden;
+        position: relative;
     }
 
     &__img {
-        width: 150px;
-        flex: 1;
+        width: 250px;
+        height: 200px;
         object-fit: auto;
+        margin-bottom: 16px;
+        filter: brightness(0.5);
     }
 
     &__text-content {
         flex: 1;
-        margin-left: 8px;
         display: flex;
-        flex-direction: column;
+        align-items: center;
         justify-content: center;
+    }
 
+    h4 {
+        margin-bottom: 0 !important;
+        font-size: 16px;
     }
 
     .online-icon {
-        width: 12px;
-        height: 12px;
-        background-color: lightgreen;
+        width: 10px;
+        height: 10px;
+        background-color: rgba(82, 196, 26, 1);
+        box-shadow: 0 0 0 rgba(199, 251, 147, 0.4);
+        // box-shadow: 0 0 0 rgba(199, 251, 147, 0.4);
         border-radius: 50%;
+        margin-right: 8px;
+        position: absolute;
+        top: 8px;
+        left: 8px;
+        animation: pulse 2s infinite;
     }
 
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 rgba(199, 251, 147, 0.4);
+  }
+  70% {
+      -webkit-box-shadow: 0 0 0 8px rgba(199, 251, 147, 0);
+  }
+  100% {
+      -webkit-box-shadow: 0 0 0 0 rgba(199, 251, 147, 0);
+  }
+}
+@keyframes pulse {
+  0% {
+    -moz-box-shadow: 0 0 0 0 rgba(199, 251, 147, 0.4);
+    box-shadow: 0 0 0 0 rgba(199, 251, 147, 0.4);
+  }
+  70% {
+      -moz-box-shadow: 0 0 0 8px rgba(199, 251, 147, 0);
+      box-shadow: 0 0 0 8px rgba(199, 251, 147, 0);
+  }
+  100% {
+      -moz-box-shadow: 0 0 0 0 rgba(199, 251, 147, 0);
+      box-shadow: 0 0 0 0 rgba(199, 251, 147, 0);
+  }
 }

@@ -120,21 +120,20 @@ class OpponentSelect extends Component{
                     {/* TODO */}
                     {/* There should  be consisitency in backend between id and _id */}
                     {onlineUsers.map(({ id, name, picture }) => (
-                        <Col key={id} span={8} md={8} xs={24} className={mb1}>
-                            <div onClick={() => this.handleSelect({ _id: id, id, name, picture })}>
-                                <Card className={opponentCard} hoverable>
+                        <Col key={id} span={8} md={8} xs={12} className={mb1}>
+                            <Card className={opponentCard} hoverable>
+                                <div onClick={() => this.handleSelect({ _id: id, id, name, picture })}>
                                     <img
                                         className={opponentCardImg}
                                         src={picture}
                                         alt={`${name}`}
                                     />
                                     <div className={opponentCardTextContent}>
-                                        <Title level={4} className={mb0}>{name}</Title>
                                         <div className={onlineIcon} />
+                                        <Title level={4} className={mb0}>{name}</Title>
                                     </div>
-
-                                </Card>
-                            </div>
+                                </div>
+                            </Card>
                         </Col>
                     ))}
                 </Row>
