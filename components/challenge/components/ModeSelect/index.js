@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/no-static-element-interactions */
 /* eslint-disable jsx-a11y/click-events-have-key-events */
 import React from 'react';
-import { Row, Col, Typography, Card, Icon } from 'antd';
+import { Row, Col, Typography, Card, Icon, notification } from 'antd';
 import Router from 'next/router';
 
 import {
@@ -20,6 +20,13 @@ const { modeSelectLabel } = CHALLENGE_PAGES_HEADERS;
 const SelectMode = ({ selectMode }) => {
     
     const handleSelect = (mode, next) => {
+        if (mode === 'Solo'){
+            notification.info({
+                duration: 2,
+                message: 'Coming Soon!',
+            });
+            return;
+        }
         selectMode(mode);
         Router.push(next);
     };
