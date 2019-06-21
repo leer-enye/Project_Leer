@@ -63,13 +63,6 @@ class MyApp extends App {
     constructor(props) {
         super(props);
 
-        this.state = {
-            connected: false,
-            notificationKey: '',
-            onlineUsers: [],
-            room: '',
-        };
-
         this.socket = io();
     }
 
@@ -93,6 +86,7 @@ class MyApp extends App {
     }
 
     componentDidMount() {
+        
         const { store } = this.props;
         const { user } = store.getState().auth;
         // console.log(store.getState())
