@@ -251,10 +251,9 @@ module.exports = io => {
                 user1ReceivedScoreStatus === true &&
 				user2ReceivedScoreStatus === true
             ) {
-                const output = [];
+                const output = {};
                 scores.forEach((value, key) => {
-                    const scoreObj = { key, value };
-                    output.push(scoreObj);
+                    output[key] = value;
                 });
 
                 io.to(roomId).emit(challengeEnd, { scores: output });
