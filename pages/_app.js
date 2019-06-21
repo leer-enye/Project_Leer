@@ -45,6 +45,7 @@ const {
 } = CUSTOM_EVENTS;
 const {
     setOnlineUsersRequest,
+    setChallengeScoresRequest,
     setChallengeReqStatusRequest,
     setChallengeEndStatusRequest,
     setChallengeRoomRequest,
@@ -258,6 +259,9 @@ class MyApp extends App {
                     this.socket.emit(leaveRoom, { roomId: room });
                 };
                 console.log('challengeEnd => ', data.scores);
+                // save the scores to store
+                store.dispatch(setChallengeScoresRequest(data.scores));
+                // notify that both users have completed the challenge
                 store.dispatch(setChallengeEndStatusRequest('completed'));
             }
         });

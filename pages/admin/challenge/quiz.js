@@ -16,6 +16,7 @@ const { setCurrentQuestionRequest } = actions;
 const { Quiz } = components;
 const { getUser } = authSelectors;
 const { 
+    getChallengeScores,
     getChallengeEndStatus,
     getCurrentQuestion, 
     getQuestions, 
@@ -61,19 +62,14 @@ class QuizPage extends Component {
     }
 
     componentDidUpdate(prevProps){
-        const { challengeEndStatus } = this.props;
+        const { challengeScores } = this.props;
         
-        if (prevProps.challengeEndStatus === challengeEndStatus) {
-            return;
-        }
+        if (prevProps.challengeScores === null && challengeScores ){
+            console.log('previous challengeScores is => ', prevProps.challengeScores);
+            console.log('current challengeScores is => ', challengeScores);    
 
-        if (prevProps.challengeEndStatus !== challengeEndStatus){
-            // console.log('previous challengeEndStatus is => ', prevProps.challengeEndStatus)
-            // console.log('current challengeEndStatus is => ', challengeEndStatus)
-
-            if( challengeEndStatus === 'completed' ){
-                Router.push(challengeResultLink);   
-            }
+            Router.replace(challengeResultLink);
+             
         }
     }
 
@@ -143,10 +139,11 @@ class QuizPage extends Component {
             return this.setState({ seconds: 15  }, () => this.startTimer());
         }
 
-        // if all questions have been answered, redirect to result page
+        // if all questions have been answered, submit score to backend and
+        // clear timer
+        clearInterval(this.timer);
         return this.setState({ quizActive: false, quizEnded: true, seconds: 0 }, () => {
             console.log('got to end of the quiz');
-            clearInterval(this.timer);
             submitScore({ score, userId: user._id });
         });
     }
@@ -154,7 +151,7 @@ class QuizPage extends Component {
     render(){
         const { seconds, quizEnded } = this.state;
         const { questions, currentQuestionIndex, challengers } = this.props;
-        
+
         return ( 
             <Row type={FLEX_ROW_TYPE} justify={FLEX_ROW_JUSTIFY_CENTER}>
                 <Col span={18} md={18} xs={22}>
@@ -181,6 +178,7 @@ const mapDispatchToProps = dispatch => ({
 
 const mapStateToProps = state => ({
     challengeEndStatus: getChallengeEndStatus(state),
+    challengeScores: getChallengeScores(state),
     challengers: [getUser(state), getSelectedOpponent(state)],
     currentQuestionIndex: getCurrentQuestion(state),
     questions: getQuestions(state),

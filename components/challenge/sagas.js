@@ -8,6 +8,7 @@ import {
     selectModeAction,
     selectOpponentAction,
     setOnlineUsersAction,
+    setChallengeScoresAction,
     setChallengeReqStatusAction,
     setChallengeEndStatusAction,
     setChallengeRoomAction,
@@ -21,6 +22,7 @@ import {
     SELECT_MODE_ACTION_TYPES,
     SELECT_OPPONENT_ACTION_TYPES,
     SET_ONLINE_USERS_ACTION_TYPES,
+    SET_CHALLENGE_SCORES_ACTION_TYPES,
     SET_CHALLENGE_REQ_STATUS_ACTION_TYPES,
     SET_CHALLENGE_END_STATUS_ACTION_TYPES,
     SET_CHALLENGE_ROOM_ACTION_TYPES,
@@ -36,6 +38,7 @@ const { SELECT_COURSE_REQUEST } = SELECT_COURSE_ACTION_TYPES;
 const { SELECT_MODE_REQUEST } = SELECT_MODE_ACTION_TYPES;
 const { SELECT_OPPONENT_REQUEST } = SELECT_OPPONENT_ACTION_TYPES;
 const { SET_ONLINE_USERS_REQUEST } = SET_ONLINE_USERS_ACTION_TYPES;
+const { SET_CHALLENGE_SCORES_REQUEST } = SET_CHALLENGE_SCORES_ACTION_TYPES;
 const { SET_CHALLENGE_REQ_STATUS_REQUEST } = SET_CHALLENGE_REQ_STATUS_ACTION_TYPES;
 const { SET_CHALLENGE_END_STATUS_REQUEST } = SET_CHALLENGE_END_STATUS_ACTION_TYPES;
 const { SET_CHALLENGE_ROOM_REQUEST } = SET_CHALLENGE_ROOM_ACTION_TYPES;
@@ -136,6 +139,15 @@ function* setCurrentQuestion(action){
 function* setQuestions(action) {
     try {
         yield put(setQuestionsAction(action.payload));
+    }
+    catch (e) {
+        //
+    }
+}
+
+function* setChallengeScores(action) {
+    try {
+        yield put(setChallengeScoresAction(action.payload));
     }
     catch (e) {
         //
@@ -244,6 +256,15 @@ function* watchSetQuestions() {
     }
 }
 
+function* watchSetChallengeScores() {
+    try {
+        yield takeLatest(SET_CHALLENGE_SCORES_REQUEST, setChallengeScores);
+    }
+    catch (e) {
+        //
+    }
+}
+
 function* watchUpdateChallengeStore(){
     try {
         yield takeLatest(UPDATE_CHALLENGE_STORE_REQUEST, updateChallengeStore);
@@ -260,6 +281,7 @@ export default function* (){
         watchSelectMode(),
         watchSelectOpponent(),
         watchSetOnlineUsers(),
+        watchSetChallengeScores(),
         watchSetChallengeReqStatus(),
         watchSetChallengeEndStatus(),
         watchSetChallengeRoom(),

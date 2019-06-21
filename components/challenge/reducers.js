@@ -4,6 +4,7 @@ import {
     SELECT_MODE_ACTION_TYPES,
     SELECT_OPPONENT_ACTION_TYPES,
     SET_ONLINE_USERS_ACTION_TYPES,
+    SET_CHALLENGE_SCORES_ACTION_TYPES,
     SET_CHALLENGE_REQ_STATUS_ACTION_TYPES,
     SET_CHALLENGE_ROOM_ACTION_TYPES,
     SET_CURRENT_QUESTION_ACTION_TYPES,
@@ -17,6 +18,7 @@ const { SELECT_COURSE } = SELECT_COURSE_ACTION_TYPES;
 const { SELECT_MODE } = SELECT_MODE_ACTION_TYPES;
 const { SELECT_OPPONENT } = SELECT_OPPONENT_ACTION_TYPES;
 const { SET_ONLINE_USERS } = SET_ONLINE_USERS_ACTION_TYPES;
+const { SET_CHALLENGE_SCORES } = SET_CHALLENGE_SCORES_ACTION_TYPES;
 const { SET_CHALLENGE_REQ_STATUS } = SET_CHALLENGE_REQ_STATUS_ACTION_TYPES;
 const { SET_CHALLENGE_END_STATUS } = SET_CHALLENGE_END_STATUS_ACTION_TYPES;
 const { SET_CHALLENGE_ROOM } = SET_CHALLENGE_ROOM_ACTION_TYPES;
@@ -38,6 +40,7 @@ const initialState = {
     currentQuestion: 0,
     onlineUsers: [],
     questions: [],
+    scores: null,
     selectedCourse: null,
     selectedMode: null,
     selectedOpponent: null,
@@ -109,6 +112,12 @@ export default (state = initialState, action) => {
         return {
             ...state,
             questions: action.payload,
+        };
+    
+    case SET_CHALLENGE_SCORES:
+        return {
+            ...state,
+            scores: action.payload,
         };
     
     // update details such as

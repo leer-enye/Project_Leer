@@ -4,6 +4,7 @@ import {
     SELECT_MODE_ACTION_TYPES,
     SELECT_OPPONENT_ACTION_TYPES,
     SET_ONLINE_USERS_ACTION_TYPES,
+    SET_CHALLENGE_SCORES_ACTION_TYPES,
     SET_CHALLENGE_REQ_STATUS_ACTION_TYPES,
     SET_CHALLENGE_END_STATUS_ACTION_TYPES,
     SET_CHALLENGE_ROOM_ACTION_TYPES,
@@ -67,6 +68,11 @@ const {
     SET_QUESTIONS,
     SET_QUESTIONS_REQUEST,
 } = SET_QUESTIONS_ACTION_TYPES;
+
+const {
+    SET_CHALLENGE_SCORES,
+    SET_CHALLENGE_SCORES_REQUEST,
+} = SET_CHALLENGE_SCORES_ACTION_TYPES;
 
 export const fetchCoursesRequest = () => ({
     type: FETCH_COURSES_REQUEST,
@@ -183,10 +189,22 @@ export const setCurrentQuestionAction = question => ({
 // quiz component
 export const setQuestionsRequest = questions => ({
     payload: questions,
-    type: SET_QUESTIONS,
+    type: SET_QUESTIONS_REQUEST,
 });
 
 export const setQuestionsAction = questions => ({
     payload: questions,
-    type: SET_QUESTIONS_REQUEST,
+    type: SET_QUESTIONS,
+});
+
+// for setting challenge scores once both users have
+// finished the quiz
+export const setChallengeScoresRequest = scores => ({
+    payload: scores,
+    type: SET_CHALLENGE_SCORES_REQUEST,
+});
+
+export const setChallengeScoresAction = scores => ({
+    payload: scores,
+    type: SET_CHALLENGE_SCORES,
 });
