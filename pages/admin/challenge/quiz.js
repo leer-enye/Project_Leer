@@ -67,8 +67,8 @@ class QuizPage extends Component {
         if (prevProps.challengeScores === null && challengeScores) {
             console.log('previous challengeScores is => ', prevProps.challengeScores);
             console.log('current challengeScores is => ', challengeScores);
-            // Router.replace(challengeResultLink);
-            Router.replace('/');
+            return Router.replace(challengeResultLink);
+            // Router.replace('/');
         }
     }
 
