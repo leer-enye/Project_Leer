@@ -70,7 +70,7 @@ class QuizPage extends Component {
         if (prevProps.challengeScores === null && challengeScores) {
             console.log('previous challengeScores is => ', prevProps.challengeScores);
             console.log('current challengeScores is => ', challengeScores);
-            Router.replace(challengeResultLink);
+            setTimeout(() => Router.replace(challengeResultLink), 1500);
         }
     }
 
