@@ -71,7 +71,11 @@ const ChallengeResult = ({ challengers, challengeScores  }) => {
                                 <img src={picture} alt={name} />
                                 <div className=''>
                                     <h3 className={challengerInfoName}>{name}</h3>
-                                    <p className={challengerInfoScore}>{challengeScores[_id || id]}</p>
+                                    <p 
+                                        className={challengerInfoScore}
+                                    >
+                                        {challengeScores[_id || id]}
+                                    </p>
                                 </div>
                             </div>
                             {
@@ -88,7 +92,7 @@ const ChallengeResult = ({ challengers, challengeScores  }) => {
             <Title level={4}> {greatGame} </Title>
             <div>
                 <Link href='/admin/challenge'>
-                    <Button >{backToHome}</Button>
+                    <Button type={BUTTON_TYPE_PRIMARY} >{backToHome}</Button>
                 </Link>
             </div>
         </div>

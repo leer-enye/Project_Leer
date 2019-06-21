@@ -1,12 +1,11 @@
 
-import { Row, Col, Avatar, Typography } from 'antd';
+import { Row, Col, Avatar } from 'antd';
 import moment from 'moment';
 import React from 'react';
 
 import * as constants from "../../constants";
 import './index.scss';
 
-const { Title } = Typography;
 const {
     CLASS_NAMES: {
         card,
@@ -38,7 +37,7 @@ const generateComponent = ( name, user ) => {
 };
 
 const ViewProfile = ({ user }) => {
-    const { score, username, picture } = user;
+    const { username, picture } = user;
     return ( 
         <Row className={`${card}`}> 
             <Col span={20} md={{ offset: 2, span: 18  }}>
@@ -47,7 +46,6 @@ const ViewProfile = ({ user }) => {
                         <Avatar src={picture} size={150}>
                             {username ? username[0].toUpperCase(): ''}
                         </Avatar>
-                        <Title level={4}>{`${VIEW_PROFILE_FIELDS[0].label}: ${score} `}</Title>
                     </Col>
                     <Col span={24} className={`${mb2}`}>                        
                         {

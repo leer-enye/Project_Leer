@@ -87,7 +87,7 @@ class MyApp extends App {
 
     componentDidMount() {
 
-        Router.events.on('routeChangeError', (err) => {
+        Router.events.on('routeChangeError', err => {
             console.log('Router error ==>', err);
         });
         
@@ -97,14 +97,6 @@ class MyApp extends App {
         if (user) {
             this.handleSocket(user);
         }
-    }
-
-    componentWillUnmount() {
-        // this.socket.off(challengeStart);
-        // this.socket.off(challengeRequest);
-        // this.socket.off(users);
-        // this.socket.off(ackChallengeRequest);
-        // this.socket.off(challengeEnd);
     }
 
     getNextQuestion() {

@@ -21,7 +21,7 @@ class SelectModePage extends React.Component{
 
     render(){
         const { selectMode } = this.props;
-        return <ModeSelect selectMode={selectMode} next={opponentSelectLink} />    
+        return <ModeSelect selectMode={selectMode} next={opponentSelectLink} />;    
     }
 }
 
