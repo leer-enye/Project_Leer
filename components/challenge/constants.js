@@ -48,7 +48,6 @@ export const CLASS_NAMES = {
     challengerInfoScore: 'challenger-info__score',
     challengersBox: 'challengers-box',
     courseCard: 'course-card',
-    loser: 'loser',
     mb1: 'mb-1',
     mb4: 'mb-4',
     modeCard: 'mode-card',
@@ -71,7 +70,6 @@ export const CLASS_NAMES = {
     timerLabel: 'timer__label',
     timerTime: 'timer__time',
     vsDivider: 'vs-divider',
-    winner: 'winner',
 };
 
 export const DEFAULT_PROPS = {
@@ -82,23 +80,22 @@ export const DEFAULT_PROPS = {
         ],
     },
     challengeResult: {
+        defaultChallengeScores: {
+            1: 200,
+            2: 150,
+        },
         defaultChallengers: [
             { 
-                id: 1,
-                image: '/static/images/uche.jpg',
-                score: 120, 
-                status: 'win', 
-                username: 'Uche',
+                _id: 1,
+                name: 'Uche',
+                picture: '/static/images/uche.jpg',
             },
             { 
-                id: 2, 
-                image: '/static/images/uche.jpg', 
-                score: 100, 
-                status: 'lose', 
-                username: 'Manny',
+                _id: 2, 
+                name: 'Manny',
+                picture: '/static/images/uche.jpg', 
             },
         ],
-        defaultResultInfo: 'YOU WON',
     },
     courseSelect: {
         subjects: [

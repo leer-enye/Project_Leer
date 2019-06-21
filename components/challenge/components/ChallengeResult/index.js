@@ -1,5 +1,6 @@
 import React from 'react';
 import { Typography, Button } from 'antd';
+import Link from 'next/link';
 
 import * as constants from '../../constants';
 import './index.scss';
@@ -9,8 +10,8 @@ const {
     BUTTON_TYPE_PRIMARY,
     DEFAULT_PROPS: { 
         challengeResult: {
+            defaultChallengeScores,
             defaultChallengers,
-            defaultResultInfo,
         },
     },
     CLASS_NAMES: {
@@ -18,13 +19,11 @@ const {
         challengerInfoName,
         challengerInfoScore,
         challengersBox,
-        loser,
         mb1,
         mr1,
         resultCard,
         textCenter,
         vsDivider,
-        winner,
     },
     EXTRA_TEXTS: { 
         greatGame, 
@@ -34,42 +33,77 @@ const {
     }, 
 } = constants;
 
-const ChallengeResult = ({ challengers, resultInfo }) => (
-    <div className={resultCard}>
-        <Title className={textCenter} level={2}> {resultInfo} </Title>
-        <div className={challengersBox}>
-            {
-                challengers.map(({ id, image, score, status, username }, index) => (
-                    <React.Fragment key={id}>
-                        <div className={`${challengerInfo} ${(status === 'win') ? winner: loser}`}>
-                            <img src={image} alt={username} />
-                            <div className=''>
-                                <h3 className={challengerInfoName}>{username}</h3>
-                                <p className={challengerInfoScore}>{score}</p>
+const ChallengeResult = ({ challengers, challengeScores  }) => {
+    const userScore = challengeScores[challengers[0]._id];
+    const opponentScore = challengeScores[challengers[1]._id];
+
+    // oppStatus is hacky, fix this later
+    let status;
+    let oppStatus;
+    let resultInfo;
+    if (userScore > opponentScore){
+        status = 'win';
+        oppStatus = 'lose';
+        resultInfo = 'YOU WON';
+    }
+    else if (userScore === opponentScore){
+        status = 'draw';
+        oppStatus = 'draw';
+        resultInfo = 'YOU DREW';
+    }
+    else {
+        status = 'lose';
+        oppStatus = 'win';
+        resultInfo = 'YOU LOST';
+    }
+
+    return (
+        <div className={resultCard}>
+            <Title className={textCenter} level={2}> {resultInfo} </Title>
+            <div className={challengersBox}>
+                {
+                    challengers.map(({ _id, picture, name }, index) => (
+                        <React.Fragment key={_id}>
+                            <div className={
+                                `${challengerInfo} 
+                                ${(_id === challengers[0]._id ? status: oppStatus)}`}
+                            >
+                                <img src={picture} alt={name} />
+                                <div className=''>
+                                    <h3 className={challengerInfoName}>{name}</h3>
+                                    <p className={challengerInfoScore}>{challengeScores[_id]}</p>
+                                </div>
                             </div>
-                        </div>
-                        {
-                            (index === 0) ? 
-                                <Title className={vsDivider} level={1}> 
-                                    {vs}
-                                </Title> 
-                                : null
-                        }
-                    </React.Fragment>
-                ))
-            }
+                            {
+                                (index === 0) ? 
+                                    <Title className={vsDivider} level={1}> 
+                                        {vs}
+                                    </Title> 
+                                    : null
+                            }
+                        </React.Fragment>
+                    ))
+                }
+            </div>
+            <Title level={4}> {greatGame} </Title>
+            <div>
+                <Button 
+                    type={BUTTON_TYPE_PRIMARY} 
+                    className={`${mr1} ${mb1}`}
+                >
+                    {viewResults}
+                </Button>
+                <Link to='/admin/challenge'>
+                    <Button >{backToHome}</Button>
+                </Link>
+            </div>
         </div>
-        <Title level={4}> {greatGame} </Title>
-        <div>
-            <Button type={BUTTON_TYPE_PRIMARY} className={`${mr1} ${mb1}`}>{viewResults}</Button>
-            <Button >{backToHome}</Button>
-        </div>
-    </div>
-);
+    );
+};
 
 ChallengeResult.defaultProps = {
+    challengeScores: defaultChallengeScores,
     challengers: defaultChallengers,
-    resultInfo: defaultResultInfo,
 };
 
 export default ChallengeResult;

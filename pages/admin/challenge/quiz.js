@@ -61,15 +61,13 @@ class QuizPage extends Component {
         }
     }
 
-    componentDidUpdate(prevProps){
+    componentDidUpdate(prevProps) {
         const { challengeScores } = this.props;
-        
-        if (prevProps.challengeScores === null && challengeScores ){
-            console.log('previous challengeScores is => ', prevProps.challengeScores);
-            console.log('current challengeScores is => ', challengeScores);    
 
+        if (prevProps.challengeScores === null && challengeScores) {
+            console.log('previous challengeScores is => ', prevProps.challengeScores);
+            console.log('current challengeScores is => ', challengeScores);
             Router.replace(challengeResultLink);
-             
         }
     }
 
@@ -150,7 +148,7 @@ class QuizPage extends Component {
 
     render(){
         const { seconds, quizEnded } = this.state;
-        const { questions, currentQuestionIndex, challengers } = this.props;
+        const { questions, currentQuestionIndex, challengers, challengeScores } = this.props;
 
         return ( 
             <Row type={FLEX_ROW_TYPE} justify={FLEX_ROW_JUSTIFY_CENTER}>
@@ -160,7 +158,9 @@ class QuizPage extends Component {
                         quizItem={ questions[currentQuestionIndex] } 
                         quizEnded={quizEnded}
                         onAnswer={this.onAnswerQuestion}  
-                        timeLeft={seconds} 
+                        timeLeft={seconds}
+                        challengeScores={challengeScores}
+                        challengeResultLink={challengeResultLink} 
                     />
                 </Col>
             </Row>
