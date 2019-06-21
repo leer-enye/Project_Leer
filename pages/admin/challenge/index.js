@@ -1,5 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
+import Router from 'next/router';
 
 import { components, actions, selectors } from '../../../components/challenge';
 import { constants } from '../../../components/common';
@@ -20,6 +21,11 @@ class ChallengeHome extends React.Component {
         if (courses.length === 0 ){
             fetchCourses();
         }
+    }
+
+    componentDidMount(){
+        // prefetch the next page ahead of time
+        Router.prefetch(modeSelectLink);
     }
 
     render(){

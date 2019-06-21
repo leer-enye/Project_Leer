@@ -76,7 +76,7 @@ const Quiz = ({ challengers, quizItem, timeLeft, onAnswer, quizEnded }) => (
                             <Row gutter={16}>
                                 {
                                     quizItem.options.map((value, id) => (
-                                        <Col key={`${value}_${id}`} span={12} md={12} xs={24} >
+                                        <Col key={id} span={12} md={12} xs={24} >
                                             <Card
                                                 onClick={() => onAnswer(id)}
                                                 className={quizCardOption}

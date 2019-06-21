@@ -29,8 +29,11 @@ class ChallengeInfoPage extends Component{
     }
 
     componentDidMount(){
+        // prefetch the next page ahead of time
+        Router.prefetch(quizLink);
+
         const { timerStarted }  = this.state;
-        
+
         if (!timerStarted){
             this.setState({ timerStarted: true }, () => 
                 this.startTimer()
@@ -48,8 +51,9 @@ class ChallengeInfoPage extends Component{
         
         // if time has elapsed, clear timer and move to quiz page
         if ( seconds === 0 ){
-            this.timer = 1;
             clearInterval(this.timer);
+            this.timer = 1;
+            console.log('code ran here ');
             return Router.push(quizLink);
         }
 

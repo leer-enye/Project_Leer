@@ -45,6 +45,9 @@ class QuizPage extends Component {
     }
 
     componentDidMount(){
+        // prefetch the next page ahead of time
+        Router.prefetch(challengeResultLink);
+        
         const { quizActive, quizEnded } = this.state;
         
         // if quiz has ended return 
@@ -67,8 +70,7 @@ class QuizPage extends Component {
         if (prevProps.challengeScores === null && challengeScores) {
             console.log('previous challengeScores is => ', prevProps.challengeScores);
             console.log('current challengeScores is => ', challengeScores);
-            return Router.replace(challengeResultLink);
-            // Router.replace('/');
+            Router.replace(challengeResultLink);
         }
     }
 

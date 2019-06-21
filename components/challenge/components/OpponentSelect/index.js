@@ -34,6 +34,12 @@ const NOTIFICATION_KEY = 'updatable';
 class OpponentSelect extends Component{
     state  = {}
 
+    componentDidMount(){
+        const { next } = this.props;
+        // prefetch next page on time
+        Router.prefetch(next);
+    }
+
     componentDidUpdate(prevProps){
         const { challengeReqStatus, next } = this.props;
         // if there is no change in challenge request status, return
@@ -111,10 +117,11 @@ class OpponentSelect extends Component{
                             
                         </Button>
                     </Col>
-
+                    {/* TODO */}
+                    {/* There should  be consisitency in backend between id and _id */}
                     {onlineUsers.map(({ id, name, picture }) => (
                         <Col key={id} span={8} md={8} xs={24} className={mb1}>
-                            <div onClick={() => this.handleSelect({ id, name, picture })}>
+                            <div onClick={() => this.handleSelect({ _id: id, id, name, picture })}>
                                 <Card className={opponentCard} hoverable>
                                     <img
                                         className={opponentCardImg}

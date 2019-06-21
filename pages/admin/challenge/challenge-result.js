@@ -29,7 +29,7 @@ const ChallengeResultPage = ({ challengeScores, challengers }) => (
 
 const mapStateToProps = state => ({
     challengeScores: getChallengeScores(state),
-    challenger: [getUser(state), getSelectedOpponent(state)],
+    challengers: [getUser(state), getSelectedOpponent(state)],
 });
 
 export default withAuthSync(connect(mapStateToProps, null)(ChallengeResultPage));

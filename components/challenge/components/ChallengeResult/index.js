@@ -19,15 +19,12 @@ const {
         challengerInfoName,
         challengerInfoScore,
         challengersBox,
-        mb1,
-        mr1,
         resultCard,
         textCenter,
         vsDivider,
     },
     EXTRA_TEXTS: { 
         greatGame, 
-        viewResults, 
         backToHome, 
         vs, 
     }, 
@@ -35,7 +32,7 @@ const {
 
 const ChallengeResult = ({ challengers, challengeScores  }) => {
     const userScore = challengeScores[challengers[0]._id];
-    const opponentScore = challengeScores[challengers[1]._id];
+    const opponentScore = challengeScores[challengers[1]._id || challengers[1].id];
 
     // oppStatus is hacky, fix this later
     let status;
@@ -61,8 +58,11 @@ const ChallengeResult = ({ challengers, challengeScores  }) => {
         <div className={resultCard}>
             <Title className={textCenter} level={2}> {resultInfo} </Title>
             <div className={challengersBox}>
+                {/* TODO */}
+                {/* fix the inconsistency in id and _id */}
+
                 {
-                    challengers.map(({ _id, picture, name }, index) => (
+                    challengers.map(({ id, _id, picture, name }, index) => (
                         <React.Fragment key={_id}>
                             <div className={
                                 `${challengerInfo} 
@@ -71,7 +71,7 @@ const ChallengeResult = ({ challengers, challengeScores  }) => {
                                 <img src={picture} alt={name} />
                                 <div className=''>
                                     <h3 className={challengerInfoName}>{name}</h3>
-                                    <p className={challengerInfoScore}>{challengeScores[_id]}</p>
+                                    <p className={challengerInfoScore}>{challengeScores[_id || id]}</p>
                                 </div>
                             </div>
                             {
@@ -87,13 +87,7 @@ const ChallengeResult = ({ challengers, challengeScores  }) => {
             </div>
             <Title level={4}> {greatGame} </Title>
             <div>
-                <Button 
-                    type={BUTTON_TYPE_PRIMARY} 
-                    className={`${mr1} ${mb1}`}
-                >
-                    {viewResults}
-                </Button>
-                <Link to='/admin/challenge'>
+                <Link href='/admin/challenge'>
                     <Button >{backToHome}</Button>
                 </Link>
             </div>

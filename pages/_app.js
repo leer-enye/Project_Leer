@@ -86,6 +86,10 @@ class MyApp extends App {
     }
 
     componentDidMount() {
+
+        Router.events.on('routeChangeError', (err) => {
+            console.log('Router error ==>', err);
+        });
         
         const { store } = this.props;
         const { user } = store.getState().auth;

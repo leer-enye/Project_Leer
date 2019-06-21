@@ -1,4 +1,5 @@
 import React from 'react';
+import Router from 'next/router';
 import { connect } from 'react-redux';
 
 import { components, actions } from '../../../components/challenge';
@@ -11,9 +12,18 @@ const { opponentSelectLink } = NEXT_LINKS;
 
 const { ModeSelect } = components;
 
-const SelectModePage = ({ selectMode }) => (
-    <ModeSelect selectMode={selectMode} next={opponentSelectLink} />
-);
+class SelectModePage extends React.Component{
+
+    componentDidMount(){
+        // prefetch the next page ahead of time
+        Router.prefetch(opponentSelectLink);
+    }
+
+    render(){
+        const { selectMode } = this.props;
+        return <ModeSelect selectMode={selectMode} next={opponentSelectLink} />    
+    }
+}
 
 const mapDispatchToProps = dispatch => ({
     selectMode: data => dispatch(selectModeRequest(data)),
