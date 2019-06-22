@@ -30,7 +30,7 @@ import {
     SET_CURRENT_QUESTION_ACTION_TYPES,
     SET_QUESTIONS_ACTION_TYPES,
     RESET_CHALLENGE_STORE_ACTION_TYPES,
-    UPDATE_CHALLENGE_STORE_ACTION_TYPES,
+    UPDATE_CHALLENGE_STORE_ACTION_TYPES
 } from './actionTypes';
 import { selectors } from '../auth';
 import { FETCH_COURSES_URL } from './constants';

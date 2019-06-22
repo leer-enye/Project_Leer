@@ -9,10 +9,10 @@ import {
     FLEX_ROW_JUSTIFY_CENTER,
     FLEX_ROW_TYPE
 } from "../../constants";
-import { DUMMY_PARAGRAPH } from '../../../common/constants';
+// import { DUMMY_PARAGRAPH } from '../../../common/constants';
 import './index.scss';
 
-const { Title, Paragraph } = Typography;
+const { Title } = Typography;
 const { challengeInfoLabel } = CHALLENGE_PAGES_HEADERS;
 const {
     challengerInfo,

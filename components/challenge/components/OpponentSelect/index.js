@@ -122,7 +122,11 @@ class OpponentSelect extends Component{
                     {onlineUsers.map(({ id, name, picture }) => (
                         <Col key={id} span={8} md={8} xs={12} className={mb1}>
                             <Card className={opponentCard} hoverable>
-                                <div onClick={() => this.handleSelect({ _id: id, id, name, picture })}>
+                                <div 
+                                    onClick={
+                                        () => this.handleSelect({ _id: id, id, name, picture })
+                                    }
+                                >
                                     <img
                                         className={opponentCardImg}
                                         src={picture}
