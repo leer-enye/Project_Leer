@@ -218,6 +218,7 @@ module.exports = io => {
         socket.on(getQuestions, async data => {
             const { roomId } = data;
             const challenge = roomChallenge.get(roomId);
+            console.log(challenge);
             const { subject, loadingState } = challenge;
             const { _id: subjectId } = subject;
             if (loadingState === notLoaded) {
