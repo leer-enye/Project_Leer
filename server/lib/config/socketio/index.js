@@ -283,7 +283,9 @@ module.exports = io => {
                     roomChallenge.delete(roomId);
                     availableUsers.set(peerId, peer);
                     availableUsers.set(userId, user);
-                    io.to(roomId).emit(challengeEnd, { scores: output });
+                    [socket, peerSocket].forEach(item =>
+                        item.emit(challengeEnd, { scores: output }));
+                    // io.to(roomId).emit(challengeEnd, { scores: output });
                 }
             }
         });
