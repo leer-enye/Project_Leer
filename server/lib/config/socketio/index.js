@@ -263,12 +263,14 @@ module.exports = io => {
                     user1ReceivedScoreStatus === true &&
 					user2ReceivedScoreStatus === true
                 ) {
+
                     const output = {};
                     scores.forEach((value, key) => {
                         output[key] = value;
                     });
 
                     console.log("both score submitted");
+                    console.log(challenge);
                     io.to(roomId).emit(challengeEnd, { scores: output });
                     const { name, picture } = socketUsers.get(socketId);
                     const user = new User(userId, name, picture, socketId);
