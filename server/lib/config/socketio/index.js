@@ -274,16 +274,16 @@ module.exports = io => {
                     const [partyA, partyB] = roomId.split('#');
                     const peerId = partyA === userId ? partyB : partyA;
                     const peer = allUsers.get(peerId);
-                    const { socketId: peerSocketId } = peer;
-                    const peerSocket = allSockets.get(peerSocketId);
-                    [socket, peerSocket].forEach(item => item.leave(roomId));
+                    // const { socketId: peerSocketId } = peer;
+                    // const peerSocket = allSockets.get(peerSocketId);
+                    io.to(roomId).emit(challengeEnd, { scores: output });
+                    // [socket, peerSocket].forEach(item => item.leave(roomId));
                     [userId, peerId].forEach(item => rooms.delete(item));
                     roomChallenge.delete(roomId);
                     availableUsers.set(peerId, peer);
                     availableUsers.set(userId, user);
-                    [socket, peerSocket].forEach(item =>
-                        item.emit(challengeEnd, { scores: output }));
-                    // io.to(roomId).emit(challengeEnd, { scores: output });
+                    // [socket, peerSocket].forEach(item =>
+                    //    item.emit(challengeEnd, { scores: output }));
                 }
             }
         });
