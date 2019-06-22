@@ -249,8 +249,10 @@ module.exports = io => {
 
         socket.on(submitScore, data => {
             const { roomId, score, userId } = data;
+            console.log(roomId);
             const { id: socketId } = socket;
             const challenge = roomChallenge.get(roomId);
+            console.log(challenge);
             if (challenge) {
                 challenge.submitScore(userId, score);
                 const { scores, scoresReceivedStatus } = challenge;
