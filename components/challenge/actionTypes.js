@@ -46,6 +46,13 @@ export const UPDATE_CHALLENGE_STORE_ACTION_TYPES = {
     UPDATE_CHALLENGE_STORE_REQUEST: 'UPDATE_CHALLENGE_STORE_REQUEST',
 };
 
+// reset challenge store at the end of each challenge 
+// to cater for a new one
+export const RESET_CHALLENGE_STORE_ACTION_TYPES = {
+    RESET_CHALLENGE_STORE: 'RESET_CHALLENGE_STORE',
+    RESET_CHALLENGE_STORE_REQUEST: 'RESET_CHALLENGE_STORE_REQUEST',
+};
+
 // actions for setting the question to be displayed in quiz component
 export const SET_CURRENT_QUESTION_ACTION_TYPES = {
     SET_CURRENT_QUESTION: 'SET_CURRENT_QUESTION',

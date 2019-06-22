@@ -10,7 +10,8 @@ import {
     SET_CHALLENGE_ROOM_ACTION_TYPES,
     SET_CURRENT_QUESTION_ACTION_TYPES,
     SET_QUESTIONS_ACTION_TYPES,
-    UPDATE_CHALLENGE_STORE_ACTION_TYPES
+    RESET_CHALLENGE_STORE_ACTION_TYPES,
+    UPDATE_CHALLENGE_STORE_ACTION_TYPES,
 } from './actionTypes';
 
 const {
@@ -58,6 +59,11 @@ const {
     UPDATE_CHALLENGE_STORE,
     UPDATE_CHALLENGE_STORE_REQUEST,
 } = UPDATE_CHALLENGE_STORE_ACTION_TYPES;
+
+const {
+    RESET_CHALLENGE_STORE,
+    RESET_CHALLENGE_STORE_REQUEST,
+} = RESET_CHALLENGE_STORE_ACTION_TYPES;
 
 const {
     SET_CURRENT_QUESTION,
@@ -171,6 +177,18 @@ export const updateChallengeStoreRequest = data => ({
 export const updateChallengeStoreAction = data => ({
     payload: data,
     type: UPDATE_CHALLENGE_STORE,
+});
+
+// reset the store of the challengee with
+// challenge details from challenger
+export const resetChallengeStoreRequest = data => ({
+    payload: data,
+    type: RESET_CHALLENGE_STORE_REQUEST,
+});
+
+export const resetChallengeStoreAction = data => ({
+    payload: data,
+    type: RESET_CHALLENGE_STORE,
 });
 
 // for setting the current challenge question displayed in
