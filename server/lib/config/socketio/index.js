@@ -218,7 +218,6 @@ module.exports = io => {
         socket.on(getQuestions, async data => {
             const { roomId } = data;
             const challenge = roomChallenge.get(roomId);
-            console.log(challenge);
             const { subject, loadingState } = challenge;
             const { _id: subjectId } = subject;
             if (loadingState === notLoaded) {
@@ -269,6 +268,7 @@ module.exports = io => {
                         output[key] = value;
                     });
 
+                    console.log("both score submitted");
                     io.to(roomId).emit(challengeEnd, { scores: output });
                     const { name, picture } = socketUsers.get(socketId);
                     const user = new User(userId, name, picture, socketId);
