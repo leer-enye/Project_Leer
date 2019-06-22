@@ -14,6 +14,7 @@ import {
     setChallengeRoomAction,
     setCurrentQuestionAction,
     setQuestionsAction,
+    resetChallengeStoreAction,
     updateChallengeStoreAction
 } from './actions';
 import {
@@ -28,7 +29,8 @@ import {
     SET_CHALLENGE_ROOM_ACTION_TYPES,
     SET_CURRENT_QUESTION_ACTION_TYPES,
     SET_QUESTIONS_ACTION_TYPES,
-    UPDATE_CHALLENGE_STORE_ACTION_TYPES
+    RESET_CHALLENGE_STORE_ACTION_TYPES,
+    UPDATE_CHALLENGE_STORE_ACTION_TYPES,
 } from './actionTypes';
 import { selectors } from '../auth';
 import { FETCH_COURSES_URL } from './constants';
@@ -44,6 +46,7 @@ const { SET_CHALLENGE_END_STATUS_REQUEST } = SET_CHALLENGE_END_STATUS_ACTION_TYP
 const { SET_CHALLENGE_ROOM_REQUEST } = SET_CHALLENGE_ROOM_ACTION_TYPES;
 const { SET_CURRENT_QUESTION_REQUEST } = SET_CURRENT_QUESTION_ACTION_TYPES;
 const { SET_QUESTIONS_REQUEST } = SET_QUESTIONS_ACTION_TYPES;
+const { RESET_CHALLENGE_STORE_REQUEST } = RESET_CHALLENGE_STORE_ACTION_TYPES;
 const { UPDATE_CHALLENGE_STORE_REQUEST } = UPDATE_CHALLENGE_STORE_ACTION_TYPES;
 const { getUser } = selectors;
 
@@ -163,6 +166,15 @@ function* updateChallengeStore(action) {
     }
 };
 
+function* resetChallengeStore() {
+    try {
+        yield put(resetChallengeStoreAction());
+    }
+    catch (e) {
+        //
+    }
+};
+
 // WATCHERS
 
 function* watchFetchCourses(){
@@ -274,6 +286,15 @@ function* watchUpdateChallengeStore(){
     }
 }
 
+function* watchResetChallengeStore() {
+    try {
+        yield takeLatest(RESET_CHALLENGE_STORE_REQUEST, resetChallengeStore);
+    }
+    catch (e) {
+        //
+    }
+}
+
 export default function* (){
     yield all([
         watchFetchCourses(),
@@ -287,6 +308,7 @@ export default function* (){
         watchSetChallengeRoom(),
         watchSetCurrentQuestion(),
         watchSetQuestions(),
+        watchResetChallengeStore(),
         watchUpdateChallengeStore(),
     ]);
 }

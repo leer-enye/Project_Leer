@@ -181,13 +181,11 @@ export const updateChallengeStoreAction = data => ({
 
 // reset the store of the challengee with
 // challenge details from challenger
-export const resetChallengeStoreRequest = data => ({
-    payload: data,
+export const resetChallengeStoreRequest = () => ({
     type: RESET_CHALLENGE_STORE_REQUEST,
 });
 
-export const resetChallengeStoreAction = data => ({
-    payload: data,
+export const resetChallengeStoreAction = () => ({
     type: RESET_CHALLENGE_STORE,
 });
 

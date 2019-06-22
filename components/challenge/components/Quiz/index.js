@@ -83,6 +83,7 @@ const Quiz = ({ challengers, quizItem, timeLeft, onAnswer, quizEnded }) => (
                                                 hoverable
                                             >
                                                 <div 
+                                                    style={{ fontSize: 16 }}
                                                     dangerouslySetInnerHTML={{ __html: value }}
                                                 >
 

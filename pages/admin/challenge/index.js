@@ -6,7 +6,7 @@ import { components, actions, selectors } from '../../../components/challenge';
 import { constants } from '../../../components/common';
 import withAuthSync from '../../../hocs/withAuthSync';
 
-const { fetchCoursesRequest ,selectCourseRequest } = actions;
+const { fetchCoursesRequest , resetChallengeStoreRequest ,selectCourseRequest } = actions;
 const { NEXT_LINKS } = constants;
 const { modeSelectLink } = NEXT_LINKS;
 const { CourseSelect } = components;
@@ -24,6 +24,12 @@ class ChallengeHome extends React.Component {
     }
 
     componentDidMount(){
+        const { resetChallengeStore } = this.props;
+
+        // clear challenge store once challenge has ended,
+        // majorly questions and currentQuestion
+        resetChallengeStore();
+
         // prefetch the next page ahead of time
         Router.prefetch(modeSelectLink);
     }
@@ -40,6 +46,7 @@ const mapStateToProps = state => ({
 
 const mapDispatchToProps = dispatch => ({
     fetchCourses: () => dispatch(fetchCoursesRequest()),
+    resetChallengeStore: () => dispatch(resetChallengeStoreRequest()),
     selectCourse: data => dispatch(selectCourseRequest(data)),
 });
  

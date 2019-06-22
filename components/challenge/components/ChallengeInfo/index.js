@@ -63,9 +63,10 @@ const ChallengeInfo = ({ challengers, timeLeft }) => (
             </Col>
             <Col span={16}>
                 <Title level={3}> {details} </Title>
-                <Paragraph className={mb2}>
+                <Title className={`${mb2} ${textCenter}`} level={4}> STARTING IN  </Title>
+                {/* <Paragraph className={mb2}>
                     {DUMMY_PARAGRAPH}
-                </Paragraph>
+                </Paragraph> */}
                 <div className={textCenter}>
                     <Progress
                         type='circle'

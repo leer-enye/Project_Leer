@@ -16,16 +16,30 @@ const {
 } = constants;
 const { ChallengeResult } = components;
 
-const ChallengeResultPage = ({ challengeScores, challengers }) => (
-    <Row type={FLEX_ROW_TYPE} justify={FLEX_ROW_JUSTIFY_CENTER}>
-        <Col span={18} md={18} xs={24}>
-            <ChallengeResult 
-                challengeScores={challengeScores}
-                challengers={challengers}
-            />
-        </Col>
-    </Row>
-);
+class ChallengeResultPage extends React.Component {
+
+    componentDidMount(){
+        // const { resetChallengeStore } = this.props;
+
+        // // clear challenge store once challenge has ended,
+        // // majorly questions and currentQuestion
+        // resetChallengeStore();
+    }
+
+    render(){
+        const { challengeScores, challengers } = this.props;
+        return (
+            <Row type={FLEX_ROW_TYPE} justify={FLEX_ROW_JUSTIFY_CENTER}>
+                <Col span={18} md={18} xs={24}>
+                    <ChallengeResult
+                        challengeScores={challengeScores}
+                        challengers={challengers}
+                    />
+                </Col>
+            </Row>
+        );
+    }
+};
 
 const mapStateToProps = state => ({
     challengeScores: getChallengeScores(state),

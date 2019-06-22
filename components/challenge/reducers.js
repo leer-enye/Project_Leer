@@ -9,6 +9,7 @@ import {
     SET_CHALLENGE_ROOM_ACTION_TYPES,
     SET_CURRENT_QUESTION_ACTION_TYPES,
     SET_QUESTIONS_ACTION_TYPES,
+    RESET_CHALLENGE_STORE_ACTION_TYPES,
     UPDATE_CHALLENGE_STORE_ACTION_TYPES,
     SET_CHALLENGE_END_STATUS_ACTION_TYPES
 } from './actionTypes';
@@ -24,6 +25,7 @@ const { SET_CHALLENGE_END_STATUS } = SET_CHALLENGE_END_STATUS_ACTION_TYPES;
 const { SET_CHALLENGE_ROOM } = SET_CHALLENGE_ROOM_ACTION_TYPES;
 const { SET_CURRENT_QUESTION } = SET_CURRENT_QUESTION_ACTION_TYPES;
 const { SET_QUESTIONS } = SET_QUESTIONS_ACTION_TYPES;
+const { RESET_CHALLENGE_STORE } = RESET_CHALLENGE_STORE_ACTION_TYPES;
 const { UPDATE_CHALLENGE_STORE } = UPDATE_CHALLENGE_STORE_ACTION_TYPES;
 
 const initialState = {
@@ -127,6 +129,19 @@ export default (state = initialState, action) => {
         return {
             ...state,
             ...action.payload,
+        };
+
+    // resets challenge info
+    // after challenge has ended
+    case RESET_CHALLENGE_STORE:
+        return {
+            ...state,
+            challengeReqStatus: null,
+            challengeRoom: null,
+            currentQuestion: 0,
+            questions: [],
+            // selectedCourse: null,
+            // selectedMode: null,
         };
 
     default:
