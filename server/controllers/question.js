@@ -54,8 +54,8 @@ exports.create = async (req, res) => {
 // Retrieve and return all question from the database.
 exports.findAll = async (req, res) => {
     try {
-        console.log(req.params);
-        const { limit, subjectId: subject } = req.params;
+        console.log(req.query);
+        const { limit, subjectId: subject } = req.query;
         const { ObjectId } = Types;
         const filter = subject ? { subjectId: new ObjectId(subject) } : {};
         console.log(filter);
@@ -189,7 +189,7 @@ exports.delete = async (req, res) => {
 // Retrieve and return all question from the database.
 exports.findRandom = async (req, res) => {
     try {
-        const { limit, subjectId } = req.params;
+        const { limit, subjectId } = req.query;
         const { ObjectId } = Types;
         const options = [];
 
