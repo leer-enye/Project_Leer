@@ -202,7 +202,7 @@ exports.findRandom = async (req, res) => {
 
         const randomSamplingSize = {
             $sample: {
-                size: limit || 10,
+                size: limit ? Number(limit) : 10,
             },
         };
         options.push(randomSamplingSize);
