@@ -249,10 +249,9 @@ module.exports = io => {
 
         socket.on(submitScore, data => {
             const { roomId, score, userId } = data;
-            console.log(roomId);
+            console.log(data);
             const { id: socketId } = socket;
             const challenge = roomChallenge.get(roomId);
-            console.log(challenge);
             if (challenge) {
                 challenge.submitScore(userId, score);
                 const { scores, scoresReceivedStatus } = challenge;
@@ -269,7 +268,6 @@ module.exports = io => {
                     });
 
                     console.log('both score submitted');
-                    console.log(challenge);
                     console.log(output);
                     const { name, picture } = socketUsers.get(socketId);
                     const user = new User(userId, name, picture, socketId);
