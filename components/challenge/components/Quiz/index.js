@@ -33,7 +33,7 @@ const Quiz = ({ challengers, quizItem, timeLeft, onAnswer, quizEnded }) => (
     <div className={quizCard}>
         <header className={quizCardHeader}>
             {
-                challengers.map(({ _id, picture, score, name }, index) => (
+                challengers.map(({ _id, picture, name }, index) => (
                     <React.Fragment key={_id}>
                         <div 
                             className={`${challengerInfo} ${(index === 1) ? challengerInfo1 : ''}`}
@@ -41,7 +41,6 @@ const Quiz = ({ challengers, quizItem, timeLeft, onAnswer, quizEnded }) => (
                             <img src={picture} alt={name} />
                             <div>
                                 <h3>{name}</h3>
-                                <p>{score || 0 }</p>
                             </div>
                         </div>
                         {
