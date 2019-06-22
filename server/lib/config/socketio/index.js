@@ -271,6 +271,7 @@ module.exports = io => {
 
                     console.log("both score submitted");
                     console.log(challenge);
+                    console.log(output);
                     io.to(roomId).emit(challengeEnd, { scores: output });
                     const { name, picture } = socketUsers.get(socketId);
                     const user = new User(userId, name, picture, socketId);
