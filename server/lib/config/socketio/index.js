@@ -248,8 +248,8 @@ module.exports = io => {
         });
 
         socket.on(submitScore, data => {
-            const { roomId, score, userId } = data;
             console.log(data);
+            const { roomId, score, userId } = data;
             const { id: socketId } = socket;
             const challenge = roomChallenge.get(roomId);
             if (challenge) {
