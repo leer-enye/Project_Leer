@@ -61,7 +61,16 @@ module.exports = io => {
             sendAvailableUserList(socket);
         });
         socket.on(getUser, () => {
-            sendAvailableUserList(socket);
+            const userMapClone = new Map(availableUsers);
+            const { id: socketId } = socket;
+            const { id: userId } = socketUsers.get(socketId);
+            userMapClone.delete(userId);
+            const otherUsers = [...userMapClone.values()];
+            const onlineUsers = [...allUsers.values()];
+            socket.emit(users, {
+                availableUsers: otherUsers,
+                users: onlineUsers,
+            });
         });
         socket.on(message, data => {
             const { id: socketId } = socket;
