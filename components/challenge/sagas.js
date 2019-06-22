@@ -30,7 +30,7 @@ import {
     SET_CURRENT_QUESTION_ACTION_TYPES,
     SET_QUESTIONS_ACTION_TYPES,
     RESET_CHALLENGE_STORE_ACTION_TYPES,
-    UPDATE_CHALLENGE_STORE_ACTION_TYPES,
+    UPDATE_CHALLENGE_STORE_ACTION_TYPES
 } from './actionTypes';
 import { selectors } from '../auth';
 import { FETCH_COURSES_URL } from './constants';
@@ -41,8 +41,12 @@ const { SELECT_MODE_REQUEST } = SELECT_MODE_ACTION_TYPES;
 const { SELECT_OPPONENT_REQUEST } = SELECT_OPPONENT_ACTION_TYPES;
 const { SET_ONLINE_USERS_REQUEST } = SET_ONLINE_USERS_ACTION_TYPES;
 const { SET_CHALLENGE_SCORES_REQUEST } = SET_CHALLENGE_SCORES_ACTION_TYPES;
-const { SET_CHALLENGE_REQ_STATUS_REQUEST } = SET_CHALLENGE_REQ_STATUS_ACTION_TYPES;
-const { SET_CHALLENGE_END_STATUS_REQUEST } = SET_CHALLENGE_END_STATUS_ACTION_TYPES;
+const {
+    SET_CHALLENGE_REQ_STATUS_REQUEST,
+} = SET_CHALLENGE_REQ_STATUS_ACTION_TYPES;
+const {
+    SET_CHALLENGE_END_STATUS_REQUEST,
+} = SET_CHALLENGE_END_STATUS_ACTION_TYPES;
 const { SET_CHALLENGE_ROOM_REQUEST } = SET_CHALLENGE_ROOM_ACTION_TYPES;
 const { SET_CURRENT_QUESTION_REQUEST } = SET_CURRENT_QUESTION_ACTION_TYPES;
 const { SET_QUESTIONS_REQUEST } = SET_QUESTIONS_ACTION_TYPES;
@@ -50,46 +54,42 @@ const { RESET_CHALLENGE_STORE_REQUEST } = RESET_CHALLENGE_STORE_ACTION_TYPES;
 const { UPDATE_CHALLENGE_STORE_REQUEST } = UPDATE_CHALLENGE_STORE_ACTION_TYPES;
 const { getUser } = selectors;
 
-function* fetchCourses(){
+function* fetchCourses() {
     try {
         const response = yield axios.get(`${FETCH_COURSES_URL}`);
         const { data } = response.data;
         const { subjects } = data;
         yield put(fetchCoursesFulfilled(subjects));
-    }
-    catch(e){
+    } catch (e) {
         //
         // console.error(e);
         yield put(fetchCoursesRejected());
     }
 }
 
-function* selectCourse(action){
+function* selectCourse(action) {
     try {
         yield put(selectCourseAction(action.payload));
+    } catch (e) {
+        //
     }
-    catch(e){
-    //
-    }
-};
+}
 
 function* selectMode(action) {
     try {
         yield put(selectModeAction(action.payload));
-    } 
-    catch (e) {
+    } catch (e) {
         //
     }
-};
+}
 
 function* selectOpponent(action) {
     try {
         yield put(selectOpponentAction(action.payload));
-    }
-    catch (e) {
+    } catch (e) {
         //
     }
-};
+}
 
 function* setOnlineUsers(action) {
     try {
@@ -97,44 +97,39 @@ function* setOnlineUsers(action) {
         // filter current user from list of online users
         const onlineUsers = action.payload.filter(({ id }) => user._id !== id);
         yield put(setOnlineUsersAction(onlineUsers));
-    }
-    catch (e) {
+    } catch (e) {
         //
     }
-};
+}
 
 function* setChallengeReqStatus(action) {
     try {
         yield put(setChallengeReqStatusAction(action.payload));
-    }
-    catch (e) {
+    } catch (e) {
         //
     }
-};
+}
 
 function* setChallengeEndStatus(action) {
     try {
         yield put(setChallengeEndStatusAction(action.payload));
-    }
-    catch (e) {
+    } catch (e) {
         //
     }
-};
+}
 
 function* setChallengeRoom(action) {
     try {
         yield put(setChallengeRoomAction(action.payload));
-    }
-    catch (e) {
+    } catch (e) {
         //
     }
-};
+}
 
-function* setCurrentQuestion(action){
+function* setCurrentQuestion(action) {
     try {
         yield put(setCurrentQuestionAction(action.payload));
-    }
-    catch(e){
+    } catch (e) {
         //
     }
 }
@@ -142,8 +137,7 @@ function* setCurrentQuestion(action){
 function* setQuestions(action) {
     try {
         yield put(setQuestionsAction(action.payload));
-    }
-    catch (e) {
+    } catch (e) {
         //
     }
 }
@@ -151,8 +145,7 @@ function* setQuestions(action) {
 function* setChallengeScores(action) {
     try {
         yield put(setChallengeScoresAction(action.payload));
-    }
-    catch (e) {
+    } catch (e) {
         //
     }
 }
@@ -160,101 +153,95 @@ function* setChallengeScores(action) {
 function* updateChallengeStore(action) {
     try {
         yield put(updateChallengeStoreAction(action.payload));
-    }
-    catch (e) {
+    } catch (e) {
         //
     }
-};
+}
 
 function* resetChallengeStore() {
     try {
         yield put(resetChallengeStoreAction());
-    }
-    catch (e) {
+    } catch (e) {
         //
     }
-};
+}
 
 // WATCHERS
 
-function* watchFetchCourses(){
+function* watchFetchCourses() {
     try {
         yield takeLatest(FETCH_COURSES_REQUEST, fetchCourses);
-    }
-    catch(e){
+    } catch (e) {
         //
     }
-};
+}
 
-function* watchSelectCourse(){
-    try{
-        
+function* watchSelectCourse() {
+    try {
         yield takeLatest(SELECT_COURSE_REQUEST, selectCourse);
+    } catch (e) {
+        //
     }
-    catch(e){
-    //
-    }
-};
+}
 
 function* watchSelectMode() {
     try {
         yield takeLatest(SELECT_MODE_REQUEST, selectMode);
-    }
-    catch (e) {
+    } catch (e) {
         //
     }
-};
+}
 
 function* watchSelectOpponent() {
     try {
         yield takeLatest(SELECT_OPPONENT_REQUEST, selectOpponent);
-    }
-    catch (e) {
+    } catch (e) {
         //
     }
-};
+}
 
 function* watchSetOnlineUsers() {
     try {
         yield takeLatest(SET_ONLINE_USERS_REQUEST, setOnlineUsers);
-    }
-    catch (e) {
+    } catch (e) {
         //
     }
-};
+}
 
 function* watchSetChallengeReqStatus() {
     try {
-        yield takeLatest(SET_CHALLENGE_REQ_STATUS_REQUEST, setChallengeReqStatus);
-    }
-    catch (e) {
+        yield takeLatest(
+            SET_CHALLENGE_REQ_STATUS_REQUEST,
+            setChallengeReqStatus
+        );
+    } catch (e) {
         //
     }
-};
+}
 
 function* watchSetChallengeEndStatus() {
     try {
-        yield takeLatest(SET_CHALLENGE_END_STATUS_REQUEST, setChallengeEndStatus);
-    }
-    catch (e) {
+        yield takeLatest(
+            SET_CHALLENGE_END_STATUS_REQUEST,
+            setChallengeEndStatus
+        );
+    } catch (e) {
         //
     }
-};
+}
 
 function* watchSetChallengeRoom() {
     try {
         yield takeLatest(SET_CHALLENGE_ROOM_REQUEST, setChallengeRoom);
-    }
-    catch (e) {
+    } catch (e) {
         //
     }
-};
+}
 
-function* watchSetCurrentQuestion(){
+function* watchSetCurrentQuestion() {
     try {
         yield takeLatest(SET_CURRENT_QUESTION_REQUEST, setCurrentQuestion);
-    }
-    catch(e){
+    } catch (e) {
         //
     }
 }
@@ -262,8 +249,7 @@ function* watchSetCurrentQuestion(){
 function* watchSetQuestions() {
     try {
         yield takeLatest(SET_QUESTIONS_REQUEST, setQuestions);
-    }
-    catch (e) {
+    } catch (e) {
         //
     }
 }
@@ -271,17 +257,15 @@ function* watchSetQuestions() {
 function* watchSetChallengeScores() {
     try {
         yield takeLatest(SET_CHALLENGE_SCORES_REQUEST, setChallengeScores);
-    }
-    catch (e) {
+    } catch (e) {
         //
     }
 }
 
-function* watchUpdateChallengeStore(){
+function* watchUpdateChallengeStore() {
     try {
         yield takeLatest(UPDATE_CHALLENGE_STORE_REQUEST, updateChallengeStore);
-    }
-    catch(e){
+    } catch (e) {
         //
     }
 }
@@ -289,13 +273,12 @@ function* watchUpdateChallengeStore(){
 function* watchResetChallengeStore() {
     try {
         yield takeLatest(RESET_CHALLENGE_STORE_REQUEST, resetChallengeStore);
-    }
-    catch (e) {
+    } catch (e) {
         //
     }
 }
 
-export default function* (){
+export default function* () {
     yield all([
         watchFetchCourses(),
         watchSelectCourse(),
@@ -312,4 +295,3 @@ export default function* (){
         watchUpdateChallengeStore(),
     ]);
 }
-
