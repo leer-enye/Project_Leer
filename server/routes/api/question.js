@@ -6,7 +6,7 @@ const router = express.Router();
 module.exports = app => {
     app.use('/api/questions', router);
     router.post('/', Question.create);
-    router.get('/', Question.findAll);
+    router.get('/', Question.findRandom);
     router.get('/:questionId', Question.findOne);
     router.put('/:questionId', Question.update);
     router.delete('/:questionId', Question.delete);
