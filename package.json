@@ -31,7 +31,7 @@
     "moment": "^2.24.0",
     "mongoose": "^5.5.2",
     "morgan": "^1.9.1",
-    "next": "8.0.4",
+    "next": "9.3.3",
     "next-redux-saga": "^4.0.2",
     "next-redux-wrapper": "^3.0.0-alpha.2",
     "node-sass": "^4.11.0",
